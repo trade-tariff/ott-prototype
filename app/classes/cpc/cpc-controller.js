@@ -10,6 +10,7 @@ class CPCController {
         this.request_codes = [];
         this.previous_codes = [];
         this.get_content_path();
+        this.x = 1;
     }
 
     get_content_path() {
