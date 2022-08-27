@@ -1,0 +1,22 @@
+# ignore tracking usage data config - we want a different one for each user
+usage-data-config.json
+# ignore extension SCSS because it's dynamically generated
+lib/extensions/_extensions.scss
+.env
+.sass-cache
+.DS_Store
+.start.pid
+.port.tmp
+public
+node_modules
+node_modules/*
+.tmuxp.*
+package-lock.json
+app/data/roo_psr
+app/data/roo/future
+app/data/roo/future/roo_psr
+sql/
+python/
+app/assets/downloads/roo_reference/psr only/
+.vscode/
+.tmp
