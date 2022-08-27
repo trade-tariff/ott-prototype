@@ -1,0 +1,99 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Product-specific rules - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/roo/insufficient_processing/" + context.goods_nomenclature_item_id + "/" + context.country
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds roo_container commodity-split">
+
+            <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                <input type="hidden" name="phase" id="phase" value="product_specific_rules">
+                <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+                            <h1 class="govuk-fieldset__heading">
+                                    Do your goods meet the product-specific rules?
+                                </h1>
+                        </legend>
+                        {% if context.rules.length > 1 %}
+                            <div class="govuk-hint">
+                                Your goods must meet one of these rules in order to qualify for originating status.
+                                Select an option to indicate if you meet the rule.
+                            </div>
+                        {% else %}
+                            <div class="govuk-hint">
+                                Your goods must meet the product-specific rules in order to qualify for originating status.
+                                Select an option to indicate if you meet the rule.
+                            </div>
+                        {% endif %}
+                        <div class="govuk-radios" data-module="govuk-radios">
+                            {% set index = 0 %}
+                            {% for rule in context.rules %}
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="met">
+                                    <label class="govuk-label govuk-radios__label" for="psr_{{ index }}">{{ rule.rule | convert_markdown | safe }}</label>
+                                    <div class="govuk-hint govuk-radios__hint">
+                                        {# {{ rule.hint | safe }} #}
+                                    </div>
+                                </div>
+                                {% set index = index + 1 %}
+                            {% endfor %}
+                            {% if context.rules.length > 2 %}
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="not met">
+                                    <label class="govuk-label govuk-radios__label" for="psr_{{ index }}">Your goods do not meet any of these rules.</label>
+                                </div>
+                            {% elseif context.rules.length > 1 %}
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="not met">
+                                    <label class="govuk-label govuk-radios__label" for="psr_{{ index }}">Your goods do not meet either of these rules.</label>
+                                </div>
+                            {% else %}
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="not met">
+                                    <label class="govuk-label govuk-radios__label" for="psr_{{ index }}">Your goods do not meet the rules of origin.</label>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </fieldset>
+                </div>
+                {% if context.intro_text != "" %}
+                    <p>Before selecting an option, read the <strong>introductory notes</strong> from the {{ context.scheme_title }}'s 
+                        section on product-specific rules of origin.</p>
+                    <details class="govuk-details" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">Introductory notes to the product-specific rules</span>
+                        </summary>
+                        <div class="govuk-details__text">
+                            {{ context.intro_text | safe }}
+                        </div>
+                    </details>
+                {% endif %}
+                <button class="govuk-button" data-module="govuk-button">Continue</button>
+            </form>
+
+            {% include "./commodity_include.html" %}
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

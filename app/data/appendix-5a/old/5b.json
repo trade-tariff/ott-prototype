@@ -1,0 +1,125 @@
+{
+    "AC": {
+        "description": "Document attached for certification by customs"
+    },
+    "AE": {
+        "description": "Document attached – exhausted by (or only applies to) this entry (document returned to the trader)"
+    },
+    "AF": {
+        "description": "Document attached – exhausted by (or only applies to) this entry (document returned to the relevant Department)"
+    },
+    "AG": {
+        "description": "Document attached – exhausted by (or only applies to) this entry (document retained)"
+    },
+    "AP": {
+        "description": "Document attached – part use (applies to this and other entries) (document returned to the trader)"
+    },
+    "AS": {
+        "description": "Document attached – surrendered (document returned to the trader)"
+    },
+    "AT": {
+        "description": "Document attached – surrendered (document returned to the relevant department)"
+    },
+    "CP": {
+        "description": "Authorisation issued under the Union Custom Code with CCG - Part use (applies to this and other entries)"
+    },
+    "EA": {
+        "description": "Electronic details on Customs Handling of Import and Export Freight (CHIEF) – already attributed on simplified declaration"
+    },
+    "EE": {
+        "description": "Electronic details on CHIEF – exhausted"
+    },
+    "EL": {
+        "description": "Electronic details on CHIEF – ‘Late’ declaration after licence completed"
+    },
+    "EP": {
+        "description": "Electronic details on CHIEF – part use (applies to this and other entries)"
+    },
+    "ES": {
+        "description": "Electronic details on CHIEF – surrendered"
+    },
+    "FP": {
+        "description": "Facsimile attached – part use (applies to this and other entries)"
+    },
+    "GE": {
+        "description": "Document with the goods – exhausted by (or only applies to) this entry"
+    },
+    "GP": {
+        "description": "Document with the goods – part use (applies to this and other entries)"
+    },
+    "HP": {
+        "description": "Facsimile with the goods – part use (applies to this and other entries)"
+    },
+    "IA": {
+        "description": "Details held by issuing authority – already attributed on simplified declaration"
+    },
+    "IE": {
+        "description": "Details held by issuing authority – exhausted by (or only applies to) this entry"
+    },
+    "IP": {
+        "description": "Details held by issuing authority – part use (applies to this and other entries)"
+    },
+    "IS": {
+        "description": "Details held by issuing authority – surrendered"
+    },
+    "JA": {
+        "description": "Document held by authorised trader – already attributed on simplified declaration"
+    },
+    "JE": {
+        "description": "Document held by authorised trader – exhausted by (or only applies to) this entry"
+    },
+    "JP": {
+        "description": "Evidence required is available from trader – part use (applies to this and other entries)"
+    },
+    "JS": {
+        "description": "Document held by authorised trader – surrendered"
+    },
+    "LE": {
+        "description": "Lodged previously – exhausted by (or only applies to) this entry"
+    },
+    "LP": {
+        "description": "Lodged previously – part use (applies to this and other entries)"
+    },
+    "RE": {
+        "description": "To be used when declaration of a REX number is required"
+    },
+    "SP": {
+        "description": "Special authorisation for attached facsimile (paper held by trader) – part use (applies to this and other entries)"
+    },
+    "TP": {
+        "description": "Special authorisation for facsimile with the goods (paper held by trader) – part use (applies to this and other entries)"
+    },
+    "UA": {
+        "description": "Paper (held by trader) unavailable – already attributed on simplified declaration"
+    },
+    "UE": {
+        "description": "Paper (held by trader) unavailable – exhausted by (or only applies to) this entry"
+    },
+    "UP": {
+        "description": "Evidence required is unavailable – part use (applies to this and other entries)"
+    },
+    "US": {
+        "description": "Paper (held by trader) unavailable – surrendered"
+    },
+    "XA": {
+        "description": "Electronic or paper document to be advised"
+    },
+    "XB": {
+        "description": "Document not required – quantity below ‘de minimus’"
+    },
+    "XF": {
+        "description": "Document not required – goods not going into free circulation"
+    },
+    "XO": {
+        "description": "To be used when declaration of a REX number isn’t required"
+    },
+    "XU": {
+        "description": "Unknown, specific document can’t be identified – security and/or undertaking may be required as detailed for the document or CPC"
+    },
+    "XW": {
+        "description": "Waiver claimed"
+    },
+    "XX": {
+        "description": "Ex-heading goods for which the document doesn’t apply"
+    }
+}

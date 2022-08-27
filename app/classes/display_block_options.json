@@ -1,0 +1,82 @@
+{
+    "tariffs_charges": {
+        "export": false,
+        "index": 2,
+        "block": "Customs duties",
+        "block_xi": "Customs duties",
+        "explainers": {
+            "title": "What are the main types of tariffs and charges",
+            "image": "calculator.png",
+            "prose": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/uk/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p>",
+            "prose_ni": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/xi/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p>"
+        }
+    },
+    "quotas": {
+        "export": false,
+        "index": 3,
+        "block": "Quotas",
+        "block_xi": "Quotas",
+        "explainers": {
+            "title": "More information about quotas",
+            "prose": "Quotas allow a limited amount of goods to be imported at a lower duty rate. Once the quota has been used up, you will revert to the out-of-quota rate, which may be the third-country duty or a preferential rate.<br><br>Quotas can be non-preferential (open to many countries) or preferential (restricted to a particular trading partner).",
+            "prose_ni": ""
+        }
+    },
+    "remedies": {
+        "export": false,
+        "index": 4,
+        "block": "Trade remedies, safeguards and retaliatory duties",
+        "block_xi": "Trade remedies, safeguards and retaliatory duties",
+        "explainers": {
+            "title": "More information about trade remedies and safeguards",
+            "prose": "World Trade Organization rules prevent artificially cheap imports from damaging markets. This guide explains <a href='https://www.gov.uk/guidance/anti-dumping-duty-to-protect-eu-businesses-against-cheap-imports' target='_blank'>how anti-dumping duties and 'countervailing' (or anti-subsidy) measures work</a>.",
+            "prose_ni": "World Trade Organization rules prevent artificially cheap imports from damaging markets. This guide explains <a href='https://www.gov.uk/guidance/anti-dumping-duty-to-protect-eu-businesses-against-cheap-imports' target='_blank'>how anti-dumping duties and 'countervailing' (or anti-subsidy) measures work</a>."
+        }
+    },
+    "vat_excise": {
+        "export": false,
+        "index": 5,
+        "block": "Import <abbr title='Value-added tax'>VAT</abbr> and excise",
+        "block_xi": "Import VAT and excise",
+        "explainers": {
+            "ximage": "tax.png",
+            "xprose": "<p>{{ vat_text }}</p><p>{{ excise_text }}</p>",
+            "xprose_ni": "<p>{{ vat_text }}</p><p>{{ excise_text }}</p>",
+            "prose": "<ul class='govuk-list govuk-list--bullet'><li>{{ vat_text }}</li><li>{{ excise_text }}</li></ul>",
+            "prose_ni": "<p>{{ vat_text }}</p><p>{{ excise_text }}</p>"
+        }
+    },
+    "other": {
+        "export": false,
+        "index": 10,
+        "block": "Import controls",
+        "block_xi": "EU import controls",
+        "explainers": {
+            "ximage": "guidance.png",
+            "prose": "<!--<p>Import controls can be either prohibitions, where goods cannot be imported under any circumstances, or restrictions, where goods can be imported only under certain circumstances.</p>//-->{conditional_country}<p class='xgovuk-!-margin-top-4'><b>Check how to import or export goods</b></p><p>Now you have identified your commodity code, you can <a target='_blank' href='https://check-how-to-import-export-goods.service.gov.uk/manage-this-trade/check-licences-certificates-and-other-restrictions?commodity={commodity}&originCountry={country}&goodsIntent=bringGoodsToSell&userTypeTrader=true&tradeType=import&destinationCountry=GB&importDeclarations=yes&importOrigin=&importDateDay=01&importDateMonth=01&importDateYear=2022'>check how to import commodity {commodity} from {country_name}<!-- (opens in new tab)//--></a>.</p><!--<p>You will be taken to a different government service. The link opens in a new tab.</p>//-->{/conditional_country}",
+            "prose_ni": "Check <a target='_blank' href='https://www.gov.uk/guidance/trading-and-moving-goods-in-and-out-of-northern-ireland'>how to move goods into and out of Northern Ireland</a>."
+        }
+    },
+    "other_uk": {
+        "export": false,
+        "index": 11,
+        "block": "UK import controls",
+        "block_xi": "UK import controls",
+        "explainers": {
+            "prose": "Explicitly UK - Import controls can be either prohibitions, where goods cannot be imported under any circumstances, or restrictions, where goods can be imported only under certain circumstances. <!--Find out more about <a href='https://www.gov.uk/government/publications/uk-trade-tariff-import-prohibitions-and-restrictions/uk-trade-tariff-import-prohibitions-and-restrictions'>UK import prohibitions and restrictions</a>.//-->",
+            "prose_ni": "If you are bringing goods into Northern Ireland from outside of the UK and the European Union, you will need to ensure that you adhere to UK import controls."
+        }
+    },
+    "export": {
+        "export": true,
+        "index": 11,
+        "block": "Export controls",
+        "block_xi": "Export controls",
+        "explainers": {
+            "xprose": "You will need to abide by the measures listed below to get your goods out of the UK - does not really work for supplementary units",
+            "xprose_ni": "Export chat - NI",
+            "prose": "",
+            "prose_ni": ""
+        }
+    }
+}

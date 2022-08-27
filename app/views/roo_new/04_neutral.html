@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Neutral elements - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/roo/wholly_obtained_info/" + context.goods_nomenclature_item_id + "/" + context.country
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+            {# <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span> #}
+            <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+            <h1 class="govuk-heading-xl">What components do you need to take into account?</h1>
+            <p class="govuk-body-l">In determining whether a product originates in a given country, you should disregard the origin of
+                neutral elements, meaning equipment and materials used in the production, but not
+                physically incorporated into the final product, such as fuel, tools or machinery.
+            </p>
+
+            <div class="govuk-inset-text">
+                <p class="govuk-body">Depending on the rules of the trade agreement, you may also discount:</p>
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>
+                        <strong>packing materials and containers</strong> for shipment used during transportation,</li>
+                    <li>
+                        <strong>packaging materials used for retail sale</strong> when classified with the product</li>
+                    <li>
+                        <strong>accessories, spare parts, tools and information materials</strong> if they are invoiced and delivered with your product.</li>
+                </ul>
+            </div>
+
+            <div class="roo_container">
+                <h3 class="govuk-heading-s">Neutral elements in the {{ context.scheme_title }}</h3>
+
+                {% if context.neutral_elements %}
+                    <div class="agreement_content">{{ context.neutral_elements | convert_markdown | safe }}</div>
+
+                    <details class="govuk-details" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">Example of neutral elements</span>
+                        </summary>
+                        <div class="govuk-details__text roo_container">
+                            <ul class="govuk-list govuk-list--bullet">
+                                <li>A part is manufactured in a plant in country A.</li>
+                                <li>It is to be exported to country B under A-B FTA.</li>
+                                <li>The rule of origin for this part requires non-originating materials not to exceed 40% of the final value of the part.</li>
+                                <li>Machines used to manufacture the part, spare parts used in the maintenance of these machines and the fuel used to run these machines are all originating in a non-FTA third country C. </li>
+                                <li>Similarly, the safety equipment and protective clothing used by the factory workers comes from non-FTA countries.</li>
+                                <li>While calculating the value added rule of origin, the non-originating machines, spare parts used to maintain them, fuel, safety equipment and protective clothing are disregarded or calculated as originating (depending on the agreement).</li>
+                            </ol>
+                        </div>
+                    </details>
+                {% endif %}
+
+                {% if context.packaging %}
+                    <h3 class="govuk-heading-s">Packing materials in the {{ context.scheme_title }}</h3>
+                    <div class="agreement_content">{{ context.packaging | convert_markdown | safe }}</div>
+                    {% if "paragraph 5" in context.packaging %}
+                        {% include "includes/accessories_para5.html" %}
+                    {% endif %}
+                {% endif %}
+
+                {% if context.accessories %}
+                    <h3 class="govuk-heading-s">Accessories, spare parts and tools in the {{ context.scheme_title }}</h3>
+                    <div class="agreement_content">{{ context.accessories | convert_markdown | safe }}</div>
+                {% endif %}
+            </div>
+
+            <p class="b">Next step</p>
+            <p>Click on the 'Continue' button to indicate if your goods are wholly obtained, based on the rules of the {{ context.scheme_title }}.</p>
+            {{ govukButton({
+                text: "Continue",
+                href: "/roo/wholly_obtained/" + context.goods_nomenclature_item_id + "/" + context.country,
+                xhref: "/roo/cumulation/" + context.goods_nomenclature_item_id + "/" + context.country
+            }) }}
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,23 @@
+<!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" /><!--<![endif]-->
+
+{% for stylesheetUrl in extensionConfig.stylesheets %}
+  <link href="{{ stylesheetUrl }}" rel="stylesheet" type="text/css" />
+{% endfor %}
+<script src="/public/javascripts/jquery-1.11.3.js"></script>
+<script src="/public/javascripts/location-autocomplete.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/public/javascripts/toggle.js"></script>
+{# <script src="/public/javascripts/deque-patterns.min.js"></script> #}
+<script src="/public/javascripts/headings.js"></script>
+<script src="/public/javascripts/global_search.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+{# <script src="/public/javascripts/examples.js"></script> #}
+<script src="/public/javascripts/datepicker-day.js"></script>
+<script src="/public/javascripts/datepicker.js"></script>
+<script src="/public/javascripts/calendar-button.js"></script>
+
+<!-- JQuery modal //-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>

@@ -1,0 +1,47 @@
+[
+    {
+        "code": "01",
+        "description": "Declaration for release for Free Circulation; Special procedure; Specific use; and End-use",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "07",
+        "description": "Series Procedure Codes: excise warehouse",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "40",
+        "description": "Series Procedure Codes: release to free circulation",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "42",
+        "description": "Series Procedure Codes: onward supply relief (OSR)",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "44",
+        "description": "Series Procedure Codes: end use",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "51",
+        "description": "Series Procedure Codes: inward processing (IP)",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "53",
+        "description": "Series Procedure Codes: temporary admission (TA)",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "61",
+        "description": "Series: Re-importation of goods",
+        "hint": "Dolor sit"
+    },
+    {
+        "code": "71",
+        "description": "Series: Customs Warehousing (CW)",
+        "hint": "Dolor sit"
+    }
+]

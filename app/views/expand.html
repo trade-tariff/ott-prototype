@@ -1,0 +1,186 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: A-Z of Classified Goods
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "A to Z",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <style type="text/css">
+        div.topic {
+            display: none;
+            margin-bottom: 1em;
+            padding: 0.25em;
+            border: black thin solid;
+            background-color: #EEEEFF;
+            width: 40em;
+        }
+    </style>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <details class="deque-expander">
+                <summary class="deque-expander-summary">
+                    <span class="toggle-indicator"></span>
+                    Horses
+                </summary>
+
+                <div class="deque-expander-content">
+                    <a href="#">
+                        <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals</div>
+                        </div>
+                    </a>
+
+                    <details class="deque-expander">
+
+                        <summary class="deque-expander-summary">
+                            <span class="toggle-indicator"></span>
+                            Other
+                        </summary>
+
+                        <div class="deque-expander-content">
+                            <a href="#">
+                                <div class="endline">
+                                    <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                                    <div class="heading-supplementary-unit">p/st</div>
+                                    <div class="heading-third-country-duty">0.00%</div>
+                                    <div class="heading-vat">20%</div>
+                                    <div class="heading-description">For slaughter</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="endline">
+                                    <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                                    <div class="heading-supplementary-unit">p/st</div>
+                                    <div class="heading-third-country-duty">0.00%</div>
+                                    <div class="heading-vat">20%</div>
+                                    <div class="heading-description">Other</div>
+                                </div>
+                            </a>
+                        </div>
+                    </details>
+
+                </div>
+            </details>
+            <details class="deque-expander">
+                <summary class="deque-expander-summary">
+                    <span class="toggle-indicator"></span>
+                    Asses
+                </summary>
+
+                <div class="deque-expander-content">
+                    <a href="#">
+                        <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                    </a>
+
+                    <details class="deque-expander">
+
+                        <summary class="deque-expander-summary">
+                            <span class="toggle-indicator"></span>
+                            I Have a Dream (excerpt), by Dr. Martin Luther King
+                        </summary>
+
+                        <div class="deque-expander-content">
+                            <a href="#">
+                                <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                            </a>
+                            <p>And so even though we face the difficulties of today and tomorrow, 
+                            I still have a dream. It is a dream deeply rooted in the American dream.</p>
+                        </div>
+                    </details>
+
+                </div>
+            </details>
+            <details class="deque-expander">
+                <summary class="deque-expander-summary">
+                    <span class="toggle-indicator"></span>
+                    Other
+                </summary>
+
+                <div class="deque-expander-content">
+                    <a href="#">
+                        <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                    </a>
+
+                    <details class="deque-expander">
+
+                        <summary class="deque-expander-summary">
+                            <span class="toggle-indicator"></span>
+                            I Have a Dream (excerpt), by Dr. Martin Luther King
+                        </summary>
+
+                        <div class="deque-expander-content">
+                            <a href="#">
+                                <div class="endline">
+                            <div class="heading-commodity-code commodity-split">{{ "0702000007" | format_and_trim_commodity_code | safe }}</div>
+                            <div class="heading-supplementary-unit">p/st</div>
+                            <div class="heading-third-country-duty">0.00%</div>
+                            <div class="heading-vat">20%</div>
+                            <div class="heading-description">Pure-bred breeding animals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ex ac nulla accumsan elementum a ut turpis. Sed elementum mi sed dolor pharetra rhoncus. Nam at malesuada dolor. Curabitur tempor tellus vel ex fermentum, in sodales sem posuere.</div>
+                        </div>
+                            </a>
+                            <p>And so even though we face the difficulties of today and tomorrow, 
+                            I still have a dream. It is a dream deeply rooted in the American dream.</p>
+                        </div>
+                    </details>
+
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

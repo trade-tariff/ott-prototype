@@ -1,0 +1,108 @@
+{% if context.resource_type == "heading" %}
+  {% set entity = "Heading " %}
+  {% set content = "data " %}
+  {% set instance = commodity | substring(0, 4) %}
+{% else %}
+  {% set entity = "Commodity " %}
+  {% set content = "measures " %}
+  {% set instance = commodity | format_commodity_code2 %}
+{% endif %}
+{% set title = "Commodity " + commodity %}
+
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      html: entity + instance,
+      href: ""
+    }
+  ],
+  classes: [
+    "commodity-split"
+  ]
+}) }}
+{% endblock %}
+{% block pageTitle %}
+  {{ title }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <h1 class="govuk-heading-l commodity-split">
+        {{ entity }}
+        {{ instance | safe }}
+      </h1>
+
+      {% if context.no_results %}
+
+        <p>The {{ entity | lower }} that you searched for can't be found. Try searching again.</p>
+
+        {% if context.resource_type == "heading" %}
+          <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>{% if context.simulation_date != "" %}
+              for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+            {% endif %}.
+          {% else %}
+          <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
+            or <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+            {% if context.simulation_date != "" %}
+              for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+            {% endif %}.
+          {% endif %}
+
+      {% else %}
+
+          <p>The {{ entity | lower }} that you entered could not be found for the date selected.
+          The {{ entity | lower }} is present between the dates shown below.</p>
+
+          <p>Click on a date to see the {{ content }} present on that date.</p>
+
+          <ol class="govuk-list govuk-list--number">
+            {% for c in commodity_history %}
+              <li>
+                {% if context.resource_type == "heading" %}
+                  <span class="govuk-visually-hidden">Period</span>
+              From <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
+                  {% if c.validity_end_date_display != "" %}
+                to <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
+                  {% endif %}
+                {% else %}
+                  <span class="govuk-visually-hidden">Period</span>
+              From <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
+                  {% if c.validity_end_date_display != "" %}
+                to <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
+                  {% endif %}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ol>
+
+          {% if context.resource_type == "heading" %}
+            <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+              {% if context.simulation_date != "" %}
+        for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+              {% endif %}.</p>
+
+          {% else %}
+
+            <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
+        or <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+              {% if context.simulation_date != "" %}
+        for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+              {% endif %}.</p>
+
+          {% endif %}
+        {% endif %}
+
+      </div>
+      <div class="govuk-grid-column-full"></div>
+    </div>
+
+  {% endblock %}

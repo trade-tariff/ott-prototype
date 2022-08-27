@@ -1,0 +1,6 @@
+### Ex-works price (EXW)
+"EXW" or "ex-works price" means:
+
+(i) the price of the product paid or payable to the producer in whose undertaking the last working or processing is carried out, provided that the price includes the value of all the materials used and all other costs incurred in the production of the product, minus any internal taxes which are, or may be, repaid when the product obtained is exported; _or_
+
+(ii) if there is no price paid or payable or if the actual price paid does not reflect all costs related to the production of the product which are actually incurred in the production of the product, the value of all the materials used and all other costs incurred in the production of the product in the exporting Party: (A) including selling, general and administrative expenses, as well as profit, that can reasonably be allocated to the product; and (B) excluding the cost of freight, insurance, all other costs incurred in transporting the product and any internal taxes of the exporting Party which are, or may be, repaid when the product obtained is exported. (iii) For the purposes of point (i), where the last production has been contracted to a producer, the term ‘producer’ in point (i) refers to the person who has employed the subcontractor (see page 417)

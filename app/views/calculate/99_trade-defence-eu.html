@@ -1,0 +1,156 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Import duty calculation</h1>
+
+      <p class="govuk-body-s teal">
+        <strong>Scenario</strong><br>There is a trade defence measure on the commodity code for the EU, but no trad defence measure for the UK.</p>
+      <p class="govuk-body-s teal">
+        <strong>Notes</strong><br>
+        Where there are trade defence measures, we should show the ones that are globally available (like 7306304120 for Belarus and China)
+        but we do not show the ones that depend on addtional codes.<br><br>Where there are those that depend on the additional codes, we
+        show a message only for MVP - maybe later we bring in a function to check the additional code.
+        </p>
+
+      <p>You are importing commodity <a href="/commodities/{{ commodity.goods_nomenclature_item_id }}">
+          <strong>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}</a>
+        </strong> from <strong>Mulvania</strong> on <strong>03 Jun 2021</strong>.</p>
+
+      <details class="govuk-details import_summary" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Details of your trade</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl>
+            <dt>Origin:</dt>
+            <dd>{{ commodity.country_name }}&nbsp;</dd>
+
+            <dt>Commodity:</dt>
+            <dd>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}<br>
+              {{ commodity.description | safe }}</dd>
+
+            <dt>Import date:</dt>
+            <dd>1 Jan 2021&nbsp;</dd>
+
+            <dt>Valuation for import:</dt>
+            <dd>£2,000.00&nbsp;</dd>
+          </dl>
+        </div>
+      </details>
+
+      <!-- Start navigation //-->
+      <nav>
+        <p class="govuk-body govuk-!-margin-bottom-3">See below for the options for paying duties on this import:</p>
+
+        <ul class="app-contents govuk-!-margin-bottom-9">
+
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_103">Option 1: Third-country duty</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End navigation //-->
+
+      <h2 id="measure_type_103" class="govuk-heading-m">Option 1: Third-country duty</h2>
+      <p class="govuk-body-s teal">In this case, there is a Trade Remedy that has been applied to the whole
+      country and not just to individual companies within that country. If there are company-specific</p>
+      {{ govukWarningText({
+        html: "Your trade may be treated as 'not at risk' of being subsequently moved into the European Union.",
+        iconFallbackText: "Warning"
+      }) }}
+      {# <p class="govuk-body">Enter the value '<strong>100</strong>' in Box 36 of your import declaration to use the basic third-country duty.</p> #}
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Third-country duty (EU)"
+            },
+            {
+              text: "10% * £1,500.00"
+            },
+            {
+              text: "£150.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Definitive anti-dumping duty (EU)</span>"
+            },
+            {
+              text: "38.1% * £1,500.00"
+            },
+            {
+              text: "£571.50",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£721.50",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+      <p class="govuk-body">To use the third-country duty, do the following ... or read this information.</p>
+
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

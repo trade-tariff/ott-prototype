@@ -1,0 +1,256 @@
+{% extends "layout.html" %}
+
+{% block beforeContent %}
+    <script>
+        document.write('<a href="javascript:history.back();" class="govuk-back-link">Back</a>');
+    </script>
+    <noscript>
+        <a href="{{ referer }}" class="govuk-back-link">Back</a>
+    </noscript>
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">{{ context.title }}</span>
+            <h1 class="govuk-heading-l">Quota order number {{ context.quota_order_number_id }}</h1>
+        </div>
+        <div class="govuk-grid-column-three-quarters">
+            <div id="quota_{{ measure.order_number_id }}">
+                <h2 class="govuk-heading govuk-heading-m govuk-!-margin-top-4">Quota balance {{ measure.order_number_id }}</h1>
+                <table class="govuk-table xgovuk-table--m">
+                    <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Origin</th>
+                            <td class="govuk-table__cell">1011 (ERGA OMNES)
+                                <span class="exclusions">
+                                    excluding: Austria (AT) Belgium (BE) Bulgaria (BG) Croatia (HR) Cyprus (CY) Czechia (CZ) Denmark (DK) Estonia (EE) European Union (EU) Finland (FI) France (FR) Germany (DE) Greece (GR) Hungary (HU) Ireland (IE) Italy (IT) Latvia (LV) Lithuania (LT) Luxembourg (LU) Malta (MT) Netherlands (NL) Poland (PL) Portugal (PT) Romania (RO) Slovakia (SK) Slovenia (SI) Spain (ES) Sweden (SE)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header" style="width:33% !important">Balance on 20 Apr 22</th>
+                            <td class="govuk-table__cell">
+                                18,317,400.293 Kilogram (kg)
+                                {# &nbsp;&nbsp;&nbsp; #}
+                                <br>
+                                <a href="">View balance for 10 May 2022</a>
+                            </td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Pending balance</th>
+                            <td class="govuk-table__cell">117,422,140.229 Kilogram (kg)<br><br>
+                            This balance remains available from the previous quota period and will be transferred to the current quota period c. 20 working days after the previous ends.
+                            </td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Opening balance</th>
+                            <td class="govuk-table__cell">20,078,000.000 Kilogram (kg)</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Quota status</th>
+                            <td class="govuk-table__cell">Open</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Start and end dates</th>
+                            <td class="govuk-table__cell">1 Apr 2021 to 30 Jun 2021</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Last allocation date</th>
+                            <td class="govuk-table__cell">1 May 2021</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Suspension / blocking periods</th>
+                            <td class="govuk-table__cell">n/a</td>
+                        </tr>
+                        <!--<tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Suspension period</th>
+                <td class="govuk-table__cell">n/a</th>
+            </tr>
+            <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Blocking period</th>
+                <td class="govuk-table__cell">n/a</th>
+            </tr>//-->
+                    </tbody>
+                </table>
+
+                <p>In an effort to facilitate UK importers, HMRC endeavours to keep quotas 'OPEN' where possible, therefore the
+                    information displayed above may differ slightly from the current UK position.
+                    <br><br>
+                    If you require further information contact the Tariff Quota Management Team by email:
+                    <a href="mailto:tariff.management@hmrc.gov.uk">tariff.management@hmrc.gov.uk</a>.
+                </p>
+
+                <h2 class="govuk-heading govuk-heading-m govuk-!-margin-top-4">Origins for quota {{ context.quota_order_number_id }}</h1>
+                <table class="govuk-table xgovuk-table--m">
+                    <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Origin</th>
+                            <td class="govuk-table__cell">All countries (1011)</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Exclusions</th>
+                            <td class="govuk-table__cell">
+                                    Austria (AT) Belgium (BE) Bulgaria (BG) Croatia (HR) Cyprus (CY) Czechia (CZ) Denmark (DK) Estonia (EE) European Union (EU) Finland (FI) France (FR) Germany (DE) Greece (GR) Hungary (HU) Ireland (IE) Italy (IT) Latvia (LV) Lithuania (LT) Luxembourg (LU) Malta (MT) Netherlands (NL) Poland (PL) Portugal (PT) Romania (RO) Slovakia (SK) Slovenia (SI) Spain (ES) Sweden (SE)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 class="govuk-heading govuk-heading-m govuk-!-margin-top-4">Commodities included in quota {{ context.quota_order_number_id }}</h1>
+                <table class="govuk-table govuk-table-s">
+                    {# <caption class="govuk-table__caption govuk-table__caption--m">Dates and amounts</caption> #}
+                    <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Commodity code</th>
+                            <th scope="col" class="govuk-table__header">Description</th>
+                            <th scope="col" class="govuk-table__header r">In-quota duty rate</th>
+                        </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="">7228302000</a>
+                            </td>
+                            <td class="govuk-table__cell">Other bars and rods, not further worked than hot-rolled, hot-drawn or extruded — <strong>Of tool steel</strong>
+                            </td>
+                            <td class="govuk-table__cell r">0.00%</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="">7228304100</a>
+                            </td>
+                            <td class="govuk-table__cell">Other bars and rods, not further worked than hot-rolled, hot-drawn or extruded — <strong>Of circular cross-section of a diameter of 80 mm or more</strong>
+                            </td>
+                            <td class="govuk-table__cell r">0.00%</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="">7228306100</a>
+                            </td>
+                            <td class="govuk-table__cell">Other bars and rods, not further worked than hot-rolled, hot-drawn or extruded — Other — Of circular cross-section, of a diameter of — <strong>80 mm or more</strong>
+                            </td>
+                            <td class="govuk-table__cell r">0.00%</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="">7228306900</a>
+                            </td>
+                            <td class="govuk-table__cell">Other bars and rods, not further worked than hot-rolled, hot-drawn or extruded — Other — Of circular cross-section, of a diameter of — <strong>Less than 80 mm</strong>
+                            </td>
+                            <td class="govuk-table__cell r">0.00%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                {# <details class="govuk-details" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">View recent quota balance updates</span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        <table class="govuk-table govuk-table-s">
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header">Date updated</th>
+                                    <th scope="col" class="govuk-table__header">Old balance</th>
+                                    <th scope="col" class="govuk-table__header">New balance</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">1 March 2022</td>
+                                    <td class="govuk-table__cell">1,200,300 kg</td>
+                                    <td class="govuk-table__cell">1,100,100 kg</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">28 February 2022</td>
+                                    <td class="govuk-table__cell">1,100,100 kg</td>
+                                    <td class="govuk-table__cell">1,000,100 kg</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">27 February 2022</td>
+                                    <td class="govuk-table__cell">1,100,100 kg</td>
+                                    <td class="govuk-table__cell">1,000,100 kg</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">26 February 2022</td>
+                                    <td class="govuk-table__cell">1,100,100 kg</td>
+                                    <td class="govuk-table__cell">1,000,100 kg</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">25 February 2022</td>
+                                    <td class="govuk-table__cell">1,100,100 kg</td>
+                                    <td class="govuk-table__cell">1,000,100 kg</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </details> #}
+
+            </div>
+        </div>
+        <div class="govuk-grid-column-one-quarter">
+            <div class="gem-c-contextual-sidebar">
+
+                <div class="gem-c-related-navigation">
+
+                    <h2 id="related-nav-related_items-e81f23c1" class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">
+                        Navigation
+                    </h2>
+
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-e81f23c1" data-module="gem-toggle">
+
+                        <ul class="gem-c-related-navigation__link-list">
+                            <li class="gem-c-related-navigation__link">
+                                <a href="">Commodity 7228302000</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a href="">Search for a quota</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a href="">Bookmark this page</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="gem-c-related-navigation">
+
+                    <h2 id="related-nav-related_items-e81f23c1" class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">
+                        Quota data
+                    </h2>
+
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-e81f23c1" data-module="gem-toggle">
+
+                        <ul class="gem-c-related-navigation__link-list">
+                            <li class="gem-c-related-navigation__link">
+                                <a href="https://api.trade-tariff.service.gov.uk/reference.html#get-quotas-search">Quota 058039 - API</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a href="https://api.trade-tariff.service.gov.uk/reference.html#get-quotas-search">Guidance - Quotas API</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="gem-c-related-navigation">
+
+                    <h2 id="related-nav-related_items-e81f23c1" class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">
+                        Related content
+                    </h2>
+
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-e81f23c1" data-module="gem-toggle">
+                        <ul class="gem-c-related-navigation__link-list">
+                            <li class="gem-c-related-navigation__link">
+                                <a href="https://www.gov.uk/guidance/claiming-tariff-quotas-to-reduce-import-duties">Claiming tariff quotas to reduce import duties</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</html>

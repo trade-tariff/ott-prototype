@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Cumulation - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/roo/not_wholly_obtained/" + context.goods_nomenclature_item_id + "/" + context.country
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds roo_container">
+            <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                <input type="hidden" name="phase" id="phase" value="processing" >
+                <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+                <h1 class="govuk-heading-xl">Including parts or components from other countries</h1>
+
+                <p class="govuk-body-l">
+                    In order to qualify for preferential treatment, you 
+                    may be able to include parts that come from other countries. This depends on the 
+                    <strong>cumulation rules</strong> of the trade agreement, which are described below.
+                </p>
+
+                {# <p>{{ context.scheme_code }}</p> #}
+
+                <div>
+                    <p>
+                        <strong>Cumulation</strong> may allow for the origin of materials or processing undertaken in country A
+                        to be added to the materials and processing undertaken within country B, so long as they are further
+                        processed or added to products originating in country B.
+                    </p>
+                    <p>This allows those factors that contributed to the origin of country A materials
+                        to be considered as though undertaken in B.
+                    </p>
+                </div>
+                <div class="govuk-inset-text">
+                    Please read the full agreement text as there may be conditions in place that affect
+                    whether cumulation of origin is permitted.
+                </div>
+
+                <!-- Start Menu //-->
+                <h2 class="govuk-heading-xs">Contents</h2>
+                <nav class="govuk-!-margin-bottom-9">
+                    <ul class="app-contents app-contents--s xgovuk-!-margin-bottom-0">
+                        <li class="govuk-!-margin-bottom-2">
+                            <a class="govuk-body" href="#methods">Methods of cumulation</a>
+                        </li>
+                        <li class="govuk-!-margin-bottom-2">
+                            <a class="govuk-body" href="#map">Cumulation map</a>
+                        </li>
+                        <li class="govuk-!-margin-bottom-2">
+                            <a class="govuk-body" href="#agreement_text">Full agreement text</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End menu //->
+                
+                <!-- START METHODS OF CUMULATION //-->
+                <h2 class="govuk-heading-m" id="methods">Methods of cumulation in the {{ context.scheme_title }}</h2>
+                {% if context.cumulation_method_count > 0 %}
+                    <p>The {{ context.scheme_title }} features {{ context.cumulation_method_count }}
+                        {{ "method" if context.cumulation_method_count == 1 else "methods" }}
+                            of cumulation:
+                    </p>
+                    {% for cumulation_method, cumulation_method_data in context.cumulation_methods %}
+                        <h4 class="govuk-heading-s">{{ cumulation_method | capitalise }} cumulation</h4>
+
+                        <div class="cumulation_description">
+                            {{ cumulation_method_data.description_text | convert_markdown | safe }}
+                        </div>
+
+                        <div class="govuk-inset-text">
+                            <p>The {{ context.scheme_title }} allows for 
+                            {{ cumulation_method }} cumulation with {{ cumulation_method_data.country_name_list }}.</p>
+                        </div>
+
+                        <div class="cumulation_description">
+                            <details class="govuk-details" data-module="govuk-details">
+                                <summary class="govuk-details__summary">
+                                    <span class="govuk-details__summary-text">
+                                        {{ cumulation_method | capitalise }} cumulation - an example
+                                    </span>
+                                </summary>
+                                <div class="govuk-details__text">
+                                    {{ cumulation_method_data.example_text | convert_markdown | safe }}
+                                </div>
+                            </details>
+                        </div>
+                    {% endfor %}
+
+                {% endif %}
+                <!-- END METHODS OF CUMULATION //-->
+
+                <!-- START MAP //-->
+                <h3 class="govuk-heading-m" id="map">Map showing countries where cumulation may apply to the {{ context.scheme_title }}</h3>
+                <p>Check the details of the agreement text to ensure you fully understand the cumulation rules.</p>
+                <p><img class="roo_map" src="/public/images/roo/countries/{{ context.scheme_code }}.png" alt="Map showing countries where cumulation may apply to the {{ context.scheme_title }}"><br>
+                    <a href="/public/images/roo/countries/{{ context.scheme_code }}.png" target="_blank">View cumulation map in new browser window</a>
+                </p>
+                <!-- END MAP //-->
+
+                <!-- START AGREEMENT TEXT //-->
+                <h2 class="govuk-heading-s" id="agreement_text">Agreement text</h2>
+                {{ context.cumulation | convert_markdown | safe }}
+                <!-- END AGREEMENT TEXT //-->
+
+                <div class="govuk-warning-text">
+                    <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                    <strong class="govuk-warning-text__text">
+                        <span class="govuk-warning-text__assistive">Please note</span>
+                        Bear cumulation rules in mind when working out if your non-originating parts
+                        meet the product-specific rules.
+                    </strong>
+                </div>
+
+                <p class="b">Next step</p>
+                <p>
+                    Click on the 'Continue' button to view the definition of '<strong>minimal operations</strong>' in the {{ context.scheme_title }}.
+                    Any non-originating parts must be <strong>sufficiently processed</strong> to count as originating.
+                </p>
+
+                {{ govukButton({
+                    text: "Continue",
+                    href: "/roo/insufficient_processing/" + context.goods_nomenclature_item_id + "/" + context.country
+                }) }}
+
+            </form>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

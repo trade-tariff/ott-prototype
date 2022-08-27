@@ -1,0 +1,32 @@
+<p class="xgovuk-!-margin-top-6">{{ context.get_content("browse.intro") | safe }}</p>
+{# {% include "../components/date_form_component.html" %} #}
+<table class="govuk-table">
+    <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">{{ context.get_content("browse.section") | safe }}</th>
+            <th scope="col" class="govuk-table__header">{{ context.get_content("browse.section_title") | safe }}</th>
+            <th scope="col" class="govuk-table__header">{{ context.get_content("browse.chapters") | safe }}</th>
+        </tr>
+    </thead>
+    <tbody class="govuk-table__body">
+        {% for section in sections.data %}
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell roman">
+                    {{ section.id | roman }}
+                </td>
+                <td class="govuk-table__cell">
+                    <a href="/{{ context.scope_id | fwdslash }}sections/{{ section.id }}">
+                        {{ section.attributes.title }}
+                    </a>
+                </td>
+                <td class="govuk-table__cell">
+                    {% if (section.attributes.chapter_from != section.attributes.chapter_to) %}
+                        {{ section.attributes.chapter_from|int }} to {{ section.attributes.chapter_to|int }}
+                    {% else %}
+                        {{ section.attributes.chapter_from }}
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

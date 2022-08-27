@@ -1,0 +1,831 @@
+/* Start BZ stuff */
+table.small-table {
+    margin: 0 0 30px
+}
+
+table.small-table caption {
+    text-align: left
+}
+
+table.small-table td {
+    vertical-align: top
+}
+
+table.small-table td p {
+    margin-top   : 0;
+    margin-bottom: 0
+}
+
+table.small-table td {
+    border-bottom: 0
+}
+
+table.small-table tr {
+    background-color: #fff
+}
+
+// table.small-table tr:nth-child(2n) {
+//     background-color: #f8f8f8
+// }
+
+table.small-table p {
+    font-family            : GDS Transport, Arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size              : 12px;
+    font-size              : .75rem;
+    line-height            : 1.25
+}
+
+@media print {
+    table.small-table p {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    table.small-table p {
+        font-size  : 14px;
+        font-size  : .875rem;
+        line-height: 1.42857
+    }
+}
+
+@media print {
+    table.small-table p {
+        font-size  : 12pt;
+        line-height: 1.2
+    }
+}
+
+table.small-table td,
+table.small-table th {
+    font-size : 12px;
+    padding   : .63158em .526315em .47368em;
+    text-align: left
+}
+
+@media (min-width:840px) {
+
+    table.small-table td,
+    table.small-table th {
+        font-size: 14px
+    }
+}
+
+table.small-table th {
+    background-color: #e1e8e8;
+    border          : 0;
+    font-weight     : 400
+}
+
+@media (min-width:840px) {
+
+    table.small-table tr:focus,
+    table.small-table tr:hover {
+        background-color: #dee0e2
+    }
+}
+
+table.small-table td {
+    min-height: 1.31579em
+}
+
+table.small-table a[rel=external]:after {
+    display: none
+}
+
+table.small-table.measures span.table-line {
+    display: block
+}
+
+table.small-table.measures span.table-line~.table-line {
+    margin-top: .5em
+}
+
+@media (max-width:839px) {
+
+    table.small-table.measures caption,
+    table.small-table.measures tbody,
+    table.small-table.measures td,
+    table.small-table.measures th,
+    table.small-table.measures thead,
+    table.small-table.measures tr {
+        display: block
+    }
+
+    table.small-table.measures thead tr {
+        position: absolute;
+        top     : -9999px;
+        left    : -9999px
+    }
+
+    table.small-table.measures tr {
+        border    : 1px solid #b1b4b6;
+        border-top: 0 solid #b1b4b6
+    }
+
+    table.small-table.measures tr:first-of-type {
+        border-top-width: 1px
+    }
+
+    table.small-table.measures td {
+        border-bottom: 1px solid #ececed;
+        position     : relative;
+        padding-left : 50%
+    }
+
+    table.small-table.measures td:before {
+        position     : absolute;
+        top          : 8px;
+        left         : 8px;
+        width        : 45%;
+        padding-right: 5%;
+        white-space  : nowrap
+    }
+
+    table.small-table.measures td:first-of-type:before {
+        content: "Country"
+    }
+
+    table.small-table.measures td:nth-of-type(2):before {
+        content: "Measure"
+    }
+
+    table.small-table.measures td:nth-of-type(3):before {
+        content: "Value"
+    }
+
+    table.small-table.measures td:nth-of-type(4):before {
+        content: "Conditions that apply"
+    }
+
+    table.small-table.measures td:nth-of-type(5):before {
+        content: "Exclusions"
+    }
+
+    table.small-table.measures td:nth-of-type(6):before {
+        content: "Council Regulation (EEC)"
+    }
+
+    table.small-table.measures td:nth-of-type(7):before {
+        content: "Start date (End date)"
+    }
+
+    table.small-table.measures td:nth-of-type(8):before {
+        content: "Footnotes"
+    }
+}
+
+@media (min-width:840px) {
+    table.small-table.measures td:first-of-type {
+        width: 18%
+    }
+
+    table.small-table.measures td:nth-of-type(2) {
+        width: 22%
+    }
+
+    table.small-table.measures td:nth-of-type(3) {
+        width: 8%
+    }
+
+    table.small-table.measures td:nth-of-type(4) {
+        width: 9%
+    }
+
+    table.small-table.measures td:nth-of-type(5) {
+        width: 14%
+    }
+
+    table.small-table.measures td:nth-of-type(6) {
+        width: 9%
+    }
+
+    table.small-table.measures td:nth-of-type(7) {
+        width: 10%
+    }
+
+    table.small-table.measures td:nth-of-type(8) {
+        width: 8%
+    }
+}
+
+table.small-table.measures dl {
+    margin: 0
+}
+
+table.small-table.measures dl dt {
+    cursor  : pointer;
+    position: relative
+}
+
+table.small-table.measures dl dt.has_children {
+    padding-left   : 25px;
+    color          : #1961a0;
+    text-decoration: underline
+}
+
+table.small-table.measures dl dt.has_children:hover {
+    color: #003078
+}
+
+table.small-table.measures dl dt.has_children:focus {
+    outline         : 3px solid rgba(0, 0, 0, 0);
+    color           : #0b0c0c;
+    background-color: #fd0;
+    box-shadow      : 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration : none
+}
+
+table.small-table.measures dl dt.has_children:before {
+    content          : "";
+    position         : absolute;
+    top              : 3px;
+    bottom           : 0;
+    left             : 0;
+    display          : block;
+    width            : 0;
+    height           : 0;
+    -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+    clip-path        : polygon(0 0, 100% 50%, 0 100%);
+    border-color     : rgba(0, 0, 0, 0);
+    border-style     : solid;
+    border-width     : 6px 0 6px 10.124px;
+    border-left-color: inherit
+}
+
+table.small-table.measures dl dt.open:before {
+    display          : block;
+    width            : 0;
+    height           : 0;
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path        : polygon(0 0, 50% 100%, 100% 0);
+    border-color     : rgba(0, 0, 0, 0);
+    border-style     : solid;
+    border-width     : 10.124px 6px 0;
+    border-top-color : inherit;
+    top              : 4px
+}
+
+table.small-table.measures dl dd {
+    margin: 0
+}
+
+table.small-table.measures dl dd ul {
+    margin-top : 1em;
+    margin-left: 16px;
+    font-size  : 14px
+}
+
+table.small-table.measures dl dd ul li {
+    margin-top: .5em
+}
+
+@media (min-width:840px) {
+
+    table.small-table.quota-results td:first-of-type,
+    table.small-table.quota-results td:nth-of-type(2) {
+        width: 15%
+    }
+
+    table.small-table.quota-results td:nth-of-type(3) {
+        width: 20%
+    }
+
+    table.small-table.quota-results td:nth-of-type(4),
+    table.small-table.quota-results td:nth-of-type(5) {
+        width: 12%
+    }
+
+    table.small-table.quota-results td:nth-of-type(6) {
+        width: 21%
+    }
+}
+
+.tariff-breadcrumbs {
+    position        : relative;
+    padding         : 1em;
+    margin          : 0 0 20px;
+    background-color: #f6f6f6
+}
+
+.tariff-breadcrumbs:after {
+    content: "";
+    display: block;
+    clear  : both
+}
+
+.tariff-breadcrumbs .full-code {
+    width     : 171px;
+    margin-top: 5px
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs .full-code {
+        margin-top: 0
+    }
+}
+
+.tariff-breadcrumbs .full-code .commodity-code {
+    width: 101px
+}
+
+.tariff-breadcrumbs nav ul {
+    position    : relative;
+    list-style  : none;
+    padding-left: 15px;
+    margin      : 5px 0 0
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs nav ul {
+        padding-left: 25px
+    }
+}
+
+.tariff-breadcrumbs nav ul li {
+    position   : relative;
+    display    : block;
+    line-height: 30px;
+    word-wrap  : break-word;
+    font-size  : 16px;
+    min-height : 30px
+}
+
+.tariff-breadcrumbs nav ul li .line-text,
+.tariff-breadcrumbs nav ul li a,
+.tariff-breadcrumbs nav ul li p {
+    display    : block !important;
+    padding-top: 2px;
+    line-height: 1.3
+}
+
+.tariff-breadcrumbs nav ul li .line-text.show-full-tree-link,
+.tariff-breadcrumbs nav ul li a.show-full-tree-link,
+.tariff-breadcrumbs nav ul li p.show-full-tree-link {
+    padding-top: 0 !important
+}
+
+@media (min-width:641px) {
+
+    .tariff-breadcrumbs nav ul li .line-text,
+    .tariff-breadcrumbs nav ul li a,
+    .tariff-breadcrumbs nav ul li p {
+        font-size    : 1em;
+        min-height   : 30px;
+        padding-right: 200px
+    }
+}
+
+.tariff-breadcrumbs nav ul li .download-pdf a,
+.tariff-breadcrumbs nav ul li .feed a {
+    padding-right: 0 !important;
+    display      : inline-block !important
+}
+
+.tariff-breadcrumbs nav ul li:after,
+.tariff-breadcrumbs nav ul li:before {
+    content : "";
+    position: absolute;
+    left    : -12px
+}
+
+.tariff-breadcrumbs nav ul li:before {
+    border-top: 1px solid #000;
+    top       : 15px;
+    width     : 8px;
+    height    : 0
+}
+
+.tariff-breadcrumbs nav ul li:after {
+    border-left: 1px solid #000;
+    height     : 100%;
+    width      : 0;
+    top        : 7px
+}
+
+.tariff-breadcrumbs nav ul li:last-child:after {
+    height: 8px
+}
+
+.tariff-breadcrumbs nav ul li .line-text {
+    min-height: 30px
+}
+
+.tariff-breadcrumbs nav ul li ul.commodities {
+    padding-left: 15px
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs nav ul li ul.commodities {
+        padding-left: 25px
+    }
+}
+
+.tariff-breadcrumbs nav ul li h1 {
+    display: inline
+}
+
+.tariff-breadcrumbs nav ul li p {
+    display      : inline;
+    margin-bottom: 0
+}
+
+@media (max-width:640px) {
+    .tariff-breadcrumbs nav .chapter-code~ul ul {
+        padding-left: 0
+    }
+}
+
+.tariff-breadcrumbs nav p:last-child {
+    margin-bottom: 0
+}
+
+.tariff-breadcrumbs nav .feed {
+    margin-top: 10px
+}
+
+.tariff-breadcrumbs nav .feed:before {
+    content: "("
+}
+
+.tariff-breadcrumbs nav .feed:after {
+    content: ")"
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs nav .feed {
+        float     : right;
+        margin-top: 2em
+    }
+
+    .tariff-breadcrumbs nav .feed:after,
+    .tariff-breadcrumbs nav .feed:before {
+        content: "";
+        display: none
+    }
+}
+
+.tariff-breadcrumbs nav .feed a {
+    background-image   : url(//assets.trade-tariff.service.gov.uk/packs/media/images/feed-icon-black-17fd24830ab5f4093b4f7d880637f791.png);
+    background-position: .2em;
+    background-repeat  : no-repeat;
+    padding-left       : 20px;
+    max-width          : none;
+    display            : inline-block !important;
+    padding-right      : 0 !important;
+    min-height         : 0 !important
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs nav .feed a {
+        background-image   : url(//assets.trade-tariff.service.gov.uk/packs/media/images/feed-icon-black-17fd24830ab5f4093b4f7d880637f791.png);
+        background-position: .2em;
+        background-repeat  : no-repeat;
+        padding-left       : 25px;
+        font-size          : 1rem;
+        padding-top        : 0 !important
+    }
+}
+
+.tariff-breadcrumbs .download-pdf {
+    margin-top: 0
+}
+
+@media (min-width:641px) {
+    .tariff-breadcrumbs .download-pdf {
+        margin-top : 2em;
+        padding-top: 0 !important
+    }
+}
+
+.download-pdf:before {
+    content: "("
+}
+
+.download-pdf:after {
+    content: ")"
+}
+
+@media (min-width:641px) {
+    .download-pdf {
+        float       : right;
+        margin-right: 1.25em
+    }
+
+    .download-pdf:after,
+    .download-pdf:before {
+        content: "";
+        display: none
+    }
+}
+
+.download-pdf a {
+    background     : url(//assets.trade-tariff.service.gov.uk/packs/media/images/icon-file-download-53c0faee4d3766bfa7b13ec02cdbe93b.png) .2em no-repeat;
+    background-size: 14px 14px;
+    padding-left   : 20px;
+    max-width      : none !important;
+    display        : inline-block !important;
+    min-height     : 0 !important
+}
+
+@media (min-width:641px) {
+    .download-pdf a {
+        background     : url(//assets.trade-tariff.service.gov.uk/packs/media/images/icon-file-download-53c0faee4d3766bfa7b13ec02cdbe93b.png) .2em no-repeat;
+        background-size: 16px 16px;
+        padding-left   : 25px;
+        font-size      : 1rem
+    }
+}
+
+.full-code {
+    width    : 181px;
+    height   : 30px;
+    font-size: 16px;
+    font-size: 1rem
+}
+
+@media (min-width:641px) {
+    .full-code {
+        position: absolute;
+        right   : 0;
+        top     : 0
+    }
+}
+
+.full-code>div {
+    margin-top    : 0;
+    vertical-align: top;
+    display       : inline-block
+}
+
+.full-code .chapter-code,
+.full-code .heading-code {
+    width : 30px;
+    height: 30px
+}
+
+.full-code .commodity-code {
+    width : 111px;
+    height: 30px
+}
+
+.full-code .commodity-code .code-text {
+    width      : 30px;
+    height     : 30px;
+    display    : inline-block;
+    text-align : center;
+    line-height: 30px
+}
+
+.chapter-code,
+.commodity-code,
+.heading-code {
+    font-family            : GDS Transport, Arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size              : 12px;
+    font-size              : .75rem;
+    line-height            : 1.25;
+    display                : inline-block;
+    position               : relative;
+    height                 : 1.5625em;
+    float                  : left
+}
+
+@media print {
+
+    .chapter-code,
+    .commodity-code,
+    .heading-code {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+
+    .chapter-code,
+    .commodity-code,
+    .heading-code {
+        font-size  : 14px;
+        font-size  : .875rem;
+        line-height: 1.42857
+    }
+}
+
+@media print {
+
+    .chapter-code,
+    .commodity-code,
+    .heading-code {
+        font-size  : 12pt;
+        line-height: 1.2
+    }
+}
+
+@media (min-width:641px) {
+
+    .chapter-code,
+    .commodity-code,
+    .heading-code {
+        font-size: 16px
+    }
+}
+
+.chapter-code>.code-text,
+.commodity-code>.code-text,
+.heading-code>.code-text {
+    position   : absolute;
+    top        : 0;
+    width      : 100%;
+    text-align : center;
+    color      : #0b0c0c;
+    line-height: 30px
+}
+
+.chapter-code {
+    background-color: #d1d2e6
+}
+
+.chapter-code,
+.heading-code {
+    width       : 30px;
+    height      : 30px;
+    margin-right: 5px
+}
+
+.heading-code {
+    background-color: #b3d9ee
+}
+
+.commodity-code {
+    width : 101px;
+    height: 30px
+}
+
+.commodity-code>.code-text {
+    position        : relative;
+    width           : 30px;
+    background-color: #abeae5;
+    height          : 30px;
+    line-height     : 30px
+}
+
+.commodity-code>.code-text+.code-text {
+    margin-left: 5px
+}
+
+.search-results .commodity-code .code-text+.code-text {
+    margin-left: 2px
+}
+
+.search-header .searchfield {
+    position : relative;
+    max-width: 70ex
+}
+
+.search-header .select2-selection__arrow {
+    display: none
+}
+
+.search-header .search-submit {
+    position: absolute;
+    bottom  : 0;
+    right   : 0;
+    height  : 40px;
+    width   : 40px;
+    overflow: visible
+}
+
+.search-header input.govuk-button {
+    box-shadow         : none;
+    width              : 40px;
+    height             : 40px;
+    text-indent        : -5000px;
+    background-image   : url(//assets-dev.trade-tariff.service.gov.uk/packs/media/images/search-button-90225d30063f1d14610ca718245a6b13.png);
+    background-repeat  : no-repeat;
+    background-position: 1px -17px
+}
+
+.search-header .govuk-form-group.date-picker,
+.search-header .govuk-form-group.searchfield {
+    margin-bottom: 15px
+}
+
+.search-header .change-date-link {
+    white-space: nowrap
+}
+
+.search-header fieldset.inline {
+    display                : inline-block;
+    width                  : auto;
+    font-family            : GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight            : 400;
+    padding-top            : 0;
+    padding-bottom         : 0;
+    border                 : none
+}
+
+@media print {
+    .search-header fieldset.inline {
+        font-family: sans-serif
+    }
+}
+
+.select2-selection {
+    font-weight  : 400 !important;
+    font-size    : 16px !important;
+    font-size    : 1rem !important;
+    line-height  : 1.25 !important;
+    box-sizing   : border-box !important;
+    width        : 100% !important;
+    height       : 40px !important;
+    height       : 2.5rem !important;
+    margin-top   : 0 !important;
+    padding      : 0 5px !important;
+    border       : 2px solid #0b0c0c !important;
+    border-radius: 0 !important
+}
+
+.select2-selection .select2-selection__placeholder,
+.select2-selection .select2-selection__rendered {
+    width      : 100%;
+    padding    : 0;
+    line-height: 40px
+}
+
+.select2-selection .select2-selection__placeholder {
+    height: 40px
+}
+
+.select2-selection .select2-selection__rendered {
+    height                 : 40px;
+    font-family            : GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight            : 400;
+    font-size              : 16px;
+    font-size              : 1rem;
+    line-height            : 1.25;
+    color                  : #0b0c0c !important
+}
+
+@media print {
+    .select2-selection .select2-selection__rendered {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    .select2-selection .select2-selection__rendered {
+        font-size  : 19px;
+        font-size  : 1.1875rem;
+        line-height: 1.31579
+    }
+}
+
+@media print {
+    .select2-selection .select2-selection__rendered {
+        font-size  : 14pt;
+        line-height: 1.15
+    }
+}
+
+.select2-selection__arrow {
+    height: 100% !important;
+    right : 10px !important
+}
+
+.select2-selection__arrow b {
+    border-color: #0b0c0c rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
+    border-width: 8px 7px 0 !important
+}
+
+.select2-search__field {
+    font-weight  : 400 !important;
+    font-size    : 16px !important;
+    font-size    : 1rem !important;
+    line-height  : 1.25 !important;
+    box-sizing   : border-box !important;
+    width        : 100% !important;
+    height       : 40px !important;
+    height       : 2.5rem !important;
+    margin-top   : 0 !important;
+    padding      : 0 5px !important;
+    border       : 2px solid #0b0c0c !important;
+    border-radius: 0 !important
+}
+
+.select2-selection__rendered {
+    line-height: 38px !important;
+    height     : auto !important;
+    max-width  : calc(100% - 2em)
+}
+
+.select2-container--open .select2-dropdown--below {
+    border-width: 2px !important;
+    border-color: #0b0c0c !important
+}

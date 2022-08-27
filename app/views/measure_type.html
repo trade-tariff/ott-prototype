@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block beforeContent %}
+    <script>
+        document.write('<a href="javascript:history.back();" class="govuk-back-link">Back to commodity x</a>');
+    </script>
+    <noscript>
+        <a href="{{ referer }}" class="govuk-back-link">Back to commodity x</a>
+    </noscript>
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <span class="govuk-caption-xl">{{ context.title }}</span>
+            <h1 class="govuk-heading-l">{{ measure_type.description }}</h1>
+
+            {% if measure_type.hint != "" %}
+                <h2 class="govuk-heading-s">About {{ measure_type.description | lower }} measures</h2>
+                <p class="govuk-body">{{ measure_type.hint | safe }}</p>
+            {% endif %}
+            
+            <p class="govuk-body">This measure type is used for <strong>{{ measure_type.trade_direction }}</strong> and has an ID of <strong>{{ measure_type.id }}</strong>.</p>
+
+            {% if measure_type.preference_code != "" %}
+                <h2 class="govuk-heading-s">Preference codes</h2>
+                <div class="govuk-inset-text">When completing import declarations, preference codes must be entered into
+                CDS in Data Element 4/17 and in CHIEF in Box 36.</div>
+
+                <h3 class="govuk-heading-s">Preference code to use for {{ measure_type.description | lower }} measures</h3>
+                <p class="govuk-body">Use the preference code <strong>{{ measure_type.preference_code[0]["preference_code"] }}</strong>: {{ measure_type.preference_code[0]["description"] }}</p>
+
+                <p class="govuk-body">
+                    <a href="https://www.gov.uk/government/publications/preference-codes-for-data-element-417-of-the-customs-declaration-service">See all preference codes (opens in new tab)</a>
+                </p>
+            {% endif %}
+
+        </div>
+    </div>
+{% endblock %}
+</html>

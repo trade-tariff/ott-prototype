@@ -1,0 +1,44 @@
+<div class="search_panel">
+  <div class="govuk-width-container search_panel">
+
+    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+          {% if context.host == "local" %}
+            {% set dest = "/elasticq" %}
+          {% else %}
+            {% set dest = "/search_handler" %}
+          {% endif %}
+
+          <form action="{{ dest }}" method="get">
+            {# <form action="/elastic" method="get"> #}
+            <div class="govuk-form-group">
+              <h1 class="govuk-label-wrapper govuk-!-margin-top-4">
+                <label class="govuk-label govuk-label--l" for="search_term">Search the Online Tariff</label>
+              </h1>
+              <div id="search-hint" class="govuk-hint">
+                Enter the name of the goods or a commodity code. Commodity codes are 10-digit
+                numbers that classify goods so you can fill in declarations and other paperwork.
+                You must use the right commodity code.
+              </div>
+
+              <input class="govuk-input govuk-input--width-20" id="search_term" name="search_term" type="text">
+
+              <button class="gem-c-search__submit" type="submit">Search        
+                    <svg class="gem-c-search__icon" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                  <circle cx="12.0161" cy="11.0161" r="8.51613" stroke="currentColor" stroke-width="3"></circle>
+                  <line x1="17.8668" y1="17.3587" x2="26.4475" y2="25.9393" stroke="currentColor" stroke-width="3"></line>
+                </svg>
+              </button>
+              
+            </div>
+            <p><a href="/elastic_history">View your recent searches</a></p>
+          </form>
+          <div>&nbsp;</div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>

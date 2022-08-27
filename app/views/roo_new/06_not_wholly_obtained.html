@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Non-wholly obtained products - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/roo/wholly_obtained/" + context.goods_nomenclature_item_id + "/" + context.country
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+            <h1 class="govuk-heading-xl">Your goods are not wholly obtained</h1>
+
+            <p class="govuk-body-l">
+                If your product is not wholly obtained in {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }},
+                it will have to comply with other product-specific rules.
+            </p>
+
+            <h2 class="govuk-heading-s">What are product-specific rules?</h2>
+            <p>
+                <strong>Product-specific rules</strong> define how a product needs to be processed to be considered as originating in
+                {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}
+                and therefore eligible for preferential tariff treatment.
+            </p>
+
+            <p>
+                If there are multiple rules, your product needs only comply with one of them.
+            </p>
+
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">What kind of product-specifc rules are there?</span>
+                </summary>
+                <div class="govuk-details__text">
+                    <p>
+                        Broadly speaking, there are four types of rule that determine if your product has been sufficiently
+                        transformed to be considered as originating.
+                    </p>
+
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li class="govuk-!-margin-bottom-5">
+                            <strong>The 'value added' rule</strong><br>
+                            The value of all non-originating materials used cannot exceed a given percentage of the product’s ex-works price.
+                        </li>
+                        <li class="govuk-!-margin-bottom-5">
+                            <strong>Change of tariff classification</strong><br>
+                            The production process results in a change of tariff classification between the non-originating materials
+                            and the final product.
+                        </li>
+
+                        <li class="govuk-!-margin-bottom-5">
+                            <strong>Manufacture from certain products</strong><br>
+                            A specific production process is required. For example, spinning fibres into yarns. Such rules are mostly used
+                            in the textile and clothing and chemical sectors.
+                        </li>
+
+                        <li class="govuk-!-margin-bottom-5">
+                            <strong>Specific processes</strong><br>
+                            A specific production process is required. For example, spinning fibres into yarns.
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <h2 class="govuk-heading-s">Meeting minimal operations requirements: sufficient working or processing</h2>
+            <p>
+                You will also be required to demonstrate that the work carried out on non-originating components
+                goes beyond the <strong>minimal operations</strong> requirements defined in the {{ context.scheme_title }}.
+            </p>
+            <p>
+                If the production performed in your country is one of those listed and nothing else was made there, meaning
+                no material was produced or transformed, the product cannot be considered as originating, even if
+                the product-specific rules of origin were satisfied.
+            </p>
+
+            <h2 class="govuk-heading-s">Including parts or components from other countries</h2>
+            <p>
+                You may also be able to include non-originating materials imported from third countries or processing
+                carried out in a non-partner country, as originating in the EU or a trade partner country,
+                according to the <strong>cumulation rules </strong> of the {{ context.scheme_title }}.
+            </p>
+
+            <p class="b">Next step</p>
+            <p>
+                Click on the 'Continue' button to view the <strong>cumulation rules</strong> in the {{ context.scheme_title }},
+                which will indicate if non-originating parts from other countries can be included in 
+                determining originating status.
+            </p>
+
+            {{ govukButton({
+                text: "Continue",
+                href: "/roo/cumulation/" + context.goods_nomenclature_item_id + "/" + context.country
+            }) }}
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

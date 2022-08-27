@@ -1,0 +1,81 @@
+<div class="govuk-grid-row" id="context-selector">
+    <div class="govuk-grid-column-full govuk-!-margin-top-3">
+        <dl class="govuk-summary-list">
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">{{ context.heading_classifier }}</dt>
+                <dd class="govuk-summary-list__value commodity-split">
+                    {{ context.value_classifier | format_commodity_code2 | safe }}
+                </dd>
+                <dd class="govuk-summary-list__actions">
+                    {% if context.show_change_commodity %}
+                        <a class="govuk-link" href="/search">
+                        Change<span class="govuk-visually-hidden"> commodity</span>
+                        </a>
+                    </dd>
+                {% endif %}
+            </div>
+
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">{{ context.heading_description }}</dt>
+                <dd class="govuk-summary-list__value {{ context.description_class }}">{{ context.value_description | safe }}</dd>
+                <dd class="govuk-summary-list__actions"></dd>
+            </div>
+
+            {% if context.show_supplementary_unit %}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Supplementary unit</dt>
+                    <dd class="govuk-summary-list__value {{ context.description_class }}">
+                        {% if commodity.supplementary_unit != "" %}
+                            <p>
+                                {{ commodity.supplementary_unit_description }}
+                                {% if commodity.supplementary_unit_abbreviation != "" %} ({{ commodity.supplementary_unit_abbreviation }}){% endif %}
+                                <br></p>
+                        {% else %}
+                        <p>No supplementary unit required</p>
+                        {% endif %}
+
+                        <details class="govuk-details" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                                <span class="govuk-details__summary-text">What are supplementary units?</span>
+                            </summary>
+                            <div class="govuk-details__text  govuk-!-font-size-16">
+                            Supplementary units are used when an additional measurement unit is needed on customs declarations. For example: the quantity of the products as well as the weight in kilograms.<br>
+                                <!--<a target="_blank" href="https://www.gov.uk/government/publications/measurement-unit-codes-for-data-elements-23-and-44-of-the-customs-declaration-service">Supplementary units on CDS</a>
+                            {% if context.scope_id != "xi" %}<br>
+                            <a target="_blank" href="https://www.gov.uk/government/publications/uk-trade-tariff-quantity-codes/uk-trade-tariff-quantity-codes">Supplementary units on CHIEF</a>
+                            {% endif %}//-->
+                            </div>
+                        </details>
+                    </dd>
+                    <dd class="govuk-summary-list__actions"></dd>
+                </div>
+            {% endif %}
+
+            {% if context.show_date %}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Date of trade</dt>
+                    <dd class="govuk-summary-list__value">21 January 2021</dd>
+                    <dd class="govuk-summary-list__actions">
+                        <a class="govuk-link" href="/date">
+                        Change<span class="govuk-visually-hidden"> date of trade</span>
+                        </a>
+                    </dd>
+                </div>
+            {% endif %}
+
+            {% if context.show_countries %}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Filter by country</dt>
+                    <dd class="govuk-summary-list__value">
+                        {{ context.country_name }}
+                    </dd>
+                    <dd class="govuk-summary-list__actions">
+                        <a class="govuk-link" href="/country/{{ commodity.data.attributes.goods_nomenclature_item_id }}">
+                            Change<span class="govuk-visually-hidden"> trading partner</span>
+                        </a>
+                    </dd>
+                </div>
+            {% endif %}
+        </dl>
+    </div>
+</div>

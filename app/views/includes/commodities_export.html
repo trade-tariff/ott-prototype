@@ -1,0 +1,144 @@
+<h2 class="govuk-heading-l">{{ context.tab_title_export }}</h2>
+<p>The commodity code for exporting and <a href="https://www.gov.uk/intrastat">Intrastat reporting</a> is {{ commodity.goods_nomenclature_item_id | substring(0, 8) }}.</p>
+{% for display_block in commodity.display_blocks %}
+    {% if display_block.export %}
+        <h3 id="block_{{ display_block.index }}" class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-3">
+            {% if context.scope_id == "xi" %}
+                {{ display_block.block_xi | safe }}
+            {% else %}
+                {{ display_block.block | safe }}
+            {% endif %}
+        </h3>
+
+        {% if display_block.explainers.prose != "" and display_block.explainers.prose_ni != "" %}
+            <div class="govuk-inset-text govuk-inset-text--s nhs-grey-5 explainer">
+                {% if display_block.explainers.image %}
+                    <img src="/public/images/{{ display_block.explainers.image | safe }}"/>
+                {% endif %}
+                {% if context.scope_id == "xi" %}
+                    {% if display_block.explainers.prose_ni %}
+                        {{ display_block.explainers.prose_ni | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+                    {% endif %}
+                {% else %}
+                    {% if display_block.explainers.prose != "" %}sdfsdf
+                        {{ display_block.explainers.prose | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+                    {% endif %}
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {% if display_block.block != "Import controls" and display_block.block != "UK import controls" %}
+            {% set class = "standard" %}
+        {% else %}
+            {% set class = "control" %}
+        {% endif %}
+
+
+        <table class="govuk-table govuk-table--s  measures2 app-flexible-table">
+            <thead class="govuk-table__head app-flexible-table__head">
+                <tr class="sticky govuk-table__row app-flexible-table__row {{ class }}">
+                    <th scope="col" class="govuk-table__header measure app-flexible-table__header">Measure type</th>
+                    <th scope="col" class="govuk-table__header country app-flexible-table__header">Country</th>
+                    {% if display_block.block != "Import controls" and display_block.block != "UK import controls" and display_block.block != "Export controls" %}
+                        <th scope="col" class="govuk-table__header value app-flexible-table__header">Duty rate</th>
+                    {% endif %}
+                    <th scope="col" class="govuk-table__header dates app-flexible-table__header">Dates</th>
+                    <th scope="col" class="govuk-table__header conditions app-flexible-table__header">Measure detail</th>
+                    {# <th scope="col" class="govuk-table__header footnotes app-flexible-table__header c">Footnotes</th> #}
+                    <th scope="col" class="govuk-table__header legal_base app-flexible-table__header">Legal base</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body  app-flexible-table__body">
+                {% for measure in commodity.measures %}
+                    {% if measure.display_block.block == display_block.block %}
+                        <tr id="import_measure_{{ measure.id }}" class="govuk-table__row measure app-flexible-table__row {{ class }}">
+
+                            <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }}" scope="row" data-column-heading="Measure type">
+                                <div>
+                                    <span class="table-line">{{ measure.measure_type_description }}</span>
+                                    {% if measure.order_number_id %}
+                                        <span class="table-line">Order no: <a href="#quota_{{ measure.order_number_id }}" rel="modal:open">{{ measure.order_number_id }}</a>
+                                        </span>
+                                    {% endif %}
+                                    {% if measure.additional_code %}
+                                        <span class="table-line">Additional code: <strong>{{ measure.additional_code.code }}</strong>
+                                        </span><span class="table-line">{{ measure.additional_code.description | safe }}</span>
+                                    {% endif %}
+                                </div>
+                            </td>
+
+                            <td class="govuk-table__cell country app-flexible-table__cell" scope="row" data-column-heading="Country">
+                                {% if (measure.geographical_area.geographical_area_code == 1) %}
+                                    <a style="float:none" href="{% if (scope_id == 'ni') %}/ni{% endif %}/geographical_area/{{ measure.geographical_area_id }}">{{ measure.geographical_area_description }}
+                                        <!--({{ measure.geographical_area.id }})//-->
+                                    </a>
+                                    {% if measure.excluded_country_string != "" %}
+                                        <br>
+                                        <span class="v-small">excluding {{ measure.excluded_country_string }}
+                                            <!--</span>//-->
+                                        {% endif %}
+                                    {% else %}
+                                        {{ measure.geographical_area_description }}
+                                        <!-- ({{ measure.geographical_area.id }})//-->
+                                    {% endif %}
+                                </td>
+
+                                {% if display_block.block != "Import controls" and display_block.block != "UK import controls" and display_block.block != "Export controls" %}
+                                    <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="Value">
+                                        {% if measure.duty_bearing %}
+                                            {% if measure.duty_expression.formatted_base %}
+                                                {{ measure.duty_expression.formatted_base | safe }}
+                                                {% if measure.has_meursing %}
+                                                    {% if data['meursing-code'].length > 0 and measure.combined_duty_with_meursing.length > 0 %}
+                                                        <br>
+                                                        <span title="Showing duties for Meursing code {{ data['meursing-code'] }}" class="meursing_duties">{{ measure.combined_duty_with_meursing | safe }}</span>
+                                                    {% endif %}
+                                                {% endif %}
+                                            {% else %}
+                                    &nbsp;
+                                {% endif %}
+                                        {% else %}
+                            n/a
+                            {% endif %}
+                                    </td>
+                                {% endif %}
+
+                                <td class="govuk-table__cell dates app-flexible-table__cell nw" scope="row" data-column-heading="Dates" nowrap>
+                                    {{ measure.effective_start_date | format_date("DD MMM YYYY") }}
+                                    {% if measure.effective_end_date %} to {{ measure.effective_end_date | format_date("DD MMM YYYY") }}
+                                    {% endif %}
+                                </td>
+
+                                <td class="govuk-table__cell conditions app-flexible-table__cell" scope="row" data-column-heading="Measure detail">
+                                    {% if measure.has_conditions == true %}
+                                        <a href="#measure_conditions_{{ measure.id }}" rel="modal:open">Read notes</a>
+                                    {% else %}
+                                -
+                            {% endif %}
+                                </td>
+
+                                <td class="govuk-table__cell dates app-flexible-table__cell" scope="row" data-column-heading="Legal base" nowrap>
+                                    <a target="_blank" href="https://www.legislation.gov.uk/uksi/2019/16" title="The Leghold Trap and Pelt Imports (Amendment etc.) (EU Exit) Regulations 2019">S.I. 2019/16</a>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+
+                </tbody>
+            </table>
+            {% if display_block.explainers.title %}
+                <details class="govuk-details govuk-details-m" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">{{ display_block.explainers.title }}</span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        {{ commodity.customs_duties_string | safe }}
+                    </div>
+                </details>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if context.location == "GB" %}
+        {% include "includes/link_to_cheg.html" %}
+    {% endif %}

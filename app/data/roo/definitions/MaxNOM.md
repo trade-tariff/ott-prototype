@@ -1,0 +1,2 @@
+### Maximum value of non-originating materials (MaxNOM)
+"MaxNOM" means the maximum value of non-originating materials expressed as a percentage and shall be calculated according to the following formula:

@@ -1,0 +1,114 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/" + context.scope_id + "/sections/"
+    },
+    {
+      text: "Excise",
+      href: "/static/excise"
+    },
+    {
+      text: "Excise on wine",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Excise on wine - The Online Trade Tariff
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Excise</span>
+            <h1 class="govuk-heading-l">Excise on wine</h1>
+            
+            <p id="winemade">Wine produced in the UK by a licensed producer of wine or imported (in strengths measured by reference to the following percentages of alcohol at a temperature of 20°C).</p>
+
+            <table class="govuk-table">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Class or description</th>
+                        <th scope="col" class="govuk-table__header">Tax type code</th>
+                        <th scope="col" class="govuk-table__header">Rate of Excise Duty</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Sparkling exceeding 5.5% but less than 8.5%</td>
+                        <td class="govuk-table__cell">412</td>
+                        <td class="govuk-table__cell">£288.10 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Sparkling 8.5% and above but not exceeding 15%</td>
+                        <td class="govuk-table__cell">411</td>
+                        <td class="govuk-table__cell">£381.15 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still exceeding 5.5% but not exceeding 15%</td>
+                        <td class="govuk-table__cell">413</td>
+                        <td class="govuk-table__cell">£297.57 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still or sparkling exceeding 15% but not exceeding 22%</td>
+                        <td class="govuk-table__cell">415</td>
+                        <td class="govuk-table__cell">£396.72 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still or sparkling exceeding 22%</td>
+                        <td class="govuk-table__cell">419</td>
+                        <td class="govuk-table__cell">£28.74 per litre of alcohol in the wine</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Made-wine produced in the UK by a licensed producer of made-wine or imported (in strengths measured by reference to the following percentages of alcohol at a temperature of 20°C).</p>
+
+            <table class="govuk-table">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Class or description</th>
+                        <th scope="col" class="govuk-table__header">Tax type code</th>
+                        <th scope="col" class="govuk-table__header">Rate of Excise Duty</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Sparkling exceeding 5.5% but less than 8.5%</td>
+                        <td class="govuk-table__cell">422</td>
+                        <td class="govuk-table__cell">£288.10 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Sparkling 8.5% and above but not exceeding 15%</td>
+                        <td class="govuk-table__cell">421</td>
+                        <td class="govuk-table__cell">£381.15 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still exceeding 5.5% but not exceeding 15%</td>
+                        <td class="govuk-table__cell">423</td>
+                        <td class="govuk-table__cell">£297.57 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still or sparkling exceeding 15% but not exceeding 22%</td>
+                        <td class="govuk-table__cell">425</td>
+                        <td class="govuk-table__cell">£396.72 per hectolitre</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Still or sparkling exceeding 22%</td>
+                        <td class="govuk-table__cell">429</td>
+                        <td class="govuk-table__cell">£28.74 per litre of alcohol in the wine</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>See section on <a href="#lab" class="govuk-link">Low alcohol beverages</a> for strengths not exceeding 5.5%.</p>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,219 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Certificates",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+      </span>
+      <h1 class="govuk-heading-l">Search for a certificate, licence or document</h1>
+
+      {{ govukInsetText({
+        text: "Search for certificates, licences and other document codes and the commodities which reference them.
+        Document codes may be needed to complete your import or export declaration."
+      }) }}
+      {% from "govuk/components/select/macro.njk" import govukSelect %}
+
+      {{ govukSelect({
+        id: "certificate_type",
+        name: "certificate_type",
+        classes: "white_select",
+        label: {
+          text: "Certificate type"
+        },
+        items: [
+          {
+            value: "9",
+            text: "9 - National document",
+            selected: true
+          },
+          {
+            value: "updated",
+            text: "Recently updated"
+          },
+          {
+            value: "views",
+            text: "Most views"
+          },
+          {
+            value: "comments",
+            text: "Most comments"
+          }
+        ]
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Certificate code"
+        },
+        hint: {
+          text: "Enter the 3 digit certificate code"
+        },
+        classes: "govuk-input--width-5",
+        id: "certificate_code",
+        name: "certificate_code"
+      }) }}
+
+      {{ govukInput({
+        label: {
+          text: "Description"
+        },
+        hint: {
+          text: "Enter key terms from the certificate description"
+        },
+        classes: "govuk-input--width-20",
+        id: "description",
+        name: "description"
+      }) }}
+
+      {{ govukButton({
+        text: "Search for a certificate",
+        href: "/tools/certificates_results"
+      }) }}
+
+      <h1 class="govuk-heading-l govuk-!-margin-top-9">Certificate search results</h1>
+
+      <dl class="tabular">
+        <dt>Certificate code:</dt>
+        <dd>9210</dd>
+
+        <dt>Description:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+        {# <dt>CDS guidance:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+        <dt>CHIEF guidance:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd> #}
+      </dl>
+
+      <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Using this certificate on CDS or CHIEF</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl class="tabular">
+            <dt>CDS guidance:</dt>
+            <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+            <dt>CHIEF guidance:</dt>
+            <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+          </dl>
+        </div>
+      </details>
+
+      <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Commodity codes that may require this certificate</span>
+        </summary>
+        <div class="govuk-details__text">
+          <table class="govuk-table">
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Commodity</th>
+                <th scope="col" class="govuk-table__header">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell commodity-split">
+                  <a href="/">{{ "0102030405" | format_and_trim_commodity_code | safe }}</a>
+                </td>
+                <td class="govuk-table__cell">Occaecat veniam ut et. Anim commodo cillum.</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell commodity-split">
+                  <a href="/">{{ "0102030405" | format_and_trim_commodity_code | safe }}</a>
+                </td>
+                <td class="govuk-table__cell">Occaecat veniam ut et. Anim commodo cillum.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <hr>
+
+      <dl class="tabular">
+        <dt>Certificate code:</dt>
+        <dd>9211</dd>
+
+        <dt>Description:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+        {# <dt>CDS guidance:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+        <dt>CHIEF guidance:</dt>
+        <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd> #}
+      </dl>
+
+      <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Using this certificate on CDS or CHIEF</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl class="tabular">
+            <dt>CDS guidance:</dt>
+            <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+
+            <dt>CHIEF guidance:</dt>
+            <dd>Lorem ipsum dolor sit amet, culpa aliquip velit ut ut deserunt sint qui aliqua. Occaecat veniam ut et. Anim commodo cillum.</dd>
+          </dl>
+        </div>
+      </details>
+
+      <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Commodity codes that may require this certificate</span>
+        </summary>
+        <div class="govuk-details__text">
+          <table class="govuk-table">
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Commodity</th>
+                <th scope="col" class="govuk-table__header">Description</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell commodity-split">
+                  <a href="/">{{ "0102030405" | format_and_trim_commodity_code | safe }}</a>
+                </td>
+                <td class="govuk-table__cell">Occaecat veniam ut et. Anim commodo cillum.</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell commodity-split">
+                  <a href="/">{{ "0102030405" | format_and_trim_commodity_code | safe }}</a>
+                </td>
+                <td class="govuk-table__cell">Occaecat veniam ut et. Anim commodo cillum.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>      
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

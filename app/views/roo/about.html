@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by additional code
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections"
+    },
+    {
+      text: "Rules of origin",
+      href: "/roo"
+    },
+    {
+      text: "What are rules of origin?",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Rules of origin</span>
+            <h1 class="govuk-heading-l">What are rules of origin?</h1>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <p>Rules of origin are how customs authorities classify where an export has come from in international trade.
+            <h2 class="govuk-heading-m">How do rules of origin affect trade?</h2>
+
+                <p>There are two main ways:</p>
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>
+                        <strong>Preferential rules of origin:</strong><br>
+                If the UK and the EU agree under a free trade agreement (FTA) to remove tariffs for each other’s goods, this grants a preference not provided to others. UK goods seeking to enter the EU under this preference will have to prove that they are from the UK under particular rules agreed in an FTA. This prevents a country without a trade deal from accessing the EU market through the UK and vice versa.<br><br></li>
+                    <li>
+                        <strong>Non-preferential rules of origin:</strong><br>
+                Outside a customs union, all UK exporters will still have to declare the origin of their goods when trading with the EU. This is used by importing countries to protect their producers and for other monitoring purposes. For instance, if the UK or EU felt that imports are unfairly damaging its own producers, it could apply a temporary tariff to the import. In this case, the EU or the UK would need to differentiate the origin of the import it wished to apply duty to so it did not apply tariffs to another country.</li>
+                </ul>
+
+                <p>Both the UK and the EU have published mandates for a trade deal which would mean both kinds of rules of origin will apply.</p>
+
+                <p>Both types of ‘rules of origin’ can significantly affect the free movement of goods.</p>
+
+                <p>The 2013 Trade and Investment Balance of Competence Review[1] states that “British firms would be exposed to a combination of administrative and compliance costs linked to rules of origin, ranging (based on existing estimates) from 4 percent to perhaps 15 percent of the cost of goods sold.” The complexity of supply chains can mean that proof of origin can be difficult for traders to supply and hard for authorities to assess.</p>
+
+                <p>For exporters, the costs of providing proof for preferential origin can outweigh the benefits. Steve Elliott, Chief Executive Officer of the Chemical Industries Association, stated in a House of Lords report[2] that due to several stages of synthesis involved, the cost of providing technical proof “would clearly outweigh the benefit of duty-free sales.”</p>
+
+                <p>How is the origin of goods determined?</p>
+
+                <p>The first need is to determine what good is being traded. The World Customs Organization has a list classifying every product traded under tariff headings[3]. Each product has a unique code which is grouped into broader categories.</p>
+
+                <p>Once the good is classified, the next step is to establish its “economic nationality”[4] as opposed to simply the country it came from. This involves determining the good’s value and where the contributions were made in adding value to the final product (see “sufficient value-added” below).</p>
+
+                <p>If all materials were obtained and processed in one state, it would be “wholly obtained”[5] in that country. That would apply, for example, to agricultural produce and natural resources.</p>
+                <p>What about for more complex manufactured goods?</p>
+
+                <p>A car has multiple components: bumpers, brakes, clutches, computer software, leather seats and rubber tyres, etc. These can be made in different countries and shipped as needed to be assembled into the final product. With multiple components adding value, it can be very difficult to determine origin for some products. In this case, the final product is determined by the location of the “last substantial transformation.”</p>
+
+                <p>For preferential origin, substantial transformation is defined through one or a combination of three main criteria:</p>
+
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>
+                        <strong>Change of tariff classification</strong>: When the work undertaken within a country results in a change of classification. For example, the unique code for car parts, 8708, is different to the code for a finished car, 8703. If a country assembles car parts into a finished car, it would qualify as a change of tariff classification.</li>
+
+                    <li>
+                        <strong>Sufficient value-added</strong>: The originating state must contribute a minimum percentage of the value of a product. Each component will add a certain amount of value, calculated as the percentage of the ex-works price of the final good (i.e. the total price of the inputs to the good exempting transportation and insurance costs). Typically, around 50%+ of value has to be added to claim origin.</li>
+
+                    <li>
+                        <strong>Specific processing</strong>: Finished products can qualify when particular specific working or processing activities are carried out. For example, a rule may require clothing products to be manufactured from yarn.</li>
+
+                </ul>
+
+                <p>The precise rules are very detailed and can change for each product depending on what is agreed in an FTA. Similar principles apply to determining non-preferential origin, but there is a global agreement[6] on what the rules are covering most goods.</p>
+                <p>After Brexit, will UK goods meet the origin threshold to qualify for preferences?</p>
+
+                <p>Typically, for preferential origin, around 50%+ of value has to be added to claim origin. Post-Brexit, what was once European value-added will have to be separated into UK and EU value-added. That will make it harder to reach the threshold to export to the EU without tariffs.</p>
+
+                <p>Mike Hawes, Chief Executive of the Society of Motor Manufacturers and Traders, gave one example of the challenges this poses in evidence to the Business, Energy and Industrial Strategy Select Committee[7]. He noted that the average car made in the UK purchases 44% of its components from UK suppliers. But the proportion of this actually made in the UK “is somewhere between 20% and 25%”, which is a long way from the 55–60% threshold needed to qualify for any FTA. Hawes has pointed out that “To move from where we currently are — let us say 20% to 25% originating content — to 60% will take many years. There is not necessarily the capability here in the UK.”</p>
+
+            </div>
+            <div class="govuk-grid-column-one-third">
+            {% include "./related-items.html" %}
+            </div>
+        </div>
+
+    {% endblock %}
+</html>

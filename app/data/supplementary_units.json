@@ -1,0 +1,582 @@
+[
+  {
+    "unit_code": "ASV",
+    "unit_qualifier": "",
+    "description": "% volume (Alcoholic strength per volume)",
+    "chief_code": "099",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "ASV",
+    "unit_qualifier": "X",
+    "description": "% volume Hectolitre ({Alcoholic strength per volume} X {no. of hectolitres})",
+    "chief_code": "098",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "CCT",
+    "unit_qualifier": "",
+    "description": "Carrying capacity in metric tonnes",
+    "chief_code": "064",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "CEN",
+    "unit_qualifier": "",
+    "description": "100 items",
+    "chief_code": "034",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "CTM",
+    "unit_qualifier": "",
+    "description": "Carats (one metric carat = 2x10$-4kg)",
+    "chief_code": "026",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DAP",
+    "unit_qualifier": "",
+    "description": "Decatonne, corrected according to polarisation",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DHS",
+    "unit_qualifier": "",
+    "description": "Kilogram of dihydrostreptomycin",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "",
+    "description": "Hectokilogram",
+    "chief_code": "024",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "E",
+    "description": "Hectokilogram net of drained weight",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "F",
+    "description": "Hectokilogram of common wheat",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "G",
+    "description": "Hectokilogram Gross",
+    "chief_code": "062",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "L",
+    "description": "Hectokilogram of live weight",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "M",
+    "description": "Hectokilogram net of dry matter",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "R",
+    "description": "Hectokilogram of the standard quality",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "S",
+    "description": "Hectokilogram of sugar with a yield in white sugar of 92%",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "DTN",
+    "unit_qualifier": "Z",
+    "description": "Hectokilogram per 1% by weight of sucrose",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "EUR",
+    "unit_qualifier": "",
+    "description": "Euro (used for statistical surveillance)",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "FC1",
+    "unit_qualifier": "",
+    "description": "Factor",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "FC1",
+    "unit_qualifier": "X",
+    "description": "Factor Hectolitre",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GBP",
+    "unit_qualifier": "",
+    "description": "Pounds (£) Sterling",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GFI",
+    "unit_qualifier": "",
+    "description": "Gram of fissile isotopes",
+    "chief_code": "089",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GP1",
+    "unit_qualifier": "",
+    "description": "Gross Production",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GP1",
+    "unit_qualifier": "X",
+    "description": "Gross Production Hectolitre",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GRM",
+    "unit_qualifier": "",
+    "description": "Gram",
+    "chief_code": "021",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "GRT",
+    "unit_qualifier": "",
+    "description": "Gross tonnage",
+    "chief_code": "093",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "HLT",
+    "unit_qualifier": "",
+    "description": "Hectolitre",
+    "chief_code": "078",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "HMT",
+    "unit_qualifier": "",
+    "description": "Hectometre",
+    "chief_code": "059",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KAC",
+    "unit_qualifier": "",
+    "description": "Kilogram net if acesulfame potassium",
+    "chief_code": "119",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KCC",
+    "unit_qualifier": "",
+    "description": "Kilogram of choline chloride",
+    "chief_code": "107",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KCL",
+    "unit_qualifier": "",
+    "description": "Tonne of potassium chloride",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "",
+    "description": "Kilogram",
+    "chief_code": "023",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "A",
+    "description": "Kilogram Total alcohol",
+    "chief_code": "063",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "E",
+    "description": "Kilogram net of drained weight",
+    "chief_code": "069",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "G",
+    "description": "Kilogram Gross",
+    "chief_code": "061",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "P",
+    "description": "Kilogram of lactic matter",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "S",
+    "description": "Kilogram of sugar with a yield in white sugar of 92%",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KGM",
+    "unit_qualifier": "T",
+    "description": "Kilogram of dry lactic matter",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KLT",
+    "unit_qualifier": "",
+    "description": "1000 litres",
+    "chief_code": "040",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KMA",
+    "unit_qualifier": "",
+    "description": "Kilogram of methylamines",
+    "chief_code": "039",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KMT",
+    "unit_qualifier": "",
+    "description": "Kilometre",
+    "chief_code": "114",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KNI",
+    "unit_qualifier": "",
+    "description": "Kilogram of nitrogen",
+    "chief_code": "003",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KNS",
+    "unit_qualifier": "",
+    "description": "Kilogram of hydrogen peroxide",
+    "chief_code": "029",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KPH",
+    "unit_qualifier": "",
+    "description": "Kilogram of potassium hydroxide (caustic potash)",
+    "chief_code": "002",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KPO",
+    "unit_qualifier": "",
+    "description": "Kilogram of potassium oxide",
+    "chief_code": "001",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KPP",
+    "unit_qualifier": "",
+    "description": "Kilogram of diphosphorus pentaoxide",
+    "chief_code": "005",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KSD",
+    "unit_qualifier": "",
+    "description": "Kilogram of substance 90% dry",
+    "chief_code": "067",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KSH",
+    "unit_qualifier": "",
+    "description": "Kilogram of sodium hydroxide (caustic soda)",
+    "chief_code": "004",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KUR",
+    "unit_qualifier": "",
+    "description": "Kilogram of uranium",
+    "chief_code": "006",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "KW1",
+    "unit_qualifier": "",
+    "description": "Kilowatt hour",
+    "chief_code": "097",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "LHC",
+    "unit_qualifier": "",
+    "description": "Standard litre (of hydrocarbon oil)",
+    "chief_code": "070",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "LPA",
+    "unit_qualifier": "",
+    "description": "Litre pure (100%) alcohol",
+    "chief_code": "066",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "LTR",
+    "unit_qualifier": "",
+    "description": "Litre",
+    "chief_code": "076",
+    "abbreviation": "l"
+  },
+  {
+    "unit_code": "LTR",
+    "unit_qualifier": "A",
+    "description": "Litre Total alcohol",
+    "chief_code": "066",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MCG",
+    "unit_qualifier": "",
+    "description": "Microgram",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MCL",
+    "unit_qualifier": "",
+    "description": "Microlitre",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MGM",
+    "unit_qualifier": "",
+    "description": "Milligram",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MIL",
+    "unit_qualifier": "",
+    "description": "1000 items",
+    "chief_code": "040",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MLT",
+    "unit_qualifier": "",
+    "description": "Millilitre",
+    "chief_code": "074",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MTK",
+    "unit_qualifier": "",
+    "description": "Square metre",
+    "chief_code": "045",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MTQ",
+    "unit_qualifier": "",
+    "description": "Cubic metre",
+    "chief_code": "087",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MTQ",
+    "unit_qualifier": "C",
+    "description": "Cubic metre 1000",
+    "chief_code": "080",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MTR",
+    "unit_qualifier": "",
+    "description": "Metre",
+    "chief_code": "057",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "MWH",
+    "unit_qualifier": "",
+    "description": "100 kilowatt hours",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "NAR",
+    "unit_qualifier": "",
+    "description": "Number of items",
+    "chief_code": "030",
+    "abbreviation": "p/st"
+  },
+  {
+    "unit_code": "NAR",
+    "unit_qualifier": "B",
+    "description": "Number of items per flask",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "NCL",
+    "unit_qualifier": "",
+    "description": "Number of cells",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "NPR",
+    "unit_qualifier": "",
+    "description": "Number of pairs",
+    "chief_code": "031",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "RET",
+    "unit_qualifier": "",
+    "description": "Retail Price",
+    "chief_code": "-",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TCE",
+    "unit_qualifier": "",
+    "description": "Tonne of CO2 equivalent",
+    "chief_code": "121",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TJO",
+    "unit_qualifier": "",
+    "description": "Terajoule (gross calorific value)",
+    "chief_code": "120",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "",
+    "description": "Tonne",
+    "chief_code": "025",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "E",
+    "description": "Tonne net of drained weight",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "I",
+    "description": "Tonne of biodiesel content",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "J",
+    "description": "Tonne of fuel content (usually in form of tallow, stearin, paraffin wax or other waxes, including the wick)",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "K",
+    "description": "Tonne of bioethanol content",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "M",
+    "description": "Tonne net of dry matter",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "R",
+    "description": "Tonne of the standard quality",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "TNE",
+    "unit_qualifier": "Z",
+    "description": "Tonne per 1% by weight of sucrose",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "WAT",
+    "unit_qualifier": "",
+    "description": "Number of Watt",
+    "chief_code": "117",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "",
+    "unit_qualifier": "",
+    "description": "",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "",
+    "unit_qualifier": "",
+    "description": "",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "",
+    "unit_qualifier": "",
+    "description": "",
+    "chief_code": "",
+    "abbreviation": ""
+  },
+  {
+    "unit_code": "",
+    "unit_qualifier": "",
+    "description": "",
+    "chief_code": ""
+  }
+]

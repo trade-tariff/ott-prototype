@@ -1,0 +1,94 @@
+
+{% for hit in hits.hits %}
+    {% if hit.display == true %}
+
+        {% set text = hit._source.goods_nomenclature_item_id %}
+        {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
+
+        {% set link = "https://www.trade-tariff.service.gov.uk" %}
+
+        {% if hit._source.class | lower == "commodity" %}
+            {% set prefix = "View commodity " %}
+            {% set class = "Commodity" %}
+            {% set link = link + "/commodities/" + hit._source.goods_nomenclature_item_id %}
+            {% set admin_link = admin_root + "commodities/" + hit._source.goods_nomenclature_item_id + "-" + hit._source.productline_suffix + "/search_references" %}
+
+        {% elif hit._source.class | lower == "heading" %}
+            {% set prefix = "View heading " %}
+            {% set class = "Heading" %}
+            {% set link = link + "/headings/" + hit._source.goods_nomenclature_item_id | substring(0, 4) %}
+            {% set admin_link = admin_root + "headings/" + hit._source.goods_nomenclature_item_id | substring(0, 4) + "/search_references" %}
+
+        {% elif hit._source.class | lower == "subheading" %}
+            {% set prefix = "View subheading " %}
+            {% set class = "Subheading" %}
+            {% set link = link + "/subheadings/" + hit._source.goods_nomenclature_item_id + "-" + hit._source.productline_suffix %}
+            {% set admin_link = admin_root + "commodities/" + hit._source.goods_nomenclature_item_id + "-" + hit._source.productline_suffix + "/search_references" %}
+
+        {% else %}
+            {% set prefix = "View chapter " %}
+            {% set class = "Chapter" %}
+            {% set link = link + "/chapters/" + hit._source.goods_nomenclature_item_id | substring(0, 2) %}
+            {% set admin_link = admin_root + "chapters/" + hit._source.goods_nomenclature_item_id | substring(0, 2) + "/search_references" %}
+
+        {% endif %}
+
+        <p class="govuk-!-margin-top-2 govuk-!-margin-bottom-1 b commodity-split">
+            {{ class }}
+            {{ text | format_commodity_code3(hit._source) | safe }}
+        </p>
+
+        {% set divider = "<span class=\"arrow\">▶</span>" %}
+        {% set divider = "<span class=\"arrow\">—xxx</span>" %}
+
+        <p class="desc govuk-!-margin-top-2 govuk-!-margin-bottom-1">
+            {% for h in hit._source.hierarchy %}
+                {{ h.description | highlight(context.search_term) | safe }}
+                {{ divider | safe }}
+            {% endfor %}
+
+            <span class="last-twig">
+                {{ hit._source.description | highlight(context.search_term) | safe }}
+            </span>
+            {# {% if hit._source.friendly_name != "" %}
+                <br>
+                <span class="tag red">{{ hit._source.friendly_name }}</span>
+            {% endif %} #}
+            {# {{ hit._source.hierarchy | dump }} #}
+        </p>
+
+        <i class="xscore">{{ hit._score }}</i>
+
+        {% set references = [] %}
+        {% set show_references = false %}
+        {% for search_reference in hit._source.search_references %}
+            {% if context.search_term in search_reference %}
+                {% set references = (references.push(search_reference), references) %}
+                {% set show_references = true %}
+            {% endif %}
+        {% endfor %}
+
+        {% if show_references %}
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Why is this result listed?</span>
+                </summary>
+                <div class="govuk-details__text">
+                    <p class="govuk-!-margin-top-0 govuk-!-margin-bottom-2">This {{ class | lower() }} has been tagged with the following key words:</p>
+                    {% for search_reference in references %}
+                        <span class="tag">{{ search_reference | safe }}</span>
+                    {% endfor %}
+                    <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="/feedback">Provide feedback</a> on this listing.</p>
+                </div>
+            </details>
+        {% endif %}
+
+        <p class="govuk-!-margin-top-2 govuk-!-margin-bottom-1">
+            <a href="{{ link }}" target="_blank">
+                {{ prefix }}{{ text | format_commodity_code3(hit._source) | safe }}
+            </a>
+        </p>
+        <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="{{ admin_link }}" target="_blank">Edit references</a></p>
+        <hr>
+    {% endif %}
+{% endfor %}

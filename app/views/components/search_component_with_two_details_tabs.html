@@ -1,0 +1,91 @@
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+        <div class="govuk-form-group feature-panel xnhs-grey-5 govuk-!-margin-bottom-4" style="margin:0px;padding:0px">
+            <form action="/search_handler" accept-charset="UTF-8" method="get">
+                <h2 class="govuk-heading-m">{{ context.get_content("home.search_title") | safe }}</h2>
+                <!--<p>{{ context.serviceName }} helps you to:</p>
+        <ul class="govuk-list govuk-list--bullet">
+            <li>find commodity codes for imports into or exports out of the UK</li>
+            <li>find the taxes and duties that apply to those imports</li>
+            <li>find out which certificates and licences apply to the import of your goods</li>
+        </ul>
+        <p>The first step is to find the commodity that you are importing or exporting.</p>
+        //-->
+
+                <details class="govuk-details" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">Tips on searching for products</span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        <p>You need to know the details about your product. This may include the:</p>
+
+                        <ul class="govuk-list--bullet govuk-list">
+                            <li>type of product</li>
+                            <li>purpose of the product</li>
+                            <li>materials used to make it</li>
+                            <li>production methods used to make it</li>
+                            <li>way it's packaged</li>
+                        </ul>
+
+                        <p>If you have an item made of 2 substances (for example, clothing that is 60% cotton and 40% polyester), you'd normally classify the item using the higher percentage content. There are exceptions, so check the relevant section and chapter notes for your goods in the tool.</p>
+
+                        <p>You must accurately describe your item to search the tool. These steps will help you get started:</p>
+
+                        <ul class="govuk-list--number govuk-list">
+                            <li>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</li>
+                            <li>The tool will suggest a section or number of sections, divided into chapters.</li>
+                            <li>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</li>
+                            <li>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="govuk-details" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">Step by step guidance</span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        <p>You must accurately describe your item to use the search tool. These steps will help you get started:</p>
+
+
+                        <ol class="steps">
+                            <li>
+                                <p>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</p>
+                            </li>
+                            <li>
+                                <p>The tool will suggest a section or number of sections, divided into chapters.</p>
+                            </li>
+                            <li>
+                                <p>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</p>
+                            </li>
+                            <li>
+                                <p>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</p>
+                            </li>
+                        </ol>
+
+                    </div>
+                </details>
+
+                <label class="govuk-label govuk-label--s" for="search_term">Enter the name of the goods or a commodity code</label>
+                <div id="event-name-hint" class="govuk-hint">
+            Commodity codes are 10-digit numbers that classify goods so you can fill in declarations and other paperwork.
+            You must use the right commodity code.
+        </div>
+                <input class="govuk-input govuk-input--width-30" id="search_term" name="search_term" type="text" xplaceholder="Enter the name of the goods or a 10-digit commodity code">
+                {% set show_date_button = false %}
+                {% include "../components/date_component.html" %}
+
+                <button class="govuk-button" data-module="govuk-button">Search for a commodity</button>
+
+            </form>
+            <hr>
+            <p>Alternatively, you can:</p>
+            <ul class="govuk-list--bullet govuk-list">
+                <li>
+                    <a href="/browse">browse the goods classification</a> or</li>
+                <li>
+                    <a href="/a-z-index/a">look for your product in the A-Z</a>.</li>
+            </ul>
+        </div>
+    </div>
+</div>

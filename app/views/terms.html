@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Terms and conditions",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Terms and conditions
+{% endblock %}
+
+{% block content %}
+  {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">{{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}</span>
+      <h1 class="govuk-heading-l">Terms and conditions</h1>
+
+      <h2 class="govuk-heading-m">Wrong codes and penalties</h2>
+
+      {{ govukWarningText({
+                text: "It's your responsibility to get your commodity code and licences right, even if you use an agent.",
+                iconFallbackText: "Warning"
+            }) }}
+
+      <p>HM Revenue and Customs (HMRC) can fine you, seize your goods and delay their release from customs if you import or export goods with the wrong codes.</p>
+
+      <h2 class="govuk-heading-m">Summary</h2>
+      <p>Users of {{ context.title_in_sentence }} should be aware that in any case where information on this website is at variance with that contained in the appropriate legislation, the latter will represent the correct legal position.</p>
+
+      <p>Whilst every effort is made to ensure the accuracy of the Tariff on GOV.UK, the onus remains with the user to consult published legislation as necessary and to ensure that the correct duties are paid at importation.</p>
+
+      <p>In instances where the Customs Authorities are at error, the importer or exporter may still be liable for any additional duty that may be demanded as a result of that error being discovered.</p>
+      <div class="bottom_switcher">
+        {% include "includes/scope_switcher_panel.html" %}
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

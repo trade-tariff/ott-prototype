@@ -1,0 +1,231 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Cookies on " + context.title_in_sentence,
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block pageTitle %}
+  Cookies on {{ context.title_in_sentence }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+            <span class="govuk-caption-xl">Calculate import duties</span>
+
+            <h1 class="govuk-heading-xl">Import duty calculation</h1>
+            <p class="govuk-body">You are importing commodity <a class="govuk-link" href="https://www.trade-tariff.service.gov.uk/commodities/6116108091">6116 10 80 91 (2600)</a> from <strong>Chile </strong> on <strong>01 April 2022</strong>.</p>
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Details of your trade</span>
+                </summary>
+                <div class="govuk-details__text">
+                    <dl class="govuk-summary-list">
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key govuk-body-s">
+          Origin:
+        </dt>
+                            <dd class="govuk-summary-list__value govuk-body-s">
+          Chile
+        </dd>
+                        </div>
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key govuk-body-s">
+          Commodity:
+        </dt>
+                            <dd class="govuk-summary-list__value govuk-body-s">
+          6116 10 80 91 (2600)
+          <br>
+          Other
+        </dd>
+                        </div>
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key govuk-body-s">
+          Import date:
+        </dt>
+                            <dd class="govuk-summary-list__value govuk-body-s">
+          01 April 2022
+        </dd>
+                        </div>
+
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key govuk-body-s">
+          Valuation of import:
+        </dt>
+                            <dd class="govuk-summary-list__value govuk-body-s">
+          £2,000.00
+        </dd>
+                        </div>
+                    </dl>
+                </div>
+            </details>
+
+            <nav>
+                <p class="govuk-body govuk-!-margin-bottom-3">See below for the options for paying duties on this import:</p>
+                <ul class="app-contents govuk-!-margin-bottom-9">
+                    <li class="govuk-!-margin-bottom-2">
+                        <a class="govuk-body" href="#third_country_tariff">Option 1: Third-country duty</a>
+                    </li>
+                    <li class="govuk-!-margin-bottom-2">
+                        <a class="govuk-body" href="#tariff_preference">Option 2: Tariff preference - Chile</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h2 id="third_country_tariff" class="govuk-heading-m govuk-!-margin-bottom-7">Option 1: Third-country duty</h2>
+            <table class="govuk-table govuk-table--m govuk-!-margin-bottom-9">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Data</th>
+                        <th scope="col" class="govuk-table__header">Calculation</th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric">Value</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">Valuation for import</td>
+                        <td class="govuk-table__cell govuk-body-s">Value of goods + freight + insurance costs</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£2,000.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">Import duty (2600)<br>
+                            <span class="govuk-green govuk-body-xs"> Third-country duty (UK)</span></td>
+                        <td class="govuk-table__cell govuk-body-s">0.00% * £2,000.00</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£0.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">VAT <br>
+                            <span class="govuk-green govuk-body-xs"> Standard rate</span></td>
+                        <td class="govuk-table__cell govuk-body-s">20.00% * £2,000.00</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£400.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">
+                            <strong>Duty Total</strong>
+                        </td>
+                        <td class="govuk-table__cell govuk-body-s"></td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">
+                            <strong>£400.00</strong>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="govuk-!-margin-bottom-5">
+                <p class="govuk-body">
+  A ‘Third country’ duty is the tariff charged where there isn’t a trade agreement or a customs union available. It can also be referred to as the Most Favoured Nation (<abbr title="Most Favoured Nation">MFN</abbr>) rate.
+</p>
+            </div>
+            <h2 id="tariff_preference" class="govuk-heading-m govuk-!-margin-bottom-7">Option 2: Tariff preference - Chile</h2>
+            <table class="govuk-table govuk-table--m govuk-!-margin-bottom-9">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Data</th>
+                        <th scope="col" class="govuk-table__header">Calculation</th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric">Value</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">Valuation for import</td>
+                        <td class="govuk-table__cell govuk-body-s">Value of goods + freight + insurance costs</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£2,000.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">Import duty<br>
+                            <span class="govuk-green govuk-body-xs"> Tariff preference (UK)</span></td>
+                        <td class="govuk-table__cell govuk-body-s">0.00% * £2,000.00</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£0.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">VAT <br>
+                            <span class="govuk-green govuk-body-xs"> Standard rate</span></td>
+                        <td class="govuk-table__cell govuk-body-s">20.00% * £2,000.00</td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">£400.00</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell govuk-body-s">
+                            <strong>Duty Total</strong>
+                        </td>
+                        <td class="govuk-table__cell govuk-body-s"></td>
+                        <td class="govuk-table__cell govuk-body-s govuk-table__cell--numeric">
+                            <strong>£400.00</strong>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="govuk-!-margin-bottom-5">
+                <p class="govuk-body">A tariff preference is the rate available if a free trade agreement or another arrangement is in place between the UK and an overseas country. Goods will need to comply with the <a target="_blank" href="https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin" class="govuk-link">rules of origin</a> to benefit from this rate and you will need to provide evidence of compliance with your shipment.</p>
+            </div>
+
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Product-specific rules for commodity 6116 1080 91</span>
+                </summary>
+                <div class="govuk-details__text">
+
+                    <p>If your product has been produced using any non-originating materials, the
+                product has to fulfil the following product-specific rule to be considered
+                originating in the UK or Chile.
+            </p>
+                    <p>If there are alternative rules, your product needs to comply with only one of them.</p>
+
+                    <table class="govuk-table govuk-table--responsive commodity-rules-of-origin">
+                        <thead class="govuk-table__head">
+                            <tr class="govuk-table__row">
+                                <th class="govuk-table__header govuk-!-width-one-quarter" scope="col">Heading</th>
+                                <th class="govuk-table__header" scope="col">Description</th>
+                                <th class="govuk-table__header" scope="col">Rule</th>
+                            </tr>
+                        </thead>
+                        <tbody class="govuk-table__body">
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell" data-label="Heading">
+                                    <span class="rules-of-origin__non-breaking-heading">Chapter 61</span>
+                                </td>
+                                <td class="govuk-table__cell" data-label="Description">— Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form</td>
+                                <td class="govuk-table__cell tariff-markdown responsive-full-width" data-label="Rule">
+                                    <p>Manufacture from yarn. For special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.</p>
+                                </td>
+                            </tr>
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell" data-label="Heading">
+                                    <span class="rules-of-origin__non-breaking-heading">Chapter 61</span>
+                                </td>
+                                <td class="govuk-table__cell" data-label="Description">— Other</td>
+                                <td class="govuk-table__cell tariff-markdown responsive-full-width" data-label="Rule">
+                                    <p>Manufacture from:</p>
+                                    <ul>
+                                        <li>
+                                            <p>natural fibres,</p>
+                                        </li>
+                                        <li>
+                                            <p>man-made staple fibres, not carded or combed or otherwise processed for spinning or</p>
+                                        </li>
+                                        <li>
+                                            <p>chemical materials or textile pulp</p>
+                                        </li>
+                                    </ul>
+                                    <p>For special conditions relating to products made of a mixture of textile materials, see Introductory Note 5.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </details>
+        </div>
+    </div>
+{% endblock %}

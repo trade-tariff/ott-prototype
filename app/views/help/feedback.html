@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Leave feeback or suggestions - UK Integrated Online Tariff 
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">UK Integrated Online Trade Tariff</span>
+            <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="500">
+                <div class="govuk-form-group">
+                    <h1 class="govuk-label-wrapper">
+                        <label class="govuk-label govuk-label--l" for="with-hint">Leave feedback or suggestions for improvements to this service</label>
+                    </h1>
+                    <div id="with-hint-hint" class="govuk-hint">
+                        Use this field to let us know if something went wrong, or if you have any feedback or suggestions for the website.
+                        Do not include personal or financial information.
+                    </div>
+                    <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="with-hint" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                </div>
+
+                <div id="with-hint-info" class="govuk-hint govuk-character-count__message">
+                    You can enter up to 500 characters
+                </div>
+
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="width-20">Your name (optional)</label>
+                <input class="govuk-input govuk-input--width-20" id="width-20" name="width-20" type="text">
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="width-20">Your email address (optional)</label>
+                <input class="govuk-input govuk-input--width-20" id="width-20" name="width-20" type="text">
+            </div>
+
+            <button class="govuk-button" data-module="govuk-button">Submit feedback</button>
+
+        </div>
+    </div>
+
+    {% set show_webchat = false %}
+    {% if show_webchat %}
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    {% endif %}
+{% endblock %}
+</html>

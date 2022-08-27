@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% set phase = "trade_direction" %}
+
+{% block pageTitle %}
+  Are you importing goods into the UK or into {{ context.country_name }} - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/commodities/" + context.goods_nomenclature_item_id + "/" + context.country + "#rules_of_origin"
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            {% if context.gsp == false %}
+                <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                    <input type="hidden" name="phase" id="phase" value="{{ phase }}" >
+                    
+                    {# <span class="govuk-caption-xl">Trading commodity {{ context.goods_nomenclature_item_id }} with {{ context.country_name }}</span> #}
+                    <span class="govuk-caption-xl">Details of your trade</span>
+
+                    {{ govukRadios({
+                        idPrefix: "trade_direction",
+                        name: "trade_direction",
+                        fieldset: {
+                            legend: {
+                            text: "Are you importing goods into the UK or into " + context.country_name + "?",
+                            isPageHeading: true,
+                            classes: "govuk-fieldset__legend--xl"
+                            }
+                        },
+                        items: [
+                            {
+                                value: "import",
+                                text: "I am importing goods into the UK from " + context.country_name
+                            },
+                            {
+                                value: "export",
+                                text: "I am exporting goods from the UK to " + context.country_name
+                            }
+                        ]
+                    }) }}
+
+                    {{ govukButton({
+                        text: "Continue",
+                        href: ""
+                    }) }}
+                </form>
+            {% else %}
+                <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                    <input type="hidden" name="phase" id="phase" value="trade_direction" >
+                    <input type="hidden" name="trade_direction" id="trade_direction" value="import" >
+                    <span class="govuk-caption-xl">Trading commodity {{ context.goods_nomenclature_item_id }} with {{ context.country_name }}</span>
+                    <h1 class="govuk-heading-l">Importing goods into the United Kingdom from countries which belong to the GSP scheme</h1>
+                    <p class="govuk-body-l">{{ context.country_name }} is a member of the unilateral
+                        <a href="https://www.gov.uk/government/publications/trading-with-developing-nations" target="_blank">Generalized System of Preferences (GSP)</a> scheme.
+                        The rules of origin apply only to the import of goods from the overseas country.
+                    </p>
+                    <h2 class="govuk-heading-m">Importing goods from {{ context.country_name }}</h2>
+                    <p>Click on the 'Continue' button to determine if the rules of origin apply to your import from {{ context.country_name }}.</p>
+
+                    {{ govukButton({
+                        text: "Continue",
+                        href: ""
+                    }) }}
+
+                    <h2 class="govuk-heading-m">Exporting goods to {{ context.country_name }}</h2>
+                    <p>If you would like to export goods to {{ context.country_name }}, then MFN duties will apply.</p>
+
+                    <p>For Most-Favoured Nation (MFN) duties, anti-dumping, anti-subsidies or safeguard measures, origin marking, non-preferential rules of origin apply.</p>
+                    <p>
+                        <a href="https://www.gov.uk/government/publications/reference-document-for-the-customs-origin-of-chargeable-goods-eu-exit-regulations-2020">Find out about the product-specific rules, to determine the origin of imports outside of a preferential agreement.</a>
+                    </p>
+
+                </form>
+            {% endif %}
+        </div>
+        {% if context.gsp == false %}
+            <div class="govuk-grid-column-one-third">
+                {% include "./aside.html" %}
+            </div>
+        {% endif %}
+    </div>
+
+{% endblock %}
+</html>

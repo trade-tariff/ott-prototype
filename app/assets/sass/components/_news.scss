@@ -1,0 +1,19 @@
+.news {
+    width          : 100%;
+    display        : flex;
+    flex-wrap      : nowrap;
+    justify-content: space-evenly;
+    align-content  : space-around;
+    font-family: GDS Transport, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 19px;
+}
+
+.news_date {
+    width: 20%
+}
+
+.news_story {
+    width: 80%
+}

@@ -1,0 +1,11 @@
+{% if context.scope_id == "xi" %}
+    {% set url = context.root_url | other_scope("xi") %}
+    {% set text = ukSubServiceName %}
+{% else %}
+    {% set url = context.root_url | other_scope("") %}
+    {% set text = xiSubServiceName %}
+{% endif %}
+
+<p class="service_name">You are viewing {{ context.service_name }}.</p>
+<span class="switch_spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="switch_control"><a href="{{ url }}">Switch to the {{ text }}</a></span>

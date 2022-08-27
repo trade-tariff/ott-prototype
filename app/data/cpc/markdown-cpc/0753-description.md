@@ -1,0 +1,3 @@
+The use of this procedure code is a declaration by the importer that the conditions laid down in Council Regulation (EU) No. 952/2013, Commission Delegated Regulation (EU) No. 2015/2446 and Commission Implementing Regulation (EU) No. 2015/2447 are met.
+
+Release of goods for free circulation after temporary admission with simultaneous placement under a warehousing procedure other than customs warehousing (placed in an excise warehouse), where excise duties only are suspended (Article 250 EU Reg. No. 952/2013 (UCC)). The law which governs the storage of goods in an excise warehouse may be found in section 17 of [Notice 197](https://www.gov.uk/guidance/receive-goods-into-and-remove-goods-from-an-excise-warehouse-excise-notice-197#the-law).

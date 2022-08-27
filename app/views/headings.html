@@ -1,0 +1,143 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "All sections",
+      href: "/sections/"
+    },
+    {
+        text: "Section " + heading.section_id | roman,
+        href: "/sections/" + heading.section_id
+    },
+    {
+      text: "Chapter " + heading.chapter_id,
+        href: "/chapters/" + heading.chapter_id
+    },
+    {
+      text: "Heading " + heading.data.attributes.goods_nomenclature_item_id | substring(0, 4),
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+    {{ heading.data.attributes.formatted_description | safe }} - {{ serviceName }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    {% set min_code = "0000000000" %}
+
+    {% set has_chaper_notes = false %}
+    {% for item in heading.included %}
+        {% if (item.type == "chapter") %}
+            {% set has_chaper_notes = true %}
+        {% endif %}
+    {% endfor %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% set title_len = heading.data.attributes.formatted_description | length %}
+            {% if title_len > 400 %}
+                {% set title_class = "govuk-heading-s" %}
+            {% elseif title_len > 120 %}
+                {% set title_class = "govuk-heading-m" %}
+            {% else %}
+                {% set title_class = "govuk-heading-l" %}
+            {% endif %}
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="{{ title_class }}">
+                 Heading {{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }} - {{ heading.data.attributes.formatted_description | safe }}
+            </h1>
+            {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
+            {% set admin_link = admin_root + "headings/" + heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) + "/search_references" %}
+            <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="{{ admin_link }}" target="_blank">Edit references</a></p>
+        </div>
+    </div>
+
+    {% include "includes/context_include.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            <div class="govuk-inset-text">
+                <p>There are <strong>{{ heading.leaf_count }} commodities</strong> in this category. Choose the commodity code that best matches your goods to see more information. 
+                If your item is not listed by name, it may be shown under what it's used for, what it's made from or 'Other'.</p>
+                {% if has_chaper_notes %}
+                    There are <a href="#section-chapter-notes">important notes for classifying your goods</a> shown further down this page.
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            {% include "includes/heading_include.html" %}
+
+
+
+
+            <!-- Start section / chapter notes //-->
+            <article class="section-chapter-notes" id="section-chapter-notes">
+                {% for item in heading.included %}
+                    {% if (item.type == "chapter") %}
+                        <h2 class="govuk-heading-m">Chapter notes</h2>
+                        {{ item.attributes.chapter_note | convert_markdown | safe }}
+                    {% endif %}
+                {% endfor %}
+                {% for item in heading.included %}
+                    {% if (item.type == "section") %}
+                        <h2 class="govuk-heading-m">Section notes</h2>
+                        {{ item.attributes.section_note | convert_markdown | safe }}
+                    {% endif %}
+                {% endfor %}
+            </article>
+            <!-- End section / chapter notes //-->
+
+            {% include "includes/general_interpretative_rules.html" %}
+
+            <!-- Start footnotes //-->
+            <h2 class="govuk-heading-m govuk-!-margin-top-6">Footnotes</h2>
+            <article class="section_chapter_notes">
+                <table class="govuk-table">
+                    <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Code</th>
+                            <th scope="col" class="govuk-table__header">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                        {% for item in heading.footnotes %}
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">{{ item.code }}</td>
+                                <td class="govuk-table__cell">{{ item.description | safe }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </article>
+            <!-- End footnotes //-->
+            <div class="bottom_switcher">
+                {% include "includes/scope_switcher_panel.html" %}
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/public/javascripts/debounce.js"></script>
+<script type="text/javascript" src="/public/javascripts/commodities.js"></script>
+
+<script>
+    $(function () {
+        GOVUK
+            .tariff
+            .onLoad();
+    });
+</script>
+
+{% endblock %}

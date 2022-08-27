@@ -1,0 +1,452 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - select origin
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+    text: "Back",
+    classes: "noprint",
+    href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+  }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <!-- 03-origin.html //-->
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <span class="govuk-caption-xl">Import guidance</span>
+      <h1 class="govuk-heading-l">Import controls for commodity {{commodity.data.attributes.goods_nomenclature_item_id}}</h1>
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Your commodity code</dt>
+          <dd class="govuk-summary-list__value">
+            {{commodity.data.attributes.goods_nomenclature_item_id}}
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Date of import</dt>
+          <dd class="govuk-summary-list__value">01 Jan 2022</dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Goods coming from</dt>
+          <dd class="govuk-summary-list__value">{{commodity.country_name }}</dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Your goods classification</dt>
+          <dd class="govuk-summary-list__value">{{ commodity.crumb | safe }}
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Border system</dt>
+          <dd class="govuk-summary-list__value">
+            {{ commodity.border_system }}
+
+          </dd>
+        </div>
+      </dl>
+      {# <h2 class="govuk-heading-m">Rules that apply to your goods</h2>
+      <p>Follow the rules to find out:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>licences that you need to move the goods</li>
+        <li>certificates that the seller must provide</li>
+        <li>controls or restrictions on goods entering the country</li>
+        <li>sanctions that make it illegal to trade with other countries</li>
+      </ul>
+
+      <div class="govuk-inset-text">
+  If you do not have the right documents or licences, you will not be able
+  to import the goods.
+</div>
+
+      <h2 class="govuk-heading-s">Exemptions: when rules are different or do not apply</h2>
+      <p>Sometimes the rules may be different or not apply to your specific goods or circumstances.
+The exemptions that are listed after the rules tell you:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>when the rules do not apply to your goods</li>
+        <li>any conditions you need to meet or evidence you need to show to prove the goods are exempt</li>
+      </ul> #}
+
+      <details class="govuk-details noprint" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">
+            Tailor the results to CHIEF or CDS
+          </span>
+        </summary>
+        <div class="govuk-details__text">
+          {# The codes next to the rules or exemptions are the import codes that apply to your goods. You (or your agent) will need these codes to complete the import declaration. #}
+
+          <form action="/preferences-handler" method="get">
+
+            {% if data["border_system"] == "chief" %}
+              {% set chief_selected = true %}
+              {% set cds_selected = false %}
+              {% set table_header = "CHIEF completion guidance" %}
+            {% endif %}
+            {% if data["border_system"] == "cds" %}
+              {% set chief_selected = false %}
+              {% set cds_selected = true %}
+              {% set table_header = "CDS completion guidance" %}
+            {% endif %}
+
+            {{ govukRadios({
+                idPrefix: "border_system",
+                name: "border_system",
+                fieldset: {
+                    legend: {
+                    text: "Which border system do you use?",
+                    isPageHeading: false,
+                    classes: "govuk-fieldset__legend--m"
+                    }
+                },
+                hint: {
+                    text: "The information below may be tailored to the requirements for completing declarations on either CHIEF or CDS. Select the border system for which you would like guidance"
+                },
+                items: [
+                    {
+                    value: "cds",
+                    text: "CDS",
+                    checked: cds_selected
+                    },
+                    {
+                    value: "chief",
+                    text: "CHIEF",
+                    checked: chief_selected
+                    }
+                ]
+            }) }}
+
+            {{ govukButton({
+                text: "Save preferences",
+                classes: "tight"
+            }) }}
+          </form>
+
+        </div>
+      </details>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    {# <div class="govuk-grid-column-full"> #}
+    <div class="govuk-grid-column-full">
+
+      {% for m in commodity.measures %}
+        {% if m.has_conditions %}
+          {% set condition_class = "" %}
+          <h2 class="govuk-heading-l govuk-!-margin-top-9">{{ m.measure_type_description }}</h2>
+          {# <table class="govuk-table govuk-table--m">
+            <caption class="govuk-table__caption govuk-heading-s">Rules</caption>
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header" style="width:10%">Code</th>
+                <th scope="col" class="govuk-table__header" style="width:30%">{{ mc.condition_class_label }}</th>
+                <th scope="col" class="govuk-table__header" style="width:60%">{{ table_header }}</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body"> #}
+          {% for mc in m.exposed_conditions %}
+            {% if mc.positive %}
+              {% if mc.condition_class != condition_class and condition_class != "" %}
+              </table>
+            {% endif %}
+            {% if mc.condition_class != condition_class %}
+              <table class="govuk-table govuk-table--m">
+                <caption class="govuk-table__caption govuk-heading-s">{{ mc.condition_class_label }}s</caption>
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header" style="width:10%">Code</th>
+                    <th scope="col" class="govuk-table__header" style="width:30%">{{ mc.condition_class_label }}</th>
+                    <th scope="col" class="govuk-table__header" style="width:60%">{{ table_header }}</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+
+                {% endif %}
+
+                <tr class="govuk-table__row">
+                  <th scope="row" class="govuk-table__header">{{ mc.document_code | safe }}</th>
+                  <td class="govuk-table__cell">
+                    {{ mc.requirement | safe }}
+                  </td>
+                  <td class="govuk-table__cell tight">
+                    {% if data["border_system"] == "cds" %}
+                      {{ mc.appendix_5a.guidance_cds | safe }}
+                    {% else %}
+                      {{ mc.appendix_5a.guidance_chief | safe }}
+                    {% endif %}
+                    {% if mc.status_code_descriptions | length > 0 %}
+                      <details class="govuk-details govuk-details-m" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                          <span class="govuk-details__summary-text">About these status codes</span>
+                        </summary>
+                        <div class="govuk-details__text">
+                          <table class="govuk-table govuk-table--m">
+                            <thead class="govuk-table__head">
+                              <tr class="govuk-table__row">
+                                <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+                                <th scope="col" class="govuk-table__header" style="width:80%">Usage</th>
+                              </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                              {% for sc in mc.status_code_descriptions %}
+                                <tr class="govuk-table__row">
+                                  <th scope="row" class="govuk-table__header">{{ sc.status_code }}</th>
+                                  <td class="govuk-table__cell">{{ sc.description }}</td>
+                                </tr>
+                              {% endfor %}
+                            </tody>
+                          </table>
+                        </div>
+                      </details>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endif %}
+              {% set condition_class = mc.condition_class %}
+            {% endfor %}
+          </tbody>
+        </table>
+        {% if m.footnotes.length > 0 %}
+          <details class="govuk-details govuk-details-m" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+              <span class="govuk-details__summary-text">Footnotes on {{ m.measure_type_description }}</span>
+            </summary>
+            <div class="govuk-details__text">
+              <table class="govuk-table govuk-table--m">
+                <thead class="govuk-table__head">
+                  <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+                    <th scope="col" class="govuk-table__header" style="width:80%">Footnote</th>
+                  </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                  {% for f in m.footnotes %}
+                    <tr class="govuk-table__row">
+                      <th scope="row" class="govuk-table__header">{{ f.code }}</th>
+                      <td class="govuk-table__cell">{{ f.description | safe }}</td>
+                    </tr>
+                  {% endfor %}
+                </tody>
+              </table>
+            </div>
+          </details>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {# <h2 class="govuk-heading-l govuk-!-margin-top-9">Veterinary controls</h2>
+        <table class="govuk-table measure-table">
+          <caption class="govuk-table__caption govuk-heading-s">Follow the rules that apply to import your goods.</caption>
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Rules</th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">N853</th>
+              <td class="govuk-table__cell">
+                <p>You need a Common Health Entry Document (CHED-P) for products.</p>
+                <p>
+                  <a href="https://webgate.ec.europa.eu/cfcas3/tracesnt-webhelp/Content/N_CHED-P/Intro.htm">Apply for a Common Health Entry Document for products (CHED-P)</a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="govuk-table measure-table measure-table2">
+          <thead>
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Exemptions</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">C084</th>
+              <td class="govuk-table__cell">
+                <p>If your goods are intended for scientific purposes, research or diagnostic samples, then your goods are exempt.</p>
+              </td>
+            </tr>
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">Y058</th>
+              <td class="govuk-table__cell">
+                <p>If your shipment is comprised of <a href="https://www.google.com">goods which are for passengers' personal luggage and are intended for personal consumption or use</a> and  weighs less than 2 kilograms, then your goods are exempt.</p>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+        <h2 class="govuk-heading-l govuk-!-margin-top-9">Animal Health Certificate</h2>
+        <table class="govuk-table measure-table">
+          <caption class="govuk-table__caption govuk-heading-s">Follow the rules that apply to import your goods.</caption>
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Rules</th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">9120</th>
+              <td class="govuk-table__cell">
+                <p>You need a licence to import animal pathogens and products.</p>
+                <p>
+                  <a href="https://www.gov.uk/government/publications/animal-products-and-pathogens-application-for-import-licence">Apply for a licence to import animal pathogens and products</a>
+                </p>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+        <h2 class="govuk-heading-l govuk-!-margin-top-9">CITES: import control</h2>
+        <table class="govuk-table measure-table">
+          <caption class="govuk-table__caption govuk-heading-s">Follow the rules that apply to import your goods.</caption>
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Rules</th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">C400</th>
+              <td class="govuk-table__cell">
+                <p>You need a CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) certificate to bring your goods into the UK.</p>
+                <p>You need a permit or certificate to import goods or species on the CITES list.</p>
+                <p>
+                  <a href="https://www.gov.uk/guidance/apply-for-cites-permits-and-certificates-to-trade-endangered-species">Apply for CITES permits and certificates to move or trade endangered species</a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="govuk-table measure-table measure-table2">
+          <thead>
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Exemptions</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">Y900</th>
+              <td class="govuk-table__cell">
+                <p>If the declared goods are not on the CITES list, you do not need a permit or certificate.</p>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+        <h2 class="govuk-heading-l govuk-!-margin-top-9">Import control on organic goods</h2>
+        <table class="govuk-table measure-table">
+          <caption class="govuk-table__caption govuk-heading-s">Follow the rules that apply to import your goods.</caption>
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Rules</th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">C644</th>
+              <td class="govuk-table__cell">
+                <p>You must register with a UK-approved organic control body to import organic products.</p>
+                <p>If your goods are organic, You must also:</p>
+                <ul class="govuk-list govuk-list--bullet">
+                  <li>get a Certificate of Inspection (CoI) for organic produce from the exporter before the goods arrive in the UK</li>
+                  <li>tell the Port Health Authority (PHA) that your goods are due to arrive via the PHA pre-notification system</li>
+                  <li>show your Certificate of Inspection to the PHA at the port your goods are arriving at. The PHA will check and stamp the certificate before your goods go to customs for clearance</li>
+                </ul>
+                <p>
+                  <a href="https://www.gov.uk/guidance/importing-and-exporting-organic-food">Read more information on how to import organic food</a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="govuk-table measure-table measure-table2">
+          <thead>
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+              <th scope="col" class="govuk-table__header">Exemptions</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header">Y929</th>
+              <td class="govuk-table__cell">
+                <p>If your goods are not organic, you may need to show proof.</p>
+                <p>Make sure there are no organic references on the packaging.</p>
+              </td>
+            </tr>
+
+          </tbody>
+        </table> #}
+
+    <br><br><br><br><br>
+
+    <a href="#" role="button" onclick="window.print()" class="govuk-link gem-c-print-link__link govuk-link--no-visited-state hideNoJs noprint" data-module="govuk-button" id="printButton">Print results</a>
+
+    {# <div class="govuk-grid-row" style="margin-top: 60px">
+          <div class="govuk-grid-column-full">
+            <aside class="app-related-items" role="complementary" style="border-top: 2px solid #1d70b8;">
+              <h2 class="govuk-heading-m" id="subsection-title">If you need help</h2>
+              <nav role="navigation" aria-labelledby="subsection-title">
+                <ul class="govuk-list govuk-!-font-size-16">
+                  <li>
+                    <a href="#">Check the Department for International Trade’s frequently asked questions and message board</a>
+                  </li>
+                  <li>
+                    <a href="#">Get assistance to complete your search over the phone</a>
+                  </li>
+                  <li>
+                    <a href="#">Submit a trade support request to the Department for International Trade</a>
+                  </li>
+                </ul>
+              </nav>
+            </aside>
+          </div>
+        </div> #}
+
+    {# {% include "../includes/commodity_panel.html" %} #}
+
+    {# <div class="gem-c-contextual-footer">
+      <div class="gem-c-related-navigation">
+        <nav role="navigation" class="gem-c-related-navigation__nav-section">
+          <h2 id="related-nav-topics-c7e51674" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer">Explore the topic</h2>
+          <ul class="gem-c-related-navigation__link-list">
+            <li class="gem-c-related-navigation__link">
+              <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer" href="https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin">Check your goods meet the rules of origin</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div> #}
+  </div>
+</div>
+
+{% endblock %}
+</html>

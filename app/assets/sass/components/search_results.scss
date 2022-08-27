@@ -1,0 +1,84 @@
+.search_result {
+    font-family            : "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight            : normal;
+    font-size              : 14px;
+    line-height            : 1.5;
+    display                : flex;
+    flex-wrap              : nowrap;
+    justify-content        : space-between;
+    align-items            : flex-start;
+    padding-top            : 5px;
+    padding-bottom         : 5px;
+    background-image       : url('/public/images/l-shape.png');
+    background-repeat      : no-repeat;
+    background-position-y  : 13px;
+
+    .commodity {
+        min-width    : 110px;
+        padding-left : 0.25em;
+        padding-right: 0.25em;
+        text-align   : right;
+        white-space  : nowrap;
+    }
+}
+
+@media (min-width: 40.0625em) {
+    .search_result {
+        font-size: 16px;
+
+        .commodity {
+            padding-left : 0.5em;
+            padding-right: 0.5em;
+            min-width    : 160px;
+        }
+    }
+
+    .result_00 {
+        font-size: 19px !important;
+    }
+}
+
+.result_00 {
+    padding-left    : 8px !important;
+    padding-bottom  : 8px !important;
+    padding-top     : 8px !important;
+    font-weight     : bold;
+    background-color: #f6f6f6;
+    background      : none;
+    font-size       : 16px;
+    margin-top      : 1em;
+    background-color: #f6f6f6;
+}
+
+.result_01 {
+    padding-left         : 1.5em !important;
+    font-weight          : bold;
+    background-position-x: 0.5em;
+}
+
+.result_02 {
+    padding-left         : 3em !important;
+    background-position-x: 2em;
+}
+
+.result_03 {
+    padding-left         : 4.5em !important;
+    background-position-x: 3.5em;
+}
+
+.result_04 {
+    padding-left         : 6em !important;
+    background-position-x: 5em;
+}
+
+.result_05 {
+    padding-left         : 7.5em !important;
+    background-position-x: 6.5em;
+}
+
+.highlight {
+    background-color: #ff6;
+    padding         : 0px 3px 0px 3px
+}

@@ -1,0 +1,3178 @@
+[
+  {
+    "rule_of_origin": "All animals of Chapter 1 are wholly obtained.",
+    "key_first": "0101000000",
+    "code_high": "0106999999",
+    "product_specific_rules": [
+      "All animals of Chapter 1 are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapters 1 and 2 used are wholly obtained.",
+    "key_first": "0201000000",
+    "code_high": "0210999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapters 1 and 2 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapter 3 used are wholly obtained.",
+    "key_first": "0301000000",
+    "code_high": "0308999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapter 3 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "0401000000",
+    "code_high": "0410999999",
+    "product_specific_rules": [
+      "Production in which:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "0501000000",
+    "code_high": "0511999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapter 6 used are wholly obtained.",
+    "key_first": "0601000000",
+    "code_high": "0604999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapter 6 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapter 7 used are wholly obtained.",
+    "key_first": "0701000000",
+    "code_high": "0714999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapter 7 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which:\n* all the materials of Chapter 8 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "0801000000",
+    "code_high": "0814999999",
+    "product_specific_rules": [
+      "Production in which:\n* all the materials of Chapter 8 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "0901000000",
+    "code_high": "0910999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapter 10 used are wholly obtained.",
+    "key_first": "1001000000",
+    "code_high": "1008999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapter 10 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all materials of Chapters 10 and 11, headings 07.01, 07.14, 23.02 to 23.03 or subheading 0710.10 used are wholly obtained.",
+    "key_first": "1101000000",
+    "code_high": "1109999999",
+    "product_specific_rules": [
+      "Production in which all materials of Chapters 10 and 11, headings 07.01, 07.14, 23.02 to 23.03 or subheading 0710.10 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1201000000",
+    "code_high": "1214999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading in which the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "1301000000",
+    "code_high": "1302999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading in which the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "1401000000",
+    "code_high": "1404999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1501000000",
+    "code_high": "1504999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "1505000000",
+    "code_high": "1506999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "1507000000",
+    "code_high": "1508999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the vegetable materials used are wholly obtained.",
+    "key_first": "1509000000",
+    "code_high": "1510999999",
+    "product_specific_rules": [
+      "Production in which all the vegetable materials used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "1511000000",
+    "code_high": "1515999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1516000000",
+    "code_high": "1517999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "1518000000",
+    "code_high": "1519999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "1520000000",
+    "code_high": "1520999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "1521000000",
+    "code_high": "1522999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapters 1, 2, 3 and 16 used are wholly obtained.",
+    "key_first": "1601000000",
+    "code_high": "1604189999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapters 1, 2, 3 and 16 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CC",
+    "key_first": "1604190000",
+    "code_high": "1604200499",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter)"
+    ]
+  },
+  {
+    "rule_of_origin": "CC",
+    "key_first": "1604200500",
+    "code_high": "1604200500",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter)"
+    ]
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapters 3 and 16 used are wholly obtained",
+    "key_first": "1604200501",
+    "code_high": "1604209999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapters 3 and 16 used are wholly obtained"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapters 3 and 16 used are wholly obtained.",
+    "key_first": "1604310000",
+    "code_high": "1605699999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapters 3 and 16 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1701000000",
+    "code_high": "1701999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that the total weight of non-originating materials of headings 11.01 to 11.08, 17.01 and 17.03 used does not exceed 20% of the weight of the product.",
+    "key_first": "1702000000",
+    "code_high": "1702999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that the total weight of non-originating materials of headings 11.01 to 11.08, 17.01 and 17.03 used does not exceed 20% of the weight of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1703000000",
+    "code_high": "1703999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product.",
+    "key_first": "1704000000",
+    "code_high": "1704902999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* (i) the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product; or\n* (ii) the value of non-originating materials of headings 17.01 and 17.02 used does not exceed 30% of the ex-works price of the product.",
+    "key_first": "1704903000",
+    "code_high": "1704905099",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* (i) the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product",
+      "* (ii) the value of non-originating materials of headings 17.01 and 17.02 used does not exceed 30% of the ex-works price of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product.",
+    "key_first": "1704905100",
+    "code_high": "1704999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "1801000000",
+    "code_high": "1805999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product.",
+    "key_first": "1806100000",
+    "code_high": "1806199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* (i) the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product; or\n* (ii) the value of non-originating materials of headings 17.01 and 17.02 used does not exceed 30% of the ex-works price of the product.",
+    "key_first": "1806200000",
+    "code_high": "1806909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* (i) the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product",
+      "* (ii) the value of non-originating materials of headings 17.01 and 17.02 used does not exceed 30% of the ex-works price of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained;\n* the total weight of non-originating materials of Chapters 2, 3 and 16 used does not exceed 20% of the weight of the product;\n* the total weight of non-originating materials of headings 10.06 and 11.08 used does not exceed 20% of the weight of the product _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product.",
+    "key_first": "1901000000",
+    "code_high": "1905999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained",
+      "* the total weight of non-originating materials of Chapters 2, 3 and 16 used does not exceed 20% of the weight of the product",
+      "* the total weight of non-originating materials of headings 10.06 and 11.08 used does not exceed 20% of the weight of the product _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "2001000000",
+    "code_high": "2001999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Production in which all the materials of Chapter 7 used are wholly obtained.",
+    "key_first": "2002000000",
+    "code_high": "2003999999",
+    "product_specific_rules": [
+      "Production in which all the materials of Chapter 7 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product.",
+    "key_first": "2004000000",
+    "code_high": "2009999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 40% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product.",
+    "key_first": "2101000000",
+    "code_high": "2102999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH; however, non-originating mustard flour or meal or prepared mustard may be used.",
+    "key_first": "2103100000",
+    "code_high": "2103199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "however, non-originating mustard flour or meal or prepared mustard may be used."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH; however, non-originating mustard flour or meal or prepared mustard may be used.",
+    "key_first": "2103200000",
+    "code_high": "2103299999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "however, non-originating mustard flour or meal or prepared mustard may be used."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "2103300000",
+    "code_high": "2103899999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH; however, non-originating mustard flour or meal or prepared mustard may be used.",
+    "key_first": "2103900000",
+    "code_high": "2103999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "however, non-originating mustard flour or meal or prepared mustard may be used."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product.",
+    "key_first": "2104000000",
+    "code_high": "2106999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 22.07 and 22.08, provided that:\n* all the materials of subheadings 0806.10, 2009.61, 2009.69 used are wholly obtained;\n* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product.",
+    "key_first": "2201000000",
+    "code_high": "2206999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 22.07 and 22.08, provided that:\n* all the materials of subheadings 0806.10, 2009.61, 2009.69 used are wholly obtained",
+      "* all the materials of Chapter 4 used are wholly obtained _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 22.08, provided that all the materials of Chapter 10, subheadings 0806.10, 2009.61 and 2009.69 used are wholly obtained.",
+    "key_first": "2207000000",
+    "code_high": "2207999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 22.08, provided that all the materials of Chapter 10, subheadings 0806.10, 2009.61 and 2009.69 used are wholly obtained."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 22.07 and 22.08, provided that all the materials of subheadings 0806.10, 2009.61 and 2009.69 used are wholly obtained.",
+    "key_first": "2208000000",
+    "code_high": "2209999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 22.07 and 22.08, provided that all the materials of subheadings 0806.10, 2009.61 and 2009.69 used are wholly obtained."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "2301000000",
+    "code_high": "2302099999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, provided that the total weight of non-originating materials of Chapter 10 used does not exceed 20% of the weight of the product.",
+    "key_first": "2302100000",
+    "code_high": "2303109999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that the total weight of non-originating materials of Chapter 10 used does not exceed 20% of the weight of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "2303200000",
+    "code_high": "2308009999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, provided that:\n* all the materials of Chapters 2 and 4 used are wholly obtained;\n* the total weight of non-originating materials of headings 10.01 to 10.04, 10.07 to 10.08, Chapter 11, and headings 23.02 and 23.03 used does not exceed 20% of the weight of the product _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product.",
+    "key_first": "2309000000",
+    "code_high": "2400999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that:\n* all the materials of Chapters 2 and 4 used are wholly obtained",
+      "* the total weight of non-originating materials of headings 10.01 to 10.04, 10.07 to 10.08, Chapter 11, and headings 23.02 and 23.03 used does not exceed 20% of the weight of the product _and_\n* the total weight of non-originating materials of headings 17.01 and 17.02 used does not exceed 20% of the weight of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "Production in which all materials of heading 24.01 are wholly obtained.",
+    "key_first": "2401000000",
+    "code_high": "2402099999",
+    "product_specific_rules": [
+      "Production in which all materials of heading 24.01 are wholly obtained."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed 30% of the weight of materials of Chapter 24 used.",
+    "key_first": "2402100000",
+    "code_high": "2402199999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed 30% of the weight of materials of Chapter 24 used."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading, except that of the product and of smoking tobacco of subheading 2403.19, and in which at least 10% by weight of all materials of heading 24.01 used is wholly obtained.",
+    "key_first": "2402200000",
+    "code_high": "2402899999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading, except that of the product and of smoking tobacco of subheading 2403.19, and in which at least 10% by weight of all materials of heading 24.01 used is wholly obtained."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed 30% of the weight of materials of Chapter 24 used.",
+    "key_first": "2402900000",
+    "code_high": "2402999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading, provided that the total weight of non-originating materials of heading 24.01 used does not exceed 30% of the weight of materials of Chapter 24 used."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, in which at least 10% by weight of all materials of heading 24.01 used are wholly obtained.",
+    "key_first": "2403000000",
+    "code_high": "2500999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), in which at least 10% by weight of all materials of heading 24.01 used are wholly obtained."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 70% (EXW).",
+    "key_first": "2501000000",
+    "code_high": "2530999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 70% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "2601000000",
+    "code_high": "2621999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "2701000000",
+    "code_high": "2709999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating biodiesel of subheading 3824.99 or 3826.00; or\nDistillation or a chemical reaction is undergone, provided that biodiesel (including hydrotreated vegetable oil) of heading 27.10 and subheadings 3824.99 and 3826.00 used is obtained by esterification, transesterification or hydrotreatment.",
+    "key_first": "2710000000",
+    "code_high": "2710999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating biodiesel of subheading 3824.99 or 3826.00",
+      "Distillation or a chemical reaction is undergone, provided that biodiesel (including hydrotreated vegetable oil) of heading 27.10 and subheadings 3824.99 and 3826.00 used is obtained by esterification, transesterification or hydrotreatment."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "2711000000",
+    "code_high": "2715999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "2801000000",
+    "code_high": "2853999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "2901100000",
+    "code_high": "2905429999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 17.02 and subheading 3824.60.",
+    "key_first": "2905430000",
+    "code_high": "2905449999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 17.02 and subheading 3824.60."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH, however, non-originating materials of the same sub-heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "2905450000",
+    "code_high": "2905489999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading), however, non-originating materials of the same sub-heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "2905490000",
+    "code_high": "2942999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3001000000",
+    "code_high": "3006999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product;\nor\nMaxNOM 40% (EXW).",
+    "key_first": "3101000000",
+    "code_high": "3104999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 40% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Sodium nitrate, Calcium cyanamide, Potassium sulphate, Magnesium potassium sulphate\n* CTH, however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product;\nor\nMaxNOM 40% (EXW).\nOthers\n* CTH, however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product, and in which the value of all non-originating materials used does not exceed 50% of the EXW of the product;\nor\nMaxNOM 40% (EXW).",
+    "key_first": "3105000000",
+    "code_high": "3200999999",
+    "product_specific_rules": [
+      "Sodium nitrate, Calcium cyanamide, Potassium sulphate, Magnesium potassium sulphate\n* Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 40% (EXW).\nOthers\n* Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), however, non-originating materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the EXW of the product, and in which the value of all non-originating materials used does not exceed 50% of the EXW of the product",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 40% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3201000000",
+    "code_high": "3215999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3301000000",
+    "code_high": "3302099999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH, however, non-originating materials of subheading 3302.10 may be used, provided that their total value does not exceed 20% of the EXW of the product.",
+    "key_first": "3302100000",
+    "code_high": "3302899999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), however, non-originating materials of subheading 3302.10 may be used, provided that their total value does not exceed 20% of the EXW of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3302900000",
+    "code_high": "3302999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "3303000000",
+    "code_high": "3303999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3304000000",
+    "code_high": "3307999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3401000000",
+    "code_high": "3407999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of Chapter 4.",
+    "key_first": "3501000000",
+    "code_high": "3504999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of Chapter 4."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 11.08.",
+    "key_first": "3505000000",
+    "code_high": "3505999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 11.08."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3506000000",
+    "code_high": "3507999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3601000000",
+    "code_high": "3606999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3701000000",
+    "code_high": "3707999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3801000000",
+    "code_high": "3808999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 11.08 and 35.05.",
+    "key_first": "3809100000",
+    "code_high": "3809909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 11.08 and 35.05."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3809910000",
+    "code_high": "3822009999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating material of any heading.",
+    "key_first": "3823000000",
+    "code_high": "3824099999",
+    "product_specific_rules": [
+      "Production from non-originating material of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3824100000",
+    "code_high": "3824509999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of subheadings 2905.43 and 2905.44.",
+    "key_first": "3824600000",
+    "code_high": "3824709999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of subheadings 2905.43 and 2905.44."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3824710000",
+    "code_high": "3825909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production in which biodiesel is obtained through transesterification, esterification or hydro-treatment.",
+    "key_first": "3826000000",
+    "code_high": "3900999999",
+    "product_specific_rules": [
+      "Production in which biodiesel is obtained through transesterification, esterification or hydro-treatment."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nA chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3901000000",
+    "code_high": "3915999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "A chemical reaction, purification, mixing and blending, production of standard materials, a change in particle size, isomer separation, or biotechnological processing is undergone",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3916000000",
+    "code_high": "3919999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3920000000",
+    "code_high": "3920999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3921000000",
+    "code_high": "3922999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3923100000",
+    "code_high": "3923509999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3923900000",
+    "code_high": "3925909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "3926000000",
+    "code_high": "4000999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4001000000",
+    "code_high": "4011999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nRetreading of used tyres.",
+    "key_first": "4012110000",
+    "code_high": "4012199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "Retreading of used tyres."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4012200000",
+    "code_high": "4017009999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4101000000",
+    "code_high": "4104199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH except from non-originating materials of subheadings 4104.41 to 4104.49.",
+    "key_first": "4104410000",
+    "code_high": "4104499999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading) except from non-originating materials of subheadings 4104.41 to 4104.49."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4105100000",
+    "code_high": "4105299999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "4105300000",
+    "code_high": "4106209999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4106210000",
+    "code_high": "4106219999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "4106220000",
+    "code_high": "4106309999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4106310000",
+    "code_high": "4106319999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "4106320000",
+    "code_high": "4106409999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4106910000",
+    "code_high": "4106919999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "4106920000",
+    "code_high": "4106999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32 and 4106.92. However, non-originating materials of\nsubheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32 or 4106.92 may be used provided that they undergo a retanning operation.",
+    "key_first": "4107000000",
+    "code_high": "4113999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32 and 4106.92. However, non-originating materials of\nsubheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32 or 4106.92 may be used provided that they undergo a retanning operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4114100000",
+    "code_high": "4114199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and 4107. However, non-originating materials\nof subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and\nheading 41.07 may be used provided that they undergo a retanning operation.",
+    "key_first": "4114200000",
+    "code_high": "4114999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and 4107. However, non-originating materials\nof subheadings 4104.41, 4104.49, 4105.30, 4106.22, 4106.32, 4106.92 and\nheading 41.07 may be used provided that they undergo a retanning operation."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "4115000000",
+    "code_high": "4200999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4201000000",
+    "code_high": "4206999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4301100000",
+    "code_high": "4302209999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH",
+    "key_first": "4302300000",
+    "code_high": "4302999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4303000000",
+    "code_high": "4304999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4401000000",
+    "code_high": "4421999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4501000000",
+    "code_high": "4504999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4601000000",
+    "code_high": "4602999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4701000000",
+    "code_high": "4707999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4801000000",
+    "code_high": "4823999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "4901000000",
+    "code_high": "4911999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5001000000",
+    "code_high": "5002999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Carding or combing of silk waste.",
+    "key_first": "5003000010",
+    "code_high": "5003000089",
+    "product_specific_rules": [
+      "Carding or combing of silk waste."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5003000090",
+    "code_high": "5003999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made continuous filament combined with spinning; Extrusion of man-made continuous filament combined with twisting; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5004000000",
+    "code_high": "5005999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made continuous filament combined with spinning",
+      "Extrusion of man-made continuous filament combined with twisting",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "* Silk yarn and yarn spun from silk waste:\n  * Spinning of natural fibres;\n  * Extrusion of man-made continuous filament combined with spinning; Extrusion of man-made continuous filament combined with twisting; or\n  * Twisting combined with any mechanical operation.\n* Silk-worm gut:\n  * CTH",
+    "key_first": "5006000000",
+    "code_high": "5006999999",
+    "product_specific_rules": [
+      "* Silk yarn and yarn spun from silk waste:\n  * Spinning of natural fibres",
+      "* Extrusion of man-made continuous filament combined with spinning",
+      "Extrusion of man-made continuous filament combined with twisting",
+      "* Twisting combined with any mechanical operation.\n* Silk-worm gut:\n  * Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving; Twisting or any mechanical operation combined with weaving; Weaving combined with dyeing;\nYarn dyeing combined with weaving; Weaving combined with printing;\nor\nPrinting (as standalone operation).",
+    "key_first": "5007000000",
+    "code_high": "5100999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Twisting or any mechanical operation combined with weaving",
+      "Weaving combined with dyeing",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5101000000",
+    "code_high": "5105999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5106000000",
+    "code_high": "5110999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving; Weaving combined with dyeing;\nYarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5111000000",
+    "code_high": "5113999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Weaving combined with dyeing",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5201000000",
+    "code_high": "5203999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5204000000",
+    "code_high": "5207999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving; Twisting or any mechanical operation combined with weaving; Weaving combined with dyeing or with coating or with laminating; Yarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5208000000",
+    "code_high": "5212999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Twisting or any mechanical operation combined with weaving",
+      "Weaving combined with dyeing or with coating or with laminating",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5301000000",
+    "code_high": "5305999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5306000000",
+    "code_high": "5308999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving;\nExtrusion of man-made filament yarn combined with weaving; Weaving combined with dyeing or with coating or with laminating; Yarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5309000000",
+    "code_high": "5311999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Weaving combined with dyeing or with coating or with laminating",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5401000000",
+    "code_high": "5406999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving;\nYarn dyeing combined with weaving;\nWeaving combined with dyeing or with coating or with laminating; Twisting or any mechanical operation combined with weaving; Weaving combined with printing;\nor\nPrinting (as standalone operation).",
+    "key_first": "5407000000",
+    "code_high": "5408999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with dyeing or with coating or with laminating",
+      "Twisting or any mechanical operation combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Extrusion of man-made fibres.",
+    "key_first": "5501000000",
+    "code_high": "5507999999",
+    "product_specific_rules": [
+      "Extrusion of man-made fibres."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5508000000",
+    "code_high": "5511999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving; Twisting or any mechanical operation combined with weaving; Weaving combined with dyeing or with coating or with laminating; Yarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5512000000",
+    "code_high": "5516999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Twisting or any mechanical operation combined with weaving",
+      "Weaving combined with dyeing or with coating or with laminating",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; Flocking combined with dyeing or with printing;\nor\nCoating, flocking, laminating, or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing), provided that the value of non- originating materials used does not exceed 50% of the EXW of the product.",
+    "key_first": "5601000000",
+    "code_high": "5601999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Flocking combined with dyeing or with printing",
+      "Coating, flocking, laminating, or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing), provided that the value of non- originating materials used does not exceed 50% of the EXW of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "- Needleloom Felt:\nExtrusion of man-made fibres combined with fabric formation; however:\nnon-originating polypropylene filament of heading 54.02;\nnon-originating polypropylene fibres of heading 55.03 or 55.06; or\nnon-originating polypropylene filament tow of heading 55.01;\nof which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed 40% of the EXW of the product;\nor\nNon-woven fabric formation alone in the case of felt made from natural fibres.\n\n- Others:\nExtrusion of man-made fibres combined with fabric formation; or\nNon-woven fabric formation alone in the case of other felt made from natural fibres.",
+    "key_first": "5602000000",
+    "code_high": "5603109999",
+    "product_specific_rules": [
+      "- Needleloom Felt:\nExtrusion of man-made fibres combined with fabric formation",
+      "however:\nnon-originating polypropylene filament of heading 54.02",
+      "non-originating polypropylene fibres of heading 55.03 or 55.06",
+      "non-originating polypropylene filament tow of heading 55.01",
+      "of which the denomination in all cases of a single filament or fibre is less than 9 decitex, may be used, provided that their total value does not exceed 40% of the EXW of the product",
+      "Non-woven fabric formation alone in the case of felt made from natural fibres.\n\n- Others:\nExtrusion of man-made fibres combined with fabric formation",
+      "Non-woven fabric formation alone in the case of other felt made from natural fibres."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from\ndirectionally or randomly oriented filaments; or\nsubstances or polymers of natural or man-made origin; followed in both cases by bonding into a nonwoven.",
+    "key_first": "5603110000",
+    "code_high": "5603149999",
+    "product_specific_rules": [
+      "Production from\ndirectionally or randomly oriented filaments",
+      "substances or polymers of natural or man-made origin",
+      "followed in both cases by bonding into a nonwoven."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from\ndirectionally or randomly oriented staple fibres; or\nchopped yarns, of natural or man-made origin; followed in both cases by bonding into a nonwoven.",
+    "key_first": "5603910000",
+    "code_high": "5603949999",
+    "product_specific_rules": [
+      "Production from\ndirectionally or randomly oriented staple fibres",
+      "chopped yarns, of natural or man-made origin",
+      "followed in both cases by bonding into a nonwoven."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from rubber thread or cord, not textile covered.",
+    "key_first": "5604100000",
+    "code_high": "5604899999",
+    "product_specific_rules": [
+      "Production from rubber thread or cord, not textile covered."
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres;\nExtrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5604900000",
+    "code_high": "5604999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres; Extrusion of man-made fibres combined with spinning; or\nTwisting combined with any mechanical operation.",
+    "key_first": "5605000000",
+    "code_high": "5605999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres",
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with any mechanical operation."
+    ]
+  },
+  {
+    "rule_of_origin": "Extrusion of man-made fibres combined with spinning; Twisting combined with gimping;\nSpinning of natural or man-made staple fibres;\nor\nFlocking combined with dyeing.",
+    "key_first": "5606000000",
+    "code_high": "5606999999",
+    "product_specific_rules": [
+      "Extrusion of man-made fibres combined with spinning",
+      "Twisting combined with gimping",
+      "Spinning of natural or man-made staple fibres",
+      "Flocking combined with dyeing."
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural fibres; or\nExtrusion of man-made fibres combined with spinning.",
+    "key_first": "5607000000",
+    "code_high": "5609999999",
+    "product_specific_rules": [
+      "Spinning of natural fibres",
+      "Extrusion of man-made fibres combined with spinning."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving or with tufting;\nExtrusion of man-made filament yarn combined with weaving or with tufting;\nProduction from coir yarn or sisal yarn or jute yarn or classical ring spun viscose yarn;\nTufting combined with dyeing or with printing;\nTufting or weaving of man-made filament yarn combined with coating or with laminating;\nFlocking combined with dyeing or with printing; or\nExtrusion of man-made fibres combined with nonwoven techniques including needle punching.",
+    "key_first": "5701000000",
+    "code_high": "5705999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving or with tufting",
+      "Extrusion of man-made filament yarn combined with weaving or with tufting",
+      "Production from coir yarn or sisal yarn or jute yarn or classical ring spun viscose yarn",
+      "Tufting combined with dyeing or with printing",
+      "Tufting or weaving of man-made filament yarn combined with coating or with laminating",
+      "Flocking combined with dyeing or with printing",
+      "Extrusion of man-made fibres combined with nonwoven techniques including needle punching."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving or with tufting;\nExtrusion of man-made filament yarn combined with weaving or with tufting;\nWeaving combined with dyeing or with flocking or with coating or with laminating or with metalizing;\nTufting combined with dyeing or with printing; Flocking combined with dyeing or with printing;\nYarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5801000000",
+    "code_high": "5804999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving or with tufting",
+      "Extrusion of man-made filament yarn combined with weaving or with tufting",
+      "Weaving combined with dyeing or with flocking or with coating or with laminating or with metalizing",
+      "Tufting combined with dyeing or with printing",
+      "Flocking combined with dyeing or with printing",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "5805000000",
+    "code_high": "5805999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving or with tufting;\nExtrusion of man-made filament yarn combined with weaving or with tufting;\nWeaving combined with dyeing or with flocking or with coating or with laminating or with metalizing;\nTufting combined with dyeing or with printing; Flocking combined with dyeing or with printing; Yarn dyeing combined with weaving;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5806000000",
+    "code_high": "5809999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving or with tufting",
+      "Extrusion of man-made filament yarn combined with weaving or with tufting",
+      "Weaving combined with dyeing or with flocking or with coating or with laminating or with metalizing",
+      "Tufting combined with dyeing or with printing",
+      "Flocking combined with dyeing or with printing",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Embroidering in which the value of non-originating materials of any heading, except that of the product, used does not exceed 50% of the EXW of the product.",
+    "key_first": "5810000000",
+    "code_high": "5810999999",
+    "product_specific_rules": [
+      "Embroidering in which the value of non-originating materials of any heading, except that of the product, used does not exceed 50% of the EXW of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with weaving or with tufting;\nExtrusion of man-made filament yarn combined with weaving or with tufting;\nWeaving combined with dyeing or with flocking or with coating or with laminating or with metalizing;\nTufting combined with dyeing or with printing; Flocking combined with dyeing or with printing; Yarn dyeing combined with weaving;\nWeaving combined with printing;\nor\nPrinting (as standalone operation).",
+    "key_first": "5811000000",
+    "code_high": "5900999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with weaving or with tufting",
+      "Extrusion of man-made filament yarn combined with weaving or with tufting",
+      "Weaving combined with dyeing or with flocking or with coating or with laminating or with metalizing",
+      "Tufting combined with dyeing or with printing",
+      "Flocking combined with dyeing or with printing",
+      "Yarn dyeing combined with weaving",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving combined with dyeing or with flocking or with coating or with laminating or with metalising;\nor\nFlocking combined with dyeing or with printing.",
+    "key_first": "5901000000",
+    "code_high": "5901999999",
+    "product_specific_rules": [
+      "Weaving combined with dyeing or with flocking or with coating or with laminating or with metalising",
+      "Flocking combined with dyeing or with printing."
+    ]
+  },
+  {
+    "rule_of_origin": "- Containing not more than 90% by weight of textile materials:\nWeaving.\n- Others:\nExtrusion of man-made fibres combined with weaving.",
+    "key_first": "5902000000",
+    "code_high": "5902999999",
+    "product_specific_rules": [
+      "- Containing not more than 90% by weight of textile materials:\nWeaving.\n- Others:\nExtrusion of man-made fibres combined with weaving."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving, knitting or crocheting combined with impregnating or with coating or with covering or with laminating or with metalising;\nWeaving combined with printing; or Printing (as standalone operation).",
+    "key_first": "5903000000",
+    "code_high": "5903999999",
+    "product_specific_rules": [
+      "Weaving, knitting or crocheting combined with impregnating or with coating or with covering or with laminating or with metalising",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "Calendaring combined with dyeing, coating, laminating or metalizing. Non- originating jute fabric may be used as a backing;\nor\nWeaving combined with dyeing or with coating or with laminating or with metalising. Non-originating jute fabric may be used as a backing.",
+    "key_first": "5904000000",
+    "code_high": "5904999999",
+    "product_specific_rules": [
+      "Calendaring combined with dyeing, coating, laminating or metalizing. Non- originating jute fabric may be used as a backing",
+      "Weaving combined with dyeing or with coating or with laminating or with metalising. Non-originating jute fabric may be used as a backing."
+    ]
+  },
+  {
+    "rule_of_origin": "- Impregnated, coated, covered or laminated with rubber, plastics or other materials:\nWeaving, knitting or non-woven fabric formation combined with impregnating or with coating or with covering or with laminating or with metalising.\n- Others:\nSpinning of natural or man-made staple fibres combined with weaving; Extrusion of man-made filament yarn combined with weaving;\nWeaving, knitting or nonwoven fabric formation combined with dyeing or with coating or with laminating;\nWeaving combined with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5905000000",
+    "code_high": "5905999999",
+    "product_specific_rules": [
+      "- Impregnated, coated, covered or laminated with rubber, plastics or other materials:\nWeaving, knitting or non-woven fabric formation combined with impregnating or with coating or with covering or with laminating or with metalising.\n- Others:\nSpinning of natural or man-made staple fibres combined with weaving",
+      "Extrusion of man-made filament yarn combined with weaving",
+      "Weaving, knitting or nonwoven fabric formation combined with dyeing or with coating or with laminating",
+      "Weaving combined with printing",
+      "Printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Knitted or crocheted fabrics:\nSpinning of natural or man-made staple fibres combined with knitting or with crocheting;\nExtrusion of man-made filament yarn combined with knitting or with crocheting; Knitting or crocheting combined with rubberising; or\nRubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed 50% of the EXW of the product.\n- Other fabrics made of synthetic filament yarn, containing more than 90% by weight of textile materials:\nExtrusion of man-made fibres combined with weaving.\n- Others:\nWeaving, knitting or nonwoven process combined with dyeing or with coating or with rubberising;\nYarn dyeing combined with weaving, knitting or nonwoven process; or\nRubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed 50% of the EXW of the product.",
+    "key_first": "5906000000",
+    "code_high": "5906999999",
+    "product_specific_rules": [
+      "- Knitted or crocheted fabrics:\nSpinning of natural or man-made staple fibres combined with knitting or with crocheting",
+      "Extrusion of man-made filament yarn combined with knitting or with crocheting",
+      "Knitting or crocheting combined with rubberising",
+      "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed 50% of the EXW of the product.\n- Other fabrics made of synthetic filament yarn, containing more than 90% by weight of textile materials:\nExtrusion of man-made fibres combined with weaving.\n- Others:\nWeaving, knitting or nonwoven process combined with dyeing or with coating or with rubberising",
+      "Yarn dyeing combined with weaving, knitting or nonwoven process",
+      "Rubberising combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non-originating materials used does not exceed 50% of the EXW of the product."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving, knitting or nonwoven fabric formation combined with dyeing or with printing or with coating or with impregnating or with covering;\nFlocking combined with dyeing or with printing; or\nPrinting (as standalone operation).",
+    "key_first": "5907000000",
+    "code_high": "5907999999",
+    "product_specific_rules": [
+      "Weaving, knitting or nonwoven fabric formation combined with dyeing or with printing or with coating or with impregnating or with covering",
+      "Flocking combined with dyeing or with printing",
+      "Printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Incandescent gas mantles, impregnated:\nProduction from tubular knitted or crocheted gas-mantle fabric.\n- Others:\nCTH",
+    "key_first": "5908000000",
+    "code_high": "5908999999",
+    "product_specific_rules": [
+      "- Incandescent gas mantles, impregnated:\nProduction from tubular knitted or crocheted gas-mantle fabric.\n- Others:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Spinning of natural or of man-made staple fibres combined with weaving; Extrusion of man-made fibres combined with weaving;\nWeaving combined with dyeing or with coating or with laminating; or\nCoating, flocking, laminating or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non- originating materials used does not exceed 50% of the EXW of the product.",
+    "key_first": "5909000000",
+    "code_high": "5911999999",
+    "product_specific_rules": [
+      "Spinning of natural or of man-made staple fibres combined with weaving",
+      "Extrusion of man-made fibres combined with weaving",
+      "Weaving combined with dyeing or with coating or with laminating",
+      "Coating, flocking, laminating or metalizing combined with at least two other main preparatory or finishing operations (such as calendering, shrink-resistance processes, heat setting, permanent finishing) provided that the value of non- originating materials used does not exceed 50% of the EXW of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Spinning of natural or man-made staple fibres combined with knitting or with crocheting;\nExtrusion of man-made filament yarn combined with knitting or with crocheting;\nKnitting or crocheting combined with dyeing or with flocking or with coating or with laminating or with printing;\nFlocking combined with dyeing or with printing;\nYarn dyeing combined with knitting or with crocheting; or\nTwisting or texturing combined with knitting or with crocheting provided that the value of non-originating non-twisted or non-textured yarns used does not exceed 50% of the EXW of the product.",
+    "key_first": "6001000000",
+    "code_high": "6006999999",
+    "product_specific_rules": [
+      "Spinning of natural or man-made staple fibres combined with knitting or with crocheting",
+      "Extrusion of man-made filament yarn combined with knitting or with crocheting",
+      "Knitting or crocheting combined with dyeing or with flocking or with coating or with laminating or with printing",
+      "Flocking combined with dyeing or with printing",
+      "Yarn dyeing combined with knitting or with crocheting",
+      "Twisting or texturing combined with knitting or with crocheting provided that the value of non-originating non-twisted or non-textured yarns used does not exceed 50% of the EXW of the product."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "- Obtained by sewing together or otherwise assembling, two or more pieces of knitted  or\ncrocheted fabric which have been either cut to form or obtained directly to form:\nKnitting or crocheting combined with making-up including cutting of fabric.\n- Others:\nSpinning of natural or man-made staple fibres combined with knitting or with crocheting;\nExtrusion of man-made filament yarn combined with knitting or with crocheting; or\nKnitting and making-up in one operation.",
+    "key_first": "6101000000",
+    "code_high": "6117999999",
+    "product_specific_rules": [
+      "- Obtained by sewing together or otherwise assembling, two or more pieces of knitted  or\ncrocheted fabric which have been either cut to form or obtained directly to form:\nKnitting or crocheting combined with making-up including cutting of fabric.\n- Others:\nSpinning of natural or man-made staple fibres combined with knitting or with crocheting",
+      "Extrusion of man-made filament yarn combined with knitting or with crocheting",
+      "Knitting and making-up in one operation."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Weaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6201000000",
+    "code_high": "6201999999",
+    "product_specific_rules": [
+      "Weaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Embroidered:\nWeaving combined with making-up including cutting of fabric; or\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6202000000",
+    "code_high": "6202999999",
+    "product_specific_rules": [
+      "- Embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6203000000",
+    "code_high": "6203999999",
+    "product_specific_rules": [
+      "Weaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Embroidered:\nWeaving combined with making-up including cutting of fabric; or\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6204000000",
+    "code_high": "6204999999",
+    "product_specific_rules": [
+      "- Embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6205000000",
+    "code_high": "6205999999",
+    "product_specific_rules": [
+      "Weaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Embroidered:\nWeaving combined with making-up including cutting of fabric; or\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric;\nor\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6206000000",
+    "code_high": "6206999999",
+    "product_specific_rules": [
+      "- Embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "Weaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6207000000",
+    "code_high": "6208999999",
+    "product_specific_rules": [
+      "Weaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "- Embroidered:\\Weaving combined with making-up including cutting of fabric; or\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6209000000",
+    "code_high": "6209999999",
+    "product_specific_rules": [
+      "- Embroidered:\\Weaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric; or\nCoating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6210000000",
+    "code_high": "6210999999",
+    "product_specific_rules": [
+      "- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric",
+      "Coating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Women's, or girls' garments, embroidered:\nWeaving combined with making-up including cutting of fabric; or\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6211000000",
+    "code_high": "6211999999",
+    "product_specific_rules": [
+      "- Women's, or girls' garments, embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Knitted or crocheted obtained by sewing together or otherwise assembling, two or more pieces of knitted  or\ncrocheted fabric which have been either cut to form or obtained directly to form:\nKnitting combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6212000000",
+    "code_high": "6212999999",
+    "product_specific_rules": [
+      "- Knitted or crocheted obtained by sewing together or otherwise assembling, two or more pieces of knitted  or\ncrocheted fabric which have been either cut to form or obtained directly to form:\nKnitting combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation).\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Embroidered:\nWeaving combined with making-up including cutting of fabric;\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product;\nor\nMaking-up including cutting of fabric preceded by printing (as standalone operation).\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6213000000",
+    "code_high": "6214999999",
+    "product_specific_rules": [
+      "- Embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation).\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Weaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6215000000",
+    "code_high": "6215999999",
+    "product_specific_rules": [
+      "Weaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric; or\nCoating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric; or\nMaking-up including cutting of fabric preceded by printing (as standalone operation).",
+    "key_first": "6216000000",
+    "code_high": "6216999999",
+    "product_specific_rules": [
+      "- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric",
+      "Coating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation)."
+    ]
+  },
+  {
+    "rule_of_origin": "- Embroidered:\nWeaving combined with making-up including cutting of fabric;\nProduction from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product;\nor\nMaking-up including cutting of fabric preceded by printing (as standalone operation).\n- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric; or\nCoating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Interlinings for collars and cuffs, cut out:\nCTH, provided that the value of all the non-originating materials used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric.",
+    "key_first": "6217000000",
+    "code_high": "6300999999",
+    "product_specific_rules": [
+      "- Embroidered:\nWeaving combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric, provided that the value of non-originating unembroidered fabric used does not exceed 40% of the EXW of the product",
+      "Making-up including cutting of fabric preceded by printing (as standalone operation).\n- Fire-resistant equipment of fabric covered with foil of aluminised polyester:\nWeaving combined with making-up including cutting of fabric",
+      "Coating or laminating combined with making-up including cutting of fabric, provided that the value of non-originating uncoated or unlaminated fabric used does not exceed 40% of the EXW of the product.\n- Interlinings for collars and cuffs, cut out:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), provided that the value of all the non-originating materials used does not exceed 40% of the EXW of the product.\n- Others:\nWeaving combined with making-up including cutting of fabric."
+    ]
+  },
+  {
+    "rule_of_origin": "- Of felt, of nonwovens:\nNonwoven fabric formation combined with making-up including cutting of fabric.\n- Others:\n-- Embroidered:\nWeaving or knitting or crocheting combined with making-up including cutting of fabric;\nor\nProduction from unembroidered fabric (other than knitted or crocheted), provided that the value of non-originating unembroidered fabric used does not exceed 40\n% of the EXW of the product.\n-- Others:\nWeaving, knitting or crocheting combined with making-up including cutting of fabric.",
+    "key_first": "6301000000",
+    "code_high": "6304999999",
+    "product_specific_rules": [
+      "- Of felt, of nonwovens:\nNonwoven fabric formation combined with making-up including cutting of fabric.\n- Others:\n-- Embroidered:\nWeaving or knitting or crocheting combined with making-up including cutting of fabric",
+      "Production from unembroidered fabric (other than knitted or crocheted), provided that the value of non-originating unembroidered fabric used does not exceed 40\n% of the EXW of the product.\n-- Others:\nWeaving, knitting or crocheting combined with making-up including cutting of fabric."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Extrusion of man-made fibres or spinning of natural or man-made staple fibres, combined with weaving or with knitting and making-up including cutting of fabric.",
+    "key_first": "6305000000",
+    "code_high": "6305999999",
+    "product_specific_rules": [
+      "Extrusion of man-made fibres or spinning of natural or man-made staple fibres, combined with weaving or with knitting and making-up including cutting of fabric."
+    ]
+  },
+  {
+    "rule_of_origin": "- Of nonwovens:\nNonwoven fabric formation combined with making-up including cutting of fabric.\n- Others:\nWeaving combined with making-up including cutting of fabric.",
+    "key_first": "6306000000",
+    "code_high": "6306999999",
+    "product_specific_rules": [
+      "- Of nonwovens:\nNonwoven fabric formation combined with making-up including cutting of fabric.\n- Others:\nWeaving combined with making-up including cutting of fabric."
+    ]
+  },
+  {
+    "rule_of_origin": "MaxNOM 40% (EXW).",
+    "key_first": "6307000000",
+    "code_high": "6307999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 40% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set; however, non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set.",
+    "key_first": "6308000000",
+    "code_high": "6308999999",
+    "product_specific_rules": [
+      "Each item in the set must satisfy the rule which would apply to it if it were not included in the set",
+      "however, non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "6309000000",
+    "code_high": "6310999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading, except from non- originating assemblies of uppers affixed to inner soles or to other sole components of heading 64.06.",
+    "key_first": "6401000000",
+    "code_high": "6405999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading, except from non- originating assemblies of uppers affixed to inner soles or to other sole components of heading 64.06."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "6406000000",
+    "code_high": "6500999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "6501000000",
+    "code_high": "6507999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "6601000000",
+    "code_high": "6603999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "6701000000",
+    "code_high": "6704999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 70% (EXW).",
+    "key_first": "6801000000",
+    "code_high": "6815999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 70% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "6901000000",
+    "code_high": "6914999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "7001000000",
+    "code_high": "7009999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7010000000",
+    "code_high": "7010999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "7011000000",
+    "code_high": "7012999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 70.10.",
+    "key_first": "7013000000",
+    "code_high": "7013999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 70.10."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "7014000000",
+    "code_high": "7020999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7101000000",
+    "code_high": "7105999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating unwrought precious metals.",
+    "key_first": "7106100000",
+    "code_high": "7106909999",
+    "product_specific_rules": [
+      "Production from non-originating unwrought precious metals."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 71.06, 71.08 and 71.10;\nElectrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10;\nor\nFusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification.",
+    "key_first": "7106910000",
+    "code_high": "7106919999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 71.06, 71.08 and 71.10",
+      "Electrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10",
+      "Fusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating unwrought precious metals.",
+    "key_first": "7106920000",
+    "code_high": "7106999999",
+    "product_specific_rules": [
+      "Production from non-originating unwrought precious metals."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7107000000",
+    "code_high": "7107999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "- Unwrought:\nCTH except from non-originating materials of headings 71.06, 71.08 and 71.10;\nElectrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10;\nor\nFusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification.\n- Semi-\nmanufactured or in powder form:\nProduction from non-originating unwrought precious metals.",
+    "key_first": "7108000000",
+    "code_high": "7108999999",
+    "product_specific_rules": [
+      "- Unwrought:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 71.06, 71.08 and 71.10",
+      "Electrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10",
+      "Fusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification.\n- Semi-\nmanufactured or in powder form:\nProduction from non-originating unwrought precious metals."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7109000000",
+    "code_high": "7109999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "- Unwrought:\nCTH except from non-originating materials of headings 71.06, 71.08 and 71.10;\nElectrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10;\nor\nFusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification.\n- Semi-\nmanufactured or in powder form:\nProduction from non-originating unwrought precious metals.",
+    "key_first": "7110000000",
+    "code_high": "7110999999",
+    "product_specific_rules": [
+      "- Unwrought:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 71.06, 71.08 and 71.10",
+      "Electrolytic, thermal or chemical separation of non-originating precious metals of headings 71.06, 71.08 and 71.10",
+      "Fusion or alloying of non-originating precious metals of headings 71.06, 71.08 and\n71.10 with each other or with base metals or purification.\n- Semi-\nmanufactured or in powder form:\nProduction from non-originating unwrought precious metals."
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7111000000",
+    "code_high": "7111999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7112000000",
+    "code_high": "7118999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7201000000",
+    "code_high": "7206999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 72.06.",
+    "key_first": "7207000000",
+    "code_high": "7207999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 72.06."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 72.08 to 72.17.",
+    "key_first": "7208000000",
+    "code_high": "7217999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 72.08 to 72.17."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7218000000",
+    "code_high": "7218999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 72.19 to 72.23.",
+    "key_first": "7219000000",
+    "code_high": "7223999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 72.19 to 72.23."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7224000000",
+    "code_high": "7224999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 72.25 to 72.29.",
+    "key_first": "7225000000",
+    "code_high": "7229999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 72.25 to 72.29."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CC except from non-originating materials of headings 72.08 to 72.17.",
+    "key_first": "7301100000",
+    "code_high": "7301199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter) except from non-originating materials of headings 72.08 to 72.17."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7301200000",
+    "code_high": "7301999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CC except from non-originating materials of headings 72.08 to 72.17.",
+    "key_first": "7302000000",
+    "code_high": "7302999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter) except from non-originating materials of headings 72.08 to 72.17."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7303000000",
+    "code_high": "7303999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CC except from non-originating materials of headings 72.13 to 72.17, 72.21 to 72.23 and 72.25 to 72.29.",
+    "key_first": "7304000000",
+    "code_high": "7306999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter) except from non-originating materials of headings 72.13 to 72.17, 72.21 to 72.23 and 72.25 to 72.29."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "- Tube or pipe fittings of stainless steel:\nCTH except from non-originating forged blanks; however, non-originating forged blanks may be used provided that their value does not exceed 50% of the EXW of the product.\n- Others:\nCTH",
+    "key_first": "7307000000",
+    "code_high": "7307999999",
+    "product_specific_rules": [
+      "- Tube or pipe fittings of stainless steel:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating forged blanks",
+      "however, non-originating forged blanks may be used provided that their value does not exceed 50% of the EXW of the product.\n- Others:\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of subheading 7301.20.",
+    "key_first": "7308000000",
+    "code_high": "7308999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of subheading 7301.20."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7309000000",
+    "code_high": "7315199999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "7315200000",
+    "code_high": "7315809999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7315810000",
+    "code_high": "7326909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7401000000",
+    "code_high": "7402999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7403000000",
+    "code_high": "7403999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7404000000",
+    "code_high": "7407999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH and MaxNOM 50% (EXW).",
+    "key_first": "7408000000",
+    "code_high": "7408999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) and The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7409000000",
+    "code_high": "7419999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7501000000",
+    "code_high": "7501999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7502000000",
+    "code_high": "7502999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7503000000",
+    "code_high": "7508999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH and MaxNOM 50% (EXW).\nor\nThermal or electrolytic treatment from unalloyed aluminium or waste and scrap of aluminium.",
+    "key_first": "7601000000",
+    "code_high": "7601999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) and The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW).\nor\nThermal or electrolytic treatment from unalloyed aluminium or waste and scrap of aluminium."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7602000000",
+    "code_high": "7602999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ]
+  },
+  {
+    "rule_of_origin": "CTH and MaxNOM 50% (EXW).90",
+    "key_first": "7603000000",
+    "code_high": "7616999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) and The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW).90"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "7801100000",
+    "code_high": "7801909999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7801910000",
+    "code_high": "7806009999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "7901000000",
+    "code_high": "7907999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "8001000000",
+    "code_high": "8007999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "8101000000",
+    "code_high": "8113999999",
+    "product_specific_rules": [
+      "Production from non-originating materials of any heading."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8201100000",
+    "code_high": "8205709999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH, however, non-originating tools of heading 82.05 may be incorporated into the set, provided that their total value does not exceed 15% of the EXW of the set.",
+    "key_first": "8205900000",
+    "code_high": "8205999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading), however, non-originating tools of heading 82.05 may be incorporated into the set, provided that their total value does not exceed 15% of the EXW of the set."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of headings 82.02 to 82.05; however, non-originating tools of headings 82.02 to 82.05 may be incorporated into the set, provided that their total value does not exceed 15% of the EXW of the set.",
+    "key_first": "8206000000",
+    "code_high": "8206999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of headings 82.02 to 82.05",
+      "however, non-originating tools of headings 82.02 to 82.05 may be incorporated into the set, provided that their total value does not exceed 15% of the EXW of the set."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nOr\nMaxNOM 50% (EXW).",
+    "key_first": "8207000000",
+    "code_high": "8215999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "Or\nThe maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8301000000",
+    "code_high": "8311999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8401000000",
+    "code_high": "8406999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 50% (EXW).",
+    "key_first": "8407000000",
+    "code_high": "8408999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8409000000",
+    "code_high": "8412999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8413110000",
+    "code_high": "8415109999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8415200000",
+    "code_high": "8415809999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8415810000",
+    "code_high": "8415909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8416000000",
+    "code_high": "8420999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8421000000",
+    "code_high": "8421999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8422000000",
+    "code_high": "8424999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 84.31; or\nMaxNOM 50% (EXW).",
+    "key_first": "8425000000",
+    "code_high": "8430999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 84.31",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8431000000",
+    "code_high": "8443999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 84.48; or\nMaxNOM 50% (EXW).",
+    "key_first": "8444000000",
+    "code_high": "8447999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 84.48",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8448000000",
+    "code_high": "8455999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 84.66; or\nMaxNOM 50% (EXW).",
+    "key_first": "8456000000",
+    "code_high": "8465999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 84.66",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8466000000",
+    "code_high": "8468999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 84.73;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8470000000",
+    "code_high": "8472999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 84.73",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8473000000",
+    "code_high": "8478999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8479100000",
+    "code_high": "8479409999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8479500000",
+    "code_high": "8479599999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8479600000",
+    "code_high": "8479829999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8479890000",
+    "code_high": "8479899999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8479900000",
+    "code_high": "8479999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8480000000",
+    "code_high": "8480999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTSH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8481000000",
+    "code_high": "8481999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any subheading, except that of the product (<abbr title='Change of Tariff Sub-heading'>CTSH</abbr> - Change of Tariff Sub-heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8482000000",
+    "code_high": "8487999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 85.03; or\nMaxNOM 50% (EXW).",
+    "key_first": "8501000000",
+    "code_high": "8502999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 85.03",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8503000000",
+    "code_high": "8506999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "- Accumulators containing one or more battery cells or battery modules and the circuitry to interconnect them amongst themselves,\noften referred to as \u201cbattery packs\u201d, of a kind used as the primary source of electrical power for propulsion         of\nvehicles of\nheadings  87.02,\n87.03 and 87.04\nCTH except from non-originating active cathode materials; or\nMaxNOM 30% (EXW)91.\n- Battery cells, battery modules and parts thereof, intended   to   be\nincorporated   into\nCTH except from non-originating active cathode materials; or\nan electric\naccumulator of a kind used as the primary source of electrical power for propulsion         of\nvehicles of\nheadings  87.02,\n87.03 and 87.04\nMaxNOM 35% (EXW)92\n- others\nCTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8507000000",
+    "code_high": "8507999999",
+    "product_specific_rules": [
+      "- Accumulators containing one or more battery cells or battery modules and the circuitry to interconnect them amongst themselves,\noften referred to as \u201cbattery packs\u201d, of a kind used as the primary source of electrical power for propulsion         of\nvehicles of\nheadings  87.02,\n87.03 and 87.04\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating active cathode materials",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 30% (EXW)91.\n- Battery cells, battery modules and parts thereof, intended   to   be\nincorporated   into\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating active cathode materials",
+      "an electric\naccumulator of a kind used as the primary source of electrical power for propulsion         of\nvehicles of\nheadings  87.02,\n87.03 and 87.04\nThe maximum value of non-originating materials (MaxNOM) is no more than 35% (EXW)92\n- others\nYour goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8508000000",
+    "code_high": "8518999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 85.22; or\nMaxNOM 50% (EXW).",
+    "key_first": "8519000000",
+    "code_high": "8521999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 85.22",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8522000000",
+    "code_high": "8523999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 85.29; or\nMaxNOM 50% (EXW).",
+    "key_first": "8525000000",
+    "code_high": "8527999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 85.29",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8528000000",
+    "code_high": "8534999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 85.38; or\nMaxNOM 50% (EXW).",
+    "key_first": "8535000000",
+    "code_high": "8537999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 85.38",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8538100000",
+    "code_high": "8541909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nNon-originating materials undergo a diffusion; or\nMaxNOM 50% (EXW).",
+    "key_first": "8542310000",
+    "code_high": "8542399999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "Non-originating materials undergo a diffusion",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8542900000",
+    "code_high": "8543909999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 50% (EXW).",
+    "key_first": "8544000000",
+    "code_high": "8548999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH except from non-originating materials of heading 86.07; or\nMaxNOM 50% (EXW).",
+    "key_first": "8601000000",
+    "code_high": "8609999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading) except from non-originating materials of heading 86.07",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 45% (EXW).",
+    "key_first": "8701000000",
+    "code_high": "8701999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 45% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "vehicles with both internal combustion piston engine and electric motor as motors for propulsion capable of being charged by plugging to external source of electric power (\u2018plug-in hybrid\u2019);\nvehicles with only electric motor for propulsion\nMaxNOM 45% (EXW) and battery packs of heading 85.07 of a kind used as the primary source of electrical power for propulsion of the vehicle must be originating93.\n- others\nMaxNOM 45% (EXW)94.",
+    "key_first": "8702000000",
+    "code_high": "8704999999",
+    "product_specific_rules": [
+      "vehicles with both internal combustion piston engine and electric motor as motors for propulsion capable of being charged by plugging to external source of electric power (\u2018plug-in hybrid\u2019)",
+      "vehicles with only electric motor for propulsion\nThe maximum value of non-originating materials (MaxNOM) is no more than 45% (EXW) and battery packs of heading 85.07 of a kind used as the primary source of electrical power for propulsion of the vehicle must be originating93.\n- others\nThe maximum value of non-originating materials (MaxNOM) is no more than 45% (EXW)94."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 45% (EXW).",
+    "key_first": "8705000000",
+    "code_high": "8707999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 45% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8708000000",
+    "code_high": "8711999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 45% (EXW).",
+    "key_first": "8712000000",
+    "code_high": "8712999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 45% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8713000000",
+    "code_high": "8716999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "8801000000",
+    "code_high": "8805999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CC;\nor\nMaxNOM 40% (EXW).",
+    "key_first": "8901000000",
+    "code_high": "8908999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any chapter, except that of the product (<abbr title='Change of Tariff Chapter'>CC</abbr> - Change of Tariff Chapter)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 40% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9001100000",
+    "code_high": "9001409999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nSurfacing of the semi-finished lens into a finished ophthalmic lens with optical corrective power meant to be mounted on a pair of spectacles;\nCoating of the lens through appropriated treatments to improve vision and ensure protection of the wearer;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9001500000",
+    "code_high": "9001899999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "Surfacing of the semi-finished lens into a finished ophthalmic lens with optical corrective power meant to be mounted on a pair of spectacles",
+      "Coating of the lens through appropriated treatments to improve vision and ensure protection of the wearer",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9001900000",
+    "code_high": "9033009999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9101000000",
+    "code_high": "9114999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 50% (EXW).",
+    "key_first": "9201000000",
+    "code_high": "9209999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "MaxNOM 50% (EXW).",
+    "key_first": "9301000000",
+    "code_high": "9307999999",
+    "product_specific_rules": [
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9401000000",
+    "code_high": "9406999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9503000000",
+    "code_high": "9508999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9601000000",
+    "code_high": "9604999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Each item in the set shall satisfy the rule which would apply to it if it were not included in the set, provided that non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set.",
+    "key_first": "9605000000",
+    "code_high": "9605999999",
+    "product_specific_rules": [
+      "Each item in the set shall satisfy the rule which would apply to it if it were not included in the set, provided that non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9606000000",
+    "code_high": "9608409999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "Each item in the set shall satisfy the rule which would apply to it if it were not included in the set, provided that non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set.",
+    "key_first": "9608500000",
+    "code_high": "9608599999",
+    "product_specific_rules": [
+      "Each item in the set shall satisfy the rule which would apply to it if it were not included in the set, provided that non-originating articles may be incorporated, provided that their total value does not exceed 15% of the EXW of the set."
+    ]
+  },
+  {
+    "rule_of_origin": "CTH;\nor\nMaxNOM 50% (EXW).",
+    "key_first": "9608600000",
+    "code_high": "9620999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)",
+      "The maximum value of non-originating materials (MaxNOM) is no more than 50% (EXW)."
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  },
+  {
+    "rule_of_origin": "CTH",
+    "key_first": "9701000000",
+    "code_high": "9706999999",
+    "product_specific_rules": [
+      "Your goods are produced from non-originating materials of any heading, except that of the product (<abbr title='Change of Tariff Heading'>CTH</abbr> - Change of Tariff Heading)"
+    ],
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null
+  }
+]

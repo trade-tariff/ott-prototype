@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Rules of origin and trade agreements
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Rules of origin",
+            href: ""
+            }
+        ]
+        }) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">Rules of origin</h1>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <p class="govuk-body-l">If you are importing goods into the UK, you may be able to claim a preferential customs duty rate if the country from which the goods are coming has a Trade Agreement with the UK.</p>
+            
+            {# <p class="govuk-body-l">The UK has Trade Agreements with the following countries and trading blocs. Rules of origin apply to importing goods from these countries and blocs.</p> #}
+
+            <p class="govuk-body-l">Select the country or trade bloc from which the goods are coming to identify if there are any applicable rules of origin that will impact your import.</p>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {# <div class="xgovuk-inset-text xgovuk-!-margin-top-9 govuk-!-margin-bottom-9">
+
+                <p>The UK has Trade Agreements with the following countries and trading blocs. Rules of origin apply to importing goods
+            from these countries and blocs.</p>
+
+                <p>Select the country or trade bloc from which the goods are coming to identify if there are any applicable rules of origin that will impact your import.</p>
+            </div> #}
+
+            <table class="govuk-table">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header" style="width:75%">Agreement</th>
+                        {# <th scope="col" class="govuk-table__header">Country</th> #}
+                        <th scope="col" class="govuk-table__header" style="width:25%">Rules of origin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Start the loop //-->
+                    {% set footnote_index = 1 %}
+                    {% set footnote_array = [] %}
+                    {% for scheme in rules_of_origin_schemes %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <strong>{{ scheme.title | safe }}</strong>
+                                <!--{% if scheme.footnote %}
+                                    <sup>({{ footnote_index }})</sup>
+
+                                    {% set footnote_index = footnote_index + 1 %}
+                                    {% set footnote_array = (footnote_array.push(scheme.footnote), footnote_array) %}
+
+                                {% endif %}//-->
+                                <p class="govuk-body--m">{{ scheme.country_descriptions }}</p>
+                                {% if scheme.footnote %}
+                                    <p class="govuk-body--m">{{ scheme.footnote | safe }}</p>
+                                {% endif %}
+                            </td>
+                            <td class="govuk-table__cell">
+                                <ul class="govuk-list govuk-body--m">
+                                    {# <li>
+                                        <a href="{{ scheme.links[0].url }}">Overview</a>
+                                    </li> #}
+                                    <li>
+                                        <a href="/roo/country/{{ scheme.code }}">View rules of origin</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    <!-- End the loop //-->
+                </tbody>
+            </table>
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./related-items.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter Meursing additional code
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/unit_value/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+        <span class="govuk-caption-xl">Calculate import duties</span>
+        {{ govukInput({
+          id: "meursing_code",
+          name: "meursing_code",
+          label: {
+              text: "What is the Meursing code for your commodity?",
+              classes: "govuk-label--xl",
+              isPageHeading: true
+          },
+          hint: {
+              html: "A Meursing additional code is used to identify the determine duties
+              for the import or export of goods containing certain types of milk and sugars.
+              Your code will be 3 numeric digits long, preceded by a number 7 (pre-populated).
+              <br><br>
+              To find your Meursing additional code, visit
+              <a target='_blank' href='https://www.gov.uk/additional-commodity-code'>https://www.gov.uk/additional-commodity-code</a>."
+          },
+          prefix: {
+              text: "7"
+          },
+          classes: "govuk-input--width-4",
+          spellcheck: false
+        }) }}
+
+        {{ govukButton({
+            text: "Continue"
+            }) }}
+        {# <p>You are calculating the duties to import commodity
+            <a title="Select a different commodity code" href="/sections">0102030405</a>
+            into <a title="Select an alternative destination" href="/duty-calculator/destination/0101210000">Wales</a>
+            from <a href="">Albania</a>. Click on '<strong>Continue</strong>' or on one of the links above
+            to change your previous selections.</p> #}
+      </form>
+            {% include "../includes/commodity_panel.html" %}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

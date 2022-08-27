@@ -1,0 +1,274 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - select origin
+{% endblock %}
+
+{% block beforeContent %}
+  {# {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }} #}
+  {{ govukBackLink({
+    text: "Back",
+    classes: "noprint",
+    href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+  }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <span class="govuk-caption-xl">Import guidance</span>
+      <h1 class="govuk-heading-l">Import controls for commodity {{commodity.data.attributes.goods_nomenclature_item_id}}</h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <dl class="govuk-summary-list govuk-!-margin-bottom-0">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Commodity code</dt>
+          <dd class="govuk-summary-list__value">
+            <a href="/commodities/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+              {{commodity.data.attributes.goods_nomenclature_item_id}}</a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Goods classification</dt>
+          <dd class="govuk-summary-list__value">{{ commodity.crumb | safe }}
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Date of import</dt>
+          <dd class="govuk-summary-list__value">01 Jan 2022</dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Goods coming from</dt>
+          <dd class="govuk-summary-list__value">{{commodity.country_name }}<img class="flag"
+  src="https://flagcdn.com/h20/{{ commodity.origin | lower }}.png" srcset="https://flagcdn.com/h40/{{ commodity.origin | lower }}.png 2x, https://flagcdn.com/h60/{{ commodity.origin | lower }}.png 3x"
+  height="20" alt="{{commodity.country_name }}"></dd>
+        </div>
+
+        <div class="govuk-summary-list__row govuk-summary-list__row_noborder">
+          <dt class="govuk-summary-list__key" style="width: 36%;">Border system</dt>
+          <dd class="govuk-summary-list__value">
+            {{ commodity.border_system }}
+
+          </dd>
+        </div>
+      </dl>
+
+      <details class="govuk-details noprint govuk-!-margin-top-5" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">
+            Tailor the results to CHIEF or CDS
+          </span>
+        </summary>
+        <div class="govuk-details__text">
+
+          <form action="/preferences-handler" method="get">
+
+            {% if data["border_system"] == "chief" %}
+              {% set chief_selected = true %}
+              {% set cds_selected = false %}
+              {% set table_header = "CHIEF completion guidance" %}
+            {% endif %}
+            {% if data["border_system"] == "cds" %}
+              {% set chief_selected = false %}
+              {% set cds_selected = true %}
+              {% set table_header = "CDS completion guidance" %}
+            {% endif %}
+
+            {{ govukRadios({
+                idPrefix: "border_system",
+                name: "border_system",
+                fieldset: {
+                    legend: {
+                    text: "Which border system do you use?",
+                    isPageHeading: false,
+                    classes: "govuk-fieldset__legend--m"
+                    }
+                },
+                hint: {
+                    text: "The information below may be tailored to the requirements for completing declarations on either CHIEF or CDS. Select the border system for which you would like guidance"
+                },
+                items: [
+                    {
+                    value: "cds",
+                    text: "CDS",
+                    checked: cds_selected
+                    },
+                    {
+                    value: "chief",
+                    text: "CHIEF",
+                    checked: chief_selected
+                    }
+                ]
+            }) }}
+
+            {{ govukButton({
+                text: "Save preferences",
+                classes: "tight"
+            }) }}
+          </form>
+
+        </div>
+      </details>
+
+      <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible noprint">
+
+      <nav class="gem-c-contents-list noprint" aria-label="Contents" role="navigation">
+        <h2 class="govuk-heading-m govuk-!-margin-bottom-4">Contents</h2>
+        <ol class="gem-c-contents-list__list">
+          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+            <a class="gem-c-contents-list__link govuk-link  govuk-link--no-underline" href="#how_to_use">How to use these tables</a>
+          </li>
+          {% for m in commodity.measures %}
+            {% if m.has_conditions %}
+              <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                <a class="gem-c-contents-list__link govuk-link  govuk-link--no-underline" href="#measure_{{ m.id }}">{{ m.measure_type_description }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </nav>
+
+      <div class="noprint">
+        <h2 class="govuk-heading-m govuk-!-margin-top-9" id="how_to_use">How to use these tables</h2>
+        <p>To complete your trade, you need to fulfil one of the requirements listed in the table associated
+          with each of the trade measures. There are three types of condition:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li><strong>Documentation requirements</strong> - you must provide documentary evidence to accompany your import</li>
+          <li><strong>Exemptions</strong> - your import is exempted from the need to provide documentation for reasons identified in the tables below</li>
+          <li><strong>Threshold conditions</strong> - your import is below a threshold weight or volume</li>
+        </ul>
+        <p>These requirements may also be combined. For example, an exemption may apply only for the import of small weights or volumes.</p>
+        <p>The codes next to the rules or exemptions are the import codes that apply to your goods. You (or your agent) will need these codes to complete the import declaration.</p>
+      </div>
+
+      {% for m in commodity.measures %}
+        {% if m.has_conditions %}
+          {% set condition_class = "" %}
+          <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible noprint">
+          <h2 id="measure_{{ m.id }}" class="govuk-heading-m govuk-!-margin-top-9 measure_type_{{ m.measure_type.id }}">{{ m.measure_type_description }}</h2>
+          {% if m.exposed_conditions.length > 1 %}
+          <p>There are {{ m.exposed_conditions.length }} ways to comply with this control.</p>
+          {% endif %}
+          <p class="govuk-body--m govuk-hint">{{ m.measure_type.hint }}</p>
+          <table class="govuk-table govuk-table--m">
+            {# <caption class="govuk-table__caption govuk-heading-s">Rules</caption> #}
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header" style="width:10%">Code</th>
+                <th scope="col" class="govuk-table__header" style="width:30%">Condition</th>
+                <th scope="col" class="govuk-table__header" style="width:60%">{{ table_header }}</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              {% for mc in m.exposed_conditions %}
+                {% if mc.positive %}
+
+                  <tr class="govuk-table__row">
+                    <th scope="row" class="govuk-table__header">{{ mc.document_code | safe }}</th>
+                    {% if mc.condition_class == "threshold" %}
+                      <td class="govuk-table__cell" colspan='2'>
+                        <strong>{{ mc.intro_label }}</strong><br>
+                        {{ mc.requirement | safe }}
+                      </td>
+                    {% else %}
+                      <td class="govuk-table__cell">
+                        <strong>{{ mc.intro_label }}</strong><br>
+                        {{ mc.requirement | safe }}
+                      </td>
+                      <td class="govuk-table__cell tight">
+                        {% if data["border_system"] == "cds" %}
+                          {{ mc.appendix_5a.guidance_cds | safe }}
+                        {% else %}
+                          {{ mc.appendix_5a.guidance_chief | safe }}
+                        {% endif %}
+                        {% if mc.status_code_descriptions | length > 0 %}
+                          <details class="govuk-details govuk-details-m" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                              <span class="govuk-details__summary-text">About these status codes</span>
+                            </summary>
+                            <div class="govuk-details__text">
+                              <table class="govuk-table govuk-table--m">
+                                <thead class="govuk-table__head">
+                                  <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+                                    <th scope="col" class="govuk-table__header" style="width:80%">Usage</th>
+                                  </tr>
+                                </thead>
+                                <tbody class="govuk-table__body">
+                                  {% for sc in mc.status_code_descriptions %}
+                                    <tr class="govuk-table__row">
+                                      <th scope="row" class="govuk-table__header">{{ sc.status_code }}</th>
+                                      <td class="govuk-table__cell">{{ sc.description }}</td>
+                                    </tr>
+                                  {% endfor %}
+                                </tody>
+                              </table>
+                            </div>
+                          </details>
+                        {% endif %}
+                      </td>
+                    {% endif %}
+                  </tr>
+                {% endif %}
+                {% set condition_class = mc.condition_class %}
+              {% endfor %}
+            </tbody>
+          </table>
+          {# {% if m.footnotes.length > 0 %} #}
+          {% if 1 > 2 %}
+            <details class="govuk-details govuk-details-m" data-module="govuk-details">
+              <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">Footnotes on {{ m.measure_type_description }}</span>
+              </summary>
+              <div class="govuk-details__text">
+                <table class="govuk-table govuk-table--m">
+                  <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                      <th scope="col" class="govuk-table__header" style="width:20%">Code</th>
+                      <th scope="col" class="govuk-table__header" style="width:80%">Footnote</th>
+                    </tr>
+                  </thead>
+                  <tbody class="govuk-table__body">
+                    {% for f in m.footnotes %}
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">{{ f.code }}</th>
+                        <td class="govuk-table__cell">{{ f.description | safe }}</td>
+                      </tr>
+                    {% endfor %}
+                  </tody>
+                </table>
+              </div>
+            </details>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <br><br><br><br><br>
+
+      <a href="#" role="button" onclick="window.print()" class="govuk-link gem-c-print-link__link govuk-link--no-visited-state hideNoJs noprint" data-module="govuk-button" id="printButton">Print results</a>
+
+    </div>
+    <div class="govuk-grid-column-one-third noprint">
+      {% if commodity.border_system == "CDS" %}
+        {% include "./aside_cds.html" %}
+      {% else %}
+        {% include "./aside_chief.html" %}
+      {% endif %}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

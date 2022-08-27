@@ -1,0 +1,76 @@
+{% set prefix_remote = "https://www.trade-tariff.service.gov.uk" %}
+{% set prefix_local = "http://localhost:3000" %}
+
+{% set old_chapter = -1 %}
+{# <h2 class="govuk-heading-s">Showing in alphabetical order</h2> #}
+<div class="alpha">
+    {# {{ hits.hits | dump }} #}
+    {% for hit in hits.hits %}
+        {% if hit.display == true %}
+            {% for tier in hit.display_hierarchy %}
+                {% set chapter = hit
+                    ._source
+                    .hierarchy[0]
+                    .sid %}
+                {% if chapter != old_chapter and old_chapter != -1 %}
+                </div>
+            </details>
+        {% endif %}
+        {% set old_chapter = chapter %}
+        {% if tier.class == "chapter" %}
+            <details class="govuk-details" data-module="govuk-details" xopen="true">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">
+                        Chapter {{ tier.goods_nomenclature_item_id | format_commodity_code3(tier) | safe }}: {{ tier.description }}
+                    </span>
+                </summary>
+                <div class="govuk-details__text">
+                {% elseif tier.class == "heading" %}
+                    <div class="search_item search_item_{{ tier.indent }}">
+                        <div class="desc">
+                            <a target="_blank" href="{{ prefix_remote }}/headings/{{ tier.goods_nomenclature_item_id | substring(0, 4) | safe }}">
+                                {{ tier.description }}
+                            </a>
+                            {% if hit.class == "heading" %}
+                                {% include "search/elastic_tag.html" %}
+                            {% endif %}
+                        </div>
+                        <div class="commodity-split">
+                            {{ tier.goods_nomenclature_item_id | format_commodity_code3(tier) | safe }}
+                        </div>
+                    </div>
+                {% elseif tier.class == "subheading" %}
+                    <div class="search_item search_item_{{ tier.indent }}">
+                        <div class="desc">
+                            <a target="_blank" href="{{ prefix_remote }}/subheadings/{{ tier.goods_nomenclature_item_id }}-{{ tier.productline_suffix }}">
+                                {{ tier.description }}
+                            </a>
+                            {% if hit.class == "heading" %}
+                                {% include "search/elastic_tag.html" %}
+                            {% endif %}
+                        </div>
+                        <div class="commodity-split">
+                            {% if tier.productline_suffix == "80" %}
+                                {{ tier.goods_nomenclature_item_id | format_commodity_code3(tier) | safe }}
+                            {% endif %}
+                        </div>
+                    </div>
+                {% elseif tier.class == "commodity" %}
+                    <div class="search_item search_item_{{ tier.indent }}">
+                        <div class="desc">
+                            <a target="_blank" href="{{ _local }}/commodities/{{ tier.goods_nomenclature_item_id }}">
+                                {{ tier.description }}
+                            </a>
+                            {% include "search/elastic_tag.html" %}
+                        </div>
+                        <div class="commodity-split">
+                            {{ tier.goods_nomenclature_item_id | format_commodity_code3(tier) | safe }}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
+</details>
+</div>

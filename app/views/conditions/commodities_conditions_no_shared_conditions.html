@@ -1,0 +1,50 @@
+{% set block_count = 1 %}
+{% for mccg in measure.measure_condition_code_groups %}
+    {% if measure.show_condition_code_group_titles %}
+        {# We only show the measure condition code group titles when there is
+        more than one condition code group, otherwise, they are pointless #}
+        <h3 class="govuk-heading-s condition-cdde-{{ mccg.condition_code }}">{{ block_count }}. {{ mccg.condition }}</h3>
+    {% endif %}
+    <p>{{ mccg.intro_text | safe }}</p>
+    {% if mccg.measure_conditions.length == 1 %}
+        <p>{{ mccg.subtext_single | safe }}</p>
+    {% else %}
+        <p>{{ mccg.subtext_multiple | safe }}</p>
+    {% endif %}
+
+    <table class="govuk-table govuk-table--m">
+        <thead class="govuk-table__head">
+            <tr>
+                {% for column in mccg.columns %}
+                    <th scope="col" class="govuk-table__header">{{ column.label }}</th>
+                {% endfor %}
+            </tr>
+            {% for mc in mccg.measure_conditions %}
+                <tr>
+                    {% for column in mccg.columns %}
+                        {% if column.field == "requirement" %}
+                            {% set cell_value = mccg.requirement_prefix + mc.requirement %}
+                        {% elif column.field == "document_code" %}
+                            {% set cell_value = mc.document_code %}
+                        {% elif column.field == "duty_expression" %}
+                            {% set cell_value = mc.duty_expression %}
+                        {% elif column.field == "action" %}
+                            {% set cell_value = mc.action %}
+                        {% else %}
+                            {% set cell_value = "Missing" %}
+                        {% endif %}
+                        <td class="govuk-table__cell">
+                            {{ cell_value | safe }}
+                            {% if mccg.show_5a5b %}
+                                {% if column.field == "requirement" %}
+                                    {% include "conditions/conditions_no_shared_5a5b.html" %}
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </thead>
+    </table>
+    {% set block_count = block_count + 1 %}
+{% endfor %}

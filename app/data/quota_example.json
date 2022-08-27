@@ -1,0 +1,171 @@
+{
+    "data": [
+        {
+            "id": "20260",
+            "type": "definition",
+            "attributes": {
+                "quota_definition_sid": 20260,
+                "quota_order_number_id": "058080",
+                "initial_volume": "401000.0",
+                "validity_start_date": "2021-04-01T00:00:00.000Z",
+                "validity_end_date": "2021-06-30T23:59:59.000Z",
+                "status": "Open",
+                "description": null,
+                "balance": "141985.0",
+                "measurement_unit": "Kilogram (kg)",
+                "monetary_unit": null,
+                "measurement_unit_qualifier": null,
+                "last_allocation_date": "2021-05-10T13:00:00.000Z",
+                "suspension_period_start_date": null,
+                "suspension_period_end_date": null,
+                "blocking_period_start_date": null,
+                "blocking_period_end_date": null
+            },
+            "relationships": {
+                "order_number": {
+                    "data": {
+                        "id": "058080",
+                        "type": "order_number"
+                    }
+                },
+                "measures": {
+                    "data": [
+                        {
+                            "id": "20135699",
+                            "type": "measure"
+                        },
+                        {
+                            "id": "20135700",
+                            "type": "measure"
+                        },
+                        {
+                            "id": "20135701",
+                            "type": "measure"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "quota_balance_event",
+            "attributes": {
+                "occurence_timestamp": "2021-04-01T00:00:00.000Z",
+                "quota_definition_sid": 20260,
+                "old_balance": 100000,
+                "new_balance": 90000,
+                "imported_amount": 10000
+            }
+
+        },
+        {
+            "id": "EU",
+            "type": "geographical_area",
+            "attributes": {
+                "id": "EU",
+                "description": "European Union",
+                "geographical_area_id": "EU"
+            }
+        },
+        {
+            "id": "TR",
+            "type": "geographical_area",
+            "attributes": {
+                "id": "TR",
+                "description": "Turkey",
+                "geographical_area_id": "TR"
+            }
+        },
+        {
+            "id": "1013",
+            "type": "geographical_area",
+            "attributes": {
+                "id": "1013",
+                "description": "European Union",
+                "geographical_area_id": "1013"
+            }
+        },
+        {
+            "id": "058080",
+            "type": "order_number",
+            "attributes": {
+                "number": "058080"
+            },
+            "relationships": {
+                "geographical_areas": {
+                    "data": [
+                        {
+                            "id": "EU",
+                            "type": "geographical_area"
+                        },
+                        {
+                            "id": "TR",
+                            "type": "geographical_area"
+                        },
+                        {
+                            "id": "1013",
+                            "type": "geographical_area"
+                        },
+                        {
+                            "id": "TR",
+                            "type": "geographical_area"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20135699",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "7306611000"
+            },
+            "relationships": {
+                "geographical_area": {
+                    "data": {
+                        "id": "TR",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        },
+        {
+            "id": "20135700",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "7306619200"
+            },
+            "relationships": {
+                "geographical_area": {
+                    "data": {
+                        "id": "TR",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        },
+        {
+            "id": "20135701",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "7306619900"
+            },
+            "relationships": {
+                "geographical_area": {
+                    "data": {
+                        "id": "TR",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "per_page": 5,
+            "total_count": 1
+        }
+    }
+}

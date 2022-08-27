@@ -1,0 +1,186 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Import duty calculation</h1>
+      <p>You are importing commodity <a href="/commodities/{{ commodity.goods_nomenclature_item_id }}">
+          <sxtrong>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}</a>
+        </strong>
+          &nbsp;into <strong>{{ data["destination"] }}</strong>
+         from <strong>{{ commodity.country_name }}</strong> on <strong>03 Jun 2021</strong>.</p>
+
+      <details class="govuk-details import_summary" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Details of your trade</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl>
+            <dt>Origin:</dt>
+            <dd>{{ commodity.country_name }}&nbsp;</dd>
+
+            <dt>Commodity:</dt>
+            <dd>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}<br>
+              {{ commodity.description | safe }}</dd>
+
+            <dt>Import date:</dt>
+            <dd>1 Jan 2021&nbsp;</dd>
+
+            <dt>Valuation for import:</dt>
+            <dd>£2,000.00&nbsp;</dd>
+          </dl>
+        </div>
+      </details>
+
+      <!-- Start results //-->
+
+      <!-- Start navigation //-->
+      <nav>
+        <p class="govuk-body govuk-!-margin-bottom-3">You have a number of options to reduce duties applicable on this import</p>
+
+        <ul class="app-contents govuk-!-margin-bottom-9">
+
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_103">Option 1: Pay third country duty</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_142">Option 2: Tariff preference with Albania</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_143">Option 3: Use quota 05.1234</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_112">Option 4: Use autonomous tariff suspension</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_696">Variation: Safeguards</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_552">Variation: Trade remedies</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End navigation //-->
+
+      <!-- Start results //-->
+      <h2 id="measure_type_103" class="govuk-heading-m">Option 1 - Pay third-country duty</h2>
+      <p class="govuk-body">Some words about the basic third-country duty.</p>
+      {% if commodity.mfns %}
+        {% for item in commodity.mfns %}
+          {{ govukTable({
+            firstCellIsHeader: false,
+            classes: "govuk-table--m",
+            head: [
+              {
+                text: "Data"
+              },
+              {
+                text: "Calculation"
+              },
+              {
+                text: "Value",
+                classes: "r"
+              }
+            ],
+            rows: [
+              [
+                {
+                  text: "Customs value"
+                },
+                {
+                  html: "Value of goods + freight + insurance costs<br>
+                  <span class='govuk-green'>" + 
+                  "£" + data["monetary_value"] | decimals(2) +
+                  " + £" + data["shipping_cost"] | decimals(2) +
+                  " + £" + data["insurance_cost"] | decimals(2) +
+                  "</span>"
+                },
+                {
+                  text: "£" + data["total_cost"] | decimals(2) ,
+                  classes: "r"
+                }
+              ],
+              [
+                {
+                  html: "Import duty<br><span class='govuk-green'>Third-country duty</span>"
+                },
+                {
+                  html: item.calculation_string +
+                  "<br><span class='govuk-green'>" + item.calculation_string_expanded + "</span>"
+                },
+                {
+                  text: "£" + item.result | decimals(2),
+                  classes: "r"
+                }
+              ],
+              [
+                {
+                  xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+                  html: "<abbr title='Value-added tax'>VAT</abbr>",
+                  classes: "vat_row"
+                },
+                {
+                  html: item.vat.calculation_string + 
+                  "<br><span class='govuk-green'>" + item.vat.calculation_string_expanded + "</span>
+                  " + item.vat.vat_appendage_string,
+                  classes: "vat_row"
+                },
+                {
+                  text: "£" + item.vat.result | decimals(2),
+                  classes: "r vat_row"
+                }
+              ],
+              [
+                {
+                  html: "Duty total",
+                  classes: "b"
+                },
+                {
+                  text: ""
+                },
+                {
+                  text: "£" + (item.result + item.vat.result) | decimals(2),
+                  classes: "r b"
+                }
+              ]
+            ]
+          }) }}
+        {% endfor %}
+      {% endif %}
+
+      {{ govukButton({
+        text: "Print this page",
+        href: "javascript:print()",
+        classes: "govuk-button--secondary govuk-button--print"
+      }) }}
+
+      <p class="govuk-!-margin-top-5">Please note  - the following results page uses an exchange rate of <strong>{{ data["exchange_rate"] }} GBP to EUR</strong>.</p>
+      {{ govukDetails({
+        summaryText: "More about this exchange rate",
+        text: "The exchange rate used is derived from the European Central Bank.
+        The reference rates are usually updated around 15:00 on every working day."
+      }) }}
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

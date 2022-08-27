@@ -1,0 +1,200 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by quota
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Quotas",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">Search for quotas</h1>
+
+            <form action="" method="get">
+                {{ govukInsetText({
+                    html: "Search for tariff quotas, including daily updated balances.
+                    Enter data into at least one of the fields below."
+                }) }}
+
+                {{ govukInput({
+                    label: {
+                        text: "Enter the 6-digit quota order number"
+                    },
+                    xhint: {
+                        text: "Enter the 6-digit quota order number"
+                    },
+                    classes: "govuk-input--width-5",
+                    id: "order_number",
+                    name: "order_number"
+                }) }}
+
+                {# {{ govukInput({
+          label: {
+            text: "Enter a 10-digit commodity code to search for quotas available on that code"
+          },
+          xhint: {
+            text: "Enter a full 10-digit commodity code, to search for quotas that are available on that code"
+          },
+          classes: "govuk-input--width-10",
+          id: "goods_nomenclature_item_id",
+          name: "goods_nomenclature_item_id"
+        }) }} #}
+
+                {{ govukInput({
+          label: {
+            text: "Select a country to which the quota applies"
+          },
+          xhint: {
+            text: "Enter a full 10-digit commodity code, to search for quotas that are available on that code"
+          },
+          classes: "govuk-input--width-20",
+          id: "country",
+          name: "country",
+          value: "All countries"
+        }) }}
+                <p style="margin:-1.5em 0px 2em 0px;font-size:16px;">
+                    <a href="#">Reset to all countries</a>
+                </p>
+
+                {{ govukDateInput({
+          id: "date",
+          namePrefix: "date",
+          fieldset: {
+            legend: {
+              text: "Enter the date for which you would like to return results",
+              isPageHeading: true,
+              classes: "govuk-fieldset__legend--s"
+            }
+          },
+          hint: {
+            text: "If you leave this field blank, then today's date will be used"
+          }
+        }) }}
+
+                {{ govukRadios({
+              classes: "govuk-radios",
+              idPrefix: "critical-state",
+              name: "critical-state",
+              fieldset: {
+                legend: {
+                  text: "Critical status",
+                  isPageHeading: false,
+                  classes: "govuk-fieldset__legend--s b"
+                }
+              },
+              hint: {
+                html: "Select whether to include or exclude <a target='_blank' href='https://www.gov.uk/government/publications/uk-trade-tariff-tariff-quotas-and-ceilings/uk-trade-tariff-tariff-quotas-and-ceilings#status' target-'_blank'>critical quotas (opens in new window)</a>."
+              },
+              items: [
+                {
+                  value: "all",
+                  text: "All quotas",
+                  checked: true
+                },
+                {
+                  value: "critical",
+                  text: "Critical quotas only"
+                },
+                {
+                  value: "non-critical",
+                  text: "Non-critical quotas only"
+                }
+              ]
+            }) }}
+
+                {{ govukRadios({
+              classes: "govuk-radios",
+              name: "include_exhausted",
+              fieldset: {
+                legend: {
+                  text: "Would you like to include exhausted quotas?",
+                  isPageHeading: true,
+                  classes: "govuk-fieldset__legend--s b"
+                }
+              },
+              items: [
+                {
+                  value: "yes",
+                  text: "Include exhausted quotas",
+                  checked: true
+                },
+                {
+                  value: "no",
+                  text: "Exclude exhausted quotas"
+                }
+              ]
+            }) }}
+
+                {{ govukButton({
+          text: "Search for quotas",
+          href: ""
+        }) }}
+            </form>
+
+        </div>
+    </div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <h2 class="govuk-heading-m">Quota search results</h2>
+            <p>This table lists the quotas that match the criteria that you have provided.</p>
+            <table class="govuk-table">
+                {# <caption class="govuk-table__caption govuk-table__caption--m">Quota search results</caption> #}
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Order number</th>
+                        <th scope="col" class="govuk-table__header">Commodities</th>
+                        <th scope="col" class="govuk-table__header">Country</th>
+                        <th scope="col" class="govuk-table__header">Start date</th>
+                        <th scope="col" class="govuk-table__header">End date</th>
+                        <th scope="col" class="govuk-table__header">Current balance</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    {% for def in results.data %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="/tools/quota_detail/{{ def.attributes.quota_order_number_id }}">{{ def.attributes.quota_order_number_id }}</a>
+                            </td>
+                            <td class="govuk-table__cell">
+                                <a href="/commodities/0702000007">0702000007</a>
+                            </td>
+                            <td class="govuk-table__cell">
+                Morocco
+              </td>
+                            <td class="govuk-table__cell">{{ def.attributes.validity_start_date | format_date("D MMM YYYY") }}</td>
+                            <td class="govuk-table__cell">{{ def.attributes.validity_end_date | format_date("D MMM YYYY") }}</td>
+                            <td class="govuk-table__cell nowrap nw">{{ def.attributes.balance | format_balance}}
+                                {{ def.attributes.measurement_unit }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <p>Last updated:  8 July 2021 <a href="https://www.gov.uk/government/collections/tariff-stop-press-notices" target="_blank">View latest amendments (opens in new window)</a>
+            </p>
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

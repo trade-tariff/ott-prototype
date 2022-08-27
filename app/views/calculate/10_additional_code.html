@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">{{ commodity.additional_code_overlay }}</h1>
+            </legend>
+            <div id="contact-hint" class="govuk-hint">
+              {{ commodity.additional_code_hint }}
+            </div>
+
+            {% if commodity.additional_codes.length > 7 %}
+              <div class="govuk-form-group">
+                <label class="govuk-label" for="sort">Sort by</label>
+                <select class="govuk-select" id="sort" name="sort">
+                  {% for additional_code in commodity.additional_codes %}
+                    <option value="{{ additional_code.code }}">
+                      <strong>{{ additional_code.code }}</strong> - {{ additional_code.overlay | safe }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+            {% else %}
+              {% if commodity.additional_codes.length > 2 %}
+                {% set class = "govuk-radios--small" %}
+              {% else %}
+                {% set class = "" %}
+              {% endif %}
+              {% set class = "" %}
+
+              <div class="govuk-radios {{ class }}">
+                {% for additional_code in commodity.additional_codes %}
+                  {% if additional_code.code[0] != "V" %}
+
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="additional-code-{{ additional_code.code }}" name="additional-code" type="radio" value="{{ additional_code.code }}">
+                      <label class="govuk-label govuk-radios__label" for="additional-code-{{ additional_code.code }}">
+                        <strong>{{ additional_code.code }}</strong> - {{ additional_code.overlay | safe }}
+                      </label>
+                      {% if additional_code.hint != "" %}
+                        <div id="additional-code-{{ additional_code.code }}-hint" class="govuk-hint govuk-radios__hint">
+                          {{ additional_code.hint | safe }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+
+              </div>
+
+            {% endif %}
+          </fieldset>
+        </div>
+
+        {{ govukButton({
+        text: "Continue"
+      }) }}
+
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
+</html>

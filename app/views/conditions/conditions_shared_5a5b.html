@@ -1,0 +1,33 @@
+<details class="govuk-details govuk-!-margin-left-1 govuk-!-margin-top-2 govuk-!-margin-bottom-0" data-module="govuk-details">
+    <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">Guidance for completing declarations</span>
+    </summary>
+    <div class="govuk-details__text">
+        <table class="govuk-table govuk-table--m">
+            <thead class="govuk-table__head">
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header nw">Document code</th>
+                    <th scope="col" class="govuk-table__header">CDS intructions</th>
+                    <th scope="col" class="govuk-table__header">CHIEF intructions</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+                {% for mc in measure.codes_for_5a %}
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">{{ mc.document_code | safe }}</td>
+                        <td class="govuk-table__cell">{{ mc.appendix_5a.guidance_cds | safe }}</td>
+                        <td class="govuk-table__cell">
+                            {% if mc.appendix_5a.guidance_chief | length > 0 %}
+                                {{ mc.appendix_5a.guidance_chief | safe }}
+                            {% else %}
+                                <p>No information is available.</p>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% include "conditions/conditions_instructions.html" %}
+    </div>
+</details>

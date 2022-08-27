@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "All sections",
+      href: "/sections/"
+    },
+    {
+        text: "Section " + chapter.data.attributes.section_id | roman,
+        href: "/sections/" + chapter.data.attributes.section_id
+    },
+    {
+      text: "Chapter " + chapter.data.attributes.goods_nomenclature_item_id | substring(0, 2),
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% set title_len = chapter.data.attributes.formatted_description | length %}
+            {% if title_len > 400 %}
+                {% set title_class = "govuk-heading-s" %}
+            {% elseif title_len > 120 %}
+                {% set title_class = "govuk-heading-m" %}
+            {% else %}
+                {% set title_class = "govuk-heading-l" %}
+            {% endif %}
+
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="{{ title_class }}">
+                Chapter {{ chapter.data.attributes.goods_nomenclature_item_id | substring(0, 2) }} - {{ chapter.data.attributes.formatted_description | safe }}
+            </h1>
+        </div>
+    </div>
+
+    {% include "includes/context_include.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            {# Count the headings #}
+            {% set heading_count = 0 %}
+            {% for heading in chapter.included %}
+                {% if (heading.type == "heading") %}
+                    {% set heading_count = heading_count + 1 %}
+                {% endif %}
+            {% endfor %}
+
+            <div class="govuk-inset-text">
+                Chapter {{ chapter.data.attributes.goods_nomenclature_item_id | substring(0, 2) }} contains {{ heading_count }} headings. Choose the heading that best matches your goods.
+                {% if (chapter.data.attributes.chapter_note) %}
+                    There are <a href="#section_chapter_notes">important notes for classifying your goods</a> shown further down this page.
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <div class="chapter_row">
+                <div class="commodity b">
+                    Heading
+                </div>
+                <div class="description b">Description</div>
+            </div>
+            {% for heading in chapter.included %}
+                {% if (heading.type == "heading") %}
+                    <div class="chapter_row">
+                        <div class="commodity">
+                            <span class="code digits_chapter">{{ heading.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                            <span class="code digits_heading">{{ heading.attributes.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                        </div>
+                        <div class="description">
+                            <a href="/{{ context.scope_id | fwdslash }}headings/{{ heading.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                                {{ heading.attributes.formatted_description | safe }}
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+            {% if (chapter.data.attributes.chapter_note) %}
+                <article class="section_chapter_notes">
+                    <h2 class="govuk-heading-s">Chapter notes</h2>
+                    {{ chapter.data.attributes.chapter_note | convert_markdown | safe }}
+                    {% for item in chapter.included %}
+                        {% if (item.type == "section") %}
+                            <h2 class="govuk-heading-s">Section notes</h2>
+                            {{ item.attributes.section_note | convert_markdown | safe }}
+                        {% endif %}
+                    {% endfor %}
+                </article>
+            {% endif %}
+            {% include "includes/general_interpretative_rules.html" %}
+            <div class="bottom_switcher">
+                {% include "includes/scope_switcher_panel.html" %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

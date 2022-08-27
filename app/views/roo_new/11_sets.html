@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Sets - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: context.back_link
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                <input type="hidden" name="phase" id="phase" value="sets" >
+                {# <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span> #}
+                <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+                <h1 class="govuk-heading-xl">Sets</h1>
+
+
+                <div class="agreement_content">{{ context.sets | convert_markdown | safe }}</div>
+
+                <h3 class="govuk-heading-s" id="rule-3">General Interpretative Rule 3</h3>
+                <p>When, by application of rule 2(b) or for any other reason, goods are prima facie classifiable under two or more headings, classification shall be effected as follows: </p>
+                <ol class="govuk-list govuk-list govuk-list--number" style="list-style-type: lower-alpha;">
+                        <li>the heading which provides the most specific description shall be preferred to headings providing a more general description. However, when two or more headings each refer to part only of the materials or substances contained in mixed or composite goods or to part only of the items in a set put up for retail sale, those headings are to be regarded as equally specific in relation to those goods, even if one of them gives a more complete or precise description of the goods; </li>
+                        <li>mixtures, composite goods consisting of different materials or made up of different components, and goods put up in sets for retail sale, which cannot be classified by reference to 3(a), shall be classified as if they consisted of the material or component which gives them their essential character, insofar as this criterion is applicable;</li>
+                        <li>when goods cannot be classified by reference to 3(a) or (b), they shall be classified under the heading which occurs last in numerical order among those which equally merit consideration.</li>
+                </ol>
+
+
+
+                {{ govukRadios({
+                idPrefix: "met_set",
+                name: "met_set",
+                fieldset: {
+                    legend: {
+                    text: "Having read information on sets, do you now meet the rules of origin?",
+                    isPageHeading: false,
+                    classes: "govuk-fieldset__legend--sb"
+                    }
+                },
+                hint: {
+                    text: ""
+                },
+                items: [
+                    {
+                        value: "yes",
+                        text: "Yes",
+                        hint: {
+                            text: ""
+                        }
+                    },
+                    {
+                        value: "no",
+                        text: "No",
+                        hint: {
+                            text: ""
+                        }
+                    }
+                ]
+                }) }}
+
+                {{ govukButton({
+                    text: "Continue",
+                    href: ""
+                }) }}
+
+            </form>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

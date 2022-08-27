@@ -1,0 +1,290 @@
+[
+  {
+    "document_code": "1207",
+    "import_export": "I",
+    "details": "Enter the date and location details from Form C1207S.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Providing specific authority for an agent (declarant/representative) to use an importers deferment account."
+  },
+  {
+    "document_code": "1246",
+    "import_export": "I",
+    "details": "Enter the MRN of the export declaration, C21e or reference number of the alternative evidence the RGR claim relates to.\nThe document status code as AC, AE, AF, AG, AP, AS, AT, JA, JE, or JP as appropriate.",
+    "description": "Form C&E1246 (Returned Goods Relief duplicate lists) (Notice 236)"
+  },
+  {
+    "document_code": "1314",
+    "import_export": "I",
+    "details": "Enter the MRN of the export declaration, C21e or reference number of the alternative evidence the RGR claim relates to.\nThe document status code as AC, AE, AF, AG, AP, AS, AT, JA, JE, or JP as appropriate.",
+    "description": "Form C1314 (Returned Goods Relief claim form) (Notice 236)"
+  },
+  {
+    "document_code": "1421",
+    "import_export": "I",
+    "details": "Enter the applicant\u2019s reference number from Form C1421.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Form C1421 \u2013 Importing inherited goods free of duty and VAT (Notice 368)."
+  },
+  {
+    "document_code": "1434",
+    "import_export": "I",
+    "details": "Enter the Date and Transport ID details for the goods being imported on Form DD1434.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Claims to duty and VAT relief claimed on Form DD1434 (used by US visiting Forces)."
+  },
+  {
+    "document_code": "180C",
+    "import_export": "I",
+    "details": "Enter the date as completed on the HMRC C108 form in the format yymmdd\nUse status code AC (see Appendix 5B: DE 2/3 Document Status Codes for harmonised declarations for definition).",
+    "description": "To declare an HMRC C108 form for Temporary Admissions Oral Declarations on a C21i only. See Additional Procedure Codes (DE 1/11) 50A, 50M and 51P"
+  },
+  {
+    "document_code": "185C",
+    "import_export": "I",
+    "details": "Enter the Date and Rank as completed on Form C185.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Form 185C: Claim to Visiting Forces Relief for goods removed from a customs warehouse"
+  },
+  {
+    "document_code": "2CVF",
+    "import_export": "I",
+    "details": "Enter the Date as completed on form C2.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Claims to duty/ VAT relief for the importation of personal property imported by other NATO visiting forces personnel on Form C2. (Not for use by US visiting forces)"
+  },
+  {
+    "document_code": "426C",
+    "import_export": "I",
+    "details": "Enter the transport document identification number (for example, Bill of Lading reference number) as completed on Form C426.\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Form C426: Request to release goods with a claim to Diplomatic Privilege"
+  },
+  {
+    "document_code": "517C",
+    "import_export": "I",
+    "details": "Enter the date shown on Form C517 followed by the deferment account being used to pay the Import VAT. Use status code AC",
+    "description": "Form C517: Import VAT apportionment form. See also  Statement Code VAT04"
+  },
+  {
+    "document_code": "9001",
+    "import_export": "B",
+    "details": "Enter the invoice number. Where a sequentially numbered range of invoice numbers cover the goods enter the lowest to the highest invoice numbers concerned i.e. document code + 0054037-0054047: status code. Where invoice numbers are not sequentially numbered enter the individual invoice numbers.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Declaration of preferential origin on an invoice or other commercial document bearing as appropriate an original signature or approval number of the exporter\n\nSee also: \n\n\u2013 Y019 where the declaration shows that the goods originate in Iceland;\n\n\u2013 Y020 where the declaration shows that the goods originate in Norway; and\n\n\u2013 Y021 where the document shows that goods originate in the EEA."
+  },
+  {
+    "document_code": "9004",
+    "import_export": "I",
+    "details": "Enter GBAOG followed by the reference number of the Certificate. Where a sequentially numbered range of certificates cover the goods enter the lowest to the highest reference numbers of the certificates concerned ie document code + 0054037-0054047: status code. Where certificates are not sequentially numbered enter the reference number of each certificate concerned. \n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AF, AG, AP, AS, AT, GE, GP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Certificates of origin for steel quotas."
+  },
+  {
+    "document_code": "9005",
+    "import_export": "B",
+    "details": "Enter the following -\n\n\u2013 For Department of Health document enter GBDOH followed by the license number\n\n\u2013 For Other Licence, Permit or Certificate enter GBOTH followed by the license number\n\n\u2013 For Licence of conformity of hemp in accordance with Article 5 of Regulation No. 1676/2000 enter GBCPI followed by the license number\n\n\u2013 For Refund Certificate for Non-Annex 1 goods enter GBNAI followed by the license number\n\n\u2013 For UK cultural goods licence (Form C) enter GBCEX followed by the license number\n\n\u2013 For EU cultural goods (DCMS or EU issued) enter GBCEX followed by the license number\n\n\u2013 For Licence (Form C or EU licence) enter GBCEX followed by the license number\n\n\u2013 For Export waste permit enter GBEWP followed by the license number\n\nIf using more than one licence then a separate 9005 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, EA, EE, EL, EP, ES, GE, GP, IA, IE, IP, IS, JA, JE, JP, JS, LE, LP, SP, TP, XB, XU, XW, XX.",
+    "description": "All other import documents (including Department of Health) licences, permits or certificates other than those specifically identified by other document codes.\nSee also document codes C669, C670, C672, Y915 and Y923."
+  },
+  {
+    "document_code": "9100",
+    "import_export": "I",
+    "details": "Enter the following -\n\n\u2013 For Open Individual Import Licence enter GBOIL followed by the licence number\n\n\u2013 For Specific Individual Import Licences enter GBSIL followed by the licence number\nIf using more than one licence then a separate 9100 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, EA, EE, EL, EP, ES, GE, GP, JA, JE, JP, JS, LE, LP, UA, UE, UP, US, XA, XW, XX.",
+    "description": "Firearms: Open Individual Licence. \nFirearms: Specific Individual Licence. \nNuclear Materials: Open Individual Licence.\nNuclear Materials: Specific Individual Licence."
+  },
+  {
+    "document_code": "9101",
+    "import_export": "I",
+    "details": "Enter GBSIL followed by the licence number.If using more than one licence then a separate 9101 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, EA, EE, EL, EP, ES, GE, GP, JA, JE, JP, JS, LE, LP, UA, UE, UP, US, XA, XX.",
+    "description": "Chemical weapons \u2013 pre-cursor chemicals."
+  },
+  {
+    "document_code": "9102",
+    "import_export": "I",
+    "details": "Enter GBSIT followed by the licence number. If using more than one licence then a separate 9102 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AF, AP, AT, GE, GP, LE, LP, XX.",
+    "description": "Standard Individual Transhipment Licence.\nOpen general Transhipment Licence."
+  },
+  {
+    "document_code": "9103",
+    "import_export": "I",
+    "details": "Enter GBHSE followed by the reference number of the Certificate. If using more than one certificate then a separate 9103 entry in DE 2/3 is required for each certificate.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, FP, GE, GP, JA, JE, JP, JS, LE, LP, SP, TP, XA, XB, XF, XU, XW, XX.",
+    "description": "Detonation resistance test (DRT) \n\nHSE certificate of exemption."
+  },
+  {
+    "document_code": "9104",
+    "import_export": "E",
+    "details": "Enter the following -\n\n\u2013 For an Open General Export Licence enter GBOGE followed by the licence number\n\n\u2013 For Open Individual Export Licence enter GBOIE followed by the licence number\n\n\u2013 For Standard Individual Export Licences enter GBSIE followed by the licence number\n\n\u2013 For Standard Individual Transhipment Licence enter GBSIT followed by the licence number\n\nIf using more than one licence then a separate 9104 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AP, AT, EA, EE, EP, ES, FP, GE, GP, HP, IA, IP, JA, JP, LE, LP, SP, TP, UA, XW, XX.\nFor supplementary declarations use EA, IA, JA, or UA as appropriate",
+    "description": "Standard Individual Export Licence: Military Goods and dual use goods subject to UK export controls.\n\nStandard Individual Transhipment Licence.\n\nOpen Individual Export Licence: military or dual use goods subject to national control.\n\nOpen General Export Licence (Military goods) or dual use goods subject to national control.\n\nOpen General Transhipment Licence."
+  },
+  {
+    "document_code": "9105",
+    "import_export": "E",
+    "details": "Enter the following -\n\n\u2013 For an Open General Export Licence enter GBOGE followed by the licence number\n\n\u2013 For Open Individual Export Licence enter GBOIE followed by the licence number\n\n\u2013 For Standard Individual Export Licences enter GBSIE followed by the licence number\n\n\u2013 For Open General Transhipment Licences enter GBOGT followed by the licence number\n\nIf using more than one licence then a separate 9105 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AP, AT, EA, EE, EP, ES, FP, GE, GP, HP, IA, IP, JA, JP, LE, LP, SP, TP, UA, XW, XX.\n\nFor supplementary declarations use EA, IA, JA, or UA as appropriate",
+    "description": "Standard Individual Export Licence: radioactive sources.\nOpen Individual Export Licence: radioactive sources. \nOpen General Export Licence: radioactive sources.\nOpen General Transhipment Licence: radioactive sources."
+  },
+  {
+    "document_code": "9106",
+    "import_export": "E",
+    "details": "Enter GBSIE followed by the licence number. \nIf using more than one licence then a separate 9106 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AP, AT, EA, EE, EP, ES, FP, GE, GP, HP, IA, IP, JA, JP, LE, LP, SP, TP, UA, XA, XW, XX.\n\nFor supplementary declarations use EA, IA, JA, or UA as appropriate",
+    "description": "Authorisation for torture goods.\nSee also codes C064, C068, E990, Y990, Y906 and Y907"
+  },
+  {
+    "document_code": "9107",
+    "import_export": "E",
+    "details": "Enter GBCEX followed by the licence number.\nIf using more than one licence then a separate 9107 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, FP, GE, GP, HP, IA, IE, IP, IS, JA, JE, JP, JS, LE, LP, SP, TP, UA, UE, UP, US, XA, XF, XU, XW, XX.",
+    "description": "UK Standard Individual Export Licence (Form C). \n\nObjects of cultural interest (Control) Order.\n\nUK Open General Export Licence.\n\nUK Open Individual Export Licence."
+  },
+  {
+    "document_code": "9108",
+    "import_export": "E",
+    "details": "Enter the nationality of the licence (either EU or the specific country of issue), followed by CEX and the licence number. \nIf using more than one licence then a separate 9108 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, FP, GE, GP, HP, IA, IE, IP, IS, JA, JE, JP, JS, LE, LP, SP, TP, UA, UE, UP, US, XA, XF, XU, XW, XX.",
+    "description": "EU Specific Open Licence.\n\nEU General Open Licence."
+  },
+  {
+    "document_code": "9111",
+    "import_export": "B",
+    "details": "Enter GBHOO followed by the licence number.\nIf using more than one licence then a separate 9111 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, FP, JA, XX.",
+    "description": "Home Office open individual licence for drugs precursor chemicals."
+  },
+  {
+    "document_code": "9112",
+    "import_export": "B",
+    "details": "Enter GBHOA or GBHOB followed by the licence number. If using more than one licence then a separate 9112 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, IA, JA, , XX.",
+    "description": "Drugs Precursor Chemicals Individual Licence."
+  },
+  {
+    "document_code": "9113",
+    "import_export": "B",
+    "details": "Enter GBHCA or GBHCB followed by the licence number. If using more than one licence then a separate 9113 entry in DE is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, IA, JA, , XW, XX.",
+    "description": "Controlled Drugs Individual Licence."
+  },
+  {
+    "document_code": "9114",
+    "import_export": "B",
+    "details": "Enter GBHCE followed by the licence number. If using more than one licence then a separate 9114 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT FP, IA, JA, XW, XX.",
+    "description": "Controlled Drugs Open Individual Licence."
+  },
+  {
+    "document_code": "9115",
+    "import_export": "I",
+    "details": "Enter GBQRC followed by the certificate number.If using more than one licence then a separate 9115 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AG, AP, AS, JE, JP, JS, XA or XX.",
+    "description": "Quarantine Release Certificate."
+  },
+  {
+    "document_code": "9116",
+    "import_export": "I",
+    "details": "Enter GBAHC followed by the licence number. If using more than one licence then a separate 9116 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, XX.",
+    "description": "Rabies import licence."
+  },
+  {
+    "document_code": "9117",
+    "import_export": "I",
+    "details": "Enter the licence number. If using more than one licence then a separate 9117 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AG, AP, JE, JP.",
+    "description": "FERA letter of authority."
+  },
+  {
+    "document_code": "9118",
+    "import_export": "I",
+    "details": "Enter GBAHC followed by the permit number. If using more than one permit then a separate 9118 entry in DE 2/3 is required for each permit.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, XX.",
+    "description": "Import permit for harp and hooded seal skins.\nSee also codes C679, C680, C683 and Y032"
+  },
+  {
+    "document_code": "9119",
+    "import_export": "I",
+    "details": "Enter GBAHC followed by the licence number. If using more than one licence then a separate 9119 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, XX.",
+    "description": "Letter headed licence for importation of hares."
+  },
+  {
+    "document_code": "9120",
+    "import_export": "I",
+    "details": "Enter GBAHC followed by the licence number. If using more than one licence then a separate 9120 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, XX.",
+    "description": "Importation of animal pathogens Licence under the Importation of Animal pathogens Order 1980 (IAPO)."
+  },
+  {
+    "document_code": "9121",
+    "import_export": "I",
+    "details": "Enter the licence number. If using more than one licence then a separate 9121 entry in DE 2/3 is required for each licence.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, IA, IE, IP, IS and XX.",
+    "description": "DEFRA or Animal Health import licence/authorisation for products of animal origin."
+  },
+  {
+    "document_code": "920C",
+    "import_export": "I",
+    "details": "Enter the applicant\u2019s reference number as completed on Form C920.\n\nWhere C920 is not required, enter an alternative reference number from the evidence provided to support the importation of the award.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Declaration for imported decorations and awards. Relief from import Duty and VAT.\n\nNote: Form C920 may be required to qualify for the relief."
+  },
+  {
+    "document_code": "9300",
+    "import_export": "B",
+    "details": "Enter the reference number of the Certificate.\nWhere a sequentially numbered range of certificates cover the goods enter the lowest to the highest reference numbers of the certificates concerned i.e. document code + 0054037-0054047: status code. Where certificates are not sequentially numbered enter the reference number of each certificate concerned.\n\nUse the following status code (see  for harmonised declarations for definitions): JS.",
+    "description": "(T2) Air Manifest\n\nAir Simplified procedure."
+  },
+  {
+    "document_code": "941C",
+    "import_export": "I",
+    "details": "Enter the Vehicle/Registration number of the means of transport as completed on Form C&E 941.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Claims to duty/ VAT relief for the importation of vehicles/means of transport imported by visiting forces personnel using Form C&E 941."
+  },
+  {
+    "document_code": "955D",
+    "import_export": "I",
+    "details": "Complete statement \u2018Form C&E955 completed\u2019 or \u2018Form C&E955D completed\u2019.\n\nUse the following status code (see  for harmonised declarations for definitions): AE.",
+    "description": "When codes M or N are inserted, a deposit slip (form C&E955) must be attached to the declaration.\nWhen code R is used, deposit slip (form C&E955D) must be attached.\nFailure to attach forms C&E955 and C&E955D could result in a delay in any future repayment."
+  },
+  {
+    "document_code": "9578",
+    "import_export": "I",
+    "details": "Complete statement \u2018Form C578 completed\u2019.\n\nUse the following status code (see  for harmonised declarations for definitions): AE.",
+    "description": "Form C578 \u2013 undertaking to produce Form D.V. 1/invoice/CAP Licence/Preference certificate within 14 days."
+  },
+  {
+    "document_code": "9AID",
+    "import_export": "I",
+    "details": "Reference details: enter the reference number of the document supporting the claim to relief. \n\nUse one of the following status codes, (see  for harmonised declarations for definitions): \n\n\u2013 JP \u2013 Evidence required is available from trader\n\n\u2013 UP \u2013 Evidence required is unavailable.",
+    "description": "Evidence required by Procedure or Additional Procedure Code (DE 1/10 and DE 1/11) instructions for claiming relief from all charges except VAT."
+  },
+  {
+    "document_code": "9AIE",
+    "import_export": "I",
+    "details": "Reference details: enter the reference number of the document supporting the claim to relief. \n\nUse one of the following status codes, (see  for harmonised declarations for definitions): \n\n\u2013 JP \u2013 Evidence required is available from trader\n\n\u2013 UP \u2013 Evidence required is unavailable.",
+    "description": "Evidence required by Procedure or Additional Procedure Code (DE 1/10 and DE 1/11) instructions, relief from Excise Duty."
+  },
+  {
+    "document_code": "9AIV",
+    "import_export": "I",
+    "details": "Reference details: Enter the reference number of the document supporting the claim to relief. \nUse one of the following status codes, (see  for harmonised declarations for definitions): \n\n\u2013 JP \u2013 Evidence required is available from trader\n\n\u2013 UP \u2013 Evidence required is unavailable.",
+    "description": "Evidence required by Procedure or Additional Procedure Code (DE 1/10 and DE 1/11) instructions or claiming relief from VAT."
+  },
+  {
+    "document_code": "9CLM",
+    "import_export": "E",
+    "details": "Enter the claim reference made up as follows \u2013 \n\n\u2013 Last 2 digits of the year\n\n\u2013 4 digit RPA serial number \n\nFollowed by the appropriate claim type \u2013\n\n\u2013 01 Standard Electronic Export Refund Claim and where you are submitting a refund claim for the sole purpose of releasing security on a CAP export licence.\n\n\u2013 05 Advance Payment Electronic Export Refund Claim\n\n\u2013 15 SER Beef export verification\n\n\u2013 16 Simplified Victualling Procedures.\n\nAll items on the declaration must have the same claim number.\n\nNote: No status code is required.",
+    "description": "RPA claim reference and claim type \n\nNote: this is not a separate document but must be included on all CAP export declarations."
+  },
+  {
+    "document_code": "9CPD",
+    "import_export": "B",
+    "details": "Enter the reference number of the CPD carnet. Where a sequentially numbered range of carnets cover the goods enter the lowest to the highest reference numbers of the carnets concerned i.e. document code + 0054037-0054047: status code. Where carnets are not sequentially numbered enter the reference number of each carnet concerned.\nUse status code AC (see  for harmonised declarations for definition)",
+    "description": "CPD Carnet: Only required where the Carnet requires endorsement by the Customs authority \u2013"
+  },
+  {
+    "document_code": "9ESA",
+    "import_export": "I",
+    "details": "Enter the reference number of the ESA certificate\nOr\nEnter the reference number of the BAe certificate.\n\nUse one of the following status codes (see  for harmonised declarations for definitions): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.",
+    "description": "Certificate to evidence that the goods being imported are for use by the European Space Agency (ESA) or Astrium Ltd for use on INTELSAT projects.\nNote: This code is only for use with DE 1/11 (Additional Procedure Code) 1ES."
+  },
+  {
+    "document_code": "9ING",
+    "import_export": "E",
+    "details": "Ingredients are only specified when a recipe is not registered for the goods. In this case, declare a 9ING document for each ingredient code as advised by RPA with the quantity of the ingredient in kilograms.\n\nWhere an ingredient relates to a licence or AFC the 9ING document must follow the document declaration for the licence or AFC.\n\nIf the ingredient does not relate to a licence/AFC it must be declared before any licences/AFCs.\n\nDocument Reference: the Ingredient code\n\nQuantity: enter the quantity of the ingredient expressed in Kilograms.\n\nNote: No status code is required.",
+    "description": "RPA ingredient details.\nNote: this is not a separate document but must be included as appropriate on CAP export declarations for processed goods without a registered recipe."
+  },
+  {
+    "document_code": "9RCP",
+    "import_export": "E",
+    "details": "Enter the RPA recipe number. \n\nNote: No status code is required.",
+    "description": "RPA recipe code \n\nNote:This is not a separate document but must be included as appropriate on CAP Export declarations for processed goods without a registered recipe."
+  },
+  {
+    "document_code": "9SDC",
+    "import_export": "E",
+    "details": "Each SD is entered as a 9SDC document with the 4 digit RPA.\n\nSD code as the document reference and optional percentage qualifier entered as the quantity to 2 decimal places.\n\nWhere an SD code relates to an ingredient, it must follow the document declaration for the ingredient. If the code does not relate to an ingredient it must be declared before any ingredients.\n\nNote: No status code is required.",
+    "description": "RPA Supplementary Declaration (SD) codes and (where appropriate) associated percentages.\n\nNote: This is not a separate document but may be included on CAP Export declarations for certain commodities."
+  },
+  {
+    "document_code": "9WKS",
+    "import_export": "I",
+    "details": "Enter \u2018See attached worksheet\u2019 as appropriate. \nUse one of the following status codes (see document status codes for harmonised declarations for definitions): AC, AE, AF, AG, AP, AS, AT, JA, JE, JP.",
+    "description": "Worksheet to support calculation of the customs value and/or revenue calculations (for example: C&E 1154 for Outward Processing Relief).\n\nManual calculations required if the goods have been invoiced in more than one currency or a fixed rate of exchange has been stipulated in the contract of sale.\nIf a fixed rate of exchange has been used this is also to be declared on the attached document and rate declared in DE 4/15"
+  }
+]

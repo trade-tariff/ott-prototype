@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  How to use the Online Trade Tariff
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            },
+            {
+            text: "How to use the Online Trade Tariff",
+            href: ""
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <style type="text/css">
+    .normal_span {
+      font-weight: normal !important;
+    }
+  </style>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Online Trade Tariff</span>
+      <h1 class="govuk-heading-l">How to use the Online Trade Tariff</h1>
+
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/usoNZnXuRFw?rel=0&autoplay=0&controls=1&modestbranding=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <h2 class="govuk-heading-m govuk-!-margin-top-9">Useful links</h2>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu#when-you-cannot-declare-goods-not-at-risk">Declaring goods you bring into Northern Ireland 'not at risk’ of moving to the EU</a></li>
+        <li><a href="https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin"> Check your goods meet the rules of origin </a></li>
+        <li><a href="https://www.gov.uk/guidance/finding-commodity-codes-for-imports-or-exports">More help on using the Online Tariff</a></li>
+      </ul>
+
+
+  </div>
+</div>
+
+</div>
+{% endblock %}
+</html>

@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by quota
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Quotas",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+
+      </span>
+      <h1 class="govuk-heading-l">Quota order number 051100</h1>
+      <p class="govuk-body-l">This page ... </p>
+
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h2 class="govuk-heading-m">Quota periods</h2>
+      <p>First-Come First-Served quotas run for a defined period ...</p>
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Start date</th>
+            <th scope="col" class="govuk-table__header">End date</th>
+            <th scope="col" class="govuk-table__header">Initial volume</th>
+            <th scope="col" class="govuk-table__header">Current balance</th>
+            <th scope="col" class="govuk-table__header">Criticality</th>
+            <th scope="col" class="govuk-table__header">Critical threshold</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">1 Jan 2021</td>
+            <td class="govuk-table__cell">31 Dec 2021</td>
+            <td class="govuk-table__cell">2,000 tonnes</td>
+            <td class="govuk-table__cell">1,222 tonnes</td>
+            <td class="govuk-table__cell">Critical</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="govuk-heading-m">Suspension and blocking periods</h2>
+      <p>There are no suspension periods or blocking periods on this quota.</p>
+      <ul class="govuk-list">
+        <p>Suspension periods ... </p>
+        <p>Blocking periods ... </p>
+      </ul>
+
+      <h2 class="govuk-heading-m">Balance updates</h2>
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Start date</th>
+            <th scope="col" class="govuk-table__header">End date</th>
+            <th scope="col" class="govuk-table__header">Initial volume</th>
+            <th scope="col" class="govuk-table__header">Current balance</th>
+            <th scope="col" class="govuk-table__header">Criticality</th>
+            <th scope="col" class="govuk-table__header">Critical threshold</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">1 Jan 2021</td>
+            <td class="govuk-table__cell">31 Dec 2021</td>
+            <td class="govuk-table__cell">2,000 tonnes</td>
+            <td class="govuk-table__cell">1,222 tonnes</td>
+            <td class="govuk-table__cell">Critical</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

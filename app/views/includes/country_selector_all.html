@@ -1,0 +1,58 @@
+<form id="country_selector_all" action="/country-filter" accept-charset="UTF-8" method="get">
+    <fieldset class="govuk-fieldset country-picker js-country-picker box govuk-!-font-size-16">
+        <div class="country-picker-container" style="width:100%">
+            <input type="hidden" name="goods_nomenclature_item_id" id="goods_nomenclature_item_id"
+                value="{{ commodity.data.attributes.goods_nomenclature_item_id }}"/>
+            <input type="hidden" name="scope_id" id="scope_id" value="{{ context.scope_id }}"/>
+            <input type="hidden" name="tab" id="tab" value="import"/>
+            <label class="govuk-label" for="country" id="country_label">
+                {% if context.scope_id == "xi" %}
+                    Trade between NI and:{% else %}Trade between the UK and:
+                {% endif %}
+
+            </label>
+
+            <select class="js-example-basic-single govuk-select" name="country">
+                <option value="">All countries</option>
+                {% for country in countries.data %}
+                    {% if country.selected %}
+                        <option selected value="{{ country.id }}">{{ country.attributes.description }}</option>
+                    {% else %}
+                        <option value="{{ country.id }}">{{ country.attributes.description }}</option>
+                    {% endif %}
+                {% endfor %}
+
+            </select>
+            <button class="govuk-button tight-button" data-module="govuk-button">
+                Update
+            </button>
+            <a class="reset-country-picker"
+                href="/country_reset/{{ commodity.data.attributes.goods_nomenclature_item_id }}">Reset to all
+                countries</a>
+        </div>
+    </fieldset>
+</form>
+<script>
+    document
+        .getElementById("reset-country-picker")
+        .addEventListener("click", function (event) {
+            $("#location-picker")
+
+            document
+                .getElementById("location-picker")
+                .selectedIndex = "0";
+            this
+                .form
+                .submit();
+            event.preventDefault()
+        });
+</script>
+<script>
+    jQuery(function ($) {
+        $('select').change(function () {
+        // $('.js-example-basic-single govuk-select').change(function () {
+            $('#country_selector_all').submit();
+            //alert('soifje');
+        });
+    });
+</script>

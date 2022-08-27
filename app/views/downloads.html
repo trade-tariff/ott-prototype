@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by chemical
+{% endblock %}
+
+{% block beforeContent %}
+{{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Downloads",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <span class="govuk-caption-xl">{{ context.title }}</span>
+  <h1 class="govuk-heading-l">Downloads</h1>
+
+  {{ govukInsetText({
+  text: "This page contains downloadable versions of entities within the UK tariff"
+}) }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  caption: "",
+  classes: "xgovuk-table--m",
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Link to the data"
+    },
+    {
+      text: "Format"
+    },
+    {
+      text: "Last updated"
+    },
+    {
+      text: "About this data"
+    }
+  ],
+  rows: [
+    [
+      {
+        html: "<a href='#'>Measures</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ],
+    [
+      {
+        html: "<a href='#'>Commodities</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ],
+    [
+      {
+        html: "<a href='#'>Quotas</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ],
+    [
+      {
+        html: "<a href='#'>Geographical areas</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ],
+    [
+      {
+        html: "<a href='#'>Additional codes</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ],
+    [
+      {
+        html: "<a href='#'>Certificates</a>"
+      },
+      {
+        text: "CSV"
+      },
+      {
+        text: "13 Jan 2021"
+      },
+      {
+        text: "Lorem ipsum dolor sit amet ..."
+      }
+    ]
+  ]
+}) }}
+
+
+
+
+
+    </div>
+
+  </div>
+
+{% endblock %}
+</html>

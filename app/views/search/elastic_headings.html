@@ -1,0 +1,28 @@
+{% set show_headings = true %}
+{% if show_headings %}
+    {% set count = 1 %}
+    <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">Filter by heading</span>
+        </summary>
+        <div class="govuk-details__text">
+            <p>Your search term appeared in the following headings:</p>
+            <div class="search_headings tabular">
+                {% for search_heading in search_headings %}
+                    {% if count <= 12 %}
+                        {# {% set link = url + conjunction + "filter[heading_id]=" + search_heading.id %} #}
+                        {% set link = url + conjunction + "filter[heading]=" + search_heading.id %}
+                        <div>
+                            <p>
+                                <span class="b">{{ search_heading.id }}</span>
+                                <br>
+                                <a href="{{ link }}">{{ search_heading.description | highlight(context.search_term) | safe }}</a> ({{ search_heading.count }})
+                            </p>
+                        </div>
+                    {% endif %}
+                    {% set count = count + 1 %}
+                {% endfor %}
+            </div>
+        </div>
+    </details>
+{% endif %}

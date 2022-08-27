@@ -1,0 +1,26 @@
+{% if mc.document_code != "n/a" %}
+    {% if context.show_cds %}
+        <details class="govuk-details govuk-!-margin-left-1 govuk-!-margin-top-2 govuk-!-margin-bottom-0" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">Instructions for CDS</span>
+            </summary>
+            <div class="govuk-details__text">
+                {{ mc.appendix_5a.guidance_cds | safe }}
+            </div>
+        </details>
+    {% endif %}
+    {% if context.show_chief %}
+        <details class="govuk-details govuk-!-margin-left-1 govuk-!-margin-top-2 govuk-!-margin-bottom-0" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+                <span class="govuk-details__summary-text">Instructions for CHIEF</span>
+            </summary>
+            <div class="govuk-details__text">
+                {% if mc.appendix_5a.guidance_chief | length > 0 %}
+                    {{ mc.appendix_5a.guidance_chief | safe }}
+                {% else %}
+                    <p>No information is available.</p>
+                {% endif %}
+            </div>
+        </details>
+    {% endif %}
+{% endif %}

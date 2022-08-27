@@ -1,0 +1,122 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - are you registered with the UK trader scheme?
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <!-- Show rules messages // -->
+            {# {% if (data['message']) %}
+        <div class="panel panel_grey">
+            <h2 class="govuk-heading-s">{{ data['message'].title }}</h1>
+            <p class="govuk-body">{{ data['message'].message | safe }}</p>
+        </div>
+        {% endif %} #}
+            <!-- End show rules messages // -->
+
+            <span class="govuk-caption-xl">Calculate import duties</span>
+            <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}" method="get">
+
+                {# Get error message #}
+                {% if (error == "origin") %}
+                    {% set error_message = "Enter a valid future date" %}
+                    {% set error_class = "govuk-select--error" %}
+                    {% set group_error_class = "govuk-form-group--error" %}
+                {% else %}
+                    {% set error_message = "" %}
+                    {% set group_error_class = "" %}
+                    {% set error_class = "" %}
+                {% endif %}
+                {# {{ data["origin"] }} #}
+                {% if (data["origin"] != "GB") %}
+
+                    {{ govukRadios({
+                        idPrefix: "final_use",
+                        name: "final_use",
+                        fieldset: {
+                            legend: {
+                            text: "Is your import for sale to, or final use by, end-consumers located in Northern Ireland?",
+                            isPageHeading: true,
+                            classes: "govuk-fieldset__legend--l"
+                            }
+                        },
+                        items: [
+                            {
+                                value: "yes",
+                                text: "Yes, I am importing these goods into Northern Ireland for its sale to, or final use by,
+                                    end-consumers located in Northern Ireland"
+                            },
+                            {
+                                value: "no",
+                                text: "No, this import will not be for final use in Northern Ireland",
+                                xhint: {
+                                    text: "Your goods will be liable for the EU import duties"
+                                }
+                            }
+                        ]
+                        }) }}
+
+                {% else %}
+
+                    {{ govukRadios({
+                        idPrefix: "final_use",
+                        name: "final_use",
+                        fieldset: {
+                            legend: {
+                            text: "Are your goods for sale to, or final use by, end-consumers located in the United Kingdom?",
+                            isPageHeading: true,
+                            classes: "govuk-fieldset__legend--l"
+                            }
+                        },
+                        items: [
+                            {
+                                value: "yes",
+                                text: "Yes, I am moving these goods into Northern Ireland for its sale to, or final use by, end-consumers located in the United Kingdom"
+                            },
+                            {
+                                value: "no",
+                                text: "No, these goods will not be for sale to, or final use in the United Kingdom"
+                            }
+                        ]
+                        }) }}
+
+                {% endif %}
+                {{ govukButton({
+                      text: "Continue"
+                    }) }}
+
+            </form>
+            {% include "../includes/commodity_panel.html" %}
+            <div class="gem-c-contextual-footer">
+                <div class="gem-c-related-navigation">
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section">
+                        <h2 id="related-nav-topics-c7e51674" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer">Explore the topic</h2>
+                        <ul class="gem-c-related-navigation__link-list">
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer" href="https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu">Check if you can declare goods you bring into Northern Ireland not ‘at risk’ of moving to the EU</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

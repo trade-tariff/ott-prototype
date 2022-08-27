@@ -1,0 +1,112 @@
+{
+    "trade_direction": {
+        "show": true,
+        "title": "Details of your trade",
+        "intro_text": "{{ commodity }}",
+        "sub_phases": {
+            "trade_direction": {
+                "title": "Are you importing or exporting?",
+                "slug": "trade_direction",
+                "condition": ""
+            }
+        }
+    },
+    "origination": {
+        "show": true,
+        "title": "Are your goods 'originating'?",
+        "intro_text": "",
+        "sub_phases": {
+            "origination": {
+                "title": "How to work out if your goods are classed as 'originating'",
+                "slug": "origination",
+                "condition": ""
+            },
+            "wholly_obtained": {
+                "title": "How 'wholly obtained' is defined",
+                "slug": "wholly_obtained_info",
+                "condition": ""
+            },
+            "neutral": {
+                "title": "What components do you need to take into account?",
+                "slug": "neutral",
+                "condition": "wholly_obtained"
+            },
+            "insufficient_processing": {
+                "title": "Minimal operations: Have non-originating parts been sufficiently processed?",
+                "slug": "insufficient_processing",
+                "condition": "wholly_obtained"
+            },
+            "cumulation": {
+                "title": "Cumulation: Including parts or components from other countries",
+                "slug": "cumulation",
+                "condition": "wholly_obtained"
+            },
+            "product_specific_rules": {
+                "title": "Does your product meet the product-specific rules?",
+                "slug": "product_specific_rules",
+                "condition": "wholly_obtained"
+            }
+        }
+    },
+    "verification": {
+        "show": true,
+        "title": "Obtaining and verifying proof of origin",
+        "intro_text": "",
+        "sub_phases": {
+            "proofs": {
+                "title": "Valid proofs of origin",
+                "slug": "proofs",
+                "condition": ""
+            },
+            "processes": {
+                "title": "Requirements for proving the origin for goods",
+                "slug": "origin_processes",
+                "condition": ""
+            },
+            "verification": {
+                "title": "How proofs of origin are verified",
+                "slug": "verification",
+                "condition": ""
+            },
+            "duty_drawback": {
+                "title": "Duty drawback",
+                "slug": "duty_drawback",
+                "condition": ""
+            }
+
+        }
+    },
+    "results": {
+        "show": false,
+        "title": "Your results",
+        "intro_text": "",
+        "sub_phases": {
+            "processes": {
+                "title": "Requirements for proving the origin for goods",
+                "slug": "origin_processes",
+                "condition": ""
+            },
+            "verification": {
+                "title": "How proofs of origin are verified",
+                "slug": "verification",
+                "condition": ""
+            }        }
+    },
+    "documents": {
+        "show": false,
+        "title": "Useful documents",
+        "intro_text": "",
+        "sub_phases": {
+            "processes": {
+                "title": "Processes?",
+                "slug": "origin_processes",
+                "condition": ""
+            },
+            "verification": {
+                "title": "How proofs of origin are verified",
+                "slug": "verification",
+                "condition": ""
+            }
+        }
+    }
+}

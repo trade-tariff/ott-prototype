@@ -1,0 +1,36 @@
+<script>
+    $(document).ready(function () {
+        var path = window.location.pathname;
+        path = path.replace("/xi", "");
+        var path2 = path.substring(1);
+        var pos = path2.indexOf("/");
+
+        if (pos > 0) {
+            path2 = path2.substring(0, pos);
+        }
+
+        var search_array = ["find-commodity", "search"];
+        var browse_array = ["browse", "sections", "heading", "chapter", "commodity"];
+        var search_browse_array = ["search", "browse", "sections", "heading", "chapter", "commodity"];
+        var az_array = ["a-z-index"];
+        var downloads_array = ["downloads"];
+        var tools_array = ["tools", "quotas", "additional_codes", "chemicals", "certificates", "footnotes", "meursing"];
+        var roo_array = ["roo"];
+        var help_array = ["help"];
+        var news_array = ["news"];
+
+        if (search_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(1)").addClass("govuk-header__navigation-item--active");
+        } else if (browse_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(2)").addClass("govuk-header__navigation-item--active");
+        } else if (az_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(3)").addClass("govuk-header__navigation-item--active");
+        } else if (tools_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(4)").addClass("govuk-header__navigation-item--active");
+        } else if (news_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(5)").addClass("govuk-header__navigation-item--active");
+        } else if (help_array.includes(path2)) {
+            $("ul#navigation li:nth-of-type(6)").addClass("govuk-header__navigation-item--active");
+        }
+    });
+</script>

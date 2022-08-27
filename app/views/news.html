@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Latest news
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Latest news",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+    </span>
+    <h1 class="govuk-heading-l">Latest news</h1>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+            <div class="govuk-body">
+              <a href="">Subscribe to the Online Tariff news feed</a>
+              to be automatically notified whenever new information is added.
+            </div>
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Using the news feed</span>
+                </summary>
+                <div class="govuk-details__text">
+                    <h2 class="govuk-heading-s">What is RSS?</h2>
+
+                    <p class="govuk-body-s">RSS stands for Really Simple Syndication. It's a simple way to keep up to date with changes. Rather
+                    than continually checking back to see if new information has been added to the site, you can use RSS to
+                    alert you each time we add something new.</p>
+                    
+                    <h2 class="govuk-heading-s">How do I subscribe to the feed?</h2>
+
+                    <p class="govuk-body-s">You need to either install some software, known as an RSS reader or feed reader, on your computer or you can subscribe to RSS feeds through your internet browser.</p>
+
+                    <p class="govuk-body-s">To subscribe to the feed, right-click on the link, select Copy Shortcut or Copy Link Location, then paste this into your RSS reader, or use a browser which supports RSS feeds.</p>
+
+                    </div>
+            </details>
+            
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            {% for story in news %}
+                <div class="news">
+                    <div class="news_date">{{ story.date_formatted }}</div>
+                    <div class="news_story">{{ story.html | safe }}</div>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+{% endblock %}
+</html>

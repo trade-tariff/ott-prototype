@@ -1,0 +1,286 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {% if commodity.data.attributes.goods_nomenclature_item_id | substring(4, 6) == "000000" %}
+        {{ govukBreadcrumbs({
+    items: [
+        {
+            text: "All sections",
+            href: "/sections/" + context.scope_id
+        },
+        {
+            text: "Section " + commodity.section_id | roman,
+            href: "/sections/" + commodity.section_id
+        },
+        {
+        text: "Chapter " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2),
+            href: "/chapters/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2)
+        },
+        {
+        text: "Commodity " + commodity.data.attributes.goods_nomenclature_item_id,
+        href: ""
+        }
+    ]
+}) }}
+    {% else %}
+        {{ govukBreadcrumbs({
+    items: [
+        {
+            text: "All sections",
+            href: "/sections/" + context.scope_id
+        },
+        {
+            text: "Section " + commodity.section_id | roman,
+            href: "/sections/" + commodity.section_id
+        },
+        {
+        text: "Chapter " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2),
+            href: "/chapters/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2)
+        },
+        {
+        text: "Heading " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 4),
+        href: "/headings/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 4)
+        },
+        {
+        html: "<span class='commodity-split'>Commodity " + commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe + "</span>",
+        href: ""
+        }
+    ]
+}) }}
+    {% endif %}
+{% endblock %}
+
+{% block pageTitle %}
+  Commodity code {{ commodity.data.attributes.goods_nomenclature_item_id }}: {{ heading.data.attributes.formatted_description | safe }} - {{ serviceName }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    {# {% include "includes/date-picker2.html" %} #}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l commodity-split">Commodity {{ commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe }}</h1>
+            {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
+            {% set admin_link = admin_root + "commodities/" + commodity.goods_nomenclature_item_id + "-" + commodity.data.attributes.producline_suffix + "/search_references" %}
+            {# <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="{{ admin_link }}" target="_blank">Edit references</a></p> #}
+            {% if commodity.data.attributes.goods_nomenclature_item_id > "9900000000" %}
+                <div class="govuk-warning-text govuk-grid-column-three-quarters">
+                    <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                    <strong class="govuk-warning-text__text">
+                        <span class="govuk-warning-text__assistive">Warning</span>
+                        This code cannot be used without prior authorisation from HMRC under the Transfer of
+                        Residence Relief. To apply for this please see guidance at:
+                        <a href="https://www.gov.uk/guidance/application-for-transfer-of-residence-relief-tor1">https://www.gov.uk/guidance/application-for-transfer-of-residence-relief-tor1</a>
+                    </strong>
+                </div>
+            {% endif %}
+            {% include "includes/context_include.html" %}
+        </div>
+    </div>
+
+    {% set show_breadcrumb = true %}
+    {% if show_breadcrumb %}
+        {% include "includes/commodities_breadcrumb.html" %}
+    {% endif %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% include "includes/country_selector_all.html" %}
+            <div class="govuk-tabs govuk-tabs govuk-!-margin-top-6" data-module="govuk-tabs" id="commodity_tabs">
+                <h2 class="govuk-tabs__title">Contents</h2>
+                <ul class="govuk-tabs__list">
+                    <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+                        <a class="govuk-tabs__tab" id="tab_import" href="#import">Import</a>
+                    </li>
+                    <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" id="tab_export" href="#export">Export</a>
+                    </li>
+                    <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" id="tab_rules_of_origin" href="#rules_of_origin">Rules of origin</a>
+                    </li>
+                    <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" id="tab_footnotes" href="#footnotes">Notes</a>
+                    </li>
+                    {# <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" id="tab_bti" href="#bti">Advance Tariff Rulings</a>
+                    </li> #}
+                </ul>
+
+                <div class="govuk-tabs__panel" id="import">
+                    {% include "includes/commodities_import.html" %}
+                </div>
+                <div class="govuk-tabs__panel" id="export">
+                    {% include "includes/commodities_export.html" %}
+                </div>
+                <div class="govuk-tabs__panel" id="rules_of_origin">
+                    {% include "includes/commodities_roo.html" %}
+                </div>
+                <div class="govuk-tabs__panel" id="footnotes">
+                    {% if commodity.commodity_footnote_count > 0 %}
+                        <table class="govuk-table xgovuk-table--m">
+                            <caption class="govuk-table__caption govuk-table__caption--l">Footnotes for commodity {{ commodity.data.attributes.goods_nomenclature_item_id }}</caption>
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header">Code</th>
+                                    <th scope="col" class="govuk-table__header">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                {% for item in commodity.footnotes %}
+                                    {% if item.footnote_class == "commodity" %}
+                                        <tr class="govuk-table__row">
+                                            <td class="govuk-table__cell">{{ item.code }}</td>
+                                            <td class="govuk-table__cell">{{ item.description | safe }}</td>
+                                        </tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    {% endif %}
+                    {% if commodity.chapter_note %}
+                        <h2 class="govuk-heading-m">Chapter notes</h2>
+                        {{ commodity.chapter_note | convert_markdown | safe }}
+                    {% endif %}
+                    {% if commodity.section_note %}
+                        <h2 class="govuk-heading-m">Section notes</h2>
+                        {{ commodity.section_note | convert_markdown | safe }}
+                    {% endif %}
+                    <p>&nbsp;</p>
+                    {% include "includes/general_interpretative_rules.html" %}
+                </div>
+                {# <div class="govuk-tabs__panel" id="bti">
+                    BTI goes here
+                </div> #}
+            </div>
+            <p class="govuk-text-s">
+            Last updated: {{ context.today }}&nbsp;&nbsp;
+            <a href="https://www.gov.uk/government/collections/tariff-stop-press-notices" target="_blank">View latest amendments</a>
+            </p>
+
+            <div class="bottom_switcher">
+                {% include "includes/scope_switcher_panel.html" %}
+            </div>
+        </div>
+
+        <!-- Start footnotes //-->
+        {% for measure in commodity.measures %}
+            {% if measure.has_footnotes == true %}
+                <div id="footnotes_{{ measure.id }}" class="modal modal_commodity">
+                    <h2 class="govuk-heading govuk-heading-m govuk-!-margin-top-4">Footnotes for measure {{ measure.measure_type_description }}</h1>
+                    <p>The table below shows the conditions associated with the {{ measure.measure_type_description }} measure
+                        on the import of commodity <strong>{{ commodity.data.attributes.goods_nomenclature_item_id }}</strong> from
+                        <strong>{{ measure.geographical_area_description }}</strong>.
+                    </p>
+
+                    <table class="govuk-table govuk-table--m">
+                        <thead class="govuk-table__head">
+                            <tr class="govuk-table__row">
+                                <th scope="col" class="govuk-table__header">Code</th>
+                                <th scope="col" class="govuk-table__header">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="govuk-table__body">
+                            {% for f in measure.footnotes %}
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell b">{{ f.code }}</td>
+                                    <td class="govuk-table__cell">{{ f.description | safe }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+        {% endfor %}
+        <!-- End footnotes //-->
+
+        {% include "conditions/commodities_conditions.html" %}
+
+        <!-- Start quotas //-->
+        {% for measure in commodity.measures %}
+            {% if measure.order_number_id != null %}
+                {% if context.flag_show_new_quota_dialog == 1 %}
+                    {% include "includes/commodities_quota_new.html" %}
+                {% else %}
+                    {% include "includes/commodities_quota.html" %}
+                {% endif %}
+
+            {% endif %}
+        {% endfor %}
+        <!-- End quotas //-->
+
+        <script type="text/javascript" src="/public/javascripts/accessible-autocomplete.min.js"></script>
+        <script type="text/javascript">
+            var selectEl = document.querySelector('#location-picker')
+            accessibleAutocomplete.enhanceSelectElement({autoselect: true, confirmOnBlur: true, defaultValue: "", minLength: 2, selectElement: selectEl})
+
+            var queryStringParameters = window.location.search
+            var previouslySubmitted = queryStringParameters.length > 0
+            if (previouslySubmitted) {
+                var submittedEl = document.querySelector('.submitted')
+                submittedEl
+                    .classList
+                    .remove('submitted--hidden')
+                var params = new URLSearchParams(document.location.search.split('?')[1])
+                document
+                    .querySelector('.submitted__location-picker')
+                    .innerHTML = params.get('location-picker')
+            }
+        </script>
+
+        <script type="text/javascript">
+            $(function () {
+                $("#copy_comm_code").click(function (event) {
+                    copyToClipboard("{{ commodity.data.attributes.goods_nomenclature_item_id }}");
+
+                    $(".copied").css("text-indent", "0");
+                    $(".copied")
+                        .delay(500)
+                        .fadeOut(750, function () {
+                            $(".copied").css("text-indent", "-999em");
+                            $(".copied").css("display", "block");
+                        });
+                    event.preventDefault();
+                });
+
+                function copyToClipboard(text) {
+                    var $temp = $("<input>");
+                    $("body").append($temp);
+                    $temp
+                        .val(text)
+                        .select();
+                    document.execCommand("copy");
+                    $temp.remove();
+                }
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('.js-example-basic-single').select2();
+            });
+
+            $(function () {
+                var bookmark = window
+                    .location
+                    .hash
+                    .replace("#", "");
+                $('#tab').val(bookmark);
+
+                $(".govuk-tabs__tab").click(function () {
+                    selected_tab = $(this)
+                        .attr("id")
+                        .replace("tab_", "");
+                    $('#tab').val(selected_tab);
+                });
+            });
+        </script>
+        <script type="text/javascript" src="/public/javascripts/commodities.js"></script>
+    </div>
+</div>
+{% endblock %}
+
+</html>

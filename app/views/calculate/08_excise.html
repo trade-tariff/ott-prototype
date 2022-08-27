@@ -1,0 +1,118 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - do you qualify for zero rate VAT duty?
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+
+            {# Get error message #}
+            {% set error = "excise" %}
+            {% if (error == "excise") %}
+                {% set error_message = "Select an excise class" %}
+                {% set error_class = "govuk-select--error" %}
+                {% set group_error_class = "govuk-form-group--error" %}
+
+                {{ govukErrorSummary({
+                    titleText: "There is a problem",
+                    errorList: [
+                        {
+                        text: "Select an excise class",
+                        href: "#excise"
+                        }
+                    ]
+                    }) }}
+
+            {% else %}
+                {% set error_message = "" %}
+                {% set group_error_class = "" %}
+                {% set error_class = "" %}
+            {% endif %}
+            <span class="govuk-caption-xl">Calculate import duties</span>
+            <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}" method="get">
+
+                {# Display the type-ahead select control #}
+                <fieldset class="govuk-fieldset">
+
+                    {{ govukRadios({
+                        idPrefix: "vat",
+                        name: "vat",
+                        fieldset: {
+                            legend: {
+                            text: "Which class of excise is applicable to your trade?",
+                            isPageHeading: true,
+                            classes: "govuk-fieldset__legend--xl"
+                            }
+                        },
+                        hint: {
+                            html: "There are multiple excise duties that could be applied to trade in this commodity code. Select which class of excise duty applies to your trade.<br><br>
+                            
+                            For more information on excise duty classes, please see <a target='_blank' href='https://www.gov.uk/government/publications/uk-trade-tariff-excise-duties-reliefs-drawbacks-and-allowances/uk-trade-tariff-excise-duties-reliefs-drawbacks-and-allowances'>UK Trade Tariff: excise duties, reliefs, drawbacks and allowances (opens in new browser window)</a>."
+                        },
+                        items: [
+                            {
+                            value: "X520",
+                            text: "520 - Light oil: unrebated (unmarked) – other unrebated light oil"
+                            },
+                            {
+                            value: "X522",
+                            text: "522 - Light oil: rebated – unleaded petrol"
+                            },
+                            {
+                            value: "X541",
+                            text: "541 - Heavy oil: unrebated (unmarked, including Diesel Engine Road Vehicle (DERV) or road fuel extender and unmarked kerosene or unmarked gas oil for which no marking waiver has been granted)"
+                            },
+                            {
+                            value: "X542",
+                            text: "542 - Heavy oil: kerosene to be used as motor fuel off road or in an excepted vehicle"
+                            },
+                            {
+                            value: "X551",
+                            text: "551 - Heavy oil: kerosene (marked or unmarked under marking waiver, including heavy oil aviation turbine fuel) to be used other than as motor fuel off-road or in an excepted vehicle"
+                            },
+                            {
+                            value: "X556",
+                            text: "556 - Heavy oil: gas oil (marked or unmarked under marking waiver)"
+                            },
+                            {
+                            value: "X561",
+                            text: "561 - Heavy oil: fuel oil (unmarked)"
+                            },
+                            {
+                            value: "X570",
+                            text: "570 - Heavy oil: other (unmarked)"
+                            }
+                        ],
+                            errorMessage: {
+                                text: "Select an excise class"
+                            }
+
+                        }) }}
+
+                    {{ govukButton({
+                      text: "Continue"
+                    }) }}
+
+                </fieldset>
+            </form>
+            {% include "../includes/commodity_panel.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

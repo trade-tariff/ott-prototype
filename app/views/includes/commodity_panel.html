@@ -1,0 +1,5 @@
+            {{ govukDetails({
+                summaryText: "About this commodity code",
+                html: "Commodity code <strong>" + commodity.data.attributes.goods_nomenclature_item_id + "</strong><br>" +  commodity.description
+                 + "<br><br>" + "<a class='govuk-link' href='/commodities/" + commodity.data.attributes.goods_nomenclature_item_id + "'>View commodity " + commodity.data.attributes.goods_nomenclature_item_id + "</a>"
+            }) }}

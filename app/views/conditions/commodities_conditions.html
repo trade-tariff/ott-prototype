@@ -1,0 +1,81 @@
+<!-- Start conditions //-->
+{% for measure in commodity.measures %}
+    {% if (measure.has_conditions == true) %}
+        <div id="measure_conditions_{{ measure.id }}" class="modal modal_commodity">
+            {% if measure.condition_content and measure.overwrite_measure_conditions %}
+                {{ measure.condition_content | safe }}
+            {% else %}
+                <h2 class="govuk-heading govuk-heading-m govuk-!-margin-top-0 govuk-!-margin-bottom-2">
+                    {{ measure.measure_type_description }} for {{ measure.geographical_area_description }}
+                </h2>
+
+                {# <!-- Show debug information //--> #}
+                <div class="debug">
+                    <dl>
+                        <dt>Measure SID</dt>
+                        <dd>{{ measure.id }}</dd>
+
+                        <dt>Condition class</dt>
+                        <dd>{{ measure.measure_condition_class }}</dd>
+
+                        <dt>Has document codes</dt>
+                        <dd>{{ measure.has_document_codes }}</dd>
+
+                        <dt>Has shared conditions</dt>
+                        <dd>{{ measure.has_shared_conditions }}</dd>
+
+                        <dt>Show condition code group titles</dt>
+                        <dd>{{ measure.show_condition_code_group_titles }}</dd>
+
+                        <dt>Display action column</dt>
+                        <dd>{{ measure.display_action_column }}</dd>
+
+                        <dt>Show CDS</dt>
+                        <dd>{{ context.show_cds }}</dd>
+
+                        <dt>Unique condition codes</dt>
+                        <dd>{{ measure.condition_code_count }}</dd>
+
+                        <dt>Has duplicate conditions</dt>
+                        <dd>{{ measure.has_duplicate_conditions }}</dd>
+                    </dl>
+                </div>
+
+                {# <!-- Start show date //--> #}
+                <p class="govuk-body--s govuk-!-margin-top-4 govuk-!-margin-bottom-4 calendar">
+                    {% if measure.effective_end_date %}
+                        From {{ measure.effective_start_date | format_date("DD MMM YYYY") }}
+                        to {{ measure.effective_end_date | format_date("DD MMM YYYY") }}
+                    {% else %}
+                        From {{ measure.effective_start_date | format_date("DD MMM YYYY") }}
+                    {% endif %}
+                </p>
+                {# <!-- End show date //--> #}
+
+                {% if measure.has_shared_conditions %}
+                    {% include "conditions/commodities_conditions_shared_conditions.html" %}
+                {% else %}
+                    {% include "conditions/commodities_conditions_no_shared_conditions.html" %}
+                {% endif %}
+
+                {% if measure.condition_content and measure.overwrite_measure_conditions == false %}
+                    {{ measure.condition_content | safe }}
+                {% endif %}
+            {% endif %}
+            {% if measure.has_shared_conditions == false %}
+                {% if measure.has_document_codes %}
+                    <details class="govuk-details govuk-!-margin-left-1 govuk-!-margin-top-2 govuk-!-margin-bottom-0" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">Guidance for completing declarations</span>
+                        </summary>
+                        <div class="govuk-details__text">
+                            {% include "conditions/conditions_instructions.html" %}
+                        </div>
+                    </details>
+                {% endif %}
+            {% endif %}
+            {# <p>Preferences</p> #}
+        </div>
+    {% endif %}
+{% endfor %}
+<!-- End conditions //-->

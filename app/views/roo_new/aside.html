@@ -1,0 +1,79 @@
+{# {{ context.phase }}
+{{ context.sub_phase }} #}
+<div id="step-by-step-navigation" data-module="gemstepnav" class="app-step-nav js-hiddenx" data-show-text="show" data-hide-text="hide" data-show-all-text="Show all" data-hide-all-text="Hide all">
+    <ol class="app-step-nav__steps">
+        {% set major_increment = 1 %}
+        {% for key, value in context.roo_phases %}
+            {% if value.show %}
+                {% if key == context.phase %}
+                    {% set primary_class = "app-step-nav__step--active" %}
+                {% else %}
+                    {% set primary_class = "app-step-nav__step" %}
+                {% endif %}
+                <li class="app-step-nav__step js-step {{ primary_class }}" aria-current="step" data-show  >
+                    <div class="app-step-nav__header js-toggle-panel" data-position="{{ major_increment }}">
+                        <h3 class="app-step-nav__title">
+                            <span class="app-step-nav__circle app-step-nav__circle--number">
+                                <span class="app-step-nav__circle-inner">
+                                    <span class="app-step-nav__circle-background">
+                                        <span class="app-step-nav__circle-step-label govuk-visually-hidden">Step</span>
+                                        {{ major_increment }}
+                                        <span class="app-step-nav__circle-step-colon govuk-visually-hidden" aria-hidden="true">:</span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="js-step-title">{{ value.title }}</span>
+                        </h3>
+                    </div>
+
+                    <div class="app-step-nav__panel js-panel">
+                        {% if value.intro_text != "" %}
+                            {% set url = "/commodities/" + context.goods_nomenclature_item_id + "/" + context.country + "#rules_of_origin" %}
+                            <p class="app-step-nav__paragraph">
+                                {% if value.intro_text == "{{ commodity }}" %}
+                                    {% if context.trade_direction == "" %}
+                                        You are trading commodity <a href="{{ url }}">{{ context.goods_nomenclature_item_id }}</a> with {{ context.country_name }}
+                                    {% elseif context.trade_direction == "import" %}
+                                        You are importing commodity <a href="{{ url }}">{{ context.goods_nomenclature_item_id }}</a> from {{ context.country_name }}
+                                    {% elseif context.trade_direction == "export" %}
+                                        You are exporting commodity <a href="{{ url }}">{{ context.goods_nomenclature_item_id }}</a> to {{ context.country_name }}
+                                    {% endif %}
+                                {% else %}
+                                    {{ value.intro_text }}
+                                {% endif %}
+                            </p>
+                        {% endif %}
+                        <ol class="app-step-nav__list" data-length="{{ value.sub_phases | length }}">
+                            {% set minor_increment = 1 %}
+                            {% for sub_key, sub_value in value.sub_phases %}
+                                {% if sub_value.slug == "commodity" %}
+                                    {% set url = "/commodities/" + context.goods_nomenclature_item_id + "/" + context.country + "#rules_of_origin" %}
+                                {% else %}
+                                    {% set url = "/roo/" + sub_value.slug + "/" + context.goods_nomenclature_item_id + "/" + context.country %}
+                                {% endif %}
+                                {% if context.wholly_obtained_only_rule_applies and sub_value.condition == "wholly_obtained" %}
+                                {% else %}
+                                    {% if context.sub_phase == sub_key %}
+                                        <li class="app-step-nav__list-item js-list-item app-step-nav__list-item--active">
+                                            <a data-position="{{ major_increment }}.{{ minor_increment }}" class="app-step-nav__link js-link" href="{{ url }}">
+                                                <span class="app-step-nav__link-active-context govuk-visually-hidden">You are currently viewing: </span>{{ sub_value.title }}
+                                            </a>
+                                        </li>
+                                    {% else %}
+                                        <li class="app-step-nav__list-item js-list-item">
+                                            <a data-position="{{ major_increment }}.{{ minor_increment }}" class="app-step-nav__link js-link" href="{{ url }}">
+                                                {{ sub_value.title }}
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                    {% set minor_increment = minor_increment + 1 %}
+                                {% endif %}
+                            {% endfor %}
+                        </ol>
+                    </div>
+                </li>
+                {% set major_increment = major_increment + 1 %}
+            {% endif %}
+        {% endfor %}
+    </ol>
+</div>

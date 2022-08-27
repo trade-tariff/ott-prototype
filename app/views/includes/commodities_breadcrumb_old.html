@@ -1,0 +1,89 @@
+        <!-- Start old breadcrumb //-->
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full">
+                <div class="panel">
+                    {# <h2 class="govuk-heading-s">Hierarchy</h2> #}
+                    <nav class="breadcrumb">
+                        <ul class="govuk-list">
+                            {% set counter = 2 %}
+                            {% for item in commodity.included %}
+                                {% if (item.type == "section") %}
+                                    <!-- Section //-->
+                                    <li class="section">
+                                        <a href="/{{ context.scope_id | fwdslash }}sections/{{ item.id }}">Section {{ item.attributes.numeral }}: {{ item.attributes.title | safe }}</a>
+                                    </li>
+                                {% endif %}
+                                {% if (item.type == "chapter") %}
+                                    <!-- Chapter //-->
+                                    <li class="crumb indent_1">
+                                        <div class="commodity">
+                                            <span class="code digits_chapter">{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                                            <span class="code digits_heading"></span>
+                                            <span class="code digits_commodity"></span>
+                                            <span class="code digits_commodity"></span>
+                                            <span class="code digits_commodity"></span>
+                                        </div>
+                                        <div class="description">
+                                            <a href="/{{ context.scope_id | fwdslash }}chapters/{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}">{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}{{
+                        item.attributes.formatted_description | safe }}</a>
+                                        </div>
+                                    </li>
+                                {% endif %}
+                                {% if (item.type == "heading") %}
+                                    <!-- Heading //-->
+                                    <li class="crumb indent_2">
+                                        <div class="commodity">
+                                            <span class="code digits_chapter">{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                                            <span class="code digits_heading">{{ item.attributes.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                                            <span class="code digits_commodity"></span>
+                                            <span class="code digits_commodity"></span>
+                                            <span class="code digits_commodity"></span>
+                                        </div>
+                                        <div class="description">
+                                            <a href="/{{ context.scope_id | fwdslash }}headings/{{ item.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                                                {{ item.attributes.formatted_description | safe }}
+                                            </a>
+                                        </div>
+                                    </li>
+                                {% endif %}
+                                {% if (item.type == "commodity") %}
+                                    {% set counter = (counter | default(2)) + 1 %}
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_{{ counter }}">
+                                        <div class="commodity">
+                                            <!--<span class="code digits_chapter">{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                                            <span class="code digits_heading">{{ item.attributes.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                                            <span class="code digits_commodity">{{ item.attributes.goods_nomenclature_item_id | substring(4, 2) }}</span>
+                                            {% if (item.attributes.goods_nomenclature_item_id.slice(-4) != "0000") %}
+                                                <span class="code digits_commodity">{{ item.attributes.goods_nomenclature_item_id | substring(6, 2) }}</span>
+                                                <span class="code digits_commodity">{{ item.attributes.goods_nomenclature_item_id | substring(8, 2) }}</span>
+                                            {% else %}
+                                                <span class="code digits_commodity">&nbsp;</span>
+                                                <span class="code digits_commodity">&nbsp;</span>
+                                            {% endif %}//-->
+                                        </div>
+                                        <div class="description">
+                                            <a href="/{{ context.scope_id | fwdslash }}headings/{{ item.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                                                {{ item.attributes.goods_nomenclature_item_id | substring(0, 10) }}
+                                                {{ item.attributes.formatted_description | safe }}
+                                            </a>
+                                        </div>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                            <li class="crumb indent_{{ counter + 1 }}">
+                                <div class="commodity">
+                                    <span class="code digits_chapter">{{ commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                                    <span class="code digits_heading">{{ commodity.data.attributes.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                                    <span class="code digits_commodity">{{ commodity.data.attributes.goods_nomenclature_item_id | substring(4, 2) }}</span>
+                                    <span class="code digits_commodity">{{ commodity.data.attributes.goods_nomenclature_item_id | substring(6, 2) }}</span>
+                                    <span class="code digits_commodity">{{ commodity.data.attributes.goods_nomenclature_item_id | substring(8, 2) }}</span>
+                                </div>
+                                <div class="description">{{ commodity.data.attributes.formatted_description | safe }}</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End old breadcrumb //-->

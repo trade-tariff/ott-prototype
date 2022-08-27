@@ -1,0 +1,46 @@
+<form action="/change-date" method="get">
+<div class="govuk-form-group govuk-!-margin-bottom-0">
+  <fieldset class="govuk-fieldset" role="group" aria-describedby="date-hint">
+    <div id="fld-date">
+      <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+        <h1 class="govuk-fieldset__heading">The data displayed on this page is for:</h1>
+      </legend>
+      <input type="hidden" name="goods_nomenclature_item_id" id="goods_nomenclature_item_id" value="{{ commodity.data.attributes.goods_nomenclature_item_id }}">
+
+      <div class="govuk-date-input" id="date">
+        <div class="govuk-date-input__item">
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-date-input__label hidden" for="day">Day</label>
+            <input value="{{ date.day }}" class="govuk-input govuk-date-input__input govuk-input--width-2" id="day" name="day" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+        </div>
+        <div class="govuk-date-input__item">
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-date-input__label hidden" for="month">Month</label>
+            <input value="{{ date.month }}" class="govuk-input govuk-date-input__input govuk-input--width-2" id="month" name="month" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+        </div>
+        <div class="govuk-date-input__item">
+          <div class="govuk-form-group">
+            <label class="govuk-label govuk-date-input__label hidden" for="year">Year</label>
+            <input value="{{ date.year }}" class="govuk-input govuk-date-input__input govuk-input--width-4" id="year" name="year" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+        </div>
+        <button class="govuk-button xgovuk-button--secondary" data-module="govuk-button">
+        Change date
+      </button>
+      </div>
+    </div>
+  </fieldset>
+</div>
+</form>
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Why is the date important?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    As duties and controls change over time, it can be important to look at future dates
+    to find out how your trade will be affected. Data may be updated between now and the
+    date that you select, so please check back closer to the import date to ensure that 
+    you have seen the latest information.
+  </div>
+</details>

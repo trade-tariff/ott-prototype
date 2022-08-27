@@ -1,0 +1,273 @@
+.govuk-list--disc li {
+    list-style-type: '-';
+    padding-left   : 18px;
+}
+
+.filter_options ul {
+    margin-left: 18px;
+}
+
+.filter_options {
+    display    : none;
+}
+
+// The repeating filter block
+.app-c-expander {
+    padding      : 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b1b4b6;
+}
+
+// The h2 tag text within the filter block
+.js-enabled .app-c-expander__heading {
+    position: relative;
+    padding : 2px 8px 5px 36px;
+    margin  : 0px 0px 0.5em 0px;
+}
+
+.js-enabled [aria-expanded="true"]~.app-c-expander__icon--up {
+    display: block;
+}
+
+.js-enabled [aria-expanded="false"]~.app-c-expander__icon--down {
+    display: block;
+}
+
+// The up or down arrow
+.app-c-expander__icon {
+    display    : none;
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    width      : 30px;
+    height     : 30px;
+    fill       : #0b0c0c;
+    // border  : 1px solid black
+}
+
+// The button within the h2 heading
+.app-c-expander__button {
+    font-family            : "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight            : 400;
+    font-size              : 16px;
+    font-size              : 1rem;
+    line-height            : 1.25;
+    border                 : 0;
+    background             : none;
+    text-align             : left;
+    cursor                 : pointer;
+    padding                : 0;
+    color                  : #1d70b8;
+}
+
+@media (min-width: 40.0625em) {
+    .app-c-expander__button {
+        font-size  : 19px;
+        font-size  : 1.1875rem;
+        line-height: 1.3157894737;
+    }
+}
+
+.app-c-expander__button:hover {
+    text-decoration                 : underline;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink        : none;
+    -webkit-text-decoration-skip    : none;
+    text-decoration-skip            : none;
+}
+
+.app-c-expander__button:focus {
+    outline         : none;
+    text-decoration : none;
+    outline         : 3px solid transparent;
+    color           : #0b0c0c;
+    background-color: #fd0;
+    box-shadow      : 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration : none;
+}
+
+.app-c-expander__button:after {
+    content : "";
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    bottom  : 0;
+    left    : 0;
+    z-index : 2;
+}
+
+@media (max-width: 40.0525em) {
+    .js-enabled .facets {
+        display: none;
+    }
+
+    .js-enabled .facets.facets--visible {
+        display: block;
+    }
+}
+
+.facets__header {
+    display: none;
+}
+
+.facets__footer {
+    display: none;
+}
+
+
+@media (max-width: 40.0525em) {
+    .js-enabled .xfacets__box {
+        position  : fixed;
+        z-index   : 1000;
+        top       : 0;
+        right     : 0;
+        bottom    : 0;
+        left      : 0;
+        width     : 100%;
+        height    : 100%;
+        margin    : 0;
+        padding   : 0;
+        overflow-y: auto;
+        background: #fff;
+    }
+
+    .js-enabled .facets__header {
+        padding      : 15px 0 10px;
+        border-bottom: 1px solid #b1b4b6;
+        margin       : 0 15px 0 15px;
+    }
+
+    .js-enabled .facets__content {
+        // padding: 10px 15px 0;
+        padding: 0;
+    }
+
+    .js-enabled .facets__footer {
+        display: block;
+        margin : 15px;
+    }
+
+}
+
+.app-c-option-select {
+    position     : relative;
+    padding      : 0 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b1b4b6;
+}
+
+
+@media (min-width: 40.0625em) {
+    .app-c-option-select__filter-input {
+        font-size  : 19px;
+        font-size  : 1.1875rem;
+        line-height: 1.3157894737;
+    }
+}
+
+@media print {
+    .app-c-option-select__filter-input {
+        font-size  : 14pt;
+        line-height: 1.15;
+    }
+}
+
+@media (min-width: 40.0625em) {
+    .app-c-option-select__filter-input {
+        font-family            : "GDS Transport", arial, sans-serif;
+        -webkit-font-smoothing : antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight            : 400;
+        font-size              : 14px;
+        font-size              : 0.875rem;
+        line-height            : 1.1428571429;
+    }
+}
+
+@media print and (min-width: 40.0625em) {
+    .app-c-option-select__filter-input {
+        font-family: sans-serif;
+    }
+}
+
+@media (min-width: 40.0625em) and (min-width: 40.0625em) {
+    .app-c-option-select__filter-input {
+        font-size  : 16px;
+        font-size  : 1rem;
+        line-height: 1.25;
+    }
+}
+
+
+.app-c-option-select.js-closed .app-c-option-select__filter,
+.app-c-option-select.js-closed .app-c-option-select__container {
+    display: none;
+}
+
+.app-c-option-select.js-opened .app-c-option-select__filter,
+.app-c-option-select.js-opened .app-c-option-select__container {
+    display: block;
+}
+
+
+.app-c-button-as-link {
+    padding                : 0;
+    border-width           : 0;
+    color                  : #1d70b8;
+    background             : none;
+    cursor                 : pointer;
+    -webkit-appearance     : none;
+    text-decoration        : underline;
+    font-size              : 16px;
+    font-family            : "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration        : underline;
+}
+
+.app-c-button-as-link:hover {
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink        : none;
+    -webkit-text-decoration-skip    : none;
+    text-decoration-skip            : none;
+}
+
+.app-c-button-as-link:focus {
+    outline         : 3px solid transparent;
+    color           : #0b0c0c;
+    background-color: #fd0;
+    box-shadow      : 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration : none;
+}
+
+.app-c-button-as-link:link {
+    color: #1d70b8;
+}
+
+.app-c-button-as-link:visited {
+    color: #4c2c92;
+}
+
+.app-c-button-as-link:hover {
+    color: #003078;
+}
+
+.app-c-button-as-link:active {
+    color: #0b0c0c;
+}
+
+.app-c-button-as-link:focus {
+    color: #0b0c0c;
+}
+
+.app-c-button-as-link::-moz-focus-inner {
+    padding: 0;
+    border : 0;
+}
+
+.facet-container {
+    padding-left : 13px;
+    padding-right: 13px;
+}

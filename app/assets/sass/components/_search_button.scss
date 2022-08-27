@@ -1,0 +1,223 @@
+/*
+THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+MAGNIFIER  = gem-c-layout-super-navigation-header__search-toggle-button-link-icon
+CLOSE ICON = gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon
+*/
+@media (min-width: 48.0625em) {
+    #navigation {
+        display: inline-block;
+    }
+
+    nav ul#navigation {
+        margin-bottom: 0px;
+    }
+
+    .govuk-header__content {
+        // text-align: right;
+    }
+}
+
+.govuk-header__container {
+    // border-bottom: 10px solid #F3F2F1;
+}
+
+.search_panel {
+    background-color: #F3F2F1;
+    width           : 100%;
+    display         : none;
+}
+
+@media (max-width: 48.0625em) {
+    .search_panel {
+        display: none !important;
+    }
+}
+
+// MAGNIFIER  = gem-c-layout-super-navigation-header__search-toggle-button-link-icon
+.gem-c-layout-super-navigation-header__search-toggle-button-link-icon {
+    height        : 20px;
+    width         : 20px;
+    pointer-events: none;
+}
+
+// THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+.gem-c-layout-super-navigation-header__search-toggle-button {
+    font-family            : "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight            : 700;
+    font-size              : 16px;
+    font-size              : 1rem;
+    line-height            : 1.25;
+    background             : #0b0c0c;
+    border                 : 0;
+    color                  : #fff;
+    cursor                 : pointer;
+    height                 : 50px;
+    width                  : 50px;
+    padding                : 15px;
+    position               : absolute;
+    right                  : -40px;
+    top                    : 0;
+}
+
+// 40 em wide or less 
+@media (max-width: 48.0625em) {
+
+    .gem-c-layout-super-navigation-header__search-toggle-button {
+        display: none;
+    }
+
+    .gem-c-layout-super-navigation-header__search-toggle-button-link-icon {
+        display: none;
+    }
+
+    .gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon {
+        display: none;
+    }
+}
+
+@media (min-width: 48.0625em) {
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button {
+        font-size  : 19px;
+        font-size  : 1.1875rem;
+        line-height: 1.0526315789
+    }
+}
+
+// THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+.gem-c-layout-super-navigation-header__search-toggle-button:focus {
+    outline         : 3px solid transparent;
+    color           : #0b0c0c;
+    background-color: #fd0;
+    box-shadow      : 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration : none;
+    border-color    : #fd0;
+    box-shadow      : none;
+    z-index         : 11
+}
+
+// THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+.gem-c-layout-super-navigation-header__search-toggle-button:focus-visible {
+    outline         : 3px solid transparent;
+    color           : #0b0c0c;
+    background-color: #fd0;
+    box-shadow      : 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration : none;
+    border-color    : #fd0;
+    box-shadow      : none;
+    z-index         : 11
+}
+
+// THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+.gem-c-layout-super-navigation-header__search-toggle-button:focus:not(:focus-visible) {
+    background  : none;
+    border-color: #fff;
+    box-shadow  : none;
+    color       : #fff
+}
+
+@media (min-width: 48.0625em) {
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button {
+        background   : #1d70b8;
+        border-bottom: 1px solid #003078;
+        border-left  : none;
+        position     : relative
+    }
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button:focus:not(:focus-visible) {
+        background   : #1d70b8;
+        border-bottom: 1px solid #003078;
+        border-left  : none;
+        position     : relative
+    }
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button:hover {
+        background   : #0b0c0c;
+        border-bottom: 5px solid #b1b4b6;
+        color        : #b1b4b6
+    }
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button:focus {
+        outline            : 3px solid transparent;
+        color              : #0b0c0c;
+        background-color   : #fd0;
+        box-shadow         : 0 -2px #fd0, 0 4px #0b0c0c;
+        text-decoration    : none;
+        border-bottom-color: #fd0;
+        box-shadow         : none
+    }
+
+    // THE BUTTON = gem-c-layout-super-navigation-header__search-toggle-button
+    .gem-c-layout-super-navigation-header__search-toggle-button:focus-visible {
+        outline            : 3px solid transparent;
+        color              : #0b0c0c;
+        background-color   : #fd0;
+        box-shadow         : 0 -2px #fd0, 0 4px #0b0c0c;
+        text-decoration    : none;
+        border-bottom-color: #fd0;
+        box-shadow         : none
+    }
+}
+
+// CLOSE ICON = gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon
+.gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon {
+    color           : #0b0c0c;
+    background-color: #F3F2F1;
+    display         : none;
+    font-size       : 36px;
+    font-weight     : normal;
+    left            : 0;
+    line-height     : 22px;
+    padding         : 14px 0 14px 0px;
+    pointer-events  : none;
+    position        : absolute;
+    right           : 0;
+    text-align      : center;
+    top             : 0
+}
+
+// The search button on the search panel
+.gem-c-search__submit {
+    border          : 0;
+    cursor          : pointer;
+    border-radius   : 0;
+    position        : relative;
+    top             : -1.5px;
+    left            : -5px;
+    padding         : 0;
+    width           : 40px;
+    height          : 40px;
+    text-indent     : -5000px;
+    overflow        : hidden;
+    background-color: #1D70B8;
+    color           : white;
+}
+
+.gem-c-search__submit .gem-c-search__icon {
+    display       : block;
+    pointer-events: none;
+    position      : absolute;
+    height        : 20px;
+    width         : 20px;
+    top           : 10px;
+    left          : 10px
+}
+
+.gem-c-search__submit:focus {
+    z-index       : 2;
+    outline       : 3px solid #fd0;
+    outline-offset: 0;
+    box-shadow    : inset 0 0 0 4px #0b0c0c
+}
+
+.gem-c-search__submit::-moz-focus-inner {
+    border: 0
+}

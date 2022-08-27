@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: A-Z of Classified Goods
+{% endblock %}
+{% block beforeContent %}
+{{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "A to Z",
+      href: ""
+    }
+  ]
+}) }}{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">A-Z of Classified Goods</h1>
+            
+            {{ govukInsetText({
+            text: "Use the A-Z index to find locate the headings where common products can be found."
+            }) }}
+
+            <ul class="az">
+                {% set alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
+                {% for item in alphabet %}
+                    <li>
+                        <a href="/a-z-index/{{ item | lower() }}">{{ item }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <table class="govuk-table">
+                <caption class="govuk-table__caption">{{ letter | upper() }}</caption>
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Product</th>
+                        <th scope="col" class="govuk-table__header r">Index</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    {% for heading in headings.data %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">
+                                <a href="/headings/{{ heading.attributes.referenced_id }}">{{ heading.attributes.title | capitalise() }}</a>
+                            </th>
+                            <td class="govuk-table__cell r">{{ heading.attributes.referenced_class }}&nbsp;{{ heading.attributes.referenced_id }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

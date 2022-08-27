@@ -1,0 +1,27 @@
+{% if show_chapters %}
+    {% set count = 1 %}
+    <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">Filter by chapter</span>
+        </summary>
+        <div class="govuk-details__text">
+            <p>Your search term appeared in the following chapters:</p>
+            <div class="search_headings tabular {{ xheading_style }}">
+                {% for chapter in chapters %}
+                    {% if count <= 12999 %}
+                        {# {% set link = "/elastic/" + context.search_term + "?filter[chapter_id]=" + chapter[0] %} #}
+                        {% set link = "/elastic/" + context.search_term + "?filter[chapter]=" + chapter[0] %}
+                        <div>
+                            <p>
+                                <span class="b">Chapter {{ chapter[0] }}</span>
+                                <br>
+                                <a href="{{ link }}">{{ chapter[2] | highlight(context.search_term) | safe }}</a> ({{ chapter[1] }})
+                            </p>
+                        </div>
+                    {% endif %}
+                    {% set count = count + 1 %}
+                {% endfor %}
+            </div>
+        </div>
+    </details>
+{% endif %}

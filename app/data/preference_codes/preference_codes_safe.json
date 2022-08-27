@@ -1,0 +1,451 @@
+[
+    {
+        "preference_code": 100,
+        "description": "Normal third country tariff duty (including ceilings). This code stands for all cases where no preference is claimed and the normal third country rate is applied.",
+        "measure_types": ["103"]
+    },
+    {
+        "preference_code": 110,
+        "description": "Tariff suspension. Temporary suspensions from the autonomous customs duties are granted for certain goods of the agricultural, chemical, aeronautical and microelectronic sector. Others are shown as footnotes to certain Combined Nomenclature (CN) codes.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 115,
+        "description": "Tariff suspension subject to a specific end-use. Certain suspensions are linked to a specific destination, a so-called end-use pursuant to Article 82 of the Common Customs Code. Commodities are identified by the symbol ‘S’ in Volume 2 of the Tariff and the footnote ‘subject to end use’.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 118,
+        "description": "Tariff suspension subject to the production of a special certificate. No case has been found at present, such a possibility could however be created e.g. for goods to be denatured before being imported under a suspension.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 119,
+        "description": "Tariff suspension subject to Authorised Release Certificate formerly known as Airworthiness Certificates. Suspension of duty (not including VAT) for importations of civil aircraft parts which must be accompanied by an Authorised Release Certificate formerly known as airworthiness certificate. A document code ‘C119’ must be entered in D.E. 2/3 and endorsed ‘Import with Authorised Release Certificate’ formerly known as Airworthiness Certificate.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 120,
+        "description": "Tariff quota, notably General Agreement on Tariffs and Trade (GATT) quota. GATT quotas are shown as footnotes to the CN. Examples can be found in Chapter 3 and for codes 0802, 0805 and 0806.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 123,
+        "description": "Tariff quota, notably GATT quota, subject to a specific end-use. Examples of GATT quotas under the condition of an end-use can be found in footnotes to codes 0102 90 (a quota with a serial number) and 0302 31 to 39 (a global quota without a serial number).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 125,
+        "description": "Tariff quota, notably GATT quota, subject to the production of a special certificate. GATT quotas exist for handicraft products and those produced on handlooms. The preferential quota is only applied on the production of the relevant certificate, which must be entered in D.E. 2/3 against the relevant document code as shown in Appendix 5: D.E. 2/3: Documents and Other Reference Codes. Other cases could be created, for example for goods to be denatured before being admitted to a quota.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 128,
+        "description": "Tariff quota following outward processing. No case has been found where the re-importation of textiles in the framework of an economic outward processing quota is admitted. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 140,
+        "description": "Exemption for end-use resulting from the Community Customs Tariff (CCT). All cases of end-use are marked by one of the following footnotes to the relevant CN code: ‘Entry under this subheading is subject to conditions laid down in the relevant EU provisions’",
+        "measure_types": ["105"]
+    },
+    {
+        "preference_code": 150,
+        "description": "Admission to certain CN subheadings subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Annex 9 of Council Regulation 2658/87/EEC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 200,
+        "description": "Generalised Systems of Preferences (GSP) rate without conditions or limits (including ceilings). Application of the GSP duty rate without conditions or limits (form A) or equivalent proofs of preferential origin.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 215,
+        "description": "Tariff suspension subject to specific end-use under GSP. It is unlikely that a temporary suspension of the autonomous tariff duties for GSP only and subject to a specific end-use will be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 218,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. It is unlikely that a tariff suspension for GSP only and subject to a certificate confirming the special nature of the goods will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 220,
+        "description": "Tariff quota. The GSP rate is only applicable within the limits of a tariff quota. In these cases, the serial number for the quota is shown beside the preferential rate in the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 223,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota may be granted under the condition of an end-use only.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 225,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. In this case, the use of a tariff quota under GSP would depend on the issue of a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 240,
+        "description": "Exemption for end-use resulting from the CCT. No case has been found where the exemption for end-use resulting from CCT is restricted to GSP. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 250,
+        "description": "Application of GSP rates subject to a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 300,
+        "description": "Tariff preference without conditions or limits (including ceilings). Application of the relevant preferential rate without conditions or limits (Certificates EUR1, EUR-MED, or equivalent proofs of preferential origin).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 310,
+        "description": "Tariff suspension under preferential agreements. A temporary suspension of the autonomous duty rates under preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 315,
+        "description": "Tariff suspension subject to a specific end-use under preferential agreements. It is unlikely that a temporary suspension of the autonomous duty rates subject to a specific end-use under a preferential agreement will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 318,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. No case has been found, however, such a possibility could be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 320,
+        "description": "Tariff quota. The preferential rate is only applicable within the limits of a quota. In these cases the serial number of the quota is mentioned beside the preferential duty rate in the printed version of the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 323,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota is granted only where a specific end-use is prescribed for the imported goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 325,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. Claim to other tariff preferences within the limits of a preference quota subject to a certificate being presented confirming the special nature of the product. For example, Volume 2 Additional Information Section states that a Certificate of Designation of Origin and a EUR1 is required for claims to a preferential quota for Western Balkan wine.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 340,
+        "description": "Exemption for end-use resulting from the CCT. It is unlikely that exemption for end-use resulting from the CCT will be restricted to certain preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 350,
+        "description": "Application of preferential duty rates subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Articles 16 to 34 of (EU) Reg. No. 2015/2447.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 400,
+        "description": "Non imposition of customs duties under the provisions of Customs Union. Agreements concluded by the EU with Turkey for certain products in headings 1704, 1803, 1804, 1805, 1806, 1901, 190211, 190219, 1903, 1904, 1905, 2101, 2102, 2103, 2104, 2105, 210610, 210620, 2202, 2205 and for all products in Chapters 25-97 (with the exception of Coal and Steel (see the list in Notice 812) and products in Tariff headings 3502, 4501 5301 and 5302) which are covered by forms Admission Temporaire Roulette (ATR) (see code 420 below for those agricultural products which are exceptionally covered by forms ATR for the purposes of annual tariff quotas); Andorra for all products in Chapters 25-97 ), and for San Marino for all products (with the exception of coal and steel) in Chapters 1- 97 of the UK Trade Tariff.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 420,
+        "description": "Tariff Quota. Non imposition of duty within the limits of annual tariff quotas for certain products in headings 1704, 1806, 1901, 1902, 1904, 1905 and 2106 which are imported from Turkey under cover of forms ATR.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 500,
+        "description": "This code is used when applying preferences in the context of trade with special fiscal territories. Refer to Appendix 13: Country Codes, Table 4 for a list of Special Fiscal Territories (SFT).100 ",
+        "measure_types": []
+    },
+    {
+        "preference_code": 110,
+        "description": "Tariff suspension. Temporary suspensions from the autonomous customs duties are granted for certain goods of the agricultural, chemical, aeronautical and microelectronic sector. Others are shown as footnotes to certain Combined Nomenclature (CN) codes.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 115,
+        "description": "Tariff suspension subject to a specific end-use. Certain suspensions are linked to a specific destination, a so-called end-use pursuant to Article 82 of the Common Customs Code. Commodities are identified by the symbol ‘S’ in Volume 2 of the Tariff and the footnote ‘subject to end use’.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 118,
+        "description": "Tariff suspension subject to the production of a special certificate. No case has been found at present, such a possibility could however be created e.g. for goods to be denatured before being imported under a suspension.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 119,
+        "description": "Tariff suspension subject to Authorised Release Certificate formerly known as Airworthiness Certificates. Suspension of duty (not including VAT) for importations of civil aircraft parts which must be accompanied by an Authorised Release Certificate formerly known as airworthiness certificate. A document code ‘C119’ must be entered in D.E. 2/3 and endorsed ‘Import with Authorised Release Certificate’ formerly known as Airworthiness Certificate.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 120,
+        "description": "Tariff quota, notably General Agreement on Tariffs and Trade (GATT) quota. GATT quotas are shown as footnotes to the CN. Examples can be found in Chapter 3 and for codes 0802, 0805 and 0806.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 123,
+        "description": "Tariff quota, notably GATT quota, subject to a specific end-use. Examples of GATT quotas under the condition of an end-use can be found in footnotes to codes 0102 90 (a quota with a serial number) and 0302 31 to 39 (a global quota without a serial number).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 125,
+        "description": "Tariff quota, notably GATT quota, subject to the production of a special certificate. GATT quotas exist for handicraft products and those produced on handlooms. The preferential quota is only applied on the production of the relevant certificate, which must be entered in D.E. 2/3 against the relevant document code as shown in Appendix 5: D.E. 2/3: Documents and Other Reference Codes. Other cases could be created, for example for goods to be denatured before being admitted to a quota.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 128,
+        "description": "Tariff quota following outward processing. No case has been found where the re-importation of textiles in the framework of an economic outward processing quota is admitted. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 140,
+        "description": "Exemption for end-use resulting from the Community Customs Tariff (CCT). All cases of end-use are marked by one of the following footnotes to the relevant CN code: ‘Entry under this subheading is subject to conditions laid down in the relevant EU provisions’",
+        "measure_types": []
+    },
+    {
+        "preference_code": 150,
+        "description": "Admission to certain CN subheadings subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Annex 9 of Council Regulation 2658/87/EEC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 200,
+        "description": "Generalised Systems of Preferences (GSP) rate without conditions or limits (including ceilings). Application of the GSP duty rate without conditions or limits (form A) or equivalent proofs of preferential origin.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 215,
+        "description": "Tariff suspension subject to specific end-use under GSP. It is unlikely that a temporary suspension of the autonomous tariff duties for GSP only and subject to a specific end-use will be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 218,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. It is unlikely that a tariff suspension for GSP only and subject to a certificate confirming the special nature of the goods will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 220,
+        "description": "Tariff quota. The GSP rate is only applicable within the limits of a tariff quota. In these cases, the serial number for the quota is shown beside the preferential rate in the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 223,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota may be granted under the condition of an end-use only.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 225,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. In this case, the use of a tariff quota under GSP would depend on the issue of a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 240,
+        "description": "Exemption for end-use resulting from the CCT. No case has been found where the exemption for end-use resulting from CCT is restricted to GSP. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 250,
+        "description": "Application of GSP rates subject to a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 300,
+        "description": "Tariff preference without conditions or limits (including ceilings). Application of the relevant preferential rate without conditions or limits (Certificates EUR1, EUR-MED, or equivalent proofs of preferential origin).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 310,
+        "description": "Tariff suspension under preferential agreements. A temporary suspension of the autonomous duty rates under preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 315,
+        "description": "Tariff suspension subject to a specific end-use under preferential agreements. It is unlikely that a temporary suspension of the autonomous duty rates subject to a specific end-use under a preferential agreement will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 318,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. No case has been found, however, such a possibility could be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 320,
+        "description": "Tariff quota. The preferential rate is only applicable within the limits of a quota. In these cases the serial number of the quota is mentioned beside the preferential duty rate in the printed version of the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 323,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota is granted only where a specific end-use is prescribed for the imported goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 325,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. Claim to other tariff preferences within the limits of a preference quota subject to a certificate being presented confirming the special nature of the product. For example, Volume 2 Additional Information Section states that a Certificate of Designation of Origin and a EUR1 is required for claims to a preferential quota for Western Balkan wine.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 340,
+        "description": "Exemption for end-use resulting from the CCT. It is unlikely that exemption for end-use resulting from the CCT will be restricted to certain preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 350,
+        "description": "Application of preferential duty rates subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Articles 16 to 34 of (EU) Reg. No. 2015/2447.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 400,
+        "description": "Non imposition of customs duties under the provisions of Customs Union. Agreements concluded by the EU with Turkey for certain products in headings 1704, 1803, 1804, 1805, 1806, 1901, 190211, 190219, 1903, 1904, 1905, 2101, 2102, 2103, 2104, 2105, 210610, 210620, 2202, 2205 and for all products in Chapters 25-97 (with the exception of Coal and Steel (see the list in Notice 812) and products in Tariff headings 3502, 4501 5301 and 5302) which are covered by forms Admission Temporaire Roulette (ATR) (see code 420 below for those agricultural products which are exceptionally covered by forms ATR for the purposes of annual tariff quotas); Andorra for all products in Chapters 25-97 ), and for San Marino for all products (with the exception of coal and steel) in Chapters 1- 97 of the UK Trade Tariff.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 420,
+        "description": "Tariff Quota. Non imposition of duty within the limits of annual tariff quotas for certain products in headings 1704, 1806, 1901, 1902, 1904, 1905 and 2106 which are imported from Turkey under cover of forms ATR.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 500,
+        "description": "This code is used when applying preferences in the context of trade with special fiscal territories. Refer to Appendix 13: Country Codes, Table 4 for a list of Special Fiscal Territories (SFT).110 ",
+        "measure_types": []
+    },
+    {
+        "preference_code": 115,
+        "description": "Tariff suspension subject to a specific end-use. Certain suspensions are linked to a specific destination, a so-called end-use pursuant to Article 82 of the Common Customs Code. Commodities are identified by the symbol ‘S’ in Volume 2 of the Tariff and the footnote ‘subject to end use’.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 118,
+        "description": "Tariff suspension subject to the production of a special certificate. No case has been found at present, such a possibility could however be created e.g. for goods to be denatured before being imported under a suspension.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 119,
+        "description": "Tariff suspension subject to Authorised Release Certificate formerly known as Airworthiness Certificates. Suspension of duty (not including VAT) for importations of civil aircraft parts which must be accompanied by an Authorised Release Certificate formerly known as airworthiness certificate. A document code ‘C119’ must be entered in D.E. 2/3 and endorsed ‘Import with Authorised Release Certificate’ formerly known as Airworthiness Certificate.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 120,
+        "description": "Tariff quota, notably General Agreement on Tariffs and Trade (GATT) quota. GATT quotas are shown as footnotes to the CN. Examples can be found in Chapter 3 and for codes 0802, 0805 and 0806.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 123,
+        "description": "Tariff quota, notably GATT quota, subject to a specific end-use. Examples of GATT quotas under the condition of an end-use can be found in footnotes to codes 0102 90 (a quota with a serial number) and 0302 31 to 39 (a global quota without a serial number).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 125,
+        "description": "Tariff quota, notably GATT quota, subject to the production of a special certificate. GATT quotas exist for handicraft products and those produced on handlooms. The preferential quota is only applied on the production of the relevant certificate, which must be entered in D.E. 2/3 against the relevant document code as shown in Appendix 5: D.E. 2/3: Documents and Other Reference Codes. Other cases could be created, for example for goods to be denatured before being admitted to a quota.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 128,
+        "description": "Tariff quota following outward processing. No case has been found where the re-importation of textiles in the framework of an economic outward processing quota is admitted. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 140,
+        "description": "Exemption for end-use resulting from the Community Customs Tariff (CCT). All cases of end-use are marked by one of the following footnotes to the relevant CN code: ‘Entry under this subheading is subject to conditions laid down in the relevant EU provisions’",
+        "measure_types": []
+    },
+    {
+        "preference_code": 150,
+        "description": "Admission to certain CN subheadings subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Annex 9 of Council Regulation 2658/87/EEC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 200,
+        "description": "Generalised Systems of Preferences (GSP) rate without conditions or limits (including ceilings). Application of the GSP duty rate without conditions or limits (form A) or equivalent proofs of preferential origin.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 215,
+        "description": "Tariff suspension subject to specific end-use under GSP. It is unlikely that a temporary suspension of the autonomous tariff duties for GSP only and subject to a specific end-use will be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 218,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. It is unlikely that a tariff suspension for GSP only and subject to a certificate confirming the special nature of the goods will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 220,
+        "description": "Tariff quota. The GSP rate is only applicable within the limits of a tariff quota. In these cases, the serial number for the quota is shown beside the preferential rate in the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 223,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota may be granted under the condition of an end-use only.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 225,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. In this case, the use of a tariff quota under GSP would depend on the issue of a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 240,
+        "description": "Exemption for end-use resulting from the CCT. No case has been found where the exemption for end-use resulting from CCT is restricted to GSP. Such a possibility could however be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 250,
+        "description": "Application of GSP rates subject to a certificate confirming the special nature of the goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 300,
+        "description": "Tariff preference without conditions or limits (including ceilings). Application of the relevant preferential rate without conditions or limits (Certificates EUR1, EUR-MED, or equivalent proofs of preferential origin).",
+        "measure_types": []
+    },
+    {
+        "preference_code": 310,
+        "description": "Tariff suspension under preferential agreements. A temporary suspension of the autonomous duty rates under preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 315,
+        "description": "Tariff suspension subject to a specific end-use under preferential agreements. It is unlikely that a temporary suspension of the autonomous duty rates subject to a specific end-use under a preferential agreement will be created.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 318,
+        "description": "Tariff suspension subject to a certificate confirming the special nature of the goods. No case has been found, however, such a possibility could be created",
+        "measure_types": []
+    },
+    {
+        "preference_code": 320,
+        "description": "Tariff quota. The preferential rate is only applicable within the limits of a quota. In these cases the serial number of the quota is mentioned beside the preferential duty rate in the printed version of the TARIC.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 323,
+        "description": "Tariff quota subject to a specific end-use. The application of the quota is granted only where a specific end-use is prescribed for the imported goods.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 325,
+        "description": "Tariff quota subject to a certificate confirming the special nature of the goods. Claim to other tariff preferences within the limits of a preference quota subject to a certificate being presented confirming the special nature of the product. For example, Volume 2 Additional Information Section states that a Certificate of Designation of Origin and a EUR1 is required for claims to a preferential quota for Western Balkan wine.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 340,
+        "description": "Exemption for end-use resulting from the CCT. It is unlikely that exemption for end-use resulting from the CCT will be restricted to certain preferential agreements.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 350,
+        "description": "Application of preferential duty rates subject to a certificate confirming the special nature of the goods. The relevant certificates are mentioned in Articles 16 to 34 of (EU) Reg. No. 2015/2447.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 400,
+        "description": "Non imposition of customs duties under the provisions of Customs Union. Agreements concluded by the EU with Turkey for certain products in headings 1704, 1803, 1804, 1805, 1806, 1901, 190211, 190219, 1903, 1904, 1905, 2101, 2102, 2103, 2104, 2105, 210610, 210620, 2202, 2205 and for all products in Chapters 25-97 (with the exception of Coal and Steel (see the list in Notice 812) and products in Tariff headings 3502, 4501 5301 and 5302) which are covered by forms Admission Temporaire Roulette (ATR) (see code 420 below for those agricultural products which are exceptionally covered by forms ATR for the purposes of annual tariff quotas); Andorra for all products in Chapters 25-97 ), and for San Marino for all products (with the exception of coal and steel) in Chapters 1- 97 of the UK Trade Tariff.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 420,
+        "description": "Tariff Quota. Non imposition of duty within the limits of annual tariff quotas for certain products in headings 1704, 1806, 1901, 1902, 1904, 1905 and 2106 which are imported from Turkey under cover of forms ATR.",
+        "measure_types": []
+    },
+    {
+        "preference_code": 500,
+        "description": "This code is used when applying preferences in the context of trade with special fiscal territories. Refer to Appendix 13: Country Codes, Table 4 for a list of Special Fiscal Territories (SFT)."
+    }
+]

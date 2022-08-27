@@ -1,0 +1,70 @@
+{% set last_chapter = -1 %}
+<p>Your search term appears in the following parts of the tariff:</p>
+<div class="search_headings tabular">
+    <table class="govuk-table">
+        {% for heading in headings %}
+            {% if heading.chapter != last_chapter %}
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">
+                        <span class="commodity-split">{{ heading.chapter | format_and_trim_commodity_code(false) | safe }}</span>
+                    </td>
+                    <td colspan="2" class="govuk-table__cell">
+                        <span class="b">{{ heading.chapter_description }}</span>
+                    </td>
+                </tr>
+            {% endif %}
+            <tr>
+                <td>&nbsp;</td>
+                <td class="govuk-table__cell">
+                    <span class="commodity-split">{{ heading.heading | format_and_trim_commodity_code(false) | safe }}</span>
+                    {# <a href="/headings/{{ heading.heading }}">Go</a> #}
+                </td>
+                <td class="govuk-table__cell">
+                    <a href="{{ heading.apply_url }}">{{ heading.description | highlight(context.search_term) | safe }}</a> ({{ heading.count }})
+
+                    <br>
+
+                    {% if heading.classification_fragment != "" %}
+                        <details class="govuk-details govuk-details-m govuk-!-margin-top-3" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">
+                                Classification notes for heading {{ heading.heading }}
+                            </span>
+                            </summary>
+                            <div class="govuk-details__text">
+                                {{ heading.classification_fragment | convert_markdown() | safe }}
+                            </div>
+                        </details>
+                    {% endif %}
+
+                    <!--<p>refs: {{ hit._source.search_references }}</p>
+                            {% set references = [] %}
+        {% set show_references = false %}
+        {% for search_reference in hit._source.search_references %}
+            {% if context.search_term in search_reference %}
+                {% set references = (references.push(search_reference), references) %}
+                {% set show_references = true %}
+            {% endif %}
+        {% endfor %}
+
+        {% if show_references %}
+            <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Why is this result listed?</span>
+                </summary>
+                <div class="govuk-details__text">
+                    <p class="govuk-!-margin-top-0 govuk-!-margin-bottom-2">This {{ class | lower() }} has been tagged with the following key words:</p>
+                    {% for search_reference in references %}
+                        <span class="tag">{{ search_reference | safe }}</span>
+                    {% endfor %}
+                    <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="/feedback">Provide feedback</a> on this listing.</p>
+                </div>
+            </details>
+        {% endif %}
+        //-->
+                </td>
+            </tr>
+            {% set last_chapter = heading.chapter %}
+        {% endfor %}
+    </table>
+</div>

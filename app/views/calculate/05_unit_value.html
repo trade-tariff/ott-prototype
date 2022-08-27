@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter unit value
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/monetary_value/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+        <span class="govuk-caption-xl">Calculate import duties</span>
+        <h1 class="govuk-heading-xl">Enter import quantity</h1>
+        <p>The duties payable on this commodity are dependent on the quantity, weight or volume
+          of goods that you are importing.
+          Enter the units of the goods that you are importing in the boxes below.
+        </p>
+
+        {% for measurement_unit in commodity.units %}
+
+          {{ govukInput({
+                id: "unit_value_" + measurement_unit.unit_field,
+                name: "unit_value_" + measurement_unit.unit_field,
+                label: {
+                    text: measurement_unit.unit_question,
+                    classes: "govuk-label--s",
+                    isPageHeading: false
+                },
+                hint: {
+                    text: measurement_unit.unit_hint
+                },
+                suffix: {
+                    text: measurement_unit.unit
+                },
+                value: "200",
+                classes: "govuk-input--width-5",
+                spellcheck: false
+                }) }}
+          <p>{{ commodity.warning }}</p>
+        {% endfor %}
+        {{ govukButton({
+            text: "Continue"
+        }) }}
+        {# <p>You are calculating the duties to import commodity
+            <a title="Select a different commodity code" href="/sections">0102030405</a>
+            into <a title="Select an alternative destination" href="/duty-calculator/destination/0101210000">Wales</a>
+            from <a href="">Albania</a>. Click on '<strong>Continue</strong>' or on one of the links above
+            to change your previous selections.</p> #}
+      </form>
+      {% include "../includes/commodity_panel.html" %}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

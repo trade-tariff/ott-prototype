@@ -1,0 +1,9 @@
+<div class="panel panel_grey govuk-!-margin-top-9 govuk-!-margin-bottom-3">
+{% if context.scope_id == "xi" %}
+    {% set url = context.root_url | other_scope("xi") %}
+    Switch to the <a href="{{ url }}">{{ ukSubServiceName }}</a>.
+{% else %}
+    {% set url = context.root_url | other_scope("") %}
+    Switch to the <a href="{{ url }}">{{ xiSubServiceName }}</a>.
+{% endif %}
+</div>

@@ -1,0 +1,22 @@
+.govuk-summary-list__row {
+    clear: both;
+}
+
+.govuk-summary-list__value--s {
+    font-size: 12px;
+}
+
+.govuk-summary-list__value--m {
+    font-size: 14px;
+}
+
+@media (min-width: 40.0625em) {
+
+    .govuk-summary-list__value--s {
+        font-size: 14px;
+    }
+
+    .govuk-summary-list__value--m {
+        font-size: 16px;
+    }
+}

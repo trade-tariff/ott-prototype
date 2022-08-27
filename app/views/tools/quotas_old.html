@@ -1,0 +1,247 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by quota
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Quotas",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+    </span>
+            <h1 class="govuk-heading-l">
+                Search for quotas
+            </h1>
+            {{ govukInsetText({
+              text: "Search for tariff quotas, including daily updated balances.
+              Enter data into at least one of the fields below. Alternatively, browse quotas."
+            }) }}
+
+
+            {{ govukInput({
+              label: {
+                text: "Enter the 6-digit quota order number"
+              },
+              xhint: {
+                text: "Enter the 6-digit quota order number"
+              },
+              classes: "govuk-input--width-5",
+              id: "width-10",
+              name: "width-10"
+            }) }}
+
+            {{ govukInput({
+              label: {
+                text: "Enter a 10-digit commodity code to search for quotas available on that code"
+              },
+              xhint: {
+                text: "Enter a full 10-digit commodity code, to search for quotas that are available on that code"
+              },
+              classes: "govuk-input--width-10",
+              id: "width-10",
+              name: "width-10"
+            }) }}
+
+            {{ govukInput({
+              label: {
+                text: "Select a country to which the quota applies"
+              },
+              xhint: {
+                text: "Enter a full 10-digit commodity code, to search for quotas that are available on that code"
+              },
+              classes: "govuk-input--width-20",
+              id: "country",
+              name: "country",
+              value: "All countries"
+            }) }}
+            <p style="margin:-1.5em 0px 2em 0px;font-size:16px;"><a href="#">Reset to all countries</a></p>
+
+
+
+
+            {# {{ govukRadios({
+              classes: "govuk-radios--small",
+              idPrefix: "critical-state",
+              name: "critical-state",
+              fieldset: {
+                legend: {
+                  text: "Critical status",
+                  isPageHeading: true,
+                  classes: "govuk-fieldset__legend--s"
+                }
+              },
+              xhint: {
+                html: "Select whether to include or exclude <a href='https://www.gov.uk/government/publications/uk-trade-tariff-tariff-quotas-and-ceilings/uk-trade-tariff-tariff-quotas-and-ceilings#status' target-'_blank'>critical quotas [opens in new browser window]</a>."
+              },
+              items: [
+                {
+                  value: "all",
+                  text: "All quotas"
+                },
+                {
+                  value: "critical",
+                  text: "Critical quotas only"
+                },
+                {
+                  value: "non-critical",
+                  text: "Non-critical quotas only"
+                }
+              ]
+            }) }}
+
+            {{ govukCheckboxes({
+              idPrefix: "organisation",
+              name: "organisation",
+              classes: "govuk-checkboxes--small",
+              fieldset: {
+                legend: {
+                  text: "Would you like to include exhausted and blocked quotas?",
+                  isPageHeading: true,
+                  classes: "govuk-fieldset__legend--s"
+                }
+              },
+              items: [
+                {
+                  value: "include-blocked",
+                  text: "Include blocked quotas"
+                },
+                {
+                  value: "include-blocked",
+                  text: "Include exhausted quotas"
+                }
+              ]
+            }) }} #}
+
+            {{ govukDateInput({
+              id: "date",
+              namePrefix: "date",
+              fieldset: {
+                legend: {
+                  text: "Enter the date for which you would like to return results",
+                  isPageHeading: true,
+                  classes: "govuk-fieldset__legend--s"
+                }
+              },
+              hint: {
+                text: "If you leave this field blank, then today's date will be used"
+              }
+            }) }}
+
+            {{ govukSelect({
+              id: "critical-state",
+              name: "critical-state",
+              label: {
+                text: "Critical state"
+              },
+              items: [
+                {
+                  value: "",
+                  text: "",
+                  selected: true
+                },
+                {
+                  value: "updated",
+                  text: "Recently updated"
+                },
+                {
+                  value: "views",
+                  text: "Most views"
+                },
+                {
+                  value: "comments",
+                  text: "Most comments"
+                }
+              ]
+            }) }}
+
+            {{ govukSelect({
+              id: "status",
+              name: "status",
+              label: {
+                text: "Status"
+              },
+              items: [
+                {
+                  value: "",
+                  text: "",
+                  selected: true
+                },
+                {
+                  value: "updated",
+                  text: "Recently updated"
+                },
+                {
+                  value: "views",
+                  text: "Most views"
+                },
+                {
+                  value: "comments",
+                  text: "Most comments"
+                }
+              ]
+            }) }}
+
+{# 
+{{ govukCheckboxes({
+  idPrefix: "year",
+  name: "year",
+  classes: "govuk-checkboxes--small",
+  fieldset: {
+    legend: {
+      text: "Year of operation",
+      isPageHeading: true,
+      classes: "govuk-fieldset__legend--s notbold"
+    }
+  },
+  hint: {
+    text: "You can search back up to 4 years for quotas. Select the years in which you would like to search for quotas."
+  },
+  items: [
+    {
+      value: "2021",
+      text: "2021"
+    },
+    {
+      value: "2020",
+      text: "2020"
+    },
+    {
+      value: "2019",
+      text: "2019"
+    },
+    {
+      value: "2018",
+      text: "2018"
+    }
+  ]
+}) }} #}
+
+{{ govukButton({
+  text: "Search for quotas",
+  href: "/quota_results.html"
+}) }}
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

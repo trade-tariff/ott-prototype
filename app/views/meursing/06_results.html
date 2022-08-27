@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Look up a Meursing code - Check your answers
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+      text: "Back",
+      href: "/xi/meursing/check-answers"
+    }) }}
+
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Look up a Meursing code</span>
+      {# <h1 class="govuk-heading-l">Results</h1> #}
+      {# <p>&nbsp;</p> #}
+
+      {{ govukPanel({
+        classes: "xgovuk-panel--semi-confirmation govuk-!-margin-top-3",
+        titleText: "Your Meursing code",
+        html: "The Meursing additional code for a product with this composition is <strong>7<span id='result'>" + results[0] + "</span></strong>."
+      }) }}
+
+      <h2 class="govuk-heading-m">What next</h2>
+      <p>Use these four digits together with the ten-digit commodity code from Trade Tariff to work out
+      duties applicable to certain complex agri-foods on the Northern Ireland Tariff, when your import
+      is considered to be 'at risk'.</p>
+      <ul class="govuk-list govuk-list--bullet">
+        {# <li><div class="flex">
+          <a id="copy_meursing_code" href="#">Copy this Meursing code</a>
+          <span class="copied_meursing">Copied</span></div></li> #}
+        <li>Return to <a href="/xi/commodities/{{ data["goods_nomenclature_item_id"] }}#block_1">commodity code {{ data["goods_nomenclature_item_id"] }}</a></li>
+        <li><a href="/xi/restart">Start again</a></li>
+      </ul>
+
+
+      <noscript>
+        <style>
+          #copy_code {
+            display: none;
+          }
+        </style>
+      </noscript>
+      
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function () {
+    $("#copy_meursing_code").click(function (event) {
+      copyToClipboard("{{ results[0] }}");
+
+      $(".copied_meursing").css("text-indent", "0");
+      $(".copied_meursing")
+        .delay(500)
+        .fadeOut(750, function () {
+          $(".copied_meursing").css("text-indent", "-999em");
+          $(".copied_meursing").css("display", "block");
+        });
+      event.preventDefault();
+    });
+
+    function copyToClipboard(text) {
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp
+        .val(text)
+        .select();
+      document.execCommand("copy");
+      $temp.remove();
+    }
+
+  });
+</script>
+
+{% endblock %}

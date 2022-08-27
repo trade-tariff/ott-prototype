@@ -1,0 +1,150 @@
+### Subheading note
+
+1. In this chapter, the expression `refined lead' means:
+
+    Metal containing by weight at least 99.9% of lead, provided that the content by weight of any other element does not exceed the limit specified in the following table:
+
+    **Other elements**
+    
+    <table width="100%">
+    <tbody>
+    <tr>
+    <td colspan="2" width="325">
+    <p><strong>Element</strong></p>
+    </td>
+    <td>
+    <p><strong>Limiting content % by weight</strong></p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Ag</p>
+    </td>
+    <td>
+    <p>Silver</p>
+    </td>
+    <td>
+    <p>0,02</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>As</p>
+    </td>
+    <td>
+    <p>Arsenic</p>
+    </td>
+    <td>
+    <p>0,005</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Bi</p>
+    </td>
+    <td>
+    <p>Bismuth</p>
+    </td>
+    <td>
+    <p>0,05</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Ca</p>
+    </td>
+    <td>
+    <p>Calcium</p>
+    </td>
+    <td>
+    <p>0,002</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Cd</p>
+    </td>
+    <td>
+    <p>Cadmium</p>
+    </td>
+    <td>
+    <p>0,002</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Cu</p>
+    </td>
+    <td>
+    <p>Copper</p>
+    </td>
+    <td>
+    <p>0,08</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Fe</p>
+    </td>
+    <td>
+    <p>Iron</p>
+    </td>
+    <td>
+    <p>0,002</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>S</p>
+    </td>
+    <td>
+    <p>Sulphur</p>
+    </td>
+    <td>
+    <p>0,002</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Sb</p>
+    </td>
+    <td>
+    <p>Antimony</p>
+    </td>
+    <td>
+    <p>0,005</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Sn</p>
+    </td>
+    <td>
+    <p>Tin</p>
+    </td>
+    <td>
+    <p>0,005</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <p>Zn</p>
+    </td>
+    <td>
+    <p>Zinc</p>
+    </td>
+    <td>
+    <p>0,002</p>
+    </td>
+    </tr>
+    <tr>
+    <td colspan="2">
+    <p>Other (for example, Te), each</p>
+    </td>
+    <td>
+    <p>0.001</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    

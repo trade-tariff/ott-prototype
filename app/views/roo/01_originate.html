@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/commodities/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.scope_id
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            <form action="/duty-calculator/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+                <span class="govuk-caption-xl">Rules of origin</span>
+
+                {{ govukRadios({
+                idPrefix: "originate",
+                name: "originate",
+                fieldset: {
+                    legend: {
+                    text: "Do your goods originate fully in Japan?",
+                    isPageHeading: true,
+                    classes: "govuk-fieldset__legend--xl"
+                    }
+                },
+                hint: {
+                    html: "If your product has been produced exclusively from originating materials,
+                    the product will be considered originating in the EU or Japan.<br><br>Products that have been produced
+                    exclusively from originating materials (i.e. materials that have already obtained their originating
+                    status because they are wholly obtained or fulfilled product specific rules)
+                    will always be considered originating products."
+                },
+                items: [
+                    {
+                        value: "yes",
+                        text: "Yes",
+                        hint: {
+                            text: ""
+                        }
+                    },
+                    {
+                        value: "no",
+                        text: "No",
+                        hint: {
+                            text: ""
+                        }
+                    },
+                    {
+                        value: "dontknow",
+                        text: "I don't know",
+                        hint: {
+                            text: "Lorem ipsum"
+                        }
+                    }
+                ]
+                }) }}
+
+                {# Display the Continue button #}
+                {{ govukButton({
+                    text: "Continue",
+                    href: "/roo/obtained/4501100000/" + country.key
+                }) }}
+            </form>
+
+            {{ govukDetails({
+                summaryText: "Requirements for originating products",
+                text: country.text | safe
+            }) }}
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./step-by-step-aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

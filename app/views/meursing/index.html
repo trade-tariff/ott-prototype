@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Look up a Meursing code
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h1 class="govuk-heading-xl">Look up a Meursing code</h1>
+      <p>If you are moving a product into Northern Ireland or the European Union which is subject to duties
+      dependent on the percentage content of sugar, flour, milk starch and milk solids, then you may be required to enter
+    a 4-digit code (beginning with 7) called a 'Meursing code' on your import declaration.</p>
+
+      <p>Use this service to help you to work out your Meursing code.</p>
+
+      <h2 class="govuk-heading-m">What you need to know</h2>
+      <p>In order to correctly identify the Meursing code for your commodity, you will need to know the percentage content by weight of:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>milk fat</li>
+        <li>milk proteins</li>
+        <li>starch or glucose</li>
+        <li>sucrose, invert sugar, isoglucose</li>
+      </ul>
+
+      {{ govukButton({
+        text: "Start now",
+        href: "/xi/meursing/starch-glucose",
+        isStartButton: true
+      }) }}
+    
+      <h2 class="govuk-heading-m">Documents to download</h2>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="/public/downloads/Meursing_table.pdf" target="_blank">Meursing table (PDF) [opens in new window]</a>
+        </li>
+        <li>
+          <a href="/public/downloads/Meursing_table.odt" target="_blank">Meursing table (ODT) [opens in new window]</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+{% endblock %}

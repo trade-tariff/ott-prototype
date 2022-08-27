@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+    items: [
+        {
+        text: "All sections",
+        href: "/sections/"
+        },
+        {
+        text: "Section " + section.data.id | roman,
+        xtext: "Section " + section.data.id | roman + " : " + section.data.attributes.title,
+        href: ""
+        }
+    ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">
+                {{ context.get_content("browse.section") | safe }} {{ section.data.id | roman }} - {{ section.data.attributes.title }}
+            </h1>
+
+            {# Count the chapters #}
+            {% set chapter_count = 0 %}
+            {% for chapter in section.included %}
+                {% if (chapter.type == "chapter") %}
+                    {% set chapter_count = chapter_count + 1 %}
+                {% endif %}
+            {% endfor %}
+
+            <table class="govuk-table govuk-!-margin-top-9">
+                <caption class="govuk-table__caption govuk-table__caption--s notbold govuk-!-margin-bottom-4">
+                    Section {{ section.data.id | roman }} contains {{ chapter_count }} chapters. Choose the chapter that best matches your goods.
+                </caption>
+                <thead>
+                    <tr class="govuk-table__row">
+                        <th class="govuk-table__header">{{ context.get_content("browse.chapter") | safe }}</th>
+                        <th class="govuk-table__header">{{ context.get_content("browse.description") | safe }}</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    {% for chapter in section.included %}
+                        {% if (chapter.type == "chapter") %}
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">
+                                    <span class="chapter">
+                                        {{ chapter.attributes.goods_nomenclature_item_id | substring(0, 2) }}
+                                    </span>
+                                </td>
+                                <td class="govuk-table__cell">
+                                    <a href="/{{ context.scope_id | fwdslash }}chapters/{{ chapter.attributes.goods_nomenclature_item_id | substring(0, 2) }}">
+                                        {{ chapter.attributes.formatted_description | safe }}
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            {% if section.data.attributes.section_note %}
+                <article class="section_chapter_notes">
+                    <h2 class="govuk-heading-s">There are important notes for this section of the tariff:</h2>
+                    {{ section.data.attributes.section_note | convert_markdown | safe }}
+                </article>
+            {% endif %}
+
+            {% include "includes/general_interpretative_rules.html" %}
+            <div class="bottom_switcher">
+                {% include "includes/scope_switcher_panel.html" %}
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

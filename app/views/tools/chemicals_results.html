@@ -1,0 +1,164 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by chemical
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Chemicals",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">Search the tariff for chemicals - search results</h1>
+
+            <table class="govuk-table">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Commodity code</th>
+                        <th scope="col" class="govuk-table__header">Description</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">1234 56 78 90</td>
+                        <td class="govuk-table__cell">
+
+                            <nav class="breadcrumb">
+                                <ul class="govuk-list">
+
+                                    <!-- Section //-->
+                                    <li class="section">
+                                        <a href="/sections/6/">Section VI: Products of the chemical or allied industries</a>
+                                    </li>
+
+                                    <!-- Chapter //-->
+                                    <li class="crumb indent_1">
+                                        <div class="description">
+                                            <a href="/chapters/29/">Organic chemicals</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Heading //-->
+                                    <li class="crumb indent_2">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Halogenated derivatives of hydrocarbons</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_3">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Fluorinated, brominated or iodinated derivatives of acyclic hydrocarbons</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_4">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Other</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_5">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Saturated fluorides</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_6">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Other saturated fluorides</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="crumb indent_7">
+                                        <div class="description">
+                                            <a href="/commodities/2903780010/">1,1,1,3,3-pentafluoro<strong>butane</strong> (HFC-365mfc)</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">2903 78 00 10</td>
+                        <td class="govuk-table__cell">
+                            <nav class="breadcrumb">
+                                <ul class="govuk-list">
+
+                                    <!-- Section //-->
+                                    {# <li class="section">
+                    <a href="/sections/6/">Section VI: Products of the chemical or allied industries</a>
+                  </li> #}
+
+                                    <!-- Chapter //-->
+                                    <li class="xcrumb indent_1">
+                                        <div class="description">
+                                            <a href="/chapters/29/">Organic chemicals</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Heading //-->
+                                    <li class="crumb indent_2">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Halogenated derivatives of hydrocarbons</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_3">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Halogenated derivatives of acyclic hydrocarbons containing two or more different halogens</a>
+                                        </div>
+                                    </li>
+
+                                    <!-- Ancestors //-->
+                                    <li class="crumb indent_4">
+                                        <div class="description">
+                                            <a href="/headings/2903/">Other perhalogenated derivatives</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="crumb indent_5">
+                                        <div class="description">
+                                            <a href="/commodities/2903780010/">Octafluoro-1,4-diiodo<strong>butane</strong> (CAS&nbsp;RN&nbsp;375-50-8)</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            {{ govukBackLink({
+        text: "Back",
+        href: "/quotas"
+      }) }}
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

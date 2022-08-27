@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+{% if commodity.data.attributes.goods_nomenclature_item_id | substring(4, 6) == "000000" %}
+    {{ govukBreadcrumbs({
+    items: [
+        {
+            text: "All sections",
+            href: "/sections/" + context.scope_id
+        },
+        {
+            text: "Section " + commodity.section_id | roman,
+            href: "/sections/" + commodity.section_id
+        },
+        {
+        text: "Chapter " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2),
+            href: "/chapters/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2)
+        },
+        {
+        text: "Commodity " + commodity.data.attributes.goods_nomenclature_item_id,
+        href: ""
+        }
+    ]
+}) }}
+{% else %}
+    {{ govukBreadcrumbs({
+    items: [
+        {
+            text: "All sections",
+            href: "/sections/" + context.scope_id
+        },
+        {
+            text: "Section " + commodity.section_id | roman,
+            href: "/sections/" + commodity.section_id
+        },
+        {
+        text: "Chapter " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2),
+            href: "/chapters/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 2)
+        },
+        {
+        text: "Heading " + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 4),
+        href: "/headings/" + commodity.data.attributes.goods_nomenclature_item_id | substring(0, 4)
+        },
+        {
+        html: "<span class='commodity-split'>Commodity " + commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe + "</span>",
+        href: ""
+        }
+    ]
+}) }} 
+{% endif %}
+{% endblock %}
+
+{% block pageTitle %}
+  Commodity code {{ commodity.data.attributes.goods_nomenclature_item_id }}: {{ heading.data.attributes.formatted_description | safe }} - {{ serviceName }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% include "includes/date-picker2.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+
+</html>

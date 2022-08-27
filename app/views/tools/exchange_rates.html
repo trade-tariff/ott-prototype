@@ -1,0 +1,118 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by chemical
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Exchange rates",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+      </span>
+      <h1 class="govuk-heading-l">Exchange rates</h1>
+
+      {{ govukInsetText({
+              text: "Introductory text describing this section"
+            }) }}
+
+      {{ govukSelect({
+  id: "sort",
+  name: "sort",
+  label: {
+    text: "Sort by"
+  },
+  items: [
+    {
+      value: "9",
+      text: "9 - National Document"
+    },
+    {
+      value: "A",
+      text: "A - Certificate of authenticity",
+      selected: true
+    },
+    {
+      value: "C",
+      text: "C - Other certificates"
+    },
+    {
+      value: "D",
+      text: "D - Anti-dumping/countervailing document"
+    },
+    {
+      value: "E",
+      text: "E - Export certificate/licence/document from country of origin"
+    },
+    {
+      value: "H",
+      text: "H - HANDI, LOOMS certificate"
+    },
+    {
+      value: "I",
+      text: "I - Surveillance certificate/licence/ document issued by one of the Member States"
+    },
+    {
+      value: "P",
+      text: "P - UN/EDIFACT certificates"
+    }
+  ]
+}) }}
+
+      {{ govukInput({
+  label: {
+    text: "Certificate code"
+  },
+  classes: "govuk-input--width-10",
+  id: "certificate_code",
+  name: "certificate_code"
+}) }}
+
+      {{ govukInput({
+  label: {
+    text: "Description"
+  },
+  classes: "govuk-input--width-20",
+  id: "description",
+  name: "description"
+}) }}
+
+      {{ govukButton({
+  text: "Search"
+}) }}
+      <!--
+I	Surveillance certificate/licence/ document issued by one of the Member States
+K	Tariff quota
+L	Import certificate/licence/document
+N	UN/EDIFACT certificates
+P	Ingredients
+R	Export refunds
+T	T-Document
+U	Proofs of origin
+X	Export licence
+Y	Particular provisions
+Z	More certificates
+//-->
+    </div>
+  </div>
+
+{% endblock %}
+</html>

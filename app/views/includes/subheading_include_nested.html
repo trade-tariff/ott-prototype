@@ -1,0 +1,48 @@
+{% for item in corpus %}
+    {% if item.leaf == false %}
+        {% if item.sid in heading.subheading_ancestry %}
+            <li class="has_children level-{{ item.number_indents }}">
+                <span class="description open without_right_margin" aria-expanded="true" role="button" id="commodity-{{ item.goods_nomenclature_item_id }}">
+                    {{ item.description | highlight(context.search_term) | safe }}
+                </span>
+                <div class='sub_heading_commodity_code_block pull-right'>
+                    <span class="digits_chapter">{{ item.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                    <span class="digits_heading">{{ item.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                    <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(4, 2) }}</span>
+                    <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(6, 2) }}</span>
+                    <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(8, 2) }}</span>
+                </div>
+                {% set corpus = item.children %}
+                <ul class="govuk-list">
+                    {% include "./subheading_include_nested.html" %}
+                </ul>
+            </li>
+        {% endif %}
+    {% else %}
+        {# {% if item.goods_nomenlature_item_id >= min_code %} #}
+            <li class="level-{{ item.number_indents }}">
+                <a title="View complete information for this commodity" aria-label="Commodity code {{ item.goods_nomenclature_item_id }}, {{ item.description }}" href="/{{ context.scope_id | fwdslash }}commodities/{{ item.goods_nomenclature_item_id }}">
+                    <div class="description open" id="commodity-{{ item.goods_nomenclature_item_id }}">{{ item.description | safe }}</div>
+                    <div class="commodity__info">
+                        <div class="vat" aria-describedby="commodity-vat-title">
+                            {{ item.vat | safe }}
+                        </div>
+                        <div class="duty" aria-describedby="commodity-duty-title">
+                            {{ item.third_country_duty | safe }}
+                        </div>
+                        <div class="supplementary-units" aria-describedby="commodity-supplementary-title">
+                            {{ item.supplementary_unit | safe }}
+                        </div>
+                        <div class="identifier" aria-describedby="commodity-{{ item.goods_nomenclature_item_id }}">
+                            <span class="digits_chapter">{{ item.goods_nomenclature_item_id | substring(0, 2) }}</span>
+                            <span class="digits_heading">{{ item.goods_nomenclature_item_id | substring(2, 2) }}</span>
+                            <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(4, 2) }}</span>
+                            <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(6, 2) }}</span>
+                            <span class="digits_commodity">{{ item.goods_nomenclature_item_id | substring(8, 2) }}</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {# {% endif %} #}
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,357 @@
+{
+    "animal_product_state": {
+        "display_name": "Animal state",
+        "question": "What state is the animal in?",
+        "info": null
+    },
+    "purpose": {
+        "display_name": "Purpose",
+        "question": "What is the purpose of the commodity?",
+        "info": null
+    },
+    "animal_type": {
+        "display_name": "Animal type",
+        "question": "What type of animal?",
+        "info": null
+    },
+    "bone_state": {
+        "display_name": "Bone state",
+        "question": "What's the bone state?",
+        "info": null
+    },
+    "bread_type": {
+        "display_name": "Bread type",
+        "question": "What's the bread type?",
+        "info": null
+    },
+    "brix_value": {
+        "display_name": "Brix value",
+        "question": "What's the Brix value?",
+        "info": null
+    },
+    "cereal_state": {
+        "display_name": "Cereal state",
+        "question": "What's the cereal state?",
+        "info": null
+    },
+    "herb_spice_state": {
+        "display_name": "Herb / spice state",
+        "question": "What is the herb / spice state?",
+        "info": null
+    },
+    "cheese_type": {
+        "display_name": "Cheese type",
+        "question": "What is the cheese type?",
+        "info": null
+    },
+    "cocoa_state": {
+        "display_name": "Cocoa state",
+        "question": "What is the cocoa state?",
+        "info": null
+    },
+    "coffee_state": {
+        "display_name": "Coffe state",
+        "question": "What is the coffe state?",
+        "info": null
+    },
+    "dairy_form": {
+        "display_name": "Dairy form",
+        "question": "What is the dairy form?",
+        "info": null
+    },
+    "egg_purpose": {
+        "display_name": "Egg purpose",
+        "question": "What is the egg purpose?",
+        "info": null
+    },
+    "egg_shell_state": {
+        "display_name": "Egg shell state",
+        "question": "What is the egg shell state?",
+        "info": null
+    },
+    "fat_content": {
+        "display_name": "Fat content",
+        "question": "What is the fat content?",
+        "info": null
+    },
+    "fish_classification": {
+        "display_name": "Fish classification",
+        "question": "What is the fish classification?",
+        "info": null
+    },
+    "fish_preparation": {
+        "display_name": "Fish preparation",
+        "question": "What is the fish preparation?",
+        "info": null
+    },
+    "flour_source": {
+        "display_name": "Flour source",
+        "question": "What is the flour source?",
+        "info": null
+    },
+    "fruit_spirit": {
+        "display_name": "Fruit spirit",
+        "question": "What is the fruit spirit?",
+        "info": null
+    },
+    "fruit_vegetable_state": {
+        "display_name": "Fruit and veg state",
+        "question": "What is the fruit and veg state?",
+        "info": null
+    },
+    "fruit_vegetable_type": {
+        "display_name": "Vegetable type",
+        "question": "What is the vegetable type?",
+        "info": null
+    },
+    "ingredient": {
+        "display_name": "Ingredient",
+        "question": "What is the ingredient?",
+        "info": null
+    },
+    "jam_sugar_content": {
+        "display_name": "Sugar content",
+        "question": "What is the sugar content?",
+        "info": null
+    },
+    "margarine_state": {
+        "display_name": "Margarine state",
+        "question": "What is the margarine state?",
+        "info": null
+    },
+    "milk_preparation": {
+        "display_name": "Milk preparation",
+        "question": "What is the milk preparation?",
+        "info": null
+    },
+    "nut_state": {
+        "display_name": "Nut state",
+        "question": "What is the nut state?",
+        "info": null
+    },
+    "oil_fat_source": {
+        "display_name": "Oil fat source",
+        "question": "What is the oil fat source?",
+        "info": null
+    },
+    "pasta_state": {
+        "display_name": "Pasta state",
+        "question": "What is the pasta state?",
+        "info": null
+    },
+    "plant_state": {
+        "display_name": "Plant state",
+        "question": "What is the plant state?",
+        "info": null
+    },
+    "sheep_type": {
+        "display_name": "Sheep type",
+        "question": "What is the sheep type?",
+        "info": null
+    },
+    "sugar_state": {
+        "display_name": "Sugar state",
+        "question": "What is the sugar state?",
+        "info": null
+    },
+    "yeast_state": {
+        "display_name": "Yeast state",
+        "question": "What is the yeast state?",
+        "info": null
+    },
+    "beverage_type": {
+        "display_name": "Beverage type",
+        "question": "What is the beverage type?",
+        "info": null
+    },
+    "wine_type": {
+        "display_name": "Wine type",
+        "question": "What is the wine type?",
+        "info": null
+    },
+    "alcohol_volume": {
+        "display_name": "Alcohol volume",
+        "question": "What is the alcohol volume?",
+        "info": null
+    },
+    "wine_origin": {
+        "display_name": "Wine origin",
+        "question": "What is the wine origin?",
+        "info": null
+    },
+    "tobacco_type": {
+        "display_name": "Tobacco type",
+        "question": "What is the tobacco type?",
+        "info": null
+    },
+    "clothing_gender": {
+        "display_name": "Clothing gender",
+        "question": "What is the clothing gender?",
+        "info": "clothing_gender"
+    },
+    "garment_type": {
+        "display_name": "Garment type",
+        "question": "What is the garment type?",
+        "info": null
+    },
+    "garment_material": {
+        "display_name": "Garment material",
+        "question": "What is the garment material?",
+        "info": null
+    },
+    "computer_type": {
+        "display_name": "Computer type",
+        "question": "What is the computer type?",
+        "info": null
+    },
+    "metal_usage": {
+        "display_name": "Metal usage",
+        "question": "What is the metal usage?",
+        "info": null
+    },
+    "metal_type": {
+        "display_name": "Metal",
+        "question": "What is the metal?",
+        "info": null
+    },
+    "glass_form": {
+        "display_name": "Glass form",
+        "question": "What is the glass form?",
+        "info": null
+    },
+    "glass_purpose": {
+        "display_name": "Glass purpose",
+        "question": "What is the glass purpose?",
+        "info": null
+    },
+    "precious_stone": {
+        "display_name": "Stone",
+        "question": "What is the stone?",
+        "info": null
+    },
+    "cable_type": {
+        "display_name": "Cable type",
+        "question": "What is the cable type?",
+        "info": null
+    },
+    "cable_material": {
+        "display_name": "Cable material",
+        "question": "What is the cable material?",
+        "info": null
+    },
+    "material": {
+        "display_name": "Material",
+        "question": "What is the material?",
+        "info": null
+    },
+    "clothing_fabrication": {
+        "display_name": "Clothing fabrication",
+        "question": "What is the clothing fabrication?",
+        "info": null
+    },
+    "jewellery_type": {
+        "display_name": "Type of jewellery",
+        "question": "What is the type of jewellery?",
+        "info": null
+    },
+    "pump_type": {
+        "display_name": "Pump type",
+        "question": "What is the pump type?",
+        "info": null
+    },
+    "art_form": {
+        "display_name": "Art form",
+        "question": "What is the art form?",
+        "info": null
+    },
+    "weight": {
+        "display_name": "Weight",
+        "question": "What is the weight?",
+        "info": null
+    },
+    "bovine_age_gender": {
+        "display_name": "Age / gender",
+        "question": "What is the age / gender?",
+        "info": null
+    },
+    "length": {
+        "display_name": "Length",
+        "question": "What is the length?",
+        "info": null
+    },
+    "mounting": {
+        "display_name": "Mounting",
+        "question": "What is the mounting?",
+        "info": null
+    },
+    "product_age": {
+        "display_name": "Age",
+        "question": "What is the age?",
+        "info": null
+    },
+    "height": {
+        "display_name": "Height",
+        "question": "What is the height?",
+        "info": null
+    },
+    "new_used": {
+        "display_name": "Condition",
+        "question": "What is the condition?",
+        "info": null
+    },
+    "car_type": {
+        "display_name": "Car type",
+        "question": "What is the car type?",
+        "info": null
+    },
+    "car_capacity": {
+        "display_name": "Car capacity",
+        "question": "What is the car capacity?",
+        "info": null
+    },
+    "battery_charge": {
+        "display_name": "Battery charge",
+        "question": "What is the battery charge?",
+        "info": null
+    },
+    "battery_type": {
+        "display_name": "Battery type",
+        "question": "What is the battery type?",
+        "info": null
+    },
+    "battery_grade": {
+        "display_name": "Battery grade",
+        "question": "What is the battery grade?",
+        "info": null
+    },
+    "entity": {
+        "display_name": "Product category",
+        "question": "To which category does this product belong?",
+        "info": null
+    },
+    "monitor_type": {
+        "display_name": "Monitor type",
+        "question": "What is the monitor type?",
+        "info": null
+    },
+    "monitor_connectivity": {
+        "display_name": "Monitor connectivity",
+        "question": "What is the monitor connectivity?",
+        "info": null
+    },
+    "electricity_type": {
+        "display_name": "Electricity type",
+        "question": "What is the electricity type?",
+        "info": null
+    },
+    "electrical_output": {
+        "display_name": "Electrical output",
+        "question": "What is the electrical output?",
+        "info": null
+    },
+    "vacuum_type": {
+        "display_name": "Type",
+        "question": "What is the type?",
+        "info": null
+    }
+}

@@ -1,0 +1,18 @@
+<!-- Javascript -->
+{% for scriptUrl in extensionConfig.scripts %}
+  <script src="{{scriptUrl}}"></script>
+{% endfor %}
+
+<script src="/public/javascripts/application.js"></script>
+<script src="/public/javascripts/Dialog.js"></script>
+<script src="/public/javascripts/step-by-step-nav.js"></script>
+<script type="text/javascript">
+  var $element = $('#step-by-step-navigation')
+  var stepByStepNavigation = new GOVUK
+    .Modules
+    .AppStepNav()
+  stepByStepNavigation.start($element)
+</script>
+{% if useAutoStoreData %}
+  <script src="/public/javascripts/auto-store-data.js"></script>
+{% endif %}

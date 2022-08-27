@@ -1,0 +1,92 @@
+.app-c-header-notice {
+    margin-bottom: 50px;
+    font-family  : "GDS Transport", arial, sans-serif;
+
+}
+
+.app-c-header-notice__header {
+    background-color: #0b0c0c;
+    padding         : 20px
+}
+
+.app-c-header-notice__title {
+    color : #fff;
+    margin: 0
+}
+
+.app-c-header-notice__content {
+    border-left  : 5px solid #0b0c0c;
+    border-right : 5px solid #0b0c0c;
+    border-bottom: 5px solid #0b0c0c;
+    padding      : 20px
+}
+
+.app-c-header-notice__text {
+    margin-bottom: 10px
+}
+
+.app-c-header-notice__links {
+    margin-bottom: 10px
+}
+
+.app-c-header-notice__list {
+    margin-top   : -5px;
+    margin-bottom: 0
+}
+
+.app-c-header-notice__link-intro {
+    margin-bottom: 10px
+}
+
+.app-c-header-notice__link {
+    font-weight: bold
+}
+
+.app-c-header-notice__content .app-c-header-notice__text:last-child {
+    margin-bottom: 0
+}
+
+.app-c-important-metadata {
+    background: #1d70b8;
+    color     : #fff;
+    padding   : 15px
+}
+
+@media (min-width: 40.0625em) {
+    .app-c-important-metadata {
+        overflow: auto;
+        padding : 20px 30px
+    }
+}
+
+.app-c-important-metadata--bottom-margin {
+    margin-bottom: 15px
+}
+
+@media (min-width: 40.0625em) {
+    .app-c-important-metadata--bottom-margin {
+        margin-bottom: 50px
+    }
+}
+
+.app-c-important-metadata__title {
+    font-weight  : bold;
+    margin-bottom: 5px
+}
+
+.app-c-important-metadata__term {
+    float        : left;
+    padding-right: 5px
+}
+
+.app-c-important-metadata__definition {
+    font-weight: bold
+}
+
+.app-c-important-metadata__definition .app-link {
+    color: #fff
+}
+
+.app-c-important-metadata__definition .app-link:focus {
+    color: #0b0c0c
+}

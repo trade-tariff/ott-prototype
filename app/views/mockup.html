@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Page mockup
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Latest news",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    {% set include_file = "mockups/" + context.include_file + ".html" %}
+    {% include include_file %}
+
+{% endblock %}
+</html>

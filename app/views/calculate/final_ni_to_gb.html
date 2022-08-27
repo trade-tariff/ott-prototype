@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">There is no import duty to pay</h1>
+      
+      
+      <p>There are no import duties applicable to the movement of goods from Northern Ireland to England, Scotland or Wales.</p>
+      <p>Find out more about
+      <a target="_blank" href="https://www.gov.uk/guidance/trading-and-moving-goods-in-and-out-of-northern-ireland">trading and moving goods
+      in and out of Northern Ireland (opens in new window)</a>.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

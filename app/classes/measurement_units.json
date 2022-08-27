@@ -1,0 +1,240 @@
+[
+	{
+		"measurement_unit_code" : "ASV",
+		"abbreviation" : "%vol",
+		"description" : "%vol"
+	},
+	{
+		"measurement_unit_code" : "CCT",
+		"abbreviation" : "carrying capacity in metric tonnes",
+		"description" : "carrying capacity in metric tonnes"
+	},
+	{
+		"measurement_unit_code" : "CEN",
+		"abbreviation" : "hundred items",
+		"description" : "hundred items"
+	},
+	{
+		"measurement_unit_code" : "CTM",
+		"abbreviation" : "carats (one metric carat = 2 x 10$-<sup>4<\/sup>kg)",
+		"description" : "carats (one metric carat = 2 x 10$-<sup>4<\/sup>kg)"
+	},
+	{
+		"measurement_unit_code" : "DAP",
+		"abbreviation" : "decatonnes, corrected according to polarisation",
+		"description" : "decatonnes, corrected according to polarisation"
+	},
+	{
+		"measurement_unit_code" : "DHS",
+		"abbreviation" : "kilograms of dihydrostreptomycin",
+		"description" : "kilograms of dihydrostreptomycin"
+	},
+	{
+		"measurement_unit_code" : "DTN",
+		"description" : "hectokilograms (100kg)",
+		"abbreviation" : "100kg",
+		"warning": "Please ensure you use the correct unit",
+		"unit_to_use": "kilograms",
+		"multiplier": 0.01
+	},
+	{
+		"measurement_unit_code" : "EUR",
+		"abbreviation" : "Euros (used for statistical surveillance)",
+		"description" : "Euros (used for statistical surveillance)"
+	},
+	{
+		"measurement_unit_code" : "FC1",
+		"abbreviation" : "factors",
+		"description" : "factors"
+	},
+	{
+		"measurement_unit_code" : "GFI",
+		"abbreviation" : "grams of fissile isotopes",
+		"description" : "grams of fissile isotopes"
+	},
+	{
+		"measurement_unit_code" : "GP1",
+		"abbreviation" : "gross production",
+		"description" : "gross production"
+	},
+	{
+		"measurement_unit_code" : "GRM",
+		"abbreviation" : "grams",
+		"description" : "grams"
+	},
+	{
+		"measurement_unit_code" : "GRT",
+		"abbreviation" : "gross tonnage",
+		"description" : "gross tonnage"
+	},
+	{
+		"measurement_unit_code" : "HLT",
+		"abbreviation" : "hectolitres (100 litres)",
+		"description" : "hectolitres (100 litres)"
+	},
+	{
+		"measurement_unit_code" : "HMT",
+		"abbreviation" : "hectometres (110 metres)",
+		"description" : "hectometres (110 metres)"
+	},
+	{
+		"measurement_unit_code" : "KAC",
+		"abbreviation" : "kilograms net of acesulfame potassium",
+		"description" : "kilograms net of acesulfame potassium"
+	},
+	{
+		"measurement_unit_code" : "KCC",
+		"abbreviation" : "Kilograms of choline chloride",
+		"description" : "Kilograms of choline chloride"
+	},
+	{
+		"measurement_unit_code" : "KCL",
+		"abbreviation" : "tonnes of potassium chloride",
+		"description" : "tonnes of potassium chloride"
+	},
+	{
+		"measurement_unit_code" : "KGM",
+		"abbreviation" : "kgs",
+		"description" : "kilograms"
+	},
+	{
+		"measurement_unit_code" : "KGM P",
+		"abbreviation" : "kg/lactic matter",
+		"description" : "kilograms of lactic matter"
+	},
+	{
+		"measurement_unit_code" : "KLT",
+		"abbreviation" : "1000 litres",
+		"description" : "1000 litres"
+	},
+	{
+		"measurement_unit_code" : "KMA",
+		"abbreviation" : "kilograms of methylamines",
+		"description" : "kilograms of methylamines"
+	},
+	{
+		"measurement_unit_code" : "KMT",
+		"abbreviation" : "kilometres",
+		"description" : "kilometres"
+	},
+	{
+		"measurement_unit_code" : "KNI",
+		"abbreviation" : "kilograms of nitrogen",
+		"description" : "kilograms of nitrogen"
+	},
+	{
+		"measurement_unit_code" : "KNS",
+		"abbreviation" : "kilograms of hydrogen peroxide",
+		"description" : "kilograms of hydrogen peroxide"
+	},
+	{
+		"measurement_unit_code" : "KPH",
+		"abbreviation" : "kilograms of potassium hydroxide (caustic potash)",
+		"description" : "kilograms of potassium hydroxide (caustic potash)"
+	},
+	{
+		"measurement_unit_code" : "KPO",
+		"abbreviation" : "kilograms of potassium oxide",
+		"description" : "kilograms of potassium oxide"
+	},
+	{
+		"measurement_unit_code" : "KPP",
+		"abbreviation" : "kilograms of diphosphorus pentaoxide",
+		"description" : "kilograms of diphosphorus pentaoxide"
+	},
+	{
+		"measurement_unit_code" : "KSD",
+		"abbreviation" : "kilograms of substance 90 % dry",
+		"description" : "kilograms of substance 90 % dry"
+	},
+	{
+		"measurement_unit_code" : "KSH",
+		"abbreviation" : "kilograms of sodium hydroxide (caustic soda)",
+		"description" : "kilograms of sodium hydroxide (caustic soda)"
+	},
+	{
+		"measurement_unit_code" : "KUR",
+		"abbreviation" : "kilograms of uranium",
+		"description" : "kilograms of uranium"
+	},
+	{
+		"measurement_unit_code" : "KW1",
+		"abbreviation" : "kilowatt hours",
+		"description" : "kilowatt hours"
+	},
+	{
+		"measurement_unit_code" : "LPA",
+		"abbreviation" : "litre pure (100%) alcohol",
+		"description" : "litre pure (100%) alcohol"
+	},
+	{
+		"measurement_unit_code" : "LTR",
+		"abbreviation" : "litres",
+		"description" : "litres"
+	},
+	{
+		"measurement_unit_code" : "MIL",
+		"abbreviation" : "1000 items",
+		"description" : "1000 items"
+	},
+	{
+		"measurement_unit_code" : "MPR",
+		"abbreviation" : "1000 pairs (used for statistical surveillance)",
+		"description" : "1000 pairs (used for statistical surveillance)"
+	},
+	{
+		"measurement_unit_code" : "MTK",
+		"abbreviation" : "Square metre",
+		"description" : "Square metre"
+	},
+	{
+		"measurement_unit_code" : "MTQ",
+		"abbreviation" : "Cubic meter",
+		"description" : "Cubic meter"
+	},
+	{
+		"measurement_unit_code" : "MTR",
+		"abbreviation" : "metre",
+		"description" : "metre"
+	},
+	{
+		"measurement_unit_code" : "MWH",
+		"abbreviation" : "1000 kilowatt hours",
+		"description" : "1000 kilowatt hours"
+	},
+	{
+		"measurement_unit_code" : "NAR",
+		"abbreviation" : "items",
+		"description" : "number of items"
+	},
+	{
+		"measurement_unit_code" : "NCL",
+		"abbreviation" : "number of cells",
+		"description" : "number of cells"
+	},
+	{
+		"measurement_unit_code" : "NPR",
+		"abbreviation" : "numbers of pairs",
+		"description" : "numbers of pairs"
+	},
+	{
+		"measurement_unit_code" : "RET",
+		"abbreviation" : "Retail Price",
+		"description" : "Retail Price"
+	},
+	{
+		"measurement_unit_code" : "TJO",
+		"abbreviation" : "Terajoule (gross calorific value)",
+		"description" : "Terajoule (gross calorific value)"
+	},
+	{
+		"measurement_unit_code" : "TNE",
+		"abbreviation" : "tonnes",
+		"description" : "tonnes"
+	},
+	{
+		"measurement_unit_code" : "WAT",
+		"abbreviation" : "numbers of Watt",
+		"description" : "numbers of Watt"
+	}
+]

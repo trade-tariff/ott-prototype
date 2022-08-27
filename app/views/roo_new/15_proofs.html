@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Proofs of origin and verification - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: context.back_link
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row" id="top">
+        <div class="govuk-grid-column-two-thirds roo_container">
+            <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span>
+            <h1 class="govuk-heading-xl">Valid proofs of origin</h1>
+            <p class="govuk-body">
+                    To benefit from a preferential tariff or quota, originating products should be accompanied by
+                    an appropriate proof confirming their origin.</p>
+
+            {% if context.proofs | length > 0 %}
+                <h2 class="govuk-heading-m">Proof of origin - overview</h1>
+                {% if context.proofs | length > 1 %}
+                    <p class="govuk-body">There are {{ context.proofs | length }} ways to provide proof of origin. Click on an option
+                        to see an overview of that proof.
+                    </p>
+                {% else %}
+                    <p class="govuk-body">
+                        Read an overview of the required proof of origin on gov.uk.
+                    </p>
+                {% endif %}
+
+                <ul class="govuk-list xgovuk-list--bullet">
+                    {% for proof in context.proofs %}
+                        <li>
+                            <a target="_blank" href="{{ proof.attributes.url }}">{{ proof.attributes.summary }} (opens in new tab)</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            <h2 class="govuk-heading-m">Next steps</h1>
+            
+            <ul class="govuk-list xgovuk-list--bullet">
+                <li>
+                    <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                        Detailed processes for gaining proof of origin</a>
+                </li>
+                <li>
+                    <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                        Verification of proof of origin</a>
+                </li>
+            </ul>
+
+        </div>
+        {# <div class="govuk-grid-column-one-third">
+            <aside class="app-related-items" role="complementary">
+                <h2 class="govuk-heading-m" id="subsection-title">Related content</h2>
+                <nav role="navigation" aria-labelledby="subsection-title">
+                    <ul class="govuk-list govuk-!-font-size-16">
+                        {% for link in context.links %}
+                            <li>
+                                <a href="{{ link.attributes.url }}">{{ link.attributes.text }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <h2 class="govuk-heading-m" id="subsection-title">Rules of origin in the TCA</h2>
+                    <ul class="govuk-list govuk-!-font-size-16">
+                        {% for explainer in context.explainers %}
+                            <li>
+                                <a href="/roo/document/{{ context.goods_nomenclature_item_id }}/{{ context.country }}/{{ explainer.file | remove_extension }}/{{ explainer.title }}">{{ explainer.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                </nav>
+            </aside>
+        </div> #}
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

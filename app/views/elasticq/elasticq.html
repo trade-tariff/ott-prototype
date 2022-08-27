@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+    items: [
+        {
+        text: "Home",
+        href: "/sections/"
+        },
+        {
+        text: "Search results",
+        href: ""
+        }
+    ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  ** Search Prototype ** Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {# {% include "includes/scope_switcher_panel.html" %} #}
+            </span>
+            <h1 class="govuk-heading-l">
+                Search results for '{{ context.search_term }}'
+            </h1>
+        </div>
+    </div>
+
+    {% set record_count = hits | length %}
+    {% if record_count == 0 %}
+        {% include "elasticq/zero_results.html" %}
+    {% else %}
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-quarter">
+                {% if hits | length > 0 %}
+                    {% include "elasticq/filters.html" %}
+                {% endif %}
+                {% if guide %}
+                    <div class="guide_aside">
+                        <div>
+                            <span class="govuk-caption-m">Classification guide</span>
+                            <h2 class="govuk-heading-m">{{ guide.title }}</h2>
+                            <p class="govuk-body-s">{{ guide.strapline }}</p>
+                            <p class="govuk-body-s">
+                                <a href="{{ guide.url }}" target="_blank">
+                                    View classification guide for {{ guide.title | lowerFirst }} (opens in new tab)
+                                </a>
+                            </p>
+                            <div>
+                                <img src="/public/images/guides/{{ guide.image }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% include "search/elastic_history_link.html" %}
+            </div>
+            <div class="govuk-grid-column-three-quarters">
+                {% if guides | length > 0 %}
+                    {% for guide in guides %}
+                        <div class="guide xgovuk-visually-hidden">
+                            <div>
+                                <img src="/public/images/guides/{{ guide.image }}" alt="">
+                            </div>
+                            <div>
+                                <span class="govuk-caption-m">Classification guide</span>
+                                <h2 class="govuk-heading-m">{{ guide.title }}</h2>
+                                <p class="govuk-body-s">{{ guide.strapline }}</p>
+                                <p class="govuk-body-s">
+                                    <a href="{{ guide.url }}" target="_blank">
+                                    View classification guide for {{ guide.title | lowerFirst }} (opens in new tab)
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+                <!--
+                {% if record_count == 1 %}
+                    <p>Showing top {{ hit_count }} result for <strong>{{ context.search_term }}</strong>
+                    </p>
+                {% else %}
+                    <p>Showing top {{ hit_count }} results for <strong>{{ context.search_term }}</strong>
+                    </p>
+                {% endif %}
+                //-->
+
+                {% if hits | length > 0 %}
+                    {% if profile == "headings" %}
+                        {% include "elasticq/elasticq_headings.html" %}
+                    {% else %}
+                        {% include "elasticq/elasticq_commodities.html" %}
+                    {% endif %}
+                {% endif %}
+
+                <div class="bottom_switcher">
+                    {% include "includes/scope_switcher_panel.html" %}
+                </div>
+            </div>
+        </div>
+
+    {% endif %}
+
+{% endblock %}

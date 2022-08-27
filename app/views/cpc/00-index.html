@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Submitting your declaration",
+            href: ""
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Online Trade Tariff</span>
+      <h1 class="govuk-heading-l">Find the right procedure code for your trade</h1>
+      <ol class="app-task-list">
+        <li>
+          <h2 class="app-task-list__section">
+            <span class="app-task-list__section-number">1. </span> Procedure code
+          </h2>
+          <ul class="app-task-list__items">
+            {# <li class="app-task-list__item">
+              <span class="app-task-list__task-name">
+                <a href="/cpc/request-category" aria-describedby="eligibility-status">
+                  Choose declaration category for request code
+                </a>
+              </span>
+              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="eligibility-status">Not started</strong>
+            </li> #}
+            <li class="app-task-list__item">
+              <span class="app-task-list__task-name">
+                <a href="/cpc/request-code" aria-describedby="eligibility-status">
+                  Choose request code
+                </a>
+              </span>
+              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="read-declaration-status">Not started</strong>
+            </li>
+            <li class="app-task-list__item">
+              <span class="app-task-list__task-name">
+                {# <a href="/cpc/request-code" aria-describedby="eligibility-status"> #}
+                  Choose previous code
+                {# </a> #}
+              </span>
+              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="read-declaration-status">Not started</strong>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 class="app-task-list__section">
+            <span class="app-task-list__section-number">2. </span> Additional procedure code
+          </h2>
+          <ul class="app-task-list__items">
+            <li class="app-task-list__item">
+              <span class="app-task-list__task-name">
+                {# <a href="/cpc/declaration-category" aria-describedby="eligibility-status"> #}
+                  TBC
+                {# </a> #}
+              </span>
+              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="eligibility-status">Not started</strong>
+            </li>
+            <li class="app-task-list__item">
+              <span class="app-task-list__task-name">
+                {# <a href="#" aria-describedby="read-declaration-status"> #}
+                  TBC
+                {# </a> #}
+              </span>
+              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="read-declaration-status">Not started</strong>
+            </li>
+          </ul>
+        </li>
+
+
+      </ol>
+
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+{% endblock %}
+</html>

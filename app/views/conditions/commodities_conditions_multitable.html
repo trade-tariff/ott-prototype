@@ -1,0 +1,88 @@
+{% include "conditions/how_to_read.html" %}
+{% set last_condition_code = "" %}
+{% set block_count = 1 %}
+{% set conditions_codes = {} %}
+
+{# <h1>Exposed conditions</h1>
+{% for ec in measure.exposed_conditions %}
+    {% if ec.condition_code in conditions_codes %}
+        Found {{ ec.condition_code }}
+    {% else %}
+        Not found {{ ec.condition_code }}
+    {% endif %}
+{% endfor %}
+
+<h1>Tally</h1>
+{% for cc in measure.condition_code_tally %}
+    {{ cc.condition_code }}{{ cc.condition_count }}
+{% endfor %} #}
+
+{% for mc in measure.exposed_conditions %}
+    {% if last_condition_code != mc.condition_code %}
+        {% if last_condition_code != "" %}
+            {% set block_count = block_count + 1 %}
+        </table>
+    {% endif %}
+    <h3 class="govuk-heading-s">{{ block_count }}. {{ mc.condition }}</h3>
+    
+    {# {{ mc.condition_code }} {{ measure.condition_code_tally[mc.condition_code] }} #}
+    {% if measure.condition_code_tally[mc.condition_code] == 1 %}
+        <p>{{ mc.condition_subtext_single | safe }}</p>
+    {% else %}
+        <p>{{ mc.condition_subtext_multiple | safe }}</p>
+    {% endif %}
+
+    <table class="govuk-table govuk-table--m">
+        <thead class="govuk-table__head">
+            {% if mc.measure_condition_class == "eps" %}
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header min50">Import price</th>
+                    <th scope="col" class="govuk-table__header min50">Apply duty</th>
+                </tr>
+            {% elif mc.measure_condition_class == "duty_influencing" %}
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header min15">Document code</th>
+                    <th scope="col" class="govuk-table__header min70">Requirement</th>
+                    <th scope="col" class="govuk-table__header min15">Action</th>
+                </tr>
+            {% else %}
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header min20">Document code</th>
+                    <th scope="col" class="govuk-table__header min80">Requirement</th>
+                </tr>
+            {% endif %}
+        </thead>
+        <tbody class="govuk-table__body--m">
+        {% endif %}
+
+        {% if mc.measure_condition_class == "eps" %}
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell">Greater than or equal to {{ mc.requirement | safe }}</td>
+                <td class="govuk-table__cell">{{ mc.duty_expression | safe }}</td>
+            </tr>
+        {% elif mc.measure_condition_class == "duty_influencing" %}
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell">{{ mc.document_code | safe }}</td>
+                <td class="govuk-table__cell">
+                    {{ mc.requirement | safe }}
+                    {% include "conditions/conditions_no_shared_5a5b.html" %}
+                </td>
+                <td class="govuk-table__cell">
+                    {{ mc.action }}
+                    <br>
+                    {{ mc.duty_expression | safe }}
+                </td>
+            </tr>
+        {% else %}
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell">{{ mc.document_code | safe }}</td>
+                <td class="govuk-table__cell">
+                    {{ mc.requirement | safe }}
+                    {% include "conditions/conditions_no_shared_5a5b.html" %}
+                </td>
+            </tr>
+        {% endif %}
+
+        {% set last_condition_code = mc.condition_code %}
+    {% endfor %}
+</table>

@@ -1,0 +1,139 @@
+// Tested in:
+//  - Edge 18 on Windows 10
+//  - Edge 17 on Windows 10
+//  - Firefox 66 on Windows 10
+//  - Firefox 65 on Windows 10
+//  - Chrome 73 on Windows 10
+//  - Chrome 72 on Windows 10
+//  - IE 11 on Windows 10
+//  - IE 10 on Windows 7
+//  - IE 9 on Windows 7 - not compatible, so turned off
+//  - IE 8 on Windows XP - not compatible, so turned off
+//  - IE 7 on Windows XP - not compatible, so turned off
+
+//  - Safari 12 on Max OS X Mojave
+//  - Firefox 66 on Mac OS X Mojave
+//  - Firefox 65 on Mac OS X Mojave
+//  - Chrome 73 on Mac OS X Mojave
+//  - Chrome 72 on Mac OS X Mojave
+
+//  - Safari on iOS 7
+//  - Safari on iOS 8
+//  - Safari on iOS 9
+//  - Safari on iOS 10
+//  - Safari on iOS 11
+//  - Safari on iOS 12
+
+//  - Chrome on Android 8
+//  - Chrome on Android 9
+//  - Samsung Internet on Android 7
+//  - Samsung Internet on Android 8
+
+.app-flexible-table {
+    margin-bottom: 0;
+
+    a {
+        &[href^="http"] {
+            &::after {
+                // content: " (external link)";
+                content: "";
+            }
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+// .app-flexible-table__header {
+//     font-size: 0.9em;
+// }
+
+@media screen and (min-width: 800px) {
+    // .app-flexible-table__row {
+    //     &:nth-child(even) {
+    //         th,
+    //         td {color:red}
+    //     }
+    // }
+
+    .app-flexible-table__cell,
+    .app-flexible-table__header {
+        &:last-child {
+            padding-right: 0.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .app-flexible-table__head {
+        display: none;
+    }
+
+    .app-flexible-table__body {
+        display: block;
+    }
+
+    .app-flexible-table__row {
+        display: block;
+        margin : 0 0 1em 0;
+        border : 1px solid govuk-colour("mid-grey", $legacy: "grey-2");
+    }
+
+    .app-flexible-table__header {
+        background: govuk-colour("light-grey", $legacy: "grey-4");
+        display   : block;
+    }
+
+    .app-flexible-table__cell,
+    .app-flexible-table__header {
+        &:last-child {
+            padding-right: 0.5em;
+        }
+    }
+
+    .app-flexible-table__cell {
+        border         : 0;
+        display        : flex;
+        justify-content: flex-start;
+        padding        : 0.5em;
+        position       : relative;
+
+        &::before {
+            box-sizing    : border-box;
+            content       : attr(data-column-heading);
+            width         : 25%;
+            font-weight   : bold;
+            display       : inline-block;
+            min-width     : 25%;
+            padding-right : 0.5em;
+            vertical-align: middle;
+        }
+
+        &:nth-child(odd) {
+            background: govuk-colour("light-grey", $legacy: "grey-4");
+        }
+
+        &:empty {
+            display: none;
+        }
+
+        a {
+            min-width: 25%;
+        }
+
+        p,
+        div {
+            box-sizing    : border-box;
+            display       : inline-block;
+            padding       : 0;
+            width         : 67%;
+            vertical-align: middle;
+
+            &:empty {
+                display: none;
+            }
+        }
+    }
+}

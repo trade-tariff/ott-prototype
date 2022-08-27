@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/commodities/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.scope_id
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% if (error == "date") %}
+                {{ govukErrorSummary({
+                titleText: "There is a problem",
+                errorList: [
+                    {
+                    text: "Enter a valid future date",
+                    href: "#import_date"
+                    }
+                ]
+                }) }}
+            {% endif %}
+            <form action="/duty-calculator/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+                <span class="govuk-caption-xl">Rules of origin</span>
+
+                {{ govukRadios({
+                idPrefix: "originate",
+                name: "originate",
+                fieldset: {
+                    legend: {
+                    text: "Are your goods wholly obtained in Japan?",
+                    isPageHeading: true,
+                    classes: "govuk-fieldset__legend--xl"
+                    }
+                },
+                hint: {
+                    text: "This rule concerns mainly basic agricultural products, fishery products, minerals, or waste and scrap.
+                    For example, to be considered as “wholly obtained” animals need to be born and raised in the EU
+                    or a partner country of a trade arrangement; products from animals (e.g. milk) need to come from
+                    animals raised there; plants need to be grown there."
+                },
+                items: [
+                    {
+                        value: "yes",
+                        text: "Yes",
+                        xhint: {
+                            text: "You’ll have a user ID if you’ve registered for Self Assessment or filed a tax return online before."
+                        }
+                    },
+                    {
+                        value: "no",
+                        text: "No",
+                        xhint: {
+                            text: "You’ll have an account if you’ve already proved your identity with either Barclays, CitizenSafe, Digidentity, Experian, Post Office, Royal Mail or SecureIdentity."
+                        }
+                    }
+                ]
+                }) }}
+
+                {# Display the Continue button #}
+                {{ govukButton({
+                    text: "Continue",
+                    href: "/roo/date/2/JP"
+                }) }}
+
+                {{ govukDetails({
+                    summaryText: "What is classed as wholly obtained?",
+                    text: country.text | safe
+                }) }}
+                {# <h2 class="govuk-heading-m">What is classed as wholly obtained?</h2>
+                <p>Lorem ipsum</p>
+                <ol class="govuk-list govuk-list--spaced govuk-list--alpha">
+                    <li>a <strong>plant or plant product</strong>, grown, cultivated, harvested, picked or gathered there;</li>
+                    <li>a <strong>live animal</strong> born and raised there;</li>
+                    <li>a <strong>product obtained from a live animal</strong> raised there;</li>
+                    <li>a <strong>product obtained from a slaughtered animal</strong> born and raised there;</li>
+                    <li>an animal obtained by <strong>hunting, trapping, fishing, gathering or capturing</strong> there;</li>
+                    <li>a product obtained from <strong>aquaculture</strong> there;</li>
+                    <li>a <strong>mineral or other naturally occurring substance</strong>, not included in subparagraphs (a) to (f), extracted or taken there;</li>
+                    <li><strong>fish, shellfish or other marine life taken by a Party's vessel</strong> from the sea, seabed or subsoil beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;</li>
+                    <li>a product produced exclusively from products referred to in subparagraph (h) on board a Party's factory ship beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;</li>
+                    <li>a product other than fish, shellfish and other marine life taken by a Party or a person of a Party from the seabed or subsoil beyond the territorial sea of each Party, and beyond areas over which third countries exercise jurisdiction provided that that Party or a person of that Party has the right to exploit that seabed or subsoil in accordance with international law;</li>
+                    <li>a product that is:
+                        <ol class="govuk-list govuk-list--spaced govuk-list--roman">
+                            <li><strong>waste or scrap</strong> derived from production there; or</li>
+                            <li><strong>waste or scrap</strong> derived from used products collected there, provided that those products are fit only for the recovery of raw materials; or</li>
+                        </ol></li>
+                    <li>(l) a product produced there, exclusively from products referred to in subparagraphs (a) to (k) or from their derivatives.</li>
+                </ol> #}
+
+            </form>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./step-by-step-aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

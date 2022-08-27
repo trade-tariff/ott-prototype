@@ -1,0 +1,178 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter monetary value
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+
+  {{ govukBackLink({
+  text: "Back",
+  xhref: "/duty-calculator/origin/" + commodity.data.attributes.goods_nomenclature_item_id,
+  href: context.back_url
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}">
+
+        {# Get error messages #}
+        {% if (error == "monetary_value") %}
+          {% set error_message_mv = {
+            text: "Enter a valid monetary value"
+          } %}
+          {% set error_class_mv = "govuk-input--error" %}
+          {% set error_message_cu = {
+            text: "Enter a valid currency"
+          } %}
+          {% set error_class_cu = "govuk-input--error" %}
+        {% else %}
+          {% set error_message_mv = null %}
+          {% set error_class_mv = "" %}
+          {% set error_message_cu = null %}
+          {% set error_class_cu = "" %}
+        {% endif %}
+
+        <span class="govuk-caption-xl">Calculate import duties</span>
+        <h1 class="govuk-heading-xl">What is the customs value of this import?</h1>
+        <span class="govuk-hint"><!--The import duty charged for this commodity code is
+                dependent on the customs value of the goods being imported.
+                <br><br>
+                Duties are typically levied against the
+                full cost of the goods plus the shipping and insurance costs.
+                
+                If you are calculating the import value using FOB (Free on board) rather than CIF (Cost, Insurance and Freight),
+                then please leave the 'cost of shipping' and 'cost of insurance' fields empty.<br><br>
+                Read more about the <a href='https://www.gov.uk/government/publications/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics'>
+                valuation of imported goods for customs purposes, VAT and trade statistics</a>.//-->
+
+
+                The amount of duty you may have to pay will depend on the customs value of your goods.
+                The rules for arriving at the customs value are based on the
+                World Trade Organisation (WTO) Valuation Agreement.
+                <br><br>
+                <!--You can read more about the methods and how to calculate the customs value of your
+                goods here:
+                <a href='https://www.gov.uk/government/publications/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics'>Notice 252: valuation of imported goods for customs purposes, VAT and trade statistics</a>//-->
+
+                <a href="https://www.gov.uk/government/publications/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics">How to calculate the customs value of your goods</a>.<br><br>
+
+                </span>
+
+        {{ govukInput({
+            label: {
+                text: "What is the value in GBP of the goods being imported?",
+                classes: "govuk-label--s " + error_class_mv,
+                isPageHeading: false
+            },
+            classes: "govuk-input--width-10",
+            errorMessage: error_message_mv,
+            id: "monetary_value",
+            name: "monetary_value",
+            value: "",
+            prefix: {
+                html: "&pound;"
+            }
+          }) }}
+
+        {{ govukInput({
+            label: {
+                text: "Optionally, what is the shipping cost?",
+                classes: "govuk-label--s",
+                isPageHeading: false
+            },
+            classes: "govuk-input--width-10",
+            id: "shipping_cost",
+            name: "shipping_cost",
+            hint: {
+              html: "Only costs up to the place of introduction of the imported goods into the UK border need to be included."
+            },
+            value: "",
+            prefix: {
+                html: "&pound;"
+            }
+          }) }}
+
+        {{ govukInput({
+            label: {
+                text: "Optionally, what is the cost of insuring the goods?",
+                classes: "govuk-label--s",
+                isPageHeading: false
+            },
+            classes: "govuk-input--width-10",
+            id: "insurance_cost",
+            name: "insurance_cost",
+            hint: {
+              html: "Only insurance costs up to the place of introduction of the imported goods into the UK border need to be included."
+            },
+            value: "",
+            prefix: {
+                html: "&pound;"
+            }
+          }) }}
+
+        {# {{ govukRadios({
+            idPrefix: "currency",
+            name: "currency",
+            fieldset: {
+                legend: {
+                text: "In which currency are you specifying the value of these goods?",
+                isPageHeading: true,
+                classes: "govuk-fieldset__legend--s"
+                }
+            },
+            errorMessage: error_message_cu,
+            items: [
+                {
+                value: "sterling",
+                text: "Pound Sterling (GBP)"
+                },
+                {
+                value: "euros",
+                text: "Euros (EUR)",
+                checked: true
+                }
+            ]
+            }) }} #}
+
+        {{ govukButton({
+            text: "Continue"
+            }) }}
+        {# {{ govukContextualFooter({
+        caption: "Useful links",
+        captionClasses: "govuk-caption-l",
+        links:
+        [
+          {text: "Working out the value of your imports", href: "https://www.gov.uk/guidance/how-to-value-your-imports-for-customs-duty-and-trade-statistics"}
+        ]
+      }) }} #}
+      </form>
+            {% include "../includes/commodity_panel.html" %}
+      <div class="gem-c-contextual-footer">
+        <div class="gem-c-related-navigation">
+          <nav role="navigation" class="gem-c-related-navigation__nav-section">
+            <h2 id="related-nav-topics-c7e51674" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer">Explore the topic</h2>
+            <ul class="gem-c-related-navigation__link-list">
+
+              <li class="gem-c-related-navigation__link">
+                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer" href="https://www.gov.uk/government/publications/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics/notice-252-valuation-of-imported-goods-for-customs-purposes-vat-and-trade-statistics">Valuation of imported goods for customs purposes, VAT and trade statistics</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

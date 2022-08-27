@@ -1,0 +1,265 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Product-specific rules - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: context.back_link
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds roo_container commodity-split">
+
+            {% if context.show_subdivision_selector %}
+                <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+                <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                    <input type="hidden" name="phase" id="phase" value="select_subdivision" >
+                    <div class="govuk-form-group">
+                        <fieldset class="govuk-fieldset">
+                            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+                                <h1 class="govuk-fieldset__heading">Provide more information about your product</h1>
+                            </legend>
+                            <div class="govuk-hint commodity-split">
+                                The rules of origin for commodity {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }} depend on the type of product that you are trading.
+                            </div>
+                            <div class="govuk-radios" data-module="govuk-radios">
+                                {% set index = 0 %}
+                                {# {{ context.subdivisions | dump }} #}
+                                {% for subdivision in context.subdivisions %}
+                                    <div class="govuk-radios__item">
+                                        <input class="govuk-radios__input" id="subdivision_{{ index }}" name="subdivision" type="radio" value="{{ subdivision }}">
+                                        <label class="govuk-label govuk-radios__label" for="subdivision_{{ index }}">{{ subdivision }}</label>
+                                    </div>
+                                    {% set index = index + 1 %}
+                                {% endfor %}
+
+                            </div>
+
+                        </fieldset>
+                    </div>
+                    <button class="govuk-button" data-module="govuk-button">Continue</button>
+                </form>
+
+            {% else %}
+                <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                    <input type="hidden" name="phase" id="phase" value="product_specific_rules">
+                    <div class="govuk-form-group">
+                        <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+                            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+                                <h1 class="govuk-fieldset__heading">
+                                Do your goods meet the product-specific rules?
+                            </h1>
+                            </legend>
+                            {% if context.rules.length > 1 %}
+                                <div class="govuk-hint">
+                                    Your goods must meet one of these product-specific rules in order to qualify for originating status.
+                                    Select an option to identify if you meet the rule.
+                                </div>
+                            {% else %}
+                                <div class="govuk-hint">
+                                    Your goods must meet the product-specific rules in order to qualify for originating status.
+                                    Select an option to identify if you meet the rule.
+                                </div>
+                            {% endif %}
+                            <div class="govuk-radios" data-module="govuk-radios">
+                                {% for rule in context.rules %}
+                                    <div class="govuk-radios__item">
+                                        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
+                                        <label class="govuk-label govuk-radios__label" for="sign-in">{{ rule.rule }}</label>
+                                        <div id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+                                            {{ rule.hint | safe }}
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                                {% if context.rules.length > 2 %}
+                                    {# <div class="govuk-radios__divider">or</div> #}
+                                    <div class="govuk-radios__item">
+                                        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="-1">
+                                        <label class="govuk-label govuk-radios__label" for="sign-in">None of these rules</label>
+                                    </div>
+                                {% elseif context.rules.length > 1 %}
+                                    {# <div class="govuk-radios__divider">or</div> #}
+                                    <div class="govuk-radios__item">
+                                        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="-1">
+                                        <label class="govuk-label govuk-radios__label" for="sign-in">Neither of these rules</label>
+                                    </div>
+                                {% else %}
+                                    <div class="govuk-radios__item">
+                                        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="-1">
+                                        <label class="govuk-label govuk-radios__label" for="sign-in">The rule is not met</label>
+                                    </div>
+                                {% endif %}
+
+                            </div>
+
+                        </fieldset>
+                    </div>
+                    <button class="govuk-button" data-module="govuk-button">Continue</button>
+                </form>
+
+                {% if 1 > 2 %}
+                    <form action="/roo/data_handler/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                        <input type="hidden" name="phase" id="phase" value="product_specific_rules" >
+
+                        <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+                        <h1 class="govuk-heading-xl">Do your goods meet the product-specific rules?</h1>
+
+                        <p class="govuk-body-l">
+                            If your product contains non-originating materials, then you need to demonstrate that those materials 
+                            have been <strong>sufficiently worked or processed</strong> to count as originating.
+                        </p>
+
+                        <p class="govuk-body">
+                            The Rules of Origin section of each preferential trade arrangement contains a list
+                            which establishes, for each product, the required processing operations to be carried out
+                            in the partner country in order for the product to be considered as originating.
+                        </p>
+
+                        {% if context.sufficiently_worked != "" and context.sufficiently_worked != null %}
+                            <ul class="govuk-list govuk-list--bullet commodity-split">
+                                <li>First, read the general rules that define '<a href="#sufficient">sufficient working or processing</a>' in the {{ context.scheme_title }}.</li>
+                                <li>
+                                    Then, read the <a href="#psr">product-specific rules</a> for trading commodity
+                                    {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }}
+                                    with {{ context.country_name }}.
+                                </li>
+                            </ul>
+
+                            <h2 class="govuk-heading-m" id="sufficient">'Sufficient working or processing' in the {{ context.scheme_title }}</p>
+                            <div class="agreement_content">{{ context.sufficiently_worked | convert_markdown | safe }}</div>
+                        {% endif %}
+
+                        <h2 class="govuk-heading-m" id="psr">Product-specific rules for {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }}</h2>
+                        <p>
+                            Read the introductory notes and rules below to understand if your goods meet
+                            the requirements for sufficient working or processing.
+                            {% if context.product_specific_rules | length > 1 %}
+                            You only need to meet one of the rules for your goods 
+                            to qualify.
+                            {% endif %}
+                        </p>
+
+                        {% if context.intro_text != "" %}
+                            <details class="govuk-details" data-module="govuk-details">
+                                <summary class="govuk-details__summary">
+                                    <span class="govuk-details__summary-text">Introductory notes to the product-specific rules</span>
+                                </summary>
+                                <div class="govuk-details__text">
+                                    {{ context.intro_text | safe }}
+                                </div>
+                            </details>
+                        {% endif %}
+
+                        <table class="govuk-table">
+                            {% if context.product_specific_rules | length > 1 %}
+                                <caption class="govuk-table__caption govuk-table__caption--m normal_weight">
+                                    Choose the category that your product belongs to, then read the rule of origin 
+                                    to see if your product meets the necessary criteria.
+                                </caption>
+                            {% endif %}
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header" style="width:20%">Heading</th>
+                                    <th scope="col" class="govuk-table__header" style="width:30%">Description</th>
+                                    <th scope="col" class="govuk-table__header" style="width:50%">Rule of origin / production process</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                {% for psr in context.product_specific_rules %}
+                                    <tr class="govuk-table__row">
+                                        <td class="govuk-table__cell">
+                                            {{ psr.attributes.heading | format_psr | safe }}
+                                        </td>
+                                        <td class="govuk-table__cell">
+                                            {{ psr.attributes.description | format_psr | safe }}
+                                        </td>
+                                        <td class="govuk-table__cell">{{ psr.attributes.rule | format_psr(true) | safe }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+
+                        {% if context.terms | length > 0 %}
+                            <h3 class="govuk-heading-s">Explanations of key terms</h3>
+                            {% if "WO" in context.terms %}
+                                {{ context.definitions["WO"] | safe }}
+                            {% endif %}
+                            {% if "CC" in context.terms %}
+                                {{ context.definitions["CC"] | safe }}
+                            {% endif %}
+                            {% if "CTH" in context.terms %}
+                                {{ context.definitions["CTH"] | safe }}
+                            {% endif %}
+                            {% if "CTSH" in context.terms %}
+                                {{ context.definitions["CTSH"] | safe }}
+                            {% endif %}
+                            {% if "MaxNOM" in context.terms %}
+                                {{ context.definitions["MaxNOM"] | safe }}
+                            {% endif %}
+                            {% if "RVC" in context.terms %}
+                                {{ context.definitions["RVC"] | safe }}
+                            {% endif %}
+                            {% if "EXW" in context.terms %}
+                                {{ context.definitions["EXW"] | safe }}
+                            {% endif %}
+                        {% endif %}
+
+                        {{ govukRadios({
+                            idPrefix: "met_product_specific_rules",
+                            name: "met_product_specific_rules",
+                            fieldset: {
+                                legend: {
+                                text: "Have your goods been worked or processed sufficiently to gain 'originating' status?",
+                                isPageHeading: false,
+                                classes: "govuk-fieldset__legend--l"
+                                }
+                            },
+                            hint: {
+                                html: "Base your answer on the product-specific rules, bearing in mind any cumulation rules that are featured in the " + context.scheme_title + "."
+                            },
+                            items: [
+                                {
+                                    value: "yes",
+                                    text: "Yes",
+                                    hint: {
+                                        text: ""
+                                    }
+                                },
+                                {
+                                    value: "no",
+                                    text: "No",
+                                    hint: {
+                                        text: ""
+                                    }
+                                }
+                            ]
+                            }) }}
+
+                        {{ govukButton({
+                            text: "Continue",
+                            href: ""
+                        }) }}
+
+                    </form>
+                {% endif %}
+            {% endif %}
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

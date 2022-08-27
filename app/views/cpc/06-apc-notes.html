@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Submitting your declaration",
+            href: "/cpc"
+            },
+            {
+            text: "Declaration category",
+            href: ""
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Submitting your declaration</span>
+      <h1 class="govuk-heading-l">When to use additional procedure code {{ controller.apc }}</h1>
+
+      <div class="govuk-inset-text">
+        {{ controller.apc_description }}
+      </div>
+
+      <h2 class="govuk-heading-m">Notes</h2>
+      {{ controller.apc_notes | safe }}
+
+      {{ govukButton({
+        text: "Continue",
+        href: "/cpc/previous-code-apcs"
+      }) }}
+
+      {{ govukButton({
+        text: "Back",
+        classes: "govuk-button--secondary govuk-!-margin-left-2",
+        href: "/cpc/request-code"
+      }) }}
+
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+{% endblock %}
+</html>

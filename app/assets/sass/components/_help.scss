@@ -1,0 +1,13 @@
+.panel-grey {
+    background-color: #f6f6f6;
+    padding         : 1em;
+}
+
+@media (max-width: 900px) and (min-width: 640px) {
+    .full-tabs {
+        .govuk-tabs__list-item {
+            font-size: 14px;
+            padding  : 10px 10px;
+        }
+    }
+}

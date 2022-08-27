@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Rules of origin - {{ country.title | safe }}
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections"
+    },
+    {
+      text: "Tools",
+      href: "/tools"
+    },
+    {
+      text: "Rules of origin",
+      href: "/roo"
+    },
+    {
+      text: country.title,
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Rules of origin</span>
+      <h1 class="govuk-heading-l">{{ country.title | safe }}</h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      {% include "./step-by-step.html" %}
+
+
+
+
+      {# <h2 class="govuk-heading-m">About the {{ country.title | safe }}</h2> #}
+      {# {{ country.content | safe }} #}
+
+      {% if commodity | length %}
+
+      {{ govukTable({
+        caption: "Your chosen commodity",
+        captionClasses: "govuk-table__caption--m",
+        firstCellIsHeader: false,
+        rows: [
+          [
+            {
+              text: "Commodity code"
+            },
+            {
+              text: commodity.goods_nomenclature_item_id
+            }
+          ],
+          [
+            {
+              text: "Description"
+            },
+            {
+              text: commodity.description
+            }
+          ]
+        ]
+      }) }}
+
+      <p>In order to qualify for the lower or zero preferential tariff under the {{ country.title | safe }},
+      the product classified as {{ commodity.goods_nomenclature_item_id }} must originate in the UK or Japan.</p>
+      <p>This tool can be used by importers, exporters and producers to assess whether this product
+      fulfils the rules of origin and can therefore be considered as originating.</p>
+      {{ govukButton({
+        text: "Check rules of origin",
+        xhref: "/roo/originate/" + commodity.goods_nomenclature_item_id + "/" + country.key,
+        href: "/roo/originate/4501100000/" + country.key
+      }) }}
+      
+      
+      
+      {% else %}
+      <p>&nbsp;</p>
+      {% endif %}
+
+    </div>
+    <div class="govuk-grid-column-one-third">
+    {% include "./related-items.html" %}
+      {# <aside class="app-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">Related content</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-list-s">
+            {% for link in country.links %}
+              <li>
+                <a href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% endfor %}
+
+          </ul>
+        </nav>
+      </aside> #}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

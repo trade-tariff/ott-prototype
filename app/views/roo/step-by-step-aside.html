@@ -1,0 +1,158 @@
+{# <style>
+    .js-step-controls-button,
+    .js-toggle-link {
+        display: none !important;
+    }
+</style> #}
+<div class="app-step-nav-related app-step-nav-related--singular">
+    <h2 class="app-step-nav-related__heading">
+        <span class="app-step-nav-related__pretitle">Part of</span>
+        <a href="#">
+          Find rules of origin
+        </a>
+    </h2>
+</div>
+
+<div id="step-by-step-navigation" data-module="gemstepnav" class="app-step-nav  app-step-nav--active" data-id="e01e924b-9c7c-4c71-8241-66a575c2f61f" data-show-text="show" data-hide-text="hide" data-show-all-text="Show all" data-hide-all-text="Hide all">
+    {# <div class="app-step-nav__controls">
+        <button aria-expanded="false" class="app-step-nav__button app-step-nav__button--controls js-step-controls-button" aria-controls="step-panel-check-youre-allowed-to-drive-1">Show all</button>
+    </div> #}
+    <ol class="app-step-nav__steps">
+        <li class="app-step-nav__step js-step step-is-shown" aria-current="step" data-show="" id="check-youre-allowed-to-drive">
+            <div class="app-step-nav__header js-toggle-panel" data-position="1">
+                <h3 class="app-step-nav__title">
+                    <span class="app-step-nav__circle app-step-nav__circle--number">
+                        <span class="app-step-nav__circle-inner">
+                            <span class="app-step-nav__circle-background">
+                                <span class="app-step-nav__circle-step-label govuk-visually-hidden">Step</span> 1
+                    <span class="app-step-nav__circle-step-colon govuk-visually-hidden" aria-hidden="true">:</span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span class="js-step-title">
+                        <button class="app-step-nav__button app-step-nav__button--title js-step-title-button" aria-expanded="true" aria-controls="step-panel-check-youre-allowed-to-drive-1">
+                            <span class="js-step-title-text">Find out about the {{ country.title }}</span>
+                            <span class="app-step-nav__toggle-link js-toggle-link" aria-hidden="true" hidden="">hide</span>
+                        </button>
+                    </span>
+                </h3>
+            </div>
+
+            <div class="app-step-nav__panel js-panel" id="step-panel-check-youre-allowed-to-drive-1">
+                <ol class="app-step-nav__list " data-length="3">
+
+                    {% for link in country.links %}
+                        <li class="app-step-nav__list-item js-list-item ">
+                            <a data-position="1.{{ index }}" href="{{ link.url }}">{{ link.text }}</a>
+                        </li>
+                        {% set index = index + 1 %}
+                    {% endfor %}
+                </ol>
+            </div>
+        </li>
+        <li class="app-step-nav__step js-step app-step-nav__step--active" id="get-a-provisional-licence">
+            <div class="app-step-nav__header js-toggle-panel" data-position="2">
+                <h3 class="app-step-nav__title">
+                    <span class="app-step-nav__circle app-step-nav__circle--number">
+                        <span class="app-step-nav__circle-inner">
+                            <span class="app-step-nav__circle-background">
+                                <span class="app-step-nav__circle-step-label govuk-visually-hidden">Step</span> 2
+                    <span class="app-step-nav__circle-step-colon govuk-visually-hidden" aria-hidden="true">:</span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span class="js-step-title">
+                        <button class="app-step-nav__button app-step-nav__button--title js-step-title-button" aria-expanded="false" aria-controls="step-panel-get-a-provisional-licence-2">
+                            <span class="js-step-title-text">Find rules of origin for your commodity</span>
+                            <span class="app-step-nav__toggle-link js-toggle-link" aria-hidden="true" hidden="">show</span></button>
+                    </span>
+                </h3>
+            </div>
+
+            <div class="app-step-nav__panel js-panel " id="step-panel-get-a-provisional-licence-2">
+                <ol class="app-step-nav__list " data-length="1">
+                    <li class="app-step-nav__list-item js-list-item ">
+                        <a data-position="2.1" class="app-step-nav__link js-link app-step-nav__list-item--active" href="#">Find rules of origin for your commodity</a>
+                    </li>
+                </ol>
+
+            </div>
+
+        </li>
+        <li class="app-step-nav__step js-step" id="driving-lessons-and-practice">
+            <div class="app-step-nav__header js-toggle-panel" data-position="3">
+                <h3 class="app-step-nav__title">
+                    <span class="app-step-nav__circle app-step-nav__circle--number">
+                        <span class="app-step-nav__circle-inner">
+                            <span class="app-step-nav__circle-background">
+                                <span class="app-step-nav__circle-step-label govuk-visually-hidden">Step</span> 3
+                    <span class="app-step-nav__circle-step-colon govuk-visually-hidden" aria-hidden="true">:</span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span class="js-step-title">
+                        <button class="app-step-nav__button app-step-nav__button--title js-step-title-button" aria-expanded="false" aria-controls="step-panel-driving-lessons-and-practice-3">
+                            <span class="js-step-title-text">Get proof of origin</span>
+                            <span class="app-step-nav__toggle-link js-toggle-link" aria-hidden="true" hidden="">show</span></button>
+                    </span>
+                </h3>
+            </div>
+
+            <div class="app-step-nav__panel js-panel " id="step-panel-driving-lessons-and-practice-3">
+                <p class="app-step-nav__paragraph">If you’re using a preference from a preference agreement or the Generalised Scheme of Preferences, you will need to prove the origin of your goods.</p>
+
+                <ol class="app-step-nav__list " data-length="4">
+                    <li class="app-step-nav__list-item js-list-item ">
+                        <a data-position="3.1" class="app-step-nav__link js-link" href="https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods">Get proof of origin for your goods</a>
+                    </li>
+                </ol>
+
+            </div>
+
+        </li>
+
+
+        <li class="app-step-nav__step js-step" id="book-and-manage-your-driving-test">
+            <div class="app-step-nav__header js-toggle-panel" data-position="4">
+                <h3 class="app-step-nav__title">
+                    <span class="app-step-nav__circle app-step-nav__circle--number">
+                        <span class="app-step-nav__circle-inner">
+                            <span class="app-step-nav__circle-background">
+                                <span class="app-step-nav__circle-step-label govuk-visually-hidden">Step</span> 4
+                    <span class="app-step-nav__circle-step-colon govuk-visually-hidden" aria-hidden="true">:</span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span class="js-step-title">
+                        <button class="app-step-nav__button app-step-nav__button--title js-step-title-button" aria-expanded="false" aria-controls="step-panel-book-and-manage-your-driving-test-6">
+                            <span class="js-step-title-text">Include the right information on your import or export declaration</span>
+                            <span class="app-step-nav__toggle-link js-toggle-link" aria-hidden="true" hidden="">show</span></button>
+                    </span>
+                </h3>
+            </div>
+
+            <div class="app-step-nav__panel js-panel " id="step-panel-book-and-manage-your-driving-test-6">
+                <p class="app-step-nav__paragraph">Find out how to complete a declaration if you’re using the:</p>
+
+                <ol class="app-step-nav__list " data-length="5">
+                    <li class="app-step-nav__list-item js-list-item ">
+                        <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-chief" class="govuk-link">Customs Handling of Import and Export Freight (CHIEF) system</a>
+                    </li>
+                    <li class="app-step-nav__list-item js-list-item ">
+                        <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-cds--2" class="govuk-link">Customs Declaration Service</a>
+                    </li>
+                </ol>
+            </div>
+        </li>
+    </ol>
+</div>
+<script src="/public/javascripts/step-by-step-nav.js"></script>
+<script type="text/javascript">
+    var $element = $('#step-by-step-navigation')
+    var stepByStepNavigation = new GOVUK.Modules.AppStepNav()
+    stepByStepNavigation.start($element)
+</script>

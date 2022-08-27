@@ -1,0 +1,36 @@
+// Steps
+
+.steps {
+    margin-left : 0px;
+    padding-left: 0px;
+    list-style  : none;
+
+    li {
+        padding-left          : 2em;
+        background-repeat     : no-repeat;
+        background-position   : 0px 0.1em;
+        background-size       : 1.4em 1.4em;
+        // min-height         : 1.5em;
+        padding-bottom        : 1em;
+    }
+
+    li:last-child {
+        padding-bottom: 0px;
+    }
+}
+
+.steps>li:nth-child(1) {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 250' preserveAspectRatio='xMinYMin meet'%3E%3Cg%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' class='circle-back'%3E%3C/circle%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.3em' font-family='nta,arial,sans-serif' font-size='8rem' fill='%23ffffff'%3E1%3C/text%3E%3C/g%3E%3C/svg%3E ");
+}
+
+.steps>li:nth-child(2) {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 250' preserveAspectRatio='xMinYMin meet'%3E%3Cg%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' class='circle-back'%3E%3C/circle%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.3em' font-family='nta,arial,sans-serif' font-size='8rem' fill='%23ffffff'%3E2%3C/text%3E%3C/g%3E%3C/svg%3E ");
+}
+
+.steps>li:nth-child(3) {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 250' preserveAspectRatio='xMinYMin meet'%3E%3Cg%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' class='circle-back'%3E%3C/circle%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.3em' font-family='nta,arial,sans-serif' font-size='8rem' fill='%23ffffff'%3E3%3C/text%3E%3C/g%3E%3C/svg%3E ");
+}
+
+.steps>li:nth-child(4) {
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 250' preserveAspectRatio='xMinYMin meet'%3E%3Cg%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' class='circle-back'%3E%3C/circle%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.3em' font-family='nta,arial,sans-serif' font-size='8rem' fill='%23ffffff'%3E4%3C/text%3E%3C/g%3E%3C/svg%3E ");
+}

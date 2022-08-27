@@ -1,0 +1,10 @@
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+    About this commodity code
+    </span>
+  </summary>
+  <div class="govuk-details__text commodity-split">
+    Commodity code <strong>{{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }}</strong><br>Description goes here<br><br><a class="govuk-link" href="https://www.trade-tariff.service.gov.uk/commodities/{{ context.goods_nomenclature_item_id }}">View commodity {{ context.goods_nomenclature_item_id }}</a>
+  </div>
+</details>

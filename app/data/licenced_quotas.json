@@ -1,0 +1,502 @@
+[
+	{
+		"ordernumber" : "054324",
+		"countries" : "Albania",
+		"commodities" : "1701000000, 1702000000"
+	},
+	{
+		"ordernumber" : "054450",
+		"countries" : "Argentina",
+		"commodities" : "0201300031, 0201300039, 0206109511, 0206109515"
+	},
+	{
+		"ordernumber" : "054001",
+		"countries" : "Australia",
+		"commodities" : "0202309047, 0202309048"
+	},
+	{
+		"ordernumber" : "054129",
+		"countries" : "Australia",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054150",
+		"countries" : "Australia",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054451",
+		"countries" : "Australia",
+		"commodities" : "0201209011, 0201209015, 0201300031, 0201300039, 0202209011, 0202209015, 0202301011, 0202301015, 0202305011, 0202305015, 0202309011, 0202309015, 0206109511, 0206109515, 0206299111, 0206299115, 0206299121, 0206299129"
+	},
+	{
+		"ordernumber" : "054515",
+		"countries" : "Australia",
+		"commodities" : "0406900100"
+	},
+	{
+		"ordernumber" : "054211",
+		"countries" : "Brazil",
+		"commodities" : "0210993910"
+	},
+	{
+		"ordernumber" : "054214",
+		"countries" : "Brazil",
+		"commodities" : "1602321900"
+	},
+	{
+		"ordernumber" : "054217",
+		"countries" : "Brazil",
+		"commodities" : "1602310000"
+	},
+	{
+		"ordernumber" : "054251",
+		"countries" : "Brazil",
+		"commodities" : "1602321100"
+	},
+	{
+		"ordernumber" : "054252",
+		"countries" : "Brazil",
+		"commodities" : "1602323000"
+	},
+	{
+		"ordernumber" : "054253",
+		"countries" : "Brazil",
+		"commodities" : "1602329000"
+	},
+	{
+		"ordernumber" : "054318",
+		"countries" : "Brazil",
+		"commodities" : "1701131000, 1701141000"
+	},
+	{
+		"ordernumber" : "054410",
+		"countries" : "Brazil",
+		"commodities" : "0207141000, 0207145000, 0207147000"
+	},
+	{
+		"ordernumber" : "054420",
+		"countries" : "Brazil",
+		"commodities" : "0207271000, 0207272000, 0207278000"
+	},
+	{
+		"ordernumber" : "054453",
+		"countries" : "Brazil",
+		"commodities" : "0201300031, 0201300039, 0202309011, 0202309015, 0206109511, 0206109515, 0206299111, 0206299115, 0206299121, 0206299129"
+	},
+	{
+		"ordernumber" : "054124",
+		"countries" : "Canada",
+		"commodities" : "1001990040, 1001990050, 1001990060, 1001990092"
+	},
+	{
+		"ordernumber" : "054204",
+		"countries" : "Canada",
+		"commodities" : "0203121100, 0203121900, 0203191100, 0203191300, 0203191500, 0203195500, 0203195900, 0203221100, 0203221900, 0203291100, 0203291300, 0203291500, 0203295500, 0203295900"
+	},
+	{
+		"ordernumber" : "054513",
+		"countries" : "Canada",
+		"commodities" : "0406902110, 0406902120, 0406902190"
+	},
+	{
+		"ordernumber" : "054002",
+		"countries" : "Canada, United States",
+		"commodities" : "0201100021, 0201100029, 0201202021, 0201202029, 0201203021, 0201203029, 0201205021, 0201205029, 0201209011, 0201209015, 0201300031, 0201300039, 0202100011, 0202100015, 0202201011, 0202201015, 0202203011, 0202203015, 0202205011, 0202205015, 0202209011, 0202209015, 0202301011, 0202301015, 0202305011, 0202305015, 0202309011, 0202309015, 0206109511, 0206109515, 0206299111, 0206299115, 0206299121, 0206299129"
+	},
+	{
+		"ordernumber" : "054181",
+		"countries" : "Chile",
+		"commodities" : "0201200000, 0201300000, 0202200000, 0202300000"
+	},
+	{
+		"ordernumber" : "054105",
+		"countries" : "China",
+		"commodities" : "0703200000"
+	},
+	{
+		"ordernumber" : "054003",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0202100000, 0202201000, 0202203011, 0202203015, 0202203081, 0202203082, 0202203083, 0202203084, 0202203085, 0202203086, 0202203087, 0202203088, 0202205000, 0202209000, 0202301011, 0202301015, 0202301081, 0202301082, 0202301083, 0202301084, 0202301085, 0202301086, 0202301087, 0202301088, 0202305011, 0202305015, 0202305081, 0202305082, 0202305083, 0202305084, 0202305085, 0202305086, 0202305087, 0202305088, 0202309011, 0202309015, 0202309041, 0202309042, 0202309043, 0202309044, 0202309045, 0202309046, 0202309047, 0202309048, 0202309070, 0202309075, 0202309080, 0202309090, 0206299111, 0206299115, 0206299121, 0206299129, 0206299133, 0206299135, 0206299137, 0206299138, 0206299141, 0206299142, 0206299144, 0206299145, 0206299151, 0206299159, 0206299161, 0206299169, 0206299171, 0206299179, 0206299191, 0206299199"
+	},
+	{
+		"ordernumber" : "054038",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0203195515, 0203195525, 0203195530, 0203295520, 0203295530, 0203295592"
+	},
+	{
+		"ordernumber" : "054067",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0207111000, 0207113000, 0207119000, 0207121000, 0207129000"
+	},
+	{
+		"ordernumber" : "054068",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0207131000, 0207132000, 0207133000, 0207134000, 0207135000, 0207136000, 0207137000, 0207142000, 0207143000, 0207144000, 0207146000"
+	},
+	{
+		"ordernumber" : "054069",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0207141000"
+	},
+	{
+		"ordernumber" : "054106",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0703200000"
+	},
+	{
+		"ordernumber" : "054119",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054125",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1001990040, 1001990050, 1001990060, 1001990092"
+	},
+	{
+		"ordernumber" : "054130",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054131",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1005109000, 1005900000"
+	},
+	{
+		"ordernumber" : "054148",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006200000"
+	},
+	{
+		"ordernumber" : "054154",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054166",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054168",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054213",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0210993910"
+	},
+	{
+		"ordernumber" : "054216",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602321900"
+	},
+	{
+		"ordernumber" : "054218",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602310000"
+	},
+	{
+		"ordernumber" : "054260",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602323000"
+	},
+	{
+		"ordernumber" : "054263",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602392900"
+	},
+	{
+		"ordernumber" : "054264",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602398510"
+	},
+	{
+		"ordernumber" : "054265",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602398590"
+	},
+	{
+		"ordernumber" : "054266",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602392900"
+	},
+	{
+		"ordernumber" : "054267",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602398500"
+	},
+	{
+		"ordernumber" : "054268",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602321900"
+	},
+	{
+		"ordernumber" : "054269",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602392900"
+	},
+	{
+		"ordernumber" : "054283",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1602398500"
+	},
+	{
+		"ordernumber" : "054320",
+		"countries" : "ERGA OMNES",
+		"commodities" : "1701131000, 1701141000"
+	},
+	{
+		"ordernumber" : "054412",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0207141000, 0207145000, 0207147000"
+	},
+	{
+		"ordernumber" : "054422",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0207271000, 0207272000, 0207278000"
+	},
+	{
+		"ordernumber" : "054595",
+		"countries" : "ERGA OMNES",
+		"commodities" : "0406902100"
+	},
+	{
+		"ordernumber" : "054152",
+		"countries" : "Guyana",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054117",
+		"countries" : "India",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054321",
+		"countries" : "India",
+		"commodities" : "1701000000"
+	},
+	{
+		"ordernumber" : "054092",
+		"countries" : "Israel",
+		"commodities" : "0207271000, 0207273000, 0207274000, 0207275000, 0207276000, 0207277000"
+	},
+	{
+		"ordernumber" : "054195",
+		"countries" : "New Zealand",
+		"commodities" : "0405101120, 0405101920, 0405103020"
+	},
+	{
+		"ordernumber" : "054317",
+		"countries" : "New Zealand",
+		"commodities" : "1701131000, 1701141000"
+	},
+	{
+		"ordernumber" : "054454",
+		"countries" : "New Zealand",
+		"commodities" : "0201209011, 0201209015, 0201300031, 0201300039, 0202209011, 0202209015, 0202301011, 0202301015, 0202305011, 0202305015, 0202309011, 0202309015, 0206109511, 0206109515, 0206299111, 0206299115, 0206299121, 0206299129"
+	},
+	{
+		"ordernumber" : "054514",
+		"countries" : "New Zealand",
+		"commodities" : "0406902120"
+	},
+	{
+		"ordernumber" : "054118",
+		"countries" : "Pakistan",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054198",
+		"countries" : "Serbia",
+		"commodities" : "0102295110, 0102295911, 0102295921, 0102295931, 0102295991, 0102299110, 0102299921, 0102299991, 0201100092, 0201100094, 0201202092, 0201202094, 0201203092, 0201203094, 0201205092, 0201205094"
+	},
+	{
+		"ordernumber" : "054326",
+		"countries" : "Serbia",
+		"commodities" : "1701000000, 1702000000"
+	},
+	{
+		"ordernumber" : "054155",
+		"countries" : "Switzerland",
+		"commodities" : "0401401010, 0401409010, 0401501110, 0401501910, 0401503110, 0401503910, 0401509110, 0401509910, 0403100000"
+	},
+	{
+		"ordernumber" : "054202",
+		"countries" : "Switzerland",
+		"commodities" : "0210209011, 0210209015"
+	},
+	{
+		"ordernumber" : "054112",
+		"countries" : "Thailand",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054128",
+		"countries" : "Thailand",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054149",
+		"countries" : "Thailand",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054212",
+		"countries" : "Thailand",
+		"commodities" : "0210993910"
+	},
+	{
+		"ordernumber" : "054215",
+		"countries" : "Thailand",
+		"commodities" : "1602321900"
+	},
+	{
+		"ordernumber" : "054254",
+		"countries" : "Thailand",
+		"commodities" : "1602323000"
+	},
+	{
+		"ordernumber" : "054255",
+		"countries" : "Thailand",
+		"commodities" : "1602329000"
+	},
+	{
+		"ordernumber" : "054256",
+		"countries" : "Thailand",
+		"commodities" : "1602392900"
+	},
+	{
+		"ordernumber" : "054258",
+		"countries" : "Thailand",
+		"commodities" : "1602398510"
+	},
+	{
+		"ordernumber" : "054259",
+		"countries" : "Thailand",
+		"commodities" : "1602398590"
+	},
+	{
+		"ordernumber" : "054411",
+		"countries" : "Thailand",
+		"commodities" : "0207141000, 0207145000, 0207147000"
+	},
+	{
+		"ordernumber" : "054032",
+		"countries" : "Tunisia",
+		"commodities" : "1509100000"
+	},
+	{
+		"ordernumber" : "054270",
+		"countries" : "Ukraine",
+		"commodities" : "0201000000, 0202000000"
+	},
+	{
+		"ordernumber" : "054271",
+		"countries" : "Ukraine",
+		"commodities" : "0203111000, 0203121100, 0203121900, 0203191100, 0203191300, 0203191500, 0203195500, 0203195900, 0203211000, 0203221100, 0203221900, 0203291100, 0203291300, 0203291500, 0203295500, 0203295900"
+	},
+	{
+		"ordernumber" : "054272",
+		"countries" : "Ukraine",
+		"commodities" : "0203111000, 0203121900, 0203191100, 0203191500, 0203195900, 0203211000, 0203221900, 0203291100, 0203291500, 0203295900"
+	},
+	{
+		"ordernumber" : "054273",
+		"countries" : "Ukraine",
+		"commodities" : "0207113000, 0207119000, 0207120000, 0207131000, 0207132000, 0207133000, 0207135000, 0207136000, 0207137000, 0207139900, 0207141000, 0207142000, 0207143000, 0207145000, 0207146000, 0207147000, 0207149900, 0207240000, 0207250000, 0207261000, 0207262000, 0207263000, 0207265000, 0207266000, 0207267000, 0207268000, 0207269900, 0207271000, 0207272000, 0207273000, 0207275000, 0207276000, 0207277000, 0207278000, 0207279900, 0207413000, 0207418000, 0207420000, 0207441000, 0207442100, 0207443100, 0207444100, 0207445100, 0207446100, 0207447100, 0207448100, 0207449900, 0207451000, 0207452100, 0207453100, 0207454100, 0207455100, 0207456100, 0207458100, 0207459900, 0207510000, 0207529000, 0207541000, 0207542100, 0207543100, 0207544100, 0207545100, 0207546100, 0207547100, 0207548100, 0207549900, 0207551000, 0207552100, 0207553100, 0207554100, 0207555100, 0207556100, 0207558100, 0207559900, 0207600500, 0207601000, 0207602110, 0207603100, 0207604100, 0207605100, 0207606100, 0207608100, 0207609900, 0210993910, 1602310000, 1602320000, 1602392100"
+	},
+	{
+		"ordernumber" : "054274",
+		"countries" : "Ukraine",
+		"commodities" : "0207120000"
+	},
+	{
+		"ordernumber" : "054275",
+		"countries" : "Ukraine",
+		"commodities" : "0407210000, 0407291000, 0407901000, 0408118000, 0408198100, 0408198900, 0408918000, 0408998000, 3502119000, 3502199000, 3502209100, 3502209900"
+	},
+	{
+		"ordernumber" : "054276",
+		"countries" : "Ukraine",
+		"commodities" : "0407210000, 0407291000, 0407901000"
+	},
+	{
+		"ordernumber" : "054306",
+		"countries" : "Ukraine",
+		"commodities" : "1001990000, 1101001500, 1101009000, 1102909000, 1103119000, 1103206000"
+	},
+	{
+		"ordernumber" : "054307",
+		"countries" : "Ukraine",
+		"commodities" : "1003900000, 1102901000, 1103202590"
+	},
+	{
+		"ordernumber" : "054308",
+		"countries" : "Ukraine",
+		"commodities" : "1005900000, 1102200000, 1103130000, 1103204000, 1104230000"
+	},
+	{
+		"ordernumber" : "054600",
+		"countries" : "Ukraine",
+		"commodities" : "0401000000, 0402910000, 0402990000, 0403101100, 0403101300, 0403101900, 0403103100, 0403103300, 0403103900, 0403905100, 0403905300, 0403905900, 0403906100, 0403906300, 0403906900"
+	},
+	{
+		"ordernumber" : "054601",
+		"countries" : "Ukraine",
+		"commodities" : "0402100000, 0402210000, 0402290000, 0403901100, 0403901300, 0403901900, 0403903100, 0403903300, 0403903900, 0404900000"
+	},
+	{
+		"ordernumber" : "054602",
+		"countries" : "Ukraine",
+		"commodities" : "0405100000, 0405209000, 0405900000"
+	},
+	{
+		"ordernumber" : "054116",
+		"countries" : "United States",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054123",
+		"countries" : "United States",
+		"commodities" : "1001990040, 1001990050, 1001990060, 1001990092"
+	},
+	{
+		"ordernumber" : "054127",
+		"countries" : "United States",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054153",
+		"countries" : "United States",
+		"commodities" : "1006400000"
+	},
+	{
+		"ordernumber" : "054170",
+		"countries" : "United States",
+		"commodities" : "0203195515, 0203195525, 0203195530, 0203295520, 0203295530, 0203295592"
+	},
+	{
+		"ordernumber" : "054452",
+		"countries" : "Uruguay",
+		"commodities" : "0201300031, 0201300039, 0206109511, 0206109515"
+	},
+	{
+		"ordernumber" : "054729",
+		"countries" : "Vietnam",
+		"commodities" : "1006103000, 1006105000, 1006107100, 1006107900, 1006200000"
+	},
+	{
+		"ordernumber" : "054730",
+		"countries" : "Vietnam",
+		"commodities" : "1006300000"
+	},
+	{
+		"ordernumber" : "054731",
+		"countries" : "Vietnam",
+		"commodities" : "1006103000, 1006105000, 1006107100, 1006107900, 1006200000, 1006300000"
+	}
+]

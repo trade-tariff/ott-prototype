@@ -1,0 +1,28 @@
+dl.status_code {
+  width  : 100%;
+  margin : 0px 0px 1em 0px;
+  padding: 0px;
+
+  dt {
+    display: block;
+    width  : 10%;
+    clear  : both;
+    margin : 0px;
+    padding: 0px;
+    float  : left
+  }
+
+  dd {
+    display: block;
+    width  : 80%;
+    margin : 0px;
+    padding: 0px;
+    float  : left
+  }
+
+  ::after {
+    content: "";
+    display: table;
+    clear  : both;
+  }
+}

@@ -1,0 +1,107 @@
+{
+    "measure_types": {
+        "103": [
+            {
+                "preference_code": "100",
+                "description": "Normal third country tariff duty (including ceilings). This code stands for all cases where no preference is claimed and the normal third country rate is applied.",
+                "scope": "all"
+            }
+        ],
+        "105": [
+            {
+                "preference_code": "140",
+                "description": "Exemption for end-use resulting from the Community Customs Tariff (CCT). All cases of end-use are marked by one of the following footnotes to the relevant CN code: ‘Entry under this subheading is subject to conditions laid down in the relevant EU provisions’",
+                "scope": "all"
+            }
+        ],
+        "106": [
+            {
+                "preference_code": "400",
+                "description": "Non imposition of customs duties under the provisions of Customs Union. Agreements concluded by the EU with Turkey for certain products in headings 1704, 1803, 1804, 1805, 1806, 1901, 190211, 190219, 1903, 1904, 1905, 2101, 2102, 2103, 2104, 2105, 210610, 210620, 2202, 2205 and for all products in Chapters 25-97 (with the exception of Coal and Steel (see the list in Notice 812) and products in Tariff headings 3502, 4501 5301 and 5302) which are covered by forms Admission Temporaire Roulette (ATR) (see code 420 below for those agricultural products which are exceptionally covered by forms ATR for the purposes of annual tariff quotas); Andorra for all products in Chapters 25-97 ), and for San Marino for all products (with the exception of coal and steel) in Chapters 1- 97 of the UK Trade Tariff.",
+                "scope": "all"
+            }
+        ],
+        "112": [
+            {
+                "preference_code": "110",
+                "description": "Tariff suspension. Temporary suspensions from the autonomous customs duties are granted for certain goods of the agricultural, chemical, aeronautical and microelectronic sector. Others are shown as footnotes to certain Combined Nomenclature (CN) codes.",
+                "scope": "all"
+            }
+        ],
+        "115": [
+            {
+                "preference_code": "115",
+                "description": "Tariff suspension subject to a specific end-use. Certain suspensions are linked to a specific destination, a so-called end-use pursuant to Article 82 of the Common Customs Code. Commodities are identified by the symbol ‘S’ in Volume 2 of the Tariff and the footnote ‘subject to end use’.",
+                "scope": "all"
+            }
+        ],
+        "117": [
+            {
+                "preference_code": "140",
+                "description": "Exemption for end-use resulting from the Community Customs Tariff (CCT). All cases of end-use are marked by one of the following footnotes to the relevant CN code: ‘Entry under this subheading is subject to conditions laid down in the relevant EU provisions’",
+                "scope": "all"
+            }
+        ],
+        "119": [
+            {
+                "preference_code": "119",
+                "description": "Tariff suspension subject to Authorised Release Certificate formerly known as Airworthiness Certificates. Suspension of duty (not including VAT) for importations of civil aircraft parts which must be accompanied by an Authorised Release Certificate formerly known as airworthiness certificate. A document code ‘C119’ must be entered in D.E. 2/3 and endorsed ‘Import with Authorised Release Certificate’ formerly known as Airworthiness Certificate.",
+                "scope": "all"
+            }
+        ],
+        "122": [
+            {
+                "preference_code": "120",
+                "description": "Tariff quota, notably General Agreement on Tariffs and Trade (GATT) quota. GATT quotas are shown as footnotes to the CN. Examples can be found in Chapter 3 and for codes 0802, 0805 and 0806.",
+                "scope": "all"
+            }
+        ],
+        "123": [
+            {
+                "preference_code": "123",
+                "description": "Tariff quota, notably GATT quota, subject to a specific end-use. Examples of GATT quotas under the condition of an end-use can be found in footnotes to codes 0102 90 (a quota with a serial number) and 0302 31 to 39 (a global quota without a serial number).",
+                "scope": "all"
+            }
+        ],
+        "142": [
+            {
+                "preference_code": "200",
+                "description": "Generalised Systems of Preferences (GSP) rate without conditions or limits (including ceilings). Application of the GSP duty rate without conditions or limits (form A) or equivalent proofs of preferential origin.",
+                "scope": "gsp"
+            },
+            {
+                "preference_code": "300",
+                "description": "Tariff preference without conditions or limits (including ceilings). Application of the relevant preferential rate without conditions or limits (Certificates EUR1, EUR-MED, or equivalent proofs of preferential origin).",
+                "scope": "not gsp"
+            }
+        ],
+        "143": [
+            {
+                "preference_code": "320",
+                "description": "Tariff quota. The preferential rate is only applicable within the limits of a quota. In these cases the serial number of the quota is mentioned beside the preferential duty rate in the printed version of the TARIC.",
+                "scope": "all"
+            }
+        ],
+        "145": [
+            {
+                "preference_code": "340",
+                "description": "Exemption for end-use resulting from the CCT. It is unlikely that exemption for end-use resulting from the CCT will be restricted to certain preferential agreements.",
+                "scope": "all"
+            }
+        ],
+        "146": [
+            {
+                "preference_code": "323",
+                "description": "Tariff quota subject to a specific end-use. The application of the quota is granted only where a specific end-use is prescribed for the imported goods.",
+                "scope": "all"
+            }
+        ],
+        "147": [
+            {
+                "preference_code": "420",
+                "description": "Tariff Quota. Non imposition of duty within the limits of annual tariff quotas for certain products in headings 1704, 1806, 1901, 1902, 1904, 1905 and 2106 which are imported from Turkey under cover of forms ATR.",
+                "scope": "all"
+            }
+        ]
+    }
+}

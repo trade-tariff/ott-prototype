@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Duty drawback - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: context.back_link
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row roo_container">
+        <div class="govuk-grid-column-two-thirds">
+            {# <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span> #}
+            <span class="govuk-caption-xl commodity-split">Obtaining and verifying proofs of origin</span>
+            <h1 class="govuk-heading-xl">Duty drawback for trade with {{ context.country_name }}</h1>
+
+            <p class="govuk-body-l">Some trade agreements allow a duty drawback.</p>
+            <p class="govuk-body">This means that, if you pay duties on non-originating materials that you use to make a product which you then export under a preferential tariff, you can apply for a refund of those duties.</p>
+
+            {# <p class="question">QUESTION: Where is the money drawn back from?</p> #}
+
+            {% if context.duty_drawback != "" and context.duty_drawback != null %}
+                <h2 class="govuk-heading-m">Duty drawback - an example</h2>
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>A car engine originating in country A is imported into country B and a 10% import duty is charged.</li>
+                    <li>The car engine is assembled into a complete car in country B and then exported to country C, meeting the rules of origin requirements.</li>
+                    <li>Using duty drawback, the car manufacturer in country B could 'draw&nbsp;back' the 10% duties paid on the car engine originating in country A.</li>
+                </ul>
+                <div class="cumulation_description">
+                    <img src="/public/images/roo/drawback.png" alt="">
+                </div>
+
+                <p>The provision of duty drawback depends on the specifics of the trade agreement.</p>
+                <h2 class="govuk-heading-m govuk-!-margin-top-5">Prohibition of drawback of, or exemption from, customs duties according to the {{ context.scheme_title }}</h2>
+                <div class="agreement_content">{{ context.duty_drawback | convert_markdown | safe }}</div>
+
+            {% else %}
+                <div class="govuk-inset-text">
+                    <p>The provision of duty drawback depends on the specifics of the trade agreement.</p>
+                    <p>There is no duty drawback provision in the {{ context.scheme_title }}.</p>
+                </div>
+            {% endif %}
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

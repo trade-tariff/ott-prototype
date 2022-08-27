@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  How to work out if your goods are classed as 'originating' - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/roo/trade_direction/" + context.goods_nomenclature_item_id + "/" + context.country
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds roo_container">
+
+            <form action="/roo/wholly_obtained_info/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                {# <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span> #}
+                <span class="govuk-caption-xl commodity-split">Are your goods originating?</span>
+                <h1 class="govuk-heading-l">
+                    How to work out if your goods are classed as 'originating' in
+                    {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}
+                </h1>
+                <p class="govuk-body-l">This page defines the broad rules that determine if your product originates in
+                    {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}
+                    according to the {{ context.scheme_title }} and therefore eligible for preferential tariff treatment.
+                </p>
+<!--
+                {% if context.trade_direction == "import" %}
+                    <div class="govuk-inset-text panel_grey">
+                        <p class="b">How rules of origin could affect the duty payable</p>
+                        <ul class="govuk-list commodity-split">
+                            <li>The third-country duty (or <abbr title="Most-Favoured Nation">MFN</abbr> duty)
+                            for importing commodity {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }} is <span class="roo_duty">{{ context.mfn }}</span>.</li>
+                            {% if context.has_preferential_rates %}
+                                {% if context.preference != Null %}
+                                    <li>The {{ context.scheme_title }} features a tariff preference with a duty of
+                                    <span class="roo_duty">{{ context.preference }}</span>.
+                                </li>
+                                {% endif %}
+                                {% if context.quota != Null %}
+                                    <li>The {{ context.scheme_title }} features a preferential quota
+                                        (order number <span class="roo_duty">{{ context.quota["ordernumber"] }}</span>)
+                                    with a preferential duty of <span class="roo_duty">{{ context.quota["duty"] }}</span>.
+                                </li>
+                                {% endif %}
+
+                            {% else %}
+                                <li>While there are <span class="roo_duty">no preferential duty rates</span> for importing commodity
+                                    {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }} from {{ context.country_name }}, 
+                                    you may still use this tool to help you to work out if your products are classed as originating in
+                                    {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}.</li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                {% endif %}
+//-->
+                {% if not context.wholly_obtained_only_rule_applies %}
+
+                <div class="commodity-split">
+                    <p>The following products are considered as originating in {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}:</p>
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li>
+                            products <strong>wholly obtained</strong> in {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}
+                            <br><br>Your goods are treated as 'wholly obtained' if they’re exclusively produced in a
+                            country covered in a trade agreement, without incorporating materials from any other country.<br><br>
+                        </li>
+                        <!--
+                        <li>
+                            products obtained in {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }} incorporating materials which have not been wholly obtained there,
+                            provided that these materials have undergone <strong>sufficient working or processing</strong> in
+                            {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}
+                            to obtain originating status;
+                        </li>
+                        <li>
+                            items produced using some non-originating materials, provided the product meets the rules specifically
+                            associated with commodity {{ context.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }}.
+                        </li>//-->
+                        <li>Products that incorporate <strong>materials originating from different countries</strong> that are sufficiently worked or processed
+                            according to the rules laid out in the {{ context.scheme_title }}
+
+                    </ul>
+                    <p>These concepts are defined throughout the next pages, so that you can determine if your product meets the rules of origin.</p>
+                </div>
+
+                {% else %}
+                    <div class="govuk-warning-text">
+                        <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                        <strong class="govuk-warning-text__text">
+                            <span class="govuk-warning-text__assistive">Warning</span>
+                            The rules for this commodity determine that the goods must be wholly obtained in {{ context.country_name if context.trade_direction == "import" else "the United Kingdom" }}.
+                        </strong>
+                    </div>
+                {% endif %}
+
+                <p class="b">Next step</p>
+                <p>Click on the 'Continue' button to view the definition of '<strong>wholly obtained</strong>' in the {{ context.scheme_title }}.</p>
+                {{ govukButton({
+                    text: "Continue",
+                    href: ""
+                }) }}
+
+            </form>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            {% include "./aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

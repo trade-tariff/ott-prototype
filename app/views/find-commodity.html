@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block beforeContent %}{% endblock %}
+
+{% block pageTitle %}
+    {{ context.serviceName }} on the {{ xiSubServiceName }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">{{ context.title }}</span>
+            <h1 class="govuk-heading-l">{{ serviceName }}</h1>
+
+            <div class="govuk-notification-banner" role="alert" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+                <div class="govuk-notification-banner__header">
+                    <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+                        {{ context.bannerTitle | safe }}
+                    </h2>
+                </div>
+                <div class="govuk-notification-banner__content">
+                    <p>
+                        {{ context.home_banner | safe }}
+                    </p>
+                </div>
+            </div>
+
+            {% include "components/howto_component.html" %}
+            {% include "components/search_component.html" %}
+            {# {% include "components/atr_component.html" %} #}
+            {% include "components/stw_component.html" %}
+        </div>
+    </div>
+
+{% endblock %}

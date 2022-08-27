@@ -1,0 +1,419 @@
+{% extends "layout_start.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: look up commodity codes, duty and VAT rates 
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "https://www.gov.uk/"
+    },
+    {
+      text: "Import, export and customs for businesses",
+      href: "https://www.gov.uk/topic/business-tax/import-export"
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <div class="gem-c-title govuk-!-margin-top-2 govuk-!-margin-bottom-8">
+                <span class="govuk-caption-xl gem-c-title__context">Guidance</span>
+
+                <h1 class="gem-c-title__text govuk-heading-l">
+                    Finding commodity codes for imports into or exports out of the UK
+                </h1>
+
+                <p class="govuk-body-l govuk-!-margin-top-8">How to use the Trade Tariff tool or get help to classify your goods, so you pay the right Customs Duty and import VAT.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="govuk-grid-row xgovuk-!-margin-bottom-0">
+        <div class="govuk-grid-column-full">
+            <hr class="govuk-hr">
+        </div>
+    </div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <div class="gem-c-metadata govuk-!-margin-bottom-3" data-module="gem-toggle metadata" data-gem-toggle-module-started="true" data-metadata-module-started="true">
+
+                <dl data-module="gem-track-click" data-gem-track-click-module-started="true">
+                    <dt class="gem-c-metadata__term">From:</dt>
+                    <dd class="gem-c-metadata__definition">
+                        <a class="govuk-link" href="https://www.gov.uk/government/organisations/hm-revenue-customs">HM Revenue &amp; Customs</a>
+                    </dd>
+                    <dt class="gem-c-metadata__term">Published</dt>
+                    <dd class="gem-c-metadata__definition">21 December 2018</dd>
+                    <dt class="gem-c-metadata__term">Last updated</dt>
+                    <dd class="gem-c-metadata__definition">12 November 2021
+                        — <a href="#full-publication-update-history" class="gem-c-metadata__definition-link govuk-!-display-none-print js-see-all-updates-link" data-track-category="content-history" data-track-action="see-all-updates-link-clicked" data-track-label="history">
+                        See all updates</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="govuk-!-display-none-print govuk-!-margin-bottom-6" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                <form class="gem-c-single-page-notification-button" action="https://www.gov.uk/email/subscriptions/single-page/new" method="POST" data-track-label="/guidance/finding-commodity-codes-for-imports-or-exports" data-track-action="Subscribe-button-top" data-track-category="Single-page-notification-button" data-button-location="top">
+                    <input type="hidden" name="base_path" value="https://www.gov.uk/guidance/finding-commodity-codes-for-imports-or-exports">
+                    <button class="govuk-body-s gem-c-single-page-notification-button__submit" type="submit">
+                        <svg class="gem-c-single-page-notification-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 459.334 459.334">
+                            <path fill="currentColor" d="M177.216 404.514c-.001.12-.009.239-.009.359 0 30.078 24.383 54.461 54.461 54.461s54.461-24.383 54.461-54.461c0-.12-.008-.239-.009-.359H175.216zM403.549 336.438l-49.015-72.002v-89.83c0-60.581-43.144-111.079-100.381-122.459V24.485C254.152 10.963 243.19 0 229.667 0s-24.485 10.963-24.485 24.485v27.663c-57.237 11.381-100.381 61.879-100.381 122.459v89.83l-49.015 72.002a24.76 24.76 0 0 0 20.468 38.693H383.08a24.761 24.761 0 0 0 20.469-38.694z"></path>
+                        </svg>Get emails about this page
+                        </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h2 xclass="govuk-heading-m" class="gem-c-contents-list__title">Contents</h2>
+            <ol class="gem-c-contents-list__list">
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" data-track-category="contentsClicked" data-track-action="content_item 1" data-track-label="#use-the-trade-tariff-tool" data-track-options="{&quot;dimension29&quot;:&quot;Use the Trade Tariff tool&quot;}" href="#use-the-trade-tariff-tool">Use the Trade Tariff tool</a>
+
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" data-track-category="contentsClicked" data-track-action="content_item 2" data-track-label="#goods-that-are-difficult-to-classify" data-track-options="{&quot;dimension29&quot;:&quot;Goods that are difficult to classify&quot;}" href="#goods-that-are-difficult-to-classify">Goods that are difficult to classify</a>
+
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" data-track-category="contentsClicked" data-track-action="content_item 3" data-track-label="#getting-help-from-hmrc" data-track-options="{&quot;dimension29&quot;:&quot;Getting help from HMRC&quot;}" href="#getting-help-from-hmrc">Getting help from HMRC</a>
+
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" data-track-category="contentsClicked" data-track-action="content_item 4" data-track-label="#commodity-code-in-other-countries" data-track-options="{&quot;dimension29&quot;:&quot;Commodity code in other countries&quot;}" href="#commodity-code-in-other-countries">Commodity code in other countries</a>
+                </li>
+            </ol>
+
+            <div class="gem-c-print-link govuk-!-display-none-print govuk-!-margin-top-6 govuk-!-margin-bottom-6">
+                <button class="govuk-link govuk-body-s gem-c-print-link__button" data-module="print-link" data-print-link-module-started="true">Print this page</button>
+            </div>
+
+            <p>You’ll need to find the right commodity code for any goods you import or export, using the Trade Tariff tool.</p>
+
+            <p>This will help you:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>complete import or export declarations and other paperwork</li>
+                <li>make sure you pay the right Customs Duty and import VAT</li>
+            </ul>
+
+            <p>It will also help you check if:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>you need a licence to move your goods</li>
+                <li>you could pay less Customs Duty (for example because your goods are covered by a trade agreement)</li>
+                <li>your goods are covered by:
+                        <ul class="govuk-list govuk-list--bullet">
+                        <li>Agricultural Policy</li>
+                        <li>anti-dumping duties</li>
+                        <li>UK safeguarding measures</li>
+                        <li>tariff quotas</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="govuk-inset-text">
+                <p>Finding the right commodity code for your goods can be complicated. Find out <a href="https://www.gov.uk/guidance/appoint-someone-to-deal-with-customs-on-your-behalf" class="govuk-link">how to get someone to deal with customs for you</a>.</p>
+            </div>
+
+            <h2 class="govuk-heading-m" id="use-the-trade-tariff-tool">Use the Trade Tariff tool</h2>
+
+            <p>You need to know the details about your product. This may include the:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>type of product</li>
+                <li>purpose of the product</li>
+                <li>materials used to make it</li>
+                <li>production methods used to make it</li>
+                <li>way it’s packaged</li>
+            </ul>
+
+            <div class="govuk-inset-text">
+                <p>If you have an item made of 2 substances (for example, clothing that is 60% cotton and 40% polyester) you’d normally classify the item using the higher percentage content. There are exceptions, so check the relevant section and chapter notes for your goods in the tool.</p>
+            </div>
+
+            <p>You must accurately describe your item to search the tool. These steps will help you get started:</p>
+
+            <ol class="steps">
+                <li>
+                    <p>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</p>
+                </li>
+                <li>
+                    <p>The tool will suggest a section or number of sections, divided into chapters.</p>
+                </li>
+                <li>
+                    <p>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</p>
+                </li>
+                <li>
+                    <p>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</p>
+                </li>
+            </ol>
+
+            <a href="#" role="button" draggable="false" class="govuk-button govuk-button--start" data-module="govuk-button">
+                    Start now
+                    <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
+                </svg>
+            </a>
+
+            <p>Alternatively, you can <a rel="external" href="https://www.trade-tariff.service.gov.uk/trade-tariff/a-z-index/a" class="govuk-link">search the Trade Tariff tool’s A to Z</a> to find the right sections and chapters for common products.</p>
+
+            <h3 class="govuk-heading-s" id="goods-that-cannot-be-imported-in-a-single-consignment">Goods that cannot be imported in a single consignment</h3>
+
+            <p>If you have goods (like large machinery) that cannot be transported in a single consignment, you may need to split them up.</p>
+
+            <p>
+                <a href="https://www.gov.uk/guidance/split-consignments-tariff-classification-and-import-procedures" class="govuk-link">Find out if your goods qualify for import in split consignments</a> and what you need to do to import goods in this way.</p>
+
+            <h3 class="govuk-heading-s" id="items-packaged-as-a-set">Items packaged as a set</h3>
+
+            <p>If your items are packaged in a set to sell and be used together, you should classify them using the most significant item in that set.</p>
+
+            <p>If you cannot work out which item is the most significant, use the commodity code that has the largest numerical value.</p>
+
+            <p>You must classify the items separately if they’re either:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>not packaged as a set for retail sale</li>
+                <li>not to be used together</li>
+            </ul>
+
+            <h3 class="govuk-heading-s" id="checking-what-your-goods-are-made-of">Checking what your goods are made of</h3>
+
+            <p>For certain types of goods, you may need precise details of what your goods are made up of. For these you may want to get advice from an independent laboratory.</p>
+
+            <p>You can find a list of analysts in the <a rel="external" href="https://www.rsc.org/membership-and-community/directory-of-consultants/" class="govuk-link">directory of consultants for the Royal Society of Chemistry</a>.</p>
+
+            <h2 class="govuk-heading-m" id="goods-that-are-difficult-to-classify">Goods that are difficult to classify</h2>
+
+            <p>Some goods are more difficult to classify than others. You can read more on how to classify these goods correctly:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-ceramics" class="govuk-link">ceramics</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-computers-and-software" class="govuk-link">computers and software</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-aircraft-parts-and-accessories" class="govuk-link">drones and aircraft parts</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-edible-fruit-vegetables-and-nuts-for-import-and-export" class="govuk-link">edible fruit, vegetables and nuts</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-electrical-equipment-for-import-and-export" class="govuk-link">electrical equipment</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-electric-lamps" class="govuk-link">electric lamps</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-footwear" class="govuk-link">footwear</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-vitamins-supplements-and-herbal-medicines-for-import-and-export" class="govuk-link">herbal medicines, supplements and tonics</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-iron-and-steel" class="govuk-link">iron and steel</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-leather" class="govuk-link">leather</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-organic-chemicals" class="govuk-link">organic chemicals</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-pharmaceutical-products" class="govuk-link">pharmaceutical products and placebos</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-plastics" class="govuk-link">plastics</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-rice" class="govuk-link">rice</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-textile-apparel" class="govuk-link">textile apparel</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-tobacco" class="govuk-link">tobacco</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-toys-games-and-festive-articles-for-import-and-export" class="govuk-link">toys, games and festive articles</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-vehicles" class="govuk-link">vehicles, bicycles, parts and accessories</a>
+                </li>
+                <li>
+                    <a href="https://www.gov.uk/guidance/classifying-wood" class="govuk-link">wood</a>
+                </li>
+            </ul>
+
+            <h2 class="govuk-heading-m" id="getting-help-from-hmrc">Getting help from HMRC</h2>
+
+            <p>If you cannot find the right commodity code for your goods, you can contact HMRC for advice or for a decision on your goods.</p>
+
+            <h3 class="govuk-heading-s" id="informal-advice">Informal advice</h3>
+
+            <p>You can <a href="https://www.gov.uk/guidance/ask-hmrc-for-advice-on-classifying-your-goods" class="govuk-link">use HMRC’s Tariff Classification Service</a> to get non-legally binding classification advice.</p>
+
+            <p>HMRC will try to respond to your email within 5 working days.</p>
+
+            <div role="note" aria-label="Information" class="application-notice info-notice">
+                <p>You should only use this service for quick, basic and informal decisions. You should consider getting a legally binding decision instead, if you want HMRC to do a more in-depth analysis of your goods.</p>
+            </div>
+
+            <h3 class="govuk-heading-s" id="formal-legally-binding-decision">Formal legally binding decision</h3>
+
+            <p>You can ask HMRC to give you a legally binding decision on your goods. You may want to consider this if your goods are:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>hard to classify and informal advice is not suitable for you or your business</li>
+                <li>a new type of product (this will be the first time the product will have ever been classified)</li>
+            </ul>
+
+            <p>A legally binding decision can take up to 120 days to be processed.</p>
+
+            <div class="call-to-action">
+                <p>Check what you’ll need to <a href="https://www.gov.uk/guidance/check-what-youll-need-to-get-a-legally-binding-decision-on-a-commodity-code" class="govuk-link">get a legally binding decision</a>.</p>
+            </div>
+
+            <p>If you want to check if a decision has already been made on goods that are similar to yours you can search for previous:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>
+                    <a rel="external" href="https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/search?enableTrackingConsent=true" class="govuk-link">Advance Tariff Rulings for Great Britain (England, Wales and Scotland)</a>
+                </li>
+                <li>
+                    <a rel="external" href="https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_home.jsp?Lang=en" class="govuk-link">European Binding Tariff Information decisions for Northern Ireland</a>
+                </li>
+            </ul>
+
+            <h2 class="govuk-heading-m" id="commodity-code-in-other-countries">Commodity code in other countries</h2>
+
+            <p>Although many countries have signed up to the same classification system, only the first 6 digits are used worldwide and product specific decisions are particular to each country. If you rely on the commodity code from an overseas supplier, you’ll need to check if the treatment is the same and how much of the code applies in the UK.</p>
+
+        </div>
+
+        <div class="govuk-!-display-none-print govuk-!-margin-bottom-6" data-module="gem-track-click" data-gem-track-click-module-started="true">
+            <form class="gem-c-single-page-notification-button" action="/email/subscriptions/single-page/new" method="POST" data-track-label="/guidance/finding-commodity-codes-for-imports-or-exports" data-track-action="Subscribe-button-top" data-track-category="Single-page-notification-button" data-button-location="top">
+                <input type="hidden" name="base_path" value="/guidance/finding-commodity-codes-for-imports-or-exports">
+            </form>
+        </div>
+
+        <div class="govuk-grid-column-one-third">
+
+            {# <div class="gem-c-related-navigation"> #}
+            <div class="gem-c-step-nav-related " data-module="gem-track-click" data-gem-track-click-module-started="true">
+                <h2 class="govuk-heading-s">
+                    <span class="gem-c-step-nav-related__pretitle">Part of</span>
+                </h2>
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="/import-goods-into-uk" class="govuk-link" data-track-category="stepNavPartOfClicked" data-track-action="Part of" data-track-label="/import-goods-into-uk" data-track-dimension="Import goods into the UK: step by step" data-track-dimension-index="29" data-track-options="{&quot;dimension96&quot; : &quot;849f71d1-f290-4a8e-9458-add936efefc5&quot; }">Import goods into the UK: step by step</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="/export-goods" class="govuk-link" data-track-category="stepNavPartOfClicked" data-track-action="Part of" data-track-label="/export-goods" data-track-dimension="Export goods from the UK: step by step" data-track-dimension-index="29" data-track-options="{&quot;dimension96&quot; : &quot;b9347000-c726-4c3c-b76a-e52b6cebb3eb&quot; }">Export goods from the UK: step by step</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="gem-c-related-navigation">
+
+                <h2 id="related-nav-related_items-40a88cdf" class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">Related content</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.1 Related content" data-track-label="/guidance/classifying-electrical-equipment-for-import-and-export" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;Classifying electrical equipment for import and export&quot;}" href="/guidance/classifying-electrical-equipment-for-import-and-export">Classifying electrical equipment for import and export</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.2 Related content" data-track-label="/guidance/import-and-export-goods-using-preference-agreements" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;Pay less Customs Duty on goods from a country with a UK trade agreement&quot;}" href="/guidance/import-and-export-goods-using-preference-agreements">Pay less Customs Duty on goods from a country with a UK trade agreement</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.3 Related content" data-track-label="/guidance/uk-goods-classification-2022-tariff-stop-press-notice-23" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;UK goods classification 2022 (Tariff stop press notice 23)&quot;}" href="/guidance/uk-goods-classification-2022-tariff-stop-press-notice-23">UK goods classification 2022 (Tariff stop press notice 23)</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.4 Related content" data-track-label="/guidance/check-your-goods-meet-the-rules-of-origin" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;Check your goods meet the rules of origin&quot;}" href="/guidance/check-your-goods-meet-the-rules-of-origin">Check your goods meet the rules of origin</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.5 Related content" data-track-label="/guidance/appoint-someone-to-deal-with-customs-on-your-behalf" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;Get someone to deal with customs for you&quot;}" href="/guidance/appoint-someone-to-deal-with-customs-on-your-behalf">Get someone to deal with customs for you</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar govuk-link gem-c-related-navigation__section-link--inline  govuk-link gem-c-related-navigation__section-link--other" data-track-category="relatedLinkClicked" data-track-action="1.6 Related content" data-track-label="/check-how-to-import-export" data-track-options="{&quot;dimension28&quot;:&quot;6&quot;,&quot;dimension29&quot;:&quot;Check how to import or export goods&quot;}" href="/check-how-to-import-export">Check how to import or export goods</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_guides-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <h3 id="related-nav-related_guides-40a88cdf" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--sidebar" data-track-count="sidebarRelatedItemSection">Detailed guidance</h3>
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar" data-track-category="relatedLinkClicked" data-track-action="2.1 Detailed guidance" data-track-label="/guidance/sending-goods-to-an-overseas-customer-using-rules-of-origin" data-track-options="{&quot;dimension28&quot;:&quot;1&quot;,&quot;dimension29&quot;:&quot;Sending goods to an overseas customer using rules of origin&quot;}" href="/guidance/sending-goods-to-an-overseas-customer-using-rules-of-origin">Sending goods to an overseas customer using rules of origin</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-collections-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <h3 id="related-nav-collections-40a88cdf" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--sidebar" data-track-count="sidebarRelatedItemSection">Collection</h3>
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar" data-track-category="relatedLinkClicked" data-track-action="3.1 Collection" data-track-label="/government/collections/guidance-for-exporting-and-importing-businesses" data-track-options="{&quot;dimension28&quot;:&quot;1&quot;,&quot;dimension29&quot;:&quot;Guidance for exporting and importing businesses&quot;}" href="/government/collections/guidance-for-exporting-and-importing-businesses">Guidance for exporting and importing businesses</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            <div class="gem-c-contextual-footer">
+
+                <div class="gem-c-related-navigation">
+
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-topics-c7e51674" data-module="gem-toggle">
+
+                        <h2 class="govuk-heading-m govuk-!-margin-top-2" id="related-nav-topics-c7e51674" class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer" data-track-count="footerRelatedItemSection">Explore the topic</h2>
+
+                        <ul class="gem-c-related-navigation__link-list" data-module="track-click">
+
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer" href="https://www.gov.uk/topic/business-tax/import-export">Import, export and customs for businesses</a>
+                            </li>
+                            
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Start of HubSpot Embed Code -->
+    <!--<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>//-->
+    <!-- End of HubSpot Embed Code -->
+{% endblock %}

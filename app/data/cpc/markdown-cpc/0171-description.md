@@ -1,0 +1,3 @@
+The use of this procedure code is a declaration by the importer that the conditions laid down in Council Regulation (EU) No. 952/2013, Commission Delegated Regulation (EU) No. 2015/2446 and Commission Implementing Regulation (EU) No. 2015/2447 are met.
+
+Release for free circulation of goods on removal from a customs warehouse with simultaneous re-dispatch to a Special Fiscal Territory or other territory with which the EU has formed a customs union (Article 240 EU Reg. No. 952/2013 (UCC)).

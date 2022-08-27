@@ -1,0 +1,15 @@
+{% set references = [] %}
+{% set show_references = false %}
+{% for search_reference in hit._source.search_references %}
+    {% if context.search_term in search_reference %}
+        {% set references = (references.push(search_reference), references) %}
+        {% set show_references = true %}
+    {% endif %}
+{% endfor %}
+{% if hit._source.search_references | length > 0 %}
+<div class="tags">Tagged with:
+    {% for search_reference in references %}
+        <span class="tag">{{ search_reference | safe }}</span>
+    {% endfor %}
+</div>
+{% endif %}

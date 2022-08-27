@@ -1,0 +1,70 @@
+{# {{ commodity.country }}
+    {{ context.country_name }} #}
+
+{% set eu_countries = [
+    "BE",
+    "FR",
+    "DE",
+    "NL",
+    "LU",
+    "ES",
+    "PL",
+    "PT",
+    "IT",
+    "SV",
+    "FI",
+    "SL",
+    "SK",
+    "LT",
+    "LV",
+    "AT",
+    "ML",
+    "CY",
+    "GR",
+    "HN",
+    "EU"
+] %}
+
+{% if commodity.country.length > 0 %}
+    {% if commodity.country in eu_countries %}
+        {# {{ commodity.country }} is in the EU #}
+        {# If a country is selected and it is in the EU, then show the deep-link to CHEG #}
+        {% set export_url = "https://www.check-duties-customs-exporting-goods.service.gov.uk/summary?d=" + context.country + "&ds=gtp&tab=tree&pc=" + commodity.cheg_code %}
+        {% set link_text = "Check how to export commodity " + commodity.goods_nomenclature_item_id + " to " + commodity.country_name2 %}
+        {% set destination = commodity.country_name2 %}
+        {% set show_cheg_link = true %}
+    {% else %}
+        {# If a country is selected and it is not in the EU, then show a link to CHEG home page #}
+        {# {% set export_url = "https://www.check-duties-customs-exporting-goods.service.gov.uk/commdrilld?d=" + context.country + "&ds=gtp&pc=" + commodity.cheg_hs_code %}
+        {% set export_url = "https://www.check-duties-customs-exporting-goods.service.gov.uk/summary?d=" + context.country + "&ds=gtp&tab=tree&pc=" + commodity.cheg_hs_code %} #}
+        {% set export_url = "https://www.check-duties-customs-exporting-goods.service.gov.uk/" %}
+        {% set link_text = "Check how to export goods" %}
+        {% set destination = "the rest of the world" %}
+        {% set show_cheg_link = true %}
+    {% endif %}
+{% else %}
+    {% set export_url = "https://www.check-duties-customs-exporting-goods.service.gov.uk/" %}
+    {% set link_text = "Check how to export goods" %}
+    {% set destination = "the rest of the world" %}
+    {% set show_cheg_link = true %}
+{% endif %}
+
+{% if show_cheg_link %}
+    <div class="govuk-inset-text govuk-inset-text--s nhs-grey-5 explainer">
+        <h3>Check duties and customs procedures for exporting goods</h3>
+        <p>Find information about how to move goods from the UK to {{ destination }}.</p>
+
+        <p>Use this service to check:</p>
+
+        <ul class="govuk-list govuk-list--bullet">
+            <li>rules and restrictions</li>
+            <li>tax and duty rates</li>
+            <li>what exporting documents you need</li>
+        </ul>
+        <p>
+            <!--Now you have the UK export measures for your goods,//-->
+            <a href="{{ export_url }}" target="_blank">{{ link_text }} (link opens in new tab)</a>
+        </p>
+        {# <p>You will be taken to a different government service.</p> #}
+    </div>
+{% endif %}

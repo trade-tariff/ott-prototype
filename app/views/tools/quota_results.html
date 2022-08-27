@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by quota
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Quotas",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+    </span>
+            <h1 class="govuk-heading-l">
+                Quota search results
+            </h1>
+
+{{ govukTable({
+  caption: "The following matching quotas have been found:",
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Order number"
+    },
+    {
+      text: "Commodity code(s)"
+    },
+    {
+      text: "Country of origin"
+    },
+    {
+      text: "Dates"
+    },
+    {
+      text: "Remaining balance"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "09.1234"
+      },
+      {
+        html: "<a href=''>0702000007</a><br><a href=''>0701000007</a>"
+      },
+      {
+        text: "Morocco"
+      },
+      {
+        text: "01 Jan 21 - 31 Dec 21"
+      },
+      {
+        text: "1,498,032.0 Kilogram (kg)"
+      }
+    ]
+  ]
+}) }}
+
+<p class="govuk-body">Data correct as of 17 Nov 20.</p>
+
+{{ govukBackLink({
+  text: "Back",
+  href: "/quotas"
+}) }}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,229 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/company/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Check your answers</h1>
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Commodity code</dt>
+          <dd class="govuk-summary-list__value">{{ commodity.goods_nomenclature_item_id | format_commodity_code(" ") }}</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/search/">
+              Change<span class="govuk-visually-hidden"> name</span>
+            </a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Additional code(s)</dt>
+          <dd class="govuk-summary-list__value">2500, 2702</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/search/">
+              Change<span class="govuk-visually-hidden"> additional code(s)</span>
+            </a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Document(s)</dt>
+          <dd class="govuk-summary-list__value">D017, D018</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/search/">
+              Change<span class="govuk-visually-hidden"> documents</span>
+            </a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Date of import</dt>
+          <dd class="govuk-summary-list__value">{{ data["date_string"] }}</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/duty-calculator/date/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> date of import</span>
+            </a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Destination</dt>
+          <dd class="govuk-summary-list__value">
+          {% if data["destination"] == "GB" %}
+          England, Scotland or Wales
+          {% else %}
+          Northern Ireland
+          {% endif %}
+          </dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/duty-calculator/destination/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> destination</span>
+            </a>
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Country of dispatch</dt>
+          <dd class="govuk-summary-list__value">{{ data["country_name"] }}</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/duty-calculator/origin/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> country of dispatch</span>
+            </a>
+          </dd>
+        </div>
+
+        {% if data["uk_trader_string"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">UK Trader Scheme authorisation</dt>
+            <dd class="govuk-summary-list__value">{{ data["uk_trader_string"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/uk_trader/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> UK Trader Scheme option</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["final_use_string"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Final use</dt>
+            <dd class="govuk-summary-list__value">{{ data["final_use_string"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/final_use/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> final use option</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["processing_string"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Processing</dt>
+            <dd class="govuk-summary-list__value">{{ data["processing_string"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/processing/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> processing option</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["certificate_string"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Certificate of origin</dt>
+            <dd class="govuk-summary-list__value">{{ data["certificate_string"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/certificate_of_origin/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> certificate of origin option</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Customs value</dt>
+          <dd class="govuk-summary-list__value">{{ data["currency"] | display_currency }}{{ data["total_cost"] | decimals(2) }}</dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="/duty-calculator/monetary_value/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> monetary value</span>
+            </a>
+          </dd>
+        </div>
+
+        {% if data["unit_string"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Import quantity</dt>
+            <dd class="govuk-summary-list__value">{{ data["unit_string"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/unit_value/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> unit value</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["vat_string"] != "test" %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Applicable VAT rate</dt>
+            <dd class="govuk-summary-list__value">Standard VAT (20%)</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/vat/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> VAT rate</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["meursing_code"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Meursing code</dt>
+            <dd class="govuk-summary-list__value">{{ data["meursing_code"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/meursing/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> Meursing code</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if data["company"] %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Company</dt>
+            <dd class="govuk-summary-list__value">{{ data["company"] }}</dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="/duty-calculator/company/{{ commodity.goods_nomenclature_item_id }}">
+              Change<span class="govuk-visually-hidden"> Company</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+
+      </dl>
+
+      {% if data["destination"] == "Northern Ireland" %}
+        {{ govukButton({
+          text: "Calculate import duties",
+          href: "/duty-calculator/results_gb_ni/" + commodity.data.attributes.goods_nomenclature_item_id
+        }) }}
+      {% else %}
+        {{ govukButton({
+          text: "Calculate import duties",
+          href: "/duty-calculator/results/" + commodity.data.attributes.goods_nomenclature_item_id
+        }) }}
+      {% endif %}
+
+      {% if data["destination"] == "Northern Ireland" %}
+
+      <p>Please note  - the following results page uses an exchange rate of <strong>{{ data["exchange_rate"] }} GBP to EUR</strong>.</p>
+      {{ govukDetails({
+        summaryText: "More about this exchange rate",
+        text: "The exchange rate used is derived from the European Central Bank.
+        The reference rates are usually updated around 15:00 on every working day."
+      }) }}
+       {% endif %}
+
+    </div>
+
+  </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - do you qualify for zero rate VAT duty?
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <span class="govuk-caption-xl">Calculate import duties</span>
+            <form action="/duty-calculator/uk/data_handler/{{commodity.data.attributes.goods_nomenclature_item_id}}" method="get">
+
+                {# Get error message #}
+                {% if (error == "origin") %}
+                    {% set error_message = "Enter a valid future date" %}
+                    {% set error_class = "govuk-select--error" %}
+                    {% set group_error_class = "govuk-form-group--error" %}
+                {% else %}
+                    {% set error_message = "" %}
+                    {% set group_error_class = "" %}
+                    {% set error_class = "" %}
+                {% endif %}
+
+                {# Display the type-ahead select control #}
+                {{ govukInput({
+                    id: "meursing_code",
+                    name: "meursing_code",
+                    label: {
+                        text: "What is the alcohol by volume (ABV) of the product that you are importing?",
+                        classes: "govuk-label--xl",
+                        isPageHeading: true
+                    },
+                    hint: {
+                        html: "The <abbr title='Alochol by volume'>ABV</abbr> is required to calculate the excise due on this import."
+                    },
+                    suffix: {
+                        text: "%"
+                    },
+                    classes: "govuk-input--width-4",
+                    spellcheck: false
+                }) }}
+
+                {{ govukButton({
+                    text: "Continue"
+                }) }}
+                <p class="b">Why is alcohol content important?</p>
+                <p>The excise duty that you will be required to pay is depdendent upon the
+                ABV content of the good that you are trading. The table below shows duties that apply to beers
+                of different alcoholic strengths.</p>
+
+                <table class="govuk-table">
+                    <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Class</th>
+                            <th scope="col" class="govuk-table__header">ABV (alcohol by volume)</th>
+                            <th scope="col" class="govuk-table__header">Applicable excise duty</th>
+                        </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Low alcohol beverages</td>
+                            <td class="govuk-table__cell">1.2% ABV or lower</td>
+                            <td class="govuk-table__cell">Nil</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Low strength beer</td>
+                            <td class="govuk-table__cell">exceeding 1.2% ABV but not exceeding 2.8%</td>
+                            <td class="govuk-table__cell">£8.42 per hectolitre % (number of litres of alcohol)</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">General beer</td>
+                            <td class="govuk-table__cell">exceeding 2.8% ABV but not exceeding 7.5%</td>
+                            <td class="govuk-table__cell">
+                                £19.08 per hectolitre % (number of litres of alcohol).<br><br>
+                                You may be able to claim a reduced rate via Small Brewers relief if the 
+                                gross annual production of the producing brewery is less than 60,000 hectolitres.
+                            </td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">High strength beer</td>
+                            <td class="govuk-table__cell">exceeding 1.2% ABV but not exceeding 2.8%</td>
+                            <td class="govuk-table__cell">£24.77 per hectolitre % (number of litres of alcohol)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            {% include "../includes/commodity_panel.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,82 @@
+[
+	{
+		"measurement_unit_qualifier_code" : "A",
+		"description" : "Total alcohol"
+	},
+	{
+		"measurement_unit_qualifier_code" : "B",
+		"description" : "per flask"
+	},
+	{
+		"measurement_unit_qualifier_code" : "C",
+		"description" : "1 000"
+	},
+	{
+		"measurement_unit_qualifier_code" : "D",
+		"description" : "Per 1% by weight of sucrose or extractable sugar"
+	},
+	{
+		"measurement_unit_qualifier_code" : "E",
+		"description" : "net of drained weight"
+	},
+	{
+		"measurement_unit_qualifier_code" : "F",
+		"description" : "of common wheat"
+	},
+	{
+		"measurement_unit_qualifier_code" : "G",
+		"description" : "Gross"
+	},
+	{
+		"measurement_unit_qualifier_code" : "H",
+		"description" : "Hydrogen peroxide (H2O2)"
+	},
+	{
+		"measurement_unit_qualifier_code" : "I",
+		"description" : "of biodiesel content"
+	},
+	{
+		"measurement_unit_qualifier_code" : "J",
+		"description" : "of fuel content (usually in form of tallow, stearin, paraffin wax or other waxes, including the wick)"
+	},
+	{
+		"measurement_unit_qualifier_code" : "K",
+		"description" : "of bioethanol content"
+	},
+	{
+		"measurement_unit_qualifier_code" : "L",
+		"description" : "of live weight"
+	},
+	{
+		"measurement_unit_qualifier_code" : "M",
+		"description" : "net of dry matter"
+	},
+	{
+		"measurement_unit_qualifier_code" : "N",
+		"description" : "Net"
+	},
+	{
+		"measurement_unit_qualifier_code" : "P",
+		"description" : "of lactic matter"
+	},
+	{
+		"measurement_unit_qualifier_code" : "R",
+		"description" : "of the standard quality"
+	},
+	{
+		"measurement_unit_qualifier_code" : "S",
+		"description" : "of sugar with a yield in white sugar of 92%"
+	},
+	{
+		"measurement_unit_qualifier_code" : "T",
+		"description" : "of dry lactic matter"
+	},
+	{
+		"measurement_unit_qualifier_code" : "X",
+		"description" : "Hectolitre"
+	},
+	{
+		"measurement_unit_qualifier_code" : "Z",
+		"description" : "per 1% by weight of sucrose"
+	}
+]

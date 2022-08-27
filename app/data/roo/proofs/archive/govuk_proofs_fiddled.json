@@ -1,0 +1,858 @@
+{
+    "analytics_identifier": null,
+    "base_path": "/guidance/get-proof-of-origin-for-your-goods",
+    "content_id": "4c18d6f7-b0d2-47a5-b800-e8ad8d2241c2",
+    "document_type": "detailed_guide",
+    "first_published_at": "2020-12-01T01:00:00.000+00:00",
+    "locale": "en",
+    "phase": "live",
+    "public_updated_at": "2022-01-01T00:15:14.000+00:00",
+    "publishing_app": "whitehall",
+    "publishing_scheduled_at": "2022-01-01T00:15:00.000+00:00",
+    "rendering_app": "government-frontend",
+    "scheduled_publishing_delay_seconds": 22,
+    "schema_name": "detailed_guide",
+    "title": "Get proof of origin for your goods",
+    "updated_at": "2022-04-11T16:39:41.529Z",
+    "withdrawn_notice": {},
+    "publishing_request_id": "21758-1648813980.135-10.13.4.39-540",
+    "links": {
+        "document_collections": [
+            {
+                "content_id": "a1eb53c5-ddef-4448-a20a-1400b9306870",
+                "title": "Guidance for preferential rates of duty and rules of origin",
+                "locale": "en",
+                "api_path": "/api/content/government/collections/guidance-for-preferential-rates-of-duty-and-rules-of-origin",
+                "base_path": "/government/collections/guidance-for-preferential-rates-of-duty-and-rules-of-origin",
+                "document_type": "document_collection",
+                "public_updated_at": "2020-12-01T00:00:00Z",
+                "schema_name": "document_collection",
+                "withdrawn": false,
+                "links": {
+                    "documents": [
+                        {
+                            "content_id": "4c18d6f7-b0d2-47a5-b800-e8ad8d2241c2",
+                            "title": "Get proof of origin for your goods",
+                            "locale": "en",
+                            "api_path": "/api/content/guidance/get-proof-of-origin-for-your-goods",
+                            "base_path": "/guidance/get-proof-of-origin-for-your-goods",
+                            "document_type": "detailed_guide",
+                            "public_updated_at": "2022-01-01T00:15:14Z",
+                            "schema_name": "detailed_guide",
+                            "withdrawn": false,
+                            "links": {},
+                            "api_url": "https://www.gov.uk/api/content/guidance/get-proof-of-origin-for-your-goods",
+                            "web_url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods"
+                        }
+                    ]
+                },
+                "api_url": "https://www.gov.uk/api/content/government/collections/guidance-for-preferential-rates-of-duty-and-rules-of-origin",
+                "web_url": "https://www.gov.uk/government/collections/guidance-for-preferential-rates-of-duty-and-rules-of-origin"
+            }
+        ],
+        "suggested_ordered_related_items": [
+            {
+                "content_id": "9ee3e804-6f04-4afe-8276-9552d883d8f4",
+                "title": "Check your goods meet the rules of origin",
+                "locale": "en",
+                "api_path": "/api/content/guidance/check-your-goods-meet-the-rules-of-origin",
+                "base_path": "/guidance/check-your-goods-meet-the-rules-of-origin",
+                "document_type": "detailed_guide",
+                "public_updated_at": "2021-10-05T11:51:48Z",
+                "schema_name": "detailed_guide",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/guidance/check-your-goods-meet-the-rules-of-origin",
+                "web_url": "https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin"
+            },
+            {
+                "content_id": "d79c0b40-43d4-449b-b782-03b92ba12468",
+                "title": "Pay less Customs Duty on goods from a country with a UK trade agreement",
+                "locale": "en",
+                "api_path": "/api/content/guidance/import-and-export-goods-using-preference-agreements",
+                "base_path": "/guidance/import-and-export-goods-using-preference-agreements",
+                "document_type": "detailed_guide",
+                "public_updated_at": "2021-11-11T09:43:42Z",
+                "schema_name": "detailed_guide",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/guidance/import-and-export-goods-using-preference-agreements",
+                "web_url": "https://www.gov.uk/guidance/import-and-export-goods-using-preference-agreements"
+            },
+            {
+                "content_id": "290ea266-a68c-4676-9cdb-e17d3c4fa547",
+                "title": "Rules of origin for goods moving between the UK and EU",
+                "locale": "en",
+                "api_path": "/api/content/government/collections/rules-of-origin-for-goods-moving-between-the-uk-and-eu",
+                "base_path": "/government/collections/rules-of-origin-for-goods-moving-between-the-uk-and-eu",
+                "document_type": "document_collection",
+                "public_updated_at": "2021-10-06T13:26:37Z",
+                "schema_name": "document_collection",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/government/collections/rules-of-origin-for-goods-moving-between-the-uk-and-eu",
+                "web_url": "https://www.gov.uk/government/collections/rules-of-origin-for-goods-moving-between-the-uk-and-eu"
+            },
+            {
+                "content_id": "476b3ecf-a7e4-4b5e-90f3-4c657048c828",
+                "title": "Claiming preferential rates of duty between the UK and EU",
+                "locale": "en",
+                "api_path": "/api/content/guidance/claiming-preferential-rates-of-duty-between-the-uk-and-eu",
+                "base_path": "/guidance/claiming-preferential-rates-of-duty-between-the-uk-and-eu",
+                "document_type": "detailed_guide",
+                "public_updated_at": "2022-01-04T13:28:28Z",
+                "schema_name": "detailed_guide",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/guidance/claiming-preferential-rates-of-duty-between-the-uk-and-eu",
+                "web_url": "https://www.gov.uk/guidance/claiming-preferential-rates-of-duty-between-the-uk-and-eu"
+            },
+            {
+                "content_id": "99188026-fa93-4850-a70b-a99fa00730af",
+                "title": "Use the UK Generalised Scheme of Preference to import goods",
+                "locale": "en",
+                "api_path": "/api/content/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods",
+                "base_path": "/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods",
+                "document_type": "detailed_guide",
+                "public_updated_at": "2021-02-04T15:49:12Z",
+                "schema_name": "detailed_guide",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods",
+                "web_url": "https://www.gov.uk/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods"
+            }
+        ],
+        "taxons": [
+            {
+                "content_id": "277fd1ce-61c3-46a4-9172-3101fda02111",
+                "title": "UK Trade Tariff and classification of goods",
+                "locale": "en",
+                "api_path": "/api/content/business/business-tax-import-export-uk-trade-tariff-and-classification-of-goods",
+                "base_path": "/business/business-tax-import-export-uk-trade-tariff-and-classification-of-goods",
+                "document_type": "taxon",
+                "public_updated_at": "2018-09-03T15:41:05Z",
+                "schema_name": "taxon",
+                "withdrawn": false,
+                "details": {
+                    "internal_name": "UK Trade Tariff and classification of goods [T]",
+                    "notes_for_editors": "",
+                    "visible_to_departmental_editors": false
+                },
+                "phase": "live",
+                "links": {
+                    "parent_taxons": [
+                        {
+                            "content_id": "5984199c-d85c-4ffc-b13a-c5f2482d2258",
+                            "title": "Customs declarations, duties and tariffs (import and export)",
+                            "locale": "en",
+                            "api_path": "/api/content/business-and-industry/customs-declarations-duties-tariffs",
+                            "base_path": "/business-and-industry/customs-declarations-duties-tariffs",
+                            "document_type": "taxon",
+                            "public_updated_at": "2018-09-07T09:44:16Z",
+                            "schema_name": "taxon",
+                            "withdrawn": false,
+                            "description": "",
+                            "details": {
+                                "internal_name": "Customs declarations, duties and tariffs (import and export)",
+                                "notes_for_editors": "",
+                                "visible_to_departmental_editors": false
+                            },
+                            "phase": "live",
+                            "links": {
+                                "parent_taxons": [
+                                    {
+                                        "content_id": "ed2ca1f7-5463-4eda-9324-b597e269e242",
+                                        "title": "Trade and investment",
+                                        "locale": "en",
+                                        "api_path": "/api/content/business-and-industry/trade-and-investment",
+                                        "base_path": "/business-and-industry/trade-and-investment",
+                                        "document_type": "taxon",
+                                        "public_updated_at": "2018-09-03T15:41:05Z",
+                                        "schema_name": "taxon",
+                                        "withdrawn": false,
+                                        "details": {
+                                            "internal_name": "Trade and investment",
+                                            "notes_for_editors": "",
+                                            "visible_to_departmental_editors": false
+                                        },
+                                        "phase": "live",
+                                        "links": {
+                                            "parent_taxons": [
+                                                {
+                                                    "content_id": "495afdb6-47be-4df1-8b38-91c8adb1eefc",
+                                                    "title": "Business and industry",
+                                                    "locale": "en",
+                                                    "api_path": "/api/content/business-and-industry",
+                                                    "base_path": "/business-and-industry",
+                                                    "document_type": "taxon",
+                                                    "public_updated_at": "2018-09-03T15:41:02Z",
+                                                    "schema_name": "taxon",
+                                                    "withdrawn": false,
+                                                    "description": "",
+                                                    "details": {
+                                                        "internal_name": "Business and industry",
+                                                        "notes_for_editors": "",
+                                                        "visible_to_departmental_editors": true
+                                                    },
+                                                    "phase": "live",
+                                                    "links": {
+                                                        "root_taxon": [
+                                                            {
+                                                                "content_id": "f3bbdec2-0e62-4520-a7fd-6ffd5d36e03a",
+                                                                "title": "GOV.UK homepage",
+                                                                "locale": "en",
+                                                                "api_path": "/api/content/",
+                                                                "base_path": "/",
+                                                                "document_type": "homepage",
+                                                                "public_updated_at": "2019-06-21T11:52:37Z",
+                                                                "schema_name": "homepage",
+                                                                "withdrawn": false,
+                                                                "links": {},
+                                                                "api_url": "https://www.gov.uk/api/content/",
+                                                                "web_url": "https://www.gov.uk/"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "api_url": "https://www.gov.uk/api/content/business-and-industry",
+                                                    "web_url": "https://www.gov.uk/business-and-industry"
+                                                }
+                                            ]
+                                        },
+                                        "api_url": "https://www.gov.uk/api/content/business-and-industry/trade-and-investment",
+                                        "web_url": "https://www.gov.uk/business-and-industry/trade-and-investment"
+                                    }
+                                ]
+                            },
+                            "api_url": "https://www.gov.uk/api/content/business-and-industry/customs-declarations-duties-tariffs",
+                            "web_url": "https://www.gov.uk/business-and-industry/customs-declarations-duties-tariffs"
+                        }
+                    ]
+                },
+                "api_url": "https://www.gov.uk/api/content/business/business-tax-import-export-uk-trade-tariff-and-classification-of-goods",
+                "web_url": "https://www.gov.uk/business/business-tax-import-export-uk-trade-tariff-and-classification-of-goods"
+            }
+        ],
+        "topics": [
+            {
+                "content_id": "4bda0be5-3e65-4cc1-850c-0541e95a40ca",
+                "title": "Import, export and customs for businesses",
+                "locale": "en",
+                "api_path": "/api/content/topic/business-tax/import-export",
+                "base_path": "/topic/business-tax/import-export",
+                "document_type": "topic",
+                "public_updated_at": "2022-03-31T12:51:21Z",
+                "schema_name": "topic",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/topic/business-tax/import-export",
+                "web_url": "https://www.gov.uk/topic/business-tax/import-export"
+            }
+        ],
+        "part_of_step_navs": [
+            {
+                "content_id": "b9347000-c726-4c3c-b76a-e52b6cebb3eb",
+                "title": "Export goods from the UK: step by step",
+                "locale": "en",
+                "api_path": "/api/content/export-goods",
+                "base_path": "/export-goods",
+                "document_type": "step_by_step_nav",
+                "public_updated_at": "2021-07-09T15:57:16Z",
+                "schema_name": "step_by_step_nav",
+                "withdrawn": false,
+                "details": {
+                    "step_by_step_nav": {
+                        "title": "Export goods from the UK: step by step",
+                        "steps": [
+                            {
+                                "title": "Check if you need to follow this process",
+                                "contents": [
+                                    {
+                                        "text": "Follow these steps if you're moving goods permanently from: ",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "choice",
+                                        "contents": [
+                                            {
+                                                "text": "England, Wales or Scotland (Great Britain) to a country outside the UK"
+                                            },
+                                            {
+                                                "text": "Northern Ireland to a country outside the UK and the EU"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "What you need to do is different if you are:",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "choice",
+                                        "contents": [
+                                            {
+                                                "href": "https://www.gov.uk/guidance/trading-and-moving-goods-in-and-out-of-northern-ireland-from-1-january-2021",
+                                                "text": "moving goods between Great Britain and Northern Ireland or Northern Ireland and the EU"
+                                            },
+                                            {
+                                                "href": "https://personal.help.royalmail.com/app/answers/detail/a_id/106",
+                                                "text": "sending goods through the post"
+                                            },
+                                            {
+                                                "href": "/take-goods-sell-abroad",
+                                                "text": "taking a small amount of goods personally to sell abroad"
+                                            },
+                                            {
+                                                "href": "/taking-goods-out-uk-temporarily",
+                                                "text": "taking goods temporarily out of the UK"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "https://www.great.gov.uk/advice/",
+                                                "text": "Learn about exporting, including making export plans, on great.gov.uk"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Check the rules for exporting your goods",
+                                "contents": [
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/check-duties-customs-exporting",
+                                                "text": "Check duties, rules and restrictions for your goods in the destination country"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "logic": "and",
+                                "title": "Apply for any licences you need to export your goods",
+                                "contents": [
+                                    {
+                                        "text": "There are special rules and you may need to get licences or certificates if you are exporting any of the following:",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "choice",
+                                        "contents": [
+                                            {
+                                                "href": "/government/collections/guidance-on-importing-and-exporting-live-animals-or-animal-products",
+                                                "text": "animals and animal products"
+                                            },
+                                            {
+                                                "href": "/government/collections/importing-and-exporting-plants-and-plant-products",
+                                                "text": "plants and plant products"
+                                            },
+                                            {
+                                                "href": "/guidance/export-drugs-and-medicines-special-rules",
+                                                "text": "drugs and medicines"
+                                            },
+                                            {
+                                                "href": "/guidance/export-medical-devices-special-rules",
+                                                "text": "medical devices"
+                                            },
+                                            {
+                                                "href": "/guidance/export-chemicals-licences-and-special-rules",
+                                                "text": "chemicals"
+                                            },
+                                            {
+                                                "href": "/guidance/applying-for-a-licence-to-import-or-export-ozone-depleting-substances",
+                                                "text": "ozone-depleting substances and F-gases"
+                                            },
+                                            {
+                                                "href": "/guidance/controls-on-radioactive-sources",
+                                                "text": "radioactive substances"
+                                            },
+                                            {
+                                                "href": "/guidance/export-diamonds-special-rules",
+                                                "text": "diamonds"
+                                            },
+                                            {
+                                                "href": "/guidance/export-art-antiques-and-cultural-goods-special-rules",
+                                                "text": "art works, antiques and culturally significant goods"
+                                            },
+                                            {
+                                                "href": "/guidance/importing-and-exporting-waste",
+                                                "text": "waste"
+                                            },
+                                            {
+                                                "href": "/guidance/controls-on-torture-goods",
+                                                "text": "goods that could be used for torture or capital punishment"
+                                            },
+                                            {
+                                                "href": "/guidance/firearms-and-export-control-forms",
+                                                "text": "firearms, ammunition and related equipment"
+                                            },
+                                            {
+                                                "href": "/guidance/export-controls-military-goods-software-and-technology",
+                                                "text": "military goods, services and technology"
+                                            },
+                                            {
+                                                "href": "/guidance/export-controls-dual-use-items-software-and-technology-goods-for-torture-and-radioactive-sources",
+                                                "text": "items that can have both civil and military uses"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Get your business ready to export",
+                                "contents": [
+                                    {
+                                        "text": "You need an EORI number that starts with GB to export goods from England, Wales or Scotland.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "text": "If you move goods to or from Northern Ireland you may need one that starts with XI.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/eori",
+                                                "text": "Get an EORI number"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/vat-registration/when-to-register",
+                                                "text": "Check if you need to register for VAT"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "There are processes that can make clearing customs quicker and easier to manage if you export goods regularly.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/using-simplified-declarations-for-exports",
+                                                "text": "Find out about using simplified declaration procedures"
+                                            },
+                                            {
+                                                "href": "/guidance/what-you-need-to-move-goods-between-or-through-common-transit-countries-including-the-eu",
+                                                "text": "Check if you can use Common Transit to move your goods"
+                                            },
+                                            {
+                                                "href": "/guidance/authorised-economic-operator-certification",
+                                                "text": "Check if Authorised Economic Operator status is right for you"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "logic": "and",
+                                "title": "Check whoever's receiving the goods can import them",
+                                "contents": [
+                                    {
+                                        "text": "The business or person receiving the goods to may need:",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "choice",
+                                        "contents": [
+                                            {
+                                                "text": "to make an import declaration in their country"
+                                            },
+                                            {
+                                                "text": "licences or certificates to receive goods from the UK"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "Check whoever you are sending the goods to is able to import them into their country.",
+                                        "type": "paragraph"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Decide who will make export declarations and transport the goods",
+                                "contents": [
+                                    {
+                                        "text": "You can hire someone to deal with customs and transport the goods for you, or you can do it yourself. ",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/appoint-someone-to-deal-with-customs-on-your-behalf",
+                                                "text": "Find out how to hire someone to deal with customs for you"
+                                            },
+                                            {
+                                                "href": "/export-customs-declaration",
+                                                "text": "Find out how to make export declarations yourself"
+                                            },
+                                            {
+                                                "href": "/transport-goods-from-uk-by-road",
+                                                "text": "Find out how to transport goods out of the UK by road"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Classify your goods",
+                                "contents": [
+                                    {
+                                        "text": "You must find the right commodity code to classify the goods you're exporting.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "text": "Your customs agent or transporter might be able to help you with this.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/finding-commodity-codes-for-imports-or-exports",
+                                                "text": "Find the right commodity code for your goods"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Prepare the invoice and other documentation for your goods",
+                                "contents": [
+                                    {
+                                        "text": "The completed invoice and any licences or certificates must travel with the goods.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "text": "When filling in the value of your goods on the invoice, use the price you’re selling them for. If you're not selling the goods, use the market value of the goods. List any freight or export insurance you included in the price separately.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "text": "You may need proof of origin if exporting to a country where your goods have a reduced or zero rate of duty.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/get-proof-of-origin-for-your-goods",
+                                                "text": "Get proof of origin for your goods"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "You might be able to zero rate the goods for VAT. This means you can charge your customers VAT at 0%.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/vat-on-goods-exported-from-the-uk-notice-703",
+                                                "text": "Check if you can zero rate the goods for VAT"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Get your goods through customs",
+                                "contents": [
+                                    {
+                                        "text": "If you've appointed someone to deal with UK customs for you, they'll make the declaration and get your goods through the UK border.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/export-customs-declaration",
+                                                "text": "Make an export declaration and get your goods cleared by UK customs"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "You may need other documentation to get your goods into the destination country. Ask the person or business buying your goods what information you need to provide.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/guidance/returning-goods-to-the-uk",
+                                                "text": "Check how to bring goods back into the UK if they were rejected for import at another country’s border"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Keep invoices and records",
+                                "contents": [
+                                    {
+                                        "text": "You must keep commercial invoices and any customs paperwork. ",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "text": "If you're VAT registered, record the goods in your VAT accounts even if they are zero-rated.",
+                                        "type": "paragraph"
+                                    },
+                                    {
+                                        "type": "list",
+                                        "contents": [
+                                            {
+                                                "href": "/vat-record-keeping/vat-account",
+                                                "text": "Find out how to record the goods in your VAT accounts"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "If you exported controlled goods, for example firearms, keep the paperwork that shows who owns the goods.",
+                                        "type": "paragraph"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "links": {
+                    "pages_part_of_step_nav": [
+                        {
+                            "content_id": "4c18d6f7-b0d2-47a5-b800-e8ad8d2241c2",
+                            "title": "Get proof of origin for your goods",
+                            "locale": "en",
+                            "api_path": "/api/content/guidance/get-proof-of-origin-for-your-goods",
+                            "base_path": "/guidance/get-proof-of-origin-for-your-goods",
+                            "document_type": "detailed_guide",
+                            "public_updated_at": "2022-01-01T00:15:14Z",
+                            "schema_name": "detailed_guide",
+                            "withdrawn": false,
+                            "links": {},
+                            "api_url": "https://www.gov.uk/api/content/guidance/get-proof-of-origin-for-your-goods",
+                            "web_url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods"
+                        }
+                    ]
+                },
+                "api_url": "https://www.gov.uk/api/content/export-goods",
+                "web_url": "https://www.gov.uk/export-goods"
+            }
+        ],
+        "government": [
+            {
+                "content_id": "d4fbc1b9-d47d-4386-af04-ac909f868f92",
+                "title": "2015 Conservative government",
+                "locale": "en",
+                "api_path": "/api/content/government/2015-conservative-government",
+                "base_path": "/government/2015-conservative-government",
+                "document_type": "government",
+                "details": {
+                    "started_on": "2015-05-08T00:00:00+00:00",
+                    "ended_on": null,
+                    "current": true
+                },
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/government/2015-conservative-government",
+                "web_url": "https://www.gov.uk/government/2015-conservative-government"
+            }
+        ],
+        "organisations": [
+            {
+                "content_id": "6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+                "title": "HM Revenue \u0026 Customs",
+                "locale": "en",
+                "analytics_identifier": "D25",
+                "api_path": "/api/content/government/organisations/hm-revenue-customs",
+                "base_path": "/government/organisations/hm-revenue-customs",
+                "document_type": "organisation",
+                "schema_name": "organisation",
+                "withdrawn": false,
+                "details": {
+                    "logo": {
+                        "crest": "hmrc",
+                        "formatted_title": "HM Revenue <br/>\u0026amp; Customs"
+                    },
+                    "brand": "hm-revenue-customs",
+                    "default_news_image": {
+                        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s300_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg",
+                        "high_resolution_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s960_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg"
+                    },
+                    "organisation_govuk_status": {
+                        "url": null,
+                        "status": "live",
+                        "updated_at": null
+                    }
+                },
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/government/organisations/hm-revenue-customs",
+                "web_url": "https://www.gov.uk/government/organisations/hm-revenue-customs"
+            }
+        ],
+        "original_primary_publishing_organisation": [
+            {
+                "content_id": "6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+                "title": "HM Revenue \u0026 Customs",
+                "locale": "en",
+                "analytics_identifier": "D25",
+                "api_path": "/api/content/government/organisations/hm-revenue-customs",
+                "base_path": "/government/organisations/hm-revenue-customs",
+                "document_type": "organisation",
+                "schema_name": "organisation",
+                "withdrawn": false,
+                "details": {
+                    "logo": {
+                        "crest": "hmrc",
+                        "formatted_title": "HM Revenue <br/>\u0026amp; Customs"
+                    },
+                    "brand": "hm-revenue-customs",
+                    "default_news_image": {
+                        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s300_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg",
+                        "high_resolution_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s960_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg"
+                    },
+                    "organisation_govuk_status": {
+                        "url": null,
+                        "status": "live",
+                        "updated_at": null
+                    }
+                },
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/government/organisations/hm-revenue-customs",
+                "web_url": "https://www.gov.uk/government/organisations/hm-revenue-customs"
+            }
+        ],
+        "parent": [
+            {
+                "content_id": "4bda0be5-3e65-4cc1-850c-0541e95a40ca",
+                "title": "Import, export and customs for businesses",
+                "locale": "en",
+                "api_path": "/api/content/topic/business-tax/import-export",
+                "base_path": "/topic/business-tax/import-export",
+                "document_type": "topic",
+                "public_updated_at": "2022-03-31T12:51:21Z",
+                "schema_name": "topic",
+                "withdrawn": false,
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/topic/business-tax/import-export",
+                "web_url": "https://www.gov.uk/topic/business-tax/import-export"
+            }
+        ],
+        "primary_publishing_organisation": [
+            {
+                "content_id": "6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+                "title": "HM Revenue \u0026 Customs",
+                "locale": "en",
+                "analytics_identifier": "D25",
+                "api_path": "/api/content/government/organisations/hm-revenue-customs",
+                "base_path": "/government/organisations/hm-revenue-customs",
+                "document_type": "organisation",
+                "schema_name": "organisation",
+                "withdrawn": false,
+                "details": {
+                    "logo": {
+                        "crest": "hmrc",
+                        "formatted_title": "HM Revenue <br/>\u0026amp; Customs"
+                    },
+                    "brand": "hm-revenue-customs",
+                    "default_news_image": {
+                        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s300_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg",
+                        "high_resolution_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/481/s960_HMRC_sign__media_library_-_alternative__GOVUK_960.jpg"
+                    },
+                    "organisation_govuk_status": {
+                        "url": null,
+                        "status": "live",
+                        "updated_at": null
+                    }
+                },
+                "links": {},
+                "api_url": "https://www.gov.uk/api/content/government/organisations/hm-revenue-customs",
+                "web_url": "https://www.gov.uk/government/organisations/hm-revenue-customs"
+            }
+        ],
+        "available_translations": [
+            {
+                "title": "Get proof of origin for your goods",
+                "public_updated_at": "2022-01-01T00:15:14Z",
+                "document_type": "detailed_guide",
+                "schema_name": "detailed_guide",
+                "base_path": "/guidance/get-proof-of-origin-for-your-goods",
+                "api_path": "/api/content/guidance/get-proof-of-origin-for-your-goods",
+                "withdrawn": false,
+                "content_id": "4c18d6f7-b0d2-47a5-b800-e8ad8d2241c2",
+                "locale": "en",
+                "api_url": "https://www.gov.uk/api/content/guidance/get-proof-of-origin-for-your-goods",
+                "web_url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods",
+                "links": {}
+            }
+        ]
+    },
+    "description": "Prove the origin of your goods if you’re trading with a country that has a trade agreement with the UK, or is covered by the Generalised Scheme of Preferences.",
+    "details": {
+        "body": " <div class=\"govspeak\"> <p>If you’re importing or exporting goods with a country that has a trade agreement with the UK, the goods are likely to have a reduced or nil rate of duty based on their origin. </p> <p>Unless the trade agreement says you do not need a proof of origin because the goods have been sent in a  <a href=\"https://www.gov.uk/government/publications/rules-of-origin-for-goods-moving-between-the-uk-and-eu/origin-procedures-proving-originating-status-and-claiming-preferential-treatment#rules-for-small-consignments-of-goods\" class=\"govuk-link\">small consignment </a>, you’ll need to: </p> <ul>   <li>prove to HMRC that you can claim preference for the goods you are importing </li>   <li>give the person receiving your goods evidence of the origin if they are not using  <a href=\"#importers-knowledge\" class=\"govuk-link\">importer’s knowledge </a>, so they can claim preference for them </li> </ul> <h2 id=\"check-what-type-of-proof-you-need\">Check what type of proof you need </h2> <p>The type of proof you need depends on: </p> <ul>   <li>the type of goods </li>   <li>where they’re being imported from, or exported to </li> </ul> <p>You can use the  <a href=\"https://www.gov.uk/trade-tariff\" class=\"govuk-link\">trade tariff tool </a> to check which of the different types of proof of origin you need. </p> <p>For developing nations, you can check the  <a href=\"https://www.gov.uk/government/publications/trading-with-developing-nations\" class=\"govuk-link\">Generalised Scheme of Preference </a> to make sure you provide the right type of evidence. </p> <p>This can be: </p> <ul>   <li>an EUR1 or EUR-MED movement certificate </li>   <li>an origin declaration </li>   <li>importers knowledge </li>   <li>a Generalised Scheme of Preferences form A </li> </ul> <p>The length of time a proof of origin will be valid for depends on the agreement and the type of proof. </p> <p>You need to note your proof of origin on your customs declaration. If you use customs warehousing, the goods must then be released to free circulation within 2 years to claim preference. </p> <p>If HMRC carries out a verification you will need supporting evidence that you were correct when making out a proof of origin. This evidence can be: </p> <ul>   <li>production records </li>   <li>invoices </li>   <li>accounting details </li>   <li>suppliers’ declarations </li> </ul> <h2 id=\"eur1-and-eur-med-movement-certificates\">EUR1 and EUR-MED movement certificates </h2> <h3 id=\"green-paper-certificates\">Green paper certificates </h3> <p>To get a green paper copy of a EUR1 or EUR-MED movement certificate, contact either your local: </p> <ul>   <li>Chambers of Commerce </li>   <li>office of the Institute of Chartered Shipbrokers </li> </ul> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You may be charged a fee for the certificate. </p> </div> <p>Due to coronavirus (COVID-19), HMRC can only issue original green paper EUR1 or EUR-MED movement certificates in cases where the customs authority in the country of destination: </p> <ul>   <li>requires a wet stamped certificate </li>   <li>does not accept PDF copies or digital versions </li> </ul> <p>Where easements are in place in the country you’re exporting to allow for PDF copy and digital certificates, complete the following online forms and email them to HMRC: </p> <ul>   <li>to claim preferential duty rates on goods exported to countries that have a preferential trading agreement with the EU — complete  <a href=\"https://www.gov.uk/government/publications/import-and-export-movement-certificate-eur1-c1299\" class=\"govuk-link\">EUR1 (C1299) </a> </li>   <li>to record preferential trade in goods between the UK and participating countries — complete  <a href=\"https://www.gov.uk/government/publications/import-and-export-movement-certificate-eur-med-c1300\" class=\"govuk-link\">EUR-MED (C1300) </a> </li> </ul> <p>1. Download and fill in the form — remember to include your company’s email address.  <br>2. Attach it to an email.  <br>3. In the email subject line use: </p> <ul>   <li>‘EUR1 endorsement’ if you’re sending a EUR1 (C1299) </li>   <li>‘EUR-MED endorsement’ if you’re sending a EUR-MED (C1300) </li> </ul> <p>4. Send your email to  <a href=\"mailto:NCH.Movements.Digital@hmrc.gov.uk\" class=\"govuk-link\">NCH.Movements.Digital@hmrc.gov.uk </a>. </p> <p>HMRC will check and verify your application. If appropriate, we will issue a plain PDF version back to your company’s email address within 48 hours. </p> <p>Once COVID-19 restrictions are lifted, your customer may ask you to send them an original certificate. HMRC can issue one to you, but you must give us evidence that the customs authority in the country of destination has specifically asked for it. You will need to email your request and evidence to:  <a href=\"mailto:NCH.Movements.Digital@hmrc.gov.uk\" class=\"govuk-link\">NCH.Movements.Digital@hmrc.gov.uk </a>. </p> <p>If the customer you’re exporting goods to cannot accept a PDF copy of the certificate and no other easements are being put in place by the customs authority in the country of destination, you can request a paper C1299 by using one of  <a href=\"https://www.gov.uk/government/organisations/hm-revenue-customs/contact/customs-international-trade-and-excise-enquiries\" class=\"govuk-link\">HMRC services </a>. You must send the completed form to: <br> <br>HM Revenue and Customs <br>NCH MICS Team (EUR1s) <br>Ralli Quays <br>3 Stanley Street <br>Salford <br>M60 9HL <br> </p> <p>You can also send the completed paper form to your local: </p> <ul>   <li>Chambers of Commerce </li>   <li>office of the Institute of Chartered Shipbrokers </li> </ul> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You may be charged a fee for the certificate. </p> </div> <h3 id=\"retrospective-eur1-or-eur-med-certificates\">Retrospective EUR1 or EUR-MED certificates </h3> <p>You can ask for a EUR1 or EUR-MED movement certificate retrospectively if the certificate was: </p> <ul>   <li>not issued at the time of exportation due to an error, oversight or special circumstance (such as a preferential rate of duty becoming available for the products from a retrospective date) </li>   <li>issued at the time of exportation, but could not be accepted at the time of importation for technical reasons (for example, it did not contain all necessary information) </li> </ul> <p>To request a certificate, contact the  <a href=\"https://www.gov.uk/government/organisations/hm-revenue-customs/contact/national-clearance-hub\" class=\"govuk-link\">National Clearance Hub </a> or your local: </p> <ul>   <li>Chambers of Commerce </li>   <li>office of the Institute of Chartered Shipbrokers </li> </ul> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You may be charged a fee for the certificate. </p> </div> <h3 id=\"if-the-certificate-is-lost-destroyed-or-stolen\">If the certificate is lost, destroyed or stolen </h3> <p>You can ask for a duplicate certificate from HMRC. You will need to declare in writing that you do not have the original but will surrender it immediately to us if it becomes available later. To request a certificate, contact the  <a href=\"https://www.gov.uk/government/organisations/hm-revenue-customs/contact/national-clearance-hub\" class=\"govuk-link\">National Clearance Hub </a> or your local: </p> <ul>   <li>Chambers of Commerce </li>   <li>office of the Institute of Chartered Shipbrokers </li> </ul> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You may be charged a fee for the certificate. </p> </div> <div class=\"call-to-action\"> <p>Pre-printed ‘duplicate’ or ‘copy’ certificates are sometimes issued at the same time as the original. You cannot use these to replace an original certificate. </p> </div> <h3 id=\"if-you-need-to-split-a-consignment\">If you need to split a consignment </h3> <p>You need to get a certificate for each part of the consignment you’ve split. This is known as a ‘replacement certificate’. </p> <p>It replaces all or part of the original certificate. </p> <p>To request a certificate, contact the  <a href=\"https://www.gov.uk/government/organisations/hm-revenue-customs/contact/national-clearance-hub\" class=\"govuk-link\">National Clearance Hub </a> or your local: </p> <ul>   <li>Chambers of Commerce </li>   <li>office of the Institute of Chartered Shipbrokers </li> </ul> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You may be charged a fee for the certificate. </p> </div> <p>You can find more information about  <a href=\"https://www.gov.uk/guidance/split-consignments-tariff-classification-and-import-procedures\" class=\"govuk-link\">importing goods under split consignments </a>. </p> <p>Also read about  <a href=\"https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin#if-the-goods-are-split-combined-or-changed-after-theyve-left-the-exporting-country\" class=\"govuk-link\">if the goods are split, combined or changed after they’ve left the exporting country </a>. </p> <h2 id=\"origin-declaration\">Origin declaration </h2> <p>You can make an origin declaration (also known as an ‘invoice declaration’ or ‘statement on origin’) on a commercial document that has enough detail in it to identify the origin of the goods. The document can be: </p> <ul>   <li>an invoice </li>   <li>a packing list </li>   <li>a delivery note </li> </ul> <p>If your commercial document does not have enough space to include all the information, you can include it on a separate letter-headed continuation paper. A letter-headed paper on its own will not be accepted. The commercial document and continuation paper must clearly refer to each other. </p> <p>You can claim preference for different goods on the same document. You’ll need to clearly identify and show the goods that are originating and non-originating. </p> <p>Origin declarations must be presented to HMRC within 2 years of the date your goods were imported. </p> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>You should check how long an origin declaration will remain valid in the relevant  <a href=\"https://www.gov.uk/government/collections/the-uks-trade-agreements\" class=\"govuk-link\">trade agreement </a>. </p> </div> <h3 id=\"if-the-trade-agreement-says-you-must-be-an-approved-exporter\">If the trade agreement says you must be an ‘approved exporter’ </h3> <p>Depending on the trade agreement, you may only be able to use an origin declaration for consignments over £5,400 if you have  <a href=\"https://www.gov.uk/government/publications/import-and-export-application-for-approved-exporter-status-c1454\" class=\"govuk-link\">applied for and received approved exporter status </a>. </p> <p>If you have approved exporter status you will not need to present the origin declaration to HMRC to be checked before exporting to: </p> <ul>   <li>customs </li>   <li>a Chamber of Commerce office </li>   <li>an Institute of Chartered Shipbrokers office </li> </ul> <p>To apply, you must prove to HMRC that: </p> <ul>   <li>you export or intend to export goods on a regular basis </li>   <li>the goods to be exported meet the relevant origin rules to qualify for the issue of preference documents </li>   <li>you will correctly complete the documents and take proper care of them </li> </ul> <p>If you’re an approved exporter, you can complete an origin declaration without a signature if you confirm in writing that you accept full responsibility for the declaration. You must have been given approval by HMRC (known as a ‘signature waiver’) to do this as part of getting approved exporter status. </p> <div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\"> <p>If you do not have a signature waiver approval from HMRC, you must sign your origin declaration. </p> </div> <h3 id=\"if-the-trade-agreement-does-not-mention-approved-exporter\">If the trade agreement does not mention ‘approved exporter’ </h3> <p>You can complete an origin declaration for consignments of any value, but you must include  <a href=\"https://www.gov.uk/eori\" class=\"govuk-link\">your EORI number </a> in the origin declaration. </p> <h2 id=\"importers-knowledge\">Importer’s knowledge </h2> <p>In some agreements, an importer can claim preference using knowledge they have about the origin of the goods they are importing. This is known as ‘importer’s knowledge’. This can be used instead of an origin declaration. </p> <p>You will need to have supporting documents or records which should cover: </p> <ul>   <li>the commodity code </li>   <li>a brief description of the production process (including the origin of the goods used) </li>   <li>if the origin was based on ‘wholly obtained’ — give category for the goods </li>   <li>if the origin was based on ‘sufficiently worked or processed’ give one of the following:     <ul>       <li>the value of the product as well as the value of all the non-originating or, as appropriate to establish compliance with the value requirement, originating materials used in the production </li>       <li>the weight of the product as well as the weight of the relevant non-originating or, as appropriate to establish compliance with the weight requirement, originating materials used in the product </li>       <li>a list of all the non-originating materials including their commodity code (in 2, 4 or 6 digit format depending on the origin criteria) </li>     </ul>   </li>   <li>if the goods have been altered or transformed </li>   <li>any additional information that will help verify the origin of the goods, if HMRC asks for it </li> </ul> <p>If you or the person receiving your goods cannot give this information for commercial reasons you should use an  <a href=\"#origin-declaration\" class=\"govuk-link\">origin declaration </a>. </p> <h2 id=\"generalised-scheme-of-preferences-form-a\">Generalised Scheme of Preferences form A </h2> <p>Only use a  <a href=\"https://www.gov.uk/guidance/completing-generalised-scheme-of-preferences-form-a\" class=\"govuk-link\">Generalised Scheme of Preferences form A </a> if you’re importing goods from countries covered by the UK Generalised Scheme of Preferences. </p> <h2 id=\"suppliers-declarations\">Suppliers’ declarations </h2> <p>Suppliers’ declarations are where your supplier gives you information you need to prove the origin of your goods for preferential trade between the UK and other countries. </p> <p>Find out  <a href=\"https://www.gov.uk/guidance/using-a-suppliers-declaration-to-support-a-proof-of-origin\" class=\"govuk-link\">how to use a supplier’s declaration as proof of origin </a>. </p> <h2 id=\"discrepancies-and-obvious-errors\">Discrepancies and obvious errors </h2> <p>If there is a small difference between an origin declaration and the documents submitted to the customs office for imported goods, the origin declaration will be accepted as long as it is clear that the information in it agrees with the goods that have been submitted. </p> <p>Obvious mistakes in origin declarations will be accepted, as long as the information in the declaration does not suggest that the statements in it are wrong. </p> </div>",
+        "tags": {
+            "topics": [
+                "4bda0be5-3e65-4cc1-850c-0541e95a40ca"
+            ],
+            "browse_pages": []
+        },
+        "political": false,
+        "attachments": [
+            {
+                "id": "6267405",
+                "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940371/Certificate_of_origin_-_FORM_A.pdf",
+                "title": "General System of Preferences Form A",
+                "filename": "Certificate_of_origin_-_FORM_A.pdf",
+                "file_size": 27239,
+                "accessible": false,
+                "content_type": "application/pdf",
+                "attachment_type": "file",
+                "number_of_pages": 2,
+                "alternative_format_contact_email": "different.format@hmrc.gov.uk"
+            }
+        ],
+        "change_history": [
+            {
+                "note": "The maximum value threshold for making origin declarations without approved exporter status has been reduced from £5,500 to £5,400.",
+                "public_timestamp": "2022-01-01T00:15:14.000+00:00"
+            },
+            {
+                "note": "Information about using the trade tariff tool to check which of the different types of proof of origin you need. The section about issuing green paper EUR1 and EUR-MED movement certificates has been updated.",
+                "public_timestamp": "2021-11-12T15:17:13.000+00:00"
+            },
+            {
+                "note": "The amount for when you may be able to use an origin declaration for consignments if you have applied and received approved exporter status has been changed from £5,700 to £5,500.",
+                "public_timestamp": "2021-03-01T11:28:19.000+00:00"
+            },
+            {
+                "note": "The origin declaration section has been updated to clarify that you need to clearly identify the goods that are originating and non-originating when claiming preference.",
+                "public_timestamp": "2021-01-26T08:46:03.000+00:00"
+            },
+            {
+                "note": "Additional information about origin declarations and when you must be an 'approved exporter'.",
+                "public_timestamp": "2020-12-23T11:38:25.000+00:00"
+            },
+            {
+                "note": "First published.",
+                "public_timestamp": "2020-12-01T01:00:00.000+00:00"
+            }
+        ],
+        "first_public_at": "2020-12-01T01:00:00.000+00:00",
+        "emphasised_organisations": [
+            "6667cce2-e809-4e21-ae09-cb0bdc1ddda3"
+        ],
+        "related_mainstream_content": []
+    }
+}

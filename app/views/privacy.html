@@ -1,0 +1,129 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Privacy notice for " + context.title_in_sentence,
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+    Privacy notice for {{ context.title_in_sentence }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">{{ context.title }}</span>
+            <h1 class="govuk-heading-l">Privacy notice</h1>
+
+            {% include "includes/scope_switcher_panel.html" %}
+            
+            <p class="govuk-body-l">This notice sets out how we will use your personal data, and your rights. It is made under Articles 13 and/or 14 of the General Data Protection Regulation (GDPR).</p>
+
+            <h2 class="govuk-heading-m">How we use your data</h2>
+
+            <p class="govuk-body">The purposes for which we are processing your personal data are to:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>provide online support to users of the '{{ context.title }}' service</li>
+                <li>collect web analytics to help us to monitor usage of our service for the purposes of improving it</li>
+            </ul>
+
+            <h2 class="govuk-heading-m">The data we will process</h2>
+            <p class="govuk-body">For web analytics:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>cookie identifiers</li>
+                <li>how you got to our service</li>
+                <li>which links you click</li>
+                <li>time spent on the service</li>
+            </ul>
+            <p class="govuk-body">For online and telephone support:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>name</li>
+                <li>email address</li>
+                <li>telephone number</li>
+                <li>details of your support issue</li>
+            </ul>
+
+            <h2 class="govuk-heading-m">The legal basis of using your data</h2>
+            <p class="govuk-body">The legal basis for processing your personal data is:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>For web analytics: because you consent to us doing so.</li>
+            </ul>
+
+            <h2 class="govuk-heading-m">Who we share your data with</h2>
+            <p class="govuk-body">Your personal data will be shared by us with our IT suppliers who provide web hosting and web analytics services.</p>
+            <p class="govuk-body">Your data will be shared with HMRC if you need online support.</p>
+
+            <h2 class="govuk-heading-m">Data security</h2>
+
+            <p>We have put in place measures to protect the security of your information.</p>
+
+            <p>Our third-party service providers will only process your personal information on our instructions or with our agreement, and where they have agreed to treat the information confidentially and to keep it secure.</p>
+
+            <p>We treat the security of your data very seriously. We have strict security standards, and all our staff and other people who process personal data on our behalf get regular training about how to keep information safe.</p>
+
+            <p>We have put in place appropriate technical, physical and managerial procedures to safeguard and secure the information we collect about you.</p>
+
+            <p>In addition, we limit access to your personal information to those persons, or agents who have a business or legal need to do so.</p>
+
+            <p>We have taken measures to make sure an adequate level of security for personal information processed via our website.</p>
+
+            <p>We have put in place procedures to deal with any suspected data security breach and will notify you and the regulator of a suspected breach where we are legally required to do so.</p>
+
+            <h2 class="govuk-heading-m">Data retention</h2>
+            <p class="govuk-body">Your personal data will be kept by us for as long as needed to provide you with support where you request it.</p>
+
+            <h2 class="govuk-heading-m">Your rights</h2>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>You have the right to withdraw consent to the processing of your personal data at any time where it is processed under consent.</li>
+                <li>You have the right to object to the processing of your personal data.</li>
+                <li>You have the right to request information about how your personal data is processed, and to request a copy of that personal data.</li>
+                <li>You have the right to request a copy of any personal data you have provided, and for this to be provided in a structured, commonly used and machine-readable format.</li>
+                <li>You have the right to request that any inaccuracies in your personal data are rectified without delay.</li>
+                <li>You have the right to request that any incomplete personal data are completed, including by means of a supplementary statement.</li>
+                <li>You have the right to request that your personal data is erased if there is no longer a justification for it to be processed.</li>
+                <li>You have the right in certain circumstances (for example, where accuracy is contested) to request that the processing of your personal data is restricted.</li>
+            </ul>
+
+            <h2 class="govuk-heading-m">International transfers</h2>
+            <p class="govuk-body">As your personal data is shared with our web analytics provider, it may be transferred and stored securely outside the UK. Where that is the case it will be subject to equivalent legal protection through the use of Standard Contract Clauses.</p>
+
+            <h2 class="govuk-heading-m">Complaints</h2>
+            <p>HMRC has appointed a Data Protection Officer (<abbr title="Data Protection Officer">DPO</abbr>), Nicholas de Lacy-Brown, to oversee compliance with its data protection obligations.</p>
+
+            <p>If you have any questions about this privacy notice or how HMRC handles your personal information, email the <abbr title="Data Protection Officer">DPO</abbr> at: <a href="mailto:advice.dpa@hmrc.gov.uk" class="govuk-link">advice.dpa@hmrc.gov.uk</a>.</p>
+
+            <p>You can read more about how the <abbr title="Data Protection Officer">DPO</abbr> handles your personal information in our <a href="https://www.gov.uk/government/publications/hmrc-office-of-the-data-protection-officer-privacy-notice" class="govuk-link">Office of the Data Protection Officer Privacy Notice</a>.</p>
+
+            <p>If you want to request a copy of your personal data follow HMRC’s <a href="https://www.gov.uk/guidance/hmrc-subject-access-request" class="govuk-link">subject access request guidance</a>.</p>
+
+            <p>You should follow the existing complaints process if you want to <a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/complain-about-hmrc" class="govuk-link">complain about HMRC</a>.</p>
+
+            <p>You also have the right to make a complaint at any time to the Information Commissioner’s Office (<abbr title="Information Commissioner">ICO</abbr>), the UK supervisory authority for data protection issues.</p>
+
+            <p class="govuk-body">If you consider that your personal data has been misused or mishandled, you may make a complaint to the Information Commissioner, who is an independent regulator.</p>
+            <p class="govuk-body">The Information Commissioner can be contacted at:</p>
+
+            <p class="govuk-body">Information Commissioner's Office<br>
+                    Wycliffe House<br>
+                    Water Lane<br>
+                    Wilmslow<br>
+                    Cheshire SK9 5AF<br><br>
+                    Telephone: 0303 123 1113<br>
+                    Email: <a href="mailto:casework@ico.org.uk" rel="noopener noreferrer">casework@ico.org.uk</a>
+            </p>
+
+            <p class="govuk-body">Any complaint to the Information Commissioner is without prejudice to your right to seek redress through the courts.</p>
+        </div>
+    </div>
+{% endblock %}

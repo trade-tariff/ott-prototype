@@ -1,0 +1,213 @@
+{
+    "action_code_overlays": [
+        {
+            "action_code": "01",
+            "overlay": "Apply duty: "
+        }
+    ],
+    "condition_code_overlays": [
+        {
+            "condition_code": "A",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "duty_expression",
+                    "label": "Apply duty"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "B",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "C",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "E",
+            "overlay": "The quantity or the price per unit declared, as appropriate, is equal or less than the specified maximum, or presentation of the required document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "H",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "I",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "Q",
+            "overlay": "Presentation of a certificate, licence or document",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        },
+        {
+            "condition_code": "V",
+            "overlay": "Import price must be equal to or greater than the entry price",
+            "intro_text": "This commodity is subject to the Entry Price System ('EPS'), which is a variable tariff mechanism applying to certain fruits and vegetables. Under the <abbr title='Entry Price System'>EPS</abbr>, a specific duty is charged in addition to the ad valorem duty, whenever the price at which the goods are imported is below a pre-determined entry price. The specific duty varies depending on the difference between the entry price and the import price of the goods.",
+            "subtext_single": "",
+            "subtext_multiple": "",
+            "requirement_prefix": "Greater than or equal to ",
+            "columns": [
+                {
+                    "field": "requirement",
+                    "label": "Import price"
+                },
+                {
+                    "field": "duty_expression",
+                    "label": "Apply duty"
+                }
+            ],
+            "show_5a5b": false
+        },
+        {
+            "condition_code": "Y",
+            "overlay": "",
+            "intro_text": "",
+            "subtext_single": "You must meet this condition.",
+            "subtext_multiple": "You must meet one of these conditions.",
+            "requirement_prefix": "",
+            "columns": [
+                {
+                    "field": "document_code",
+                    "label": "Document code"
+                },
+                {
+                    "field": "requirement",
+                    "label": "Requirement"
+                },
+                {
+                    "field": "action",
+                    "label": "Action"
+                }
+            ],
+            "show_5a5b": true
+        }
+    ]
+}

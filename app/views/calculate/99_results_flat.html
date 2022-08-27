@@ -1,0 +1,647 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Import duty calculation</h1>
+      {# <h2 class="govuk-heading-s">Questions</h1>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>Sequence of calculation - is it the case that VAT is applied on top of import price and excise?</li>
+        <li>Excise - Why are there wine duties on a beer commodity?</li>
+        <li>Excise - why are fuel duties so vague? 2710192500</li>
+        <li></li>
+      </ul> #}
+      <p>You are importing commodity <a href="/commodities/{{ commodity.goods_nomenclature_item_id }}">
+          <strong>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}</a>
+        </strong> from <strong>{{ commodity.country_name }}</strong> on <strong>03 Jun 2021</strong>.</p>
+
+      <details class="govuk-details import_summary" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Details of your trade</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl>
+            <dt>Origin:</dt>
+            <dd>{{ commodity.country_name }}&nbsp;</dd>
+
+            <dt>Commodity:</dt>
+            <dd>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}<br>
+              {{ commodity.description | safe }}</dd>
+
+            <dt>Import date:</dt>
+            <dd>1 Jan 2021&nbsp;</dd>
+
+            <dt>Valuation for import:</dt>
+            <dd>£2,000.00&nbsp;</dd>
+          </dl>
+        </div>
+      </details>
+
+      <!-- Start navigation //-->
+      <nav>
+        <p class="govuk-body govuk-!-margin-bottom-3">You have a number of options to reduce duties applicable on this import</p>
+
+        <ul class="app-contents govuk-!-margin-bottom-9">
+
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_103">Option 1: Pay third country duty</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_142">Option 2: Tariff preference with Albania</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_143">Option 3: Use quota 05.1234</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_112">Option 4: Use autonomous tariff suspension</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_696">Variation: Safeguards</a>
+          </li>
+          <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#measure_type_552">Variation: Trade remedies</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End navigation //-->
+
+      {# 112	EN	Autonomous tariff suspension
+      115	EN	Autonomous suspension under end-use
+      117	EN	Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms
+      119	EN	Airworthiness tariff suspension #}
+
+      <!-- Start results //-->
+      <h2 id="measure_type_103" class="govuk-heading-m">Option 1 - Pay third-country duty</h2>
+      <p class="govuk-body">Some words about the basic third-country duty.</p>
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Third country duty</span>"
+            },
+            {
+              text: "10% * £1,500.00"
+            },
+            {
+              text: "£150.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          {# [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,650.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£330.00",
+              classes: "r vat_row"
+            }
+          ], #}
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£480.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+      <h2 id="measure_type_142" class="govuk-heading-m">Option 2 - Tariff preference with Albania</h2>
+      <p class="govuk-body">To take advantage of a tariff preference, you will need to 
+      provide proof of origin, in order to guarantee that the goods originate in Albania, according
+      to the specified Rules of Origin.</p>
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Tariff preference</span>"
+            },
+            {
+              text: "0% * £1,500.00"
+            },
+            {
+              text: "£0.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,500.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£300.00",
+              classes: "r vat_row"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£300.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+      <h2 id="measure_type_143" class="govuk-heading-m">Option 3 - Use quota 05.1234</h2>
+      <h3 class="govuk-heading-s">If the quota is FCFS</h3>
+      <p class="govuk-body">You can utilise quota 05.1234 to reduce your import duties if there is sufficient
+      volume remaining in the quota. At the start of today, the quota balance was 3,400,000 litres. To
+      take advantage of this quota, ensure that you or your agent indicate this requirement on your import declaration.</p>
+      
+      <h3 class="govuk-heading-s">Or if the quota is a licenced quota</h3>
+      <p class="govuk-body">You can utilise quota 05.1234 to reduce your import duties. Information on the
+      availability of this quota can be obtained from the Rural Payments Agency. To
+      take advantage of this quota, ensure that you or your agent indicate this requirement on your import declaration.</p>
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Tariff preference</span>"
+            },
+            {
+              text: "0% * £1,500.00"
+            },
+            {
+              text: "£0.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,500.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£300.00",
+              classes: "r vat_row"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£300.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+      <h2 id="measure_type_112" class="govuk-heading-m">Option 4 - Use autonomous tariff suspension</h2>
+      <p class="govuk-body">You can use an autonomous tariff suspension if you do ..</p>
+      
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Autonomous tariff suspension</span>"
+            },
+            {
+              text: "0% * £1,500.00"
+            },
+            {
+              text: "£0.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,500.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£300.00",
+              classes: "r vat_row"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£300.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+      <h2 id="measure_type_696" class="govuk-heading-m">Variation - Third country duty with steel safeguard</h2>
+      <p class="govuk-body">Where additional duties (safeguard) apply, you may be able to to 
+      reduce or remove the duty by applying to use a quota.</p>
+      
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Third country duty</span>"
+            },
+            {
+              text: "0% * £1,500.00"
+            },
+            {
+              text: "£0.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Additional duties (safeguard)</span>"
+            },
+            {
+              text: "25% * £1,500.00"
+            },
+            {
+              text: "£375.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,875.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£375.00",
+              classes: "r vat_row"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£750.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+      <h2 id="measure_type_552" class="govuk-heading-m">Variation - Third country duty where trade remedies apply</h2>
+      <p class="govuk-body">Your import may be subject to additional anti-dumping or anti-subsidy (countervailing)
+      duties depending on the company from which you intend to import. Please review the
+      commodity code page for <a href='/commodities/0101210000'>commodity 0123456789</a> to see which additional duties apply.</p>
+      
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data"
+          },
+          {
+            text: "Calculation"
+          },
+          {
+            text: "Value",
+            classes: "r"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Third country duty</span>"
+            },
+            {
+              text: "0% * £1,500.00"
+            },
+            {
+              text: "£0.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              text: "Excise duty",
+              classes: "excise_row"
+            },
+            {
+              text: "n/a",
+              classes: "excise_row"
+            },
+            {
+              text: "£0.00",
+              classes: "r excise_row"
+            }
+          ],
+          [
+            {
+              xhtml: "<abbr title='Value-added tax'>VAT</abbr> <span class='grey'>(calculated on the total of the CIF import value, import duties and excise)</span>",
+              html: "<abbr title='Value-added tax'>VAT</abbr>",
+              classes: "vat_row"
+            },
+            {
+              text: "20% * £1,875.00",
+              classes: "vat_row"
+            },
+            {
+              text: "£375.00",
+              classes: "r vat_row"
+            }
+          ],
+          [
+            {
+              html: "Duty total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£750.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

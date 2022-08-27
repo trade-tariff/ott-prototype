@@ -1,0 +1,78 @@
+{
+    "size": 5000,
+    "explain": false,
+    "track_total_hits": true,
+    "sort": {},
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "search_term",
+                        "minimum_should_match": "1",
+                        "analyzer": "complex_synonyms",
+                        "type": "best_fields",
+                        "fuzziness": "0",
+                        "prefix_length": 2,
+                        "tie_breaker": 0.3,
+                        "fields": [
+                            "xterms.chunks",
+                            "xterms.nouns",
+                            "xterms.adjectives",
+                            "search_references^12",
+                            "chapter^10",
+                            "heading^8",
+                            "description.exact^6",
+                            "description_indexed^6",
+                            "goods_nomenclature_item_id",
+                            "ancestor_2",
+                            "ancestor_3",
+                            "ancestor_4",
+                            "ancestor_5",
+                            "ancestor_6",
+                            "ancestor_7^2",
+                            "ancestor_8^3",
+                            "ancestor_9^4",
+                            "ancestor_10^5",
+                            "filter*"
+                        ]
+                    }
+                },
+                {
+                    "match": {
+                        "class": {
+                            "query": "commodity"
+                        }
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "multi_match": {
+                        "query": "dog food",
+                        "minimum_should_match": "1",
+                        "analyzer": "complex_synonyms",
+                        "type": "best_fields",
+                        "fields": [
+                            "search_references^12",
+                            "chapter^10",
+                            "heading^8",
+                            "description.exact^6",
+                            "description_indexed^6",
+                            "goods_nomenclature_item_id",
+                            "ancestor_2",
+                            "ancestor_3",
+                            "ancestor_4",
+                            "ancestor_5",
+                            "ancestor_6",
+                            "ancestor_7^2",
+                            "ancestor_8^3",
+                            "ancestor_9^4",
+                            "ancestor_10^5"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

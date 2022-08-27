@@ -1,0 +1,3 @@
+Article ORIG.28: Administrative measures and sanctions
+
+Each Party shall ensure the effective enforcement of this Chapter. Each Party shall ensure that the competent authorities are able to impose administrative measures, and, where appropriate, sanctions, in accordance with its laws and regulations, on any person who draws up a document, or causes a document to be drawn up, which contains incorrect information that was provided for the purpose of obtaining a preferential tariff treatment for a product, who does not comply with the requirements set out in Article ORIG.22 [Record-keeping requirements], or who does not provide the evidence, or refuses to submit to a visit, as referred to in Article ORIG.25(3) [Administrative cooperation].

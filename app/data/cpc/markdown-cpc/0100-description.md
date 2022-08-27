@@ -1,0 +1,3 @@
+The use of this procedure code is a declaration by the importer that the conditions laid down in Council Regulation (EU) No. 952/2013, Commission Delegated Regulation (EU) No. 2015/2446 and Commission Implementing Regulation (EU) No. 2015/2447 are met.
+
+Release for free circulation of goods simultaneously re-dispatched to a Special Fiscal Territory or other territory with which the EU has formed a Customs Union and where the goods have not been subject to any previous procedure.

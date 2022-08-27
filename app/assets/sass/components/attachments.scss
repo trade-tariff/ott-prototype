@@ -1,0 +1,15 @@
+.attachments {
+    display: flex;
+
+    div {
+        margin-right: 2em;
+    }
+
+    h2 {margin:0px}
+
+
+    img {
+        filter: drop-shadow(2px 2px 2px #333);
+        max-width:120px;
+    }
+}

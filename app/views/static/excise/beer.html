@@ -1,0 +1,239 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/" + context.scope_id + "/sections/"
+    },
+    {
+      text: "Excise",
+      href: "/static/excise"
+    },
+    {
+      text: "Excise on beer",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Excise on beer - The Online Trade Tariff
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Excise</span>
+            <h1 class="govuk-heading-l">Excise on beer</h1>
+
+
+<h2 id="beer"><span class="number">3. </span>Beer</h2>
+
+<table id="beer">
+  <thead>
+    <tr>
+      <th scope="col">Class or description</th>
+      <th scope="col">Tax type code</th>
+      <th scope="col">Rate of Excise Duty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Made in UK (standard rate, that is, annual production more than 60,000 hectolitres)</td>
+      <td>407</td>
+      <td>£19.08 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Imported beer (that is, annual production more than 60,000 hectolitres)</td>
+      <td>473</td>
+      <td>£19.08 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Made in UK – small brewery beer eligible to reduced rates (variable rate, that is, annual production more than 5,000 hectolitres but not exceeding for 60,000 hectolitres)</td>
+      <td>440</td>
+      <td>£9.54 to £19.08 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Imported beer – small brewery beer eligible to reduced rates (variable rate, that is, annual production more than 5,000 hectolitres but not exceeding for 60,000 hectolitres)</td>
+      <td>441</td>
+      <td>£9.54 to £19.08 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% 	(and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Made in UK – small brewery beer eligible to reduced rates (variable rate, that is, annual production no more than 5,000 hectolitres)</td>
+      <td>442</td>
+      <td>£9.54 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Imported Beer – small brewery beer eligible to reduced rates (variable rate, that is, annual production no more than 5,000 hectolitres)</td>
+      <td>443</td>
+      <td>£9.54 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>If total alcohol by volume does not exceed 1.2%</td>
+      <td>431</td>
+      <td>Nil</td>
+    </tr>
+    <tr>
+      <td>Made in UK – High Strength Beer Duty (applies to beer exceeding 7.5% <abbr title="alcohol by volume">abv</abbr> – general beer duty is also due on all UK produced high strength beer)</td>
+      <td>445</td>
+      <td>£5.69 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Imported beer – High Strength Beer Duty (applies to beer exceeding 7.5% <abbr title="alcohol by volume">abv</abbr> – general beer duty is also due on all imported high strength beer)</td>
+      <td>447</td>
+      <td>£5.69 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Made in UK – reduced rate of general beer duty (applies to beer exceeding 1.2% <abbr title="alcohol by volume">abv</abbr> but not exceeding 2.8% <abbr title="alcohol by volume">abv</abbr>)</td>
+      <td>444</td>
+      <td>£8.42 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+    <tr>
+      <td>Imported beer – reduced rate of general beer duty (applies to beer exceeding 1.2% <abbr title="alcohol by volume">abv</abbr> but not exceeding 2.8% <abbr title="alcohol by volume">abv</abbr>)</td>
+      <td>446</td>
+      <td>£8.42 for each hectolitre per 1% <abbr title="alcohol by volume">abv</abbr> charged to the nearest 0.1% (and the respective proportionate charges for parts of hectolitres)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div role="note" aria-label="Information" class="application-notice info-notice">
+<p>Reduced rates of duty were introduced from 1 June 2002 for beer produced by independent breweries producing no more than 30,000 hectolitres. For breweries producing between 5 and 30,000 hectolitres, the following arithmetical formula is used to calculate the rate of duty.</p>
+</div>
+
+<p>(Annual production – 2,500) ÷ annual production x standard rate of duty at the time concerned. This must be rounded up to the nearest penny.</p>
+
+<p>Reduced rates of duty were also introduced from 1 June 2004 for beer produced by independent breweries producing between 30,000 and 60,000 hectolitres.</p>
+
+<p>The following arithmetical formula is used to calculate the rate of duty for these breweries.</p>
+
+<p>(Annual production – (2,500 – 8.3% of annual production in excess of 30,000 hectolitres)) x standard rate of duty at the time concerned ÷ annual production.</p>
+
+<p>This must be rounded up to the nearest penny.</p>
+
+
+
+            
+            <p>Chapter 22 of the Customs Tariff, covers ‘BEVERAGES, SPIRITS AND VINEGAR’, and is initially divided as follows:</p>
+            <h2 class="govuk-heading-m">2203 Beer made from malt</h2>
+            <ul>
+                <li>2203 00 01 - In containers holding 10 litres or less</li>
+                <li>2203 00 10 - In containers holding more than 10 litres</li>
+            </ul>
+            <p><a href="/headings/2203">Go to heading 2203</a></p>
+            <p>When it comes to the rate of excise duty on beer, you will need to know the annual production, as indicated in the table below:</p>
+
+
+            <h3 class="govuk-heading-s">Large brewery with an annual production of 60,000 Hectolitres or more</h3>
+            <table class="govuk-table">
+                <!-- Table Header Row -->
+                <tbody>
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Drink Strength (ABV%)</th>
+                        <th scope="col" class="govuk-table__header">Tax Code</th>
+                        <th scope="col" class="govuk-table__header">Rate of Excise Due*</th>
+                    </tr>
+                    <!-- Table Body -->
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Up to 1.2%</td>
+                        <td class="govuk-table__cell">431</td>
+                        <td class="govuk-table__cell">£0.00 - nil</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Between 1.2% and 2.8%</td>
+                        <td class="govuk-table__cell">446</td>
+                        <td class="govuk-table__cell">£8.10</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Between 2.8% and 7.5%</td>
+                        <td class="govuk-table__cell">473</td>
+                        <td class="govuk-table__cell">£18.37</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Exceeding 7.5% - High Strength Surcharge</td>
+                        <td class="govuk-table__cell">447</td>
+                        <td class="govuk-table__cell">£5.48</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="govuk-heading-s">Micro brewery with an annual production of less than 5,000 Hectolitres</h3>
+            <table class="govuk-table">
+                <!-- Table Header Row -->
+                <tbody>
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Drink Strength (ABV%)
+                        </th>
+                        <th scope="col" class="govuk-table__header">Tax Code</th>
+                        <th scope="col" class="govuk-table__header">Rate of Excise Due*</th>
+                    </tr>
+                    <!-- Table Body -->
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Up to 1.2%</td>
+                        <td class="govuk-table__cell">431</td>
+                        <td class="govuk-table__cell">£0.00 - nil</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Between 1.2% and 2.8%</td>
+                        <td class="govuk-table__cell">446</td>
+                        <td class="govuk-table__cell">£8.10</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Exceeding 2.8%</td>
+                        <td class="govuk-table__cell">443</td>
+                        <td class="govuk-table__cell">£9.19</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">If exceed. 7.5% - High Strength Surcharge</td>
+                        <td class="govuk-table__cell">447</td>
+                        <td class="govuk-table__cell">£5.48</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                <strong>Small sized brewery with an annual production of more than 5,000 Hectolitres but less than 60,000 HL</strong>
+            </p>
+            <table class="govuk-table">
+                <!-- Table Header Row -->
+                <tbody>
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Drink Strength (ABV%)
+                        </th>
+                        <th scope="col" class="govuk-table__header">Tax Code</th>
+                        <th scope="col" class="govuk-table__header">Rate of Excise Due*</th>
+                    </tr>
+                    <!-- Table Body -->
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Up to 1.2%</td>
+                        <td class="govuk-table__cell">431</td>
+                        <td class="govuk-table__cell">£0.00 - nil</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Between 1.2% and 2.8%</td>
+                        <td class="govuk-table__cell">446</td>
+                        <td class="govuk-table__cell">£8.10</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">Exceeding 2.8% and 7.5%</td>
+                        <td class="govuk-table__cell">441</td>
+                        <td class="govuk-table__cell">£variable</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">If exceed. 7.5% - High Strength Surcharge</td>
+                        <td class="govuk-table__cell">447</td>
+                        <td class="govuk-table__cell">£5.48</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                * the rates shown above are as per the new rates implemented on the 21st March 2016, and are based on the percentage of alcohol
+            </p>
+
+        </div>
+    </div>
+{% endblock %}

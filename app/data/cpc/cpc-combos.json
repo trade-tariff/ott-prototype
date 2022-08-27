@@ -1,0 +1,1255 @@
+[
+    {
+        "request_code": "01",
+        "active": true,
+        "sequence": 2,
+        "description": "Declaration for release for Free Circulation; Special procedure; Specific use; and End-use",
+        "label": "My goods are being sent to another EU country",
+        "hint": "Release them into free circulation and send on to another customs union territory",
+        "previous_codes": [
+            {
+                "code": "0100",
+                "description": "Free circulation with onward dispatch",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "1BN",
+                    "1CD",
+                    "1CG",
+                    "1CL",
+                    "1ES",
+                    "1SC",
+                    "63P"
+                ]
+            },
+            {
+                "code": "0121",
+                "description": "Re-import after outward processing (OP) with onward dispatch",
+                "label": "",
+                "union_apcs": [
+                    "B02",
+                    "B03",
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "0151",
+                "description": "Release to free circulation after inward processing (IP) with onward dispatch",
+                "label": "",
+                "union_apcs": [
+                    "A04",
+                    "F06",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG"
+                ]
+            },
+            {
+                "code": "0153",
+                "description": "Release to free circulation after temporary admission (TA) with onward dispatch",
+                "label": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG"
+                ]
+            },
+            {
+                "code": "0154",
+                "description": "Release to free circulation after IP in another Member State with onward dispatch",
+                "label": "",
+                "union_apcs": [
+                    "A04",
+                    "F06",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "0171",
+                "description": "Release to free circulation from a customs warehouse (CW) with onward dispatch",
+                "label": "",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "1VW",
+                    "1XW",
+                    "63P"
+                ]
+            },
+            {
+                "code": "0178",
+                "description": "Release to free circulation from a free zone (FZ) with onward dispatch",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG"
+                ]
+            }
+        ]
+    },
+    {
+        "request_code": "07",
+        "active": true,
+        "sequence": 3,
+        "description": "Series Procedure Codes: excise warehouse",
+        "label": "My goods will be held temporarily in a customs warehouse",
+        "hint": "Release for free circulation with entry to an excise warehouse",
+        "previous_codes": [
+            {
+                "code": "0700",
+                "description": "Release for free circulation with simultaneous entry to an excise warehouse",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "1EX",
+                    "68P",
+                    "95P"
+                ]
+            },
+            {
+                "code": "0721",
+                "description": "Release for free circulation with simultaneous entry to an excise warehouse for goods re-imported after OP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "B02",
+                    "B03",
+                    "F06"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "1EX",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "0751",
+                "description": "Release for free circulation with simultaneous entry to an excise warehouse after IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "1EX"
+                ]
+            },
+            {
+                "code": "0753",
+                "description": "Release for free circulation with simultaneous entry to an excise warehouse after TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG"
+                ]
+            },
+            {
+                "code": "0754",
+                "description": "Release for free circulation with simultaneous entry to an excise warehouse after IP in another Member State",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "1EX"
+                ]
+            },
+            {
+                "code": "0771",
+                "description": "Release for free circulation from a CW with simultaneous entry to an excise warehouse",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "1EX",
+                    "1XW",
+                    "68P",
+                    "95P"
+                ],
+                "note": "*000 may only be used where the customs and excise warehouse premises are co-located and no other additional procedure codes apply."
+            },
+            {
+                "code": "0778",
+                "description": "Release for free circulation from a FZ with simultaneous entry to an excise warehouse",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "1CD",
+                    "1CG",
+                    "1EX",
+                    "95P"
+                ]
+            }
+        ]
+    },
+    {
+        "request_code": "40",
+        "active": true,
+        "sequence": 1,
+        "description": "Series Procedure Codes: release to free circulation",
+        "label": "I bought the goods to keep or sell in the UK",
+        "hint": "Release them into free circulation",
+        "previous_codes": [
+            {
+                "code": "4000",
+                "description": "Release to free circulation",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4051",
+                "description": "Release to free circulation after IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4053",
+                "description": "Release to free circulation after TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4054",
+                "description": "Release to free circulation after IP in another Member State",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4071",
+                "description": "Release to free circulation from a CW",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4078",
+                "description": "Release to free circulation from a FZ",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            }
+        ]
+    },
+    {
+        "request_code": "42",
+        "active": true,
+        "sequence": 4,
+        "description": "Series Procedure Codes: onward supply relief (OSR)",
+        "label": "My goods are entering the UK in transit to another EU country",
+        "hint": "Release for free circulation with simultaneous onward supply to another member state",
+        "previous_codes": [
+            {
+                "code": "4200",
+                "description": "Free circulation with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1BN",
+                    "1CD",
+                    "1CG",
+                    "1CL",
+                    "1ES",
+                    "1SC",
+                    "63P"
+                ]
+            },
+            {
+                "code": "4221",
+                "description": "Re-import after OP with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "B02",
+                    "B03",
+                    "B06",
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "4251",
+                "description": "Release to free circulation after IP with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F06",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG"
+                ]
+            },
+            {
+                "code": "4253",
+                "description": "Release to free circulation after TA with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG"
+                ]
+            },
+            {
+                "code": "4254",
+                "description": "Release to free circulation after IP in another Member State with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F06",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000"
+                ]
+            },
+            {
+                "code": "4271",
+                "description": "Release to free circulation from a CW with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "1VW",
+                    "1XW",
+                    "63P"
+                ]
+            },
+            {
+                "code": "4278",
+                "description": "Release to free circulation from a FZ with onward supply",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02",
+                    "F06",
+                    "F15",
+                    "F21",
+                    "F22"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG"
+                ]
+            }
+        ]
+    },
+    {
+        "request_code": "44",
+        "active": true,
+        "sequence": 5,
+        "description": "Series Procedure Codes: end use",
+        "label": "My goods are needed to fulfil a specific purpose",
+        "hint": "Release for free circulation with duty relief granted under the end-use special procedure",
+        "previous_codes": [
+            {
+                "code": "4400",
+                "description": "End-use relief",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1RL",
+                    "1RV",
+                    "1SW",
+                    "2CD",
+                    "2CG",
+                    "2MO"
+                ],
+                "note": "*Please note - 1SW and 2MO may not be used together against the same goods item."
+            },
+            {
+                "code": "4421",
+                "description": "End-use relief after OP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "4422",
+                "description": "End-use relief after OP, not covered under 4421",
+                "union_apcs": [],
+                "national_apcs": [
+                    "000",
+                    "1RV",
+                    "1SW",
+                    "2CD",
+                    "2CG",
+                    "2MO",
+                    "46P"
+                ],
+                "note": "*Please note - 1SW and 2MO may not be used together against the same goods item."
+            },
+            {
+                "code": "4451",
+                "description": "End-use relief after IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1RV",
+                    "1SW",
+                    "2MO"
+                ],
+                "note": "*Please note - 1SW and 2MO may not be used together against the same goods item."
+            },
+            {
+                "code": "4453",
+                "description": "End-use relief after TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": [
+                    "000",
+                    "1RV",
+                    "1SW",
+                    "1XT"
+                ]
+            },
+            {
+                "code": "4454",
+                "description": "End-use relief after IP in another Member State",
+                "union_apcs": [
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1RV",
+                    "1SW"
+                ]
+            },
+            {
+                "code": "4471",
+                "description": "End-use relief on goods released from a CW",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02"
+                ],
+                "national_apcs": [
+                    "E01",
+                    "E02"
+                ],
+                "note": "*Please note - 1SW and 2MO may not be used together against the same goods item."
+            },
+            {
+                "code": "4478",
+                "description": "End-use relief on goods released from a FZ",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "E01",
+                    "E02"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1RL",
+                    "1RV",
+                    "1SW",
+                    "2CD",
+                    "2CG",
+                    "2MO"
+                ],
+                "note": "*Please note - 1SW and 2MO may not be used together against the same goods item."
+            }
+        ]
+    },
+    {
+        "request_code": "51",
+        "active": false,
+        "sequence": 99,
+        "description": "Series Procedure Codes: inward processing (IP)",
+        "label": "Series Procedure Codes: inward processing (IP)",
+        "hint": "????",
+        "previous_codes": [
+            {
+                "code": "5100",
+                "description": "Entry to IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE",
+                    "1PO",
+                    "2CD",
+                    "2CG",
+                    "3HG"
+                ]
+            },
+            {
+                "code": "5111",
+                "description": "Import of replacement goods to IP following the prior export of equivalent goods.",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1MP",
+                    "1PO",
+                    "2CD",
+                    "2CG"
+                ]
+            },
+            {
+                "code": "5121",
+                "description": "Entry to IP after OP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "B02"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE",
+                    "2CD",
+                    "2CG",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "5151",
+                "description": "Transfer of goods between IP authorisation holders",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE",
+                    "1PO"
+                ]
+            },
+            {
+                "code": "5153",
+                "description": "Entry to IP after TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE"
+                ]
+            },
+            {
+                "code": "5154",
+                "description": "Transfer of goods between IP authorisation holders in different Member States",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE"
+                ]
+            },
+            {
+                "code": "5171",
+                "description": "Entry to IP on release from a CW",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE",
+                    "1PO",
+                    "1VW",
+                    "1XW"
+                ]
+            },
+            {
+                "code": "5178",
+                "description": "Entry to IP on release from a FZ",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1IE",
+                    "1PO",
+                    "2CD",
+                    "2CG"
+                ]
+            }
+        ]
+    },
+    {
+        "request_code": "53",
+        "active": false,
+        "sequence": 99,
+        "description": "Series Procedure Codes: temporary admission (TA)",
+        "label": "",
+        "hint": "Dolor sit",
+        "previous_codes": [
+            {
+                "code": "5300",
+                "description": "Entry to TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F15"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "5351",
+                "description": "Entry to TA after IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "5353",
+                "description": "Transfer of goods between TA authorisation holders",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F15"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "5354",
+                "description": "Entry to TA after IP in another Member State",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F44"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "5371",
+                "description": "Entry to TA on release from a CW",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F15"
+                ],
+                "national_apcs": []
+            },
+            {
+                "code": "5378",
+                "description": "Entry to TA on release from a FZ",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20",
+                    "D21",
+                    "D22",
+                    "D23",
+                    "D24",
+                    "D25",
+                    "D26",
+                    "D27",
+                    "D28",
+                    "D29",
+                    "D30",
+                    "D51",
+                    "F15"
+                ],
+                "national_apcs": []
+            }
+        ]
+    },
+    {
+        "request_code": "61",
+        "active": true,
+        "sequence": 6,
+        "description": "Series: Re-importation of goods",
+        "label": "My goods have been reimported",
+        "hint": "Release for re-importation with simultaneous release to free circulation",
+        "previous_codes": [
+            {
+                "code": "6110",
+                "description": "Release to RGR for goods previously permanently exported",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F01",
+                    "F02",
+                    "F03",
+                    "F05",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "0GD",
+                    "1CD",
+                    "1CG",
+                    "1RC",
+                    "1RV",
+                    "1VW",
+                    "1XW"
+                ]
+            },
+            {
+                "code": "6111",
+                "description": "Release to RGR for IP equivalent goods previously permanently exported",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F01",
+                    "F05",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "1XW"
+                ]
+            },
+            {
+                "code": "6121",
+                "description": "Re-import after OP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "1MO",
+                    "1XW",
+                    "46P"
+                ]
+            },
+            {
+                "code": "6122",
+                "description": "Re-import after OP for goods not covered by 61 21 (for example, OP textiles)",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "B02",
+                    "B03",
+                    "B06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1CD",
+                    "1CG",
+                    "1MO",
+                    "1VW",
+                    "1XW",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "6123",
+                "description": "Release to RGR",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F01",
+                    "F02",
+                    "F03",
+                    "F05",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "0GD",
+                    "1CD",
+                    "1CG",
+                    "1RC",
+                    "1RV",
+                    "1VW",
+                    "1XW"
+                ]
+            },
+            {
+                "code": "6131",
+                "description": "Re-import of previously exported IP goods",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F04",
+                    "F07",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "0GD",
+                    "1CD",
+                    "1CG",
+                    "1RC",
+                    "1RV",
+                    "1VW",
+                    "1XW"
+                ]
+            }
+        ]
+    },
+    {
+        "request_code": "71",
+        "active": false,
+        "sequence": 99,
+        "description": "Series: Customs Warehousing (CW)",
+        "label": "",
+        "hint": "Dolor sit",
+        "previous_codes": [
+            {
+                "code": "7100",
+                "description": "Entry to a CW",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW",
+                    "2CD",
+                    "2CG"
+                ]
+            },
+            {
+                "code": "7110",
+                "description": "Entry to a CW for goods previously permanently exported",
+                "label": "",
+                "hint": "",
+                "union_apcs": [],
+                "national_apcs": []
+            },
+            {
+                "code": "7121",
+                "description": "Entry to CW after OP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW",
+                    "2CD",
+                    "2CG"
+                ]
+            },
+            {
+                "code": "7122",
+                "description": "Entry to CW after OP, for goods not covered by 7121 (for example OP textiles)",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "B02",
+                    "B03",
+                    "B06",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW",
+                    "2CD",
+                    "2CG",
+                    "46P",
+                    "48P"
+                ]
+            },
+            {
+                "code": "7123",
+                "description": "Entry to CW after RGR",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F01",
+                    "F02",
+                    "F03",
+                    "F04",
+                    "F05",
+                    "F07",
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1RV",
+                    "1VW",
+                    "2CD",
+                    "2CG"
+                ]
+            },
+            {
+                "code": "7151",
+                "description": "Entry to CW after IP",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F15",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW"
+                ]
+            },
+            {
+                "code": "7153",
+                "description": "Entry to CW after TA",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW"
+                ]
+            },
+            {
+                "code": "7154",
+                "description": "Entry to CW after IP in another Member State",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "A04",
+                    "F44"
+                ],
+                "national_apcs": [
+                    "000"
+                ]
+            },
+            {
+                "code": "7171",
+                "description": "Transfer between different customs warehouses",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW"
+                ]
+            },
+            {
+                "code": "7178",
+                "description": "Entry to CW on release from a FZ",
+                "label": "",
+                "hint": "",
+                "union_apcs": [
+                    "F15"
+                ],
+                "national_apcs": [
+                    "000",
+                    "1VW",
+                    "2CD",
+                    "2CG"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "measure_type": "103",
+        "overlay": "Third-country duty",
+        "hint": "A <strong>Third-country duty</strong> is the tariff charged where there isn't a trade agreement or a customs union with the UK. It can also be referred to as the Most Favoured Nation (MFN) rate."
+    },
+    {
+        "measure_type": "105",
+        "overlay": "Non-preferential duty under authorised use",
+        "hint": "<strong>Non-preferential duty under authorised use</strong> measures represent the third-country (or <abbr title='Most Favoured Nation'>MFN duty</abbr>) for commodities which are deemed to be for <a href='https://www.gov.uk/guidance/apply-to-pay-less-duty-on-goods-you-import-for-specific-uses'>authorised use</a> only."
+    },
+    {
+        "measure_type": "109",
+        "overlay": "Supplementary unit",
+        "hint": "<strong>Supplementary units</strong> are units other than net mass, for example, litres, number of parts or square metres. They have to be indicated for certain goods where they are useful measures for the goods concerned."
+    },
+    {
+        "measure_type": "112",
+        "overlay": "Autonomous tariff suspension",
+        "hint": "sfsaf"
+    },
+    {
+        "measure_type": "115",
+        "overlay": "Autonomous suspension under authorised use",
+        "hint": "sfFF"
+    },
+    {
+        "measure_type": "117",
+        "overlay": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+        "hint": "SDFSDFDS"
+    },
+    {
+        "measure_type": "119",
+        "overlay": "Airworthiness tariff suspension",
+        "hint": "dfsfdsf"
+    },
+    {
+        "measure_type": "122",
+        "overlay": "Non preferential tariff quota",
+        "hint": "sdfdsfds"
+    },
+    {
+        "measure_type": "123",
+        "overlay": "Non preferential tariff quota under authorised use",
+        "hint": "dsfdsfds"
+    },
+    {
+        "measure_type": "142",
+        "overlay": "Tariff preference",
+        "hint": "If the UK has an agreement with a country you buy goods from, your business may be able to get a reduced rate of Customs Duty, known as a <strong>tariff preference</strong> or <strong>preferential rate of duty</strong>, for those goods. To take advantage of a tariff preference, you must demonstrate compliance with Rules of Origin."
+    },
+    {
+        "measure_type": "143",
+        "overlay": "Preferential tariff quota",
+        "hint": "sdfdsfs"
+    },
+    {
+        "measure_type": "145",
+        "overlay": "Preference under authorised use",
+        "hint": "sdfsdfd"
+    },
+    {
+        "measure_type": "552",
+        "overlay": "Definitive anti-dumping duty",
+        "hint": "sdfsdfd"
+    },
+    {
+        "measure_type": "553",
+        "overlay": "Definitive countervailing duty",
+        "hint": "sfsF"
+    }
+]

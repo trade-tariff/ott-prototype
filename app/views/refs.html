@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Reference builder
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "A to Z",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">Reference builder</h1>
+            <form method="get" action="/refs2">
+                <div class="govuk-form-group">
+                    <label class="govuk-label" for="goods_nomenclature_item_id">Commodity code / heading</label>
+                    <input class="govuk-input govuk-input--width-10" id="goods_nomenclature_item_id" name="goods_nomenclature_item_id" type="text">
+                </div>
+                <div class="govuk-form-group">
+                    <label class="govuk-label" for="productline_suffix">Product line suffix</label>
+                    <input class="govuk-input govuk-input--width-2" id="productline_suffix" name="productline_suffix" type="text">
+                </div>
+                <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                            <h1 class="govuk-fieldset__heading">Which resource would you like to access</h1>
+                        </legend>
+                        <div class="govuk-radios" data-module="govuk-radios">
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="resource_admin" name="resource" type="radio" value="admin" checked>
+                                <label class="govuk-label govuk-radios__label" for="resource_admin">Admin site</label>
+                            </div>
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="resource_website" name="resource" type="radio" value="website">
+                                <label class="govuk-label govuk-radios__label" for="resource_website">Website</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <button class="govuk-button" data-module="govuk-button">Go to admin site</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+</html>

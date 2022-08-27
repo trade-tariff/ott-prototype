@@ -1,0 +1,356 @@
+{
+	"guides": [
+		{
+			"id": 1,
+			"title": "Aircraft parts",
+			"image": "aircraft.png",
+			"url": "https://www.gov.uk/guidance/classifying-aircraft-parts-and-accessories",
+			"strapline": "Get help to classify drones and aircraft parts for import and export.",
+			"terms": [
+				"aircraft",
+				"aeroplane",
+				"airplane",
+				"helicopter",
+				"airforce"
+			],
+			"chapters": [
+				"88"
+			]
+		},
+		{
+			"id": 4,
+			"title": "Computers and software",
+			"image": "computers.png",
+			"url": "https://www.gov.uk/guidance/classifying-computers-and-software",
+			"strapline": "Get help classifying computers, inkjet and toner cartridges and their components.",
+			"terms": [
+				"computer",
+				"laptop",
+				"netbook"
+			],
+			"chapters": [
+				"84"
+			]
+		},
+		{
+			"id": 2,
+			"title": "Electrical equipment for import and export",
+			"image": "audio.png",
+			"url": "https://www.gov.uk/guidance/classifying-audio-and-video-equipment",
+			"strapline": "Get help to classify electrical equipment such as communication equipment, cameras, and their parts and accessories.",
+			"terms": [
+				"audio",
+				"microphone",
+				"speaker"
+			],
+			"chapters": [
+				"84",
+				"85"
+			]
+		},
+		{
+			"id": 3,
+			"title": "Ceramics",
+			"image": "ceramics.png",
+			"url": "https://www.gov.uk/guidance/classifying-ceramics",
+			"strapline": "Get help to classify ceramic articles for import and export.",
+			"terms": [
+				"ceramics",
+				"plates",
+				"crockery"
+			],
+			"chapters": [
+				"68",
+				"69"
+			]
+		},
+		{
+			"id": 23,
+			"title": "Classification of goods",
+			"image": "general.png",
+			"url": "https://www.gov.uk/government/collections/classification-of-goods",
+			"strapline": "",
+			"terms": [],
+			"chapters": []
+		},
+		{
+			"id": 5,
+			"title": "Edible fruits, nuts and peel",
+			"url": "https://www.gov.uk/guidance/classifying-edible-fruits-nuts-and-peel",
+			"strapline": "Get help to classify edible vegetables, roots, tubers, herbs, spices, fruit, nuts and peel for import and export.",
+			"image": "fruitnuts.png",
+			"terms": [
+				"pears",
+				"peaches",
+				"mangoes",
+				"fruit",
+				"apples",
+				"bananas",
+				"apricots"
+			],
+			"chapters": [
+				"08",
+				"20"
+			]
+		},
+		{
+			"id": 6,
+			"title": "Edible vegetables, roots and tubers",
+			"image": "vegetables.png",
+			"url": "https://www.gov.uk/guidance/classifying-edible-vegetables-roots-and-tubers",
+			"strapline": "Get help to classify edible vegetables, roots, tubers, herbs, spices, fruit, nuts and peel for import and export.",
+			"terms": [
+				"vegetables",
+				"potatoes",
+				"cabbage",
+				"cauliflower",
+				"turnip"
+			],
+			"chapters": [
+				"07",
+				"14"
+			]
+		},
+		{
+			"id": 7,
+			"title": "Electric lamps",
+			"image": "lamps.png",
+			"url": "https://www.gov.uk/guidance/classifying-electric-lamps",
+			"strapline": "Get help to classify electric lamps for import and export.",
+			"terms": [
+				"lamps",
+				"lights"
+			],
+			"chapters": [
+				"85"
+			]
+		},
+		{
+			"id": 8,
+			"title": "Footwear",
+			"image": "footwear.png",
+			"url": "https://www.gov.uk/guidance/classifying-footwear",
+			"strapline": "Get help to classify footwear and parts of footwear for import and export.",
+			"terms": [
+				"shoes",
+				"boots",
+				"footwear"
+			],
+			"chapters": [
+				"64"
+			]
+		},
+		{
+			"id": 9,
+			"title": "Herbal medicines, tonics and supplements",
+			"image": "medicines.png",
+			"url": "https://www.gov.uk/guidance/classifying-herbal-medicines-supplements-tonics",
+			"strapline": "Get help to classify herbal medicines, vitamins, food preparations, supplements and tonics for import and export.",
+			"terms": [
+				"medicines",
+				"tonics",
+				"supplements"
+			],
+			"chapters": [
+				"30"
+			]
+		},
+		{
+			"id": 10,
+			"title": "Iron and steel",
+			"image": "ironsteel.png",
+			"url": "https://www.gov.uk/guidance/classifying-iron-and-steel",
+			"strapline": "Get help to classify various items of iron and steel, primarily those classified under chapter 72.",
+			"terms": [
+				"iron",
+				"steel"
+			],
+			"chapters": [
+				"26",
+				"72"
+			]
+		},
+		{
+			"id": 11,
+			"title": "Leather",
+			"image": "leather.png",
+			"url": "https://www.gov.uk/guidance/classifying-leather",
+			"strapline": "Get help to classify articles of leather and other items in chapter 42 of the tariff for import and export.",
+			"terms": [
+				"leather",
+				"whips",
+				"saddles"
+			],
+			"chapters": [
+				"41"
+			]
+		},
+		{
+			"id": 12,
+			"title": "Monitors",
+			"image": "monitor.png",
+			"url": "https://www.gov.uk/guidance/classifying-monitors-for-import-and-export",
+			"strapline": "Get help to classify electrical equipment such as communication equipment, cameras, and their parts and accessories.",
+			"terms": [
+				"monitors"
+			],
+			"chapters": [
+				"90"
+			]
+		},
+		{
+			"id": 13,
+			"title": "Organic chemicals",
+			"image": "organic_chemicals.png",
+			"url": "https://www.gov.uk/guidance/classifying-organic-chemicals",
+			"strapline": "Get help to classify organic chemicals that contain certain permitted additives or can be dissolved in water, for import and export.",
+			"terms": [
+				"organic",
+				"chemicals"
+			],
+			"chapters": [
+				"29"
+			]
+		},
+		{
+			"id": 14,
+			"title": "Pharmaceutical products",
+			"image": "pharma.png",
+			"url": "https://www.gov.uk/guidance/classifying-pharmaceutical-products",
+			"strapline": "Get help to classify pharmaceutical products used to treat or prevent diseases or ailments (in humans or animals), including comparators used in clinical trials and placebos.",
+			"terms": [
+				"pharma",
+				"medicines"
+			],
+			"chapters": [
+				"30"
+			]
+		},
+		{
+			"id": 15,
+			"title": "Placebos and comparators",
+			"image": "placebos.png",
+			"url": "https://www.gov.uk/guidance/classifying-placebos-and-comparators",
+			"strapline": "Get help to classify pharmaceutical products used to treat or prevent diseases or ailments (in humans or animals), including comparators used in clinical trials and placebos.",
+			"terms": [
+				"placebos"
+			],
+			"chapters": [
+				"30"
+			]
+		},
+		{
+			"id": 16,
+			"title": "Plastics",
+			"image": "plastics.png",
+			"url": "https://www.gov.uk/guidance/classifying-plastics",
+			"strapline": "Get help to classify plastics for import and export.",
+			"terms": [
+				"plastic"
+			],
+			"chapters": [
+				"39"
+			]
+		},
+		{
+			"id": 17,
+			"title": "Rice",
+			"image": "rice.png",
+			"url": "https://www.gov.uk/guidance/classifying-rice",
+			"strapline": "Get help to classify rice and related products for direct human consumption for import and export.",
+			"terms": [
+				"rice",
+				"basmati"
+			],
+			"chapters": [
+				"10"
+			]
+		},
+		{
+			"id": 18,
+			"title": "Textiles and textile articles",
+			"image": "textiles.png",
+			"url": "https://www.gov.uk/guidance/classifying-textile-apparel",
+			"strapline": "Get help to classify textiles and which headings and codes to use.",
+			"terms": [
+				"textiles",
+				"clothes",
+				"clothing",
+				"apparel"
+			],
+			"chapters": [
+				"42",
+				"58",
+				"60",
+				"61",
+				"62",
+				"63"
+			]
+		},
+		{
+			"id": 19,
+			"title": "Tobacco and manufactured tobacco substitutes",
+			"image": "tobacco.png",
+			"url": "https://www.gov.uk/guidance/classifying-tobacco",
+			"strapline": "Get help to classify cigarettes, cigars, raw tobacco, smoking tobacco, tobacco for heating and nicotine substitutes for import and export.",
+			"terms": [
+				"tobacco",
+				"cigarettes",
+				"cigars",
+				"cigarillos"
+			],
+			"chapters": [
+				"24"
+			]
+		},
+		{
+			"id": 20,
+			"title": "Toys, games and sports equipment",
+			"image": "toys.png",
+			"url": "https://www.gov.uk/guidance/classifying-toys-games-and-sports-equipment",
+			"strapline": "Get help to classify various toys, games and festive articles for import and export.",
+			"terms": [
+				"toys",
+				"games",
+				"sports"
+			],
+			"chapters": [
+				"95"
+			]
+		},
+		{
+			"id": 21,
+			"title": "Vehicles, parts and accessories",
+			"image": "vehicles.png",
+			"url": "https://www.gov.uk/guidance/classifying-vehicles",
+			"strapline": "Get help to classify various types of vehicles such as mobility scooters, dumpers and utility vehicles, all-terrain vehicles and E-Bikes for import and export.",
+			"terms": [
+				"vehicles",
+				"cars",
+				"vans",
+				"motorbikes"
+			],
+			"chapters": [
+				"85",
+				"86",
+				"87",
+				"88"
+			]
+		},
+		{
+			"id": 22,
+			"title": "Wood",
+			"image": "wood.png",
+			"url": "https://www.gov.uk/guidance/classifying-wood",
+			"strapline": "Get help to classify various types of wood for import and export.",
+			"terms": [
+				"wood",
+				"tree",
+				"twig"
+			],
+			"chapters": [
+				"44"
+			]
+		}
+	]
+}

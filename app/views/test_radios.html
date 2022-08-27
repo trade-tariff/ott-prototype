@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: A-Z of Classified Goods
+{% endblock %}
+{% block beforeContent %}
+{{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "A to Z",
+      href: ""
+    }
+  ]
+}) }}{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Online Tariff</span>
+            
+            <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+      <h1 class="govuk-fieldset__heading">
+        Which class of excise is applicable to your trade?
+      </h1>
+    </legend>
+    <div class="govuk-hint">
+    Excise duty applies to trade in this commodity code. Select which class of excise duty applies to your trade.
+    {# There are multiple excise duties that could be applied to trade in this commodity code. Select which class of excise duty applies to your trade. #}
+    Please note that the work to calculate the <a href="https://www.gov.uk/government/publications/excise-notice-226-beer-duty/excise-notice-226-beer-duty--2#small-brewery-beer">Small Breweries' Relief (SBR)</a> is in development and will be available shortly.
+    </div>
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+          431 - Alcoholic beverage with a strength not exceeding 1.2% ABV
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+          440 - Beer made in the UK – small brewery beer eligible to reduced rates (variable rate, that is, annual production more than 5,000 hectolitres but not exceeding for 60,000 hectolitres)
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input disabled class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          441 - Imported beer – small brewery beer eligible to reduced rates (variable rate, that is, annual production more than 5,000 hectolitres but not exceeding for 60,000 hectolitres)
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input disabled class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="northern-ireland">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
+          442 - Beer made in UK – small brewery beer eligible to reduced rates (variable rate, that is, annual production no more than 5,000 hectolitres)
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="northern-ireland">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
+          443 - Imported Beer – small brewery beer eligible to reduced rates (variable rate, that is, annual production no more than 5,000 hectolitres)
+        </label>
+      </div>
+      </div>
+      </div>
+
+<button class="govuk-button" data-module="govuk-button">
+  Save and continue
+</button>
+      
+
+{# 
+
+
+444 - Beer made in UK – reduced rate of general beer duty (applies to beer exceeding 1.2% ABV but not exceeding 2.8% ABV)
+445 - Beer made in UK – High Strength Beer Duty (applies to beer exceeding 7.5% ABV – general beer duty is also due on all UK produced high strength beer)
+446 - Imported beer – reduced rate of general beer duty (applies to beer exceeding 1.2% ABV but not exceeding 2.8% ABV)
+447 - Imported beer – High Strength Beer Duty (applies to beer exceeding 7.5% ABV – general beer duty is also due on all imported high strength beer)
+473 - Imported beer (that is, annual production more than 60,000 hectolitres)
+407 - Beer made in UK (standard rate, that is, annual production more than 60,000 hectolitres) #}
+    </div>
+
+  </fieldset>
+</div>
+        </div>
+    </div>
+
+{% endblock %}
+</html>

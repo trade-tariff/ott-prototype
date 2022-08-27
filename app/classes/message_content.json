@@ -1,0 +1,28 @@
+{
+    "data": {
+        "trade_remedies": {
+            "title": "EU duties apply to this import",
+            "message": "Because trade defence measures are applied to this commodity code on the European Union's tariff, imports of this commodity are treated as 'at risk' under all circumstances. The EU's import duties will be payable on this import to Northern Ireland.</p><p>Click on the 'Continue' button to enter the monetary value of your import, to help to calculate the applicable import duties.",
+            "next_url": "/duty-calculator/monetary_value/{{ commodity }}",
+            "button_face": "Continue"
+        },
+        "eu_third_country_duty_zero": {
+            "title": "There is no import duty to pay",
+            "message": "There is no import duty to pay when importing goods into Northern Ireland from GB when the EU's third country duty is 0.00%.",
+            "next_url": "/duty-calculator/date/{{ commodity }}",
+            "button_face": "Start again"
+        },
+        "eu_to_ni": {
+            "title": "There is no import duty to pay",
+            "message": "There is no import duty to pay when importing goods into Northern Ireland from a European Union member state.<br><br>An import declaration is not required.",
+            "next_url": "/duty-calculator/date/{{ commodity }}",
+            "button_face": "Start again"
+        },
+        "certificate_of_origin": {
+            "title": "There is no import duty to pay",
+            "message": "There is <strong>no import duty to pay</strong> because:</p><ul class='govuk-list govuk-list--bullet'><li>You are transporting goods from England, Scotland or Wales to Northern Ireland, <i>and</i></li><li>You are able to take advantage of the preferential tariffs provided by the UK / EU Trade and Co-operation Agreement (TCA) and have a valid Certificate of Origin.</li></ul><p class='govuk-body'>You may be called upon to provide a copy of your Certificate of Origin to avoid paying duties.</p>",
+            "next_url": "/duty-calculator/date/{{ commodity }}",
+            "button_face": "Start again"
+        }
+    }
+}

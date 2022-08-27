@@ -1,0 +1,46 @@
+{
+    "vat": {
+        "sort": "03_vat",
+        "block": "vat_excise"
+    },
+    "excise": {
+        "sort": "04_excise",
+        "block": "vat_excise"
+    },
+    "mfns": {
+        "sort": "00_mfns",
+        "block": "tariffs_charges"
+    },
+    "preferences": {
+        "sort": "01_preferences",
+        "block": "tariffs_charges"
+    },
+    "suspensions": {
+        "sort": "02_suspensions",
+        "block": "tariffs_charges"
+    },
+    "agri": {
+        "sort": "03_agri",
+        "block": "tariffs_charges"
+    },
+    "quotas": {
+        "sort": "05_quotas",
+        "block": "quotas"
+    },
+    "other": {
+        "sort": "06_other",
+        "block": "other"
+    },
+    "other_uk": {
+        "sort": "07_other_uk",
+        "block": "other_uk"
+    },
+    "remedies": {
+        "sort": "98_remedies",
+        "block": "remedies"
+    },
+    "export": {
+        "sort": "99_export",
+        "block": "export"
+    }
+}

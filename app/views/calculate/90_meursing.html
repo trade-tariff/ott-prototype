@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter Meursing additional code
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/unit_value/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Enter a 'Meursing code' to work out applicable duties</h1>
+      
+
+      <p>This commodity code features duties which may be dependent on the sugar, flour, milk fat and milk protein content. To fully define the applicable duties, you need to specify the additional code that defines the content of these ingredients.</p>
+<div class="govuk-form-group">
+                        <label class="govuk-label govuk-label--s" for="meursing-code">Enter the 3-digit additional code</label>
+                        <div id="meursing-code-hint" class="govuk-hint">If you know the additional code for your commodity, enter it in the box below. If you do not know the code, then use the <a target="_blank" href="/xi/meursing/start/{{ commodity.data.attributes.goods_nomenclature_item_id }}">Meursing code finder (opens in new tab)</a> to find the additional code.</div>
+                        <div class="govuk-input__wrapper">
+                            <div class="govuk-input__prefix" aria-hidden="true">7</div>
+                            <input class="govuk-input govuk-input--width-5 govuk-!-margin-right-1" id="meursing-code" name="meursing-code" type="number" maxlength="3" value='{{ data["meursing-code"] }}' spellcheck="false">
+                        </div>
+                    </div>
+                    <input type="hidden" name="goods_nomenclature_item_id" value="{{ commodity.data.attributes.goods_nomenclature_item_id }}">
+                    <div class="govuk-form-group">
+                        <button class="govuk-button govuk-!-margin-bottom-2" data-module="govuk-button">Continue</button>
+                    </div>
+
+      {% include "../includes/commodity_panel.html" %}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

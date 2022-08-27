@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/" + context.scope_id + "/sections/"
+    },
+    {
+      text: "Excise",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Excise - The Online Trade Tariff
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Excise</span>
+            <h1 class="govuk-heading-l">Excise</h1>
+            <p>Excise Duty is chargeable, in addition to any Customs Duty which may be due, on the goods described in this part. These goods may be either of UK origin, received in the UK following an intra <abbr title="European Union">EU</abbr> movement or imported from outside the UK or <abbr title="European Union">EU</abbr>.</p>
+
+            <p>The duty falls due at the time when the goods leave any duty suspension arrangements, that is when:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>they are released for consumption or otherwise made available for consumption (generally via the warehouse system) registered trader (<abbr title="registered trader">REDS</abbr>) or occasional importer receives them in the UK</li>
+                <li>a vendor makes a delivery under distance selling arrangements</li>
+                <li>missing consignments and other dutiable shortages are discovered</li>
+                <li>goods imported for personal use are then sold or put to commercial use</li>
+            </ul>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>
+                    <a href="/static/excise/beer">Beer</a>
+                </li>
+                <li>
+                    <a href="/static/excise/wine">Wine</a>
+                </li>
+                <li>
+                    <a href="/static/excise/smokes">Fags n that</a>
+                </li>
+                <li>
+                    <a href="/static/excise/fuel">Oil n that</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

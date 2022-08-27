@@ -1,0 +1,154 @@
+{
+    "global": {
+        "title": {
+            "en": "The UK Integrated Online Tariff",
+            "cy": "Tariff Ar-lein Integredig y DU"
+        },
+        "switcher": {
+            "switch_to_ni": {
+                "en": "Switch to the Northern Ireland Online Tariff",
+                "cy": "Newid i Tariff Ar-lein Gogledd Iwerddon"
+            },
+            "switch_to_uk": {
+                "en": "Switch to the Northern Ireland Online Tariff",
+                "cy": "Newid i Tariff Ar-lein Integredig y DU"
+            }
+        },
+        "tools": {
+            "search": {
+                "en": "Search",
+                "cy": "Chwiliwch"
+            },
+            "browse": {
+                "en": "Browse",
+                "cy": "Pori"
+            },
+            "atoz": {
+                "en": "A to Z",
+                "cy": "A i Z"
+            },
+            "tools": {
+                "en": "Tools",
+                "cy": "Offer"
+            },
+            "news": {
+                "en": "News",
+                "cy": "Newyddion"
+            },
+            "help": {
+                "en": "Help",
+                "cy": "Help"
+            }
+        },
+        "footer": {
+            "contact": {
+                "en": "Contact",
+                "cy": "Cysylltwch"
+            },
+            "ask_hmrc": {
+                "en": "Ask HMRC for advice on classifying your goods",
+                "cy": "Gofynnwch i CThEM am gyngor ar ddosbarthu eich nwyddau"
+            },
+            "imports_exports": {
+                "en": "Imports and exports: general enquiries",
+                "cy": "Mewnforio ac allforio: ymholiadau cyffredinol"
+            },
+            "feedback": {
+                "en": "Feedback",
+                "cy": "Adborth"
+            },
+            "help": {
+                "en": "Help",
+                "cy": "Help"
+            },
+            "finding_commodity_codes": {
+                "en": "Finding commodity codes for imports or exports",
+                "cy": "Dod o hyd i godau nwyddau ar gyfer mewnforion neu allforion"
+            },
+            "import_export": {
+                "en": "Import and export",
+                "cy": "Mewnforio ac allforio"
+            },
+            "check_how_to_import_export": {
+                "en": "Check how to import and export goods",
+                "cy": "Gwiriwch sut i fewnforio ac allforio nwyddau"
+            },
+            "advance_tariff_rulings": {
+                "en": "Advance tariff rulings",
+                "cy": "Dyfarniadau tariff ymlaen llaw"
+            },
+            "related_information": {
+                "en": "Related information",
+                "cy": "Gwybodaeth berthnasol"
+            },
+            "tariff_volume_1": {
+                "en": "UK Trade Tariff: Volume 1 – background information for importers and exporters",
+                "cy": "Tariff Masnach y DU: Cyfrol 1 – gwybodaeth gefndir i fewnforwyr ac allforwyr"
+            },
+            "tariff_volume_3": {
+                "en": "UK Trade Tariff: Volume 3 – procedures, codes and declaration entry details",
+                "cy": "Tariff Masnach y DU: Cyfrol 3 – gweithdrefnau, codau a manylion cofnodi datganiadau"
+            },
+            "api_documentation": {
+                "en": "API Documentation",
+                "cy": "Dogfennaeth API"
+            },
+            "privacy": {
+                "en": "Privacy",
+                "cy": "Preifatrwydd"
+            },
+            "cookies": {
+                "en": "Cookies",
+                "cy": "Cwcis"
+            },
+            "accessibility": {
+                "en": "Accessibility",
+                "cy": "Hygyrchedd"
+            },
+            "terms_and_conditions": {
+                "en": "Terms and conditions",
+                "cy": "Telerau ac Amodau"
+            },
+            "ogl": {
+                "en": "All content is available under the <a class=\"govuk-footer__link\" href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" rel=\"license\">Open Government Licence v3.0</a>, except where otherwise stated",
+                "cy": "Mae’r holl gynnwys ar gael o dan y <a class=\"govuk-footer__link\" href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\" rel=\"license\">Drwydded Llywodraeth Agored v3.0</a>, oni nodir yn wahanol"
+            }
+        }
+    },
+    "home": {
+        "search_title": {
+            "en": "Search for a commodity",
+            "cy": "Chwiliwch am nwydd"
+        }
+    },
+    "browse": {
+        "browse_tariff": {
+            "en": "Browse the tariff",
+            "cy": "Porwch y tariff"
+        },
+        "intro": {
+            "en": "The UK goods classification contains 21 sections, listed below. Choose the section that best matches your goods to see the <abbr title=\"Harmonised System\">HS</abbr> chapters that are contained in the section.",
+            "cy": "Mae dosbarthiad nwyddau’r DU yn cynnwys 21 adran, a restrir isod. Dewiswch yr adran sy'n cyfateb orau i'ch nwyddau i weld y penodau <abbr title=\"Harmonised System\">HS</abbr> sydd wedi'u cynnwys yn yr adran."
+        },
+        "section": {
+            "en": "Section",
+            "cy": "Adran"
+        },
+        "section_title": {
+            "en": "Section title",
+            "cy": "Teitl yr adran"
+        },
+        "chapters": {
+            "en": "Chapters",
+            "cy": "Penodau"
+        },
+        "chapter": {
+            "en": "Chapter",
+            "cy": "Pennod"
+        },
+        "description": {
+            "en": "Description",
+            "cy": "Disgrifiad"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Section and chapter notes on " + context.title_in_sentence,
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block pageTitle %}
+  Section and chapter notes on {{ context.title_in_sentence }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-l">
+          Search term not recognised
+      </h1>
+
+{# <p>The search term used[or the exact term] is not recognised in the Tariff.  However, you may be looking for…”</p> #}
+<p>There isn’t a single commodity code for ‘<b>{{ context.search_term }}</b>’.</p>
+<p>Classification is specific to the type of good being imported so, to find the right code, you need to know the details about your product. This may include:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>the type of product</li>
+  <li>the purpose of the product</li>
+  <li>the materials used to make it</li>
+  <li>the production methods used to make it</li>
+  <li>the way it’s packaged</li>
+</ul>
+
+<p>To find the correct commodity code these steps will help you get started:</p>
+<ol class="govuk-list govuk-list--number">
+  <li>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</li>
+  <li>The tool will suggest a section or number of sections, divided into chapters.</li>
+  <li>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</li>
+  <li>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</li>
+</ol>
+
+<p>You may also be interested in the following guidance on the <a href="https://www.gov.uk/goods-sent-from-abroad/tax-and-duty" target="_blank">duty implications of importing gifts</a></p>
+
+
+            <p>Last updated 16 Mar 2021</p>
+    </div>
+    <div class="govuk-grid-column-full"></div>
+  </div>
+
+{% endblock %}

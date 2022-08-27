@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Look up a Meursing code - How much starch or glucose does the product contain?
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  {% if error %}
+    {% set error_class = " govuk-form-group--error" %}
+  {% else %}
+    {% set error_class = "" %}
+  {% endif %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      {% if error %}
+        {{ govukErrorSummary({
+          titleText: "There is a problem",
+          errorList: [
+            {
+              text: "Enter how much starch or glucose the product contains",
+              href: "#fieldset_starch"
+            }
+          ]
+        }) }}
+      {% endif %}
+      <span class="govuk-caption-xl">Look up a Meursing code</span>
+      <form action="/xi/meursing/data" method="get">
+        <input type="hidden" name="page" value="starch-glucose"/>
+        <div class="govuk-form-group {{ error_class }}">
+          <fieldset class="govuk-fieldset" id="fieldset_starch">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+              <h1 class="govuk-fieldset__heading">How much starch or glucose does the product contain?</h1>
+            </legend>
+            <div  class="govuk-hint">The values represent % by weight</div>
+            {% if error %}
+              <span id="changed-name-error" class="govuk-error-message">
+                <span class="govuk-visually-hidden">Error:</span> Enter how much starch or glucose the product contains</span>
+            </span>
+          {% endif %}
+          <div class="govuk-radios">
+            {% for starch_glucose_option in starch_glucose_options %}
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="starch_{{ starch_glucose_option }}" name="starch" type="radio" value="{{ starch_glucose_option }}">
+                <label class="govuk-label govuk-radios__label" for="starch_{{ starch_glucose_option }}">
+                  {{ starch_glucose_option }}
+                </label>
+              </div>
+            {% endfor %}
+          </div>
+        </fieldset>
+      </div>
+      {{ govukButton({
+          text: "Continue",
+          href: ""
+        }) }}
+    </form>
+  </div>
+</div>
+
+{% endblock %}

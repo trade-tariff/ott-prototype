@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - Set country filter
+{% endblock %}
+
+{% block beforeContent %}
+    <script src="/public/javascripts/location-autocomplete.min.js"></script>
+
+{{ govukBackLink({
+  text: "Back",
+  href: "#"
+}) }}
+    {# {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections/" + context.scope_id
+            },
+            {
+            text: "Filter measures by country",
+            href: ""
+            }
+        ]
+    }) }} #}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {# {% include "includes/scope_switcher_panel.html" %} #}
+            </span>
+            {# <h1 class="govuk-heading-l">Select measure filter</h1> #}
+        </div>
+    </div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <form id="country_selector_all" action="/country-filter" accept-charset="UTF-8" method="get">
+
+                <div class="govuk-form-group">
+                    <label class="govuk-label govuk-label--l" for="location-picker">Select a country</label>
+                    <div id="location-picker-hint" class="govuk-hint">Filter measures against the selected country</div>
+                    <select id="location-picker" class="autocomplete__input autocomplete__input--default" name="country">
+                        <option value="" disabled="" selected="">Pick an option</option>
+                        {% for country in context.countries %}
+                            <option value="{{ country.geographical_area_id }}">{{ country.description }} ({{ country.geographical_area_id }})</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="govuk-button-group">
+                    <input type="hidden" name="goods_nomenclature_item_id" id="goods_nomenclature_item_id" value="{{ context.goods_nomenclature_item_id }}">
+                    <button class="govuk-button" data-module="govuk-button">Select country</button>
+                    {# <a class="govuk-link" href="#">Reset to all countries</a> #}
+                    <a class="govuk-link" href="/country_reset/{{ context.goods_nomenclature_item_id }}">Reset to all countries</a>
+                </div>
+                <!--<p>https://www.gov.uk/government/publications/reference-document-for-the-customs-origin-of-chargeable-goods-eu-exit-regulations-2020//-->
+            </form>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/public/javascripts/accessible-autocomplete.min.js"></script>
+<script type="text/javascript">
+    var selectEl = document.querySelector('#location-picker')
+    accessibleAutocomplete.enhanceSelectElement({autoselect: true, confirmOnBlur: true, defaultValue: "", minLength: 2, selectElement: selectEl})
+
+    var queryStringParameters = window.location.search
+    var previouslySubmitted = queryStringParameters.length > 0
+    if (previouslySubmitted) {
+        var submittedEl = document.querySelector('.submitted')
+        submittedEl
+            .classList
+            .remove('submitted--hidden')
+        var params = new URLSearchParams(document.location.search.split('?')[1])
+        document
+            .querySelector('.submitted__location-picker')
+            .innerHTML = params.get('location-picker')
+    }
+</script>
+{% endblock %}
+</html>

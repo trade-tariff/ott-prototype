@@ -1,0 +1,171 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Look up a Meursing code - Check your answers
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+
+    {{ govukBackLink({
+      text: "Back",
+      href: "/xi/meursing/milk-protein"
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Look up a Meursing code</span>
+      <h1 class="govuk-heading-l">Check your answers</h1>
+
+      {% if data["milk_protein"] %}
+
+      {{ govukSummaryList({
+        rows: [
+          {
+            key: {
+              text: "Starch or glucose content"
+            },
+            value: {
+              text: data["starch"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/meursing/starch-glucose",
+                  text: "Change",
+                  visuallyHiddenText: "starch or glucose content"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Sucrose, invert sugar or isoglucose content"
+            },
+            value: {
+              text: data["sucrose"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "sucrose-sugar-isoglucose",
+                  text: "Change",
+                  visuallyHiddenText: "sucrose, invert sugar or isoglucose content"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Milk fat content"
+            },
+            value: {
+              text: data["milk_fat"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/meursing/milk-fat",
+                  text: "Change",
+                  visuallyHiddenText: "milk fat content"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Milk protein content"
+            },
+            value: {
+              text: data["milk_protein"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/meursing/milk-protein",
+                  text: "Change",
+                  visuallyHiddenText: "Milk protein content"
+                }
+              ]
+            }
+          }
+        ]
+      }) }}
+
+      {% else %}
+
+      {{ govukSummaryList({
+        rows: [
+          {
+            key: {
+              text: "Starch or glucose content"
+            },
+            value: {
+              text: data["starch"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/meursing/starch-glucose",
+                  text: "Change",
+                  visuallyHiddenText: "starch or glucose content"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Sucrose, invert sugar or isoglucose content"
+            },
+            value: {
+              text: data["sucrose"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "sucrose-sugar-isoglucose",
+                  text: "Change",
+                  visuallyHiddenText: "sucrose, invert sugar or isoglucose content"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Milk fat content"
+            },
+            value: {
+              text: data["milk_fat"] + " %"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/meursing/milk-fat",
+                  text: "Change",
+                  visuallyHiddenText: "milk fat content"
+                }
+              ]
+            }
+          }
+        ]
+      }) }}
+      {% endif %}
+
+{{ govukButton({
+        text: "Continue",
+        href: "/xi/meursing/results"
+    }) }}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

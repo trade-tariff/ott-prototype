@@ -1,0 +1,191 @@
+{
+    "q1":{
+        "question": "What material are your goods made from?",
+        "label": "my explanatory label",
+        "options": [
+            {
+                "answer": "Knitted or crocheted fabric",
+                "label": "needs to go to a question about the garment type before the gender",
+                "next": "q2",
+                "patterns": ["61"]
+            },
+            {
+                "answer": "Woven or non-woven fabrics",
+                "label": "and the gender differs depending on the knitted versus not",
+                "next": "q3",
+                "patterns": ["62"]
+            }
+        ]
+    },
+    "q2":{
+        "question": "What kind of garment?",
+        "label": "Words about the type of garment",
+        "options": [
+            {
+                "answer": "Overcoats etc.",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx01",
+                    "xx02"
+                ]
+            },
+            {
+                "answer": "Suits, ensembles etc",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx03",
+                    "xx04"
+                ]
+            },
+            {
+                "answer": "Shirts, blouses",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx05",
+                    "xx06"
+                ]
+            },
+            {
+                "answer": "Underwear etc",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx07",
+                    "xx08"
+                ]
+            },
+            {
+                "answer": "T-shirts, singlets and other vests, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx09"
+                ]
+            },
+            {
+                "answer": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx10"
+                ]
+            },
+            {
+                "answer": "Babies' garments and clothing accessories, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx11"
+                ]
+            },
+            {
+                "answer": "Tracksuits, ski suits and swimwear, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx12"
+                ]
+            },
+            {
+                "answer": "Garments, made up of knitted or crocheted fabrics of heading 5903, 5906 or 5907",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xxx13"
+                ]
+            },
+            {
+                "answer": "Other garments, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx14"
+                ]
+            },
+            {
+                "answer": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx15"
+                ]
+            },
+            {
+                "answer": "Gloves, mittens and mitts, knitted or crocheted",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx16"
+                ]
+            },
+            {
+                "answer": "Other made-up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories",
+                "label": "Some words",
+                "next": "q4",
+                "patterns": [
+                    "xx17"
+                ]
+            }
+        ]
+    },
+        "q4":{
+        "question": "What's the closure",
+        "label": "my explanatory label",
+        "options": [
+            {
+                "answer": "Left over right closure",
+                "label": "Garments with a left over right closure at the front are classed as men’s or boys’ garments.",
+                "next": "q3",
+                "patterns": [
+                    "xx01",
+                    "xx03",
+                    "xx05",
+                    "xx07"
+                ]
+            },
+            {
+                "answer": "Left over right closure",
+                "label": "Those with right over left closure at the front are classed as women’s and girls’ garments.",
+                "next": "q3",
+                "patterns": [
+                    "xx02",
+                    "xx04",
+                    "xx06",
+                    "xx08",
+                    "xx09",
+                    "xx10",
+                    "xx11",
+                    "xx12",
+                    "xx13",
+                    "xx14",
+                    "xx15",
+                    "xx16",
+                    "xx17"
+                ]
+            },
+            {
+                "answer": "Left over right closure",
+                "label": "Those with right over left closure at the front are classed as women’s and girls’ garments.",
+                "next": "q3",
+                "patterns": [
+                    "xx02",
+                    "xx04",
+                    "xx06",
+                    "xx08",
+                    "xx09",
+                    "xx10",
+                    "xx11",
+                    "xx12",
+                    "xx13",
+                    "xx14",
+                    "xx15",
+                    "xx16",
+                    "xx17"
+                ]
+            }
+        ]
+    }
+}

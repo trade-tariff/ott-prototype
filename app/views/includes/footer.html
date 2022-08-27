@@ -1,0 +1,80 @@
+{{ govukFooter({
+  navigation: [
+    {
+      title: context.get_content("global.footer.contact"),
+      items: [
+        {
+          href: "https://www.gov.uk/guidance/ask-hmrc-for-advice-on-classifying-your-goods",
+          text: context.get_content("global.footer.ask_hmrc")
+        },
+        {
+          href: "https://www.gov.uk/guidance/ask-hmrc-for-advice-on-classifying-your-goods",
+          text: context.get_content("global.footer.imports_exports")
+        },
+        {
+          href: "/help/feedback",
+          text: context.get_content("global.footer.feedback")
+        }
+      ]
+    },
+    {
+      title: context.get_content("global.footer.help"),
+      items: [
+        {
+          href: "https://www.gov.uk/guidance/finding-commodity-codes-for-imports-or-exports",
+          text: context.get_content("global.footer.finding_commodity_codes")
+        },
+        {
+          href: "https://www.gov.uk/topic/business-tax/import-export",
+          text: context.get_content("global.footer.import_export")
+        },
+        {
+          href: "https://www.gov.uk/check-how-to-import-export",
+          text: context.get_content("global.footer.check_how_to_import_export")
+        },
+        {
+          href: "https://www.gov.uk/guidance/apply-for-an-advance-tariff-ruling",
+          text: context.get_content("global.footer.advance_tariff_rulings")
+        }
+      ]
+    },
+    {
+      title: context.get_content("global.footer.related_information"),
+      items: [
+        {
+          href: "https://www.gov.uk/government/collections/uk-trade-tariff-volume-1",
+          text: context.get_content("global.footer.tariff_volume_1")
+        },
+        {
+          href: "https://www.gov.uk/government/collections/uk-trade-tariff-volume-3",
+          text: context.get_content("global.footer.tariff_volume_3")
+        },
+        {
+          href: "https://api.trade-tariff.service.gov.uk/#gov-uk-trade-tariff-api",
+          text: context.get_content("global.footer.api_documentation")
+        }
+      ]
+    }
+    
+  ],
+  meta: {
+    items: [
+      {
+        href: "/privacy",
+        text: context.get_content("global.footer.privacy")
+      },
+      {
+        href: "/cookies",
+        text: context.get_content("global.footer.cookies")
+      },
+      {
+        href: "/accessibility",
+        text: context.get_content("global.footer.accessibility")
+      },
+      {
+        href: "/terms",
+        text: context.get_content("global.footer.terms_and_conditions")
+      }
+    ]
+  }
+}) }}

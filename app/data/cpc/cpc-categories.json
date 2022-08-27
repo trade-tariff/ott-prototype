@@ -1,0 +1,120 @@
+[
+    {
+        "code": "00",
+        "procedure": "No previous procedure",
+        "UCCnotes": "",
+        "hint": "",
+        "permitted_procedure_codes": [],
+        "scope": [
+            "previous"
+        ]
+    },
+    {
+        "code": "H1",
+        "procedure": "Declaration for release for Free Circulation; Special procedure; Specific use; and End-use",
+        "UCCnotes": "Declaration for release for free circulation: Articles 5(12), 162 and 201 of the Code Declaration for end-use: Articles 5(12), 162, 210 and 254 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "01",
+            "07",
+            "40",
+            "42",
+            "44",
+            "61"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "H2",
+        "procedure": "Special procedure - storage - declaration for customs warehousing",
+        "UCCnotes": "Articles 5(12), 162, 210 and 240 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "71"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "H3",
+        "procedure": "Special procedure - specific use - declaration for temporary admission",
+        "UCCnotes": "Articles 5(12), 162, 210 and 250 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "53"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "H4",
+        "procedure": "Special procedure - processing - declaration for inward processing",
+        "UCCnotes": "Articles 5(12), 162, 210 and 256 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "51"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "H5",
+        "procedure": "Declaration for the introduction of goods in the context of trade with Special Fiscal Territories and Territories with which the EU has formed a Customs Union",
+        "UCCnotes": "Article 1(3) of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "07",
+            "40",
+            "42",
+            "61"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "I1 C&F",
+        "procedure": "Import simplified declaration C&F (with Regular Use)",
+        "UCCnotes": "Articles 5(12) and 166 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "01",
+            "07",
+            "40",
+            "42",
+            "44",
+            "51",
+            "53",
+            "61",
+            "71"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    },
+    {
+        "code": "I1 B&E",
+        "procedure": "Import simplified declaration B&E (on an occasional basis)",
+        "UCCnotes": "Articles 5(12) and 166 of the Code",
+        "hint": "Lorem ipsum",
+        "permitted_procedure_codes": [
+            "40",
+            "44"
+        ],
+        "scope": [
+            "request",
+            "previous"
+        ]
+    }
+]

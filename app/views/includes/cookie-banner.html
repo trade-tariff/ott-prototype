@@ -1,0 +1,40 @@
+{% if shouldShowCookieMessage %}
+    <div class="app-cookie-banner" style="background-color: #f3f2f1;">
+        <div class="app-cookie-banner__message" id="cookies_consent_mechanism">
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-full">
+                    <h1 class="govuk-heading-m">Cookies on the Online Trade Tariff</h1>
+                    <p>We use some essential cookies to make our services work.</p>
+                    <p>We would like to set additional cookies so we can remember your settings,
+                    understand how people use our services and make improvements.</p>
+                    {{ govukButton({
+                        text: "Accept additional cookies",
+                        href: "",
+                        id: "cookie_accept_all",
+                        classes: "cookie_accept_all"
+                    }) }}
+                    {{ govukButton({
+                        text: "Reject additional cookies",
+                        href: "",
+                        id: "cookie_reject_all",
+                        classes: "cookie_reject_all"
+                    }) }}
+                    {# {{ govukButton({
+                        text: "View cookies",
+                        href: "/cookies"
+                    }) }} #}
+                    <a class="cbanner-govuk-link" href="/cookies">View cookies</a>
+                </div>
+            </div>
+        </div>
+        <div class="app-cookie-banner__message cookies_hide_message" id="cookies_accepted">
+            <p>You have accepted additional cookies. You can <a href="/cookies">change your cookie settings</a> at any time.</p>
+            <button class="govuk-button hide_cookie_panel" data-module="govuk-button">Hide this message</button>
+        </div>
+        <div class="app-cookie-banner__message cookies_hide_message" id="cookies_rejected">
+            <p>You have rejected additional cookies. You can <a href="/cookies">change your cookie settings</a> at any time.</p>
+            <button class="govuk-button hide_cookie_panel" data-module="govuk-button">Hide this message</button>
+        </div>
+    </div>
+</div>
+{% endif %}

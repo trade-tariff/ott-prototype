@@ -1,0 +1,39 @@
+{% set root = "https://www.trade-tariff.service.gov.uk/" %}
+{% set count = 1 %}
+{% set divider = " — " %}
+{% set divider_ancestry = "&nbsp;&nbsp;▶&nbsp;&nbsp;" %}
+<p>The following commodity codes match your search:</p>
+<div class="search_headings tabular">
+    {# {{ hits | dump }} #}
+    <table class="govuk-table">
+        {% for hit in hits %}
+            <tr>
+                <td class="govuk-table__cell w20">
+                    <span class="commodity-split">{{ hit._source.goods_nomenclature_item_id | format_and_trim_commodity_code(true) | safe }}</span>
+                </td>
+                <td class="govuk-table__cell w80">
+                    {# {{ hit._source.hierarchy | dump }} #}
+                    <a href="{{ root }}commodities/{{ hit._source.goods_nomenclature_item_id }}">
+                        {% if hit._source.description == "Other" %}
+                            {{ hit._source.hierarchy[(hit._source.hierarchy | length) - 2]["description"] }}{{ divider }} 
+                        {% endif %}
+                        {{ hit._source.description }}
+                    </a><br>
+                    
+                    <span class="small">
+                    {% set my_count = 0 %}
+                    {% for item in hit._source.hierarchy %}
+                        {% if item.class == "heading" %}
+                            <a href="{{ root }}headings/{{ item.goods_nomenclature_item_id | substring(0, 4) }}">{{ item.description }}</a>
+                        {% elif item.class == "subheading" %}
+                            <a href="{{ root }}subheadings/{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}">{{ item.description }}</a>
+                        {% endif %}
+                        {% if my_count > 0 and my_count < hit._source.hierarchy.length - 1 %}{{ divider_ancestry | safe }}{% endif %}
+                        {% set my_count = my_count + 1 %}
+                    {% endfor %}
+                    </span>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>

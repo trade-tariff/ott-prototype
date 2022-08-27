@@ -1,0 +1,3026 @@
+{
+    "key_000": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_001": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_002": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_003": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_004": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_005": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_006": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_007": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_008": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_009": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_010": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_011": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_012": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_013": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_015": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_016": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_017": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_758": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_759": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_020": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_021": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_022": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_023": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_024": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_025": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_026": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_027": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_028": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_029": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_030": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_031": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_032": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_033": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_035": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_036": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_037": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_768": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_769": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_040": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_041": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_042": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_043": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_044": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_045": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_046": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_047": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_048": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_049": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_050": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_051": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_052": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_053": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_055": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_056": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_057": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_778": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_779": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_060": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_061": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_062": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_063": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_064": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_065": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_066": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_067": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_068": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_069": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_070": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_071": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_072": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_073": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_075": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_076": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_077": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_788": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_789": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "18 - 29.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_080": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_081": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_082": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_083": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_084": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_085": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_086": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_087": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_088": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_090": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_091": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_092": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_095": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_096": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "30 - 59.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_800": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_801": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_802": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_805": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_806": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_807": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_810": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_811": {
+        "milk_fat": "0 - 1.49",
+        "milk_protein": "60 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_100": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_101": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_102": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_103": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_104": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_105": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_106": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_107": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_108": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_109": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_110": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_111": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_112": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_113": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_115": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_116": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_117": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_798": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_799": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_120": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_121": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_122": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_123": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_124": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_125": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_126": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_127": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_128": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_129": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_130": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_131": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_132": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_133": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_135": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_136": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_137": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_808": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_809": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "2.5 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_140": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_141": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_142": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_143": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_144": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_145": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_146": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_147": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_148": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_149": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_150": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_151": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_152": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_153": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_155": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_156": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_157": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_818": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_819": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_160": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_161": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_162": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_163": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_164": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_165": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_166": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_167": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_168": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_169": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_170": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_171": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_172": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_173": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_175": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_176": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_177": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_828": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_829": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "18 - 29.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_180": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_181": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_182": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_183": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_185": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_186": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_187": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_188": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_190": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_191": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_192": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_195": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_196": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "30 - 59.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_820": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_821": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_822": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_825": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_826": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_827": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_830": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_831": {
+        "milk_fat": "1.5 - 2.99",
+        "milk_protein": "60 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_840": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_841": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_842": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_843": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_844": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_845": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_846": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_847": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_848": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_849": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_850": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_851": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_852": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_853": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_855": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_856": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_857": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_858": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_859": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "0 - 2.49",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_200": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_201": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_202": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_203": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_204": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_205": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_206": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_207": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_208": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_209": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_210": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_211": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_212": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_213": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_215": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_216": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_217": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_220": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_221": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "2.5-11.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_260": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_261": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_262": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_263": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_264": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_265": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_266": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_267": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_268": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_269": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_270": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_271": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_272": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_273": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_275": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_276": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_838": {
+        "milk_fat": "3 - 5.99",
+        "milk_protein": "12 or more",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_860": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_861": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_862": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_863": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_864": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_865": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_866": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_867": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_868": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_869": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_870": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_871": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_872": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_873": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_875": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_876": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_877": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_878": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_879": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "0 - 3.9",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_300": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_301": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_302": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_303": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_304": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_305": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_306": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_307": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_308": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_309": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_310": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_311": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_312": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_313": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_315": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_316": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_317": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_320": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_321": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "4 - 14.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_360": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_361": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_362": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_363": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_364": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_365": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_366": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_367": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_368": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_369": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_370": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_371": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_372": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_373": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_375": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_376": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_378": {
+        "milk_fat": "6 - 8.99",
+        "milk_protein": "15 or more",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_900": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_901": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_902": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_903": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_904": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_905": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_906": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_907": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_908": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_909": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_910": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_911": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_912": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_913": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_915": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_916": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_917": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_918": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_919": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_400": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_401": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_402": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_403": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_404": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_405": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_406": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_407": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_408": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_409": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_410": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_411": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_412": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_413": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_415": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_416": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_417": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_420": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_421": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_460": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_461": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_462": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_463": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_464": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_465": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_466": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_467": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_468": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_470": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_471": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_472": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_475": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_476": {
+        "milk_fat": "9 - 11.99",
+        "milk_protein": "18 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_940": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_941": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_942": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_943": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_944": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_945": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_946": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_947": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_948": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_949": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_950": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_951": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_952": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_953": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_955": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_956": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_957": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_958": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_959": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_500": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_501": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_502": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_503": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_504": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_505": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_506": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_507": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_508": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_509": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_510": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_511": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_512": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_513": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_515": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_516": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_517": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_520": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_521": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "6 - 17.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_560": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_561": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_562": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_563": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_564": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_565": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_566": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_567": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_568": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_570": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_571": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_572": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_575": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_576": {
+        "milk_fat": "12 - 17.99",
+        "milk_protein": "18 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_960": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_961": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_962": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_963": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_964": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_965": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_966": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_967": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_968": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_969": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_970": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_971": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_972": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_973": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_975": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_976": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_977": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "30 or more"
+    },
+    "key_978": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_979": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "75 or more",
+        "sucrose": "5 or more"
+    },
+    "key_600": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_601": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_602": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_603": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_604": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_605": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_606": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_607": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_608": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_609": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "70 or more"
+    },
+    "key_610": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_611": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_612": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_613": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "50 or more"
+    },
+    "key_615": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_616": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_620": {
+        "milk_fat": "18 - 25.99",
+        "milk_protein": "6 or more",
+        "starch": "75 or more",
+        "sucrose": "0 - 4.99"
+    },
+    "key_980": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_981": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_982": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_983": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_984": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "0 - 4.99",
+        "sucrose": "70 or more"
+    },
+    "key_985": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_986": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_987": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_988": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_990": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_991": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_992": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_995": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_996": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "0 - 5.99",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_700": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_701": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_702": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_703": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_705": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_706": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_707": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_708": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_710": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_711": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_712": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_715": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_716": {
+        "milk_fat": "26 - 39.99",
+        "milk_protein": "6 or more",
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_720": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_721": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_722": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_723": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_725": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_726": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_727": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_728": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "50 - 69.99"
+    },
+    "key_730": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_731": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_732": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_735": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "50 - 74.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_736": {
+        "milk_fat": "40 - 54.99",
+        "milk_protein": null,
+        "starch": "50 - 74.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_740": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_741": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_742": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_745": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_746": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_747": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_750": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_751": {
+        "milk_fat": "55 - 69.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_760": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_761": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_762": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "30 - 49.99"
+    },
+    "key_765": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_766": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_770": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_771": {
+        "milk_fat": "70 - 84.99",
+        "milk_protein": null,
+        "starch": "25 - 49.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_780": {
+        "milk_fat": "85 or more",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_781": {
+        "milk_fat": "85 or more",
+        "milk_protein": null,
+        "starch": "0 - 4.99",
+        "sucrose": "5 - 29.99"
+    },
+    "key_785": {
+        "milk_fat": "85 or more",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "0 - 4.99"
+    },
+    "key_786": {
+        "milk_fat": "85 or more",
+        "milk_protein": null,
+        "starch": "5 - 24.99",
+        "sucrose": "5 - 29.99"
+    }
+}

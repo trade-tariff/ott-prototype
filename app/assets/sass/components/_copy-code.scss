@@ -1,0 +1,63 @@
+.copy_code {
+    color           : #000;
+    display         : inline;
+    font-weight     : normal;
+    font-size       : 14px;
+    padding-left    : 1em;
+}
+
+@media (max-width: 55.25em) {
+    .copy_code {
+        float     : none;
+        display   : block;
+        margin-top: 0.75em;
+        padding   : 0px;
+    }
+}
+
+.pseudo-link {
+    background-image : url('/public/images/copy.png');
+    background-repeat: no-repeat;
+    text-decoration  : underline;
+    padding-left     : 24px;
+    color            : #1d70b8;
+}
+
+.pseudo-link:hover {
+    cursor: pointer;
+}
+
+.copied {
+    display     : block;
+    text-indent : -999em;
+    margin-top  : 5px;
+    padding-left: 1.75em;
+}
+
+.copied_meursing {
+    display        : block;
+    text-indent    : -999em;
+    // margin-top  : 5px;
+    padding-left   : 0.75em;
+}
+
+.tariff-breadcrumbs nav ul li div.copy_code span {
+    padding-right: 0px;
+}
+
+.copy_code a {
+    width: 171px;
+}
+
+.tariff-breadcrumbs nav ul li {
+    position   : relative;
+    display    : block;
+    line-height: 30px;
+    word-wrap  : break-word;
+    font-size  : 16px;
+    min-height : auto !important;
+}
+
+.flex {
+    display: flex;
+}

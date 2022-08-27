@@ -1,0 +1,81 @@
+<!-- Start old breadcrumb //-->
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+        <nav class="nav_hierarchy" aria-label="A list of commodity code {{ commodity.data.attributes.goods_nomenclature_item_id }}'s section, chapter and other parent commodity codes">
+            <a href="#import" class="govuk-skip-link">Skip to information about importing commodity {{ commodity.data.attributes.goods_nomenclature_item_id }}</a>
+            <ol class="govuk-list xgovuk-list-s">
+                {% set counter = 0 %}
+                {% for item in commodity.included %}
+                    {% if (item.type == "section") %}
+                        {# Start section #}
+                        <li class="hierarchy_section" id="hierarchy_section" aria-owns="hierarchy_chapter"><a class="list_hierarchy" href="/{{ context.scope_id | fwdslash }}sections/{{ item.id }}"><span class="hierarchy_identifier">Section {{ item.attributes.numeral }}</span><span class="hierarchy_descriptor">{{ item.attributes.title | safe }}</span></a></li>
+                        {# End section #}
+                    {% endif %}
+
+                    {% if (item.type == "chapter") %}
+                        {# Start chapter #}
+                        <li class="hierarchy_chapter" id="hierarchy_chapter" aria-owns="hierarchy_heading">
+                            <a class="list_hierarchy" href="/{{ context.scope_id | fwdslash }}chapters/{{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}">
+                                <span class="hierarchy_identifier">
+                                        Chapter {{ item.attributes.goods_nomenclature_item_id | substring(0, 2) }}
+                                </span>
+                                <span class="hierarchy_descriptor">
+                                    {{ item.attributes.formatted_description | safe }}
+                                </span>
+                            </a>
+                        </li>
+                        {# End chapter #}
+                    {% endif %}
+
+                    {% if (item.type == "heading") %}
+                        {# Start heading #}
+                        <li class="hierarchy_heading" id="hierarchy_heading" aria-owns="hierarchy_ancestor_1">
+                            <a class="list_hierarchy" href="/{{ context.scope_id | fwdslash }}headings/{{ item.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                                <span class="hierarchy_identifier commodity-split">
+                                    {{ item.attributes.goods_nomenclature_item_id | substring(0, 4) | format_commodity_code2 | safe }}
+                                </span>
+                                <span class="hierarchy_descriptor">
+                                    {{ item.attributes.formatted_description | safe }}
+                                </span>
+                            </a>
+                        </li>
+                        {# End heading #}
+                    {% endif %}
+
+                    {% if (item.type == "commodity") %}
+                        {% set counter = (counter | default(0)) + 1 %}
+                        {# Start ancestors #}
+                        <li class="hierarchy_ancestor_{{ counter }}" id="hierarchy_ancestor_{{ counter }}" aria-owns="hierarchy_ancestor_{{ counter + 1 }}">
+                            <span class="list_hierarchy" href="/{{ context.scope_id | fwdslash }}headings/{{ item.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                                {# {% if (item.attributes.producline_suffix == "80") %} #}
+                                <span class="hierarchy_identifier commodity-split">
+                                    {{ item.attributes.goods_nomenclature_item_id | format_and_trim_commodity_code | safe }}
+                                </span>
+                                {# {% endif %} #}
+                                <span class="hierarchy_descriptor">
+                                    {{ item.attributes.formatted_description | safe }}
+                                </span>
+                            </span>
+                        </li>
+                        {# End ancestors #}
+                    {% endif %}
+                {% endfor %}
+
+                {% set counter = (counter | default(0)) + 1 %}
+                {# Start show current commodity #}
+                <li class="hierarchy_ancestor_{{ counter }}">
+                    <span class="list_hierarchy" href="/{{ context.scope_id | fwdslash }}headings/{{ item.attributes.goods_nomenclature_item_id | substring(0, 4) }}">
+                        <span class="hierarchy_heading hierarchy_identifier commodity-split">
+                            {{ commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe }}
+                        </span>
+                        <span class="hierarchy_descriptor b">
+                            {{ commodity.data.attributes.formatted_description | safe }}
+                        </span>
+                    </span>
+                </li>
+                {# End show current commodity #}
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- End old breadcrumb //-->

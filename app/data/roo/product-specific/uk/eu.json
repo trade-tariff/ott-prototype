@@ -1,0 +1,212 @@
+[
+  {
+    "id": 10000000,
+    "description": "Chapter 1: Live animals",
+    "rule_of_origin": "All animals of Chapter 1 are wholly obtained.",
+    "key_first": "0101000000",
+    "key_last": "0106999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "01.01-01.06"
+  },
+  {
+    "id": 10000001,
+    "description": "Chapter 2: Meat and edible meat offal",
+    "rule_of_origin": "Production in which all the materials of Chapters 1 and 2 used are wholly obtained.",
+    "key_first": "0201000000",
+    "key_last": "0210999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "02.01-02.10"
+  },
+  {
+    "id": 10000002,
+    "description": "Chapter 3: Fish and crustaceans, molluscs and other aquatic invertebrates",
+    "rule_of_origin": "Production in which all the materials of Chapter 3 used are wholly obtained.",
+    "key_first": "0301000000",
+    "key_last": "0308999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "03.01-03.08"
+  },
+  {
+    "id": 10000003,
+    "description": "Chapter 4: Dairy produce; birds'eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+    "rule_of_origin": "Production in which:\nall the materials of Chapter 4 used are wholly obtained _and_\nthe total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "0401000000",
+    "key_last": "0410999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "04.01-04.10"
+  },
+  {
+    "id": 10000004,
+    "description": "Chapter 5: Products of animal origin, not elsewhere specified or included",
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "0501000000",
+    "key_last": "0511999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "05.01-05.11"
+  },
+  {
+    "id": 10000005,
+    "description": "Chapter 6: Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
+    "rule_of_origin": "Production in which all the materials of Chapter 6 used are wholly obtained.",
+    "key_first": "0601000000",
+    "key_last": "0604999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "06.01-06.04"
+  },
+  {
+    "id": 10000006,
+    "description": "Chapter 7: Edible vegetables and certain roots and tubers",
+    "rule_of_origin": "Production in which all the materials of Chapter 7 used are wholly obtained.",
+    "key_first": "0701000000",
+    "key_last": "0714999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "07.01-07.14"
+  },
+  {
+    "id": 10000007,
+    "description": "Chapter 8: Edible fruit and nuts; peel of citrus fruit or melons",
+    "rule_of_origin": "Production in which:\nall the materials of Chapter 8 used are wholly obtained _and_\nthe total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "0801000000",
+    "key_last": "0814999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "08.01-08.14"
+  },
+  {
+    "id": 10000008,
+    "description": "Chapter 9: Coffee, tea, mat\u00e9 and spices",
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "0901000000",
+    "key_last": "0910999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "09.01-09.10"
+  },
+  {
+    "id": 10000009,
+    "description": "Chapter 10: Cereals",
+    "rule_of_origin": "Production in which all the materials of Chapter 10 used are wholly obtained.",
+    "key_first": "1001000000",
+    "key_last": "1008999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "10.01-10.08"
+  },
+  {
+    "id": 10000010,
+    "description": "Chapter 11: Products of the milling industry; malt; starches; inulin; wheat gluten",
+    "rule_of_origin": "Production in which all materials of Chapters 10 and 11, headings 07.01, 07.14, 23.02 to 23.03 or subheading 0710.10 used are wholly obtained.",
+    "key_first": "1101000000",
+    "key_last": "1109999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "11.01-11.09"
+  },
+  {
+    "id": 10000011,
+    "description": "Chapter 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
+    "rule_of_origin": "CTH",
+    "key_first": "1201000000",
+    "key_last": "1214999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "12.01-12.14"
+  },
+  {
+    "id": 10000012,
+    "description": "Chapter 13: Lac; gums, resins and other vegetable saps and extracts",
+    "rule_of_origin": "Production from non-originating materials of any heading in which the total weight of non-originating materials of headings 17.01 and 17.02 does not exceed 20% of the weight of the product.",
+    "key_first": "1301000000",
+    "key_last": "1302999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "13.01-13.02"
+  },
+  {
+    "id": 10000013,
+    "description": "Chapter 14: Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "1401000000",
+    "key_last": "1404999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "14.01-14.04"
+  },
+  {
+    "id": 10000014,
+    "description": "Heading 1501: Lard; other pig fat and poultry fat, rendered, whether or not pressed or solvent-extracted\nHeading 1502: Fats of bovine animals, sheep or goats, raw or rendered, whether or not pressed or solvent-extracted\nHeading 1503: Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared\nHeading 1504: Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified",
+    "rule_of_origin": "CTH",
+    "key_first": "1501000000",
+    "key_last": "1504999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.01-15.04"
+  },
+  {
+    "id": 10000015,
+    "description": "Heading 1505: Wool grease and fatty substances derived therefrom (including lanolin)\nHeading 1506: Other animal fats and oils and their fractions, whether or not refined, but not chemically modified",
+    "rule_of_origin": "Production from non-originating materials of any heading.",
+    "key_first": "1505000000",
+    "key_last": "1506999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.05-15.06"
+  },
+  {
+    "id": 10000016,
+    "description": "Heading 1507: Soya-bean oil and its fractions, whether or not refined, but not chemically modified\nHeading 1508: Groundnut oil and its fractions, whether or not refined, but not chemically modified",
+    "rule_of_origin": "CTSH",
+    "key_first": "1507000000",
+    "key_last": "1508999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.07-15.08"
+  },
+  {
+    "id": 10000017,
+    "description": "Heading 1509: Olive oil and its fractions, whether or not refined, but not chemically modified\nHeading 1510: Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no 1509",
+    "rule_of_origin": "Production in which all the vegetable materials used are wholly obtained.",
+    "key_first": "1509000000",
+    "key_last": "1510999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.09-15.10"
+  },
+  {
+    "id": 10000018,
+    "description": "Heading 1511: Palm oil and its fractions, whether or not refined, but not chemically modified\nHeading 1512: Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified\nHeading 1513: Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified\nHeading 1514: Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified\nHeading 1515: Other fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",
+    "rule_of_origin": "CTSH",
+    "key_first": "1511000000",
+    "key_last": "1515999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.11-15.15"
+  },
+  {
+    "id": 10000019,
+    "description": "Heading 1516: Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared\nHeading 1517: Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils or their fractions of heading\u00a01516",
+    "rule_of_origin": "CTH",
+    "key_first": "1516000000",
+    "key_last": "1517999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.16-15.17"
+  },
+  {
+    "id": 10000020,
+    "description": "Heading 1518: Animal or vegetable fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading no 1516; inedible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, not elsewhere specified or included\nHeading 1519: Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols",
+    "rule_of_origin": "CTSH",
+    "key_first": "1518000000",
+    "key_last": "1519999999",
+    "validity_start_date": "2021-01-01",
+    "validity_end_date": null,
+    "heading": "15.18-15.19"
+  }
+]

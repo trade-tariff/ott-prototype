@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - tariff payable
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/duty-calculator/confirm/" + commodity.data.attributes.goods_nomenclature_item_id
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Import duty calculation</h1>
+      
+      <p>You are importing commodity <a href="/commodities/{{ commodity.goods_nomenclature_item_id }}">
+          <strong>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}</a>
+        </strong> from <strong>{{ commodity.country_name }}</strong> on <strong>03 Jun 2021</strong>.</p>
+
+      <details class="govuk-details import_summary" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Details of your trade</span>
+        </summary>
+        <div class="govuk-details__text">
+          <dl>
+            <dt>Origin:</dt>
+            <dd>{{ commodity.country_name }}&nbsp;</dd>
+
+            <dt>Commodity:</dt>
+            <dd>{{ commodity.goods_nomenclature_item_id | format_commodity_code }}<br>
+              {{ commodity.description | safe }}</dd>
+
+            <dt>Import date:</dt>
+            <dd>1 Jan 2021&nbsp;</dd>
+
+            <dt>Valuation for import:</dt>
+            <dd>£2,000.00&nbsp;</dd>
+          </dl>
+        </div>
+      </details>
+
+      {{ govukWarningText({
+        text: "Third-country duty will apply as there is no preferential agreement in place for the import of this commodity.",
+        iconFallbackText: "Information"
+      }) }}
+
+
+      {{ govukTable({
+        firstCellIsHeader: false,
+        classes: "govuk-table--m",
+        head: [
+          {
+            text: "Data",
+              classes: "forty"
+          },
+          {
+            text: "Calculation",
+              classes: "forty"
+          },
+          {
+            text: "Value",
+            classes: "r twenty"
+          }
+        ],
+        rows: [
+          [
+            {
+              text: "Valuation for import"
+            },
+            {
+              text: "Value of goods + freight + insurance costs"
+            },
+            {
+              text: "£1,500.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Import duty <br><span class='govuk-green'> Third country duty (UK)</span>"
+            },
+            {
+              text: "15.00% * £1,500.00"
+            },
+            {
+              text: "£225.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Excise <br><span class='govuk-green'>541 - Heavy oil: unrebated (unmarked, including Diesel Engine Road Vehicle (DERV) or road fuel extender and unmarked kerosene or unmarked gas oil for which no marking waiver has been granted)</span>"
+            },
+            {
+              text: "£10.00 / kilogram"
+            },
+            {
+              text: "£100.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "VAT <br><span class='govuk-green'>Standard rate</span>"
+            },
+            {
+              text: "20.00% * £1,825.00"
+            },
+            {
+              text: "£365.00",
+              classes: "r"
+            }
+          ],
+          [
+            {
+              html: "Duty Total",
+              classes: "b"
+            },
+            {
+              text: ""
+            },
+            {
+              text: "£690.00",
+              classes: "r b"
+            }
+          ]
+        ]
+      }) }}
+      <p class="govuk-body">To use the third-country duty, do the following ... or read this information.</p>
+
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Submitting your declaration",
+            href: "/cpc"
+            },
+            {
+            text: "Declaration category",
+            href: ""
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">Submitting your declaration</span>
+      <h1 class="govuk-heading-l">Procedure code {{ controller.previous_code }} - when to use this code</h1>
+      <h2 class="govuk-heading-m">Notes</h2>
+      {{ controller.request_code_notes | safe }}
+
+      <h2 class="govuk-heading-m">Description of procedure</h2>
+      {{ controller.previous_code_description | safe }}
+
+      <h2 class="govuk-heading-m">Conditions for use</h2>
+      {{ controller.previous_code_conditions | safe }}
+
+      <h2 class="govuk-heading-m">Restrictions on usage</h2>
+      {{ controller.previous_code_restrictions | safe }}
+
+      {{ govukButton({
+        text: "Continue",
+        href: "/cpc/previous-code-apcs"
+      }) }}
+
+      {{ govukButton({
+        text: "Back",
+        classes: "govuk-button--secondary govuk-!-margin-left-2",
+        href: "/cpc/request-code"
+      }) }}
+
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+{% endblock %}
+</html>

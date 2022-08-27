@@ -1,0 +1,350 @@
+.tariff-search {
+    z-index   : 1;
+    // padding:1em 1em 0.25em 1em;
+
+    // This showed the magnifying glass
+    // button {
+    //     box-shadow         : none;
+    //     width              : 40px;
+    //     height             : 40px;
+    //     text-indent        : -5000px;
+    //     background-image   : url('/public/images/search-button.png');
+    //     background-repeat  : no-repeat;
+    //     background-position: 1px -17px;
+    //     margin             : 0px 0px 0px -6px;
+    // }
+}
+
+
+.code_leaf {
+    font-weight: bold;
+}
+
+tr.featured td span.desc {
+    padding-right: 1em;
+}
+
+
+
+tr.featured td span.desc::after {
+    content: "⭐";
+}
+
+.tags {
+    font-size: 12px;
+}
+
+.tag {
+    display                : inline-block;
+    background-color       : #f0f0f0;
+    border-radius          : 4px;
+    border                 : 1px #ddd solid;
+    font-size              : 12px;
+    padding                : 2px 5px;
+    margin-right           : 0.25em;
+    margin-bottom          : 5px;
+    width                  : auto;
+    clear                  : both;
+    font-family            : "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    a {
+        color          : #000;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.tag.red {
+    background-color: #ffcccc;
+}
+
+.tag:hover {
+    border-color    : #ccc;
+    background-color: #f9f9f9;
+}
+
+
+.hi {
+    background-color   : #eef;
+    color              : #2C58A5;
+    padding-left       : 2px;
+    padding-right      : 2px;
+    // border          : #9ab 1px solid;
+    // border-radius   : 4px;
+    // margin-right    : 2px;
+    // margin-left    : 2px;
+}
+
+.score {
+    display: block;
+    display: none;
+    color  : #d00;
+}
+
+.taglist {
+    margin-bottom      : 1.5em;
+    // padding         : 0.25em;
+    // background-color: #fff;
+
+    p {
+        font-size: 14px;
+        margin   : 0px 0px 0.5em 0px;
+    }
+}
+
+.history_list {
+    display: grid;
+}
+
+.history_list_search {
+    grid-template-columns: 90% 10%;
+}
+
+.history_list_commodities {
+    grid-template-columns: 70% 20% 10%;
+}
+
+.guide {
+    border               : 1px #f0f0f0 solid;
+    border-radius        : 10px;
+    padding              : 1em 1em 0px 1em;
+    background-color     : #EBF0F7;
+    display              : grid;
+    margin-bottom        : 1em;
+    grid-template-columns: 17% 83%;
+
+    div {
+        margin-right: 1em;
+    }
+
+    img {
+        width        : 100%;
+        border-radius: 5px;
+    }
+}
+
+.guide_aside {
+    background-color: #EBF0F7;
+    padding         : 0.5em 0.5em 0.5em 0.5em;
+
+    img {
+        width        : 100%;
+        border-radius: 5px;
+        display      : none;
+    }
+}
+
+.arrow {
+    font-size    : 10px;
+    padding-left : 0.25em;
+    padding-right: 0.25em;
+    top          : -1px;
+    position     : relative;
+}
+
+.sh2 {
+    grid-template-columns: 49% 49%;
+}
+
+.sh3 {
+    grid-template-columns: 32% 32% 32%;
+}
+
+.sh4 {
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+}
+
+.sh5 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+.search_headings.tabular {
+    grid-template-columns: 100%;
+    grid-gap             : 0px !important
+}
+
+.search_headings {
+    width        : 100%;
+    display      : grid;
+    grid-gap     : 2%;
+    justify-items: stretch;
+    margin-bottom: 1em;
+}
+
+.tabular .search_heading {
+    background           : none;
+    border               : 0px;
+    border-bottom        : 1px solid #999;
+    display              : grid;
+    grid-gap             : 1em;
+    justify-items        : left;
+    grid-template-columns: 10% 90%;
+    text-align           : left;
+    padding              : 0.25em 0px !important;
+    margin               : 0px !important;
+
+    p {
+        font-size: 16px;
+        padding  : 0em !important;
+        margin   : 0px !important;
+    }
+
+    h3.govuk-heading-l {
+        font-size: 19px;
+        padding  : 0em !important;
+        margin   : 0px !important;
+        color    : black !important;
+    }
+}
+
+.search_heading {
+    text-align      : center;
+    border          : 1px #eee solid;
+    padding         : 0.5em 0.25em;
+    background-color: #EBF0F7;
+    border-radius   : 4px;
+
+    h3 {
+        color: #1D70B8 !important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        color          : #006;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .hi {
+        background-color: #fff;
+        color           : #000;
+    }
+}
+
+.x {
+    font-weight  : bold;
+    padding-right: 0.25em;
+}
+
+.red {
+    color: #c00;
+}
+
+.tag.blue {
+    color: #33c;
+}
+
+.last-twig {
+    color      : #333;
+    font-weight: 600;
+    ;
+}
+
+$indent        : 16;
+$initial-indent: 0;
+
+.alpha {
+    .search_item {
+        font-family          : "GDS Transport", arial, sans-serif;
+        display              : grid;
+        grid-template-columns: 80% 20%;
+        width                : 100%;
+        margin-bottom        : 0.25em;
+
+        // div {
+        //     border: 1px black solid;
+        // }
+
+        div.desc {
+            font-size    : 19px;
+            padding-right: 2em;
+        }
+    }
+
+    .govuk-details__summary:before {
+        top   : 5px;
+        margin: 0px;
+    }
+
+    .search_list_chapter {
+        display         : block;
+        font-weight     : bold;
+        background-color: #f0f0f0;
+        padding         : 5px;
+    }
+
+
+
+    @for $i from 1 through 13 {
+        .search_item_#{$i} .desc {
+            padding-left       : #{$initial-indent + ($i * $indent)}px;
+            background-image   : url('/public/images/dashes_#{$i}.png');
+            background-repeat  : no-repeat;
+            background-position: 2px 11px;
+        }
+    }
+}
+
+.search_headings {
+    .commodity-split {
+        font-family: 'Azeret Mono', 'Courier New', Courier, monospace;
+
+        span {
+            padding         : 2px 3px;
+            margin          : 0px 2px 0px 0px;
+            font-size       : 14px;
+            background-color: #eee;
+            color           : #000;
+        }
+
+        span:nth-of-type(1) {
+            background-color: #e8e9f3;
+        }
+
+        span:nth-of-type(2) {
+            background-color: #d9ecf7;
+        }
+
+        span:nth-of-type(3) {
+            background-color: #d5f5f2;
+        }
+
+    }
+}
+
+span.delete a {
+    text-decoration: none;
+    color          : #000;
+}
+
+span.delete a:hover {
+    text-decoration: underline;
+}
+
+.w20 {
+    width: 20%
+}
+
+.w80 {
+    width: 80%
+}
+
+.small {
+    font-size: 12px;
+
+    a {
+        color: #000;
+    }
+}

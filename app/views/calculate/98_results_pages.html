@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Trade Tariff: Calculate duty - enter date
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+  {{ govukBackLink({
+  text: "Back",
+  href: "/commodities/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.scope_id
+}) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-xl">Calculate import duties</span>
+      <h1 class="govuk-heading-xl">Results page index</h1>
+
+      <p class="b">MFN (Third country duty)</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="/duty-calculator/results/9102990000/mfn">Options for when only the MFN applies</a>
+        </li>
+      </ul>
+
+      <p class="b">Tariff preferences</p>
+      <p class="teal govuk-body-s">What about the import of goods from Iceland and Norway, where the trader might need to decide whether to import from Iceland, Iceland EEA, EEA?
+      Do we have the ability to take the lowest applicable preference?</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="/duty-calculator/results/9102990000/uk-preference">Options for when there is a UK preference, but no EU preference</a>
+        </li>
+        <li>
+          <a href="/duty-calculator/results/9102990000/eu-uk-preference">Options for when there is both a UK and an EU preference</a>
+        </li>
+        <li><a href="/duty-calculator/results/9102990000/eu-preference">Options for when there is only an EU preference</a></li>
+        <li><a href="/duty-calculator/results/9102990000/iceland">Iceland</a></li>
+      </ul>
+
+      <p class="b">GSPs</p>
+      <p class="teal govuk-body-s">Treat GSPs as tariff preferences - need to think about the possibility of comparing a country that is in both GSP and has its own preference.</p>
+      <p class="teal govuk-body-s">0101299000 - In UK tariff, Ghana is in GSP with a 6.5% rate; in EU tariff, Ghana is own preference on 0.00%.
+      Will need a note to show that there is a process difference between GSP and standard tariff preferences.</p>
+      
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="/">GSP in the UK tariff and in the EU tariff</a></li>
+        <li><a href="/">GSP in the UK tariff but a tariff preference in the EU tariff</a></li>
+        <li><a href="/">Tariff preference in the UK tariff but GSP in the EU tariff</a></li>
+      </ul>
+
+      <p class="b">Quotas</p>
+      <p class="teal govuk-body-s">Presumption is that there are no EU quotas that the NI trader can use, including safeguard quotas.</p>
+      <p class="teal govuk-body-s">We need to exclude UK safeguard quotas from this point</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="/">Select a non-preferential quota in the UK tariff; compare against no quota</a></li>
+        <li><a href="/">Select a preferential quota in the UK tariff; compare against no quota</a></li>
+        <li><a href="/">Select a preferential licenced quota in the UK tariff; compare against no quota</a></li>
+      </ul>
+
+      <p class="b">Suspensions</p>
+      <p class="teal govuk-body-s">UK and EU suspensions are the same in terms of measure types, but probably differ in terms of the
+      comm code applicability and possibly the rates.</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="/">Select a suspension in the UK - same suspension available in the EU</a></li>
+        <li><a href="/">Select a suspension in the UK - different suspension available in the EU</a></li>
+        <li><a href="/">Select a suspension in the UK - no suspension available in the EU</a></li>
+        <li><a href="/">No suspension in the UK - suspension available in the EU</a></li>
+      </ul>
+
+      <p class="b">Trade Defence measures</p>
+      <p class="teal govuk-body-s">In a way these are simpler - if there is an EU Trade Defence measure, then the EU at risk
+      duty applies in all cases - measure types 551, 552, 553, 554, 695, 696.</p>
+      <p class="teal govuk-body-s">We do not show the per-company calculations in MVP</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="/duty-calculator/results/9102990000/trade-defence-eu">Trade defence measure on the commodity in the EU, but none in the UK</a></li>
+        <li><a href="/">Trade defence measure on the commodity in the EU, and also in the UK</a></li>
+        <li><a href="/">Trade defence measure on the commodity in the UK, but none in the EU</a></li>
+      </ul>
+
+      <p class="b">Safeguards</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="/">UK safeguard & quota / EU safeguard & quota (quota cannot be used)</a></li>
+        <li><a href="/">No UK or quota / EU safeguard & quota (quota cannot be used)</a></li>
+      </ul>
+
+
+      <h1 class="govuk-heading-m">Questions</h1>
+      <ul class="govuk-list govuk-list--bullet govuk-body-s">
+        <li>What do we do about Iceland - 2012, 2014 and IS - how do we draw a comparison point for tariff preferences?</li>
+        <li>Do we treat GSPs as identical to tariff preferences for comparison perspective - e.g. Ghana?</li>
+        <li>Presume that the safeguard quotas also wipe out the MFN in cases where there is a non-zero MFN?</li>
+        <li>Whata re we doing about aligning the UK and EU addtional codes for trade remedy companies</li>
+      </ul>
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

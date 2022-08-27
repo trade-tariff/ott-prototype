@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Trade Tariff: Search by chemical
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections/" + context.scope_id
+    },
+    {
+      text: "Tools",
+      href: "/tools/" + context.scope_id
+    },
+    {
+      text: "Chemicals",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+    </span>
+      <h1 class="govuk-heading-l">Search the tariff for chemicals by <abbr title="Chemical Abstracts Service">CAS</abbr> number</h1>
+
+      <div class="govuk-inset-text">
+        <p><a href="https://www.cas.org/support/documentation/chemical-substances/faqs"><abbr title="Chemical Abstracts Service">CAS</abbr> Registry Numbers </a>&reg; are universally recognized and used to provide a unique, unmistakable identifier for chemical substances. A <abbr title="Chemical Abstracts Service">CAS</abbr> Registry Number is a numeric identifier that can contain up to 10 digits, divided by hyphens into three parts. The right-most digit is a check digit used to verify the validity and uniqueness of the entire number.</p>
+        <p>For example, 58-08-2 is the <abbr title="Chemical Abstracts Service">CAS</abbr> Registry Number for caffeine.</p>
+        <p>If you don't know the <abbr title="Chemical Abstracts Service">CAS</abbr> Registry Number for your commodity, <a target="_blank" href="https://www.cas.org/services/content/registry-lookup">look up the <abbr title="Chemical Abstracts Service">CAS</abbr> Registry Number</a>.
+      </div>
+
+      {{ govukInput({
+        label: {
+            html: "<abbr title='Chemical Abstracts Service Registry Number'>CAS RN</abbr>"
+        },
+        hint: {
+          html: "If you know the <abbr title='Chemical Abstracts Service'>CAS</abbr> number, please enter it in the appropiate format."
+        },
+                prefix: {
+                    html: "<abbr title='Chemical Abstracts Service Registry Number'>CAS RN</abbr>"
+                },
+        classes: "govuk-input--width-10",
+        id: "certificate_code",
+        name: "certificate_code"
+        }) }}
+
+      {{ govukInput({
+        label: {
+            text: "Chemical name"
+        },
+  classes: "govuk-input--width-20",
+  id: "description",
+  name: "description"
+}) }}
+
+      {{ govukButton({
+  text: "Search"
+}) }}
+      <!--
+I	Surveillance certificate/licence/ document issued by one of the Member States
+K	Tariff quota
+L	Import certificate/licence/document
+N	UN/EDIFACT certificates
+P	Ingredients
+R	Export refunds
+T	T-Document
+U	Proofs of origin
+X	Export licence
+Y	Particular provisions
+Z	More certificates
+//-->
+    </div>
+  </div>
+
+{% endblock %}
+</html>

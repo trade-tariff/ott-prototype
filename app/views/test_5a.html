@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block beforeContent %}
+    <script>
+        document.write('<a href="javascript:history.back();" class="govuk-back-link">Back</a>');
+    </script>
+    <noscript>
+        <a href="{{ referer }}" class="govuk-back-link">Back</a>
+    </noscript>
+{% endblock %}
+
+{% block content %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">{{ context.title }}</span>
+            <h1 class="govuk-heading-l">Test 5a content</h1>
+            <h2 class="govuk-heading-m">CDS content</h2>
+            {{ context.guidance_cds | safe }}
+            
+            <h2 class="govuk-heading-m">CHIEF content</h2>
+            {{ context.guidance_chief | safe }}
+            
+        </div>
+    </div>
+{% endblock %}
+</html>

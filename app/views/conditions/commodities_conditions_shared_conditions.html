@@ -1,0 +1,23 @@
+<p>You must meet one of these conditions.</p>
+<table class="govuk-table govuk-table--m">
+    <thead class="govuk-table__head">
+        <tr>
+            <th scope="col" class="govuk-table__header nw">Document code</th>
+            <th scope="col" class="govuk-table__header">Requirement</th>
+            {# {% for column in mccg.columns %}
+                <th scope="col" class="govuk-table__header">{{ column.label }}</th>
+            {% endfor %} #}
+        </tr>
+        {% for ec in measure.exposed_conditions %}
+            <tr>
+                <td class="govuk-table__cell nw">{{ ec.document_code | safe }}</td>
+                <td class="govuk-table__cell">
+                    {{ ec.requirement | safe }}
+                    
+                </td>
+            </tr>
+        {% endfor %}
+    </thead>
+</table>
+
+{% include "conditions/conditions_shared_5a5b.html" %}
