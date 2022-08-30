@@ -435,7 +435,7 @@
             "max": "1699999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from animals of Chapter 1, and / or in which all the materials of Chapter 3 used are wholly obtained",
+                    "rule": "Manufacture: from animals of Chapter 1, and&nbsp;/&nbsp;or in which all the materials of Chapter 3 used are wholly obtained",
                     "class": [
                         "WO"
                     ],
@@ -1345,7 +1345,7 @@
             "max": "2707999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1381,7 +1381,7 @@
             "max": "2710999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1399,7 +1399,7 @@
             "max": "2711999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1417,7 +1417,7 @@
             "max": "2712999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1435,7 +1435,7 @@
             "max": "2713999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1453,7 +1453,7 @@
             "max": "2714999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1471,7 +1471,7 @@
             "max": "2715999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1489,7 +1489,14 @@
             "max": "2811999999",
             "rules": [
                 {
-                    "rule": "Manufacture from sulphur dioxide\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from sulphur dioxide",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1525,7 +1532,14 @@
             "max": "2840999999",
             "rules": [
                 {
-                    "rule": "Manufacture from disodium tetraborate pentahydrate\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from disodium tetraborate pentahydrate",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1543,7 +1557,14 @@
             "max": "2852999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading 2909 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading 2909 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1561,7 +1582,14 @@
             "max": "2852999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2852, 2932, 2933 and 2934 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2852, 2932, 2933 and 2934 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1579,7 +1607,14 @@
             "max": "2999999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1597,7 +1632,7 @@
             "max": "2901999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) Or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) Or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1615,7 +1650,7 @@
             "max": "2902999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1633,7 +1668,14 @@
             "max": "2905999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, including other materials of heading 2905. However, metal alcoholates of this heading may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, including other materials of heading 2905. However, metal alcoholates of this heading may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1651,7 +1693,14 @@
             "max": "2915999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2915 and 2916 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2915 and 2916 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1669,7 +1718,14 @@
             "max": "2932999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading 2909 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading 2909 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1687,7 +1743,14 @@
             "max": "2932999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1705,7 +1768,14 @@
             "max": "2933999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2932 and 2933 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2932 and 2933 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1723,7 +1793,14 @@
             "max": "2934999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2932, 2933 and 2934 used shall not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading. However, the value of all the materials of headings 2932, 2933 and 2934 used shall not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1771,13 +1848,20 @@
         {
             "heading": "ex 3006",
             "chapter": 30,
-            "subdivision": "- Sterile surgical or dental adhesion\nbarriers, whether or not absorbable:- - made of\nplastics",
+            "subdivision": "- Sterile surgical or dental adhesion\nbarriers, whether or not absorbable:- made of\nplastics",
             "prefix": "",
             "min": "3006000000",
             "max": "3006999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which the value of all the materials of Chapter 39 used does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
+                    "rule": "Manufacture in which the value of all the materials of Chapter 39 used does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1789,7 +1873,7 @@
         {
             "heading": "ex 3006",
             "chapter": 30,
-            "subdivision": "- - made of\nfabrics",
+            "subdivision": "- made of\nfabrics",
             "prefix": "",
             "min": "3006000000",
             "max": "3006999999",
@@ -1831,7 +1915,14 @@
             "max": "3199999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1849,7 +1940,14 @@
             "max": "3105999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product, and in which the value of all the materials used does not exceed 50% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product, and in which the value of all the materials used does not exceed 50% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1867,7 +1965,14 @@
             "max": "3299999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1885,7 +1990,14 @@
             "max": "3201999999",
             "rules": [
                 {
-                    "rule": "Manufacture from tanning extracts of vegetable origin\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from tanning extracts of vegetable origin",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1903,7 +2015,14 @@
             "max": "3205999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except headings 3203, 3204 and 3205. However, materials of heading 3205 may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except headings 3203, 3204 and 3205. However, materials of heading 3205 may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1921,7 +2040,14 @@
             "max": "3399999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1939,7 +2065,14 @@
             "max": "3301999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, including materials of a different \u2018group\u2019 in this heading. However, materials of the same group as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, including materials of a different \u2018group\u2019 in this heading. However, materials of the same group as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1957,7 +2090,14 @@
             "max": "3499999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -1975,7 +2115,7 @@
             "max": "3403999999",
             "rules": [
                 {
-                    "rule": "Operations of refining and / or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
+                    "rule": "Operations of refining and&nbsp;/&nbsp;or one or more specific process(es) or Other operations in which all the materials used are classified within a heading other than that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 50% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2029,7 +2169,14 @@
             "max": "3699999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2047,7 +2194,14 @@
             "max": "3702999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except those of headings 3701 and 3702\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except those of headings 3701 and 3702",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2065,7 +2219,14 @@
             "max": "3704999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except those of headings 3701 to 3704\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except those of headings 3701 to 3704",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2263,7 +2424,14 @@
             "max": "3824999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed 20% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2281,7 +2449,14 @@
             "max": "3921999999",
             "rules": [
                 {
-                    "rule": "Manufacture from highly-transparent polyester-foils with a thickness of less than 23 micron\nor  Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
+                    "rule": "Manufacture from highly-transparent polyester-foils with a thickness of less than 23 micron",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -2479,7 +2654,7 @@
             "max": "4421999999",
             "rules": [
                 {
-                    "rule": "Manufacture from wood of any heading, except drawn\nwood of heading 4409",
+                    "rule": "Manufacture from wood of any heading, except drawn wood of heading 4409",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4297,7 +4472,14 @@
             "max": "8482999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4369,7 +4551,14 @@
             "max": "8486999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of heading 8431 used does not exceed 10% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of heading 8431 used does not exceed 10% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4477,7 +4666,14 @@
             "max": "8548999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of headings 8541 and 8542 used does not exceed 10% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
+                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of headings 8541 and 8542 used does not exceed 10% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 25% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4513,7 +4709,14 @@
             "max": "8608999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4531,7 +4734,14 @@
             "max": "8712999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except those of heading 8714\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except those of heading 8714",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4549,7 +4759,14 @@
             "max": "8715999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4567,7 +4784,14 @@
             "max": "8716999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4585,7 +4809,14 @@
             "max": "8899999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4603,7 +4834,14 @@
             "max": "8804999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, including other materials of heading 8804\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, including other materials of heading 8804",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4621,7 +4859,14 @@
             "max": "8805999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4639,7 +4884,14 @@
             "max": "8999999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, hulls of heading 8906 may not be used\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, hulls of heading 8906 may not be used",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4765,7 +5017,14 @@
             "max": "9105999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and the value of all the non-originating materials used does not exceed the value of all the originating materials used\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and the value of all the non-originating materials used does not exceed the value of all the originating materials used",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4783,7 +5042,14 @@
             "max": "9109999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and the value of all the non-originating materials used does not exceed the value of all the originating materials used\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and the value of all the non-originating materials used does not exceed the value of all the originating materials used",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4801,7 +5067,14 @@
             "max": "9110999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of heading 9114 used does not exceed 10% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture in which: the value of all the materials used does not exceed 40% of the ex-works price of the product, and within the above limit, the value of all the materials of heading 9114 used does not exceed 10% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4819,7 +5092,14 @@
             "max": "9111999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4837,7 +5117,14 @@
             "max": "9112999999",
             "rules": [
                 {
-                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product\nor  Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
+                    "rule": "Manufacture: from materials of any heading, except that of the product, and in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 30% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4909,7 +5196,14 @@
             "max": "9499999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4927,7 +5221,14 @@
             "max": "9401999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product or Manufacture from cotton cloth already made up in a form ready for use with materials of heading 9401 or 9403, provided that: the value of the cloth does not exceed 25% of the ex-works price of the product, and all the other materials used are originating and are classified in a heading other than heading 9401 or 9403\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product or Manufacture from cotton cloth already made up in a form ready for use with materials of heading 9401 or 9403, provided that: the value of the cloth does not exceed 25% of the ex-works price of the product, and all the other materials used are originating and are classified in a heading other than heading 9401 or 9403",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
@@ -4945,7 +5246,14 @@
             "max": "9403999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product or Manufacture from cotton cloth already made up in a form ready for use with materials of heading 9401 or 9403, provided that: the value of the cloth does not exceed 25% of the ex-works price of the product, and all the other materials used are originating and are classified in a heading other than heading 9401 or 9403\nor  Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product or Manufacture from cotton cloth already made up in a form ready for use with materials of heading 9401 or 9403, provided that: the value of the cloth does not exceed 25% of the ex-works price of the product, and all the other materials used are originating and are classified in a heading other than heading 9401 or 9403",
+                    "class": [],
+                    "operator": null,
+                    "specific_processes": false,
+                    "double_dash": false
+                },
+                {
+                    "rule": "Manufacture in which the value of all the materials used does not exceed 40% of the ex-works price of the product",
                     "class": [],
                     "operator": null,
                     "specific_processes": false,
