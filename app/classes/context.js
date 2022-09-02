@@ -970,16 +970,23 @@ class Context {
         this.cumulation_examples["full"] = fs.readFileSync(path + "full_example.md", 'utf8');
     }
 
-    get_country(req) {
-        // Get the country (if selected)
+    get_country(req, params_only = false) {
         this.country = req.params["country"];
         if (typeof this.country === 'undefined') {
-            this.country = req.session.data["country"];
-            if (typeof this.country === 'undefined') {
-                this.country = "";
+            this.country = req.query["country"];
+        }
+        if (typeof this.country === 'undefined') {
+            this.country = "";
+        }
+
+        if (!params_only) {
+            // Get the country (if selected)
+            if (this.country == "") {
+                this.country = req.session.data["country"];
+                if (typeof this.country === 'undefined') {
+                    this.country = "";
+                }
             }
-        } else {
-            req.session.data["country"] = this.country;
         }
         req.session.data["country"] = this.country;
 

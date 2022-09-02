@@ -35,6 +35,10 @@
                 "en": "News",
                 "cy": "Newyddion"
             },
+            "stop_press": {
+                "en": "Stop press",
+                "cy": "Stopiwch y wasg!"
+            },
             "help": {
                 "en": "Help",
                 "cy": "Help"

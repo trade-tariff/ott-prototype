@@ -53,7 +53,7 @@
         "block_xi": "EU import controls",
         "explainers": {
             "ximage": "guidance.png",
-            "prose": "<!--<p>Import controls can be either prohibitions, where goods cannot be imported under any circumstances, or restrictions, where goods can be imported only under certain circumstances.</p>//-->{conditional_country}<p class='xgovuk-!-margin-top-4'><b>Check how to import or export goods</b></p><p>Now you have identified your commodity code, you can <a target='_blank' href='https://check-how-to-import-export-goods.service.gov.uk/manage-this-trade/check-licences-certificates-and-other-restrictions?commodity={commodity}&originCountry={country}&goodsIntent=bringGoodsToSell&userTypeTrader=true&tradeType=import&destinationCountry=GB&importDeclarations=yes&importOrigin=&importDateDay=01&importDateMonth=01&importDateYear=2022'>check how to import commodity {commodity} from {country_name}<!-- (opens in new tab)//--></a>.</p><!--<p>You will be taken to a different government service. The link opens in a new tab.</p>//-->{/conditional_country}",
+            "prose": "{import_control_prose}",
             "prose_ni": "Check <a target='_blank' href='https://www.gov.uk/guidance/trading-and-moving-goods-in-and-out-of-northern-ireland'>how to move goods into and out of Northern Ireland</a>."
         }
     },

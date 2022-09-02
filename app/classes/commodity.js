@@ -89,6 +89,25 @@ class Commodity {
         this.get_preference_codes();
     }
 
+    get_import_control_prose() {
+        if (this.country == "") {
+            this.import_control_prose = `To check how to import commodity ${this.goods_nomenclature_item_id}, select the country from which you are importing.`;
+        } else {
+            switch (this.prohibition_status) {
+                case "Prohibition":
+                    this.import_control_prose = `The import of commodity ${this.goods_nomenclature_item_id} from ${this.country_name2} is prohibited.`;
+                    break;
+                case "Conditional prohibition":
+                    this.import_control_prose = `The import of commodity ${this.goods_nomenclature_item_id} from ${this.country_name2} may be prohibited, depending on the additional code used.`;
+                    break;
+                default:
+                    var link = `https://check-how-to-import-export-goods.service.gov.uk/manage-this-trade?commodity=${this.goods_nomenclature_item_id}&originCountry=${this.country}&goodsIntent=bringGoodsToSell&userTypeTrader=true&tradeType=import&destinationCountry=GB&importDeclarations=yes&importDateDay=01&importDateMonth=10&importDateYear=2022`;
+                    this.import_control_prose = `<a target="_blank" href="${link}">Check how to import commodity ${this.goods_nomenclature_item_id} from ${this.country_name2} (opens in new tab)</a>.`;
+                    break;
+            }
+        }
+    }
+
     get_preference_codes() {
         this.preference_codes = require('../data/preference_codes/preference_codes.json');
         var a = 1;
@@ -363,13 +382,14 @@ class Commodity {
         this.assign_measure_components(req);
         this.get_third_country_duty();
         this.get_preferential_duty();
+        this.get_measure_type_descriptions();
         this.assign_measure_conditions();
+        this.get_import_control_prose();
         if (origin != "basic") {
             this.remove_irrelevant_measures(measure_types);
         }
         this.get_units();
         this.get_supplementary_unit();
-        this.get_measure_type_descriptions();
         this.get_measure_country_descriptions();
         this.categorise_measures(override_block);
         this.get_customs_duties_string();
@@ -561,6 +581,7 @@ class Commodity {
         this.measures.forEach(measure => {
             this.measure_types.forEach(measure_type => {
                 if (measure_type.id == measure.measure_type_id) {
+                    measure.measure_type_series_id = measure_type.measure_type_series_id;
                     if (measure.measure_type.overlay == "") {
                         measure.measure_type_description = measure_type.description;
                         measure.measure_type.description = measure_type.description;
@@ -870,7 +891,10 @@ class Commodity {
     }
 
     assign_measure_conditions() {
+        var prohibition_classes = ['A', 'B'];
+        this.prohibition_status = "";
         this.measures.forEach(m => {
+            m.prohibition_status = "";
             m.measure_condition_ids.forEach(mc2 => {
                 this.measure_conditions.forEach(mc => {
                     if (mc.id == mc2) {
@@ -888,8 +912,21 @@ class Commodity {
                     }
                 });
             });
+            if ((!m.has_conditions) && (prohibition_classes.includes(m.measure_type_series_id))) {
+                if (m.additional_code_code == null) {
+                    m.prohibition_status = "Prohibition";
+                    this.prohibition_status = "Prohibition";
+                } else {
+                    m.prohibition_status = "Conditional prohibition";
+                    if (this.prohibition_status == "") {
+                        this.prohibition_status = "Conditional prohibition";
+                    }
+                }
+            }
+            var a = 1;
             m.structure_conditions();
         });
+        console.log(this.prohibition_status);
     }
 
     // Remove any measures that are not financial or are not relevant to my country
@@ -1127,13 +1164,15 @@ class Commodity {
             block.explainers.prose = block.explainers.prose.replace(/\{country\}/g, this.country);
             block.explainers.prose_ni = block.explainers.prose_ni.replace(/\{country\}/g, this.country);
 
-            this.country = "SG";
+            // this.country = "SG";
             if (this.country.length == 0) {
                 block.explainers.prose = block.explainers.prose.replace(/\{conditional_country\}.*\{\/conditional_country\}/g, "To <strong>check how to import commodity " + this.goods_nomenclature_item_id + "</strong>, select the <a href='/country/" + this.goods_nomenclature_item_id + "'>country from which you are importing</a><!-- from the dropdown above//-->.");
             } else {
                 block.explainers.prose = block.explainers.prose.replace(/\{conditional_country\}/g, "");
                 block.explainers.prose = block.explainers.prose.replace(/\{\/conditional_country\}/g, "");
             }
+
+            block.explainers.prose = block.explainers.prose.replace("{import_control_prose}", this.import_control_prose);
         }
 
         this.display_blocks = [];
