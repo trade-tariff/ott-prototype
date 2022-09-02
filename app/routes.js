@@ -225,8 +225,9 @@ router.get([
     var context = new Context(req, "commodity");
     var countries = global.get_countries(req.session.data["country"]);
     var date = global.get_date(req);
-    context.get_country(req);
-    context.get_feature_flags()
+    context.get_country(req, params_only = true);
+    context.get_feature_flags();
+    context.goods_nomenclature_item_id = req.params["goods_nomenclature_item_id"];
     req.session.data["scheme_code"] = "";
     context.scheme_code = "";
 
@@ -528,6 +529,26 @@ router.get(['/news/', '/:scope_id/news'], function (req, res) {
     var context = new Context(req);
     news = global.get_news();
     res.render('news', {
+        'context': context,
+        'news': news
+    });
+});
+
+// Stop press
+router.get(['/stop-press/', '/:scope_id/stop-press'], function (req, res) {
+    var context = new Context(req);
+    news = global.get_news();
+    res.render('stop_press', {
+        'context': context,
+        'news': news
+    });
+});
+
+// Stop press - future
+router.get(['/stop-press-future/', '/:scope_id/stop-press'], function (req, res) {
+    var context = new Context(req);
+    news = global.get_news();
+    res.render('stop_press_future', {
         'context': context,
         'news': news
     });
@@ -911,8 +932,8 @@ router.get(['/refs2'], function (req, res) {
             goods_nomenclature_item_id = goods_nomenclature_item_id.padEnd(10, '0');
             url = root_web + "subheadings/" + goods_nomenclature_item_id + "-" + productline_suffix;
         }
-        }
-    
+    }
+
     var context = new Context(req);
     res.redirect(url);
 });

@@ -1,0 +1,139 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+    Trade Tariff: Latest news
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+        {
+            text: "Home",
+            href: "/sections/" + context.scope_id
+        },
+        {
+            text: "Latest news",
+            href: ""
+        }
+        ]
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {% include "includes/scope_switcher_panel.html" %}
+    </span>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-l">Tariff stop press notices</h1>
+            <p class="govuk-body-l">Find out about changes to the UK Trade Tariff, Customs Handling of Import and Export Freight, Customs Declaration Service and monthly trade euro rate.</p>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <hr class="primary-divider">
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <p>Tariff stop press notices have the latest amendments to the printed version of the UK Trade Tariff and Customs Handling of Import and Export Freight (<abbr title="Customs Handling of Import and Export Freight">CHIEF</abbr>).</p>
+
+            <div class="govuk-inset-text">
+                <p>HMRC is closing the CHIEF system on 31 March 2023. The
+                    <a href="https://www.gov.uk/government/collections/customs-declaration-service" class="govuk-link">Customs Declaration Service</a>
+                    is replacing it as the UK’s single customs platform.</p>
+            </div>
+
+            <p>You can find tariff stop press notices published before 1 January 2018 on the
+                <a rel="external" href="http://webarchive.nationalarchives.gov.uk/20180410132132/https://www.gov.uk/government/collections/tariff-stop-press-notices" class="govuk-link">National Archive website</a>.</p>
+
+            <h3 class="govuk-heading-m" id="tariff-stop-press-notices-2022">Tariff stop press notices 2022</h3>
+
+            <p>Introductory text if required.</p>
+            <p>Lorem ipsum dolor sit amet, ea amet cillum elit amet amet ut cillum minim fugiat aute nisi magna aliqua irure enim consequat cillum minim incididunt</p>
+
+            <div class="gem-c-govspeak govuk-govspeak direction-ltr" data-module="govspeak" data-govspeak-module-started="true">
+
+                <div class="govspeak"></div>
+
+            </div>
+
+            <ul class="document-list">
+                <li>
+                    <a href="#">Extension of Customs Declaration Service license waiver document code (Tariff stop press notice 10).</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+                <li>
+                    <a href="#">Extension of Customs Declaration Service license waiver document code (Tariff stop press notice 10)</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+                <li>
+                    <a href="#">Changes to CHIEF commodity codes (Tariff stop press notice 8)</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+                <li>
+                    <a href="#">Lorem dolor dolore dolore veniam ea eu cupidatat dolor officia enim.</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+                <li>
+                    <a href="#">Lorem cupidatat dolore culpa ea elit.</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+                <li>
+                    <a href="#">Proident exercitation tempor et qui deserunt aliquip.</a><br>
+                    <time datetime="2022-09-01T12:40:22+01:00">
+                        1 September 2022
+                    </time>
+                </li>
+            </ul>
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <h2 class="govuk-heading-m govuk-!-margin-top-0">Notices</h2>
+            {# <h2 id="related-nav-related_items-a1da07f5" class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">Notices</h2> #}
+
+            <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-a1da07f5" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+
+                    {# <li class="gem-c-related-navigation__link">
+                        <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/mobile-phone-covers-tariff-notice-16">Tariff stop press notices 2022</a>
+                    </li> #}
+                    <li class="gem-c-related-navigation__link">
+                        Tariff stop press notices 2022
+                    </li>
+                    <li class="gem-c-related-navigation__link">
+                        <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/mobile-phone-covers-tariff-notice-16">Tariff stop press notices 2021</a>
+                    </li>
+                    <li class="gem-c-related-navigation__link">
+                        <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/mobile-phone-covers-tariff-notice-16">Tariff stop press notices 2020</a>
+                    </li>
+                    <li class="gem-c-related-navigation__link">
+                        <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/mobile-phone-covers-tariff-notice-16">Tariff stop press notices 2019</a>
+                    </li>
+                    <li class="gem-c-related-navigation__link">
+                        <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/mobile-phone-covers-tariff-notice-16">Tariff stop press notices 2018</a>
+                    </li>
+                </ul>
+            </nav>
+
+            {% include "includes/rss.html" %}
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+</html>
