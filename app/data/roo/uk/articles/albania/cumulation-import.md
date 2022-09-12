@@ -28,4 +28,4 @@
 
 6. Albania shall provide the United Kingdom with details of the agreements or arrangements including their dates of entry into force, and their corresponding rules of origin, which are applied with the other countries referred to in paragraphs 1 and 2.
 
-{{ Articles 4 }}
+{{ Article 4 }}

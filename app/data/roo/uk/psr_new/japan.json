@@ -40,25 +40,6 @@
             },
             {
                   "heading": "0301-0309",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "0301000000",
-                  "max": "0309999999",
-                  "rules": [
-                        {
-                              "rule": "-.",
-                              "class": [
-                                    "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "0301-0309",
                   "subdivision": "Atlantic Bluefin tuna (Thunnus thynnus)",
                   "prefix": "",
                   "min": "0301000000",

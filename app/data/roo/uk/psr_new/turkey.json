@@ -953,6 +953,25 @@
                   "valid": true
             },
             {
+                  "heading": "210330",
+                  "subdivision": "",
+                  "prefix": "",
+                  "min": "2103300000",
+                  "max": "2103399999",
+                  "rules": [
+                        {
+                              "rule": "Your goods are produced from non-originating materials of any heading.",
+                              "class": [
+                                    "Insufficient processing"
+                              ],
+                              "operator": null,
+                              "specific_processes": false,
+                              "double_dash": false
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "210390",
                   "subdivision": "",
                   "prefix": "",
@@ -972,25 +991,6 @@
                               "rule": "However, non-originating mustard flour or meal or prepared mustard may be used.",
                               "class": [
                                     "Unspecified"
-                              ],
-                              "operator": null,
-                              "specific_processes": false,
-                              "double_dash": false
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "210330",
-                  "subdivision": "",
-                  "prefix": "",
-                  "min": "2103300000",
-                  "max": "2103399999",
-                  "rules": [
-                        {
-                              "rule": "Your goods are produced from non-originating materials of any heading.",
-                              "class": [
-                                    "Insufficient processing"
                               ],
                               "operator": null,
                               "specific_processes": false,
