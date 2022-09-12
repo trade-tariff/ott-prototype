@@ -53,6 +53,14 @@ module.exports = function (env) {
         }
     }
 
+    
+
+    filters.uri_encode = function (s) {
+        return (encodeURIComponent(s));
+    }
+
+
+
     filters.sing_plur = function (s, cnt) {
         var pluralize = require('pluralize')
         s = pluralize(s, cnt);
