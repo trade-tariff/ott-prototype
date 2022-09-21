@@ -1,0 +1,150 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help on using the tariff - UK Integrated Online Tariff 
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">What are commodity codes?</h1>
+            <p class="govuk-body-l">Commodity codes are an internationally recognised method for defining types of goods for customs purposes, as they are traded between countries.  When a product is imported or exported across a border, a commodity code has to be provided so the correct customs measures are applied.</p>
+            <p class="govuk-body-l">It is by finding the right code for your goods that you can identify what duties and measures will affect your goods when you import or export them.</p>
+
+            <h2 class="govuk-heading-s">An introduction to commodities</h2>
+            <p>Watch our short video to understand more about commodity codes and how they impact your trade.</p>
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/usoNZnXuRFw?rel=0&autoplay=0&controls=1&modestbranding=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>&nbsp;</p>
+
+            <h2 class="govuk-heading-s">Are commodity codes the same worldwide?</h2>
+            <p>All member countries of the World Customs Organisation (WCO) use the same core structure for their commodity codes.  This is called the Harmonised System and it divides goods into 98 chapters across 21 sections which broadly group products.  Within these it subdivides goods into headings and subheadings, which provide the first 6-digits to which countries and customs territories add additional digits, to achieve the level of detail needed to implement their international trade policy. </p>
+            
+            <p>The UK therefore uses the same codes as other members of the WCO up to first 6-digits. This can help you to understand import or export requirements when trading internationally.  However, as it is likely that more than 6-digits are required, and there are occasional divergences in treatment, you should always check what the full commodity code is in any countries you will be completing customs formalities in, to be certain of any implications.  </p>
+
+            <h2 class="govuk-heading-s">How many digits does a commodity code have?</h2>
+            <p>The length of a commodity code can vary by both country and the use it is being put to.  In the UK 10-digits are needed for in import and 8-digits for an export.</p>
+
+            <h2 class="govuk-heading-s">What does the commodity code comprise of and what do the components do?</h2>
+            <p>A full 10-digit UK commodity code for imports is comprised of 5 parts.  An example can be seen below.</p>
+            
+            <p>When a 10-digit commodity code is declared as part of an import declaration it determines:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>the rate of Customs Duty and import VAT</li>
+                <li>the rate of other applicable taxes</li>
+                <li>any preferential rates which may apply if the goods are covered by a trade agreement </li>
+                <li>whether you need a licence to move your goods</li>
+                <li>whether your goods are affected by any:
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li>agricultural policy</li>
+                        <li>anti-dumping duties</li>
+                        <li>safeguarding measures</li>
+                        <li>tariff quotas</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h2 class="govuk-heading-s">For exports, it will determine </h2>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>which rules of origin may apply if the goods are covered by a trade agreement</li>
+                <li>whether you need a licence to move your goods</li>
+            </ul>
+
+            <h2 class="govuk-heading-s">Who is responsible for classifying products?</h2>
+            <p>Importers and exporters are responsible for ensuring the correct commodity codes are identified and declared to customs when moving goods internationally. This is the case even when the company uses an intermediary to declare goods to customs on their behalf - the importers and exporters need to ensure that the intermediary receives the information required to complete the customs declaration, including how to classify the products concerned. </p>
+            
+            
+            <h2 class="govuk-heading-s">How is the right commodity code identified?</h2>
+            <p>The process of finding the right commodity code is called 'classification' and it takes account of the specifics of the goods in question, particularly: the type of product; what it is made of; its function; and how it is presented or packaged.</p>
+            
+            <p>The classification process takes account of the characteristics using of a series of 6 rules, known as the General Interpretive Rules (GIRs), which were set down by the World Customs Organisation (WCO) and are applied by its member countries. The full text of these rules, with the simple description of what they do can be found [link].  However, as most types of goods have been classified before and the right codes can be quickly identified, the search function on this service aims to help you through this process by using knowledge and tips from HMRC's classification experts to direct you based on the search terms you have used.</p>
+            
+            <p>If you find that your goods are difficult to classify HMRC also provides a classification advice service.  You can access this help by:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>Using the webchat function, when offered in this service</li>
+                <li>Sending an email to our classification enquiry team</li>
+                    <li>Applying for a formal ruling, if you want legal certainty</li>
+        </ul>
+        <p>Click here for more information on getting help finding your commodity</p>
+
+
+
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/topics.html" %}
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">UK 2022 Integrated Tariff</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <p class="govuk-body-s">On 1 January 2022, the UK introduced its 2022 Integrated Tariff, which incorporates the WCO's changes to the Harmonised System Nomenclature.</p>
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/classifying-electrical-equipment-for-import-and-export">View the correlation of commodity codes, at 8-digit level, from the 2021 Tariff to that of 2022</a>.
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CDS guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-cds--2#imports:-guidance-on-completing-an-import-declaration-for-the-customs-declaration-service">UK Trade Tariff: volume 3 for CDS</a><!--<br>
+                      Find the guidance, codes and procedures to use when importing or exporting goods when using the Customs Declaration Service (CDS).//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-the-northern-ireland-protocol">Customs Declaration Completion Requirements for The Northern Ireland Protocol</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CHIEF guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-chief">UK Trade Tariff: volume 3 for CHIEF</a>
+                            <!--<br>
+                      Forms, codes and procedures to use when importing or exporting goods. How to input data onto the Customs Handling of Import and Export Freight (CHIEF) system.<br><br>//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{% set show_webchat = false %}
+{% if show_webchat %}
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+    <!-- End of HubSpot Embed Code -->
+{% endif %}
+{% endblock %}
+</html>

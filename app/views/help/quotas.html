@@ -1,0 +1,151 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help on using the tariff - UK Integrated Online Tariff 
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">Quotas and how they affect your trade</h1>
+            <p class="govuk-body-l">Lorem ipsum dolor sit amet, irure excepteur nostrud duis cupidatat sint tempor ad. Reprehenderit voluptate officia excepteur ad qui incididunt. Do veniam tempor ea excepteur cillum sint incididunt aliquip ut eu. Sit voluptate esse aliquip aliquip ea esse dolor aliquip proident aute proident exercitation. Laborum ad tempor eu est in tempor laboris do officia.</p>
+
+            <h2 class="govuk-heading-s">An introduction to quotas</h2>
+            <p>Watch our short video to understand more about quotas and how they impact your trade.</p>
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/usoNZnXuRFw?rel=0&autoplay=0&controls=1&modestbranding=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>&nbsp;</p>
+
+            <h2 class="govuk-heading-s">What is meant by UK tariff rate and safeguard quotas?</h2>
+            <p>Where a customs territory wants to allow a fixed quantity of a particular commodity to be imported at a rate lower than the standard customs duty otherwise applicable, it enables this using ‘quotas’.  Where these are available and applied they can reduce or even remove the basic duty rate or prevent the import being liable to a trade defence measure like safeguards. </p>
+            
+            <p>
+                Most quotas are applied on a first-come, first-served basis, but there are some that require the application and utilisation of licences.  For licenced quotas access to them depends on you getting an import licence before importing the goods concerned.
+                </p>
+                <p>In all cases where quotas apply, the in-quota rate will be lower than the out-of-quota rate, unless your goods are eligible for duty reduction under other means, like [preferential trade arrangements] or [import duty suspension].  You should check if you can utilise preference or suspension first but, if not, it will be beneficial to import using quotas if there is any available for your goods at time of import.</p>
+
+            <h2 class="govuk-heading-s">Are Tariff Rate Quotas used internationally?</h2>
+            <p>Tariff rate quotas are an internationally recognised mechanism under the terms of the World Trade Organisation (WTO). However, which commodities have quotas and the size and impact of those varies by country.</p>
+
+            <h2 class="govuk-heading-s">Are Tariff Rate Quotas restricted based on the country of origin of the goods being imported?</h2>
+            <p>This can vary based on the commodity type but certain Tariff Rate Quotas are restricted to particular countries and this can mean that there are a number of different quota balances allocated to different countries, even on the same type of goods.  Sometimes this will mean that certain goods can still be imported at a lower in-quota rate from certain originating countries whilst those from others are no longer eligible and have to pay the higher out-of-quota rate, because they either no quota allocated to them or it has run out.</p>
+            <p>If you want to understand more about determining the origin of your goods you can find more information on that ‘here’</p>
+            
+            
+            <h2 class="govuk-heading-s">When are quotas applied and can they be agreed in advance? </h2>
+            <p>First-come, first-serve Tariff Rate Quota can only be claimed at the point goods are imported into free circulation in the UK.  When that claim is made it will be assessed against the available balance and either:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>granted completely, because there is sufficient quota available; </li>
+                <li>granted partially, where more goods are imported on the same day than there is quota available for;</li>
+                <li>or rejected, because there is no quota available for which the goods are eligible.  </li>
+            </ul>
+            <p>It is not possible to assure allocation of first-come, first-serve quota in advance as it will be dependent on how much quota is available at the time your goods are submitted to customs for clearance to free circulation. </p>
+            <p>Licenced quotas are different and with a licence you can import an agreed quantity of goods within a set period.  </p>
+
+            <h2 class="govuk-heading-s">Who is responsible for classifying products?</h2>
+            <p>Importers and exporters are responsible for ensuring the correct commodity codes are identified and declared to customs when moving goods internationally. This is the case even when the company uses an intermediary to declare goods to customs on their behalf - the importers and exporters need to ensure that the intermediary receives the information required to complete the customs declaration, including how to classify the products concerned. </p>
+            
+            
+            <h2 class="govuk-heading-s">How do you find out if there is a TRQ available for your import?</h2>
+            <p>Once you have identified the right commodity code for your goods this service will show you if there is a beneficial quota rate and, by clicking on the 6-digit order number you can see the status and balance remaining at the last allocation.  </p>
+            <p>If you already know the relevant quota number you can also access that information directly using the quota search tool.</p>
+            
+            <p>Quotas can be:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>open - the quota is not expected to exhaust for some time and a lower rate of duty can be given automatically to any valid claim</li>
+                <li>critical - the quota may be nearing exhaustion or there is no information to base a prediction of how quickly it will be used up</li>
+                <li>quota exhausted - all claims will be rejected</li>
+            </ul>
+
+            <h2 class="govuk-heading-s"></h2>How do you get the benefit of using an available Tariff Rate Quota to reduce your import duties?</h2>
+            
+            <p>TRQs are not applied automatically.  To benefit from them you or someone acting on your behalf make a claim on the import declaration covering the release of goods to free circulation. This is done by quoting the 6-digit tariff quota order number on the declaration in:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>-	box 39 if you’re using Customs Handling of Import and Export Freight (CHIEF)</li>
+                <li>-	Data Element 8/1 if you’re using the Customs Declaration Service</li>
+            </ul>
+            <p>You must also indicate on your declaration that the documents required to support the claim are available (box 44 or Data Element 2/3).</p>
+            <p>You will have to provide security for duty at the full rate if the quota is critical.</p>
+            <p>For some Tariff Rate Quotas you will also need to get an import licence before you can claim the quota on your declaration. For more information on these see the guidance on licences for the import/export of agricultural products.</p>
+            
+
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/topics.html" %}
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">UK 2022 Integrated Tariff</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <p class="govuk-body-s">On 1 January 2022, the UK introduced its 2022 Integrated Tariff, which incorporates the WCO's changes to the Harmonised System Nomenclature.</p>
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/classifying-electrical-equipment-for-import-and-export">View the correlation of commodity codes, at 8-digit level, from the 2021 Tariff to that of 2022</a>.
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CDS guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-cds--2#imports:-guidance-on-completing-an-import-declaration-for-the-customs-declaration-service">UK Trade Tariff: volume 3 for CDS</a><!--<br>
+                      Find the guidance, codes and procedures to use when importing or exporting goods when using the Customs Declaration Service (CDS).//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-the-northern-ireland-protocol">Customs Declaration Completion Requirements for The Northern Ireland Protocol</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CHIEF guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-chief">UK Trade Tariff: volume 3 for CHIEF</a>
+                            <!--<br>
+                      Forms, codes and procedures to use when importing or exporting goods. How to input data onto the Customs Handling of Import and Export Freight (CHIEF) system.<br><br>//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{% set show_webchat = false %}
+{% if show_webchat %}
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+    <!-- End of HubSpot Embed Code -->
+{% endif %}
+{% endblock %}
+</html>

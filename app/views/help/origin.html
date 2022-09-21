@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help on using the tariff - UK Integrated Online Tariff 
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">What is Origin and why is it important for international trade?</h1>
+            <p class="govuk-body-l">Lorem ipsum dolor sit amet, voluptate irure laborum quis minim nisi ipsum dolor sint magna ut cillum. Magna eiusmod excepteur excepteur ex aliqua exercitation dolore aliqua Lorem laboris tempor nisi ut consectetur aliqua consectetur tempor.</p>
+
+            <h2 class="govuk-heading-s">An introduction to trade remedies</h2>
+            <p>Watch our short video to understand more about commodity codes and how they impact your trade.</p>
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/usoNZnXuRFw?rel=0&autoplay=0&controls=1&modestbranding=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>&nbsp;</p>
+
+            <p>Lorem ipsum dolor sit amet, voluptate irure laborum quis minim nisi ipsum dolor sint magna ut cillum. Magna eiusmod excepteur excepteur ex aliqua exercitation dolore aliqua Lorem laboris tempor nisi ut consectetur aliqua consectetur tempor. Amet amet esse esse aliquip aliquip ex officia irure. Proident duis magna qui occaecat laboris in duis reprehenderit aliquip elit elit cillum deserunt ut cillum. Reprehenderit duis nostrud sint exercitation voluptate minim ea. Irure enim non est sint nostrud. Cupidatat occaecat nostrud deserunt nulla irure pariatur pariatur mollit duis ullamco exercitation elit.</p>
+
+
+
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/topics.html" %}
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">UK 2022 Integrated Tariff</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <p class="govuk-body-s">On 1 January 2022, the UK introduced its 2022 Integrated Tariff, which incorporates the WCO's changes to the Harmonised System Nomenclature.</p>
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/classifying-electrical-equipment-for-import-and-export">View the correlation of commodity codes, at 8-digit level, from the 2021 Tariff to that of 2022</a>.
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CDS guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-cds--2#imports:-guidance-on-completing-an-import-declaration-for-the-customs-declaration-service">UK Trade Tariff: volume 3 for CDS</a><!--<br>
+                      Find the guidance, codes and procedures to use when importing or exporting goods when using the Customs Declaration Service (CDS).//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-the-northern-ireland-protocol">Customs Declaration Completion Requirements for The Northern Ireland Protocol</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CHIEF guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-chief">UK Trade Tariff: volume 3 for CHIEF</a>
+                            <!--<br>
+                      Forms, codes and procedures to use when importing or exporting goods. How to input data onto the Customs Handling of Import and Export Freight (CHIEF) system.<br><br>//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{% set show_webchat = false %}
+{% if show_webchat %}
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+    <!-- End of HubSpot Embed Code -->
+{% endif %}
+{% endblock %}
+</html>

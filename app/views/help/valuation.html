@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help on using the tariff - UK Integrated Online Tariff 
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+            text: "Home",
+            href: "/sections"
+            },
+            {
+            text: "Help",
+            href: "/help"
+            }
+        ]
+        }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">What is customs valuation?</h1>
+            <p class="govuk-body-l">All goods traded international have a customs value.  This is declared to customs authorities together with other customs and product information.</p>
+
+            <h2 class="govuk-heading-s">An introduction to valuation</h2>
+            <p>Watch our short video to understand more about valuing your goods for customs.</p>
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/usoNZnXuRFw?rel=0&autoplay=0&controls=1&modestbranding=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>&nbsp;</p>
+
+            <p>At import, that value is the basis on which customs duty, import VAT and other import-related taxes are calculated. If incorrect customs value is declared at import, it will result in underpayment of duty and import VAT. HMRC may then request the company to pay the difference. </p>
+            <p>At export, customs value is mainly used for trade statistics.</p>
+
+            <h2 class="govuk-heading-s"How is customs value determined? ></h2>
+            <p>Customs valuation follows international rules and best practice. This allows for consistency and harmonisation in international trade. </p>
+            <p>In the majority of cases, the value listed on the commercial invoice between the exporter and importer will form the basis for customs valuation. This is referred to as transaction value and is defined as the price actually paid or payable for the goods sold for export. Additional rules apply to related companies to ensure that the relationship between entities does not affect valuation and as a result, the amount of duty and import VAT due.</p>
+            <p>In rare cases, there will be no transaction accompanying import and export, for example when moving company’s own stock. In such cases, alternative valuation methods will need to be used.</p>
+            <p>The transaction value would then need to be adjusted based again on international rules. </p>
+            <p>Certain costs such as transport and insurance up to the point of arrival at the UK border need to be added to the value. Royalties, license fees and some types of commissions will also need to be added. </p>
+            <p>On the other hand, transport costs within the country of import, for example, the UK, as well as import duties, can be subtracted.</p>
+
+            <h2 class="govuk-heading-s">Who is responsible for determining the customs value of products? </h2>
+            <p>Importers and exporters are responsible for determining the correct value. However, in the case of transport costs or insurance, for example, the final costs may not be available upfront. It may be necessary to liaise with the freight forwarder to confirm the final value of all amounts that need to be added or subtracted from the transaction value. </p>
+            <p>The importer and exporter remain liable for the correctness of the customs value declared to HMRC. This is the case even when the company uses an intermediary to declare goods to customs on their behalf. The company would also be liable for any underpayment of duty or other taxes resulting from incorrect value declared. </p>
+
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/topics.html" %}
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">UK 2022 Integrated Tariff</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <p class="govuk-body-s">On 1 January 2022, the UK introduced its 2022 Integrated Tariff, which incorporates the WCO's changes to the Harmonised System Nomenclature.</p>
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a class="govuk-link govuk-link gem-c-related-navigation__section-link govuk-link gem-c-related-navigation__section-link--sidebar  govuk-link gem-c-related-navigation__section-link--other" href="/guidance/classifying-electrical-equipment-for-import-and-export">View the correlation of commodity codes, at 8-digit level, from the 2021 Tariff to that of 2022</a>.
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CDS guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-cds--2#imports:-guidance-on-completing-an-import-declaration-for-the-customs-declaration-service">UK Trade Tariff: volume 3 for CDS</a><!--<br>
+                      Find the guidance, codes and procedures to use when importing or exporting goods when using the Customs Declaration Service (CDS).//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-the-northern-ireland-protocol">Customs Declaration Completion Requirements for The Northern Ireland Protocol</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <h2 class="gem-c-related-navigation__main-heading" data-track-count="sidebarRelatedItemSection">CHIEF guidance, codes and procedures</h2>
+
+                <nav role="navigation" class="gem-c-related-navigation__nav-section" aria-labelledby="related-nav-related_items-40a88cdf" data-module="gem-toggle" data-gem-toggle-module-started="true">
+
+                    <ul class="gem-c-related-navigation__link-list" data-module="gem-track-click" data-gem-track-click-module-started="true">
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/collections/uk-trade-tariff-volume-3-for-chief">UK Trade Tariff: volume 3 for CHIEF</a>
+                            <!--<br>
+                      Forms, codes and procedures to use when importing or exporting goods. How to input data onto the Customs Handling of Import and Export Freight (CHIEF) system.<br><br>//--></li>
+                        <li class="gem-c-related-navigation__link">
+                            <a href="https://www.gov.uk/government/publications/customs-declaration-completion-requirements-for-great-britain">Customs Declaration Completion Requirements for Great Britain</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{% set show_webchat = false %}
+{% if show_webchat %}
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+    <!-- End of HubSpot Embed Code -->
+{% endif %}
+{% endblock %}
+</html>
