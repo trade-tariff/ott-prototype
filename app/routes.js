@@ -585,7 +585,7 @@ router.get(['/help/undefined'], function (req, res) {
 
 router.get(['/help'], function (req, res) {
     const now = new Date();
-    var show_webchat = isWorkingHour(now);
+    var show_webchat = false; // isWorkingHour(now);
     var context = new Context(req);
     var key = "";
     var roo = new RooMvp(req, key, context.scope_id);
@@ -610,12 +610,66 @@ router.get(['/help/cn2021-cn2022'], function (req, res) {
     });
 });
 
+
 router.get(['/help/how-to-use'], function (req, res) {
     var context = new Context(req);
     res.render('help/how-to-use', {
         'context': context
     });
 });
+
+/* HELP Start new sections */
+
+router.get(['/help/commodities'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/commodities', {
+        'context': context
+    });
+});
+
+router.get(['/help/quotas'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/quotas', {
+        'context': context
+    });
+});
+
+router.get(['/help/validation'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/validation', {
+        'context': context
+    });
+});
+
+router.get(['/help/remedies'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/remedies', {
+        'context': context
+    });
+});
+
+router.get(['/help/valuation'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/valuation', {
+        'context': context
+    });
+});
+
+router.get(['/help/origin'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/origin', {
+        'context': context
+    });
+});
+
+router.get(['/help/reduce'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/reduce', {
+        'context': context
+    });
+});
+
+/* HELP End new sections */
 
 router.get(['/help/help-find-commodity'], function (req, res) {
     var context = new Context(req);
