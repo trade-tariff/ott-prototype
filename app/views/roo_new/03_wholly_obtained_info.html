@@ -31,14 +31,16 @@
             <div class="roo_container single_tier" id="wholly-obtained">
                 <div class="agreement_content">
                     {{ context.wholly_obtained | convert_markdown | safe }}
-                    <details class="govuk-details" data-module="govuk-details">
-                        <summary class="govuk-details__summary">
-                            <span class="govuk-details__summary-text">Read more about how vessels and factory ships are defined</span>
-                        </summary>
-                        <div class="govuk-details__text">
-                            {{ context.wholly_obtained_vessels | convert_markdown | safe }}
-                        </div>
-                    </details>
+                    {% if context.wholly_obtained_vessels != "" %}
+                        <details class="govuk-details" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                                <span class="govuk-details__summary-text">Read more about how vessels and factory ships are defined</span>
+                            </summary>
+                            <div class="govuk-details__text">
+                                {{ context.wholly_obtained_vessels | convert_markdown | safe }}
+                            </div>
+                        </details>
+                    {% endif %}
                 </div>
             </div>
 
