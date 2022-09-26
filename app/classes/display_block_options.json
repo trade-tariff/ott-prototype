@@ -7,8 +7,8 @@
         "explainers": {
             "title": "What are the main types of tariffs and charges",
             "image": "calculator.png",
-            "prose": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/uk/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p>",
-            "prose_ni": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/xi/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p>"
+            "prose": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/uk/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p><p>Click on a measure type to find out more about the measure and the preference code to be used on declarations.</p>",
+            "prose_ni": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/xi/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p><p>ssdfdos</p>"
         }
     },
     "quotas": {
