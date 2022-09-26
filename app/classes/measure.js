@@ -24,6 +24,7 @@ class Measure {
         this.measure_condition_code_groups = [];
         this.has_shared_conditions = false;
         this.show_condition_code_group_titles = false;
+        this.preference_code = "";
 
         // Get the additional code (for Meursing calcs)
         if (req != null) {
@@ -34,6 +35,7 @@ class Measure {
 
         // Conditions
         this.measure_condition_ids = [];
+        this.certificates = [];
         this.measure_conditions = [];
         this.has_conditions = false;
         this.popup_message = "";
@@ -82,6 +84,10 @@ class Measure {
         this.get_exposed_conditions();
     }
 
+    get_measure_type_url () {
+        var a = 1;
+        this.measure_type_url = "/measure_type/" + this.measure_type_id + "/" + this.preference_code;
+      }
     get_measure_condition_code_groups() {
         // Strategic
 

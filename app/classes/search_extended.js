@@ -406,6 +406,7 @@ class SearchExtended {
     }
 
     process_filters() {
+        return;
         this.filters_with_counts = [];
         this.results.hits.forEach(result => {
             for (var [key, value] of Object.entries(result._source)) {

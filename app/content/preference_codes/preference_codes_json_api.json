@@ -1,0 +1,200 @@
+{
+    "data": [
+        {
+            "id": "100",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Erga Omnes third country duty rates"
+            }
+        },
+        {
+            "id": "110",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Erga omnes autonomous tariff suspension"
+            }
+        },
+        {
+            "id": "115",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Erga Omnes autonomous tariff suspensions subject to an end-use"
+            }
+        },
+        {
+            "id": "119",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Erga Omnes autonomous tariff suspensions subject to an 'airworthiness certificate'"
+            }
+        },
+        {
+            "id": "120",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Non preferential tariff quotas"
+            }
+        },
+        {
+            "id": "123",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Non-preferential tariff quotas subject to an end-use authorisation"
+            }
+        },
+        {
+            "id": "125",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Non preferential tariff quotas subject to a special certificate"
+            }
+        },
+        {
+            "id": "128",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Erga Omnes tariff quotas following outward processing"
+            }
+        },
+        {
+            "id": "140",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Special end use resulting from the Common Customs Tariff"
+            }
+        },
+        {
+            "id": "150",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Admission to CN codes subject to special certificates"
+            }
+        },
+        {
+            "id": "200",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP duty rate without conditions or limits"
+            }
+        },
+        {
+            "id": "218",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP suspensions with certificate confirming the special nature of the product"
+            }
+        },
+        {
+            "id": "220",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP tariff quotas"
+            }
+        },
+        {
+            "id": "223",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP tariff quota subject to an end use"
+            }
+        },
+        {
+            "id": "225",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP tariff quotas subject to a special certificate"
+            }
+        },
+        {
+            "id": "240",
+            "type": "preference_code",
+            "attributes": {
+                "description": "GSP preferential duty rates subject to an end use"
+            }
+        },
+        {
+            "id": "250",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Admission to CN codes with special GSP rates subject to a special certificate"
+            }
+        },
+        {
+            "id": "300",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential duty rate without conditions or limits (including ceilings)"
+            }
+        },
+        {
+            "id": "310",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential agreements: tariff suspensions"
+            }
+        },
+        {
+            "id": "315",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential suspension subject to an end use"
+            }
+        },
+        {
+            "id": "318",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential suspension with certificate confirming the special nature of the product"
+            }
+        },
+        {
+            "id": "320",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential tariff quotas"
+            }
+        },
+        {
+            "id": "323",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential tariff quotas subject to an end use"
+            }
+        },
+        {
+            "id": "325",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential tariff quotas subject to a special certificate"
+            }
+        },
+        {
+            "id": "340",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Preferential duty rates subject to final destination"
+            }
+        },
+        {
+            "id": "350",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Admission to CN codes with special preferential rates subject to a special certificate"
+            }
+        },
+        {
+            "id": "400",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Non-imposition of customs duties under the provisions of customs union agreements concluded by the Community"
+            }
+        },
+        {
+            "id": "420",
+            "type": "preference_code",
+            "attributes": {
+                "description": "Customs union quota"
+            }
+        }
+    ]
+}

@@ -424,8 +424,9 @@ router.get(['/quotas/:quota_order_number_id/', '/:scope_id/quotas/:quota_order_n
 
 
 // Get a measure types
-router.get(['/measure_type/:id/', '/:scope_id/measure_type/:id/',], function (req, res) {
-    var id = req.params["id"];
+router.get(['/measure_type/:measure_type_id/:preference_code', '/:scope_id/measure_type/:measure_type_id/:preference_code',], function (req, res) {
+    var measure_type_id = req.params["measure_type_id"];
+    var preference_code = req.params["preference_code"];
     var context = new Context(req);
     var referer = req.headers.referer;
     if (referer == null) {
@@ -437,7 +438,7 @@ router.get(['/measure_type/:id/', '/:scope_id/measure_type/:id/',], function (re
     }
     axios.get(url)
         .then((response) => {
-            mt = global.get_measure_type(id, response.data);
+            mt = global.get_measure_type(context.scope_id, measure_type_id, preference_code, response.data);
             res.render('measure_type', {
                 'context': context,
                 'referer': referer,
