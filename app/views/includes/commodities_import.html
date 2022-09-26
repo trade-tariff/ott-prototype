@@ -137,10 +137,12 @@
                                 </div>
                             </td>
 
+                            {% if 1 > 2 %}
                             {% if display_block.block == "Customs duties" or display_block.block == "Quotas" %}
                                 <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }} c" scope="row" data-column-heading="Preference code">
                                     <span title="{{ measure.preference_code.description | safe }}">{{ measure.preference_code.preference_code | safe }}</span>
                                 </td>
+                            {% endif %}
                             {% endif %}
 
 
