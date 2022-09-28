@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block pageTitle %}
-    Trade Tariff: Latest news
+    News bulletin - Online Trade Tariff
 {% endblock %}
 
 {% block beforeContent %}
@@ -27,12 +27,12 @@
     <h1 class="govuk-heading-xl">Trade tariff news bulletin</h1>
     <div class="govuk-grid-row news_strategic">
         <div class="govuk-grid-column-one-quarter">
-            <p class="b">Filter stories</p>
-            <p class="filter_header">By year</p>
+            {# <p class="b">Filter stories</p> #}
+            <p class="filter_header">Filter by year</p>
             <ul class="govuk-list govuk-list--disc">
                 {% for year in years %}
                     {% if year == context.year %}
-                        <li class="b">
+                        <li xclass="b">
                             {{ year }}
                         </li>
                     {% else %}
@@ -42,11 +42,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <p class="filter_header">By theme</p>
+            <p class="filter_header">Filter by theme</p>
             <ul class="govuk-list govuk-list--disc">
                 {% for story_theme in story_themes %}
                     {% if story_theme == context.theme %}
-                        <li class="b">
+                        <li xclass="b">
                             {{ story_theme }}
                         </li>
                     {% else %}
