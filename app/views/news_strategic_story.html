@@ -30,7 +30,7 @@
     },
     {
         text: news_story.primary_theme,
-        href: "/bulletin?theme=" + news_story.primary_theme | uri_encode
+        href: "/bulletin/theme/" + news_story.primary_theme | uri_encode
     }
     ]
     }) }}
@@ -58,11 +58,15 @@
         <div class="govuk-grid-column-two-thirds">
             <div class="news_story">
                 {% include "includes/news/news_meta.html" %}
+                {% include "includes/news/news_print.html" %}
                 <p>{{ news_story.story | convert_markdown(false, true, true) | safe }}</p>
             </div>
 
-            <h2 class="govuk-heading-m">More information</h2>
-            <p>To stop getting the Tariff stop press notices, or to add recipients to the distribution list, email: <a href="mailto:tariff.management@hmrc.gov.uk" class="govuk-link">tariff.management@hmrc.gov.uk</a>.</p>
+            {% if news_story.primary_theme == "Tariff notices" %}
+                {% include "includes/news/news_tariff_notice.html" %}
+            {% elseif news_story.primary_theme == "Tariff stop press" %}
+                {% include "includes/news/news_tariff_stop_press.html" %}
+            {% endif %}
 
             {% include "includes/news/news_print.html" %}
         </div>

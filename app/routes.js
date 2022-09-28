@@ -1015,6 +1015,8 @@ router.get([
     year = (typeof req.params["year"] !== "undefined") ? req.params["year"] : 'All years'
     context.page = (typeof req.query["page"] !== "undefined") ? parseInt(req.query["page"]) : 0
 
+    theme = theme.replace("%20", " ")
+
     context.theme = theme
     context.year = year
 
