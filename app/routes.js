@@ -1066,7 +1066,7 @@ router.get([
 router.get(['/bulletin/story/:id', '/xi/bulletin/story/:id'], async function (req, res) {
     var context = new Context(req);
     id = req.params["id"]
-    var url = process.env["TRADE_TARIFF_API"] + "news/story/";
+    var url = process.env["TRADE_TARIFF_API"] + "news/story/" + id;
     // var url = "http://127.0.0.1:5000/news/story/" + id
     axios.get(url)
         .then((response) => {
