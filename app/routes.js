@@ -1027,6 +1027,7 @@ router.get([
 
     // var url = "http://127.0.0.1:5000/news/"
     var url = process.env["TRADE_TARIFF_API"];
+    console.log("The API URL is: " + url);
     var base_url = "/bulletin/"
     context.base_url_year = base_url
     context.base_url_theme = base_url
