@@ -58,12 +58,19 @@
         <div class="govuk-grid-column-two-thirds">
             <div class="news_story">
                 {% include "includes/news/news_meta.html" %}
-                <p>{{ news_story.story | convert_markdown(true) | safe }}</p>
+                <p>{{ news_story.story | convert_markdown(false, true, true) | safe }}</p>
             </div>
+
+            <h2 class="govuk-heading-m">More information</h2>
+            <p>To stop getting the Tariff stop press notices, or to add recipients to the distribution list, email: <a href="mailto:tariff.management@hmrc.gov.uk" class="govuk-link">tariff.management@hmrc.gov.uk</a>.</p>
+
             {% include "includes/news/news_print.html" %}
         </div>
         <div class="govuk-grid-column-one-third noprint">
             <p>More content</p>
+            <hr>
+            <p>Collection</p>
+            <p><a href="/bulletin?theme={{ news_story.primary_theme }}">{{ news_story.primary_theme }}</a></p>
         </div>
 
     </div>

@@ -58,7 +58,10 @@
             </ul>
         </div>
         <div class="govuk-grid-column-three-quarters">
-            <h2 class="govuk-heading-l">{{ context.theme }} {% if context.year != "All years" %}{{ context.year }}{% endif %}</h2>
+            <h2 class="govuk-heading-l">{{ context.theme }}
+                {% if context.year != "All years" %}{{ context.year }}
+                {% endif %}
+            </h2>
             {% if context.theme == "Tariff stop press" %}
                 <p>Tariff stop press notices have the latest amendments to the printed version of the UK Trade Tariff and Customs Handling of Import and Export Freight (CHIEF).</p>
             {% elseif context.theme == "Tariff notices" %}
@@ -70,20 +73,24 @@
                 {% for news_story in news_stories %}
                     <div class="news_story">
                         <h2 class="govuk-heading-s govuk-!-margin-0">
-                            <a href="/bulletin/story/{{ news_story.id }}">{{ news_story.headline }}</a>
-                        </h2>
-                        <p class="govuk-!-margin-top-2 govuk-!-margin-bottom-2">{{ news_story.precis | safe }}</p>
-                        <p class="news_date">{{ news_story.validity_start_date | format_date("D MMMM YYYY") }} | {{ news_story.themes }}</p>
-                    </div>
-                {% endfor %}
-                {% include "includes/news/news_pager.html" %}
-            {% else %}
-                <p>There are no news stories for these criteria.</p>
-            {% endif %}
+                            {% if news_story.slug != "" %}
+                                <a href="/bulletin/story/{{ news_story.slug }}">{{ news_story.headline }}</a>
+                            {% else %}
+                                <a href="/bulletin/story/{{ news_story.id }}">{{ news_story.headline }}</a>
+                                {% endif%}
+                            </h2>
+                            <p class="govuk-!-margin-top-2 govuk-!-margin-bottom-2">{{ news_story.precis | safe }}</p>
+                            <p class="news_date">{{ news_story.validity_start_date | format_date("D MMMM YYYY") }} | {{ news_story.themes }}</p>
+                        </div>
+                    {% endfor %}
+                    {% include "includes/news/news_pager.html" %}
+                {% else %}
+                    <p>There are no news stories for these criteria.</p>
+                {% endif %}
+            </div>
+
         </div>
 
-    </div>
-
-{% endblock %}
+    {% endblock %}
 
 </html>

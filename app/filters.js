@@ -289,9 +289,14 @@ module.exports = function (env) {
         }
     }
 
-    filters.convert_markdown = function (str, hide_bullets) {
+    filters.convert_markdown = function (str, hide_bullets, add_back_to_top = false, insert_toc = false) {
+        var menu = ""
         try {
             if (typeof str !== 'undefined') {
+                if (add_back_to_top) {
+                    str += "\n\n{{ top }}\n"
+                }
+
                 md = new MarkdownIt();
                 str = str.replace(/\* ([0-9]{1,2})\\. /g, '$1. ');
                 str = str.replace(/  \* \(([a-z]{1,2})\)/g, '\n\n    $1. ');
@@ -311,6 +316,42 @@ module.exports = function (env) {
                     markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list govuk-list--bullet'>")
                 }
                 markdown_text = markdown_text.replace(/<ol>/g, "<ol class='govuk-list govuk-list--number'>")
+
+
+                // insert_toc = false
+                if (insert_toc) {
+                    // Create the table of contents
+                    str = "\n" + str
+                    const regex_h2 = /[^#]## [^\n]+\n/ig
+                    let matches = str.match(regex_h2);
+                    if (matches) {
+                        let contents = []
+                        matches.forEach(match => {
+                            match = match.replace("## ", "").replace("\n", "").trim()
+                            contents.push(match)
+                        });
+                        if (contents.length > 0) {
+                            menu = '<h2 class="gem-c-contents-list__title">Contents</h2><ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">'
+                            contents.forEach(item => {
+                                var item2 = item.toLowerCase().replace(/[^0-9a-z]/ig, "-")
+                                menu += '<li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed"><a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#' + item2 + '">' + item + '</a></li>'
+                            });
+                            menu += '</ol>'
+                        }
+                        markdown_text = menu + markdown_text
+
+                        // Update the h2 tags
+                        const regex_h2b = /<h2 class='govuk-heading-m'>([^<]+)<\/h2>/gm
+                        let matches2 = markdown_text.match(regex_h2b);
+                        let contents2 = []
+                        matches2.forEach(match => {
+                            var match2 = match.replace("<h2 class='govuk-heading-m'>", "").replace("</h2>", "").trim()
+                            var match3 = match2.toLowerCase().replace(/[^0-9a-z]/ig, "-")
+                            var a = 1
+                            markdown_text = markdown_text.replace(match, "<h2 class='govuk-heading-m' id='" + match3 + "'>" + match2 + "</h2>");
+                        });
+                    }
+                }
                 return markdown_text;
             } else {
                 return "";
