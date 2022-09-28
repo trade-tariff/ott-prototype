@@ -42,11 +42,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <p class="filter_header">Filter by theme</p>
+            <p class="filter_header">Filter by collection</p>
             <ul class="govuk-list govuk-list--disc">
                 {% for story_theme in story_themes %}
                     {% if story_theme == context.theme %}
-                        <li xclass="b">
+                        <li>
                             {{ story_theme }}
                         </li>
                     {% else %}

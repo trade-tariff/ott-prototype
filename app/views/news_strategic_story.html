@@ -71,10 +71,15 @@
             {% include "includes/news/news_print.html" %}
         </div>
         <div class="govuk-grid-column-one-third noprint">
-            <p>More content</p>
+            <h2 class="govuk-heading-s bluebar">Latest content from this collection</h2>
+            <ul class="govuk-list xgovuk-list--bullet">
+            {% for story in latest %}
+                <li class="govuk-!-margin-bottom-3"><a href="/bulletin/story/{{ story.slug }}">{{ story.headline }}</a></li>
+            {% endfor %}
+            </ul>
             <hr>
-            <p>Collection</p>
-            <p><a href="/bulletin?theme={{ news_story.primary_theme }}">{{ news_story.primary_theme }}</a></p>
+            <p class="b">Collection</p>
+            <p><a href="/bulletin/theme/{{ news_story.primary_theme }}">{{ news_story.primary_theme }}</a></p>
         </div>
 
     </div>

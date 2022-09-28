@@ -1011,7 +1011,7 @@ router.get([
     '/xi/bulletin'
 ], async function (req, res) {
     var context = new Context(req);
-    theme = (typeof req.params["theme"] !== "undefined") ? req.params["theme"] : 'All themes'
+    theme = (typeof req.params["theme"] !== "undefined") ? req.params["theme"] : 'All collections'
     year = (typeof req.params["year"] !== "undefined") ? req.params["year"] : 'All years'
     context.page = (typeof req.query["page"] !== "undefined") ? parseInt(req.query["page"]) : 0
 
@@ -1020,7 +1020,7 @@ router.get([
     context.theme = theme
     context.year = year
 
-    if (theme == "All themes") {
+    if (theme == "All collections") {
         theme = ""
     }
     if (year == "All years") {
@@ -1076,7 +1076,8 @@ router.get(['/bulletin/story/:id', '/xi/bulletin/story/:id'], async function (re
                 'context': context,
                 'news_story': response.data["story"],
                 'years': response.data["years"],
-                'themes': response.data["themes"]
+                'themes': response.data["themes"],
+                'latest': response.data["latest"]
             });
         });
 
