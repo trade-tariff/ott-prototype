@@ -694,9 +694,7 @@ router.get(['/search_handler'], function (req, res) {
 });
 
 // Search results
-router.get([
-    '/results/:search_term',
-], async function (req, res) {
+router.get(['/results/:search_term'], async function (req, res) {
     var context = new Context(req);
     var search_term = req.params["search_term"];
 
@@ -842,7 +840,8 @@ router.get(['/elastic/:search_term'], function (req, res) {
         context.get_sort_order();
         context.search_term = req.params["search_term"];
         if (context.search_term != "") {
-            var search = new SearchExtended(context, req, res)
+            // var search = new SearchExtended(context, req, res)
+            var search = new SearchApi(context, req, res)
         }
     }
 });
@@ -1000,6 +999,82 @@ router.get(['/mockup/:include_file'], function (req, res) {
     res.render('mockup', {
         'context': context
     });
+});
+
+// News - strategic
+router.get([
+    '/bulletin',
+    '/bulletin/year/:year',
+    '/bulletin/theme/:theme',
+    '/bulletin/year/:year/theme/:theme',
+    '/bulletin/theme/:theme/year/:year',
+    '/xi/bulletin'
+], async function (req, res) {
+    var context = new Context(req);
+    theme = (typeof req.params["theme"] !== "undefined") ? req.params["theme"] : 'All themes'
+    year = (typeof req.params["year"] !== "undefined") ? req.params["year"] : 'All years'
+    context.page = (typeof req.query["page"] !== "undefined") ? parseInt(req.query["page"]) : 0
+
+    context.theme = theme
+    context.year = year
+
+    if (theme == "All themes") {
+        theme = ""
+    }
+    if (year == "All years") {
+        year = ""
+    }
+
+    // var url = "http://127.0.0.1:5000/news/"
+    var url = process.env["TRADE_TARIFF_API"];
+    var base_url = "/bulletin/"
+    context.base_url_year = base_url
+    context.base_url_theme = base_url
+
+    
+    if (theme != "") {
+        url += "theme/" + theme + "/"
+        context.base_url_year += "theme/" + theme + "/"
+    }
+    if (year != "") {
+        url += "year/" + year
+        context.base_url_theme += "year/" + year + "/"
+    }
+
+    url += "?page=" + context.page
+    var page_size = 10
+    var tmp = req.url.split("?")
+    context.base_url = tmp[0]
+
+    axios.get(url)
+        .then((response) => {
+            context.page_count = Math.ceil(response.data["story_count"] / page_size)
+            res.render('news_strategic', {
+                'context': context,
+                'news_stories': response.data["stories"],
+                'years': response.data["years"],
+                'story_themes': response.data["themes"],
+                'story_count': response.data["story_count"]
+            });
+        });
+
+});
+
+// News - strategic
+router.get(['/bulletin/story/:id', '/xi/bulletin/story/:id'], async function (req, res) {
+    var context = new Context(req);
+    id = req.params["id"]
+    var url = "http://127.0.0.1:5000/news/story/" + id
+    axios.get(url)
+        .then((response) => {
+            res.render('news_strategic_story', {
+                'context': context,
+                'news_story': response.data["story"],
+                'years': response.data["years"],
+                'themes': response.data["themes"]
+            });
+        });
+
 });
 
 module.exports = router

@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+    Trade Tariff: Latest news
+{% endblock %}
+
+{% block beforeContent %}
+{% if news_story.primary_theme == "" %}
+    {{ govukBreadcrumbs({
+    items: [
+    {
+        text: "Home",
+        href: "/sections/" + context.scope_id
+    },
+    {
+        text: "Latest news",
+        href: "/bulletin"
+    }
+    ]
+    }) }}
+    {% else %}
+    {{ govukBreadcrumbs({
+    items: [
+    {
+        text: "Home",
+        href: "/sections/" + context.scope_id
+    },
+    {
+        text: "Latest news",
+        href: "/bulletin"
+    },
+    {
+        text: news_story.primary_theme,
+        href: "/bulletin?theme=" + news_story.primary_theme | uri_encode
+    }
+    ]
+    }) }}
+
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {# {% include "includes/scope_switcher_panel.html" %} #}
+    </span>
+
+    <div class="govuk-grid-row news_strategic">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-l">
+                {{ news_story.headline }}
+            </h1>
+            <p class="govuk-body-l">{{ news_story.precis | safe }}</p>
+        </div>
+    </div>
+
+    <div class="govuk-grid-row news_strategic">
+        <div class="govuk-grid-column-two-thirds">
+            <div class="news_story">
+                {% include "includes/news/news_meta.html" %}
+                <p>{{ news_story.story | convert_markdown(true) | safe }}</p>
+            </div>
+            {% include "includes/news/news_print.html" %}
+        </div>
+        <div class="govuk-grid-column-one-third noprint">
+            <p>More content</p>
+        </div>
+
+    </div>
+
+{% endblock %}
+
+</html>

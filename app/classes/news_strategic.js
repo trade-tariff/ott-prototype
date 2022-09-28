@@ -1,4 +1,4 @@
-class OrderNumber {
+class NewsStrategic {
     constructor(item) {
         this.id = item["id"];
         this.definition_id = null;
@@ -13,11 +13,5 @@ class OrderNumber {
             // do nothing
         }
     }
-
-    check_for_licensed_quota() {
-        if (this.id.substr(0, 3) == "094") {
-            this.licensed = true;
-        }
-    }
 }
-module.exports = OrderNumber
+module.exports = NewsStrategic

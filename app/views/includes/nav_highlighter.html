@@ -17,8 +17,8 @@
         var tools_array = ["tools", "quotas", "additional_codes", "chemicals", "certificates", "footnotes", "meursing"];
         var roo_array = ["roo"];
         var help_array = ["help"];
-        var stop_press_array = ["stop-press"];
-        var news_array = ["news"];
+        // var stop_press_array = ["stop-press"];
+        var news_array = ["news", "bulletin"];
 
         if (search_array.includes(path2)) {
             $("ul#navigation li:nth-of-type(1)").addClass("govuk-header__navigation-item--active");
@@ -28,12 +28,10 @@
             $("ul#navigation li:nth-of-type(3)").addClass("govuk-header__navigation-item--active");
         } else if (tools_array.includes(path2)) {
             $("ul#navigation li:nth-of-type(4)").addClass("govuk-header__navigation-item--active");
-        } else if (stop_press_array.includes(path2)) {
-            $("ul#navigation li:nth-of-type(5)").addClass("govuk-header__navigation-item--active");
         } else if (news_array.includes(path2)) {
-            $("ul#navigation li:nth-of-type(6)").addClass("govuk-header__navigation-item--active");
+            $("ul#navigation li:nth-of-type(5)").addClass("govuk-header__navigation-item--active");
         } else if (help_array.includes(path2)) {
-            $("ul#navigation li:nth-of-type(7)").addClass("govuk-header__navigation-item--active");
+            $("ul#navigation li:nth-of-type(6)").addClass("govuk-header__navigation-item--active");
         }
     });
 </script>

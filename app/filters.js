@@ -53,13 +53,9 @@ module.exports = function (env) {
         }
     }
 
-    
-
     filters.uri_encode = function (s) {
         return (encodeURIComponent(s));
     }
-
-
 
     filters.sing_plur = function (s, cnt) {
         var pluralize = require('pluralize')
@@ -435,6 +431,22 @@ module.exports = function (env) {
             s = s.trim();
             return (s);
         }
+    }
+
+    filters.strip_formatting = function (s) {
+        var regex = /\<abbr[^\>]+\>/g;
+        s = s.replace(regex, "");
+
+        var regex = /\<\/abbr\>/g;
+        s = s.replace(regex, "");
+
+        var regex = /\<\/span\>/g;
+        s = s.replace(regex, "");
+
+        var regex = /\<span\>/g;
+        s = s.replace(regex, "");
+
+        return (s)
     }
 
 

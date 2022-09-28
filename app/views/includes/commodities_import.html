@@ -151,7 +151,9 @@
                                     <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="Value">
                                         {% if measure.duty_bearing %}
                                             {% if measure.duty_expression.formatted_base %}
-                                                {{ measure.duty_expression.formatted_base | safe }}
+                                                <span class="title_tag" gloss="{{ measure.duty_expression.formatted_base | strip_formatting | safe }}">
+                                                    {{ measure.duty_expression.formatted_base | strip_formatting | safe }}
+                                                </span>
                                                 {% if measure.has_meursing %}
                                                     {% if data['meursing-code'].length > 0 and measure.combined_duty_with_meursing.length > 0 %}
                                                         <br>

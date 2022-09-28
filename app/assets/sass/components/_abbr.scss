@@ -1,0 +1,23 @@
+.title_tag {
+    display: inline;
+    position: relative;
+    border-bottom: 1px dotted #999;
+}
+
+.title_tag:hover:after {
+    // background: rgba(255, 255, 240, .95);
+    background: rgba(240, 240, 240, .95);
+    border-radius: 4px;
+    top: 2.5em;
+    color: #000;
+    content: attr(gloss);
+    left: 10%;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 98;
+    // width: 350px;
+    // min-width: 350px;
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+}

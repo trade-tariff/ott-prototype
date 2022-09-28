@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+    Trade Tariff: Latest news
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+    items: [
+    {
+    text: "Home",
+    href: "/sections/" + context.scope_id
+    },
+    {
+    text: "Latest news",
+    href: ""
+    }
+    ]
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <span class="govuk-caption-xl">
+        {{ context.title }}
+        {# {% include "includes/scope_switcher_panel.html" %} #}
+    </span>
+    <h1 class="govuk-heading-xl">Trade tariff news bulletin</h1>
+    <div class="govuk-grid-row news_strategic">
+        <div class="govuk-grid-column-one-quarter">
+            <p class="b">Filter stories</p>
+            <p class="filter_header">By year</p>
+            <ul class="govuk-list govuk-list--disc">
+                {% for year in years %}
+                    {% if year == context.year %}
+                        <li class="b">
+                            {{ year }}
+                        </li>
+                    {% else %}
+                        <li>
+                            <a href="{{ context.base_url_year }}year/{{ year }}">{{ year }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <p class="filter_header">By theme</p>
+            <ul class="govuk-list govuk-list--disc">
+                {% for story_theme in story_themes %}
+                    {% if story_theme == context.theme %}
+                        <li class="b">
+                            {{ story_theme }}
+                        </li>
+                    {% else %}
+                        <li>
+                            <a href="{{ context.base_url_theme }}theme/{{ story_theme }}">{{ story_theme }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="govuk-grid-column-three-quarters">
+            <h2 class="govuk-heading-l">{{ context.theme }} {% if context.year != "All years" %}{{ context.year }}{% endif %}</h2>
+            {% if context.theme == "Tariff stop press" %}
+                <p>Tariff stop press notices have the latest amendments to the printed version of the UK Trade Tariff and Customs Handling of Import and Export Freight (CHIEF).</p>
+            {% elseif context.theme == "Tariff notices" %}
+                <p>Tariff notices contain information about how to correctly classify certain goods for import and export purposes.</p>
+                <p>You can find Tariff notices published before 1 January 2018 on the <a target="_blank" href="http://webarchive.nationalarchives.gov.uk/20180410130908/https://www.gov.uk/government/collections/tariff-notices">National Archive website</a>.</p>
+            {% endif %}
+
+            {% if context.page_count > 0 %}
+                {% for news_story in news_stories %}
+                    <div class="news_story">
+                        <h2 class="govuk-heading-s govuk-!-margin-0">
+                            <a href="/bulletin/story/{{ news_story.id }}">{{ news_story.headline }}</a>
+                        </h2>
+                        <p class="govuk-!-margin-top-2 govuk-!-margin-bottom-2">{{ news_story.precis | safe }}</p>
+                        <p class="news_date">{{ news_story.validity_start_date | format_date("D MMMM YYYY") }} | {{ news_story.themes }}</p>
+                    </div>
+                {% endfor %}
+                {% include "includes/news/news_pager.html" %}
+            {% else %}
+                <p>There are no news stories for these criteria.</p>
+            {% endif %}
+        </div>
+
+    </div>
+
+{% endblock %}
+
+</html>

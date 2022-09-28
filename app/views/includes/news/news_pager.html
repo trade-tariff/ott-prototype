@@ -1,0 +1,13 @@
+{% if context.page_count > 0 %}
+    <p>Showing {{ news_stories | length }} of {{ story_count }} stories.</p>
+    <p class="news_pager">
+    Page:&nbsp;&nbsp;
+    {% for i in range(0, context.page_count) -%}
+            {% if i == context.page %}
+                <span class="b">{{ i + 1 }}</span>&nbsp;&nbsp;&nbsp;
+        {% else %}
+                <a href="{{ context.base_url }}?page={{ i }}">{{ i + 1 }}</a>&nbsp;&nbsp;&nbsp;
+        {% endif %}
+        {%- endfor %}
+    </p>
+{% endif %}
