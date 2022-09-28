@@ -1050,6 +1050,7 @@ router.get([
     axios.get(url)
         .then((response) => {
             context.page_count = Math.ceil(response.data["story_count"] / page_size)
+            console.log(response.data["story_count"])
             res.render('news_strategic', {
                 'context': context,
                 'news_stories': response.data["stories"],
