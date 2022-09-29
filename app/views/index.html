@@ -1,143 +1,130 @@
-{% extends "layout_start.html" %} {% block pageTitle %} Trade Tariff: look up
-commodity codes, duty and VAT rates {% endblock %} {% block beforeContent %} {{
-govukBreadcrumbs({ items: [ { text: "Home", href: "https://www.gov.uk/" }, {
-text: "Business and self-employed", href: "https://www.gov.uk/browse/business"
-}, { text: "Importing", href: "https://www.gov.uk/browse/business/imports" } ]
-}) }} {% endblock %} {% block content %} {% include
-"includes/language_selector.html" %}
+{% extends "layout_start.html" %}
+{% block pageTitle %}
+    Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+{% block beforeContent %}
+    {{
+        govukBreadcrumbs({ items: [ { text: "Home", href: "https://www.gov.uk/" }, {
+        text: "Business and self-employed", href: "https://www.gov.uk/browse/business"
+        }, { text: "Importing", href: "https://www.gov.uk/browse/business/imports" } ]
+    }) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
 
-<div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-        <h1 class="govuk-heading-xl">
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-xl">
             Trade Tariff: look up commodity codes, duty and VAT rates
         </h1>
-    </div>
-    <div class="govuk-grid-column-two-thirds">
-        <p class="abbr"><abbr title="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</abbr></p>
-        <p class="abbr"><span title="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</span></p>
-        
-        <p class="abbr"><span class="title_tag" gloss="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</span></p>
-        <p class="abbr"><span class="title_tag" gloss="€98.00 per tonne + €1.37 per decatonne, corrected according to polarisation">€98.00 / 1000 kg + €1.37 / 10 000 kg/polar</span></p>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+            {# <p class="abbr">
+                <abbr title="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</abbr>
+            </p>
+            <p class="abbr">
+                <span title="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</span></p>
 
-        <p>This service will help you to:</p>
+            <p class="abbr">
+                <span class="title_tag" gloss="0.00% + €3.80 per hectokilogram of drained net weight">0.00% + €3.80 / 100 kg/net eda</span></p>
+            <p class="abbr">
+                <span class="title_tag" gloss="€98.00 per tonne + €1.37 per decatonne, corrected according to polarisation">€98.00 / 1000 kg + €1.37 / 10 000 kg/polar</span></p> #}
 
-        <!-- {% set subject = "Import goods into the UK: what you need to do next - Check
-        how to import or export commodity" %} {% set url =
-        "https://check-how-to-import-export-goods.service.gov.uk/manage-this-trade?commodity=0301110000&originCountry=IL&goodsIntent=bringGoodsToSell&userTypeTrader=true&tradeType=import&destinationCountry=GB&importDeclarations=yes&importDateDay=01&importDateMonth=10&importDateYear=2022"
-        %} {% set text = "Import goods into the UK: what you need to do next - Check
-        how to import or export commodity" %} {% set newline = "%0D%0A" %} -->
+            <p>This service will help you to:</p>
 
-        <!-- <ul class="govuk-list--bullet">
-      <li>
-        <a
-          target="_blank"
-          href="whatsapp://send?text=Commodity%20link%20from%20STW%20Guidance%20Service%20https%3A%2F%2Fcheck-how-to-import-export-goods.service.gov.uk%2Fmanage-this-trade?commodity%3D0301110000%26originCountry%3DFR%26goodsIntent%3DbringGoodsToSell%26userTypeTrader%3Dtrue%26tradeType%3Dimport%26destinationCountry%3DGB%26importDeclarations%3Dyes%26importDateDay%3D01%26importDateMonth%3D09%26importDateYear%3D2022"
-          >Test Whatsapp</a
-        >
-      </li>
-      <li>
-        <a
-          target="_blank"
-          href="mailto:?subject={{ subject }}&body={{ text }}{{ newline }}{{ newline }}{{ url | uri_encode }}"
-          >Test mail link</a
-        >
-      </li>
-    </ul>
-    <div class="sharethis-sticky-share-buttons"></div> -->
-
-        <ul class="govuk-list govuk-list--bullet">
-            <li>identify the correct commodity code for your goods</li>
-            <li>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>identify the correct commodity code for your goods</li>
+                <li>
                 check if you need a licence or other documentation to move your goods
             </li>
-            <li>make sure you pay the right Customs Duty and import VAT</li>
-            <li>complete import or export declarations and other paperwork</li>
-            <li>understand rules of origin for the UK's trade agreements</li>
-        </ul>
+                <li>make sure you pay the right Customs Duty and import VAT</li>
+                <li>complete import or export declarations and other paperwork</li>
+                <li>understand rules of origin for the UK's trade agreements</li>
+            </ul>
 
-        <p>It will also help you check if your goods are covered by:</p>
-        <ul class="govuk-list govuk-list--bullet">
-            <li>Agricultural Policy</li>
-            <li>anti-dumping duties</li>
-            <li>UK safeguarding measures</li>
-            <li>tariff quotas</li>
-        </ul>
+            <p>It will also help you check if your goods are covered by:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>Agricultural Policy</li>
+                <li>anti-dumping duties</li>
+                <li>UK safeguarding measures</li>
+                <li>tariff quotas</li>
+            </ul>
 
-        <h2 class="govuk-heading-s">What are commodity codes?</h2>
-        <p>
+            <h2 class="govuk-heading-s">What are commodity codes?</h2>
+            <p>
             Commodity codes are 10-digit numbers that are used to identify and
             classify goods you want to import or export, so you can fill in
             declarations and other paperwork. You must use the right commodity code in
             customs declarations.
         </p>
 
-        {{ govukButton({ text: "Start now", href: "/sections/", classes:
+            {{ govukButton({ text: "Start now", href: "/sections/", classes:
         "govuk-!-margin-top-2 govuk-!-margin-bottom-8", isStartButton: true }) }}
-    </div>
-    <div class="govuk-grid-column-one-third">
-        <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
 
-        <aside class="app-related-items" role="complementary">
-            <h2 class="govuk-heading-s" id="subsection-title">Related content</h2>
-            <p>Collection</p>
-            <nav role="navigation" aria-labelledby="subsection-title">
-                <ul class="govuk-list govuk-!-font-size-16">
-                    <li>
-                        <a class="govuk-link"
+            <aside class="app-related-items" role="complementary">
+                <h2 class="govuk-heading-s" id="subsection-title">Related content</h2>
+                <p>Collection</p>
+                <nav role="navigation" aria-labelledby="subsection-title">
+                    <ul class="govuk-list govuk-!-font-size-16">
+                        <li>
+                            <a class="govuk-link"
                             href="https://www.gov.uk/government/collections/guidance-for-exporting-and-importing-businesses">Guidance
                             for exporting and importing businesses</a>
-                    </li>
-                    <li>
-                        <a class="govuk-link" href="The arts, culture and heritage sectors and the EU">The arts, culture
+                        </li>
+                        <li>
+                            <a class="govuk-link" href="the arts, culture and heritage sectors and the eu">The arts, culture
                             and heritage sectors and the EU</a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-    </div>
-</div>
-<div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-        <div class="gem-c-contextual-footer">
-            <div class="gem-c-related-navigation">
-                <nav role="navigation" class="gem-c-related-navigation__nav-section"
-                    aria-labelledby="related-nav-topics-c7e51674" data-module="gem-toggle">
-                    <h2 id="related-nav-topics-c7e51674"
-                        class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer"
-                        data-track-count="footerRelatedItemSection">
-                        Explore the topic
-                    </h2>
-
-                    <ul class="gem-c-related-navigation__link-list" data-module="track-click">
-                        <li class="gem-c-related-navigation__link">
-                            <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
-                                data-track-action="1.1 Explore the topic" data-track-label="/browse/business/exports"
-                                data-track-options='{"dimension28":"3","dimension29":"Exporting and doing business abroad"}'
-                                href="/browse/business/exports">Exporting and doing business abroad</a>
-                        </li>
-                        <li class="gem-c-related-navigation__link">
-                            <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
-                                data-track-action="1.2 Explore the topic" data-track-label="/browse/business/imports"
-                                data-track-options='{"dimension28":"3","dimension29":"Importing"}'
-                                href="/browse/business/imports">Importing</a>
-                        </li>
-                        <li class="gem-c-related-navigation__link">
-                            <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
-                                data-track-action="1.3 Explore the topic"
-                                data-track-label="/topic/business-tax/import-export"
-                                data-track-options='{"dimension28":"3","dimension29":"Import, export and customs for businesses"}'
-                                href="/topic/business-tax/import-export">Import, export and customs for businesses</a>
                         </li>
                     </ul>
                 </nav>
+            </aside>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <div class="gem-c-contextual-footer">
+                <div class="gem-c-related-navigation">
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section"
+                    aria-labelledby="related-nav-topics-c7e51674" data-module="gem-toggle">
+                        <h2 id="related-nav-topics-c7e51674"
+                        class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer"
+                        data-track-count="footerrelateditemsection">
+                        Explore the topic
+                    </h2>
+
+                        <ul class="gem-c-related-navigation__link-list" data-module="track-click">
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.1 explore the topic" data-track-label="/browse/business/exports"
+                                data-track-options='{"dimension28":"3","dimension29":"exporting and doing business abroad"}'
+                                href="/browse/business/exports">Exporting and doing business abroad</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.2 explore the topic" data-track-label="/browse/business/imports"
+                                data-track-options='{"dimension28":"3","dimension29":"importing"}'
+                                href="/browse/business/imports">Importing</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.3 explore the topic"
+                                data-track-label="/topic/business-tax/import-export"
+                                data-track-options='{"dimension28":"3","dimension29":"import, export and customs for businesses"}'
+                                href="/topic/business-tax/import-export">Import, export and customs for businesses</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63190b7f2cae798c"></script> -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63190b7f2cae798c"></script> -->
 
-<!-- Start of HubSpot Embed Code -->
-<!--<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>//-->
-<!-- End of HubSpot Embed Code -->
+    <!-- Start of HubSpot Embed Code -->
+    <!--<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>//-->
+    <!-- End of HubSpot Embed Code -->
 {% endblock %}
