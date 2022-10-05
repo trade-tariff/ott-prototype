@@ -1,0 +1,332 @@
+[
+	{
+		"old": "% vol/hl",
+		"new": "Percentage ABV (% vol) per 100 litre (hl)",
+		"full": false
+	},
+	{
+		"old": "% vol",
+		"new": "Percentage ABV (% vol)",
+		"full": false
+	},
+	{
+		"old": "ct/l",
+		"new": "Carrying capacity in metric tonnes (ct/l)",
+		"full": false
+	},
+	{
+		"old": "100 p/st",
+		"new": "100 items (p/st)",
+		"full": false
+	},
+	{
+		"old": "c/k",
+		"new": "Carat (metric) (c/k)",
+		"full": false
+	},
+	{
+		"old": "10 000 kg/polar",
+		"new": "Decatonne, corrected according to polarisation (10,000 kg/polar)",
+		"full": false
+	},
+	{
+		"old": "kg DHS",
+		"new": "Kilogram of dihydrostreptomycin (kg DHS)",
+		"full": false
+	},
+	{
+		"old": "100 kg/net eda",
+		"new": "100 kg of drained net weight (kg/net eda)",
+		"full": false
+	},
+	{
+		"old": "100 kg common wheat",
+		"new": "100 kg of common wheat",
+		"full": false
+	},
+	{
+		"old": "100 kg/br",
+		"new": "100 kg, gross (kg/br)",
+		"full": false
+	},
+	{
+		"old": "100 kg live weight",
+		"new": "100 kg live weight",
+		"full": false
+	},
+	{
+		"old": "100 kg/net mas",
+		"new": "100 kg net of dry matter (net mas)",
+		"full": false
+	},
+	{
+		"old": "100 kg std qual",
+		"new": "100 kg of standard quality (std qual)",
+		"full": false
+	},
+	{
+		"old": "100 kg raw sugar",
+		"new": "100 kg of raw sugar",
+		"full": false
+	},
+	{
+		"old": "100 kg/net/%sacchar.",
+		"new": "100 kg per 1% by weight of sucrose (net/%sacchar.)",
+		"full": false
+	},
+	{
+		"old": "EUR",
+		"new": "Euro (used for statistical surveillance)",
+		"full": false
+	},
+	{
+		"old": "gi F/S",
+		"new": "Gram of fissile isotopes (gi F/S)",
+		"full": false
+	},
+	{
+		"old": "GT",
+		"new": "Gross tonnage",
+		"full": false
+	},
+	{
+		"old": "hl",
+		"new": "100 litre (hl)",
+		"full": false
+	},
+	{
+		"old": "100 m",
+		"new": "100 metre",
+		"full": false
+	},
+	{
+		"old": "kg C₅H₁₄ClNO",
+		"new": "Kilogram of choline chloride (kg C₅H₁₄ClNO)",
+		"full": false
+	},
+	{
+		"old": "tonne KCl",
+		"new": "Tonne of potassium chloride (tonne KCl)",
+		"full": false
+	},
+	{
+		"old": "kg/tot/alc",
+		"new": "Kilogram, total alcohol (kg/tot/alc)",
+		"full": false
+	},
+	{
+		"old": "kg/net eda",
+		"new": "Kilogram of drained net weight (net eda)",
+		"full": false
+	},
+	{
+		"old": "GKG",
+		"new": "Kilogram, gross",
+		"full": false
+	},
+	{
+		"old": "kg/lactic matter",
+		"new": "Kilogram of lactic matter",
+		"full": false
+	},
+	{
+		"old": "kg/raw sugar",
+		"new": "Kilogram of raw sugar",
+		"full": false
+	},
+	{
+		"old": "kg/dry lactic matter",
+		"new": "Kilogram of dry lactic matter",
+		"full": false
+	},
+	{
+		"old": "1000 l",
+		"new": "1000 litre",
+		"full": false
+	},
+	{
+		"old": "kg methylamines",
+		"new": "Kilogram of methylamines",
+		"full": false
+	},
+	{
+		"old": "KM",
+		"new": "Kilometre",
+		"full": false
+	},
+	{
+		"old": "kg N",
+		"new": "Kilogram of nitrogen (kg N)",
+		"full": false
+	},
+	{
+		"old": "kg H₂O₂",
+		"new": "Kilogram of hydrogen peroxide (kg H₂O₂)",
+		"full": false
+	},
+	{
+		"old": "kg KOH",
+		"new": "Kilogram of potassium hydroxide (caustic potash) (kg KOH)",
+		"full": false
+	},
+	{
+		"old": "kg K₂O",
+		"new": "Kilogram of potassium oxide (kg K₂O)",
+		"full": false
+	},
+	{
+		"old": "kg P₂O₅",
+		"new": "Kilogram of diphosphorus pentaoxide (kg P₂O₅)",
+		"full": false
+	},
+	{
+		"old": "kg 90% sdt",
+		"new": "Kilogram of substance 90% dry (kg 90% sdt)",
+		"full": false
+	},
+	{
+		"old": "kg NaOH",
+		"new": "Kilogram of sodium hydroxide (caustic soda) (kg NaOH)",
+		"full": false
+	},
+	{
+		"old": "kg U",
+		"new": "Kilogram of uranium (kg U)",
+		"full": false
+	},
+	{
+		"old": "l alc. 100%",
+		"new": "Litre of pure (100%) alcohol (l alc. 100%)",
+		"full": false
+	},
+	{
+		"old": "L total alc.",
+		"new": "Litre, total alcohol",
+		"full": false
+	},
+	{
+		"old": "l",
+		"new": "Litre (l)",
+		"full": true
+	},
+	{
+		"old": "1000 p/st",
+		"new": "1,000 items (p/st)",
+		"full": false
+	},
+	{
+		"old": "1000 pa",
+		"new": "1,000 pairs (pa)",
+		"full": false
+	},
+	{
+		"old": "m²",
+		"new": "Square metre (m²)",
+		"full": false
+	},
+	{
+		"old": "1000 m³",
+		"new": "1,000 m³",
+		"full": false
+	},
+	{
+		"old": "m³",
+		"new": "Cubic metre (m³)",
+		"full": false
+	},
+	{
+		"old": "m",
+		"new": "Metre (m)",
+		"full": true
+	},
+	{
+		"old": "1000 kWh",
+		"new": "1,000 kilowatt hours (kWh)",
+		"full": false
+	},
+	{
+		"old": "b/f",
+		"new": "Number of items per flask (b/f)",
+		"full": false
+	},
+	{
+		"old": "p/st",
+		"new": "Items (p/st)",
+		"full": false
+	},
+	{
+		"old": "ce/el",
+		"new": "Cells (ce/el)",
+		"full": false
+	},
+	{
+		"old": "pa",
+		"new": "Pairs (pa)",
+		"full": true
+	},
+	{
+		"old": "TJ",
+		"new": "Terajoule (gross calorific value) (TJ)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/net eda",
+		"new": "1,000 kg of drained net weight (net eda)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/biodiesel",
+		"new": "1,000 kg (biodiesel content)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/fuel content",
+		"new": "1,000 kg (fuel content)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/bioethanol",
+		"new": "1,000 kg (bioethanol)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/net mas",
+		"new": "1,000 kg net of dry matter (net mas)",
+		"full": false
+	},
+	{
+		"old": "1000 kg std qual",
+		"new": "1,000 kg of standard quality (std qual)",
+		"full": false
+	},
+	{
+		"old": "1000 kg/net/%saccha.",
+		"new": "1,000 kg per 1% by weight of sucrose (net/%saccha.)",
+		"full": false
+	},
+	{
+		"old": "1000 kg",
+		"new": "1,000 kg",
+		"full": false
+	},
+	{
+		"old": "Watt",
+		"new": "Watt",
+		"full": false
+	},
+	{
+		"old": "100 kg",
+		"new": "100 kgTEMP",
+		"full": false
+	},
+	{
+		"old": "kg",
+		"new": "Kilogram",
+		"full": true
+	},
+	{
+		"old": "g",
+		"new": "Gram (g)",
+		"full": true
+	}
+]

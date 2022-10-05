@@ -1,0 +1,407 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help on using the tariff - UK Integrated Online Tariff
+{% endblock %}
+
+{% block beforeContent %}
+{{ govukBreadcrumbs({
+items: [
+    {
+    text: "Home",
+    href: "/sections"
+    },
+    {
+    text: "Help",
+    href: "/help"
+    },
+    {
+    text: "Units",
+    href: "/help/units"
+    }
+    ]
+}) }}
+{% endblock %}
+
+{% block content %}
+{% include "includes/language_selector.html" %}
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <span class="govuk-caption-xl">Online Trade Tariff</span>
+        <h1 class="govuk-heading-l">Help - Measurement units</h1>
+        <p>The table below lists the measurement units that are in use on the Online Tariff. Across the various international
+            tariff services, you will see units referenced using either full descriptions, abbreviations or units and qualifiers.
+        </p>
+     </div>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <table class="govuk-table">
+            <thead class="govuk-table__head">
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Abbreviation</th>
+                    <th scope="col" class="govuk-table__header">Description</th>
+                    <th scope="col" class="govuk-table__header c">Unit</th>
+                    <th scope="col" class="govuk-table__header c">Qualifier</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">%vol</td>
+                    <td class="govuk-table__cell">%vol</td>
+                    <td class="govuk-table__cell c">ASV</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">%vol/hl</td>
+                    <td class="govuk-table__cell">%vol/hectolitre</td>
+                    <td class="govuk-table__cell c">ASV</td>
+                    <td class="govuk-table__cell c">X</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">ct/l</td>
+                    <td class="govuk-table__cell">Carrying capacity in metric tonnes</td>
+                    <td class="govuk-table__cell c">CCT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 p/st</td>
+                    <td class="govuk-table__cell">Hundred items</td>
+                    <td class="govuk-table__cell c">CEN</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">c/k</td>
+                    <td class="govuk-table__cell">Carats (one metric carat = 2 x 10<sup>-4</sup> kg)</td>
+                    <td class="govuk-table__cell c">CTM</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg DHS</td>
+                    <td class="govuk-table__cell">Kilogram of dihydrostreptomycin</td>
+                    <td class="govuk-table__cell c">DHS</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg</td>
+                    <td class="govuk-table__cell">Hectokilogram</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/net eda</td>
+                    <td class="govuk-table__cell">Hectokilogram net drained weight</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">E</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/net</td>
+                    <td class="govuk-table__cell">Hectokilogram net common wheat</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">F</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/br</td>
+                    <td class="govuk-table__cell">Hectokilogram gross</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">G</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg live weight</td>
+                    <td class="govuk-table__cell">Hectokilogram live weight</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">L</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/net mas</td>
+                    <td class="govuk-table__cell">Hectokilogram net dry matter</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">M</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/net</td>
+                    <td class="govuk-table__cell">Hectokilogram net</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">N (no longer used)</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/net</td>
+                    <td class="govuk-table__cell">Hectokilogram net white sugar</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">S</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 kg/ net/%sacchar.</td>
+                    <td class="govuk-table__cell">Hectokilogram per 1 % by weight of sucrose</td>
+                    <td class="govuk-table__cell c">DTN</td>
+                    <td class="govuk-table__cell c">Z</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">EUR</td>
+                    <td class="govuk-table__cell">Euro (used for statistical surveillance)</td>
+                    <td class="govuk-table__cell c">EUR</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">gi F/S</td>
+                    <td class="govuk-table__cell">Gram of fissile isotopes</td>
+                    <td class="govuk-table__cell c">GFI</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">G</td>
+                    <td class="govuk-table__cell">Gram</td>
+                    <td class="govuk-table__cell c">GRM</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">GT</td>
+                    <td class="govuk-table__cell">Gross tonnage</td>
+                    <td class="govuk-table__cell c">GRT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">hl</td>
+                    <td class="govuk-table__cell">Hectolitre</td>
+                    <td class="govuk-table__cell c">HLT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">100 m</td>
+                    <td class="govuk-table__cell">Hectometre</td>
+                    <td class="govuk-table__cell c">HMT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg C5H14ClNO</td>
+                    <td class="govuk-table__cell">Kilogram of choline chloride</td>
+                    <td class="govuk-table__cell c">KCC</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">tonne KCl</td>
+                    <td class="govuk-table__cell">Tonne of potassium chloride</td>
+                    <td class="govuk-table__cell c">KCL</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg</td>
+                    <td class="govuk-table__cell">Kilogram</td>
+                    <td class="govuk-table__cell c">KGM</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg/tot/alc</td>
+                    <td class="govuk-table__cell">Kilogram total alcohol</td>
+                    <td class="govuk-table__cell c">KGM</td>
+                    <td class="govuk-table__cell c">A</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg/net eda</td>
+                    <td class="govuk-table__cell">Kilogram net drained weight</td>
+                    <td class="govuk-table__cell c">KGM</td>
+                    <td class="govuk-table__cell c">E</td>
+                </tr>
+
+                {# <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg/net</td>
+                    <td class="govuk-table__cell">Kilogramme net (no longer used)</td>
+                    <td class="govuk-table__cell">KGM</td>
+                    <td class="govuk-table__cell">N</td>
+                </tr> #}
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg/lactic matter</td>
+                    <td class="govuk-table__cell">Kilogram lactic matter</td>
+                    <td class="govuk-table__cell c">KGM</td>
+                    <td class="govuk-table__cell c">P</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg/dry lactic matter</td>
+                    <td class="govuk-table__cell">Kilogram dry lactic matter</td>
+                    <td class="govuk-table__cell c">KGM</td>
+                    <td class="govuk-table__cell c">T</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">1 000 l</td>
+                    <td class="govuk-table__cell">1000 litres</td>
+                    <td class="govuk-table__cell c">KLT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg methylamines</td>
+                    <td class="govuk-table__cell">Kilogram of methylamines</td>
+                    <td class="govuk-table__cell c">KMA</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">KMT</td>
+                    <td class="govuk-table__cell">Kilometre</td>
+                    <td class="govuk-table__cell c">KMT</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg N</td>
+                    <td class="govuk-table__cell">Kilogram of nitrogen</td>
+                    <td class="govuk-table__cell c">KNI</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg H2O2</td>
+                    <td class="govuk-table__cell">Kilogram of hydrogen peroxide</td>
+                    <td class="govuk-table__cell c">KNS</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg KOH</td>
+                    <td class="govuk-table__cell">Kilogram of potassium hydroxide (caustic potash)</td>
+                    <td class="govuk-table__cell c">KPH</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg K2O</td>
+                    <td class="govuk-table__cell">Kilogram of potassium oxide</td>
+                    <td class="govuk-table__cell c">KPO</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg P2O5</td>
+                    <td class="govuk-table__cell">Kilogram of diphosphorus pentaoxide</td>
+                    <td class="govuk-table__cell c">KPP</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg 90% sdt</td>
+                    <td class="govuk-table__cell">Kilogram of substance 90 % dry</td>
+                    <td class="govuk-table__cell c">KSD</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg NaOH</td>
+                    <td class="govuk-table__cell">Kilogram of sodium hydroxide (caustic soda)</td>
+                    <td class="govuk-table__cell c">KSH</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">kg U</td>
+                    <td class="govuk-table__cell">Kilogram of uranium</td>
+                    <td class="govuk-table__cell c">KUR</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">l alc. 100%</td>
+                    <td class="govuk-table__cell">Litre pure (100%) alcohol</td>
+                    <td class="govuk-table__cell c">LPA</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">l</td>
+                    <td class="govuk-table__cell">Litre</td>
+                    <td class="govuk-table__cell c">LTR</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">l/tot/alc</td>
+                    <td class="govuk-table__cell">Litre total alcohol</td>
+                    <td class="govuk-table__cell c">LTR</td>
+                    <td class="govuk-table__cell c">A</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">1000 p/st</td>
+                    <td class="govuk-table__cell">1000 items</td>
+                    <td class="govuk-table__cell c">MIL</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">1000 pa</td>
+                    <td class="govuk-table__cell">1.000 pairs (used for statistical surveillance)</td>
+                    <td class="govuk-table__cell c">MPR</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">m2</td>
+                    <td class="govuk-table__cell">Square metre</td>
+                    <td class="govuk-table__cell c">MTK</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">m3</td>
+                    <td class="govuk-table__cell">Cubic metre</td>
+                    <td class="govuk-table__cell c">MTQ</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">1000 m3</td>
+                    <td class="govuk-table__cell">Thousand cubic metres</td>
+                    <td class="govuk-table__cell c">MTQ</td>
+                    <td class="govuk-table__cell c">C</td>
+                </tr>
+
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">m</td>
+                    <td class="govuk-table__cell">Metre</td>
+                    <td class="govuk-table__cell c">MTR</td>
+                    <td class="govuk-table__cell c"></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+</div>
+{% set show_webchat = false %}
+{% if show_webchat %}
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
+<!-- End of HubSpot Embed Code -->
+{% endif %}
+{% endblock %}
+</html>

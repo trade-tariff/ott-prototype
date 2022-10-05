@@ -309,6 +309,12 @@ module.exports = function (env) {
                 markdown_text = markdown_text.replace(/<h3>/g, "<h3 class='govuk-heading-s'>");
                 markdown_text = markdown_text.replace(/<h4>/g, "<h4 class='govuk-heading-xs'>");
                 markdown_text = markdown_text.replace(/{{ top }}/g, "<a href='#top'>Back to top</a>");
+                markdown_text = markdown_text.replace(/<table>/g, '<table class="govuk-table">');
+                markdown_text = markdown_text.replace(/<tr>/g, '<tr class="govuk-table__row">');
+                markdown_text = markdown_text.replace(/<th>/g, '<th scope="col" class="govuk-table__header">');
+                markdown_text = markdown_text.replace(/<td>/g, '<td class="govuk-table__cell">');
+                markdown_text = markdown_text.replace(/<thead>/g, '<thead class="govuk-table__head">');
+                markdown_text = markdown_text.replace(/<tbody>/g, '<tbody class="govuk-table__body">');
 
                 if (hide_bullets) {
                     markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list'>")
@@ -486,6 +492,61 @@ module.exports = function (env) {
 
         var regex = /\<span\>/g;
         s = s.replace(regex, "");
+
+        return (s)
+    }
+
+    filters.unabbreviate = function (s, measure_type_id, measure_sid) {
+        if (measure_sid == 20000814) {
+            var a = 1;
+        }
+        var _ = require('lodash');
+        var supplementary_units = ['109', '110', '111']
+
+        var measurement_units = require('./data/measurement_units/measurement_units.json')
+        var altered = false;
+        measurement_units.forEach(measurement_unit => {
+            if (!altered) {
+                s_old = s
+
+                if (measurement_unit["full"]) {
+                    var a = 1;
+                    if (s == measurement_unit["old"]) {
+                        s = measurement_unit["new"]
+                    }
+                    // if (supplementary_units.includes(measure_type_id)) {
+                    //     s = s.replace(measurement_unit["old"], measurement_unit["new"]);
+                    // } else {
+                    //     s = s.replace(measurement_unit["old"], _.lowerFirst(measurement_unit["new"]));
+                    // }
+                } else {
+                    if (supplementary_units.includes(measure_type_id)) {
+                        s = s.replace(measurement_unit["old"], measurement_unit["new"]);
+                    } else {
+                        s = s.replace(measurement_unit["old"], _.lowerFirst(measurement_unit["new"]));
+                    }
+                }
+                if (s != s_old) {
+                    altered = true;
+                }
+            }
+        });
+
+        var regex = /([0-9]+.[0-9]+) GBP/g; // Put the £ sign first
+        s = s.replace(regex, "£\$1");
+
+        var regex = / %/g; // Space then percentage 
+        s = s.replace(regex, "%");
+
+        var regex = / \/ /g; // Space around the forward slash
+        s = s.replace(regex, "&nbsp;/&nbsp;");
+
+        var regex = / kg/g; // Space then percentage
+        s = s.replace(regex, "&nbsp;kg");
+
+        var regex = /TEMP/g; // needed
+        s = s.replace(regex, "");
+
 
         return (s)
     }

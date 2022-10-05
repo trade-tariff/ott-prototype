@@ -329,7 +329,7 @@ router.get([
     } else {
         // UK
         const axiosrequest1 = axios.get(url);
-        // try {
+        try {
         await axios.all([axiosrequest1]).then(axios.spread(function (response) {
             c = new Commodity();
             c.country = context.country;
@@ -356,14 +356,15 @@ router.get([
                 'commodity': c
             });
         }));
-        // }
-        // catch (error) {
-        //     var url = "/commodity_history/" + req.params["goods_nomenclature_item_id"];
-        //     if (context.simulation_date != "") {
-        //         url += "?as_of=" + context.simulation_date
-        //     }
-        //     res.redirect(url);
-        // }
+        }
+        catch (error) {
+            var url = "/commodity_history/" + req.params["goods_nomenclature_item_id"];
+            if (context.simulation_date != "") {
+                url += "?as_of=" + context.simulation_date
+            }
+            var url = "/headings/" + req.params["goods_nomenclature_item_id"].substr(0, 4);
+            res.redirect(url);
+        }
     }
 });
 
@@ -615,6 +616,13 @@ router.get(['/help/cn2021-cn2022'], function (req, res) {
 router.get(['/help/how-to-use'], function (req, res) {
     var context = new Context(req);
     res.render('help/how-to-use', {
+        'context': context
+    });
+});
+
+router.get(['/help/units'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/units', {
         'context': context
     });
 });
