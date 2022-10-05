@@ -85,7 +85,7 @@
                     {% if display_block.block != "Import controls" and display_block.block != "UK import controls" %}
                         <th scope="col" class="govuk-table__header value app-flexible-table__header">Duty rate</th>
                     {% endif %}
-                    <th scope="col" class="govuk-table__header footnotes app-flexible-table__header">Conditions</th>
+                    <th scope="col" class="govuk-table__header conditions app-flexible-table__header c">Conditions</th>
                     <th scope="col" class="govuk-table__header footnotes app-flexible-table__header c">Footnotes</th>
                 </tr>
             </thead>
@@ -151,9 +151,10 @@
                                     <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="Value">
                                         {% if measure.duty_bearing %}
                                             {% if measure.duty_expression.formatted_base %}
-                                                <span class="title_tag" gloss="{{ measure.duty_expression.formatted_base | strip_formatting | safe }}">
+                                                {# <span class="title_tag" gloss="4.00 % + £7.80 / hectokilogram net of dry matter">
                                                     {{ measure.duty_expression.formatted_base | strip_formatting | safe }}
-                                                </span>
+                                                </span> #}
+                                                {{ measure.duty_expression.formatted_base | strip_formatting | unabbreviate(measure.measure_type_id, measure.id ) | safe }}
                                                 {% if measure.has_meursing %}
                                                     {% if data['meursing-code'].length > 0 and measure.combined_duty_with_meursing.length > 0 %}
                                                         <br>
@@ -177,7 +178,7 @@
                                 </td>
                                 //-->
 
-                                <td class="govuk-table__cell conditions nw app-flexible-table__cell" scope="row" data-column-heading="measure detail">
+                                <td class="govuk-table__cell conditions nw app-flexible-table__cell c" scope="row" data-column-heading="measure detail">
                                     {% if measure.has_conditions == true %}
                                         <a href="#measure_conditions_{{ measure.id }}" rel="modal:open">Conditions</a>
                                     {% else %}

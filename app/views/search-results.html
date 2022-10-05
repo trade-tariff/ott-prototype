@@ -5,129 +5,147 @@
 {% endblock %}
 
 {% block beforeContent %}
-  {{ govukBackLink({
-    text: "Back",
-    href: "/import-goods"
-  }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "/import-goods"
+    }) }}
 {% endblock %}
 
 {% block content %}
     {% include "includes/language_selector.html" %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
 
-      <span class="govuk-caption-xl">Search results</span>
-      <h1 class="govuk-heading-m">You searched for '{{ term }}'</h1>
+            <span class="govuk-caption-xl">Search results</span>
+            <h1 class="govuk-heading-l">You searched for '{{ term }}'</h1>
 
-      {% if search_context.call_type == "heading" %}
-      {# <h2 class="govuk-heading govuk-heading-s">Category: {{ context.search.page_title }}</h2> #}
-      <div class="govuk-inset-text">Category: {{ context.search.page_title }}</div>
-      {% endif %}
+            {% if search_context.call_type == "heading" %}
+                {# <h2 class="govuk-heading govuk-heading-s">Category: {{ context.search.page_title }}</h2> #}
+                <div class="govuk-inset-text">Category: {{ context.search.page_title }}</div>
+            {% endif %}
 
-      {% if search_context.heading_count > 0 and search_context.commodity_count > 0 %}
-        <nav>
-          <p class="govuk-body govuk-!-margin-bottom-3">Contents</p>
-          <ul class="app-contents govuk-!-margin-bottom-9">
-            <li class="govuk-!-margin-bottom-1">
-              <a class="govuk-body" href="#categories">Categories matching '{{ term }}'</a>
-            </li>
-            <li class="govuk-!-margin-bottom-1">
-              <a class="govuk-body" href="#commodities">Commodities matching '{{ term }}'</a>
-            </li>
-          </ul>
-        </nav>
-      {% endif %}
+            {% if search_context.heading_count > 0 and search_context.commodity_count > 0 %}
+                <nav>
+                    <p class="govuk-body govuk-!-margin-bottom-3">Contents</p>
+                    <ul class="app-contents govuk-!-margin-bottom-9">
+                        <li class="govuk-!-margin-bottom-1">
+                            <a class="govuk-body" href="#categories">Categories matching '{{ term }}'</a>
+                        </li>
+                        <li class="govuk-!-margin-bottom-1">
+                            <a class="govuk-body" href="#commodities">Commodities matching '{{ term }}'</a>
+                        </li>
+                    </ul>
+                </nav>
+            {% endif %}
 
-      {% if contsearch_contextext.heading_count > 0 %}
-        <p id="categories">The term <strong>{{ term }}</strong> appears in <strong>{{ search_context.heading_count }}</strong>
-          {{ "category" | sing_plur(search_context.heading_count) }}. Click on a category to see more information.</p>
-        <table class="govuk-table xgovuk-table--m">
-          <thead class="govuk-table__head">
-            <tr class="govuk-table__row">
-              <th scope="col" class="govuk-table__header">Heading</th>
-              <th scope="col" class="govuk-table__header">Description</th>
-            </tr>
-          </thead>
-          <tbody class="govuk-table__body">
-            {% for link in search_context.links %}
-              {% if link.type == "heading" %}
-                <tr class="govuk-table__row">
-                  <td class="govuk-table__cell">{{ link.id }}</td>
-                  <td class="govuk-table__cell level_{{ link.level }}">
-                    <a href="{{ link.link }}/{{ term }}">{{ link.text | highlight(term) | safe }}</a>
-                  </td>
+            {% if contsearch_contextext.heading_count > 0 %}
+                <p id="categories">The term <strong>{{ term }}</strong> appears in <strong>{{ search_context.heading_count }}</strong>
+                    {{ "category" | sing_plur(search_context.heading_count) }}. Click on a category to see more information.</p>
+                <table class="govuk-table xgovuk-table--m">
+                    <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Heading</th>
+                            <th scope="col" class="govuk-table__header">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                        {% for link in search_context.links %}
+                            {% if link.type == "heading" %}
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">{{ link.id }}</td>
+                                    <td class="govuk-table__cell level_{{ link.level }}">
+                                        <a href="{{ link.link }}/{{ term }}">{{ link.text | highlight(term) | safe }}</a>
+                                    </td>
 
-                </tr>
-              {% endif %}
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
+                                </tr>
+                            {% endif %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
 
-      {% if search_context.commodity_count > 0 %}
-        {% if search_context.call_type != "heading" %}
-          <p id="commodities">The term <strong>{{ term }}</strong> appears in <strong>{{ search_context.commodity_count }}</strong>
-            {{ "commodity" | sing_plur(search_context.commodity_count) }}.</p>
-        {% endif %}
-        <table class="govuk-table xgovuk-table--m">
-          <thead class="govuk-table__head">
-            <tr class="govuk-table__row">
-              <th scope="col" class="govuk-table__header">Commodity</th>
-              <th scope="col" class="govuk-table__header">Description</th>
-              <th scope="col" class="govuk-table__header">&nbsp;</th>
-            </tr>
-          </thead>
-          <tbody class="govuk-table__body">
-            {% for link in search_context.links %}
-              {% if link.type == "commodity" %}
-                <tr class="govuk-table__row">
-                  <td class="govuk-table__cell">{{ link.id }}</td>
+            {% if search_context.commodity_count > 0 %}
+                {% if search_context.call_type != "heading" %}
+                    <p id="commodities">The term <strong>{{ term }}</strong> appears in <strong>{{ search_context.commodity_count }}</strong>
+                        {{ "commodity" | sing_plur(search_context.commodity_count) }}.</p>
+                {% endif %}
+                <table class="govuk-table xgovuk-table--m">
+                    <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th scope="col" class="govuk-table__header">Commodity</th>
+                            <th scope="col" class="govuk-table__header">Description</th>
+                            <th scope="col" class="govuk-table__header">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                        {% for link in search_context.links %}
+                            {% if link.type == "commodity" %}
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">{{ link.id }}</td>
 
-                  {% if link.type == "commodity" and link.leaf %}
-                    <td class="govuk-table__cell level level_{{ link.level }}">
-                    {% if link.hierarchy | length %}
-                    <span class="hierarchy">{{ link.hierarchy }} — </span>
-                    {% set class = "code_leaf" %}
-                    {% else %}
-                    {% set class = "" %}
-                    {% endif %}
-                    <span class="{{ class }}">{{ link.text | highlight(term) | safe }}</span>
-                    </td>
-                    <td class="govuk-table__cell r nw">
-                      <!--<a target="_blank" href="https://www.trade-tariff.service.gov.uk/commodities/{{ link.id }}">View</a>&nbsp;&nbsp;|&nbsp;&nbsp;//-->
-                    <a href="/commodities/{{ link.id }}">Select and continue</a>
-                    </td>
-                  {% elseif link.type == "commodity" %}
-                    <td class="govuk-table__cell level level_{{ link.level }}">{{ link.text | highlight(term) | safe }}</td>
-                    <td class="govuk-table__cell">&nbsp;</td>
-                  {% endif %}
+                                    {% if link.type == "commodity" and link.leaf %}
+                                        <td class="govuk-table__cell level level_{{ link.level }}">
+                                            {% if link.hierarchy | length %}
+                                                <span class="hierarchy">{{ link.hierarchy }} — </span>
+                                                {% set class = "code_leaf" %}
+                                            {% else %}
+                                                {% set class = "" %}
+                                            {% endif %}
+                                            <span class="{{ class }}">{{ link.text | highlight(term) | safe }}</span>
+                                        </td>
+                                        <td class="govuk-table__cell r nw">
+                                            <!--<a target="_blank" href="https://www.trade-tariff.service.gov.uk/commodities/{{ link.id }}">View</a>&nbsp;&nbsp;|&nbsp;&nbsp;//-->
+                                            <a href="/commodities/{{ link.id }}">Select and continue</a>
+                                        </td>
+                                    {% elseif link.type == "commodity" %}
+                                        <td class="govuk-table__cell level level_{{ link.level }}">{{ link.text | highlight(term) | safe }}</td>
+                                        <td class="govuk-table__cell">&nbsp;</td>
+                                    {% endif %}
 
-                </tr>
-              {% endif %}
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
+                                </tr>
+                            {% endif %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
 
-      {% if search_context.heading_count == 0 and search_context.commodity_count == 0 %}
-      <h2 class="govuk-heading govuk-heading-s">There are no results matching your query. Please search again and consider:</h2>
+            {% if search_context.heading_count == 0 and search_context.commodity_count == 0 %}
+                <h2 class="govuk-heading govuk-heading-s">There are no results matching your query. Please search again and consider:</h2>
 
-      <ul class="govuk-list govuk-list--bullet">
-        <li>Searching what the item is used for or made from</li>
-        <li>Broadening your search criteria</li>
-        <li>Checking your spelling</li>
-        <li>Browsing the <a href="https://www.trade-tariff.service.gov.uk/a-z-index/a">A-Z of Classified Goods</a> on the Online Trade Tariff</li>
-      </ul>
-      {% endif %}
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>searching what the item is used for or made from</li>
+                    <li>broadening your search criteria</li>
+                    <li>checking your spelling</li>
+                    <li>browsing the <a href="https://www.trade-tariff.service.gov.uk/a-z-index/a">A-Z of Classified Goods</a> on the Online Trade Tariff</li>
+                </ul>
+
+                {# <h2 class="govuk-heading-s govuk-!-margin-top-6" id="search-tips">Search tips</h2>
+                <p>You must accurately describe your item to search the tool. These steps will help you get started:</p>
+
+                <ol class="steps" style="font-size:19px">
+                    <li>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</li>
+                    <li>The tool will suggest a section or number of sections, divided into chapters.</li>
+                    <li>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</li>
+                    <li>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</li>
+                </ol> #}
+
+                <div class="govuk-inset-text govuk-!-margin-top-5">
+                    <h2 class="govuk-heading-s" id="getting-help">Getting help from HMRC if you need to find a commodity code</h2>
+                    <p>If you <a href="/help/help-find-commodity">cannot find the right commodity code for your goods</a>, you can contact HMRC for advice or for a decision on your goods.</p>
+
+                    {% include "includes/digital_assistant.html" %}
+                </div>
+
+            {% endif %}
+
+        </div>
 
     </div>
-
-  </div>
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-      {% include "./includes/ad-help.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            {% include "./includes/ad-help.html" %}
+        </div>
     </div>
-  </div>
 
 {% endblock %}
