@@ -2,8 +2,8 @@
     {% if commodity.country_name2.length > 0 %}
         <div class="govuk-grid-column-two-thirds">
             <h2 class="govuk-heading-m roo_heading">
-                Preferential rules of origin for trading with {{ commodity.country_name2 }}&nbsp;&nbsp;<img class="flag"
-                src="/public/images/flags/{{ data["country"] | lower }}.png" 
+                Preferential rules of origin for trading with {{ commodity.country_name2 }}&nbsp;&nbsp;
+                <img class="flag" src="/public/images/flags/{{ data["country"] | lower }}.png" 
                 height="20" alt="{{commodity.country_name2 }}">
             </h2>
             {% if roo.valid_rules %}
@@ -38,7 +38,6 @@
                     {% if context.scope_id != "xi" %}
                         <div class="govuk-inset-text">
                             <h3 class="govuk-heading-s">How rules of origin could affect the import duty payable</h3>
-                            {# <p>This table applies to goods imported into the UK</p> #}
                             <ul class="govuk-list govuk-list--bullet">
                                 <li class="commodity-split">
                                     Basic third country duty = <strong>{{ commodity.third_country_duty }}</strong>
@@ -72,10 +71,8 @@
                     {% else %}
                         <div class="govuk-inset-text">
                             <h3 class="govuk-heading-s">How rules of origin could affect the import duty payable</h3>
-                            {# <p>This table applies to goods imported into the UK</p> #}
-                            {# {{ context.permit_uk_roo }} {{ context.permit_xi_roo }} #}
+                            {# <p>Permit UK {{ context.permit_uk_roo }} | Permit XI {{ context.permit_xi_roo }}</p> #}
                             <table class="govuk-table">
-                                {# <caption class="govuk-table__caption govuk-table__caption--m">How rules of origin could affect the import duty payable</caption> #}
                                 <thead class="govuk-table__head">
                                     <tr class="govuk-table__row">
                                         <th scope="col" class="govuk-table__header">&nbsp;</th>
@@ -103,14 +100,29 @@
                             </table>
                         </div>
                     {% endif %}
+                    {% if context.scope == "uk" %}
+                        {% set title_text = "Work out if your goods meet the rules of origin" %}
+                        {% set caption_text = "Use this tool to determine whether your trade fulfils the rules of origin
+                        and can therefore be considered as <strong>originating</strong>." %}
+                    {% else %}
+                        {% set title_text = "Work out if your goods meet the rules of origin" %}
+                        {% if context.permit_uk_roo == 1 and context.permit_xi_roo == 0 %}
+                            {% set caption_text = "Use this tool to determine whether your trade fulfils the rules
+                            of origin of the UK trade agreement and can therefore be considered as <strong>originating</strong>." %}
+                        {% else %}
+                            {% set caption_text = "Use this tool to determine whether your trade fulfils the rules
+                            of origin of the EU trade agreement and can therefore be considered as <strong>originating</strong>." %}
+                        {% endif %}
+                    {% endif %}
+
 
                     {% if commodity.preferential_tariff_duty != "" or commodity.preferential_quota_duty != "" or commodity_uk.preferential_tariff_duty != "" or commodity_uk.preferential_quota_duty != "" %}
-                        <h3 class="govuk-heading-s">Work out if your goods meet the rules of origin</h3>
+                        <h3 class="govuk-heading-s">{{ title_text }}</h3>
 
-                        <p>Use this tool to determine whether your trade fulfils the rules of origin
-                        and can therefore be considered as <strong>originating</strong>.</p>
+                        <p>{{ caption_text | safe }}</p>
 
                         {% if context.scope_id == "xi" %}
+                            {% if context.permit_uk_roo and context.permit_uk_roo %}
                             <form action="">
                                 <div class="govuk-form-group">
                                     <fieldset class="govuk-fieldset">
@@ -133,6 +145,8 @@
                                 </div>
 
                             </form>
+
+                            {% endif %}
                         {% endif %}
                         {% if commodity.third_country_duty == "0.00 %" %}
                             <div class="grey_box">

@@ -531,10 +531,12 @@ class Context {
         // 6217100010 on DE = Four subdivisions
         // 5003000010 on DE = Two subdivisions
         // 0702000007 on DE = One subdivision
-        this.show_subdivision_selector = false
+         this.show_subdivision_selector = false
 
-        if (check == 'check_all') {
-            this.subdivision = req.session.data['subdivision']
+         check = 'check_all'
+         if (check == 'check_all') {
+            this.subdivision = req.session.data['subdivision'] // Reinstate this when finished debugging
+            // this.subdivision = ""
             if (typeof this.subdivision === 'undefined') {
                 this.subdivision = ''
             }
@@ -612,6 +614,7 @@ class Context {
                 this.goods_nomenclature_item_id +
                 '" && @.valid == true)]'
         }
+        console.log(query_string);
         var results = jp.query(this.psr_data, query_string)
         this.rule_classes = []
         if (results.length > 0) {
@@ -1606,7 +1609,6 @@ class Context {
         this.psrs['rule_sets'].forEach(psr => {
             psr.subdivision = md.render(psr.subdivision)
             psr['rules'].forEach(rule => {
-                a = 1
                 rule.rule = md.render(rule.rule)
                 rule.rule = rule.rule.replace(
                     '<ul>',

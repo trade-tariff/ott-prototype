@@ -12,25 +12,72 @@
         <div class="govuk-grid-column-full">
             <span class="govuk-caption-xl">{{ context.title }}</span>
             <h1 class="govuk-heading-l">{{ serviceName }}</h1>
-
-            <div class="govuk-notification-banner" role="alert" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
-                <div class="govuk-notification-banner__header">
-                    <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
-                        {{ context.bannerTitle | safe }}
-                    </h2>
-                </div>
-                <div class="govuk-notification-banner__content">
-                    <p>
-                        {{ context.home_banner | safe }}
-                    </p>
-                </div>
-            </div>
-
-            {% include "components/howto_component.html" %}
-            {% include "components/search_component.html" %}
-            {# {% include "components/atr_component.html" %} #}
-            {% include "components/stw_component.html" %}
+            {% include "includes/home_banner.html" %}
         </div>
     </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <div class="govuk-form-group feature-panel xnhs-grey-5 govuk-!-margin-bottom-4" style="margin:0px;padding:0px">
+                <form action="/search_handler" accept-charset="utf-8" method="get">
+                    <h2 class="govuk-heading-m">{{ context.get_content("home.search_title") | safe }}</h2>
+                    <p>Commodity codes are internationally recognised reference numbers. A commodity code describes a specific product
+                    when importing or exporting goods. You will use this code on any customs declarations.</p>
+                    <details class="govuk-details" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">Tips on searching for products</span>
+                        </summary>
+                        <div class="govuk-details__text">
+                            <p>You need to know the details about your product and must accurately describe your item to use the search tool.
+                            This may include:</p>
 
+                            <ul class="govuk-list--bullet govuk-list">
+                                <li>the type of product</li>
+                                <li>the purpose of the product</li>
+                                <li>the materials used to make it</li>
+                                <li>the production methods used to make it</li>
+                                <li>the way it's packaged</li>
+                            </ul>
+
+                            <p>If you have an item made of 2 substances (for example, clothing that is 60% cotton and 40% polyester), you'd normally classify the item using the higher percentage content. There are exceptions, so check the relevant section and chapter notes for your goods in the tool.</p>
+
+                            <p>These steps will help you get started:</p>
+                            <ol class="steps govuk-!-margin-bottom-0">
+                                <li>
+                                    <p>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</p>
+                                </li>
+                                <li>
+                                    <p>The tool will suggest a section or number of sections, divided into chapters.</p>
+                                </li>
+                                <li>
+                                    <p>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</p>
+                                </li>
+                                <li>
+                                    <p>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <label class="govuk-label govuk-label--s" for="search_term">Enter the name of the goods or a commodity code</label>
+                    <input class="govuk-input govuk-input--width-30" id="search_term" name="search_term" type="text" xplaceholder="enter the name of the goods or a 10-digit commodity code">
+                    {% set show_date_button = false %}
+                    {% include "components/date_component.html" %}
+
+                    <button class="govuk-button" data-module="govuk-button">Search for a commodity</button>
+
+                </form>
+                <hr>
+                <p>Alternatively, you can:</p>
+                <ul class="govuk-list--bullet govuk-list">
+                    <li>
+                        <a href="/browse">browse the goods classification</a> or</li>
+                    <li>
+                        <a href="/a-z-index/a">look for your product in the A-Z</a>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="govuk-grid-column-one-quarter">
+            {% include "help/topics.html" %}
+        </div>
+    </div>
 {% endblock %}

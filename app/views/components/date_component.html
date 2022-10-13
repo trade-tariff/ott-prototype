@@ -4,13 +4,13 @@
             <h1 class="govuk-fieldset__heading b">When are you planning to trade the goods?</h1>
         </legend>
         <div id="passport-issued-hint" class="govuk-hint">
-                    {# As commodities, duties and quotas change over time, it may be important to enter the date you think
+            {# As commodities, duties and quotas change over time, it may be important to enter the date you think
                     your goods will be traded. Use the format day, month, year, for example 27&nbsp;3&nbsp;2021.
                     If you don't enter a date, today's date will be used. #}
 
                     You can enter the date your goods will be traded. This is important, as commodities, duties and quotas
-                    change over time. Use the format day, month, year, for example  27&nbsp;3&nbsp;2021. If you don't enter a date,
-                    today's date is used.
+                    change over time. Use the format day, month, year, for example  27&nbsp;3&nbsp;2021.<br><br>
+                    If you don't enter a date, today's date is used.
                 </div>
         <div class="govuk-date-input" id="passport-issued">
             <div class="govuk-date-input__item">
@@ -33,9 +33,9 @@
 </div>
 <div class="govuk-form-group govuk-!-margin-top-6">
 
-{% if show_date_button %}
-    <p class="govuk-form-group govuk-!-margin-top-6">
-        <button class="govuk-button" data-module="govuk-button">Change the date</button>
-    </p>
-{% endif %}
+    {% if show_date_button %}
+        <p class="govuk-form-group govuk-!-margin-top-6">
+            <button class="govuk-button" data-module="govuk-button">Change the date</button>
+        </p>
+    {% endif %}
 </div>

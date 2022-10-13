@@ -79,7 +79,6 @@ router.get(['/roo/data_handler/:goods_nomenclature_item_id/:country/'], function
 
     } else if (context.phase == "select_subdivision") {
         url = "/roo/product_specific_rules/" + context.goods_nomenclature_item_id + "/" + context.country;
-        var a = 1;
 
     } else if (context.phase == "product_specific_rules") {
         context.get_rules_met(req);
@@ -147,7 +146,6 @@ router.get(['/roo/scheme_select/:goods_nomenclature_item_id/:country/'], functio
     context.get_scope();
     context.get_roo_origin(req);
     context.get_scheme_code(req);
-    // context.get_product_specific_rules_json(req, "check_wo_only");
 
     res.render('roo_new/01b_scheme_select', {
         'context': context
@@ -370,7 +368,6 @@ router.get(
         context.get_article("sufficiently-worked")
         context.get_definitions();
         context.get_roo_intro_notes(req);
-        // context.get_product_specific_rules_json(req);
         context.get_subdivisions();
 
         res.render('roo_new/09b_product_specific_rules_subdivisions', {
