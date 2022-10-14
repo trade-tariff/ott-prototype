@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Find out your eligibility for Small Producers' Relief
+{% endblock %}
+
+{% block content %}
+  {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Find out your eligibility for Small Producers' Relief</h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p>Lorem ipsum dolor sit amet, duis quis est culpa pariatur Lorem mollit adipisicing exercitation sunt
+        adipisicing aliqua pariatur ex. Reprehenderit consectetur commodo ad ex labore est cillum sint enim
+        veniam consectetur eiusmod.</p>
+      <p>Incididunt eu aliquip ad amet enim qui commodo enim enim esse non excepteur
+        reprehenderit aute. Et et culpa Lorem do dolore incididunt qui ipsum eu.</p>
+
+      <h2 class="govuk-heading-m">What you need to know</h2>
+      <p>In order to correctly identify whether you are eligible for <a href="">Small Producers' Relief</a>,
+      and if so, what relief applies to your activity, you need to provide</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>how much of each type of alcoholic product that you produce annually</li>
+        <li>what the ABV of that product is</li>
+        <li>etc ...</li>
+      </ul>
+
+      {{ govukButton({
+        text: "Start now",
+        href: "/spr/task-list",
+        isStartButton: true
+      }) }}
+
+      <h2 class="govuk-heading-m">Get help if you have difficulty using a computer</h2>
+
+      <p>If you have difficulty using a computer, you can call the Assisted Digital Team.</p>
+
+      <div class="contact">
+        <p>Assisted Digital Team<br>
+          Telephone: 0204 551 0011<br>
+          Monday to Friday, 9am to 5pm<br>
+          <a href="/call-charges">Find out about call charges</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

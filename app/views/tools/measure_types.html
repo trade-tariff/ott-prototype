@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+                text: "Home",
+                href: "/sections/" + context.scope_id
+            },
+            {
+                text: "Tools",
+                href: ""
+            }
+        ]
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">Measure types</h1>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <table class="govuk-table govuk-table--m">
+                {# <caption class="govuk-table__caption govuk-table__caption--m">Dates and amounts</caption> #}
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Measure type ID</th>
+                        <th scope="col" class="govuk-table__header">Description</th>
+                        <th scope="col" class="govuk-table__header">Tax code(s)</th>
+                        <th scope="col" class="govuk-table__header">Preference code(s)</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    {% for measure_type in measure_types["data"] %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">{{ measure_type.id }}</td>
+                            <td class="govuk-table__cell">{{ measure_type.attributes.description }}</td>
+                            <td class="govuk-table__cell">
+                                {% if measure_type.attributes.tax_codes | length > 0 %}
+                                    {% for tax_code in measure_type.attributes.tax_codes %}
+                                        {{ tax_code }}<br>
+                                    {% endfor %}
+                                {% else %}
+                                    n/a
+                                {% endif %}
+                            </td>
+                            <td class="govuk-table__cell">
+                                {% if measure_type.attributes.tax_codes | length > 0 %}
+                                    {% for preference_code in measure_type.attributes.preference_codes %}
+                                        {{ preference_code }}<br>
+                                    {% endfor %}
+                                {% else %}
+                                    n/a
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

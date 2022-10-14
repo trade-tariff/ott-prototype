@@ -169,4 +169,20 @@ router.get(['/preferences-handler/', '/:scope_id/preferences-handler'], function
 });
 
 
+// Measure types list
+router.get(['/tools/measure_types/',], function (req, res) {
+    var context = new Context(req);
+    var url = process.env["TRADE_TARIFF_API"] + "measure-types"; 
+    console.log(url);
+
+    axios.get(url)
+        .then((response) => {
+            res.render('tools/measure_types', {
+                'context': context,
+                'measure_types': response.data
+            });
+        });
+});
+
+ 
 module.exports = router
