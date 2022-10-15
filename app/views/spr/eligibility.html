@@ -25,33 +25,53 @@ Find out your eligibility for Small Producers' Relief
       in these categories.
     </p>
 
-      <table class="govuk-table govuk-table--m">
-        <thead class="govuk-table__head">
-          <tr class="govuk-table__row">
-            <th scope="col" class="govuk-table__header">Product</th>
-            {# <th scope="col" class="govuk-table__header c">Band</th> #}
-            <th scope="col" class="govuk-table__header r">ABV range&nbsp;(%)</th>
-            <th scope="col" class="govuk-table__header r">Standard excise rate (per 100 l)</th>
-            <th scope="col" class="govuk-table__header r">SPR discount (per 100 l)</th>
-            <th scope="col" class="govuk-table__header r">SPR rate (per 100 l)</th>
-          </tr>
-        </thead>
-        <tbody class="govuk-table__body">
+      {% set products = [
+        "Beer",
+        "Wine",
+        "Cider",
+        "Sparkling cider",
+        "OFP",
+        "Spirits"
+      ] %}
+      <h2 class="gem-c-contents-list__title">Contents</h2>
+      <ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">
+        {% for product in products %}
+          <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+            <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#{{ product | linkify }}">{{ product }}</a>
+          </li>
+        {% endfor %}
+      </ol>
 
-          {% for rate in rates %}
-            {% if rate["include"] == 1 %}
-              <tr class="govuk-table__row">
-                <td class="govuk-table__cell nw">{{ rate["storage"] }} {{ rate["product"] }}</td>
-                {# <td class="govuk-table__cell c">{{ rate["lookup"] }}</td> #}
-                <td class="govuk-table__cell r">{{ rate["abv_min"] }} - {{ rate["abv_max"] }}</td>
-                <td class="govuk-table__cell r">&pound;{{ rate["excise_rate"] }}</td>
-                <td class="govuk-table__cell r">&pound;{{ rate["spr_discount"] | decimals(2) }}</td>
-                <td class="govuk-table__cell r">&pound;{{ rate["spr_rate"] | decimals(2) }}</td>
-              </tr>
-            {% endif %}
-          {% endfor %}
-        </tbody>
-      </table>
+      {% for product in products %}
+        <h2 id="{{ product | linkify }}" class="govuk-heading-m">{{ product }}</h2>
+
+        <table class="govuk-table govuk-table--m">
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header">Product</th>
+              <th scope="col" class="govuk-table__header r">ABV range&nbsp;(%)</th>
+              <th scope="col" class="govuk-table__header r">Standard excise rate (per 100 l)</th>
+              <th scope="col" class="govuk-table__header r">SPR discount (per 100 l)</th>
+              <th scope="col" class="govuk-table__header r">SPR rate (per 100 l)</th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+
+            {% for rate in rates %}
+              {% if rate["include"] == 1 and rate["product"] == product %}
+                <tr class="govuk-table__row">
+                  <td class="govuk-table__cell nw">{{ rate["storage"] }}
+                    {{ rate["product"] }}</td>
+                  <td class="govuk-table__cell r">{{ rate["abv_min"] }} - {{ rate["abv_max"] }}</td>
+                  <td class="govuk-table__cell r">&pound;{{ rate["excise_rate"] }}</td>
+                  <td class="govuk-table__cell r">&pound;{{ rate["spr_discount"] | decimals(2) }}</td>
+                  <td class="govuk-table__cell r">&pound;{{ rate["spr_rate"] | decimals(2) }}</td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      {% endfor %}
 
     </div>
     <div class="govuk-grid-column-one-third">
