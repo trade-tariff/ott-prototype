@@ -5,27 +5,27 @@ Find out your eligibility for Small Producers' Relief
 {% endblock %}
 
 {% block content %}
-{% include "includes/language_selector.html" %}
+  {% include "includes/language_selector.html" %}
 
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <span class="govuk-caption-xl">Find out your eligibility for Small Producers' Relief</span>
-    <h1 class="govuk-heading-xl">What is your annual production of alcoholic goods?</h1>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">Find out your eligibility for Small Producers' Relief</span>
+      <h1 class="govuk-heading-xl">What is your annual production of alcoholic goods?</h1>
 
-    <p class="govuk-body-l">
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p class="govuk-body-l" id="form">
       In order to qualify for Small Producers' Relief, your annual production
       of alcoholic products must not exceed 4,500 hectolitres of pure alcohol (hlpa).
     </p>
-  </div>
-</div>
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <p>Use this form to enter the volumes of alcohol that you produce in each
+      <p>Use this form to enter the volumes of alcohol that you produce in each
       of the relevant categories. You must add in all the categories of alcohol that you produce
       in these categories.
     </p>
 
-    <div class="govuk-form-group">
+      {# <div class="govuk-form-group">
       <label class="govuk-label b" for="alcohol-category">
         Select a category of alcohol
       </label>
@@ -40,81 +40,56 @@ Find out your eligibility for Small Producers' Relief
         <option value="">Still cider 3.5% - 8.4%, sparkling cider 3.5% - 5.5%</option>
         <option value="">Spirits, wine, OFP 3.5% - 8.4%, sparkling cider 5.6% - 8.4%</option>
       </select>
-    </div>
+    </div> #}
 
+      <form action="/spr/add-to-basket" method="get">
+        <div class="govuk-form-group">
+          <label class="govuk-label b" for="width-20">
+          Label this class of product
+        </label>
+          <div class="govuk-hint">This will be used to identify your different products when we complete the calculation.</div>
+          <input class="govuk-input govuk-input--width-20" id="identity" name="identity" maxlength="30" size="30" type="text">
+        </div>
 
-    <div class="govuk-form-group">
-      <label class="govuk-label b" for="volume">
-        What volume of this category do you produce, in litres?
-      </label>
-      <div class="govuk-hint">Enter the volume to the nearest hectolitre (100 litres)</div>
-      <div class="govuk-input__wrapper"><input class="govuk-input govuk-input--width-5" id="volume" name="volume"
-          type="text" spellcheck="false">
-        <div class="govuk-input__suffix" aria-hidden="true">litres</div>
-      </div>
-    </div>
-
-    <div class="govuk-form-group">
-      <label class="govuk-label b" for="abv">
+        <div class="govuk-form-group">
+          <label class="govuk-label b" for="abv">
         What is the percentage of alcohol in these goods?
       </label>
-      <div class="govuk-hint">How do I <a href="">work out the alcoholic content</a> of a product?</div>
-      <div class="govuk-input__wrapper"><input class="govuk-input govuk-input--width-5" id="abv" name="abv" type="text"
-          spellcheck="false">
-        <div class="govuk-input__suffix" aria-hidden="true">%</div>
+          <div class="govuk-hint">
+        Enter the ABV value to one decimal place.
+        {# How do I <a href="">work out the alcoholic content</a> of a product? #}
       </div>
+          <div class="govuk-input__wrapper"><input class="govuk-input govuk-input--width-5" id="abv" name="abv" type="text"
+          spellcheck="false">
+            <div class="govuk-input__suffix" aria-hidden="true">%</div>
+          </div>
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label b" for="volume">
+        What volume of this category do you produce, in litres?
+      </label>
+          <div class="govuk-hint">Enter the volume to the nearest hectolitre (100 litres)</div>
+          <div class="govuk-input__wrapper"><input class="govuk-input govuk-input--width-5" id="volume" name="volume"
+          type="text" spellcheck="false">
+            <div class="govuk-input__suffix" aria-hidden="true">litres</div>
+          </div>
+        </div>
+
+        {{ govukButton({
+          text: "Add to your list of products",
+          shref: "/spr/enter-volumes",
+          isStartButton: false
+        }) }}
+
+      </form>
+
     </div>
+    <div class="govuk-grid-column-one-third">
+      <h2 class="govuk-heading-s">Your products</h2>
+      {% include "spr/calculation.html" %}
 
-
-
-    {{ govukButton({
-    text: "Add to your list of products",
-    href: "/spr/enter-volumes",
-    isStartButton: false
-    }) }}
-    {# <p>If you have no more ....</p>
-    {{ govukButton({
-    text: "Complete this section",
-    href: "/spr/enter-volumes",
-    classes: "govuk-button--secondary",
-    isStartButton: false
-    }) }} #}
+    </div>
   </div>
-  <div class="govuk-grid-column-one-third">
-    <h2 class="govuk-heading-s">Your products</h2>
-    <p>You have not yet added any products to your list.</p>
-
-    <table class="govuk-table">
-      <caption class="govuk-table__caption govuk-table__caption--m">Dates and amounts</caption>
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th scope="col" class="govuk-table__header">Date</th>
-          <th scope="col" class="govuk-table__header">Amount</th>
-        </tr>
-      </thead>
-      <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">First 6 weeks</th>
-          <td class="govuk-table__cell">£109.80 per week</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Next 33 weeks</th>
-          <td class="govuk-table__cell">£109.80 per week</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Total estimated pay</th>
-          <td class="govuk-table__cell">£4,282.20</td>
-        </tr>
-      </tbody>
-    </table>
-
-    {{ govukButton({
-    text: "Complete this section",
-    href: "/spr/enter-volumes",
-    classes: "govuk-button--secondary",
-    isStartButton: false
-    }) }}
-  </div>
-</div>
 
 {% endblock %}

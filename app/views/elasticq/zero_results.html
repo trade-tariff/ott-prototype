@@ -6,9 +6,12 @@
                 <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
                 <strong class="govuk-warning-text__text">
                     <span class="govuk-warning-text__assistive">Warning</span>
-                    There are no results matching your query.
+                    There are no results matching your query.<br><br>
+                    Based on your search term, there are too many codes to list. Narrow your search to each article Please consider what it is, what it's made of and what it does.
                 </strong>
             </div>
+
+            
 
             {% if context.search_term_split | length > 1 %}
                 <p>Try searching for the individual terms in your query:
@@ -28,24 +31,63 @@
                 <li>searching what the item is used for or made from</li>
                 <li>broadening your search criteria</li>
                 <li>checking your spelling</li>
-                <li>browsing the <a href="/a-z-index/a">A-Z of classified goods</a>
-                </li>ss
+                <li>browsing the <a href="/a-z-index/a">A-Z of classified goods</a></li>
             </ul>
 
-            <h2 class="govuk-heading-s govuk-!-margin-top-6" id="search-tips">Search tips</h2>
+            {# <h2 class="govuk-heading-s govuk-!-margin-top-6" id="search-tips">Search tips</h2>
             <p>You must accurately describe your item to search the tool. These steps will help you get started:</p>
 
             <ol class="steps" style="font-size:19px">
-                <li>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</li>
+                <li>Enter the search term you want to use - an item may not be listed by name, it may come under what it's used for or made from.</li>
                 <li>The tool will suggest a section or number of sections, divided into chapters.</li>
                 <li>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</li>
-                <li>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</li>
-            </ol>
+                <li>If your item is not accurately described, check further down the list - if none of the sub-headings match your item use the 'other' heading.</li>
+            </ol> #}
+
+
+            {# <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">Tips on searching for products</span>
+                </summary>
+                <div class="govuk-details__text"> #}
+                    <h2 class="govuk-heading-s b">Tips on searching for products</h2>
+                    <p>You need to know the details about your product and must accurately describe your item to use the search tool.
+                        This may include:</p>
+
+                    <ul class="govuk-list--bullet govuk-list">
+                        <li>the type of product</li>
+                        <li>the purpose of the product</li>
+                        <li>the materials used to make it</li>
+                        <li>the production methods used to make it</li>
+                        <li>the way it's packaged</li>
+                    </ul>
+
+                    <p>If you have an item made of 2 substances (for example, clothing that is 60% cotton and 40% polyester), you'd normally classify the item using the higher percentage content. There are exceptions, so check the relevant section and chapter notes for your goods in the tool.</p>
+
+                    {# <p>These steps will help you get started:</p>
+                    <ol class="steps govuk-!-margin-bottom-0">
+                        <li>
+                            <p>Enter the search term you want to use – an item may not be listed by name, it may come under what it’s used for or made from.</p>
+                        </li>
+                        <li>
+                            <p>The tool will suggest a section or number of sections, divided into chapters.</p>
+                        </li>
+                        <li>
+                            <p>The headings in each chapter describe a product, only select a sub-heading if your item is accurately described.</p>
+                        </li>
+                        <li>
+                            <p>If your item is not accurately described, check further down the list – if none of the sub-headings match your item use the ‘other’ heading.</p>
+                        </li>
+                    </ol> #}
+                {# </div>
+            </details> #}
+
 
             <h2 class="govuk-heading-s govuk-!-margin-top-9" id="getting-help">Getting help from HMRC if you need to find a commodity code</h2>
             <p>If you <a href="/help/help-find-commodity">cannot find the right commodity code for your goods</a>,
                 you can contact HMRC for advice or for a decision on your goods.</p>
-            {# {% include "includes/general_interpretative_rules.html" %} #}
+            
+                
 
         </article>
 

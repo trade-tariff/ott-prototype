@@ -1,0 +1,44 @@
+{% if data["basket"] | length < 1 %}
+    <p>You have not yet added any products to your list.</p>
+{% else %}
+    <table class="govuk-table govuk-table--s">
+        {# <caption class="govuk-table__caption govuk-table__caption--m">Dates and amounts</caption> #}
+        <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Label</th>
+                <th scope="col" class="govuk-table__header r nw">ABV (%)</th>
+                <th scope="col" class="govuk-table__header r nw">Volume (l)</th>
+                <th scope="col" class="govuk-table__header r nw">LPA (l)</th>
+            </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+            {% for item in data["basket"] %}
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">{{ item["identity"] }}</td>
+                    <td class="govuk-table__cell r">{{ item["abv"] | decimals(1) }}</td>
+                    <td class="govuk-table__cell r">{{ item["volume"] | decimals(1)  }}</td>
+                    <td class="govuk-table__cell r">{{ item["lpa"] | decimals(1) }}</td>
+                </tr>
+            {% endfor %}
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell r b">{{ data["total_volume"] | decimals(1) }}</td>
+                <td class="govuk-table__cell r b">{{ data["total_lpa"] | decimals(1) }}</td>
+            </tr>
+            <tr class="govuk-table__row">
+                <td class="govuk-table__cell b" colspan="2">Total annual production of alcohol (HLPA)</td>
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell r b">{{ (data["total_lpa"] / 100) | decimals(1) }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="/spr/enter-volumes">Add more products</a></p>
+    {{ govukButton({
+        text: "Show your relief eligibility",
+        href: "/spr/eligibility",
+        classes: "govuk-button--secondary",
+        isStartButton: false
+    }) }}
+
+{% endif %}

@@ -1,43 +1,52 @@
 {% set last_chapter = -1 %}
 <p>Your search term appears in the following parts of the tariff:</p>
+
+<div class="govuk-inset-text">
+    Based on your search term, we believe you are looking for ice cream and other edible ice, whether or not containing
+    cocoa under <a href="#">heading 2105</a>.
+</div>
+
 <div class="search_headings tabular">
     <table class="govuk-table">
         {% for heading in headings %}
-            {% if heading.chapter != last_chapter %}
-                <tr class="govuk-table__row">
-                    <td class="govuk-table__cell">
-                        <span class="commodity-split">{{ heading.chapter | format_and_trim_commodity_code(false) | safe }}</span>
-                    </td>
-                    <td colspan="2" class="govuk-table__cell">
-                        <span class="b">{{ heading.chapter_description }}</span>
-                    </td>
-                </tr>
-            {% endif %}
-            <tr>
-                <td>&nbsp;</td>
-                <td class="govuk-table__cell">
-                    <span class="commodity-split">{{ heading.heading | format_and_trim_commodity_code(false) | safe }}</span>
-                    {# <a href="/headings/{{ heading.heading }}">Go</a> #}
-                </td>
-                <td class="govuk-table__cell">
-                    <a href="{{ heading.apply_url }}">{{ heading.description | highlight(context.search_term) | safe }}</a> ({{ heading.count }})
+        {% if heading.chapter != last_chapter %}
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <span class="commodity-split">{{ heading.chapter | format_and_trim_commodity_code(false) | safe
+                    }}</span>
+            </td>
+            <td colspan="2" class="govuk-table__cell">
+                <span class="b">{{ heading.chapter_description }}</span>
+            </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td>&nbsp;</td>
+            <td class="govuk-table__cell">
+                <span class="commodity-split">{{ heading.heading | format_and_trim_commodity_code(false) | safe
+                    }}</span>
+                {# <a href="/headings/{{ heading.heading }}">Go</a> #}
+            </td>
+            <td class="govuk-table__cell">
+                <a href="{{ heading.apply_url }}">{{ heading.description | highlight(context.search_term) | safe }}</a>
+                ({{ heading.count }})
 
-                    <br>
+                <br>
 
-                    {% if heading.classification_fragment != "" %}
-                        <details class="govuk-details govuk-details-m govuk-!-margin-top-3" data-module="govuk-details">
-                            <summary class="govuk-details__summary">
-                            <span class="govuk-details__summary-text">
-                                Classification notes for heading {{ heading.heading }}
-                            </span>
-                            </summary>
-                            <div class="govuk-details__text">
-                                {{ heading.classification_fragment | convert_markdown() | safe }}
-                            </div>
-                        </details>
-                    {% endif %}
+                {% if heading.classification_fragment != "" %}
+                <details class="govuk-details govuk-details-m govuk-!-margin-top-3" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">
+                            Classification notes for heading {{ heading.heading }}
+                        </span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        {{ heading.classification_fragment | convert_markdown() | safe }}
+                    </div>
+                </details>
+                {% endif %}
 
-                    <!--<p>refs: {{ hit._source.search_references }}</p>
+                <!--<p>refs: {{ hit._source.search_references }}</p>
                             {% set references = [] %}
         {% set show_references = false %}
         {% for search_reference in hit._source.search_references %}
@@ -62,9 +71,9 @@
             </details>
         {% endif %}
         //-->
-                </td>
-            </tr>
-            {% set last_chapter = heading.chapter %}
+            </td>
+        </tr>
+        {% set last_chapter = heading.chapter %}
         {% endfor %}
     </table>
 </div>

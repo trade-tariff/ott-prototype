@@ -200,7 +200,6 @@ module.exports = function (env) {
         return n;
     }
 
-
     filters.substring = function (str, start, lngth) {
         if (typeof str !== 'undefined') {
             return str.substr(start, lngth);
@@ -494,6 +493,18 @@ module.exports = function (env) {
         s = s.replace(regex, "");
 
         return (s)
+    }
+
+    filters.linkify = function (s) {
+        if (s == null) { s = ""}
+        s = s.toLowerCase()
+        s = s.replace(/[^a-zA-Z]/g, "")
+        return s
+    }
+
+    filters.no_break = function (s) {
+        s = s.replace(" ", "&nbsp;")
+        return s
     }
 
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {
