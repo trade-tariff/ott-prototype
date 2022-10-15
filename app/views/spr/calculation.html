@@ -12,9 +12,11 @@
             </tr>
         </thead>
         <tbody class="govuk-table__body">
+            {% set index = -1 %}
             {% for item in data["basket"] %}
+                {% set index = index + 1 %}
                 <tr class="govuk-table__row">
-                    <td class="govuk-table__cell">{{ item["identity"] }}</td>
+                    <td class="govuk-table__cell"><a href="/spr/remove/{{ index }}">[x]</a>&nbsp;{{ item["identity"] }}</td>
                     <td class="govuk-table__cell r">{{ item["abv"] | decimals(1) }}</td>
                     <td class="govuk-table__cell r">{{ item["volume"] | decimals(1)  }}</td>
                     <td class="govuk-table__cell r">{{ item["lpa"] | decimals(1) }}</td>

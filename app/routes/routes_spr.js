@@ -44,6 +44,16 @@ router.get(['/spr/add-to-basket/'], function (req, res) {
     res.redirect('/spr/enter-volumes#form');
 });
 
+// Remove from basket
+router.get(['/spr/remove/:id'], function (req, res) {
+    var a =  1
+    var context = new Context(req);
+    var spr = new Spr(req);
+    var id = req.params['id']
+    spr.remove_from_basket(id)
+    res.redirect('/spr/enter-volumes#form');
+});
+
 // Eligibility
 router.get(['/spr/eligibility/'], function (req, res) {
     var context = new Context(req);

@@ -118,7 +118,7 @@
         "abv_min": 3.5,
         "abv_max": 8.4,
         "excise_rate": "8.78",
-        "lookup": 3
+        "lookup": 2
     },
     {
         "include": 1,
@@ -195,7 +195,7 @@
         "abv_min": 3.5,
         "abv_max": 8.4,
         "excise_rate": "18.13",
-        "lookup": 6
+        "lookup": 7
     },
     {
         "include": 1,
@@ -217,7 +217,7 @@
         "abv_min": 3.5,
         "abv_max": 8.4,
         "excise_rate": "8.34",
-        "lookup": 7
+        "lookup": 6
     },
     {
         "include": 1,
@@ -228,7 +228,7 @@
         "abv_min": 3.5,
         "abv_max": 5.5,
         "excise_rate": "8.34",
-        "lookup": 7
+        "lookup": 6
     },
     {
         "include": 1,

@@ -8,37 +8,37 @@
   {
     "band": 2,
     "min": 5,
-    "max": 112.5,
-    "marginal_rate": 0.5
+    "max": 50,
+    "marginal_rate": 0.9
   },
   {
     "band": 3,
-    "min": 112.5,
-    "max": 225,
-    "marginal_rate": 0.55
+    "min": 50,
+    "max": 100,
+    "marginal_rate": 0.9
   },
   {
     "band": 4,
-    "min": 225,
-    "max": 450,
-    "marginal_rate": 0.75
+    "min": 100,
+    "max": 200,
+    "marginal_rate": 0.95
   },
   {
     "band": 5,
-    "min": 450,
-    "max": 900,
-    "marginal_rate": 0.85
+    "min": 200,
+    "max": 600,
+    "marginal_rate": 1
   },
   {
     "band": 6,
-    "min": 900,
-    "max": 1350,
+    "min": 600,
+    "max": 1000,
     "marginal_rate": 1
   },
   {
     "band": 7,
-    "min": 1350,
+    "min": 1000,
     "max": 4500,
-    "marginal_rate": 1.074
+    "marginal_rate": 1.006
   }
- ]
+]

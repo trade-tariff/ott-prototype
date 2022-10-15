@@ -26,6 +26,20 @@ class Spr {
         this.calculate_basket()
     }
 
+    remove_from_basket(id) {
+        var a = 1
+        var basket = []
+        var index = -1
+        this.req.session.data["basket"].forEach(item => {
+            index += 1
+            if (index != id) {
+                basket.push(item)
+            }
+            var a = 1
+        });
+        this.req.session.data["basket"] = basket
+    }
+
     calculate_basket() {
         var basket = this.req.session.data["basket"]
         this.req.session.data["total_volume"] = 0

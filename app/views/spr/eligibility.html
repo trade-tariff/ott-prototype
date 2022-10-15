@@ -29,7 +29,7 @@ Find out your eligibility for Small Producers' Relief
         <thead class="govuk-table__head">
           <tr class="govuk-table__row">
             <th scope="col" class="govuk-table__header">Product</th>
-            <th scope="col" class="govuk-table__header c">Band</th>
+            {# <th scope="col" class="govuk-table__header c">Band</th> #}
             <th scope="col" class="govuk-table__header r">ABV range&nbsp;(%)</th>
             <th scope="col" class="govuk-table__header r">Standard excise rate (per 100 l)</th>
             <th scope="col" class="govuk-table__header r">SPR discount (per 100 l)</th>
@@ -41,8 +41,8 @@ Find out your eligibility for Small Producers' Relief
           {% for rate in rates %}
             {% if rate["include"] == 1 %}
               <tr class="govuk-table__row">
-                <td class="govuk-table__cell">{{ rate["storage"] }} {{ rate["product"] }}</td>
-                <td class="govuk-table__cell c">{{ rate["lookup"] }}</td>
+                <td class="govuk-table__cell nw">{{ rate["storage"] }} {{ rate["product"] }}</td>
+                {# <td class="govuk-table__cell c">{{ rate["lookup"] }}</td> #}
                 <td class="govuk-table__cell r">{{ rate["abv_min"] }} - {{ rate["abv_max"] }}</td>
                 <td class="govuk-table__cell r">&pound;{{ rate["excise_rate"] }}</td>
                 <td class="govuk-table__cell r">&pound;{{ rate["spr_discount"] | decimals(2) }}</td>
