@@ -5,12 +5,12 @@ ul.tools_menu {
 }
 
 .tab_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
     justify-content: flex-start;
-    gap: 10px;
-    margin-bottom: 0.5em;
+    gap            : 10px;
+    margin-bottom  : 0.5em;
 
     .identifier {
         width: 15%;
@@ -20,7 +20,7 @@ ul.tools_menu {
         width: 80%;
 
         p {
-            margin-top: top 0px;
+            margin-top   : top 0px;
             margin-bottom: 0.25em;
         }
 
@@ -31,5 +31,16 @@ ul.tools_menu {
 
     .govuk-body--s {
         font-size: 16px
+    }
+}
+
+.light-blue {
+    background-color: #ddeeff;
+    padding         : 0.25em 0.5em;
+    margin-bottom   : 1em;
+
+    p {
+        font-size: 16px !important;
+        margin   : 6px 0px;
     }
 }

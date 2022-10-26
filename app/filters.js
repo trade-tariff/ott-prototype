@@ -117,6 +117,14 @@ module.exports = function (env) {
         return (str);
     }
 
+    filters.lowerFirstExcept = function (str, str2) {
+        if (str != str2) {
+            var _ = require('lodash');
+            str = _.lowerFirst(str);
+        }
+        return (str);
+    }
+
     filters.upperFirst = function (str) {
         var _ = require('lodash');
         str = _.upperFirst(str);
@@ -496,7 +504,7 @@ module.exports = function (env) {
     }
 
     filters.linkify = function (s) {
-        if (s == null) { s = ""}
+        if (s == null) { s = "" }
         s = s.toLowerCase()
         s = s.replace(/[^a-zA-Z]/g, "")
         return s

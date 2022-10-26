@@ -4,30 +4,81 @@ const fs = require('fs')
 class Spr {
     constructor(req) {
         this.req = req;
-        var a = 1;
+        this.show_eligibility_link = false
+        this.check_links()
     };
 
+    check_links() {
+        if (this.req["url"].indexOf("eligibility") > -1) {
+            this.show_eligibility_link = true
+        }
+    }
+
     add_to_basket() {
-        this.identity = this.req.session.data["identity"]
-        this.abv = this.req.session.data["abv"]
-        this.volume = this.req.session.data["volume"]
-        this.new_item = {
-            "identity": this.identity,
-            "abv": this.abv,
-            "volume": this.volume,
-            "lpa": this.volume * this.abv
+        this.errors = []
+        try {
+            this.index = parseInt(this.req.session.data["index"])
+        } catch {
+            this.index = -1
         }
 
-        if (this.req.session.data["basket"] == null) {
-            this.req.session.data["basket"] = []
+        this.identity = this.req.session.data["identity"].trim()
+        this.abv = this.req.session.data["abv"].trim()
+        this.volume = this.req.session.data["volume"].trim()
+
+        // Check for errors on the identity field
+        if (this.identity == "") {
+            this.errors.push("identity")
         }
-        this.req.session.data["basket"].push(this.new_item)
-        var a = 1
-        this.calculate_basket()
+
+        // Check for errors on the ABV field
+        
+        this.abv = this.abv.replace(/[^0-9.]/gm, "")
+        if (this.abv == "") {
+            this.errors.push("abv")
+        }
+        if (this.abv > 100) {
+            this.errors.push("abv")
+        }
+        if (this.abv < 0) {
+            this.errors.push("abv")
+        }
+
+
+        // Check for errors on the volume field
+        if (this.volume == "") {
+            this.errors.push("volume")
+        }
+
+        if (this.index == -1) {
+            // Add to basket
+            if (this.errors.length == 0) {
+                this.new_item = {
+                    "identity": this.identity,
+                    "abv": this.abv,
+                    "volume": this.volume,
+                    "lpa": (this.volume * this.abv) / 100
+                }
+
+                if (this.req.session.data["basket"] == null) {
+                    this.req.session.data["basket"] = []
+                }
+                this.req.session.data["basket"].push(this.new_item)
+            }
+            this.calculate_basket()
+        } else {
+            // Edit basket item
+            if (this.errors.length == 0) {
+                this.req.session.data["basket"][this.index]["identity"] = this.identity
+                this.req.session.data["basket"][this.index]["abv"] = this.abv
+                this.req.session.data["basket"][this.index]["volume"] = this.volume
+                this.req.session.data["basket"][this.index]["lpa"] = (this.volume * this.abv) / 100
+                this.calculate_basket()
+            }
+        }
     }
 
     remove_from_basket(id) {
-        var a = 1
         var basket = []
         var index = -1
         this.req.session.data["basket"].forEach(item => {
@@ -35,9 +86,9 @@ class Spr {
             if (index != id) {
                 basket.push(item)
             }
-            var a = 1
         });
         this.req.session.data["basket"] = basket
+        this.calculate_basket()
     }
 
     calculate_basket() {
@@ -46,16 +97,17 @@ class Spr {
         this.req.session.data["total_lpa"] = 0
         if (basket != null) {
             basket.forEach(item => {
-                this.req.session.data["total_volume"] += parseInt(item["volume"])
-                this.req.session.data["total_lpa"] += parseInt(item["lpa"])
+                this.req.session.data["total_volume"] += parseFloat(item["volume"])
+                this.req.session.data["total_lpa"] += parseFloat(item["lpa"])
             });
         }
         this.req.session.data["total_hlpa"] = this.req.session.data["total_lpa"] / 100
-        console.log(this.req.session.data["total_lpa"])
+        var a = 1
     }
 
     get_rates() {
-        var hlpa = 37.7 // this.req.session.data["total_hlpa"]
+        // var hlpa = 37.7
+        var hlpa = this.req.session.data["total_hlpa"]
         var marginal_rate = 0
         var marginal_discount = 0
         var prior_discount = 0
@@ -80,9 +132,7 @@ class Spr {
                 base_rate = 0
                 band_width = 0
                 spr_discount = 0
-                if (rate["lookup"] == 3) {
-                    var a = 1;
-                }
+
                 var lookup_file = "./app/data/spr/lookup{lookup}.json".replace("{lookup}", rate["lookup"])
                 if (fs.existsSync(lookup_file)) {
                     base_rate = rate["excise_rate"]

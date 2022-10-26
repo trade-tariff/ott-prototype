@@ -10,20 +10,19 @@ Find out your eligibility for Small Producers' Relief
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <span class="govuk-caption-xl">Find out your eligibility for Small Producers' Relief</span>
-      <h1 class="govuk-heading-xl">What is your annual production of alcoholic goods?</h1>
+      <h1 class="govuk-heading-xl">Your eligibility for relief under the Small Producers' Relief scheme</h1>
 
     </div>
   </div>
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <p class="govuk-body-l" id="form">
+      {# <p class="govuk-body-l" id="form">
       In order to qualify for Small Producers' Relief, your annual production
       of alcoholic products must not exceed 4,500 hectolitres of pure alcohol (hlpa).
-    </p>
-      <p>Use this form to enter the volumes of alcohol that you produce in each
-      of the relevant categories. You must add in all the categories of alcohol that you produce
-      in these categories.
-    </p>
+    </p> #}
+      <p>The tables below show your eligibility for Small Producers' Relief, based on the 
+        volume of alcoholic products that you have produced in the last year.
+      </p>
 
       {% set products = [
         "Beer",
@@ -57,11 +56,11 @@ Find out your eligibility for Small Producers' Relief
           </thead>
           <tbody class="govuk-table__body">
 
-            {% for rate in rates %}
+            {% for rate in spr.rates %}
               {% if rate["include"] == 1 and rate["product"] == product %}
                 <tr class="govuk-table__row">
                   <td class="govuk-table__cell nw">{{ rate["storage"] }}
-                    {{ rate["product"] }}</td>
+                    {{ rate["product"] | lowerFirstExcept("OFP") }}</td>
                   <td class="govuk-table__cell r">{{ rate["abv_min"] }} - {{ rate["abv_max"] }}</td>
                   <td class="govuk-table__cell r">&pound;{{ rate["excise_rate"] }}</td>
                   <td class="govuk-table__cell r">&pound;{{ rate["spr_discount"] | decimals(2) }}</td>
@@ -72,6 +71,14 @@ Find out your eligibility for Small Producers' Relief
           </tbody>
         </table>
       {% endfor %}
+      <details class="govuk-details" data-module="govuk-details">
+    <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">How is Small Producers' Relief calculated?</span>
+    </summary>
+    <div class="govuk-details__text">
+        Words go here ...
+  </div>
+</details>
 
     </div>
     <div class="govuk-grid-column-one-third">

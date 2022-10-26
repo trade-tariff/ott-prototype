@@ -6,9 +6,10 @@
         <thead class="govuk-table__head">
             <tr class="govuk-table__row">
                 <th scope="col" class="govuk-table__header">Label</th>
-                <th scope="col" class="govuk-table__header r nw">ABV (%)</th>
-                <th scope="col" class="govuk-table__header r nw">Volume (l)</th>
-                <th scope="col" class="govuk-table__header r nw">LPA (l)</th>
+                <th scope="col" class="govuk-table__header r">ABV (%)</th>
+                <th scope="col" class="govuk-table__header r">Volume (l)</th>
+                <th scope="col" class="govuk-table__header r">LPA (l)</th>
+                <th scope="col" class="govuk-table__header"></th>
             </tr>
         </thead>
         <tbody class="govuk-table__body">
@@ -16,31 +17,52 @@
             {% for item in data["basket"] %}
                 {% set index = index + 1 %}
                 <tr class="govuk-table__row">
-                    <td class="govuk-table__cell"><a href="/spr/remove/{{ index }}">[x]</a>&nbsp;{{ item["identity"] }}</td>
+                    <td class="govuk-table__cell">
+                        <a href="/spr/enter-volumes/{{ index }}#form">{{ item["identity"] }}</a>
+                    </td>
                     <td class="govuk-table__cell r">{{ item["abv"] | decimals(1) }}</td>
                     <td class="govuk-table__cell r">{{ item["volume"] | decimals(1)  }}</td>
                     <td class="govuk-table__cell r">{{ item["lpa"] | decimals(1) }}</td>
+                    <td class="govuk-table__cell">
+                        <a title="Remove {{ item["identity"] }} from your list of products" href="/spr/remove/{{ index }}">[x]</a>
+                    </td>
                 </tr>
             {% endfor %}
             <tr class="govuk-table__row">
-                <td class="govuk-table__cell"></td>
-                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell" colspan="2"></td>
                 <td class="govuk-table__cell r b">{{ data["total_volume"] | decimals(1) }}</td>
                 <td class="govuk-table__cell r b">{{ data["total_lpa"] | decimals(1) }}</td>
-            </tr>
-            <tr class="govuk-table__row">
-                <td class="govuk-table__cell b" colspan="2">Total annual production of alcohol (HLPA)</td>
                 <td class="govuk-table__cell"></td>
-                <td class="govuk-table__cell r b">{{ (data["total_lpa"] / 100) | decimals(1) }}</td>
             </tr>
         </tbody>
     </table>
-    <p><a href="/spr/enter-volumes">Add more products</a></p>
-    {{ govukButton({
-        text: "Show your relief eligibility",
-        href: "/spr/eligibility",
-        classes: "govuk-button--secondary",
-        isStartButton: false
-    }) }}
+
+    {% if data["total_lpa"] < 450000 %}
+        <div class="light-blue">
+            <p>Your total annual production of alcohol (HLPA) is <strong>{{ (data["total_lpa"] / 100) | decimals(3) }}</strong>&nbsp;hectolitres.</p>
+
+            {% if spr.show_eligibility_link %}
+                <p>
+                    <a href="/spr/enter-volumes">Add more products</a>
+                </p>
+            {% endif %}
+
+            <p>You qualify for Small Producers' Relief, as your annual production is less than 4,500 hectolitres of pure alcohol.</p>
+            {% if not spr.show_eligibility_link %}
+                <p>
+                    <a href="/spr/eligibility">View discounted rates under the Small Producers' Relief scheme</a>
+                </p>
+
+            {% endif %}
+        </div>
+    {% else %}
+        <div class="light-blue">
+            <p>As your gross production of alcoholic products exceeds
+                4,500 hectolitres of alcohol produced annually, you are not 
+                eligible for Small Producers' Relief.
+            </p>
+        </div>
+
+    {% endif %}
 
 {% endif %}
