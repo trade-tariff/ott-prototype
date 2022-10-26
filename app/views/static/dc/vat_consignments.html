@@ -1,0 +1,47 @@
+{% set pageTitle = "How many consignments are you transporting?" %}
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBackLink({
+        text: "Back",
+        href: "#"
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+    {{ pageTitle }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Calculate import duties</span>
+            {# <h1 class="govuk-heading-xl">{{ pageTitle }}</h1> #}
+            {# <p>Lorem ipsum ...</p> #}
+
+            <form action="/duty_calculator/vat_expense_handler">
+                <input type="hidden" name="phase" id="phase" value="freight_method">
+
+                {{ govukInput({
+                    label: {
+                        text: pageTitle,
+                        classes: "govuk-label--xl",
+                        isPageHeading: true
+                    },
+                    classes: "govuk-input--width-3",
+                    id: "consignment_count",
+                    name: "consignment_count",
+                    suffix: {
+                      text: "consignments"
+                    }
+                }) }}
+
+                {{ govukButton({
+                    text: "Continue"
+                }) }}
+            </form>
+
+        </div>
+    </div>
+{% endblock %}

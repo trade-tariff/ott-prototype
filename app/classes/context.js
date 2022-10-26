@@ -340,6 +340,10 @@ class Context {
         this.phase = req.session.data['phase']
     }
 
+    get_phase2() {
+        this.phase = this.req.session.data['phase']
+    }
+
     get_scheme_code(req) {
         var jp = require('jsonpath')
         var temporarily_omit_gsp = true
@@ -1616,6 +1620,14 @@ class Context {
                 )
             })
         })
+    }
+
+    vat_get_method() {
+        this.vat_method = this.req.session.data["vat_method"]
+    }
+
+    vat_get_freight_method() {
+        this.freight_method = this.req.session.data["freight_method"]
     }
 
 }

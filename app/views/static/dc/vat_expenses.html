@@ -1,0 +1,71 @@
+{% set pageTitle = "Which VAT calculation method will you use?" %}
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBackLink({
+        text: "Back",
+        href: "#"
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+    {{ pageTitle }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Calculate import duties</span>
+            <h1 class="govuk-heading-xl">{{ pageTitle }}</h1>
+            <p>The following methods may be used to calculate the value for import VAT.
+            You may use whichever method best suits your particular circumstance.</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li><b>Method 1</b> requires actual costs to be declared, meaning that the import VAT payable will be
+                calculated as a percentage of the import value, depending on the applicable VAT rate.
+                <br><br>
+                This method requires actual costs to be declared at the time the goods are imported. The time of importation is the time at which a customs debt becomes due, or would have become due if the goods were subject to duty. Post-clearance amendments should be submitted in instances where costs are later found to be incorrect (eg if there is a change to the place of consignment, or if additional storage costs are incurred).
+                </li>
+
+                <li><b>Method 2</b> provides ways of estimating incidental costs to be
+                    included in the import VAT value.
+                    <br><br>
+                    The following nationally agreed rates may be used as an alternative to actual costs. The rates are intended only for international movements of goods that terminate in the UK, and represent average costs of handling, storage, Customs declarations and transport from the point of arrival in the UK to destination. If importers/agents use these rates, Customs will not require post-entry amendments.</li>
+            </ul>
+            <form action="/duty_calculator/vat_expense_handler">
+            <input type="hidden" name="phase" id="phase" value="vat_method">
+            {{ govukRadios({
+                name: "vat_method",
+                fieldset: {
+                    legend: {
+                    text: "Select the VAT calculation method",
+                    isPageHeading: false,
+                    classes: "govuk-fieldset__legend--l"
+                    }
+                },
+                items: [
+                    {
+                    value: "method1",
+                    text: "Method 1 - based on actual costs",
+                    hint: {
+                        html: ""
+                        }
+                    },
+                    {
+                    value: "method2",
+                    text: "Method 2 - based on estimated costs",
+                    hint: {
+                        html: ""
+                        }
+                    }
+                ]
+                }) }}
+
+                {{ govukButton({
+                    text: "Continue"
+                }) }}
+                </form>
+
+        </div>
+    </div>
+{% endblock %}
