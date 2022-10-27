@@ -71,7 +71,9 @@
 	},
 	{
 		"old": "100 kg/net/%sacchar.",
-		"new": "100 kg per 1% by weight of sucrose (net/%sacchar.)",
+		"newx": "100 kg xxper 1% by weight of sucrose (net/%sacchar.)",
+		"new": "100 kg per&nbsp;% of sucrose by weight, including other sugars expressed as sucrose (net/%sacchar.)",
+		
 		"full": false
 	},
 	{
@@ -301,7 +303,7 @@
 	},
 	{
 		"old": "1000 kg/net/%saccha.",
-		"new": "1,000 kg per 1% by weight of sucrose (net/%saccha.)",
+		"new": "1,000 kg per&nbsp;% of sucrose by weight, including other sugars expressed as sucrose (net/%sacchar.)",
 		"full": false
 	},
 	{
