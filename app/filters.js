@@ -515,6 +515,14 @@ module.exports = function (env) {
         return s
     }
 
+    filters.link_roo_terms = function (s) {
+        s = s.replace("EXW", '<a href="/static/roo/exw">EXW</a>')
+        s = s.replace("MaxNOM", '<a href="/static/roo/maxnom">MaxNOM</a>')
+        s = s.replace("RVC", '<a href="/static/roo/rvc">RVC</a>')
+        s = s.replace("FOB", '<a href="/static/roo/fob">FOB</a>')
+        return s
+    }
+
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {
         if (measure_sid == 20000814) {
             var a = 1;

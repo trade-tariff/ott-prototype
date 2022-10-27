@@ -9,6 +9,30 @@ const { xor } = require('lodash');
 
 // Add your routes here - above the module.exports line
 
+// Start rules of origin-related static pages
+
+router.get('/static/roo/:file', function (req, res) {
+    var context = new Context(req);
+    context.file = req.params["file"]
+    res.render('static/roo/' + context.file, {
+        'context': context
+    });
+});
+
+// router.get('/static/roo/fob', function (req, res) {
+//     var context = new Context(req);
+//     res.render('static/roo/fob', {
+//         'context': context
+//     });
+// });
+// router.get('/static/roo/rvc', function (req, res) {
+//     var context = new Context(req);
+//     res.render('static/roo/fob', {
+//         'context': context
+//     });
+// });
+
+// End rules of origin-related static pages
 
 
 // Mockup of RoO on DC

@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+    VNM (Value of non-originating materials)
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBackLink({
+        text: "Back",
+        href: "javascript:history.back()"
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-xl">VNM (Value of non-originating materials)</h1>
+            <p>"VNM" means the value of non-originating materials used in the manufacture of the product
+            which is its customs value at the time of importation including freight, insurance where
+            appropriate, packing and all the other costs incurred in transporting the materials to the
+            importation port in the Party where the producer of the good is located.</p>
+            
+            <p>Where it is not known and cannot be ascertained, the first ascertainable price paid for the non-originating
+            materials is used.</p>
+    {{ govukBackLink({
+        text: "Back",
+        href: "javascript:history.back()"
+    }) }}
+
+            </div>
+        </div>
+
+        
+{% endblock %}

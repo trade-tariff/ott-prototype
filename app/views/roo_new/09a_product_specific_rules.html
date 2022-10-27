@@ -47,7 +47,7 @@
                             {% for rule in context.rules %}
                                 <div class="govuk-radios__item">
                                     <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="met">
-                                    <label class="govuk-label govuk-radios__label psr_for_selenium_label" for="psr_{{ index }}">{{ rule.rule | convert_markdown | safe }}</label>
+                                    <label class="govuk-label govuk-radios__label psr_for_selenium_label" for="psr_{{ index }}">{{ rule.rule | convert_markdown | link_roo_terms | safe }}</label>
                                     <div class="govuk-hint govuk-radios__hint">
                                         {# {{ rule.hint | safe }} #}
                                     </div>
