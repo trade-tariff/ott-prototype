@@ -468,9 +468,16 @@ div.grey_box {
 
 div.panel_blue {
     font-size       : 19px;
-    background-color: #d2edf9;
+    background-color: #eef4fa;
     padding         : 0.5em 0.75em !important;
+    border: 0px red solid;
+}
 
+div.panel_grey {
+    font-size       : 19px;
+    background-color: #f0f0f0;
+    padding         : 0.5em 0.75em !important;
+    border: 0px red solid;
 }
 
 .notbold {

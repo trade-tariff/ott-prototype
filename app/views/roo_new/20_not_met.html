@@ -23,10 +23,14 @@
         <div class="govuk-grid-column-two-thirds">
             <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span>
             <h1 class="govuk-heading-xl">Rules of origin not met</h1>
-            <div class="govuk-panel govuk-panel--confirmation">
+            {# <div class="govuk-panel govuk-panel--confirmation">
                 <div class="govuk-panel__body">
                     Your product does not appear to meet the rules of origin requirements for the {{ context.scheme_title }}.
                 </div>
+            </div>
+             #}
+            <div class="govuk-inset-text panel_grey">
+                Your product does not appear to meet the rules of origin requirements for the {{ context.scheme_title }}.
             </div>
 
             <p class="govuk-body">

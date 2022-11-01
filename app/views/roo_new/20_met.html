@@ -23,13 +23,13 @@
         <div class="govuk-grid-column-two-thirds roo_container">
             <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span>
             <h1 class="govuk-heading-xl">Origin requirements met</h1>
-            <div class="govuk-panel govuk-panel--confirmation">
-                {# <h1 class="govuk-panel__title">
-                    Rules of origin not met
-                </h1> #}
+            {# <div class="govuk-panel govuk-panel--confirmation">
                 <div class="govuk-panel__body">
                     Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
                 </div>
+            </div> #}
+            <div class="govuk-inset-text panel_grey">
+                Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
             </div>
             <p class="govuk-body">
                 To benefit from a preferential tariff or quota, originating products should be accompanied by
@@ -37,11 +37,19 @@
             </p>
             <h2 class="govuk-heading-m">Next steps</h2>
             <ul class="govuk-list">
-                <li><a href="/roo/proofs/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See valid proofs of origin</a></li>
-                <li><a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See detailed processes and requirements for proving the origin for goods</a></li>
-                <li><a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">How proofs of origin are verified</a></li>
+                <li>
+                    <a href="/roo/proofs/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See valid proofs of origin</a>
+                </li>
+                <li>
+                    <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See detailed processes and requirements for proving the origin for goods</a>
+                </li>
+                <li>
+                    <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">How proofs of origin are verified</a>
+                </li>
                 {% if context.has_duty_drawback %}
-                    <li><a href="/roo/duty_drawback/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about duty drawback</a></li>
+                    <li>
+                        <a href="/roo/duty_drawback/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about duty drawback</a>
+                    </li>
                 {% endif %}
             </ul>
 
