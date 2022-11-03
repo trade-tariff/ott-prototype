@@ -59,6 +59,8 @@ class Context {
         this.sets = ''
         this.verification = ''
         this.duty_drawback = ''
+        this.non_alteration = ''
+        this.direct_transport = ''
         this.origin_processes = ''
     }
 
@@ -429,31 +431,39 @@ class Context {
         }
     }
 
-    check_for_duty_drawback() {
-        this.has_duty_drawback = false
+    check_md_file_availability(filename) {
+        var ret = false
         if (this.scheme_code != null && this.scheme_code != null) {
             const fs = require('fs')
             var filename = path.join(
-                process.cwd(),
-                'app',
-                'data',
-                'roo',
-                'uk',
-                'articles',
-                this.scheme_code,
-                'duty_drawback.md'
+                process.cwd(), 'app', 'data', 'roo', 'uk', 'articles', this.scheme_code, filename
             )
-            // const path = './file.txt';
-            var a = 1
+
             try {
                 if (fs.existsSync(filename)) {
                     //file exists
-                    this.has_duty_drawback = true
+                    ret = true
                 }
             } catch (err) {
                 console.error(err)
             }
         }
+        return (ret)
+    }
+
+    check_for_duty_drawback() {
+        this.has_duty_drawback = this.check_md_file_availability('duty-drawback.md')
+        var a = 1
+    }
+
+    check_for_non_alteration() {
+        this.has_non_alteration = this.check_md_file_availability('non-alteration.md')
+        var a = 1
+    }
+
+    check_for_direct_transport() {
+        this.has_direct_transport = this.check_md_file_availability('direct-transport.md')
+        var a = 1
     }
 
     get_roo_origin() {
@@ -535,10 +545,10 @@ class Context {
         // 6217100010 on DE = Four subdivisions
         // 5003000010 on DE = Two subdivisions
         // 0702000007 on DE = One subdivision
-         this.show_subdivision_selector = false
+        this.show_subdivision_selector = false
 
-         check = 'check_all'
-         if (check == 'check_all') {
+        check = 'check_all'
+        if (check == 'check_all') {
             this.subdivision = req.session.data['subdivision'] // Reinstate this when finished debugging
             // this.subdivision = ""
             if (typeof this.subdivision === 'undefined') {
@@ -788,24 +798,23 @@ class Context {
     }
 
     async get_roo_links() {
-        var axios_response
-        var root = 'https://www.trade-tariff.service.gov.uk'
-        var url =
-            root +
-            `/api/v2/rules_of_origin_schemes/${this.goods_nomenclature_item_id.substr(
-                0,
-                6
-            )}/${this.country}`
+        try {
+            var axios_response
+            var root = 'https://www.trade-tariff.service.gov.uk'
+            var url = root + `/api/v2/rules_of_origin_schemes/${this.goods_nomenclature_item_id.substr(0, 6)}/${this.country}`
 
-        this.links = []
-            ;[axios_response] = await Promise.all([axios.get(url)])
+            this.links = []
+                ;[axios_response] = await Promise.all([axios.get(url)])
 
-        var included = axios_response.data['included']
-        included.forEach(item => {
-            if (item['type'] == 'rules_of_origin_link') {
-                this.links.push(item)
-            }
-        })
+            var included = axios_response.data['included']
+            included.forEach(item => {
+                if (item['type'] == 'rules_of_origin_link') {
+                    this.links.push(item)
+                }
+            })
+        } catch {
+            console.log("Error getting links")
+        }
         this.explainers = [
             {
                 title: 'xxxDetermining if a good is wholly obtained',
@@ -839,24 +848,23 @@ class Context {
     }
 
     async get_proofs() {
-        var axios_response
-        var root = 'https://www.trade-tariff.service.gov.uk'
-        var url =
-            root +
-            `/api/v2/rules_of_origin_schemes/${this.goods_nomenclature_item_id.substr(
-                0,
-                6
-            )}/${this.country}`
+        try {
+            var axios_response
+            var root = 'https://www.trade-tariff.service.gov.uk'
+            var url = root + `/api/v2/rules_of_origin_schemes/${this.goods_nomenclature_item_id.substr(0, 6)}/${this.country}`
 
-        this.proofs = []
-            ;[axios_response] = await Promise.all([axios.get(url)])
+            this.proofs = []
+                ;[axios_response] = await Promise.all([axios.get(url)])
 
-        var included = axios_response.data['included']
-        included.forEach(item => {
-            if (item['type'] == 'rules_of_origin_proof') {
-                this.proofs.push(item)
-            }
-        })
+            var included = axios_response.data['included']
+            included.forEach(item => {
+                if (item['type'] == 'rules_of_origin_proof') {
+                    this.proofs.push(item)
+                }
+            })
+        } catch {
+            console.log('Error getting proofs')
+        }
     }
 
     get_article(document_type) {
@@ -966,6 +974,10 @@ class Context {
                 this.verification = data
             } else if (document_type == 'duty-drawback') {
                 this.duty_drawback = data
+            } else if (document_type == 'non-alteration') {
+                this.non_alteration = data
+            } else if (document_type == 'direct-transport') {
+                this.direct_transport = data
             } else if (document_type == 'origin_processes') {
                 this.origin_processes = data
                 this.filter_origin_processes()

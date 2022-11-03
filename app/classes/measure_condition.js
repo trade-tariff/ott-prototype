@@ -205,10 +205,21 @@ class MeasureCondition {
 
     get_appendix_5a() {
         var jp = require('jsonpath');
-        if ((this.document_code != "") && (this.document_code != "unspecified")) {
+        if (this.document_code == "n/a") {
+            var a = 1; 
+        }
+        if ((this.document_code != "") && (this.document_code != "unspecified") && (this.document_code != "n/a")) {
             var data = require('../data/appendix-5a/chief_cds_guidance.json');
-            var query_string = '$.document_codes[?(@.code == "' + this.document_code + '")]';
-            var result = jp.query(data, query_string);
+            // var query_string = '$.document_codes[?(@.code == "' + this.document_code + '")]';
+            // var query_string = '$.[?(@.code == "' + this.document_code + '")]';
+            var query_string = "$." + this.document_code;
+            var result
+            try {
+                result = jp.query(data, query_string);
+            } catch (error) {
+                result = []
+            }
+
             if (result.length > 0) {
                 var guidance_cds = result[0].guidance_cds;
                 var guidance_chief = result[0].guidance_chief;
@@ -218,37 +229,39 @@ class MeasureCondition {
                 this.appendix_5a.guidance_cds = md.render(guidance_cds);
                 this.appendix_5a.guidance_chief = md.render(guidance_chief);
 
-                var status_codes = require('../data/appendix-5a/chief_cds_guidance.json');
-                status_codes = status_codes["status_codes"];
+                var status_codes = require('../data/appendix-5a/chief_cds_guidance.json'); 
+                status_codes = status_codes["status_codes"]; 
 
                 if (this.document_code == "N990") {
                     var a = 1;
                 }
 
-                for (const [key, value] of Object.entries(status_codes)) {
-                    var find_me = "(" + key + ")";
-                    var replace_with = "<abbr title='" + value + "'>$1</abbr>";
-                    var re = new RegExp(find_me, "g");
-                    this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
-                    this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
+                if (1 > 2) {
+                    for (const [key, value] of Object.entries(status_codes)) {
+                        var find_me = "(" + key + ")";
+                        var replace_with = "<abbr title='" + value + "'>$1</abbr>";
+                        var re = new RegExp(find_me, "g");
+                        this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
+                        this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
 
-                    var find_me = "(" + key + "),";
-                    var replace_with = "<abbr title='" + value + "'>$1</abbr>,";
-                    var re = new RegExp(find_me, "g");
-                    this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
-                    this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
+                        var find_me = "(" + key + "),";
+                        var replace_with = "<abbr title='" + value + "'>$1</abbr>,";
+                        var re = new RegExp(find_me, "g");
+                        this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
+                        this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
 
-                    var find_me = "(" + key + ")\</p\>";
-                    var replace_with = "<abbr title='" + value + "'>$1</abbr></p>";
-                    var re = new RegExp(find_me, "g");
-                    this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
-                    this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
+                        var find_me = "(" + key + ")\</p\>";
+                        var replace_with = "<abbr title='" + value + "'>$1</abbr></p>";
+                        var re = new RegExp(find_me, "g");
+                        this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
+                        this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
 
-                    var find_me = "(" + key + ")\\*";
-                    var replace_with = "<abbr title='" + value + "'>$1</abbr>* ";
-                    var re = new RegExp(find_me, "g");
-                    this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
-                    this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
+                        var find_me = "(" + key + ")\\*";
+                        var replace_with = "<abbr title='" + value + "'>$1</abbr>* ";
+                        var re = new RegExp(find_me, "g");
+                        this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(re, replace_with);
+                        this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(re, replace_with);
+                    }
                 }
 
                 this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(/<ul>/g, "<ul class='govuk-list govuk-list--bullet'>")
@@ -259,6 +272,7 @@ class MeasureCondition {
 
                 this.appendix_5a.guidance_cds = this.appendix_5a.guidance_cds.replace(/&gt;/g, ">")
                 this.appendix_5a.guidance_chief = this.appendix_5a.guidance_chief.replace(/&gt;/g, ">")
+                var a = 1
             }
         }
     }

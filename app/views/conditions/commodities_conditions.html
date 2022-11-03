@@ -9,38 +9,6 @@
                     {{ measure.measure_type_description }} for {{ measure.geographical_area_description }}
                 </h2>
 
-                {# <!-- Show debug information //--> #}
-                <div class="debug">
-                    <dl>
-                        <dt>Measure SID</dt>
-                        <dd>{{ measure.id }}</dd>
-
-                        <dt>Condition class</dt>
-                        <dd>{{ measure.measure_condition_class }}</dd>
-
-                        <dt>Has document codes</dt>
-                        <dd>{{ measure.has_document_codes }}</dd>
-
-                        <dt>Has shared conditions</dt>
-                        <dd>{{ measure.has_shared_conditions }}</dd>
-
-                        <dt>Show condition code group titles</dt>
-                        <dd>{{ measure.show_condition_code_group_titles }}</dd>
-
-                        <dt>Display action column</dt>
-                        <dd>{{ measure.display_action_column }}</dd>
-
-                        <dt>Show CDS</dt>
-                        <dd>{{ context.show_cds }}</dd>
-
-                        <dt>Unique condition codes</dt>
-                        <dd>{{ measure.condition_code_count }}</dd>
-
-                        <dt>Has duplicate conditions</dt>
-                        <dd>{{ measure.has_duplicate_conditions }}</dd>
-                    </dl>
-                </div>
-
                 {# <!-- Start show date //--> #}
                 <p class="govuk-body--s govuk-!-margin-top-4 govuk-!-margin-bottom-4 calendar">
                     {% if measure.effective_end_date %}
@@ -74,7 +42,6 @@
                     </details>
                 {% endif %}
             {% endif %}
-            {# <p>Preferences</p> #}
         </div>
     {% endif %}
 {% endfor %}

@@ -72,6 +72,16 @@
                 "title": "Duty drawback",
                 "slug": "duty_drawback",
                 "condition": ""
+            },
+            "non_alteration": {
+                "title": "Non-alteration rule",
+                "slug": "non_alteration",
+                "condition": ""
+            },
+            "direct_transport": {
+                "title": "Direct transport rule",
+                "slug": "direct_transport",
+                "condition": ""
             }
 
         }

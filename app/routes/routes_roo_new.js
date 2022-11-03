@@ -469,6 +469,46 @@ router.get(['/roo/duty_drawback/:goods_nomenclature_item_id/:country/'],
         });
     }));
 
+
+// Non-alteration
+router.get(['/roo/non_alteration/:goods_nomenclature_item_id/:country/'],
+    asyncMiddleware(async (req, res, next) => {
+        var context = new Context(req, "commodity");
+        context.set_phase("non_alteration", "non_alteration");
+        context.get_country(req);
+        context.get_commodity(req);
+        context.get_trade_direction(req);
+        context.get_scope();
+        context.get_roo_origin(req);
+        context.get_scheme_code(req);
+        context.get_article("direct-transport")
+        context.get_article("non-alteration")
+
+        res.render('roo_new/36_non_alteration', {
+            'context': context
+        });
+    }));
+
+
+// Direct transport
+router.get(['/roo/direct_transport/:goods_nomenclature_item_id/:country/'],
+    asyncMiddleware(async (req, res, next) => {
+        var context = new Context(req, "commodity");
+        context.set_phase("direct_transport", "direct_transport");
+        context.get_country(req);
+        context.get_commodity(req);
+        context.get_trade_direction(req);
+        context.get_scope();
+        context.get_roo_origin(req);
+        context.get_scheme_code(req);
+        context.get_article("direct-transport")
+        context.get_article("non-alteration")
+
+        res.render('roo_new/37_direct_transport', {
+            'context': context
+        });
+    }));
+
 // Met
 router.get(['/roo/met/:goods_nomenclature_item_id/:country/'],
     asyncMiddleware(async (req, res, next) => {
@@ -481,6 +521,8 @@ router.get(['/roo/met/:goods_nomenclature_item_id/:country/'],
         context.get_roo_origin(req);
         context.get_scheme_code(req);
         context.check_for_duty_drawback();
+        context.check_for_non_alteration();
+        context.check_for_direct_transport();
         context.get_product_specific_rules_json(req, "check_wo_only");
         await context.get_proofs();
         await context.get_roo_links();

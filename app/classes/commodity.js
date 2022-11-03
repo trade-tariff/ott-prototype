@@ -450,10 +450,8 @@ class Commodity {
 
                 // Get quota order number
                 try {
-                    m.order_number_id =
-                        item['relationships']['order_number']['data']['id']
+                    m.order_number_id = item['relationships']['order_number']['data']['id']
                     this.quota_order_numbers.push(m.order_number_id)
-                    var a = 1
                 } catch (error) {
                     // Do nothing
                 }

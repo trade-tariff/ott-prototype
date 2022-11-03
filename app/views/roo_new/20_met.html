@@ -22,19 +22,31 @@
     <div class="govuk-grid-row" id="top">
         <div class="govuk-grid-column-two-thirds roo_container">
             <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span>
-            <h1 class="govuk-heading-xl">Origin requirements met</h1>
+            <h1 class="govuk-heading-xl">Product-specific rules met</h1>
             {# <div class="govuk-panel govuk-panel--confirmation">
                 <div class="govuk-panel__body">
                     Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
                 </div>
             </div> #}
-            <div class="govuk-inset-text panel_grey">
-                Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
+            <div class="xgovuk-inset-text xpanel_grey">
+                <p>Based on your responses, your trade appears to meet the rules of origin requirements for the {{ context.scheme_title }}.</p>
             </div>
-            <p class="govuk-body">
+            {# <p class="govuk-body">
                 To benefit from a preferential tariff or quota, originating products should be accompanied by
                 an appropriate proof confirming their origin.
-            </p>
+            </p> #}
+            <div class="govuk-inset-text">
+                To benefit from a preferential tariff or quota, originating products must be accompanied by
+                an appropriate proof confirming their origin.
+            </div>
+            {# <div class="govuk-warning-text">
+                <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                <strong class="govuk-warning-text__text">
+                  <span class="govuk-warning-text__assistive">Warning</span>
+                  To benefit from a preferential tariff or quota, originating products should be accompanied by
+                an appropriate proof confirming their origin.
+                </strong>
+              </div> #}
             <h2 class="govuk-heading-m">Next steps</h2>
             <ul class="govuk-list">
                 <li>
@@ -49,6 +61,16 @@
                 {% if context.has_duty_drawback %}
                     <li>
                         <a href="/roo/duty_drawback/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about duty drawback</a>
+                    </li>
+                {% endif %}
+                {% if context.has_direct_transport %}
+                    <li>
+                        <a href="/roo/direct_transport/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about the direct transport rule</a>
+                    </li>
+                {% endif %}
+                {% if context.has_non_alteration %}
+                    <li>
+                        <a href="/roo/non_alteration/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about the non-alteration rule</a>
                     </li>
                 {% endif %}
             </ul>

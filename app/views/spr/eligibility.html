@@ -29,7 +29,7 @@ Find out your eligibility for Small Producers' Relief
         "Wine",
         "Cider",
         "Sparkling cider",
-        "OFP",
+        "Other fermented products (OFP)",
         "Spirits"
       ] %}
       <h2 class="gem-c-contents-list__title">Contents</h2>
@@ -60,7 +60,7 @@ Find out your eligibility for Small Producers' Relief
               {% if rate["include"] == 1 and rate["product"] == product %}
                 <tr class="govuk-table__row">
                   <td class="govuk-table__cell nw">{{ rate["storage"] }}
-                    {{ rate["product"] | lowerFirstExcept("OFP") }}</td>
+                    {{ rate["product"] | lowerFirstExcept("Other fermented products (OFP)") }}</td>
                   <td class="govuk-table__cell r">{{ rate["abv_min"] }} - {{ rate["abv_max"] }}</td>
                   <td class="govuk-table__cell r">&pound;{{ rate["excise_rate"] }}</td>
                   <td class="govuk-table__cell r">&pound;{{ rate["spr_discount"] | decimals(2) }}</td>

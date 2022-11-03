@@ -37,7 +37,7 @@
                             {{ cell_value | safe }}
                             {% if mccg.show_5a5b %}
                                 {% if column.field == "requirement" %}
-                                    {% include "conditions/conditions_no_shared_5a5b.html" %}
+                                    {% include "conditions/conditions_shared_5a5b.html" %}
                                 {% endif %}
                             {% endif %}
                         </td>
