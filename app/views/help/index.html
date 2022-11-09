@@ -37,6 +37,7 @@
                 <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
                     <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#leave-feedback">Leave feedback</a>
                 </li>
+                <!--
                 <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
                     <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#how-to-use">How to use the Online Trade Tariff</a>
                 </li>
@@ -59,6 +60,7 @@
                 <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
                     <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="/help/reduce">How to defer or reduce duties</a>
                 </li>
+                -->
 
                 <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
                     <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#getting-help">Getting help from HMRC if you need to find a commodity code</a>
@@ -76,8 +78,11 @@
                     <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#difficult-to-classify">Goods that are difficult to classify</a>
                 </li>
                 <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
-                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="/help/units">Measurements used on the Online Tariff</a>
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#rules-of-origin">Rules of origin</a>
                 </li>
+                {# <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="/help/units">Measurements used on the Online Tariff</a>
+                </li> #}
             </ol>
 
             <h2 class="govuk-heading-s" id="leave-feedback">Leave feedback</h2>
@@ -189,6 +194,17 @@
                 </li>
             </ul>
 
+            <h2 class="govuk-heading-s" id="rules-of-origin">Rules of origin</h2>
+            <p>Find out about the key concepts involved in determining a product's origin.</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>
+                    <a href="/help/roo/duty-drawback">Rules of origin glossary</a>
+                </li>
+                <li>
+                    <a href="/help/roo/duty-drawback">Duty drawback</a><br>Find out about duty drawback and the Trade Agreements that include it
+                </li>
+            </ul>
+
         </div>
         <div class="govuk-grid-column-one-third">
             <div class="gem-c-related-navigation">
@@ -245,11 +261,5 @@
     </div>
 
 </div>
-{% set show_webchat = false %}
-{% if show_webchat %}
-    <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>
-    <!-- End of HubSpot Embed Code -->
-{% endif %}
 {% endblock %}
 </html>

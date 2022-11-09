@@ -678,6 +678,22 @@ router.get(['/help/reduce'], function (req, res) {
     });
 });
 
+router.get(['/help/roo/duty-drawback'], function (req, res) {
+    var context = new Context(req);
+    context.roo_get_agreements_with_duty_drawback()
+    res.render('help/roo/duty-drawback.html', {
+        'context': context
+    });
+});
+
+router.get(['/help/roo/glossary'], function (req, res) {
+    var context = new Context(req);
+    context.roo_get_agreements_with_duty_drawback()
+    res.render('help/roo/glossary.html', {
+        'context': context
+    });
+});
+
 /* HELP End new sections */
 
 router.get(['/help/help-find-commodity'], function (req, res) {

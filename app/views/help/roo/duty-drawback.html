@@ -1,0 +1,124 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help on using the tariff - UK Integrated Online Tariff
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+        {
+        text: "Home",
+        href: "/sections"
+        },
+        {
+        text: "Help",
+        href: "/help"
+        },
+        {
+        text: "Rules of origin",
+        href: "/help/roo/"
+        },
+        {
+        text: "Duty drawback",
+        href: "/help/roo/duty-drawback"
+        }
+        ]
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Guide to rules of origin</span>
+            <h1 class="govuk-heading-l">Duty drawback</h1>
+            <h2 class="gem-c-contents-list__title">Contents</h2>
+            <ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#what-is">What is duty
+                    drawback</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#example">Duty drawback -
+                    an example</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline"
+                    href="#what-countrues">Agreements</a>
+                </li>
+            </ol>
+
+            <h3 class="govuk-heading-m">What is duty drawback</h3>
+            <p class="govuk-body">Some trade agreements allow a duty drawback.</p>
+            <p class="govuk-body">This means that, if you pay duties on non-originating materials that you use to make a
+            product which you then export under a preferential tariff, you can apply for a refund of those duties.</p>
+
+            <h3 class="govuk-heading-m">Duty drawback - an example</h3>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>A car engine originating in country A is imported into country B and a 10% import duty is charged.</li>
+                <li>The car engine is assembled into a complete car in country B and then exported to country C, meeting the
+                rules of origin requirements.</li>
+                <li>Using duty drawback, the car manufacturer in country B could 'draw&nbsp;back' the 10% duties paid on the
+                car engine originating in country A.</li>
+            </ul>
+            <div class="cumulation_description">
+                <img src="/public/images/roo/drawback.png" alt="">
+            </div>
+            <p class="govuk-body">Some trade agreements allow a duty drawback.</p>
+
+            <h3 class="govuk-heading-m">Agreements which include a duty drawback provision</h3>
+            <p class="govuk-body">Duty drawback provision is included in these trade agreements. Click on an agreement
+            to read more. All links open in a new browser window.</p>
+
+            <table class="govuk-table">
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Agreement</th>
+                        <th scope="col" class="govuk-table__header">Links</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+                    {% for agreement in context.agreements %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">{{ agreement.title }}</td>
+                            <td class="govuk-table__cell">
+                                <ul class="govuk-list">
+                                    <li>
+                                        <a href="{{ agreement.links[0].url }}" target="_blank">View agreement details</a>
+                                    </li>
+                                    <li>
+                                        <a href="/public/downloads/roo_reference/{{ agreement.ord.ord_original }}" target="_blank">View origin reference document</a>
+                                    </li>
+                                </ul>
+                                
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <ol class="govuk-list xgovuk-list--number">
+                {% for agreement in context.agreements %}
+                    <li class="govuk-!-padding-bottom-5">
+                        <b>{{ agreement.title }}</b><br>
+                        <ul class="govuk-list govuk-list--bullet">
+                            <li><a href="{{ agreement.links[0].url }}" target="_blank">View details of the {{ agreement.title }}</a></li>
+                            <li><a href="/public/downloads/roo_reference/{{ agreement.ord.ord_original }}" target="_blank">View origin reference document</a></li>
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ol>
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/roo/topics.html" %}
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+</html>

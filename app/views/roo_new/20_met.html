@@ -28,17 +28,14 @@
                     Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
                 </div>
             </div> #}
-            <div class="xgovuk-inset-text xpanel_grey">
+            <div class="govuk-inset-text panel_grey">
                 <p>Based on your responses, your trade appears to meet the rules of origin requirements for the {{ context.scheme_title }}.</p>
             </div>
             {# <p class="govuk-body">
                 To benefit from a preferential tariff or quota, originating products should be accompanied by
                 an appropriate proof confirming their origin.
             </p> #}
-            <div class="govuk-inset-text">
-                To benefit from a preferential tariff or quota, originating products must be accompanied by
-                an appropriate proof confirming their origin.
-            </div>
+            
             {# <div class="govuk-warning-text">
                 <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
                 <strong class="govuk-warning-text__text">
@@ -48,6 +45,12 @@
                 </strong>
               </div> #}
             <h2 class="govuk-heading-m">Next steps</h2>
+            {# <div class="govuk-inset-text"> #}
+                <p>To benefit from a preferential tariff or quota, originating products must be accompanied by
+                an appropriate proof confirming their origin.</p>
+                <p>It's important to read the documentation the documentation below to ensure that you meet all
+                    the origin requirements of the {{ context.scheme_title }}.</p>
+            {# </div> #}
             <ul class="govuk-list">
                 <li>
                     <a href="/roo/proofs/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See valid proofs of origin</a>

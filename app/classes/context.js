@@ -89,7 +89,6 @@ class Context {
     }
 
     add_to_search_history(req, res) {
-        var a = 1
         this.search_history = req.cookies['search_history']
         if (typeof this.search_history !== 'undefined') {
             if (!this.search_history.includes(this.search_term)) {
@@ -349,12 +348,7 @@ class Context {
     get_scheme_code(req) {
         var jp = require('jsonpath')
         var temporarily_omit_gsp = true
-        var schemes_json_filename =
-            '../data/roo/' +
-            this.scope_id_roo +
-            '/roo_schemes_' +
-            this.scope_id_roo +
-            '.json'
+        var schemes_json_filename = '../data/roo/' + this.scope_id_roo + '/roo_schemes_' + this.scope_id_roo + '.json'
         var data = require(schemes_json_filename)
         data = data['schemes']
         this.cumulation_options = [] // Remove me
@@ -391,7 +385,6 @@ class Context {
             if (temporarily_omit_gsp) {
                 var loop = 0
                 this.matching_schemes.forEach(matching_scheme => {
-                    var a = 1
                     loop += 1
                     if (matching_scheme.scheme_code == 'gsp') {
                         matching_scheme['mark_for_deletion'] = true
@@ -453,17 +446,14 @@ class Context {
 
     check_for_duty_drawback() {
         this.has_duty_drawback = this.check_md_file_availability('duty-drawback.md')
-        var a = 1
     }
 
     check_for_non_alteration() {
         this.has_non_alteration = this.check_md_file_availability('non-alteration.md')
-        var a = 1
     }
 
     check_for_direct_transport() {
         this.has_direct_transport = this.check_md_file_availability('direct-transport.md')
-        var a = 1
     }
 
     get_roo_origin() {
@@ -574,7 +564,6 @@ class Context {
             '/psr_new/' +
             filename
         this.psr_data = require(path)
-        var a = 1
     }
 
     get_subdivisions(subdivision) {
@@ -595,7 +584,6 @@ class Context {
                     var tmp = heading.subdivision
                     tmp = tmp.replace('\n-', ', ')
                     this.subdivisions.push(tmp)
-                    var a = 1
                 }
             })
             if (this.subdivisions.length > 1) {
@@ -677,7 +665,6 @@ class Context {
         } else {
             this.wholly_obtained_only_rule_applies = false
         }
-        var a = 1
     }
 
     async get_product_specific_rules() {
@@ -749,7 +736,6 @@ class Context {
             if (item['type'] == 'duty_expression') {
                 var id = item['id'].replace(/-duty_expression/g, '')
                 duty_expressions[id] = item['attributes']['base']
-                var a = 1
             }
         })
         included.forEach(item => {
@@ -878,14 +864,7 @@ class Context {
 
         // Get the refefenced article in markdown format
         var path =
-            process.cwd() +
-            '/app/data/roo/' +
-            this.scope_id_roo +
-            '/articles/' +
-            this.scheme_code +
-            '/' +
-            document_type +
-            '.md'
+            process.cwd() + '/app/data/roo/' + this.scope_id_roo + '/articles/' + this.scheme_code + '/' + document_type + '.md'
         try {
             var data = fs.readFileSync(path, 'utf8')
 
@@ -994,10 +973,8 @@ class Context {
         for (var i = 0; i < this.origin_process_array.length; i++) {
             var tmp = this.origin_process_array[i].split('\n')[0].trim()
             this.origin_process_titles.push(tmp)
-            var a = 1
             this.origin_process_array[i] = '##' + this.origin_process_array[i]
         }
-        var a = 1
     }
 
     set_origin_index(req) {
@@ -1005,7 +982,6 @@ class Context {
         if (typeof this.origin_index === 'undefined') {
             this.origin_index = 0
         }
-        var a = 1
     }
 
     replace_article_references(data) {
@@ -1102,7 +1078,6 @@ class Context {
                 ) {
                     this.cumulation_methods[key].country_names[eu_index] =
                         'the European Union Member States'
-                    var a = 1
                 }
 
                 this.cumulation_methods[key].country_name_list = this.items_to_list(
@@ -1114,10 +1089,8 @@ class Context {
                 this.cumulation_methods[key].example_text = this.cumulation_examples[
                     key
                 ]
-                var a = 1
             }
         }
-        var a = 1
     }
 
     items_to_list(list) {
@@ -1127,7 +1100,6 @@ class Context {
         } else {
             var last_item = list.pop()
             ret = list.join(', ') + ' and ' + last_item
-            var a = 1
         }
         return ret
     }
@@ -1151,11 +1123,7 @@ class Context {
     get_cumulation_texts() {
         this.cumulation_texts = {}
         this.cumulation_examples = {}
-        var path =
-            process.cwd() +
-            '/app/data/roo/' +
-            this.scope_id_roo +
-            '/articles/common/cumulation/'
+        var path = process.cwd() + '/app/data/roo/' + this.scope_id_roo + '/articles/common/cumulation/'
         var fs = require('fs')
         this.cumulation_texts['bilateral'] = fs.readFileSync(
             path + 'bilateral.md',
@@ -1546,7 +1514,6 @@ class Context {
             'FLAG_SHOW_NEW_QUOTA_DIALOG'
         )
         this.flag_show_quota_popup = this.get_feature_flag('FLAG_SHOW_QUOTA_POPUP')
-        var a = 1
     }
 
     get_feature_flag(flag) {
@@ -1640,6 +1607,21 @@ class Context {
 
     vat_get_freight_method() {
         this.freight_method = this.req.session.data["freight_method"]
+    }
+
+    roo_get_agreements_with_duty_drawback() {
+        this.agreements = []
+        var schemes_json_filename = '../data/roo/' + this.scope_id_roo + '/roo_schemes_' + this.scope_id_roo + '.json'
+        var data = require(schemes_json_filename)
+        data = data['schemes']
+        data.forEach(element => {
+            var filename = path.join(
+                process.cwd(), 'app', 'data', 'roo', 'uk', 'articles', element.scheme_code, "duty-drawback.md"
+            )
+            if (fs.existsSync(filename)) {
+                this.agreements.push(element)
+            }
+        });
     }
 
 }
