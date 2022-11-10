@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help on using the tariff - UK Integrated Online Tariff
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+        {
+        text: "Home",
+        href: "/sections"
+        },
+        {
+        text: "Help",
+        href: "/help"
+        },
+        {
+        text: "Rules of origin",
+        href: "/help/roo/"
+        },
+        {
+        text: "Duty drawback",
+        href: "/help/roo/duty-drawback"
+        }
+        ]
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-xl">Online Trade Tariff</span>
+            <h1 class="govuk-heading-l">Guide to rules of origin</h1>
+            <p>Find out about the key concepts involved in determining a product's origin.</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>
+                    <a href="/help/roo/glossary">Rules of origin glossary</a>
+                </li>
+                <li>
+                    <a href="/help/roo/duty-drawback">Duty drawback</a><br>Find out about duty drawback and the Trade
+                Agreements that include it
+            </li>
+            </ul>
+
+        </div>
+        {# <div class="govuk-grid-column-one-third">
+            <div class="gem-c-related-navigation">
+                {% include "help/roo/topics.html" %}
+
+            </div>
+        </div> #}
+    </div>
+
+</div>
+{% endblock %}
+</html>

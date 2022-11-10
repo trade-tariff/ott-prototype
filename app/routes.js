@@ -678,6 +678,13 @@ router.get(['/help/reduce'], function (req, res) {
     });
 });
 
+router.get(['/help/roo'], function (req, res) {
+    var context = new Context(req);
+    res.render('help/roo/index.html', {
+        'context': context
+    });
+});
+
 router.get(['/help/roo/duty-drawback'], function (req, res) {
     var context = new Context(req);
     context.roo_get_agreements_with_duty_drawback()
@@ -688,7 +695,6 @@ router.get(['/help/roo/duty-drawback'], function (req, res) {
 
 router.get(['/help/roo/glossary'], function (req, res) {
     var context = new Context(req);
-    context.roo_get_agreements_with_duty_drawback()
     res.render('help/roo/glossary.html', {
         'context': context
     });
