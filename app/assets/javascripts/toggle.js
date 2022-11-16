@@ -1,6 +1,26 @@
 $(document).ready(function () {
     $('.debug').hide()
 
+    $("#close_box").click(function (event) {
+        hide_help();
+    })
+
+    function sayHi(phrase, who) {
+        alert(phrase + ', ' + who);
+    }
+
+    function show_help() {
+        // $(".popup").css("display", "block");
+        $(".popup").fadeIn(1000);
+    }
+
+    function hide_help() {
+        $(".popup").css("display", "none");
+        // $(".popup").fadeIn(500);
+    }
+
+    setTimeout(show_help, 3000);
+
     //gets the current time. 
     var d = new Date();
     if (d.getHours() >= 7 && d.getHours() <= 21) {
