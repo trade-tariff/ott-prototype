@@ -67,7 +67,7 @@ class Commodity {
 
         this.mfn_array = ['103', '105', '109']
         this.agri_array = ['488', '489', '490']
-        this.preference_array = ['142', '145', '106', '109', '110']
+        this.preference_array = ['142', '145', '106', '109', '110', '464']
         this.suspension_array = ['112', '115', '117', '119']
         this.quota_array = ['143', '146', '122', '123']
         this.supplementary_unit_array = ['109', '110']
@@ -1431,7 +1431,7 @@ class Commodity {
 
         this.display_blocks = []
         this.measures.forEach(m => {
-            if (this.measure_id == 3175200) {
+            if (m.measure_type_id == '483') {
                 var a = 1;
             }
             // Check for end use
