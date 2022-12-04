@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    var implement_da_popup = false;
+
     $('.debug').hide()
 
     $("#close_box").click(function (event) {
@@ -19,7 +22,9 @@ $(document).ready(function () {
         // $(".popup").fadeIn(500);
     }
 
-    setTimeout(show_help, 3000);
+    if (implement_da_popup) {
+        setTimeout(show_help, 3000);
+    }
 
     //gets the current time. 
     var d = new Date();
