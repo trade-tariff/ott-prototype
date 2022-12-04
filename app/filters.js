@@ -296,7 +296,8 @@ module.exports = function (env) {
         }
     }
 
-    filters.convert_markdown = function (str, hide_bullets, add_back_to_top = false, insert_toc = false) {
+    filters.convert_markdown = function (str, hide_bullets = false, add_back_to_top = false, insert_toc = false) {
+        str = str.replace(/-&nbsp;/g, "- ")
         var menu = ""
         try {
             if (typeof str !== 'undefined') {
@@ -476,6 +477,16 @@ module.exports = function (env) {
         }
 
         return (out);
+    }
+
+    filters.pad_start = function(s, item_count, pad_char = '0') {
+        s = s.padStart(item_count, pad_char)
+        return s
+    }
+
+    filters.pad_end = function(s, item_count, pad_char = '0') {
+        s = s.padEnd(item_count, pad_char)
+        return s
     }
 
     filters.trim_string = function (s) {

@@ -17,9 +17,32 @@
 
             <div class="govuk-summary-list__row">
                 <dt class="govuk-summary-list__key">{{ context.heading_description }}</dt>
-                <dd class="govuk-summary-list__value {{ context.description_class }}">{{ context.value_description | safe }}</dd>
+                <dd class="govuk-summary-list__value {{ context.description_class }}">{{ context.value_description | convert_markdown | safe }}</dd>
                 <dd class="govuk-summary-list__actions"></dd>
             </div>
+
+            {% if commodity.referenced_entities | length > 0 %}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Referenced parts of the tariff</dt>
+                    <dd class="govuk-summary-list__value"><ul class="govuk-list">
+                        {% for referenced_entity in commodity.referenced_entities %}
+
+                            {% if referenced_entity.entity_type == "Chapter" %}
+                                {% set url = "/chapters/" + referenced_entity.entity | pad_start(2) %}
+                            {% elseif referenced_entity.entity_type == "Heading" %}
+                                {% set url = "/headings/" + referenced_entity.entity %}
+                            {% elseif referenced_entity.entity_type == "Subheading" %}
+                                {% set url = "/subheadings/" + referenced_entity.entity | pad_end(10) + "-80" %}
+                            {% endif %}
+
+                            <li><a href="{{ url }}">{{ referenced_entity.entity_type }} {{ referenced_entity.entity }}</a></li>
+                        {% endfor %}
+                    </ul></dd>
+                    <dd class="govuk-summary-list__actions">
+                    &nbsp;
+                </dd>
+                </div>
+            {% endif %}
 
             {% if context.show_supplementary_unit %}
                 <div class="govuk-summary-list__row">
@@ -31,7 +54,7 @@
                                 {% if commodity.supplementary_unit_abbreviation != "" %} ({{ commodity.supplementary_unit_abbreviation }}){% endif %}
                                 <br></p>
                         {% else %}
-                        <p>No supplementary unit required</p>
+                            <p>No supplementary unit required</p>
                         {% endif %}
 
                         <details class="govuk-details" data-module="govuk-details">
@@ -76,6 +99,7 @@
                     </dd>
                 </div>
             {% endif %}
+
         </dl>
     </div>
 </div>

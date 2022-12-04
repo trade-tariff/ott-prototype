@@ -1359,13 +1359,14 @@ class Context {
 
     set_description_class(req) {
         var description_length = this.value_description.length
-        if (description_length > 600) {
+        if (description_length > 800) {
             this.description_class = 'govuk-summary-list__value--s'
-        } else if (description_length > 400) {
+        } else if (description_length > 600) {
             this.description_class = 'govuk-summary-list__value--m'
         } else {
             this.description_class = ''
         }
+        this.description_class = ''
     }
 
     get_root_url(req) {

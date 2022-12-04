@@ -16,6 +16,7 @@ const Certificate = require('./certificate')
 const { forEach } = require('lodash')
 const { threadId } = require('worker_threads')
 const e = require('express')
+var MarkdownIt = require('markdown-it');
 
 class Commodity {
     constructor(
@@ -309,12 +310,6 @@ class Commodity {
         this.goods_nomenclature_item_id = this.data['attributes'][
             'goods_nomenclature_item_id'
         ]
-        this.description = this.data['attributes']['formatted_description']
-        this.description = this.description.replace(/<br>  /g, '<br>')
-        this.description = this.description.replace(/<br> /g, '<br>')
-        this.description = this.description.replace(/<br><br><br><br>/g, '<br>')
-        this.description = this.description.replace(/<br><br><br>/g, '<br>')
-        this.description = this.description.replace(/<br><br>/g, '<br>')
 
         this.number_indents = this.data['attributes']['number_indents']
         this.basic_duty_rate_string = this.data['attributes']['basic_duty_rate']
@@ -326,6 +321,190 @@ class Commodity {
         this.formatted_commodity_code = this.goods_nomenclature_item_id
         this.format_commodity_code()
         this.get_cheg_code()
+        this.format_description()
+        // this.check_for_references()
+    }
+
+    format_description() {
+        this.description = this.data['attributes']['formatted_description']
+        this.description = this.description.replace(/<br>  /g, '<br>')
+        this.description = this.description.replace(/<br> /g, '<br>')
+        this.description = this.description.replace(/<br><br><br><br>/g, '<br>')
+        this.description = this.description.replace(/<br><br><br>/g, '<br>')
+        this.description = this.description.replace(/<br><br>/g, '<br>')
+        this.insert_description_hyperlinks()
+    }
+
+    insert_description_hyperlinks() {
+        var desc = this.description
+
+        this.description = this.description.replace(/\<br\>$/g, '')
+        // this.description = this.description.replace(/\<br\>/g, '\n\n')
+        
+        this.description = this.description.replace(/-/g, '-')
+        this.description = this.description.replace(/&nbsp;/g, ' ')
+        // this.description = this.description.replace("-", "-")
+        
+        console.log(this.description)
+        // this.description = "Classified in Chapter 1"
+        
+        // 1 digit chapter string
+        this.description = this.description.replace(/(chapter)\s([0-9])$/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/0\$2)')
+        this.description = this.description.replace(/(chapter)\s([0-9])([\s,;\)])/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/0\$2)\$3')
+        
+        // 2 digit chapter string
+        this.description = this.description.replace(/(chapter)\s([0-9]{2})$/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/\$2)')
+        this.description = this.description.replace(/(chapter)\s([0-9]{2})([\s,;\)])/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/\$2)\$3')
+        
+        // 4 digit headings at the end of the string
+        this.description = this.description.replace(/\s([0-9]{4})$/g, ' [\$1](https://www.trade-tariff.service.gov.uk/search?q=\$1)')
+
+        // 4 digit headings followed by a comma or other punctuation
+        this.description = this.description.replace(/\s([0-9]{4})([,;\)])/ig, ' [\$1](https://www.trade-tariff.service.gov.uk/search?q=\$1)\$2')
+
+        // 4 digit headings followed by a space, but not numbers (which might be a sub heading)
+        this.description = this.description.replace(/\s([0-9]{4})([\s])([^0-9])/ig, ' [\$1](https://www.trade-tariff.service.gov.uk/search?q=\$1\$2)\$2\$3')
+
+        // Sub heading
+        this.description = this.description.replace(/\s([0-9]{4})\s([0-9]{2})\s([0-9]{2})$/ig, ' [\$1 \$2 \$3](https://www.trade-tariff.service.gov.uk/search?q=\$1\$2\$3)')
+        this.description = this.description.replace(/\s([0-9]{4})\s([0-9]{2})\s([0-9]{2})([\s,;\)])/ig, ' [\$1 \$2 \$3](https://www.trade-tariff.service.gov.uk/search?q=\$1\$2\$3)\$4')
+        this.description = this.description.replace(/\s([0-9]{4})\s([0-9]{2})$/ig, ' [\$1 \$2](https://www.trade-tariff.service.gov.uk/search?q=\$1\$2)')
+        this.description = this.description.replace(/\s([0-9]{4})\s([0-9]{2})([\s,;\)])/ig, ' [\$1 \$2](https://www.trade-tariff.service.gov.uk/search?q=\$1\$2)\$3')
+        var a = 1
+    }
+
+    check_for_references() {
+        this.referenced_entities = []
+        var desc = this.description
+        desc = desc.toLowerCase() + "§"
+        desc = desc.replace(" nos ", "")
+        desc = desc.replace("headings", "heading")
+
+        // Get rid of spaces before commas
+        var regex = /\s,/ig
+        desc = desc.replace(regex, ',')
+
+        // Get rid of ex values
+        var regex = /\sex\s/ig
+        desc = desc.replace(regex, ' ')
+
+        // Get rid of gaps between parts of 8 digit subheadings
+        var regex = /\s([0-9]{4})\s([0-9]{2})\s([0-9]{2})/ig
+        desc = desc.replace(regex, ' \$1\$2\$3')
+
+        // Get rid of gaps between parts of 6 digit subheadings
+        var regex = /\s([0-9]{4})\s([0-9]{2})/ig
+        desc = desc.replace(regex, ' \$1\$2')
+
+        // Deal with commas in subheadings
+        for (i = 0; i < 10; i++) {
+            var regex = /\ssubheading\s([0-9]{6,8}),\s([0-9]{6,8})/ig
+            desc = desc.replace(regex, ' subheading \$1 or subheading \$2')
+        }
+
+        // Deal with "or" in subheadings
+        var regex = /\ssubheading\s([0-9]{6,8})\sor\s([0-9]{6,8})/ig
+        desc = desc.replace(regex, ' subheading \$1 or subheading \$2')
+
+        // Deal with "and" in subheadings
+        var regex = /\ssubheading\s([0-9]{6,8})\sand\s([0-9]{6,8})/ig
+        desc = desc.replace(regex, ' subheading \$1 and subheading \$2')
+
+
+        // Deal with "or" in headings
+        var regex = /\sheading\s([0-9]{4})\sor\s([0-9]{4})/ig
+        desc = desc.replace(regex, ' heading \$1 or heading \$2')
+
+        // Check for chapters
+        const regex_chapter = /chapter [0-9]{1,2}/ig
+        var matches = desc.match(regex_chapter);
+        if (matches) {
+            var matches_count = matches.length
+            for (var i = 0; i < matches_count; i += 1) {
+                var match = matches[i].replace("chapter", "").trim()
+                var entity = {
+                    "priority": 0,
+                    "entity_type": "Chapter",
+                    "entity": match
+                }
+                this.add_referenced_entity(entity)
+            }
+        }
+
+        // Check for headings
+        const regex_heading = /\sheading\s[0-9]{4}/ig
+        var matches = desc.match(regex_heading);
+        if (matches) {
+            var matches_count = matches.length
+            for (var i = 0; i < matches_count; i += 1) {
+                var match = matches[i].replace("heading", "").trim()
+                var entity = {
+                    "priority": 1,
+                    "entity_type": "Heading",
+                    "entity": match
+                }
+                this.add_referenced_entity(entity)
+            }
+        }
+
+        // Check for subheadings
+        const regex_subheading = /\ssubheading\s[0-9]{6,8}/ig
+        var matches = desc.match(regex_subheading);
+        if (matches) {
+            var matches_count = matches.length
+            for (var i = 0; i < matches_count; i += 1) {
+                var match = matches[i].replace("subheading", "").trim()
+                var entity = {
+                    "priority": 2,
+                    "entity_type": "Subheading",
+                    "entity": match
+                }
+                this.add_referenced_entity(entity)
+            }
+        }
+
+        this.sort_referenced_entities()
+        var a = 1
+    }
+
+    sort_referenced_entities() {
+        this.referenced_entities.sort(compare_referenced_entities)
+        this.referenced_entities.sort(compare_referenced_entities_priority)
+
+        function compare_referenced_entities(a, b) {
+            if (a.entity < b.entity) {
+                return -1
+            }
+            if (a.entity > b.entity) {
+                return 1
+            }
+            return 0
+        }
+        function compare_referenced_entities_priority(a, b) {
+            if (a.priority < b.priority) {
+                return -1
+            }
+            if (a.priority > b.priority) {
+                return 1
+            }
+            return 0
+        }
+    }
+
+    add_referenced_entity(entity) {
+        var entity_count = this.referenced_entities.length;
+        var i
+        var found = false
+        for (i = 0; i < entity_count; i += 1) {
+            var entity2 = this.referenced_entities[i]
+            if (entity["entity"] == entity2["entity"]) {
+                found = true
+                break
+            }
+        }
+        if (found == false) {
+            this.referenced_entities.push(entity)
+        }
     }
 
     get_cheg_code() {
@@ -1456,7 +1635,8 @@ class Commodity {
 
                 if (!this.display_blocks.includes(m.display_block)) {
                     this.display_blocks.push(m.display_block)
-                }            } else if (m.measure_type_series_id == 'P') {
+                }
+            } else if (m.measure_type_series_id == 'P') {
                 m.block = 'vat'
                 m.duty_bearing = true
                 m.sort_block = display_sort_options[m.block]

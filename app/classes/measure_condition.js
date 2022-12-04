@@ -148,7 +148,7 @@ class MeasureCondition {
     }
 
     append_condition(mc) {
-        console.log("Appending a condition");
+        // console.log("Appending a condition");
 
         var conjunction_string = " & ";
         if (this.condition_class == "certificate") {
