@@ -4,18 +4,15 @@
             "heading": "Chapter 1",
             "chapter": 1,
             "subdivision": "Live animals",
-            "prefix": "",
             "min": "0100000000",
             "max": "0199999999",
             "rules": [
                 {
-                    "rule": "All the animals of Chapter 1 are wholly obtained",
+                    "rule": "All the animals of [chapter 1](/chapters/01) are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -24,7 +21,6 @@
             "heading": "Chapter 2",
             "chapter": 2,
             "subdivision": "Meat and edible meat offal",
-            "prefix": "",
             "min": "0200000000",
             "max": "0299999999",
             "rules": [
@@ -33,9 +29,7 @@
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -44,7 +38,6 @@
             "heading": "ex Chapter 3",
             "chapter": 3,
             "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
-            "prefix": "",
             "min": "0300000000",
             "max": "0399999999",
             "rules": [
@@ -53,9 +46,7 @@
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -64,18 +55,15 @@
             "heading": "0304",
             "chapter": 3,
             "subdivision": "Fish fillets and other fish meat (whether or not minced), fresh, chilled of frozen",
-            "prefix": "",
             "min": "0304000000",
             "max": "0304999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 3 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 3](/chapters/03) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -84,18 +72,15 @@
             "heading": "0305",
             "chapter": 3,
             "subdivision": "Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking \t\t\t\t\tprocess; flours, meals and pellets of fish, fit for human consumption",
-            "prefix": "",
             "min": "0305000000",
             "max": "0305999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 3 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 3](/chapters/03) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -104,18 +89,15 @@
             "heading": "ex 0306",
             "chapter": 3,
             "subdivision": "Crustaceans, whether in shell or not, dried, salted or in brine; crustaceans, in shell, cooked \t\t\t\t\tby steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine; flours, meals and pellets of crustaceans, fit for \t\t\t\t\thuman consumption",
-            "prefix": "",
             "min": "0306000000",
             "max": "0306999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 3 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 3](/chapters/03) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -124,18 +106,15 @@
             "heading": "ex 0307",
             "chapter": 3,
             "subdivision": "Molluscs, whether in shell or not, dried, salted or in brine; aquatic invertebrates other than \t\t\t\t\tcrustaceans and molluscs, dried, salted or in brine; flours, meals and pellets of crustaceans, fit for human consumption",
-            "prefix": "",
             "min": "0307000000",
             "max": "0307999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 3 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 3](/chapters/03) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -144,78 +123,15 @@
             "heading": "Chapter 4",
             "chapter": 4,
             "subdivision": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere \t\t\t\t\tspecified or included",
-            "prefix": "",
             "min": "0400000000",
             "max": "0499999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: \n\n- all the materials of Chapter 4 used are wholly obtained; *and* \n\n- the weight of sugar  used does not exceed **20%** of the weight of the final product",
+                    "rule": "Manufacture in which: \n\n- all the materials of [chapter 4](/chapters/04) used are wholly obtained; *and* \n\n- the weight of sugar  used does not exceed **20%** of the weight of the final product",
                     "class": [
                         "(PRODUCTION FROM AND MAXWEIGHT)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "ex Chapter 19",
-            "chapter": 4,
-            "subdivision": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
-            "prefix": "",
-            "min": "0400000000",
-            "max": "0499999999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the weight of the materials of Chapters 2, 3 and 16 used does not exceed **20%** of the weight of the final product, *and* \n\n- the weight of the materials of headings 1006 and 1101 to 1108 used does not exceed **20%** of the weight of the final product, *and* \n\n- the individual weight of sugar  and of the materials of Chapter 4 used does not exceed **20%** of the weight of the final product, *and* \n\n- the total combined weight of sugar  and the materials of Chapter 4 used does not exceed **40%** of the weight of final product",
-                    "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT))"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "ex 190120",
-            "chapter": 4,
-            "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Mixes and doughs of flour, groats, meal, starch or malt extract (Roti Paratha (), Glutinous Rice Ball ())</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Malt extract; food preparations of flour, groats, meal, starch or malt extract (Protomalt / Milo)</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Pastry (Spring Roll vegetal and chicken () and spring roll Pastry (), cooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Vegetable Samosa () \u2013 precooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Samosa Pastry () \u2013 precooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>oriental wrappers () for Gyoza Skin () and for Wonton Skin (), cooked and uncooked; Wrapper for Peking Duck, precooked or cooked ()</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Pasta, cooked or otherwise prepared (Instant Noodle/Ramen, non-fried noodles, stir-fried packet noodles (/)</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
-            "min": "1901200000",
-            "max": "1901299999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the weight of the materials of Chapters 2, 3 and 16 used does not exceed **20%** of the weight of the final product, *and* \n\n- the weight of the materials of headings 1006 and 1101 to 1108 used does not exceed **40%** of the weight of the final product, *and* \n\n- the individual weight of sugar and of the materials of Chapter 4 used does not exceed **40%** of the weight of the final product, *and* \n\n- the total combined weight of sugar and the materials of Chapter 4 used does not exceed **70%** of the weight of final product",
-                    "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT))"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "ex 190190",
-            "chapter": 4,
-            "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Mixes and doughs of flour, groats, meal, starch or malt extract (Roti Paratha (), Glutinous Rice Ball ())</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Malt extract; food preparations of flour, groats, meal, starch or malt extract (Protomalt / Milo)</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Pastry (Spring Roll vegetal and chicken () and spring roll Pastry (), cooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Vegetable Samosa () \u2013 precooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Samosa Pastry () \u2013 precooked or uncooked</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>oriental wrappers () for Gyoza Skin () and for Wonton Skin (), cooked and uncooked; Wrapper for Peking Duck, precooked or cooked ()</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Pasta, cooked or otherwise prepared (Instant Noodle/Ramen, non-fried noodles, stir-fried packet noodles (/)</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
-            "min": "1901900000",
-            "max": "1901999999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the weight of the materials of Chapters 2, 3 and 16 used does not exceed **20%** of the weight of the final product, *and* \n\n- the weight of the materials of headings 1006 and 1101 to 1108 used does not exceed **40%** of the weight of the final product, *and* \n\n- the individual weight of sugar and of the materials of Chapter 4 used does not exceed **40%** of the weight of the final product, *and* \n\n- the total combined weight of sugar and the materials of Chapter 4 used does not exceed **70%** of the weight of final product",
-                    "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT AND MAXWEIGHT))"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -224,7 +140,6 @@
             "heading": "ex Chapter 5",
             "chapter": 5,
             "subdivision": "Products of animal origin, not elsewhere specified or included",
-            "prefix": "",
             "min": "0500000000",
             "max": "0599999999",
             "rules": [
@@ -233,9 +148,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -244,7 +157,6 @@
             "heading": "ex 051191",
             "chapter": 5,
             "subdivision": "Inedible fish eggs and roes",
-            "prefix": "",
             "min": "0511910000",
             "max": "0511919999",
             "rules": [
@@ -253,9 +165,7 @@
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -264,18 +174,15 @@
             "heading": "Chapter 6",
             "chapter": 6,
             "subdivision": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
-            "prefix": "",
             "min": "0600000000",
             "max": "0699999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 6 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 6](/chapters/06) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -284,18 +191,15 @@
             "heading": "Chapter 7",
             "chapter": 7,
             "subdivision": "Edible vegetables and certain roots and tubers",
-            "prefix": "",
             "min": "0700000000",
             "max": "0799999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 7 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 7](/chapters/07) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -304,18 +208,15 @@
             "heading": "Chapter 8",
             "chapter": 8,
             "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
-            "prefix": "",
             "min": "0800000000",
             "max": "0899999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which: \n\n- all the fruit, nuts and peels of citrus fruits or melons of Chapter 8 used are wholly obtained, *and* \n\n- the weight of sugar  used does not exceed **20%** of the weight of the final product",
+                    "rule": "Manufacture in which: \n\n- all the fruit, nuts and peels of citrus fruits or melons of [chapter 8](/chapters/08) used are wholly obtained, *and* \n\n- the weight of sugar  used does not exceed **20%** of the weight of the final product",
                     "class": [
                         "(WO AND MAXWEIGHT)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -324,7 +225,6 @@
             "heading": "Chapter 9",
             "chapter": 9,
             "subdivision": "Coffee, tea, mat\u00e9 and spices",
-            "prefix": "",
             "min": "0900000000",
             "max": "0999999999",
             "rules": [
@@ -333,9 +233,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -344,18 +242,15 @@
             "heading": "Chapter 10",
             "chapter": 10,
             "subdivision": "Cereals",
-            "prefix": "",
             "min": "1000000000",
             "max": "1099999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapter 10 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 10](/chapters/10) used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -364,18 +259,15 @@
             "heading": "Chapter 11",
             "chapter": 11,
             "subdivision": "Products of the milling industry; malt; starches; inulin; wheat gluten",
-            "prefix": "",
             "min": "1100000000",
             "max": "1199999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapters 10 and 11, headings 0701 and 2303, and sub-heading 071010 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of [chapter 10](/chapters/10) and [chapter 11](/chapters/11) , headings 0701 and 2303, and sub-heading 071010 used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -384,7 +276,6 @@
             "heading": "Chapter 12",
             "chapter": 12,
             "subdivision": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal \t\t\t\t\tplants; straw and fodder",
-            "prefix": "",
             "min": "1200000000",
             "max": "1299999999",
             "rules": [
@@ -393,9 +284,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -404,7 +293,6 @@
             "heading": "Chapter 13",
             "chapter": 13,
             "subdivision": "Lac; gums, resins and other vegetable saps and extracts",
-            "prefix": "",
             "min": "1300000000",
             "max": "1399999999",
             "rules": [
@@ -413,9 +301,7 @@
                     "class": [
                         "(AH AND MAXWEIGHT)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -424,7 +310,6 @@
             "heading": "Chapter 14",
             "chapter": 14,
             "subdivision": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
-            "prefix": "",
             "min": "1400000000",
             "max": "1499999999",
             "rules": [
@@ -433,9 +318,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -444,7 +327,6 @@
             "heading": "1501 - 1504",
             "chapter": 15,
             "subdivision": "Fats from pig, poultry, bovine, sheep or goat, fish, etc.",
-            "prefix": "",
             "min": "1501000000",
             "max": "1504999999",
             "rules": [
@@ -453,9 +335,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -464,7 +344,6 @@
             "heading": "1505",
             "chapter": 15,
             "subdivision": "Wool grease and fatty substances derived therefrom (including lanolin). Other animal fats and \t\t\t\t\toils and their fractions, whether or not refined, but not chemically modified. Glycerol, crude; glycerol waters and glycerol lyes.",
-            "prefix": "",
             "min": "1505000000",
             "max": "1505999999",
             "rules": [
@@ -473,9 +352,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -484,7 +361,6 @@
             "heading": "1506",
             "chapter": 15,
             "subdivision": "Wool grease and fatty substances derived therefrom (including lanolin). Other animal fats and \t\t\t\t\toils and their fractions, whether or not refined, but not chemically modified. Glycerol, crude; glycerol waters and glycerol lyes.",
-            "prefix": "",
             "min": "1506000000",
             "max": "1506999999",
             "rules": [
@@ -493,9 +369,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -504,7 +378,6 @@
             "heading": "ex Chapter 15",
             "chapter": 15,
             "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or \t\t\t\t\tvegetable waxes",
-            "prefix": "",
             "min": "1500000000",
             "max": "1599999999",
             "rules": [
@@ -513,9 +386,7 @@
                     "class": [
                         "CTSH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -524,7 +395,6 @@
             "heading": "1509",
             "chapter": 15,
             "subdivision": "Olive oil and its fractions",
-            "prefix": "",
             "min": "1509000000",
             "max": "1509999999",
             "rules": [
@@ -533,9 +403,7 @@
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -544,7 +412,6 @@
             "heading": "1510",
             "chapter": 15,
             "subdivision": "Olive oil and its fractions",
-            "prefix": "",
             "min": "1510000000",
             "max": "1519999999",
             "rules": [
@@ -553,9 +420,7 @@
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -564,7 +429,6 @@
             "heading": "1516",
             "chapter": 15,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or \t\t\t\t\t\telaidinised, whether or not refined, but not further prepared</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this \t\t\t\t\t\tChapter, other than edible fats or oils or their fractions of heading 1516 </p>",
-            "prefix": "",
             "min": "1516000000",
             "max": "1516999999",
             "rules": [
@@ -573,9 +437,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -584,7 +446,6 @@
             "heading": "1517",
             "chapter": 15,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or \t\t\t\t\t\telaidinised, whether or not refined, but not further prepared</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this \t\t\t\t\t\tChapter, other than edible fats or oils or their fractions of heading 1516 </p>",
-            "prefix": "",
             "min": "1517000000",
             "max": "1517999999",
             "rules": [
@@ -593,9 +454,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -604,78 +463,49 @@
             "heading": "Chapter 16",
             "chapter": 16,
             "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
-            "prefix": "",
             "min": "1600000000",
             "max": "1699999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which all the materials of Chapters 2, 3 and 16 used are wholly obtained",
+                    "rule": "Manufacture in which all the materials of chapters 2, 3 and 16 used are wholly obtained",
                     "class": [
                         "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
         },
         {
-            "heading": "ex Chapter 21",
+            "heading": "Chapter 16",
             "chapter": 16,
-            "subdivision": "Miscellaneous edible preparations",
-            "prefix": "",
+            "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
             "min": "1600000000",
             "max": "1699999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the individual weight of sugar  and of the materials of Chapter 4 used does not exceed **20%** of the weight of the final product, *and* \n\n- the total combined weight of sugar  and the materials of Chapter 4 used does not exceed **40%** of the weight of final product",
+                    "rule": "Manufacture in which all the materials of chapters 2, 3 and 16 used are wholly obtained",
                     "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT))"
+                        "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
         },
         {
-            "heading": "ex 210111",
+            "heading": "Chapter 16",
             "chapter": 16,
-            "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Extracts, essences and concentrates, of coffee</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Preparations with a basis of extracts, essences or concentrates of coffee or with a basis of coffee</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Extracts, essences and concentrates, of tea or mate, and preparations with a basis of these extracts, essences or concentrates, or with a \t\t\t\t\t\t\t\tbasis of tea or mat\u00e9</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>soya sauce</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Preparations for sauces and prepared sauces; mixed condiments and seasonings (excl. soya sauce, tomato ketchup and other tomato sauces, \t\t\t\t\t\t\t\tmustard, and mustard flour and meal)</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Balacan Chili</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Breaded Taro ()</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>soups with Star aniseed, turmeric, pepper, cumin, clove, cinnamon, chilli, coriander seeds and other spices</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
-            "min": "2101110000",
-            "max": "2101119999",
+            "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
+            "min": "1600000000",
+            "max": "1699999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the individual weight of sugar and of the materials of Chapter 4 used does not exceed **40%** of the weight of the final product, *and* \n\n- the total combined weight of sugar and the materials of Chapter 4 used does not exceed **60%** of the weight of final product",
+                    "rule": "Manufacture in which all the materials of chapters 2, 3 and 16 used are wholly obtained",
                     "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT))"
+                        "WO"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "ex 210112",
-            "chapter": 16,
-            "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Extracts, essences and concentrates, of coffee</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Preparations with a basis of extracts, essences or concentrates of coffee or with a basis of coffee</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Extracts, essences and concentrates, of tea or mate, and preparations with a basis of these extracts, essences or concentrates, or with a \t\t\t\t\t\t\t\tbasis of tea or mat\u00e9</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>soya sauce</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Preparations for sauces and prepared sauces; mixed condiments and seasonings (excl. soya sauce, tomato ketchup and other tomato sauces, \t\t\t\t\t\t\t\tmustard, and mustard flour and meal)</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Balacan Chili</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>Breaded Taro ()</p> \t\t\t\t\t\t </li> \t\t\t\t\t\t <li><p>soups with Star aniseed, turmeric, pepper, cumin, clove, cinnamon, chilli, coriander seeds and other spices</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
-            "min": "2101120000",
-            "max": "2101129999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the individual weight of sugar and of the materials of Chapter 4 used does not exceed **40%** of the weight of the final product, *and* \n\n- the total combined weight of sugar and the materials of Chapter 4 used does not exceed **60%** of the weight of final product",
-                    "class": [
-                        "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT))"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -684,7 +514,6 @@
             "heading": "ex Chapter 17",
             "chapter": 17,
             "subdivision": "Sugars and sugar confectionery",
-            "prefix": "",
             "min": "1700000000",
             "max": "1799999999",
             "rules": [
@@ -693,9 +522,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -704,7 +531,6 @@
             "heading": "1702",
             "chapter": 17,
             "subdivision": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; \t\t\t\t\tsugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",
-            "prefix": "",
             "min": "1702000000",
             "max": "1702999999",
             "rules": [
@@ -713,9 +539,7 @@
                     "class": [
                         "(CTH AND MAXWEIGHT)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -724,18 +548,15 @@
             "heading": "1704",
             "chapter": 17,
             "subdivision": "Sugar confectionery (including white chocolate), not containing cocoa",
-            "prefix": "",
             "min": "1704000000",
             "max": "1704999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the individual weight of sugar  and of the materials of Chapter 4 used does not exceed **20%** of the weight of the final product, *and* \n\n- the total combined weight of sugar  and the materials of Chapter 4 used does not exceed **40%** of the weight of final product",
+                    "rule": "Manufacture from materials of any heading, except that of the product, in which: \n\n- the individual weight of sugar  and of the materials of [chapter 4](/chapters/04) used does not exceed **20%** of the weight of the final product, *and* \n\n- the total combined weight of sugar  and the materials of [chapter 4](/chapters/04) used does not exceed **40%** of the weight of final product",
                     "class": [
                         "(CTH RESTRICTION (MAXWEIGHT AND MAXWEIGHT))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -744,7 +565,6 @@
             "heading": "4012",
             "chapter": 40,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Retreaded pneumatic, solid or cushion tyres, of rubber</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "4012000000",
             "max": "4012999999",
             "rules": [
@@ -753,9 +573,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -764,7 +582,6 @@
             "heading": "4012",
             "chapter": 40,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "4012000000",
             "max": "4012999999",
             "rules": [
@@ -773,9 +590,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -784,7 +599,6 @@
             "heading": "ex Chapter 40",
             "chapter": 40,
             "subdivision": "Rubber and articles thereof",
-            "prefix": "",
             "min": "4000000000",
             "max": "4099999999",
             "rules": [
@@ -793,9 +607,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -804,7 +616,6 @@
             "heading": "4101 - 4103",
             "chapter": 41,
             "subdivision": "Raw hides and skins of bovine (including buffalo) or equine animals (fresh, or salted, dried, \t\t\t\t\tlimed, pickled or otherwise preserved, but not tanned, parchment dressed or further prepared), whether or not dehaired or split; raw skins of \t\t\t\t\tsheep or lambs (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment dressed or further prepared), whether \t\t\t\t\tor not with wool on or split, other than those excluded by note 1(c) to Chapter 41; other raw hides and skins (fresh, or salted, dried, limed, \t\t\t\t\tpickled or otherwise preserved, but not tanned, parchment dressed or further prepared), whether or not dehaired or split, other than those \t\t\t\t\texcluded by note 1(b) or 1(c) to Chapter 41",
-            "prefix": "",
             "min": "4101000000",
             "max": "4103999999",
             "rules": [
@@ -813,9 +624,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -824,7 +633,6 @@
             "heading": "4104 - 4106",
             "chapter": 41,
             "subdivision": "Tanned or crust hides and skins, without wool or hair on, whether or not split, but not further \t\t\t\t\tprepared",
-            "prefix": "",
             "min": "4104000000",
             "max": "4106999999",
             "rules": [
@@ -833,9 +641,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -844,7 +650,6 @@
             "heading": "4107",
             "chapter": 41,
             "subdivision": "Leather further prepared after tanning or crusting",
-            "prefix": "",
             "min": "4107000000",
             "max": "4107999999",
             "rules": [
@@ -853,9 +658,7 @@
                     "class": [
                         "(CTH TOLERANCE (MAY BE USED RESTRICTION PROCESSING))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -864,7 +667,6 @@
             "heading": "4112",
             "chapter": 41,
             "subdivision": "Leather further prepared after tanning or crusting",
-            "prefix": "",
             "min": "4112000000",
             "max": "4112999999",
             "rules": [
@@ -873,9 +675,7 @@
                     "class": [
                         "(CTH TOLERANCE (MAY BE USED RESTRICTION PROCESSING))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -884,7 +684,6 @@
             "heading": "ex Chapter 41",
             "chapter": 41,
             "subdivision": "Raw hides and skins (other than furskins) and leather",
-            "prefix": "",
             "min": "4100000000",
             "max": "4199999999",
             "rules": [
@@ -893,9 +692,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -904,7 +701,6 @@
             "heading": "Chapter 42",
             "chapter": 42,
             "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; \t\t\t\t\tarticles of animal gut (other than silk worm gut)",
-            "prefix": "",
             "min": "4200000000",
             "max": "4299999999",
             "rules": [
@@ -913,9 +709,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -924,7 +718,6 @@
             "heading": "5204 - 5207",
             "chapter": 52,
             "subdivision": "Yarn and thread of cotton",
-            "prefix": "",
             "min": "5204000000",
             "max": "5207999999",
             "rules": [
@@ -933,9 +726,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -944,18 +735,15 @@
             "heading": "5208 - 5212",
             "chapter": 52,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Woven fabrics of cotton:</p> \t\t\t\t\t <ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><li><p>Incorporating rubber thread</p> \t\t\t\t\t\t </li><li><p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5208000000",
             "max": "5212999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -964,18 +752,15 @@
             "heading": "ex Chapter 58",
             "chapter": 58,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery; </p> \t\t\t\t\t <ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><li><p>Combined with rubber thread</p> \t\t\t\t\t\t </li><li><p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5800000000",
             "max": "5899999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -984,7 +769,6 @@
             "heading": "5805",
             "chapter": 58,
             "subdivision": "Hand-woven tapestries of the types Gobelins, Flanders, Aubusson, Beauvais and the like, and \t\t\t\t\tneedle-worked tapestries (for example, petit point, cross stitch), whether or not made up",
-            "prefix": "",
             "min": "5805000000",
             "max": "5805999999",
             "rules": [
@@ -993,9 +777,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1004,7 +786,6 @@
             "heading": "5810",
             "chapter": 58,
             "subdivision": "Embroidery in the piece, in strips or in motifs",
-            "prefix": "",
             "min": "5810000000",
             "max": "5819999999",
             "rules": [
@@ -1013,9 +794,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1024,7 +803,6 @@
             "heading": "5901",
             "chapter": 59,
             "subdivision": "Textile fabrics coated with gum or amylaceous substances, of a kind used for the outer covers of \t\t\t\t\tbooks or the like; tracing cloth; prepared painting canvas; buckram and similar stiffened textile fabrics of a kind used for hat foundations",
-            "prefix": "",
             "min": "5901000000",
             "max": "5901999999",
             "rules": [
@@ -1033,9 +811,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1044,7 +820,6 @@
             "heading": "5902",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Containing not more than 90% by weight of textile materials</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5902000000",
             "max": "5902999999",
             "rules": [
@@ -1053,9 +828,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1064,7 +837,6 @@
             "heading": "5902",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5902000000",
             "max": "5902999999",
             "rules": [
@@ -1073,9 +845,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1084,7 +854,6 @@
             "heading": "5903",
             "chapter": 59,
             "subdivision": "Textile fabrics impregnated, coated, covered or laminated with plastics, other than those of \t\t\t\t\theading 5902",
-            "prefix": "",
             "min": "5903000000",
             "max": "5903999999",
             "rules": [
@@ -1093,9 +862,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1104,7 +871,6 @@
             "heading": "5904",
             "chapter": 59,
             "subdivision": "Linoleum, whether or note cut to shape; floor coverings consisting of a coating or covering \t\t\t\t\tapplied on a textile backing, whether or not cut to shape",
-            "prefix": "",
             "min": "5904000000",
             "max": "5904999999",
             "rules": [
@@ -1113,9 +879,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1124,7 +888,6 @@
             "heading": "5905",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Impregnated, coated, covered or laminated with rubber, plastics or other materials</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5905000000",
             "max": "5905999999",
             "rules": [
@@ -1133,9 +896,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1144,18 +905,15 @@
             "heading": "5905",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5905000000",
             "max": "5905999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1164,18 +922,15 @@
             "heading": "5906",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Knitted or crocheted fabrics</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5906000000",
             "max": "5906999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1184,7 +939,6 @@
             "heading": "5906",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other fabrics made of synthetic filament yarn, containing more than 90% by weight of textile materials</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5906000000",
             "max": "5906999999",
             "rules": [
@@ -1193,9 +947,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1204,7 +956,6 @@
             "heading": "5906",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5906000000",
             "max": "5906999999",
             "rules": [
@@ -1213,9 +964,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1224,7 +973,6 @@
             "heading": "5907",
             "chapter": 59,
             "subdivision": "Textile fabrics otherwise impregnated, coated or covered; painted canvas being theatrical \t\t\t\t\tscenery, studio back-cloths or the like",
-            "prefix": "",
             "min": "5907000000",
             "max": "5907999999",
             "rules": [
@@ -1233,9 +981,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1244,7 +990,6 @@
             "heading": "5908",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Incandescent gas mantles, impregnated</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5908000000",
             "max": "5908999999",
             "rules": [
@@ -1253,9 +998,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1264,7 +1007,6 @@
             "heading": "5908",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5908000000",
             "max": "5908999999",
             "rules": [
@@ -1273,9 +1015,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1284,7 +1024,6 @@
             "heading": "5909 - 5911",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Polishing discs or rings other than of felt of heading 5911 </p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5909000000",
             "max": "5911999999",
             "rules": [
@@ -1293,9 +1032,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1304,18 +1041,15 @@
             "heading": "5909 - 5911",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Woven fabrics, of a kind commonly used in papermaking or other technical uses, felted or not, whether or not impregnated or coated, tubular \t\t\t\t\t\t\t\tor endless with single or multiple warp and/or weft, or flat woven with multiple warp and/or weft of heading 5911 </p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5909000000",
             "max": "5911999999",
             "rules": [
                 {
-                    "rule": "Extrusion of man-made fibres or Spinning of natural *and&nbsp;/&nbsp;or* of man-made staple fibres, in each case accompanied by weaving",
+                    "rule": "Extrusion of man-made fibres or Spinning of natural and/or of man-made staple fibres, in each case accompanied by weaving",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1324,7 +1058,6 @@
             "heading": "5909 - 5911",
             "chapter": 59,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "5909000000",
             "max": "5911999999",
             "rules": [
@@ -1333,9 +1066,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1344,18 +1075,15 @@
             "heading": "Chapter 60",
             "chapter": 60,
             "subdivision": "Knitted or crocheted fabrics",
-            "prefix": "",
             "min": "6000000000",
             "max": "6099999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1364,7 +1092,6 @@
             "heading": "Chapter 61",
             "chapter": 61,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or \t\t\t\t\t\t\t\tobtained directly to form</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6100000000",
             "max": "6199999999",
             "rules": [
@@ -1373,9 +1100,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1384,18 +1109,15 @@
             "heading": "Chapter 61",
             "chapter": 61,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6100000000",
             "max": "6199999999",
             "rules": [
                 {
-                    "rule": "Spinning of natural *and&nbsp;/&nbsp;or* man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting (knitted to shape products)",
+                    "rule": "Spinning of natural and/or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting (knitted to shape products)",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1404,7 +1126,6 @@
             "heading": "ex Chapter 62",
             "chapter": 62,
             "subdivision": "Articles of apparel and clothing accessories, not knitted or crocheted",
-            "prefix": "",
             "min": "6200000000",
             "max": "6299999999",
             "rules": [
@@ -1413,9 +1134,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1424,7 +1143,6 @@
             "heading": "ex 6202",
             "chapter": 62,
             "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered",
-            "prefix": "",
             "min": "6202000000",
             "max": "6202999999",
             "rules": [
@@ -1433,9 +1151,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1444,7 +1160,6 @@
             "heading": "ex 6204",
             "chapter": 62,
             "subdivision": "Women's, girls' and babies' clothing and clothing accessories for babies, embroidered",
-            "prefix": "",
             "min": "6204000000",
             "max": "6204999999",
             "rules": [
@@ -1453,9 +1168,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1464,7 +1177,6 @@
             "heading": "ex 6210",
             "chapter": 62,
             "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester",
-            "prefix": "",
             "min": "6210000000",
             "max": "6219999999",
             "rules": [
@@ -1473,9 +1185,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1484,7 +1194,6 @@
             "heading": "ex 6216",
             "chapter": 62,
             "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester",
-            "prefix": "",
             "min": "6216000000",
             "max": "6216999999",
             "rules": [
@@ -1493,9 +1202,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1504,7 +1211,6 @@
             "heading": "ex 6212",
             "chapter": 62,
             "subdivision": "Knitted or crocheted brassieres, corsets, braces, suspenders, garters and similar articles and \t\t\t\t\tparts thereof",
-            "prefix": "",
             "min": "6212000000",
             "max": "6212999999",
             "rules": [
@@ -1513,9 +1219,7 @@
                     "class": [
                         "PROCESSING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1524,7 +1228,6 @@
             "heading": "6213",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Embroidered</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6213000000",
             "max": "6213999999",
             "rules": [
@@ -1533,9 +1236,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1544,7 +1245,6 @@
             "heading": "6213",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6213000000",
             "max": "6213999999",
             "rules": [
@@ -1553,9 +1253,7 @@
                     "class": [
                         "((PROCESSING AND PROCESSING) RESTRICTION MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1564,7 +1262,6 @@
             "heading": "6214",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Embroidered</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6214000000",
             "max": "6214999999",
             "rules": [
@@ -1573,9 +1270,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1584,7 +1279,6 @@
             "heading": "6214",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6214000000",
             "max": "6214999999",
             "rules": [
@@ -1593,9 +1287,7 @@
                     "class": [
                         "((PROCESSING AND PROCESSING) RESTRICTION MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1604,7 +1296,6 @@
             "heading": "6217",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Embroidered</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6217000000",
             "max": "6217999999",
             "rules": [
@@ -1613,9 +1304,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1624,7 +1313,6 @@
             "heading": "6217",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Fire-resistant equipment of fabric covered with foil of aluminised polyester</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6217000000",
             "max": "6217999999",
             "rules": [
@@ -1633,9 +1321,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1644,7 +1330,6 @@
             "heading": "6217",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Interlinings for collars and cuffs, cut out</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6217000000",
             "max": "6217999999",
             "rules": [
@@ -1653,9 +1338,7 @@
                     "class": [
                         "(CTH AND MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1664,7 +1347,6 @@
             "heading": "6217",
             "chapter": 62,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6217000000",
             "max": "6217999999",
             "rules": [
@@ -1673,9 +1355,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1684,7 +1364,6 @@
             "heading": "6301 - 6304",
             "chapter": 63,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Of felt, of nonwovens</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6301000000",
             "max": "6304999999",
             "rules": [
@@ -1693,9 +1372,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1704,7 +1381,6 @@
             "heading": "6301 - 6304",
             "chapter": 63,
             "subdivision": "- Embroidered",
-            "prefix": "",
             "min": "6301000000",
             "max": "6304999999",
             "rules": [
@@ -1713,9 +1389,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1724,7 +1398,6 @@
             "heading": "6301 - 6304",
             "chapter": 63,
             "subdivision": "- Other",
-            "prefix": "",
             "min": "6301000000",
             "max": "6304999999",
             "rules": [
@@ -1733,9 +1406,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1744,18 +1415,15 @@
             "heading": "6305",
             "chapter": 63,
             "subdivision": "Sacks and bags, of a kind used for the packing of goods",
-            "prefix": "",
             "min": "6305000000",
             "max": "6305999999",
             "rules": [
                 {
-                    "rule": "Extrusion of man-made fibres or spinning of natural *and&nbsp;/&nbsp;or* manmade staple fibres accompanied by weaving or knitting and making-up (including cutting) (7)",
+                    "rule": "Extrusion of man-made fibres or spinning of natural and/or manmade staple fibres accompanied by weaving or knitting and making-up (including cutting) (7)",
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1764,7 +1432,6 @@
             "heading": "6306",
             "chapter": 63,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Of nonwovens</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6306000000",
             "max": "6306999999",
             "rules": [
@@ -1773,9 +1440,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1784,7 +1449,6 @@
             "heading": "6306",
             "chapter": 63,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "6306000000",
             "max": "6306999999",
             "rules": [
@@ -1793,9 +1457,7 @@
                     "class": [
                         "(PROCESSING AND PROCESSING)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1804,7 +1466,6 @@
             "heading": "6307",
             "chapter": 63,
             "subdivision": "Other made-up articles, including dress patterns",
-            "prefix": "",
             "min": "6307000000",
             "max": "6307999999",
             "rules": [
@@ -1813,9 +1474,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1824,7 +1483,6 @@
             "heading": "6308",
             "chapter": 63,
             "subdivision": "Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into \t\t\t\t\trugs, tapestries, embroidered table cloths or serviettes, or similar textile articles, put up in packings for retail sale",
-            "prefix": "",
             "min": "6308000000",
             "max": "6308999999",
             "rules": [
@@ -1833,9 +1491,7 @@
                     "class": [
                         "(SET TOLERANCE (MAY BE USED SET RESTRICTION MAXNOM))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1844,7 +1500,6 @@
             "heading": "ex Chapter 63",
             "chapter": 63,
             "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
-            "prefix": "",
             "min": "6300000000",
             "max": "6399999999",
             "rules": [
@@ -1853,9 +1508,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1864,18 +1517,15 @@
             "heading": "ex Chapter 64",
             "chapter": 64,
             "subdivision": "Footwear, gaiters and the like; parts of such articles",
-            "prefix": "",
             "min": "6400000000",
             "max": "6499999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except from assemblies of uppers affixed to inner soles or to other sole components of heading 6406",
+                    "rule": "Manufacture from materials of any heading, except from assemblies of uppers affixed to inner soles or to other sole components of [heading 6406](/headings/6406)",
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1884,7 +1534,6 @@
             "heading": "6406",
             "chapter": 64,
             "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); \t\t\t\t\tremovable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
-            "prefix": "",
             "min": "6406000000",
             "max": "6406999999",
             "rules": [
@@ -1893,9 +1542,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1904,7 +1551,6 @@
             "heading": "Chapter 65",
             "chapter": 65,
             "subdivision": "Headgear and parts thereof",
-            "prefix": "",
             "min": "6500000000",
             "max": "6599999999",
             "rules": [
@@ -1913,9 +1559,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1924,7 +1568,6 @@
             "heading": "Chapter 66",
             "chapter": 66,
             "subdivision": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof",
-            "prefix": "",
             "min": "6600000000",
             "max": "6699999999",
             "rules": [
@@ -1933,9 +1576,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1944,7 +1585,6 @@
             "heading": "Chapter 67",
             "chapter": 67,
             "subdivision": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; \t\t\t\t\tarticles of human hair",
-            "prefix": "",
             "min": "6700000000",
             "max": "6799999999",
             "rules": [
@@ -1953,9 +1593,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1964,7 +1602,6 @@
             "heading": "ex Chapter 68",
             "chapter": 68,
             "subdivision": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
-            "prefix": "",
             "min": "6800000000",
             "max": "6899999999",
             "rules": [
@@ -1973,9 +1610,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -1984,7 +1619,6 @@
             "heading": "ex 6803",
             "chapter": 68,
             "subdivision": "Articles of slate or of agglomerated slate",
-            "prefix": "",
             "min": "6803000000",
             "max": "6803999999",
             "rules": [
@@ -1993,9 +1627,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2004,7 +1636,6 @@
             "heading": "ex 6812",
             "chapter": 68,
             "subdivision": "Articles of asbestos; articles of mixtures with a basis of asbestos or of mixtures with a basis \t\t\t\t\tof asbestos and magnesium carbonate",
-            "prefix": "",
             "min": "6812000000",
             "max": "6812999999",
             "rules": [
@@ -2013,9 +1644,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2024,7 +1653,6 @@
             "heading": "ex 6814",
             "chapter": 68,
             "subdivision": "Articles of mica, including agglomerated or reconstituted mica, on a support of paper, \t\t\t\t\tpaperboard or other materials",
-            "prefix": "",
             "min": "6814000000",
             "max": "6814999999",
             "rules": [
@@ -2033,9 +1661,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2044,7 +1670,6 @@
             "heading": "Chapter 69",
             "chapter": 69,
             "subdivision": "Ceramic products",
-            "prefix": "",
             "min": "6900000000",
             "max": "6999999999",
             "rules": [
@@ -2053,9 +1678,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2064,7 +1687,6 @@
             "heading": "ex Chapter 70",
             "chapter": 70,
             "subdivision": "Glass and glassware",
-            "prefix": "",
             "min": "7000000000",
             "max": "7099999999",
             "rules": [
@@ -2073,9 +1695,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2084,18 +1704,15 @@
             "heading": "7006",
             "chapter": 70,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p> \t\t\t\t\t\t\t\tGlass-plate substrates, coated with a dielectric thin film, and of a semiconductor grade in accordance with SEMII-standards \t\t\t\t\t\t\t\t<footnote-ref code=\"44\">44</footnote-ref> \t\t\t\t\t\t\t </p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7006000000",
             "max": "7006999999",
             "rules": [
                 {
-                    "rule": "Manufacture from non-coated glass-plate substrate of heading 7006",
+                    "rule": "Manufacture from non-coated glass-plate substrate of [heading 7006](/headings/7006)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2104,18 +1721,15 @@
             "heading": "7006",
             "chapter": 70,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7006000000",
             "max": "7006999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7001",
+                    "rule": "Manufacture from materials of [heading 7001](/headings/7001)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2124,7 +1738,6 @@
             "heading": "7010",
             "chapter": 70,
             "subdivision": "Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind \t\t\t\t\tused for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
-            "prefix": "",
             "min": "7010000000",
             "max": "7019999999",
             "rules": [
@@ -2133,9 +1746,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2144,7 +1755,6 @@
             "heading": "7013",
             "chapter": 70,
             "subdivision": "Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar \t\t\t\t\tpurposes (other than that of heading 7010 or 7018 )",
-            "prefix": "",
             "min": "7013000000",
             "max": "7013999999",
             "rules": [
@@ -2153,9 +1763,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2164,7 +1772,6 @@
             "heading": "ex Chapter 71",
             "chapter": 71,
             "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with \t\t\t\t\tprecious metal, and articles thereof; imitation jewellery; coin",
-            "prefix": "",
             "min": "7100000000",
             "max": "7199999999",
             "rules": [
@@ -2173,9 +1780,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2184,7 +1789,6 @@
             "heading": "7106",
             "chapter": 71,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Unwrought</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7106000000",
             "max": "7106999999",
             "rules": [
@@ -2193,9 +1797,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2204,7 +1806,6 @@
             "heading": "7106",
             "chapter": 71,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Semi-manufactured or in powder form</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7106000000",
             "max": "7106999999",
             "rules": [
@@ -2213,9 +1814,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2224,7 +1823,6 @@
             "heading": "7108",
             "chapter": 71,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Unwrought</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7108000000",
             "max": "7108999999",
             "rules": [
@@ -2233,9 +1831,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2244,7 +1840,6 @@
             "heading": "7108",
             "chapter": 71,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Semi-manufactured or in powder form</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7108000000",
             "max": "7108999999",
             "rules": [
@@ -2253,9 +1848,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2264,7 +1857,6 @@
             "heading": "ex 7107",
             "chapter": 71,
             "subdivision": "Metals clad with precious metals, semi-manufactured",
-            "prefix": "",
             "min": "7107000000",
             "max": "7107999999",
             "rules": [
@@ -2273,9 +1865,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2284,7 +1874,6 @@
             "heading": "ex 7109",
             "chapter": 71,
             "subdivision": "Metals clad with precious metals, semi-manufactured",
-            "prefix": "",
             "min": "7109000000",
             "max": "7109999999",
             "rules": [
@@ -2293,9 +1882,7 @@
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2304,7 +1891,6 @@
             "heading": "7115",
             "chapter": 71,
             "subdivision": "Other articles of precious metal or of metal clad with precious metal",
-            "prefix": "",
             "min": "7115000000",
             "max": "7115999999",
             "rules": [
@@ -2313,9 +1899,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2324,7 +1908,6 @@
             "heading": "7117",
             "chapter": 71,
             "subdivision": "Imitation jewellery",
-            "prefix": "",
             "min": "7117000000",
             "max": "7117999999",
             "rules": [
@@ -2333,9 +1916,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2344,7 +1925,6 @@
             "heading": "ex Chapter 72",
             "chapter": 72,
             "subdivision": "Iron and steel",
-            "prefix": "",
             "min": "7200000000",
             "max": "7299999999",
             "rules": [
@@ -2353,9 +1933,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2364,18 +1942,15 @@
             "heading": "7207",
             "chapter": 72,
             "subdivision": "Semi-finished products of iron or non-alloy steel",
-            "prefix": "",
             "min": "7207000000",
             "max": "7207999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7201, 7202, 7203, 7204, 7205 or 7206",
+                    "rule": "Manufacture from materials of [heading 7201](/headings/7201), [heading 7202](/headings/7202) , 7203, 7204, 7205 or [heading 7206](/headings/7206) ",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2384,18 +1959,15 @@
             "heading": "7208 - 7216",
             "chapter": 72,
             "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
-            "prefix": "",
             "min": "7208000000",
             "max": "7216999999",
             "rules": [
                 {
-                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of heading 7206 or 7207",
+                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading 7206](/headings/7206) or [heading 7207](/headings/7207) ",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2404,18 +1976,15 @@
             "heading": "7217",
             "chapter": 72,
             "subdivision": "Wire of iron or non-alloy steel",
-            "prefix": "",
             "min": "7217000000",
             "max": "7217999999",
             "rules": [
                 {
-                    "rule": "Manufacture from semi-finished materials of heading 7207",
+                    "rule": "Manufacture from semi-finished materials of [heading 7207](/headings/7207)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2424,18 +1993,15 @@
             "heading": "721891",
             "chapter": 72,
             "subdivision": "Semi-finished products",
-            "prefix": "",
             "min": "7218910000",
             "max": "7218919999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7201, 7202, 7203, 7204, 7205 or subheading 721810",
+                    "rule": "Manufacture from materials of [heading 7201](/headings/7201), [heading 7202](/headings/7202) , 7203, 7204, 7205 or subheading 721810",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2444,18 +2010,15 @@
             "heading": "721899",
             "chapter": 72,
             "subdivision": "Semi-finished products",
-            "prefix": "",
             "min": "7218990000",
             "max": "7218999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7201, 7202, 7203, 7204, 7205 or subheading 721810",
+                    "rule": "Manufacture from materials of [heading 7201](/headings/7201), [heading 7202](/headings/7202) , 7203, 7204, 7205 or subheading 721810",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2464,18 +2027,15 @@
             "heading": "7219 - 7222",
             "chapter": 72,
             "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
-            "prefix": "",
             "min": "7219000000",
             "max": "7222999999",
             "rules": [
                 {
-                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of heading 7218",
+                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading 7218](/headings/7218)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2484,18 +2044,15 @@
             "heading": "7223",
             "chapter": 72,
             "subdivision": "Wire of stainless steel",
-            "prefix": "",
             "min": "7223000000",
             "max": "7223999999",
             "rules": [
                 {
-                    "rule": "Manufacture from semi-finished materials of heading 7218",
+                    "rule": "Manufacture from semi-finished materials of [heading 7218](/headings/7218)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2504,18 +2061,15 @@
             "heading": "722490",
             "chapter": 72,
             "subdivision": "Semi-finished products",
-            "prefix": "",
             "min": "7224900000",
             "max": "7224999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7201, 7202, 7203, 7204, 7205 or subheading 722410",
+                    "rule": "Manufacture from materials of [heading 7201](/headings/7201), [heading 7202](/headings/7202) , 7203, 7204, 7205 or subheading 722410",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2524,18 +2078,15 @@
             "heading": "7225 - 7228",
             "chapter": 72,
             "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and \t\t\t\t\tsections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
-            "prefix": "",
             "min": "7225000000",
             "max": "7228999999",
             "rules": [
                 {
-                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of heading 7206, 7207, 7218 or 7224",
+                    "rule": "Manufacture from ingots or other primary forms or semi-finished materials of [heading 7206](/headings/7206), [heading 7207](/headings/7207) , 7218 or [heading 7224](/headings/7224) ",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2544,18 +2095,15 @@
             "heading": "7229",
             "chapter": 72,
             "subdivision": "Wire of other alloy steel",
-            "prefix": "",
             "min": "7229000000",
             "max": "7229999999",
             "rules": [
                 {
-                    "rule": "Manufacture from semi-finished materials of heading 7224",
+                    "rule": "Manufacture from semi-finished materials of [heading 7224](/headings/7224)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2564,7 +2112,6 @@
             "heading": "ex Chapter 73",
             "chapter": 73,
             "subdivision": "Articles of iron or steel",
-            "prefix": "",
             "min": "7300000000",
             "max": "7399999999",
             "rules": [
@@ -2573,9 +2120,24 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "ex Chapter 73",
+            "chapter": 73,
+            "subdivision": "Articles of iron or steel",
+            "min": "7300000000",
+            "max": "7399999999",
+            "rules": [
+                {
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2584,18 +2146,15 @@
             "heading": "ex 7301",
             "chapter": 73,
             "subdivision": "Sheet piling",
-            "prefix": "",
             "min": "7301000000",
             "max": "7301999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7206",
+                    "rule": "Manufacture from materials of [heading 7206](/headings/7206)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2604,18 +2163,15 @@
             "heading": "7302",
             "chapter": 73,
             "subdivision": "Railway or tramway track construction material of iron or steel, the following: rails, \t\t\t\t\tcheck-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, \t\t\t\t\tchair wedges, sole pates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails",
-            "prefix": "",
             "min": "7302000000",
             "max": "7302999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7206",
+                    "rule": "Manufacture from materials of [heading 7206](/headings/7206)",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2624,18 +2180,15 @@
             "heading": "7304",
             "chapter": 73,
             "subdivision": "Tubes, pipes and hollow profiles, of iron (other than cast iron) or steel",
-            "prefix": "",
             "min": "7304000000",
             "max": "7304999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7206, 7207, 7218 or 7224",
+                    "rule": "Manufacture from materials of [heading 7206](/headings/7206), [heading 7207](/headings/7207) , 7218 or [heading 7224](/headings/7224) ",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2644,18 +2197,15 @@
             "heading": "7305",
             "chapter": 73,
             "subdivision": "Tubes, pipes and hollow profiles, of iron (other than cast iron) or steel",
-            "prefix": "",
             "min": "7305000000",
             "max": "7305999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of heading 7206, 7207, 7218 or 7224",
+                    "rule": "Manufacture from materials of [heading 7206](/headings/7206), [heading 7207](/headings/7207) , 7218 or [heading 7224](/headings/7224) ",
                     "class": [
                         "PRODUCTION FROM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2664,7 +2214,6 @@
             "heading": "ex 7307",
             "chapter": 73,
             "subdivision": "Tube or pipe fittings of stainless steel (ISO No X5CrNiMo 1712 ), consisting of several parts",
-            "prefix": "",
             "min": "7307000000",
             "max": "7307999999",
             "rules": [
@@ -2673,9 +2222,7 @@
                     "class": [
                         "(PROCESSING RESTRICTION MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2684,18 +2231,15 @@
             "heading": "7308",
             "chapter": 73,
             "subdivision": "Structures (excluding prefabricated buildings of heading 9406 ) and parts of structures (for \t\t\t\t\texample, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and \t\t\t\t\tthresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, \t\t\t\t\tprepared for use in structures, of iron or steel",
-            "prefix": "",
             "min": "7308000000",
             "max": "7308999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, welded angles, shapes and sections of heading 7301 may not be used",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, welded angles, shapes and sections of [heading 7301](/headings/7301) may not be used",
                     "class": [
                         "(CTH RESTRICTION MAY NOT BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2704,18 +2248,15 @@
             "heading": "ex 7315",
             "chapter": 73,
             "subdivision": "Skid chain",
-            "prefix": "",
             "min": "7315000000",
             "max": "7315999999",
             "rules": [
                 {
-                    "rule": "Manufacture in which the value of all the materials of heading 7315 used does not exceed **50%** of the ex-works price of the product",
+                    "rule": "Manufacture in which the value of all the materials of [heading 7315](/headings/7315) used does not exceed **50%** of the ex-works price of the product",
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2724,7 +2265,6 @@
             "heading": "ex Chapter 74",
             "chapter": 74,
             "subdivision": "Copper and articles thereof",
-            "prefix": "",
             "min": "7400000000",
             "max": "7499999999",
             "rules": [
@@ -2733,9 +2273,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2744,7 +2282,6 @@
             "heading": "7403",
             "chapter": 74,
             "subdivision": "Refined copper and copper alloys, unwrought",
-            "prefix": "",
             "min": "7403000000",
             "max": "7403999999",
             "rules": [
@@ -2753,9 +2290,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2764,7 +2299,6 @@
             "heading": "Chapter 75",
             "chapter": 75,
             "subdivision": "Nickel and articles thereof",
-            "prefix": "",
             "min": "7500000000",
             "max": "7599999999",
             "rules": [
@@ -2773,9 +2307,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2784,7 +2316,6 @@
             "heading": "7601",
             "chapter": 76,
             "subdivision": "Unwrought aluminium",
-            "prefix": "",
             "min": "7601000000",
             "max": "7601999999",
             "rules": [
@@ -2793,9 +2324,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2804,7 +2333,6 @@
             "heading": "ex Chapter 76",
             "chapter": 76,
             "subdivision": "Aluminium and articles thereof",
-            "prefix": "",
             "min": "7600000000",
             "max": "7699999999",
             "rules": [
@@ -2813,9 +2341,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2824,18 +2350,15 @@
             "heading": "7607",
             "chapter": 76,
             "subdivision": "Aluminium foil (whether or not printed or backed with paper, paperboard, plastics or similar \t\t\t\t\tbacking materials) of a thickness (excluding any backing) not exceeding 0,2 mm",
-            "prefix": "",
             "min": "7607000000",
             "max": "7607999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product and heading 7606",
+                    "rule": "Manufacture from materials of any heading, except that of the product and [heading 7606](/headings/7606)",
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2844,7 +2367,6 @@
             "heading": "7801",
             "chapter": 78,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Refined lead</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7801000000",
             "max": "7801999999",
             "rules": [
@@ -2853,9 +2375,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2864,18 +2384,15 @@
             "heading": "7801",
             "chapter": 78,
             "subdivision": "<ul xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> \t\t\t\t\t\t <li> \t\t\t\t\t\t\t <p>Other</p> \t\t\t\t\t\t </li> \t\t\t\t\t </ul>",
-            "prefix": "",
             "min": "7801000000",
             "max": "7801999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, waste and scrap of heading 7802 may not be used",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, waste and scrap of [heading 7802](/headings/7802) may not be used",
                     "class": [
                         "(CTH RESTRICTION MAY NOT BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2884,7 +2401,6 @@
             "heading": "ex Chapter 78",
             "chapter": 78,
             "subdivision": "Lead and articles thereof",
-            "prefix": "",
             "min": "7800000000",
             "max": "7899999999",
             "rules": [
@@ -2893,9 +2409,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2904,7 +2418,6 @@
             "heading": "Chapter 79",
             "chapter": 79,
             "subdivision": "Zinc and articles thereof:",
-            "prefix": "",
             "min": "7900000000",
             "max": "7999999999",
             "rules": [
@@ -2913,9 +2426,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2924,7 +2435,6 @@
             "heading": "Chapter 80",
             "chapter": 80,
             "subdivision": "Tin and articles thereof",
-            "prefix": "",
             "min": "8000000000",
             "max": "8099999999",
             "rules": [
@@ -2933,9 +2443,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2944,7 +2452,6 @@
             "heading": "Chapter 81",
             "chapter": 81,
             "subdivision": "Other base metals; cermets; articles thereof",
-            "prefix": "",
             "min": "8100000000",
             "max": "8199999999",
             "rules": [
@@ -2953,9 +2460,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2964,7 +2469,6 @@
             "heading": "ex Chapter 82",
             "chapter": 82,
             "subdivision": "Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal; except \t\t\t\t\tfor:",
-            "prefix": "",
             "min": "8200000000",
             "max": "8299999999",
             "rules": [
@@ -2973,9 +2477,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -2984,7 +2486,6 @@
             "heading": "8206",
             "chapter": 82,
             "subdivision": "Tools of two or more of the headings 8202 to 8205, put up in sets for retail sale",
-            "prefix": "",
             "min": "8206000000",
             "max": "8206999999",
             "rules": [
@@ -2993,9 +2494,7 @@
                     "class": [
                         "(AH EXCEPT TOLERANCE (MAY BE USED SET RESTRICTION MAXNOM))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3004,7 +2503,6 @@
             "heading": "8207",
             "chapter": 82,
             "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for \t\t\t\t\texample, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning, or screwdriving), including dies \t\t\t\t\tfor drawing or extruding metal, and rock drilling or earth boring tools",
-            "prefix": "",
             "min": "8207000000",
             "max": "8207999999",
             "rules": [
@@ -3013,9 +2511,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3024,7 +2520,6 @@
             "heading": "8208",
             "chapter": 82,
             "subdivision": "Knives and cutting blades, for machines or for mechanical appliances",
-            "prefix": "",
             "min": "8208000000",
             "max": "8208999999",
             "rules": [
@@ -3033,9 +2528,7 @@
                     "class": [
                         "(CTH AND MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3044,7 +2537,6 @@
             "heading": "8211",
             "chapter": 82,
             "subdivision": "Knives with cutting blades, serrated or not (including pruning knives), other than knives of \t\t\t\t\theading 8208",
-            "prefix": "",
             "min": "8211000000",
             "max": "8211999999",
             "rules": [
@@ -3053,9 +2545,7 @@
                     "class": [
                         "(CTH TOLERANCE MAY BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3064,7 +2554,6 @@
             "heading": "8214",
             "chapter": 82,
             "subdivision": "Other articles of cutlery (for example, hair clippers, butchers' or kitchen cleavers, choppers \t\t\t\t\tand mincing knives, paper knives); manicure or pedicure sets and instruments (including nail files)",
-            "prefix": "",
             "min": "8214000000",
             "max": "8214999999",
             "rules": [
@@ -3073,9 +2562,7 @@
                     "class": [
                         "(CTH TOLERANCE MAY BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3084,7 +2571,6 @@
             "heading": "8215",
             "chapter": 82,
             "subdivision": "Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and \t\t\t\t\tsimilar kitchen or tableware",
-            "prefix": "",
             "min": "8215000000",
             "max": "8215999999",
             "rules": [
@@ -3093,9 +2579,7 @@
                     "class": [
                         "(CTH TOLERANCE MAY BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3104,7 +2588,6 @@
             "heading": "ex Chapter 83",
             "chapter": 83,
             "subdivision": "Miscellaneous articles of base metal",
-            "prefix": "",
             "min": "8300000000",
             "max": "8399999999",
             "rules": [
@@ -3113,9 +2596,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3124,18 +2605,15 @@
             "heading": "ex 8302",
             "chapter": 83,
             "subdivision": "Other mountings, fittings and similar articles suitable for buildings, and automatic door \t\t\t\t\tclosers",
-            "prefix": "",
             "min": "8302000000",
             "max": "8302999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, other materials of heading 8302 may be used, provided that their total value does not exceed **20%** of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, other materials of [heading 8302](/headings/8302) may be used, provided that their total value does not exceed **20%** of the ex-works price of the product",
                     "class": [
                         "(CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3144,18 +2622,15 @@
             "heading": "ex 8306",
             "chapter": 83,
             "subdivision": "Statuettes and other ornaments, of base metal",
-            "prefix": "",
             "min": "8306000000",
             "max": "8306999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product. However, other materials of heading 8306 may be used, provided that their total value does not exceed **30%** of the ex-works price of the product",
+                    "rule": "Manufacture from materials of any heading, except that of the product. However, other materials of [heading 8306](/headings/8306) may be used, provided that their total value does not exceed **30%** of the ex-works price of the product",
                     "class": [
                         "(CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3164,7 +2639,6 @@
             "heading": "8401",
             "chapter": 84,
             "subdivision": "Nuclear reactors; fuel elements (cartridges), non-irradiated, for nuclear reactors; machinery \t\t\t\t\tand apparatus for isotopic separation",
-            "prefix": "",
             "min": "8401000000",
             "max": "8401999999",
             "rules": [
@@ -3173,9 +2647,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3184,7 +2656,6 @@
             "heading": "ex Chapter 84",
             "chapter": 84,
             "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
-            "prefix": "",
             "min": "8400000000",
             "max": "8499999999",
             "rules": [
@@ -3193,9 +2664,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3204,7 +2673,6 @@
             "heading": "8407",
             "chapter": 84,
             "subdivision": "Spark-ignition reciprocating or rotary internal combustion piston engines",
-            "prefix": "",
             "min": "8407000000",
             "max": "8407999999",
             "rules": [
@@ -3213,9 +2681,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3224,7 +2690,6 @@
             "heading": "8408",
             "chapter": 84,
             "subdivision": "Compression-ignition internal combustion piston engines (diesel or semi-diesel engines",
-            "prefix": "",
             "min": "8408000000",
             "max": "8408999999",
             "rules": [
@@ -3233,9 +2698,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3244,7 +2707,6 @@
             "heading": "8410",
             "chapter": 84,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Hydraulic turbines, water wheels, and regulators therefor</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Turbojets, turbo-propellers and other gas turbines;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">other engines and motors;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Pumps for liquids, whether or not fitted with a measuring device; liquid elevators</p>",
-            "prefix": "",
             "min": "8410000000",
             "max": "8419999999",
             "rules": [
@@ -3253,9 +2715,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3264,7 +2724,6 @@
             "heading": "8411",
             "chapter": 84,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Hydraulic turbines, water wheels, and regulators therefor</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Turbojets, turbo-propellers and other gas turbines;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">other engines and motors;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Pumps for liquids, whether or not fitted with a measuring device; liquid elevators</p>",
-            "prefix": "",
             "min": "8411000000",
             "max": "8411999999",
             "rules": [
@@ -3273,9 +2732,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3284,7 +2741,6 @@
             "heading": "8427",
             "chapter": 84,
             "subdivision": "Fork-lift trucks; other works trucks fitted with lifting or handling equipment",
-            "prefix": "",
             "min": "8427000000",
             "max": "8427999999",
             "rules": [
@@ -3293,9 +2749,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3304,7 +2758,6 @@
             "heading": "8431",
             "chapter": 84,
             "subdivision": "Parts suitable for use solely or principally with the machinery of headings 8425 to 8430",
-            "prefix": "",
             "min": "8431000000",
             "max": "8431999999",
             "rules": [
@@ -3313,9 +2766,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3324,7 +2775,6 @@
             "heading": "8443",
             "chapter": 84,
             "subdivision": "Printing machinery",
-            "prefix": "",
             "min": "8443000000",
             "max": "8443999999",
             "rules": [
@@ -3333,9 +2783,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3344,7 +2792,6 @@
             "heading": "8452",
             "chapter": 84,
             "subdivision": "Sewing machines, other than book-sewing machines of heading 8440; furniture, bases and covers \t\t\t\t\tspecially designed for sewing machines; sewing machine needles",
-            "prefix": "",
             "min": "8452000000",
             "max": "8452999999",
             "rules": [
@@ -3353,9 +2800,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3364,7 +2809,6 @@
             "heading": "8482",
             "chapter": 84,
             "subdivision": "Ball or roller bearings",
-            "prefix": "",
             "min": "8482000000",
             "max": "8482999999",
             "rules": [
@@ -3373,9 +2817,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3384,7 +2826,6 @@
             "heading": "8483",
             "chapter": 84,
             "subdivision": "Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and \t\t\t\t\tplain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and \t\t\t\t\tpulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
-            "prefix": "",
             "min": "8483000000",
             "max": "8483999999",
             "rules": [
@@ -3393,9 +2834,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3404,7 +2843,6 @@
             "heading": "8486",
             "chapter": 84,
             "subdivision": "Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor \t\t\t\t\tboules or wafers, semiconductor devices, electronic integrated circuits or flat panel displays; parts and accessories",
-            "prefix": "",
             "min": "8486000000",
             "max": "8486999999",
             "rules": [
@@ -3413,9 +2851,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3424,18 +2860,15 @@
             "heading": "8501",
             "chapter": 85,
             "subdivision": "Electric motors and generators (excluding generating sets)",
-            "prefix": "",
             "min": "8501000000",
             "max": "8501999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, except that of the product and of heading 8503",
+                    "rule": "Manufacture from materials of any heading, except that of the product and of [heading 8503](/headings/8503)",
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3444,7 +2877,6 @@
             "heading": "ex Chapter 85",
             "chapter": 85,
             "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, \t\t\t\t\ttelevision image and sound recorders and reproducers, and parts and accessories of such articles",
-            "prefix": "",
             "min": "8500000000",
             "max": "8599999999",
             "rules": [
@@ -3453,9 +2885,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3464,7 +2894,6 @@
             "heading": "8504",
             "chapter": 85,
             "subdivision": "Power supply units for automatic data-processing machines",
-            "prefix": "",
             "min": "8504000000",
             "max": "8504999999",
             "rules": [
@@ -3473,9 +2902,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3484,7 +2911,6 @@
             "heading": "8506",
             "chapter": 85,
             "subdivision": "Primary cells and primary batteries",
-            "prefix": "",
             "min": "8506000000",
             "max": "8506999999",
             "rules": [
@@ -3493,9 +2919,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3504,7 +2928,6 @@
             "heading": "8507",
             "chapter": 85,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Electric accumulators, including separators therefor, whether or not rectangular (including square);</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), \t\t\t\t\t\tother than lighting equipment of heading 8512 </p>",
-            "prefix": "",
             "min": "8507000000",
             "max": "8507999999",
             "rules": [
@@ -3513,9 +2936,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3524,7 +2945,6 @@
             "heading": "8513",
             "chapter": 85,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Electric accumulators, including separators therefor, whether or not rectangular (including square);</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), \t\t\t\t\t\tother than lighting equipment of heading 8512 </p>",
-            "prefix": "",
             "min": "8513000000",
             "max": "8513999999",
             "rules": [
@@ -3533,9 +2953,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3544,7 +2962,6 @@
             "heading": "8517 69",
             "chapter": 85,
             "subdivision": "Other apparatus for the transmission or reception of voice, images or other data, including \t\t\t\t\tapparatus for communication in a wireless network (such as a local or wide area network), other than transmission or reception apparatus of \t\t\t\t\theadings 8443, 8525, 8527 or 8528",
-            "prefix": "",
             "min": "8517690000",
             "max": "8517699999",
             "rules": [
@@ -3553,9 +2970,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3564,7 +2979,6 @@
             "heading": "8518",
             "chapter": 85,
             "subdivision": "Microphones and stands therefore; loudspeakers, whether or not mounted in their enclosures; \t\t\t\t\taudio-frequency electric amplifiers; electric sound amplifier sets",
-            "prefix": "",
             "min": "8518000000",
             "max": "8518999999",
             "rules": [
@@ -3573,9 +2987,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3584,7 +2996,6 @@
             "heading": "8519",
             "chapter": 85,
             "subdivision": "Sound recording and sound reproducing apparatus",
-            "prefix": "",
             "min": "8519000000",
             "max": "8519999999",
             "rules": [
@@ -3593,9 +3004,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3604,7 +3013,6 @@
             "heading": "8521",
             "chapter": 85,
             "subdivision": "Video recording or reproducing apparatus, whether or not incorporating a video tuner",
-            "prefix": "",
             "min": "8521000000",
             "max": "8521999999",
             "rules": [
@@ -3613,9 +3021,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3624,7 +3030,6 @@
             "heading": "8522",
             "chapter": 85,
             "subdivision": "Parts and accessories suitable for use solely or principally with the apparatus of headings 8519 \t\t\t\t\tto 8521",
-            "prefix": "",
             "min": "8522000000",
             "max": "8522999999",
             "rules": [
@@ -3633,9 +3038,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3644,7 +3047,6 @@
             "heading": "8523",
             "chapter": 85,
             "subdivision": "Discs, tapes, solid-state non-volatile storage devices,smart cardsand other media for the \t\t\t\t\trecording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding \t\t\t\t\tproducts of Chapter 37",
-            "prefix": "",
             "min": "8523000000",
             "max": "8523999999",
             "rules": [
@@ -3653,9 +3055,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3664,7 +3064,6 @@
             "heading": "8525",
             "chapter": 85,
             "subdivision": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating \t\t\t\t\treception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders",
-            "prefix": "",
             "min": "8525000000",
             "max": "8525999999",
             "rules": [
@@ -3673,9 +3072,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3684,7 +3081,6 @@
             "heading": "8526",
             "chapter": 85,
             "subdivision": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus",
-            "prefix": "",
             "min": "8526000000",
             "max": "8526999999",
             "rules": [
@@ -3693,9 +3089,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3704,7 +3098,6 @@
             "heading": "8527",
             "chapter": 85,
             "subdivision": "Reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with \t\t\t\t\tsound recording or reproducing apparatus or a clock",
-            "prefix": "",
             "min": "8527000000",
             "max": "8527999999",
             "rules": [
@@ -3713,9 +3106,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3724,7 +3115,6 @@
             "heading": "8528",
             "chapter": 85,
             "subdivision": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus \t\t\t\t\tfor television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus",
-            "prefix": "",
             "min": "8528000000",
             "max": "8528999999",
             "rules": [
@@ -3733,9 +3123,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3744,7 +3132,6 @@
             "heading": "8529",
             "chapter": 85,
             "subdivision": "Parts suitable for use solely or principally with the apparatus of headings 8525 to 8528:",
-            "prefix": "",
             "min": "8529000000",
             "max": "8529999999",
             "rules": [
@@ -3753,9 +3140,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3764,7 +3149,6 @@
             "heading": "8535 - 8537",
             "chapter": 85,
             "subdivision": "Electrical apparatus for switching or protecting electrical circuits, or for making connections \t\t\t\t\tto or in electrical circuits; connectors for optical fibres, optical fibre bundles or cables; boards, panels, consoles, desks, cabinets and other \t\t\t\t\tbases, for electric control or the distribution of electricity",
-            "prefix": "",
             "min": "8535000000",
             "max": "8537999999",
             "rules": [
@@ -3773,49 +3157,7 @@
                     "class": [
                         "AH EXCEPT"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "8543",
-            "chapter": 85,
-            "subdivision": "Electrical machines and apparatus, having individual functions, not specified or included \t\t\t\t\telsewhere in this chapter",
-            "prefix": "",
-            "min": "8543000000",
-            "max": "8543999999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product",
-                    "class": [
-                        "CTH"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
-                }
-            ],
-            "valid": true
-        },
-        {
-            "heading": "Chapter 94",
-            "chapter": 85,
-            "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; \t\t\t\t\tlamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated \t\t\t\t\tbuildings",
-            "prefix": "",
-            "min": "8500000000",
-            "max": "8599999999",
-            "rules": [
-                {
-                    "rule": "Manufacture from materials of any heading, except that of the product",
-                    "class": [
-                        "CTH"
-                    ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3824,7 +3166,6 @@
             "heading": "854011",
             "chapter": 85,
             "subdivision": "Cathode ray television picture tubes, including video monitor cathode ray tubes",
-            "prefix": "",
             "min": "8540110000",
             "max": "8540119999",
             "rules": [
@@ -3833,9 +3174,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3844,7 +3183,6 @@
             "heading": "854012",
             "chapter": 85,
             "subdivision": "Cathode ray television picture tubes, including video monitor cathode ray tubes",
-            "prefix": "",
             "min": "8540120000",
             "max": "8540129999",
             "rules": [
@@ -3853,9 +3191,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3864,7 +3200,6 @@
             "heading": "8542 31 - 8542 33",
             "chapter": 85,
             "subdivision": "Monolithic integrated circuits",
-            "prefix": "",
             "min": "8542310000",
             "max": "8542339999",
             "rules": [
@@ -3873,9 +3208,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3884,7 +3217,6 @@
             "heading": "8542 39",
             "chapter": 85,
             "subdivision": "Monolithic integrated circuits",
-            "prefix": "",
             "min": "8542390000",
             "max": "8542399999",
             "rules": [
@@ -3893,9 +3225,24 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8543",
+            "chapter": 85,
+            "subdivision": "Electrical machines and apparatus, having individual functions, not specified or included \t\t\t\t\telsewhere in this chapter",
+            "min": "8543000000",
+            "max": "8543999999",
+            "rules": [
+                {
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3904,7 +3251,6 @@
             "heading": "8544",
             "chapter": 85,
             "subdivision": "Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other \t\t\t\t\tinsulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or \t\t\t\t\tnot assembled with electric conductors or fitted with connectors",
-            "prefix": "",
             "min": "8544000000",
             "max": "8544999999",
             "rules": [
@@ -3913,9 +3259,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3924,7 +3268,6 @@
             "heading": "8545",
             "chapter": 85,
             "subdivision": "Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite \t\t\t\t\tor other carbon, with or without metal, of a kind used for electrical purposes",
-            "prefix": "",
             "min": "8545000000",
             "max": "8545999999",
             "rules": [
@@ -3933,9 +3276,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3944,7 +3285,6 @@
             "heading": "8546",
             "chapter": 85,
             "subdivision": "Electrical insulators of any material",
-            "prefix": "",
             "min": "8546000000",
             "max": "8546999999",
             "rules": [
@@ -3953,9 +3293,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3964,7 +3302,6 @@
             "heading": "8547",
             "chapter": 85,
             "subdivision": "Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of \t\t\t\t\tinsulating materials apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of \t\t\t\t\tassembly, other than insulators of heading 8546; electrical conduit tubing and joints therefor, of base metal lined with insulating material",
-            "prefix": "",
             "min": "8547000000",
             "max": "8547999999",
             "rules": [
@@ -3973,9 +3310,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -3984,7 +3319,6 @@
             "heading": "8548",
             "chapter": 85,
             "subdivision": "- Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary \t\t\t\t\tcells, spent primary batteries and spent electric accumulators; electrical parts of machinery or apparatus, not specified or included elsewhere \t\t\t\t\tin this Chapter",
-            "prefix": "",
             "min": "8548000000",
             "max": "8548999999",
             "rules": [
@@ -3993,9 +3327,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4004,7 +3336,6 @@
             "heading": "ex Chapter 86",
             "chapter": 86,
             "subdivision": "Railway or tramway locomotives, rolling-stock and parts thereof; railway or tramway track \t\t\t\t\tfixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",
-            "prefix": "",
             "min": "8600000000",
             "max": "8699999999",
             "rules": [
@@ -4013,9 +3344,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4024,7 +3353,6 @@
             "heading": "ex Chapter 87",
             "chapter": 87,
             "subdivision": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof; except \t\t\t\t\tfor:",
-            "prefix": "",
             "min": "8700000000",
             "max": "8799999999",
             "rules": [
@@ -4033,9 +3361,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4044,7 +3370,6 @@
             "heading": "8711",
             "chapter": 87,
             "subdivision": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without \t\t\t\t\tside-cars; side-cars:",
-            "prefix": "",
             "min": "8711000000",
             "max": "8711999999",
             "rules": [
@@ -4053,9 +3378,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4064,7 +3387,6 @@
             "heading": "8714",
             "chapter": 87,
             "subdivision": "Parts and accessories of vehicles of headings 8711 to 8713:",
-            "prefix": "",
             "min": "8714000000",
             "max": "8714999999",
             "rules": [
@@ -4073,9 +3395,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4084,7 +3404,6 @@
             "heading": "ex Chapter 88",
             "chapter": 88,
             "subdivision": "Aircraft, spacecraft, and parts thereof",
-            "prefix": "",
             "min": "8800000000",
             "max": "8899999999",
             "rules": [
@@ -4093,9 +3412,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4104,18 +3421,15 @@
             "heading": "ex 8804",
             "chapter": 88,
             "subdivision": "Rotochutes",
-            "prefix": "",
             "min": "8804000000",
             "max": "8804999999",
             "rules": [
                 {
-                    "rule": "Manufacture from materials of any heading, including other materials of heading 8804",
+                    "rule": "Manufacture from materials of any heading, including other materials of [heading 8804](/headings/8804)",
                     "class": [
                         "AH INCLUDING"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4124,7 +3438,6 @@
             "heading": "Chapter 89",
             "chapter": 89,
             "subdivision": "Ships, boats and floating structures",
-            "prefix": "",
             "min": "8900000000",
             "max": "8999999999",
             "rules": [
@@ -4133,9 +3446,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4144,7 +3455,6 @@
             "heading": "ex Chapter 90",
             "chapter": 90,
             "subdivision": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical \t\t\t\t\tinstruments and apparatus; parts and accessories thereof",
-            "prefix": "",
             "min": "9000000000",
             "max": "9099999999",
             "rules": [
@@ -4153,9 +3463,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4164,7 +3472,6 @@
             "heading": "9002",
             "chapter": 90,
             "subdivision": "Lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or \t\t\t\t\tfittings for instruments or apparatus, other than such elements of glass not optically worked",
-            "prefix": "",
             "min": "9002000000",
             "max": "9002999999",
             "rules": [
@@ -4173,9 +3480,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4184,7 +3489,6 @@
             "heading": "9005",
             "chapter": 90,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Binoculars, monoculars, other optical telescopes and mounting thereof, other astronomical instruments and mounting thereof;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Photographic cameras, photographic flashlight apparatus and flashbulbs</p>",
-            "prefix": "",
             "min": "9005000000",
             "max": "9005999999",
             "rules": [
@@ -4193,9 +3497,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4204,7 +3506,6 @@
             "heading": "9006",
             "chapter": 90,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Binoculars, monoculars, other optical telescopes and mounting thereof, other astronomical instruments and mounting thereof;</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Photographic cameras, photographic flashlight apparatus and flashbulbs</p>",
-            "prefix": "",
             "min": "9006000000",
             "max": "9006999999",
             "rules": [
@@ -4213,9 +3514,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4224,7 +3523,6 @@
             "heading": "9011",
             "chapter": 90,
             "subdivision": "Compound optical microscopes including those for photomicrography, cinematography or \t\t\t\t\tmicroprojection",
-            "prefix": "",
             "min": "9011000000",
             "max": "9011999999",
             "rules": [
@@ -4233,9 +3531,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4244,7 +3540,6 @@
             "heading": "9013",
             "chapter": 90,
             "subdivision": "Liquid crystal devices not constituting articles provided for more specifically in other \t\t\t\t\theadings, lasers other than diodes, other optical appliances and instruments not specified or included elsewhere else in this chapter",
-            "prefix": "",
             "min": "9013000000",
             "max": "9013999999",
             "rules": [
@@ -4253,9 +3548,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4264,7 +3557,6 @@
             "heading": "9016",
             "chapter": 90,
             "subdivision": "Balances of sensitivity of 5 cg or better, with or without weights.",
-            "prefix": "",
             "min": "9016000000",
             "max": "9016999999",
             "rules": [
@@ -4273,9 +3565,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4284,7 +3574,6 @@
             "heading": "9025",
             "chapter": 90,
             "subdivision": "Hydrometers and similar instruments, thermometers, pyrometers, barometers, hygrometers and \t\t\t\t\tpsychrometers, recording or not, and any combination of these instruments",
-            "prefix": "",
             "min": "9025000000",
             "max": "9025999999",
             "rules": [
@@ -4293,9 +3582,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4304,7 +3591,6 @@
             "heading": "9033",
             "chapter": 90,
             "subdivision": "Parts and accessories (not specified or included elsewhere in this Chapter) for machines, \t\t\t\t\tappliances, instruments or apparatus of Chapter 90",
-            "prefix": "",
             "min": "9033000000",
             "max": "9033999999",
             "rules": [
@@ -4313,9 +3599,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4324,7 +3608,6 @@
             "heading": "Chapter 91",
             "chapter": 91,
             "subdivision": "Clocks and watches and parts thereof",
-            "prefix": "",
             "min": "9100000000",
             "max": "9199999999",
             "rules": [
@@ -4333,9 +3616,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4344,7 +3625,6 @@
             "heading": "Chapter 92",
             "chapter": 92,
             "subdivision": "Musical instruments; parts and accessories of such articles",
-            "prefix": "",
             "min": "9200000000",
             "max": "9299999999",
             "rules": [
@@ -4353,9 +3633,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4364,7 +3642,6 @@
             "heading": "Chapter 93",
             "chapter": 93,
             "subdivision": "Arms and ammunition; parts and accessories thereof",
-            "prefix": "",
             "min": "9300000000",
             "max": "9399999999",
             "rules": [
@@ -4373,9 +3650,24 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "Chapter 94",
+            "chapter": 94,
+            "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; \t\t\t\t\tlamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated \t\t\t\t\tbuildings",
+            "min": "9400000000",
+            "max": "9499999999",
+            "rules": [
+                {
+                    "rule": "Manufacture from materials of any heading, except that of the product",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4384,7 +3676,6 @@
             "heading": "ex Chapter 95",
             "chapter": 95,
             "subdivision": "Toys, games and sports requisites; parts and accessories thereof",
-            "prefix": "",
             "min": "9500000000",
             "max": "9599999999",
             "rules": [
@@ -4393,9 +3684,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4404,7 +3693,6 @@
             "heading": "ex 9506",
             "chapter": 95,
             "subdivision": "Golf clubs and parts thereof",
-            "prefix": "",
             "min": "9506000000",
             "max": "9506999999",
             "rules": [
@@ -4413,9 +3701,7 @@
                     "class": [
                         "(CTH TOLERANCE MAY BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4424,7 +3710,6 @@
             "heading": "9601",
             "chapter": 96,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Worked ivory, bone, tortoiseshell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these \t\t\t\t\t\tmaterials (including articles obtained by moulding.</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Worked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of \t\t\t\t\t\tnatural gums or natural resins or of modelling pastes, and other moulded or carved articles, not elsewhere specified or included; worked, \t\t\t\t\t\tunhardened gelatine (except gelatine of heading 3503 ) and articles of unhardened gelatin</p>",
-            "prefix": "",
             "min": "9601000000",
             "max": "9601999999",
             "rules": [
@@ -4433,9 +3718,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4444,7 +3727,6 @@
             "heading": "9602",
             "chapter": 96,
             "subdivision": "<p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Worked ivory, bone, tortoiseshell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these \t\t\t\t\t\tmaterials (including articles obtained by moulding.</p> \t\t\t\t\t <p xmlns=\"http://trade.europa.eu\" xmlns:fn=\"http://www.w3.org/2005/xpath-functions\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">Worked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of \t\t\t\t\t\tnatural gums or natural resins or of modelling pastes, and other moulded or carved articles, not elsewhere specified or included; worked, \t\t\t\t\t\tunhardened gelatine (except gelatine of heading 3503 ) and articles of unhardened gelatin</p>",
-            "prefix": "",
             "min": "9602000000",
             "max": "9602999999",
             "rules": [
@@ -4453,9 +3735,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4464,7 +3744,6 @@
             "heading": "9603",
             "chapter": 96,
             "subdivision": "Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), \t\t\t\t\thand-operated mechanical floor sweepers, not motorized, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads \t\t\t\t\tand rollers, squeegees (other than roller squeegees)",
-            "prefix": "",
             "min": "9603000000",
             "max": "9603999999",
             "rules": [
@@ -4473,9 +3752,7 @@
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4484,7 +3761,6 @@
             "heading": "ex Chapter 96",
             "chapter": 96,
             "subdivision": "Miscellaneous manufactured articles",
-            "prefix": "",
             "min": "9600000000",
             "max": "9699999999",
             "rules": [
@@ -4493,9 +3769,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4504,7 +3778,6 @@
             "heading": "9605",
             "chapter": 96,
             "subdivision": "Travel sets for personal toilet, sewing or shoe or clothes cleaning",
-            "prefix": "",
             "min": "9605000000",
             "max": "9605999999",
             "rules": [
@@ -4513,9 +3786,7 @@
                     "class": [
                         "(SET TOLERANCE (MAY BE USED SET RESTRICTION MAXNOM))"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4524,7 +3795,6 @@
             "heading": "9606",
             "chapter": 96,
             "subdivision": "Buttons, press-fasteners, snap-fasteners and press-studs, button moulds and other parts of these \t\t\t\t\tarticles; button blanks",
-            "prefix": "",
             "min": "9606000000",
             "max": "9606999999",
             "rules": [
@@ -4533,9 +3803,7 @@
                     "class": [
                         "(CTH AND MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4544,7 +3812,6 @@
             "heading": "9608",
             "chapter": 96,
             "subdivision": "Ball-point pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph \t\t\t\t\tpens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps \t\t\t\t\tand clips) of the foregoing articles, other than those of heading 9609",
-            "prefix": "",
             "min": "9608000000",
             "max": "9608999999",
             "rules": [
@@ -4553,9 +3820,7 @@
                     "class": [
                         "(CTH TOLERANCE MAY BE USED)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4564,7 +3829,6 @@
             "heading": "9612",
             "chapter": 96,
             "subdivision": "Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or \t\t\t\t\tnot on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
-            "prefix": "",
             "min": "9612000000",
             "max": "9612999999",
             "rules": [
@@ -4573,9 +3837,7 @@
                     "class": [
                         "(CTH AND MAXNOM)"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4584,18 +3846,15 @@
             "heading": "961320",
             "chapter": 96,
             "subdivision": "Pocket lighters, gas fuelled, refillable",
-            "prefix": "",
             "min": "9613200000",
             "max": "9613299999",
             "rules": [
                 {
-                    "rule": "Manufacture in which the total value of the materials of heading 9613 used does not exceed **30%** of the ex-works price of the product",
+                    "rule": "Manufacture in which the total value of the materials of [heading 9613](/headings/9613) used does not exceed **30%** of the ex-works price of the product",
                     "class": [
                         "MAXNOM"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4604,7 +3863,6 @@
             "heading": "9614",
             "chapter": 96,
             "subdivision": "Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof",
-            "prefix": "",
             "min": "9614000000",
             "max": "9614999999",
             "rules": [
@@ -4613,9 +3871,7 @@
                     "class": [
                         "AH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
@@ -4624,7 +3880,6 @@
             "heading": "Chapter 97",
             "chapter": 97,
             "subdivision": "Works of art, collectors' pieces and antiques",
-            "prefix": "",
             "min": "9700000000",
             "max": "9799999999",
             "rules": [
@@ -4633,9 +3888,7 @@
                     "class": [
                         "CTH"
                     ],
-                    "operator": null,
-                    "specific_processes": false,
-                    "double_dash": false
+                    "operator": null
                 }
             ],
             "valid": true
