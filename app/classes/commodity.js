@@ -332,16 +332,32 @@ class Commodity {
         this.description = this.description.replace(/<br><br><br><br>/g, '<br>')
         this.description = this.description.replace(/<br><br><br>/g, '<br>')
         this.description = this.description.replace(/<br><br>/g, '<br>')
+        this.anglicise_percentages()
+        this.anglicise_americanisations()
         this.insert_description_hyperlinks()
+    }
+
+    anglicise_percentages() {
+        this.description = this.description.replace(/\s%/ig, '%')
+        this.description = this.description.replace(/([\s\()])([0-9]+),([0-9]+)%/ig, '\$1\$2.\$3%')
+    }
+
+    anglicise_americanisations() {
+        this.description = this.description.replace(/ized/ig, 'ised')
+        this.description = this.description.replace(/izing/ig, 'ising')
+        this.description = this.description.replace(/ization/ig, 'isation')
     }
 
     insert_description_hyperlinks() {
         var desc = this.description
 
+        // this.description = "- " + this.description
         this.description = this.description.replace(/\<br\>$/g, '')
-        // this.description = this.description.replace(/\<br\>/g, '\n\n')
+        this.description = this.description.replace(/\<br\>/g, '\n\n')
         
-        this.description = this.description.replace(/-/g, '-')
+        var tmp = this.description
+        this.description = this.description.replace(/\-\s/g, '- ')
+
         this.description = this.description.replace(/&nbsp;/g, ' ')
         // this.description = this.description.replace("-", "-")
         
