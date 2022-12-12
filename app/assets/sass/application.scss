@@ -35,46 +35,46 @@ table.headings {
 }
 
 .chapter {
-    display         : block;
+    display: block;
     background-color: #D1D2E6;
-    font-size       : 16px;
-    padding         : 3px;
-    text-align      : center;
-    float           : left;
-    margin-right    : 4px;
-    min-height      : 22px;
-    min-width       : 24px;
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+    float: left;
+    margin-right: 4px;
+    min-height: 22px;
+    min-width: 24px;
 }
 
 .govuk-header--s {
-    font-family            : "GDS Transport", arial, sans-serif;
-    -webkit-font-smoothing : antialiased;
+    font-family: "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight            : 700;
-    font-size              : 16px !important;
-    font-size              : 1rem !important;
-    line-height            : 1.25;
+    font-weight: 700;
+    font-size: 16px !important;
+    font-size: 1rem !important;
+    line-height: 1.25;
 }
 
 article.section_chapter_notes {
     margin-top: 2em;
-    clear     : both;
+    clear: both;
 
     ul,
     ol,
     p {
-        font-family               : "GDS Transport", arial, sans-serif;
-        -webkit-font-smoothing    : antialiased;
-        -moz-osx-font-smoothing   : grayscale;
+        font-family: "GDS Transport", arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         // font-size              : 16px !important;
         // font-size              : 1rem !important;
-        line-height               : 1.25;
-        margin-top                : 0;
-        margin-bottom             : 15px;
-        padding-left              : 0;
-        list-style-type           : none;
-        margin-left               : 0px;
-        padding                   : 0px;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 15px;
+        padding-left: 0;
+        list-style-type: none;
+        margin-left: 0px;
+        padding: 0px;
 
         li {
             margin-bottom: 15px;
@@ -120,22 +120,22 @@ article.section_chapter_notes {
 
 /* Start heading page */
 .heading_row_head {
-    font-weight     : normal;
-    color           : #333;
-    position        : -webkit-sticky;
+    font-weight: normal;
+    color: #333;
+    position: -webkit-sticky;
     /* Safari */
-    position        : sticky;
-    top             : 0;
+    position: sticky;
+    top: 0;
     background-color: #fff;
-    z-index         : 2
+    z-index: 2
 }
 
 .heading_row_head>div {
-    font-size       : 12px !important;
-    border-bottom   : 5px back solid !important;
-    height          : 3em;
+    font-size: 12px !important;
+    border-bottom: 5px back solid !important;
+    height: 3em;
     background-color: #fff;
-    z-index         : 2
+    z-index: 2
 }
 
 @media (min-width: 40.0625em) {
@@ -162,18 +162,18 @@ article.section_chapter_notes {
 
 .heading_row,
 .chapter_row {
-    font-family            : "GDS Transport", arial, sans-serif;
-    -webkit-font-smoothing : antialiased;
+    font-family: "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display                : flex;
-    flex-direction         : row;
-    flex-wrap              : nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
     div {
         flex-direction: column;
-        display       : flex;
+        display: flex;
         flex-direction: row;
-        padding-top   : 2px;
+        padding-top: 2px;
 
         abbr,
         xspan {
@@ -182,54 +182,54 @@ article.section_chapter_notes {
     }
 
     div.vat {
-        width          : 10%;
-        flex-wrap      : wrap;
+        width: 10%;
+        flex-wrap: wrap;
         justify-content: right;
-        font-size      : 14px;
+        font-size: 14px;
     }
 
     div.mfn {
-        width          : 14%;
-        flex-wrap      : wrap;
+        width: 14%;
+        flex-wrap: wrap;
         justify-content: right;
-        font-size      : 14px;
+        font-size: 14px;
     }
 
     div.supplementary_unit {
-        width          : 10%;
-        flex-wrap      : wrap;
+        width: 10%;
+        flex-wrap: wrap;
         justify-content: center;
-        font-size      : 14px;
+        font-size: 14px;
     }
 }
 
 .heading_row {
-    padding      : 4px 0px 4px 0px;
+    padding: 4px 0px 4px 0px;
     border-bottom: 1px solid #DEE0E2;
-    font-size    : 14px;
+    font-size: 14px;
 
     div.description {
-        width    : 50%;
+        width: 50%;
         flex-wrap: wrap;
     }
 
     div.commodity {
-        width          : 16%;
-        flex-wrap      : nowrap;
+        width: 16%;
+        flex-wrap: nowrap;
         justify-content: flex-end;
-        padding-top    : 0px;
+        padding-top: 0px;
     }
 }
 
 .chapter_row {
-    font-size      : 16px;
+    font-size: 16px;
     justify-content: start;
-    padding        : 10px 0px;
-    border-bottom  : 1px solid #B1B4B6;
+    padding: 10px 0px;
+    border-bottom: 1px solid #B1B4B6;
 
     div.commodity {
         margin-right: 2%;
-        width       : 15%;
+        width: 15%;
     }
 
     div.description {
@@ -259,28 +259,28 @@ article.section_chapter_notes {
 
 /* Start commodity code bars (generic) */
 .code {
-    white-space : nowrap;
-    text-align  : center;
-    margin-left : 3px !important;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: 3px !important;
     margin-right: 1px !important;
-    font-size   : 12px;
-    padding     : 3px 0px 0px 0px;
-    height      : 20px;
-    width       : 22px;
-    min-width   : 22px;
-    max-width   : 22px;
-    color       : #000;
-    display     : block;
-    float       : left;
-    font-weight : normal !important;
+    font-size: 12px;
+    padding: 3px 0px 0px 0px;
+    height: 20px;
+    width: 22px;
+    min-width: 22px;
+    max-width: 22px;
+    color: #000;
+    display: block;
+    float: left;
+    font-weight: normal !important;
 }
 
 @media (min-width: 40.0625em) {
     .code {
         font-size: 16px;
-        padding  : 4px 4px 4px 4px !important;
-        height   : 22px;
-        width    : 22px;
+        padding: 4px 4px 4px 4px !important;
+        height: 22px;
+        width: 22px;
         min-width: 22px;
         max-width: 22px;
     }
@@ -288,19 +288,19 @@ article.section_chapter_notes {
 
 
 .digits_chapter {
-    background-color   : #D1D2E6;
+    background-color: #D1D2E6;
     // background-color: govuk-colour("blue");
     // color           : govuk-colour("white") !important;
 }
 
 .digits_heading {
-    background-color   : #B3D9EE;
+    background-color: #B3D9EE;
     // background-color: govuk-colour("light-purple");
     // color           : govuk-colour("white") !important;
 }
 
 .digits_commodity {
-    background-color   : #ABEAE5;
+    background-color: #ABEAE5;
     // background-color: govuk-colour("light-blue");
     // color           : govuk-colour("white") !important;
 }
@@ -329,8 +329,8 @@ govuk-colour("turquoise") 	#28a197
 
 
 .govuk-green {
-    color         : #00703c;
-    font-size     : 14px;
+    color: #00703c;
+    font-size: 14px;
     // color: #333;
     // font-weight:bold;
 }
@@ -338,18 +338,18 @@ govuk-colour("turquoise") 	#28a197
 /* End commodity code bars (generic) */
 
 div.indent:before {
-    content   : ' \25B6';
-    position  : relative;
-    left      : -1.5em;
+    content: ' \25B6';
+    position: relative;
+    left: -1.5em;
     margin-top: 1px;
-    width     : 0em;
-    color     : #1961a0;
-    z-index   : 1;
+    width: 0em;
+    color: #1961a0;
+    z-index: 1;
 }
 
 div.indent_1 {
     padding-left: 0em !important;
-    font-weight : bold;
+    font-weight: bold;
 }
 
 div.indent_2 {
@@ -405,13 +405,13 @@ div.indent_12 {
 }
 
 .inline-button {
-    margin-top         : 30px;
-    height             : 38px;
-    width              : 40px;
-    vertical-align     : bottom;
-    text-indent        : -5000px;
-    background-image   : url('/public/images/search-button.png');
-    background-repeat  : no-repeat;
+    margin-top: 30px;
+    height: 38px;
+    width: 40px;
+    vertical-align: bottom;
+    text-indent: -5000px;
+    background-image: url('/public/images/search-button.png');
+    background-repeat: no-repeat;
     background-position: 1px -17px;
 }
 
@@ -421,7 +421,7 @@ div.indent_12 {
 
 .search-field {
     margin-right: 0px !important;
-    width       : 30em;
+    width: 30em;
 }
 
 .change_date {
@@ -429,7 +429,7 @@ div.indent_12 {
 }
 
 .form-inline {
-    display  : flex;
+    display: flex;
     flex-flow: row wrap;
 }
 
@@ -439,44 +439,51 @@ div.panels {
 }
 
 div.panel {
-    background-color          : #f6f6f6;
-    padding                   : 1em;
-    margin-bottom             : 1.5em;
-    font-family               : "GDS Transport", arial, sans-serif;
-    -webkit-font-smoothing    : antialiased;
-    -moz-osx-font-smoothing   : grayscale;
+    background-color: #f6f6f6;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    font-family: "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     // border-bottom          : 2px black solid;
 }
 
 
 div.panel_grey {
-    font-size       : 19px;
+    font-size: 19px;
     background-color: #f6f6f6;
-    padding         : 0.5em 0.75em !important;
+    padding: 0.5em 0.75em !important;
 }
 
 div.grey_box {
     background-color: #f6f6f6;
-    padding         : 0.75em 0.75em !important;
-    margin-bottom   : 1.5em;
+    padding: 0.75em 0.75em !important;
+    margin-bottom: 1.5em;
 
     p {
         padding: 0px;
-        margin : 0.25em 0px;
+        margin: 0.25em 0px;
     }
 }
 
 div.panel_blue {
-    font-size       : 19px;
+    font-size: 19px;
     background-color: #eef4fa;
-    padding         : 0.5em 0.75em !important;
+    padding: 0.5em 0.75em !important;
     border: 0px red solid;
 }
 
+div.panel_blue2 {
+    font-size: 19px;
+    background-color: #eef4fa;
+    padding: 0.5em 0.75em !important;
+    border-color: #1D70B8;
+}
+
 div.panel_grey {
-    font-size       : 19px;
+    font-size: 19px;
     background-color: #f0f0f0;
-    padding         : 0.5em 0.75em !important;
+    padding: 0.5em 0.75em !important;
     border: 0px red solid;
 }
 
@@ -497,7 +504,7 @@ div.panel_grey {
 
     div.panel_grey {
         font-size: 16px;
-        width    : 95%
+        width: 95%
     }
 }
 
@@ -505,8 +512,8 @@ div.panel_grey {
 
 
 ul.countries {
-    margin         : 0px 0px 0px 5px;
-    padding        : 0px;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
     list-style-type: none;
 
     li {
@@ -523,10 +530,10 @@ ul.countries {
 }
 
 .govuk-table__subcaption {
-    color      : #505A5F;
-    font-size  : 16px;
+    color: #505A5F;
+    font-size: 16px;
     font-weight: normal !important;
-    width      : 100%;
+    width: 100%;
 }
 
 @media (min-width: 40.0625em) {
@@ -557,7 +564,7 @@ ul.countries {
 
 .hangingindent {
     padding-left: 22px;
-    text-indent : -22px;
+    text-indent: -22px;
 }
 
 
@@ -572,21 +579,21 @@ tbody {
 }
 
 .textual_button {
-    font-family            : GDS Transport, Arial, sans-serif;
-    -webkit-font-smoothing : antialiased;
+    font-family: GDS Transport, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size              : 16px;
-    top                    : 9px !important;
-    position               : relative;
-    margin-right           : 15px;
-    margin-left            : 15px;
+    font-size: 16px;
+    top: 9px !important;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .app-contents {
     list-style-type: none;
-    padding        : 0;
-    margin         : 0 0 0 2.2em;
-    text-indent    : -2.2em
+    padding: 0;
+    margin: 0 0 0 2.2em;
+    text-indent: -2.2em
 }
 
 .app-contents--s .govuk-body {
@@ -595,7 +602,7 @@ tbody {
 
 .app-contents li:before {
     content: "\2014";
-    margin : 0 1em 0 0;
+    margin: 0 1em 0 0;
 }
 
 .excise_row {
@@ -620,14 +627,14 @@ tbody {
 }
 
 .govuk-panel--semi-confirmation {
-    color     : #000000;
+    color: #000000;
     background: #f6f6f6;
 }
 
 .govuk-radios__divider {
-    width     : 100% !important;
+    width: 100% !important;
     text-align: left !important;
-    margin    : 2em 0px;
+    margin: 2em 0px;
 }
 
 .govuk-fieldset__legend--s {
@@ -662,7 +669,7 @@ tbody {
 }
 
 .nw {
-    white-space  : nowrap;
+    white-space: nowrap;
     padding-right: 0.5em;
 }
 
@@ -671,9 +678,9 @@ tbody {
 }
 
 .sticky {
-    position        : -webkit-sticky;
-    position        : sticky;
-    top             : 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
     background-color: #fff;
 
 }
@@ -748,12 +755,12 @@ th.min40 {
 }
 
 .gem-c-contextual-sidebar__brexit-cta {
-    margin-bottom   : 30px;
+    margin-bottom: 30px;
     background-color: #f6f6f6;
-    border-top      : 2px solid #ff003b;
-    display         : block;
-    padding         : 0 15px 15px;
-    text-decoration : none;
+    border-top: 2px solid #ff003b;
+    display: block;
+    padding: 0 15px 15px;
+    text-decoration: none;
 }
 
 .gem-c-contextual-sidebar__brexit-cta .gem-c-contextual-sidebar__brexit-heading {
@@ -761,7 +768,7 @@ th.min40 {
 }
 
 .gem-c-contextual-sidebar__brexit-heading {
-    margin-top   : 15px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -770,7 +777,7 @@ th.min40 {
 }
 
 .govuk-notification-banner {
-    border-color    : #1D70B8 !important;
+    border-color: #1D70B8 !important;
     background-color: #1D70B8 !important;
 }
 
@@ -795,19 +802,19 @@ th.min40 {
 }
 
 div.debug {
-    border                 : 1px solid #333;
-    background-color       : #f0f0f0;
-    padding                : 0.5em;
-    max-width              : 500px;
-    margin                 : 1em 0px;
-    font-family            : "GDS Transport", arial, sans-serif;
-    -webkit-font-smoothing : antialiased;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+    padding: 0.5em;
+    max-width: 500px;
+    margin: 1em 0px;
+    font-family: "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     dl {
-        padding              : 0px;
-        margin               : 0px;
-        display              : grid;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
         grid-template-columns: 50% auto;
 
         dt {
@@ -821,23 +828,23 @@ div.debug {
 }
 
 ul.language-toggle {
-    float      : right;
-    width      : 32%;
-    text-align : right;
+    float: right;
+    width: 32%;
+    text-align: right;
     white-space: nowrap;
 }
 
 ul.language-toggle li:first-child {
     padding-left: 0;
-    border-left : none;
-    margin-left : 0;
+    border-left: none;
+    margin-left: 0;
 }
 
 ul.language-toggle li {
-    display     : inline-block;
+    display: inline-block;
     padding-left: 1rem;
-    border-left : 0.1rem solid currentColor;
-    margin-left : 0.66rem;
+    border-left: 0.1rem solid currentColor;
+    margin-left: 0.66rem;
 }
 
 .govuk-list>li {
@@ -845,7 +852,7 @@ ul.language-toggle li {
 }
 
 user agent stylesheet li {
-    display   : list-item;
+    display: list-item;
     text-align: -webkit-match-parent;
 }
 
@@ -895,7 +902,7 @@ user agent stylesheet li {
 @import "components/popup";
 
 ul {
-    padding-inline-start:0px;
+    padding-inline-start: 0px;
 }
 
 

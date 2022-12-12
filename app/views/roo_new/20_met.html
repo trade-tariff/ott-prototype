@@ -1,15 +1,16 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  Proofs of origin and verification - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+Proofs of origin and verification - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
 {% endblock %}
 
 {% block beforeContent %}
     {{ govukPhaseBanner({
-      tag: {
+        tag: {
         text: "beta"
-      },
-      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+        },
+        html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us
+        to improve it.'
     }) }}
     {{ govukBackLink({
         text: "Back",
@@ -24,93 +25,106 @@
             <span class="govuk-caption-xl commodity-split">{{ context.rules_of_origin_title | safe }}</span>
             <h1 class="govuk-heading-xl">Product-specific rules met</h1>
             {# <div class="govuk-panel govuk-panel--confirmation">
-                <div class="govuk-panel__body">
-                    Based on your responses, your product appears to meet the rules of origin requirements for the {{ context.scheme_title }}.
-                </div>
-            </div> #}
+            <div class="govuk-panel__body">
+                Based on your responses, your product appears to meet the rules of origin requirements for the {{
+                context.scheme_title }}.
+            </div>
+        </div> #}
             <div class="govuk-inset-text panel_grey">
-                <p>Based on your responses, your trade appears to meet the rules of origin requirements for the {{ context.scheme_title }}.</p>
+                <p>Based on your responses, your trade appears to meet the rules of origin requirements for the {{
+                context.scheme_title }}.</p>
             </div>
             {# <p class="govuk-body">
+            To benefit from a preferential tariff or quota, originating products should be accompanied by
+            an appropriate proof confirming their origin.
+        </p> #}
+
+            {# <div class="govuk-warning-text">
+            <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+            <strong class="govuk-warning-text__text">
+                <span class="govuk-warning-text__assistive">Warning</span>
                 To benefit from a preferential tariff or quota, originating products should be accompanied by
                 an appropriate proof confirming their origin.
-            </p> #}
-            
-            {# <div class="govuk-warning-text">
-                <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-                <strong class="govuk-warning-text__text">
-                  <span class="govuk-warning-text__assistive">Warning</span>
-                  To benefit from a preferential tariff or quota, originating products should be accompanied by
-                an appropriate proof confirming their origin.
-                </strong>
-              </div> #}
+            </strong>
+        </div> #}
             <h2 class="govuk-heading-m">Next steps</h2>
             {# <div class="govuk-inset-text"> #}
-                <p>To benefit from a preferential tariff or quota, originating products must be accompanied by
+            <p>To benefit from a preferential tariff or quota, originating products must be accompanied by
                 an appropriate proof confirming their origin.</p>
-                <p>It's important to read the documentation the documentation below to ensure that you meet all
-                    the origin requirements of the {{ context.scheme_title }}.</p>
-            {# </div> #}
+            <p>It's important to read the documentation the documentation below to ensure that you meet all
+                the origin requirements of the {{ context.scheme_title }}.</p>
+            {#
+        </div> #}
             <ul class="govuk-list">
                 <li>
-                    <a href="/roo/proofs/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See valid proofs of origin</a>
+                    <a href="/roo/proofs/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See valid proofs of
+                    origin</a>
                 </li>
                 <li>
-                    <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See detailed processes and requirements for proving the origin for goods</a>
+                    <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">See
+                    detailed processes and requirements for proving the origin for goods</a>
                 </li>
                 <li>
-                    <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">How proofs of origin are verified</a>
+                    <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">How proofs of
+                    origin are verified</a>
                 </li>
                 {% if context.has_duty_drawback %}
                     <li>
-                        <a href="/roo/duty_drawback/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about duty drawback</a>
+                        <a href="/roo/duty_drawback/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out
+                    about duty drawback</a>
                     </li>
                 {% endif %}
                 {% if context.has_direct_transport %}
                     <li>
-                        <a href="/roo/direct_transport/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about the direct transport rule</a>
+                        <a href="/roo/direct_transport/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out
+                    about the direct transport rule</a>
                     </li>
                 {% endif %}
                 {% if context.has_non_alteration %}
                     <li>
-                        <a href="/roo/non_alteration/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out about the non-alteration rule</a>
+                        <a href="/roo/non_alteration/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">Find out
+                    about the non-alteration rule</a>
                     </li>
                 {% endif %}
             </ul>
 
             {# {% if context.proofs | length > 0 %}
-                <h2 class="govuk-heading-m">Proof of origin - overview</h1>
-                {% if context.proofs | length > 1 %}
-                    <p class="govuk-body">There are {{ context.proofs | length }} ways to provide proof of origin. Click on an option
-                        to see an overview of that proof.
-                    </p>
-                {% else %}
-                    <p class="govuk-body">
-                        Read an overview of the required proof of origin on gov.uk.
-                    </p>
-                {% endif %}
+        <h2 class="govuk-heading-m">Proof of origin - overview</h1>
+            {% if context.proofs | length > 1 %}
+            <p class="govuk-body">There are {{ context.proofs | length }} ways to provide proof of origin. Click on an
+                option
+                to see an overview of that proof.
+            </p>
+            {% else %}
+            <p class="govuk-body">
+                Read an overview of the required proof of origin on gov.uk.
+            </p>
+            {% endif %}
 
-                <ul class="govuk-list xgovuk-list--bullet">
-                    {% for proof in context.proofs %}
-                        <li>
-                            <a target="_blank" href="{{ proof.attributes.url }}">{{ proof.attributes.summary }} (opens in new tab)</a>
-                        </li>
-                    {% endfor %}
-                </ul>
+            <ul class="govuk-list xgovuk-list--bullet">
+                {% for proof in context.proofs %}
+                <li>
+                    <a target="_blank" href="{{ proof.attributes.url }}">{{ proof.attributes.summary }} (opens in new
+                        tab)</a>
+                </li>
+                {% endfor %}
+            </ul>
             {% endif %}
 
             <h2 class="govuk-heading-m">Documenting the origin of your product</h1>
-            
-            <ul class="govuk-list govuk-list--bullet">
-                <li>
-                    <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
-                        Detailed processes for gaining proof of origin</a>
-                </li>
-                <li>
-                    <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
-                        Verification of proof of origin</a>
-                </li>
-            </ul> #}
+
+                <ul class="govuk-list govuk-list--bullet">
+                    <li>
+                        <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                            Detailed processes for gaining proof of origin</a>
+                    </li>
+                    <li>
+                        <a href="/roo/verification/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">
+                            Verification of proof of origin</a>
+                    </li>
+                </ul> #}
+
+            {% include "./components/roo_feedback.html" %}
 
         </div>
 
