@@ -8,7 +8,7 @@
                             <span class="govuk-visually-hidden">Commodity </span>{{ item.heading_code | safe }}
                         </div>
                         <div class="heading-description">
-                            {{ item.description | safe }}
+                            {{ item.description | safe }}{% if context.is_local %}&nbsp;<a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/commodities/{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}/search_references">[REFS]</a>{% endif %}
                         </div>
                     </div>
                 </summary>
@@ -31,7 +31,7 @@
                     <span class="govuk-visually-hidden">VAT </span>{{ item.vat | safe }}</div>
                 <div class="heading-description">
                     <a href="/commodities/{{ item.goods_nomenclature_item_id }}">
-                        {{ item.description | safe }}
+                        {{ item.description | safe }}{% if context.is_local %}&nbsp;<a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/commodities/{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}/search_references">[REFS]</a>{% endif %}
                     </a>
                 </div>
             </div>

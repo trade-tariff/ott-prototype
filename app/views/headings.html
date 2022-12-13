@@ -76,24 +76,29 @@
     </div>
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
-
+            {% if context.is_local %}
+                <p>
+                    <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]</a>
+                </p>
+            {% endif %}
             {% include "includes/heading_include.html" %}
-
-
-
 
             <!-- Start section / chapter notes //-->
             <article class="section-chapter-notes" id="section-chapter-notes">
                 {% for item in heading.included %}
                     {% if (item.type == "chapter") %}
-                        <h2 class="govuk-heading-m">Chapter notes</h2>
-                        {{ item.attributes.chapter_note | convert_markdown | safe }}
+                        {% if item.attributes.chapter_note %}
+                            <h2 class="govuk-heading-m">Chapter notes</h2>
+                            {{ item.attributes.chapter_note | convert_markdown | safe }}
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
                 {% for item in heading.included %}
                     {% if (item.type == "section") %}
-                        <h2 class="govuk-heading-m">Section notes</h2>
-                        {{ item.attributes.section_note | convert_markdown | safe }}
+                        {% if item.attributes.section_note %}
+                            <h2 class="govuk-heading-m">Section notes</h2>
+                            {{ item.attributes.section_note | convert_markdown | safe }}
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </article>

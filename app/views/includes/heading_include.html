@@ -1,33 +1,4 @@
-{# 
-<article class="tariff">
-    <div class="commodity-tree">
-        <!-- Header controls start here //-->
-        <div class="tree-controls"></div>
-        <div class="commodity-tree-note">
-            <span>The number following each commodity's description is its commodity code.</span>
-            <em class="level">Level</em>
-            <em class="description">Description</em>
-            <div class="commodity-tree__additional-info">
-                <em class="vat" id="commodity-vat-title">VAT</em>
-                <em class="duty" id="commodity-duty-title">Third country duty</em>
-                <em class="supplementary-units" id="commodity-supplementary-title">Supplementary unit</em>
-                <em class="commcode">Commodity code</em>
-            </div>
-        </div>
-        <!-- Header controls stop here //-->
-        <ul class="commodities js-commodities">
-            {% set corpus = heading.hierarchy %}
-            {% include "./heading_include_nested.html" %}
-        </ul>
-    </div>
-</article> #}
 {% set corpus = heading.hierarchy %}
-
- {# <details>
-  <summary>Epcot Center</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>  #}
-
 <section class="heading-body">
     {% include "./deque_header.html" %}
     <nav class="heading-nav">

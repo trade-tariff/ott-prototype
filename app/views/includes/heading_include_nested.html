@@ -27,7 +27,7 @@
 {% else %}
     <li class="level-{{ item.number_indents }}">
         <a title="View complete information for this commodity" aria-label="Commodity code {{ item.goods_nomenclature_item_id }}, {{ item.description }}" href="/{{ context.scope_id | fwdslash }}commodities/{{ item.goods_nomenclature_item_id }}">
-            <div class="description open" id="commodity-{{ item.goods_nomenclature_item_id }}">{{ item.description }}</div>
+            <div class="description open" id="commodity-{{ item.goods_nomenclature_item_id }}">{{ item.description }}xxx</div>
             <div class="commodity__info">
                 <div class="vat" aria-describedby="commodity-vat-title">
                     {{ item.vat | safe }}

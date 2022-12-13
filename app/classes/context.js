@@ -42,6 +42,17 @@ class Context {
         this.get_master_content()
 
         this.show_rosa_version = true
+        this.check_localhost()
+    }
+
+    check_localhost() {
+        var host_name = this.req.hostname
+        if (host_name.indexOf("localhost") > -1) {
+            this.is_local = true
+        } else {
+            this.is_local = false
+        }
+        var a = 1;
     }
 
     set_default_article_content() {
