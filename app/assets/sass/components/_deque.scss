@@ -43,7 +43,7 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
 }
 
 .deque-expander {
-    font-size: 14px !important;
+    font-size: 16px !important;
 
     .endline {
 
@@ -474,4 +474,8 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
             color: $link-colour-hover;
         }
     }
+}
+img.references {
+    width: 16px;
+    margin-left: 0.25em;
 }

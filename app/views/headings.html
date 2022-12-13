@@ -78,7 +78,7 @@
         <div class="govuk-grid-column-full">
             {% if context.is_local %}
                 <p>
-                    <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]</a>
+                    <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]<img class="references" src="/public/images/references/references.png"></a>
                 </p>
             {% endif %}
             {% include "includes/heading_include.html" %}
