@@ -478,4 +478,6 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
 img.references {
     width: 16px;
     margin-left: 0.25em;
+    position:relative;
+    top:3px
 }

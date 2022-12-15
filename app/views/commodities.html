@@ -142,11 +142,11 @@
                     {% endif %}
                     {% if commodity.chapter_note %}
                         <h2 class="govuk-heading-m">Chapter notes</h2>
-                        {{ commodity.chapter_note | convert_markdown | safe }}
+                        {{ commodity.chapter_note.content | convert_markdown | safe }}
                     {% endif %}
                     {% if commodity.section_note %}
                         <h2 class="govuk-heading-m">Section notes</h2>
-                        {{ commodity.section_note | convert_markdown | safe }}
+                        {{ commodity.section_note.content | convert_markdown | safe }}
                     {% endif %}
                     <p>&nbsp;</p>
                     {% include "includes/general_interpretative_rules.html" %}

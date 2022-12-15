@@ -1,6 +1,7 @@
 var nomar = require("nomar");
 var MarkdownIt = require('markdown-it');
 var _ = require('underscore');
+const e = require("express");
 
 require('./classes/global.js');
 
@@ -297,81 +298,86 @@ module.exports = function (env) {
     }
 
     filters.convert_markdown = function (str, hide_bullets = false, add_back_to_top = false, insert_toc = false) {
-        str = str.replace(/-&nbsp;/g, "- ")
-        var menu = ""
-        try {
-            if (typeof str !== 'undefined') {
-                if (add_back_to_top) {
-                    str += "\n\n{{ top }}\n"
-                }
-
-                md = new MarkdownIt();
-                str = str.replace(/\* ([0-9]{1,2})\\. /g, '$1. ');
-                str = str.replace(/  \* \(([a-z]{1,2})\)/g, '\n\n    $1. ');
-
-                var markdown_text = md.render(str);
-                markdown_text = markdown_text.replace(/&lt;/g, "<");
-                markdown_text = markdown_text.replace(/&gt;/g, ">");
-                markdown_text = markdown_text.replace(/<h1>/g, "<h1 class='govuk-heading-l'>");
-                markdown_text = markdown_text.replace(/<h2>/g, "<h2 class='govuk-heading-m'>");
-                markdown_text = markdown_text.replace(/<h3>/g, "<h3 class='govuk-heading-s'>");
-                markdown_text = markdown_text.replace(/<h4>/g, "<h4 class='govuk-heading-xs'>");
-                markdown_text = markdown_text.replace(/{{ top }}/g, "<a href='#top'>Back to top</a>");
-                markdown_text = markdown_text.replace(/<table>/g, '<table class="govuk-table">');
-                markdown_text = markdown_text.replace(/<tr>/g, '<tr class="govuk-table__row">');
-                markdown_text = markdown_text.replace(/<th>/g, '<th scope="col" class="govuk-table__header">');
-                markdown_text = markdown_text.replace(/<td>/g, '<td class="govuk-table__cell">');
-                markdown_text = markdown_text.replace(/<thead>/g, '<thead class="govuk-table__head">');
-                markdown_text = markdown_text.replace(/<tbody>/g, '<tbody class="govuk-table__body">');
-
-                if (hide_bullets) {
-                    markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list'>")
-                } else {
-                    markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list govuk-list--bullet'>")
-                }
-                markdown_text = markdown_text.replace(/<ol>/g, "<ol class='govuk-list govuk-list--number'>")
-
-
-                // insert_toc = false
-                if (insert_toc) {
-                    // Create the table of contents
-                    str = "\n" + str
-                    const regex_h2 = /[^#]## [^\n]+\n/ig
-                    let matches = str.match(regex_h2);
-                    if (matches) {
-                        let contents = []
-                        matches.forEach(match => {
-                            match = match.replace("## ", "").replace("\n", "").trim()
-                            contents.push(match)
-                        });
-                        if (contents.length > 0) {
-                            menu = '<h2 class="gem-c-contents-list__title">Contents</h2><ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">'
-                            contents.forEach(item => {
-                                var item2 = item.toLowerCase().replace(/[^0-9a-z]/ig, "-")
-                                menu += '<li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed"><a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#' + item2 + '">' + item + '</a></li>'
-                            });
-                            menu += '</ol>'
-                        }
-                        markdown_text = menu + markdown_text
-
-                        // Update the h2 tags
-                        const regex_h2b = /<h2 class='govuk-heading-m'>([^<]+)<\/h2>/gm
-                        let matches2 = markdown_text.match(regex_h2b);
-                        let contents2 = []
-                        matches2.forEach(match => {
-                            var match2 = match.replace("<h2 class='govuk-heading-m'>", "").replace("</h2>", "").trim()
-                            var match3 = match2.toLowerCase().replace(/[^0-9a-z]/ig, "-")
-                            var a = 1
-                            markdown_text = markdown_text.replace(match, "<h2 class='govuk-heading-m' id='" + match3 + "'>" + match2 + "</h2>");
-                        });
+        console.log(str)
+        if ((typeof str === 'undefined') || (!str)) {
+            return ("")
+        } else {
+            str = str.replace(/-&nbsp;/g, "- ")
+            var menu = ""
+            try {
+                if (typeof str !== 'undefined') {
+                    if (add_back_to_top) {
+                        str += "\n\n{{ top }}\n"
                     }
+
+                    md = new MarkdownIt();
+                    str = str.replace(/\* ([0-9]{1,2})\\. /g, '$1. ');
+                    str = str.replace(/  \* \(([a-z]{1,2})\)/g, '\n\n    $1. ');
+
+                    var markdown_text = md.render(str);
+                    markdown_text = markdown_text.replace(/&lt;/g, "<");
+                    markdown_text = markdown_text.replace(/&gt;/g, ">");
+                    markdown_text = markdown_text.replace(/<h1>/g, "<h1 class='govuk-heading-l'>");
+                    markdown_text = markdown_text.replace(/<h2>/g, "<h2 class='govuk-heading-m'>");
+                    markdown_text = markdown_text.replace(/<h3>/g, "<h3 class='govuk-heading-s'>");
+                    markdown_text = markdown_text.replace(/<h4>/g, "<h4 class='govuk-heading-xs'>");
+                    markdown_text = markdown_text.replace(/{{ top }}/g, "<a href='#top'>Back to top</a>");
+                    markdown_text = markdown_text.replace(/<table>/g, '<table class="govuk-table">');
+                    markdown_text = markdown_text.replace(/<tr>/g, '<tr class="govuk-table__row">');
+                    markdown_text = markdown_text.replace(/<th>/g, '<th scope="col" class="govuk-table__header">');
+                    markdown_text = markdown_text.replace(/<td>/g, '<td class="govuk-table__cell">');
+                    markdown_text = markdown_text.replace(/<thead>/g, '<thead class="govuk-table__head">');
+                    markdown_text = markdown_text.replace(/<tbody>/g, '<tbody class="govuk-table__body">');
+
+                    if (hide_bullets) {
+                        markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list'>")
+                    } else {
+                        markdown_text = markdown_text.replace(/<ul>/g, "<ul class='govuk-list govuk-list--bullet'>")
+                    }
+                    markdown_text = markdown_text.replace(/<ol>/g, "<ol class='govuk-list govuk-list--number'>")
+
+
+                    // insert_toc = false
+                    if (insert_toc) {
+                        // Create the table of contents
+                        str = "\n" + str
+                        const regex_h2 = /[^#]## [^\n]+\n/ig
+                        let matches = str.match(regex_h2);
+                        if (matches) {
+                            let contents = []
+                            matches.forEach(match => {
+                                match = match.replace("## ", "").replace("\n", "").trim()
+                                contents.push(match)
+                            });
+                            if (contents.length > 0) {
+                                menu = '<h2 class="gem-c-contents-list__title">Contents</h2><ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">'
+                                contents.forEach(item => {
+                                    var item2 = item.toLowerCase().replace(/[^0-9a-z]/ig, "-")
+                                    menu += '<li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed"><a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#' + item2 + '">' + item + '</a></li>'
+                                });
+                                menu += '</ol>'
+                            }
+                            markdown_text = menu + markdown_text
+
+                            // Update the h2 tags
+                            const regex_h2b = /<h2 class='govuk-heading-m'>([^<]+)<\/h2>/gm
+                            let matches2 = markdown_text.match(regex_h2b);
+                            let contents2 = []
+                            matches2.forEach(match => {
+                                var match2 = match.replace("<h2 class='govuk-heading-m'>", "").replace("</h2>", "").trim()
+                                var match3 = match2.toLowerCase().replace(/[^0-9a-z]/ig, "-")
+                                var a = 1
+                                markdown_text = markdown_text.replace(match, "<h2 class='govuk-heading-m' id='" + match3 + "'>" + match2 + "</h2>");
+                            });
+                        }
+                    }
+                    return markdown_text;
+                } else {
+                    return "";
                 }
-                return markdown_text;
-            } else {
-                return "";
+            } catch {
+                var a = 1;
             }
-        } catch {
-            var a = 1;
         }
     }
 
@@ -479,12 +485,12 @@ module.exports = function (env) {
         return (out);
     }
 
-    filters.pad_start = function(s, item_count, pad_char = '0') {
+    filters.pad_start = function (s, item_count, pad_char = '0') {
         s = s.padStart(item_count, pad_char)
         return s
     }
 
-    filters.pad_end = function(s, item_count, pad_char = '0') {
+    filters.pad_end = function (s, item_count, pad_char = '0') {
         s = s.padEnd(item_count, pad_char)
         return s
     }
