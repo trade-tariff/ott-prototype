@@ -1,0 +1,157 @@
+{% extends "layout_tap.html" %}
+{% block pageTitle %}
+    Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+{% block beforeContent %}
+    {# {{
+        govukBreadcrumbs({ items: [ { text: "Home", href: "https://www.gov.uk/" }, {
+        text: "Business and self-employed", href: "https://www.gov.uk/browse/business"
+        }, { text: "Importing", href: "https://www.gov.uk/browse/business/imports" } ]
+    }) }} #}
+{% endblock %}
+{% block content %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-l">
+            Create a new envelope
+        </h1>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+
+            {{ govukCheckboxes({
+            name: "waste",
+            fieldset: {
+                legend: {
+                text: "Does this envelope contain any of the following?",
+                isPageHeading: true,
+                classes: "govuk-fieldset__legend--m"
+                }
+            },
+            hint: {
+                text: "Select all that apply."
+            },
+            items: [
+                {
+                value: "carcasses",
+                text: "New document codes"
+                },
+                {
+                value: "mines",
+                text: "Updates to existing document codes"
+                },
+                {
+                value: "farm",
+                text: "New measure types"
+                },
+                {
+                value: "farm",
+                text: "Updates to existing measure types"
+                },
+                {
+                value: "farm",
+                text: "Modifications to any tariff suspensions"
+                },
+                {
+                value: "farm",
+                text: "Back-date any changes"
+                }
+            ]
+            }) }}
+
+            {# <ul class="govuk-list govuk-list--bullet">
+                <li>identify the correct commodity code for your goods</li>
+                <li>
+                check if you need a licence or other documentation to move your goods
+            </li>
+                <li>make sure you pay the right Customs Duty and import VAT</li>
+                <li>complete import or export declarations and other paperwork</li>
+                <li>understand rules of origin for the UK's trade agreements</li>
+            </ul>
+
+            <p>It will also help you check if your goods are covered by:</p>
+            <ul class="govuk-list govuk-list--bullet">
+                <li>Agricultural Policy</li>
+                <li>anti-dumping duties</li>
+                <li>UK safeguarding measures</li>
+                <li>tariff quotas</li>
+            </ul>
+
+            <h2 class="govuk-heading-s">What are commodity codes?</h2>
+            <p>
+            Commodity codes are 10-digit numbers that are used to identify and
+            classify goods you want to import or export, so you can fill in
+            declarations and other paperwork. You must use the right commodity code in
+            customs declarations.
+        </p> #}
+
+            {{ govukButton({ text: "Check next steps", href: "/sections/", classes:
+        "govuk-!-margin-top-2 govuk-!-margin-bottom-8", isStartButton: false }) }}
+        </div>
+        <div class="govuk-grid-column-one-third" style="display:none">
+            <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
+
+            <aside class="app-related-items" role="complementary">
+                <h2 class="govuk-heading-s" id="subsection-title">Related content</h2>
+                <p>Collection</p>
+                <nav role="navigation" aria-labelledby="subsection-title">
+                    <ul class="govuk-list govuk-!-font-size-16">
+                        <li>
+                            <a class="govuk-link"
+                            href="https://www.gov.uk/government/collections/guidance-for-exporting-and-importing-businesses">Guidance
+                            for exporting and importing businesses</a>
+                        </li>
+                        <li>
+                            <a class="govuk-link" href="the arts, culture and heritage sectors and the eu">The arts, culture
+                            and heritage sectors and the EU</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+    <div class="govuk-grid-row" style="display:none">
+        <div class="govuk-grid-column-full">
+            <div class="gem-c-contextual-footer">
+                <div class="gem-c-related-navigation">
+                    <nav role="navigation" class="gem-c-related-navigation__nav-section"
+                    aria-labelledby="related-nav-topics-c7e51674" data-module="gem-toggle">
+                        <h2 id="related-nav-topics-c7e51674"
+                        class="gem-c-related-navigation__sub-heading gem-c-related-navigation__sub-heading--footer"
+                        data-track-count="footerrelateditemsection">
+                        Explore the topic
+                    </h2>
+
+                        <ul class="gem-c-related-navigation__link-list" data-module="track-click">
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.1 explore the topic" data-track-label="/browse/business/exports"
+                                data-track-options='{"dimension28":"3","dimension29":"exporting and doing business abroad"}'
+                                href="/browse/business/exports">Exporting and doing business abroad</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.2 explore the topic" data-track-label="/browse/business/imports"
+                                data-track-options='{"dimension28":"3","dimension29":"importing"}'
+                                href="/browse/business/imports">Importing</a>
+                            </li>
+                            <li class="gem-c-related-navigation__link">
+                                <a class="gem-c-related-navigation__section-link gem-c-related-navigation__section-link--footer"
+                                data-track-action="1.3 explore the topic"
+                                data-track-label="/topic/business-tax/import-export"
+                                data-track-options='{"dimension28":"3","dimension29":"import, export and customs for businesses"}'
+                                href="/topic/business-tax/import-export">Import, export and customs for businesses</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63190b7f2cae798c"></script> -->
+
+    <!-- Start of HubSpot Embed Code -->
+    <!--<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20005740.js"></script>//-->
+    <!-- End of HubSpot Embed Code -->
+{% endblock %}
