@@ -64,7 +64,7 @@
 
 ### Subheading notes
 
-1. Subheading [9504 50](/subheadings/9504500000-80) covers:
+1. Subheading [9504 50](/commodities/9504500000) covers:
 
     a. video game consoles from which the image is reproduced on a television receiver, a monitor or other external screen or surface; or
     
@@ -80,18 +80,18 @@
     
     These are:
     
-    (1) articles associated with the nativity (i.e. articles for the traditional Christmas crib), such as nativity figures, nativity animals, Bethlehem stars, the three nativity kings, and nativity scenes;
+    1. articles associated with the nativity (i.e. articles for the traditional Christmas crib), such as nativity figures, nativity animals, Bethlehem stars, the three nativity kings, and nativity scenes;
     
-    (2) articles recognised as being used at Christmas festivities due to long standing national traditions, such
+    2. articles recognised as being used at Christmas festivities due to long standing national traditions, such
     as:
     
-    - artificial Christmas trees,
-    - Christmas stockings,
-    - imitation yule logs,
-    - Christmas crackers,
-    - Father Christmases with or without a sledge,
-    - Christmas angels.
+       - artificial Christmas trees,
+       - Christmas stockings,
+       - imitation yule logs,
+       - Christmas crackers,
+       - Father Christmases with or without a sledge,
+       - Christmas angels.
     
-    The subheading does not cover articles of the winter season which are suitable for a more general use as decorations during that season, because their objective characteristics suggest that they are not exclusively used for Christmas festivities but mainly as decorations during the winter season, such as icicles, snow crystals, stars, reindeers, robins, snowmen, and other images of the winter season, whether or not the colours or outfits etc. suggest a connection with Christmas.
+        The subheading does not cover articles of the winter season which are suitable for a more general use as decorations during that season, because their objective characteristics suggest that they are not exclusively used for Christmas festivities but mainly as decorations during the winter season, such as icicles, snow crystals, stars, reindeers, robins, snowmen, and other images of the winter season, whether or not the colours or outfits etc. suggest a connection with Christmas.
     
-    (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree). The articles must have a connection with Christmas.
+    (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree).

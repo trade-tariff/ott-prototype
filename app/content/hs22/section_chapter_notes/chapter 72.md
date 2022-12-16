@@ -191,7 +191,7 @@
 
 The following expressions have the meanings hereby assigned to them:
 
-- 'Electrical': for the purposes of subheadings [7209 16 10](/subheadings/7209161000-80), [7209 17 10](/subheadings/7209171000-80), [7209 18 10](/subheadings/7209181000-80), [7209 26 10](/subheadings/7209261000-80), [7209 27 10](/subheadings/7209271000-80), [7209 28 10](/subheadings/7209281000-80) and [7211 23 20](/subheadings/7211232000-80), flat-rolled products which under a current of 50 Hz and a magnetic flux of 1 T have a watt-loss per kg, calculated by the Epstein method, of:
+- 'Electrical': for the purposes of subheadings [7209 16 10](/commodities/7209161000), [7209 17 10](/commodities/7209171000), [7209 18 10](/commodities/7209181000), [7209 26 10](/commodities/7209261000), [7209 27 10](/commodities/7209271000), [7209 28 10](/commodities/7209281000) and [7211 23 20](/subheadings/7211232000-80), flat-rolled products which under a current of 50 Hz and a magnetic flux of 1 T have a watt-loss per kg, calculated by the Epstein method, of:
 
 - 2.1 W or less, when their thickness does not exceed 0.20mm,
 
@@ -199,9 +199,9 @@ The following expressions have the meanings hereby assigned to them:
 
 - 6 W or less, when their thickness is not less than 0.60mm but not greater than 1.50mm.
 
-- 'Tinplate': for the purposes of subheadings [7210 12 20](/subheadings/7210122000-80), [7210 70 10](/subheadings/7210701000-80), [7212 10 10](/subheadings/7212101000-80) and [7212 40 20](/subheadings/7212402000-80), flat-rolled products (of a thickness of less than 0.5mm) coated with a layer of metal containing, by weight, 97% or more of tin.
+- 'Tinplate': for the purposes of subheadings [7210 12 20](/subheadings/7210122000-80), [7210 70 10](/subheadings/7210701000-80), [7212 10 10](/commodities/7212101000) and [7212 40 20](/subheadings/7212402000-80), flat-rolled products (of a thickness of less than 0.5mm) coated with a layer of metal containing, by weight, 97% or more of tin.
 
-- 'Tool steel': for the purposes of subheadings [7224 10 10](/subheadings/7224101000-80), [7224 90 02](/subheadings/7224900200-80), [7225 30 10](/subheadings/7225301000-80), [7225 40 12](/subheadings/7225401200-80), [7226 91 20](/subheadings/7226912000-80), [7228 30 20](/subheadings/7228302000-80), [7228 40 10](/subheadings/7228401000-80), [7228 50 20](/subheadings/7228502000-80) and [7228 60 20](/subheadings/7228602000-80), alloy steels, other than stainless or high-speed steel, containing, by weight, one of the following compositions, with or without other elements:
+- 'Tool steel': for the purposes of subheadings [7224 10 10](/commodities/7224101000), [7224 90 02](/subheadings/7224900200-80), [7225 30 10](/commodities/7225301000), [7225 40 12](/commodities/7225401200), [7226 91 20](/commodities/7226912000), [7228 30 20](/subheadings/7228302000-80), [7228 40 10](/commodities/7228401000), [7228 50 20](/commodities/7228502000) and [7228 60 20](/subheadings/7228602000-80), alloy steels, other than stainless or high-speed steel, containing, by weight, one of the following compositions, with or without other elements:
 
 - less than 0.6% of carbon 
 

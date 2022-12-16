@@ -64,7 +64,7 @@
 
 ### Subheading notes
 
-1. For the purposes of subheadings [3002 13](/subheadings/3002130000-80) and [3002 14](/subheadings/3002140000-80), the following are to be treated:
+1. For the purposes of subheadings [3002 13](/commodities/3002130000) and [3002 14](/commodities/3002140000), the following are to be treated:
 
     - (a) as unmixed products, pure products, whether or not containing impurities;
     
@@ -76,7 +76,7 @@
         
         - (3) The products mentioned in (a), (b) (1) and (b) (2) above with any other additive.
 
-2. Subheadings [3003 60](/subheadings/3003600000-80) and [3004 60](/subheadings/3004600000-80) cover medicaments containing artemisinin (INN) for oral ingestion combined with other pharmaceutical active ingredients, or containing any of the following active principles, whether or not combined with other pharmaceutical active ingredients: amodiaquine (INN); artelinic acid or its salts; artenimol (INN); artemotil (INN); artemether (INN); artesunate (INN); chloroquine (INN); dihydroartemisinin (INN); lumefantrine (INN); mefloquine (INN); piperaquine (INN); pyrimethamine (INN) or sulfadoxine (INN).
+2. Subheadings [3003 60](/commodities/3003600000) and [3004 60](/commodities/3004600000) cover medicaments containing artemisinin (INN) for oral ingestion combined with other pharmaceutical active ingredients, or containing any of the following active principles, whether or not combined with other pharmaceutical active ingredients: amodiaquine (INN); artelinic acid or its salts; artenimol (INN); artemotil (INN); artemether (INN); artesunate (INN); chloroquine (INN); dihydroartemisinin (INN); lumefantrine (INN); mefloquine (INN); piperaquine (INN); pyrimethamine (INN) or sulfadoxine (INN).
 
 ### Additional chapter note
 

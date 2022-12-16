@@ -65,7 +65,7 @@
 
 ### Subheading notes
 
-1. Subheading [9504 50](/subheadings/9504500000-80) covers:
+1. Subheading [9504 50](/commodities/9504500000) covers:
 
     a. video game consoles from which the image is reproduced on a television receiver, a monitor or other external screen or surface; or
     
@@ -95,4 +95,4 @@
     
     The subheading does not cover articles of the winter season which are suitable for a more general use as decorations during that season, because their objective characteristics suggest that they are not exclusively used for Christmas festivities but mainly as decorations during the winter season, such as icicles, snow crystals, stars, reindeers, robins, snowmen, and other images of the winter season, whether or not the colours or outfits etc. suggest a connection with Christmas.
     
-    (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree). The articles must have a connection with Christmas.
+    (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree).

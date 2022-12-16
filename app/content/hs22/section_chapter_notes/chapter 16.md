@@ -4,7 +4,7 @@
 
 ### Subheading notes
 
-1. For the purposes of subheading [1602 10](/subheadings/1602100000-80), the expression ‘homogenised preparations’ means preparations of meat, meat offal, blood or insects, finely homogenised, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g. 
+1. For the purposes of subheading [1602 10](/commodities/1602100000), the expression ‘homogenised preparations’ means preparations of meat, meat offal, blood or insects, finely homogenised, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g. 
 
     For the application of this definition, no account is to be taken of small quantities of any ingredients which may have been added to the preparation for seasoning, preservation or other purposes. These preparations may contain a small quantity of visible pieces of meat, meat offal or insects. 
 
@@ -14,8 +14,8 @@
 
 ### Additional chapter notes
 
-1. For the purposes of subheadings [1602 31 11](/subheadings/1602311100-80), [1602 32 11](/subheadings/1602321100-80), [1602 39 21](/subheadings/1602392100-80), [1602 50 10](/subheadings/1602501000-80) and [1602 90 61](/subheadings/1602906100-80), the term ‘uncooked’ is to apply to products which have not been subjected to any heat treatment or which have been subjected to a heat treatment insufficient to ensure the coagulation of meat proteins in the whole of the product and which, therefore, in the case of subheadings [1602 50 10](/subheadings/1602501000-80) and [1602 90 61](/subheadings/1602906100-80), show traces of a pinkish liquid on the cut surface when the product is cut along a line passing through its thickest part.
+1. For the purposes of subheadings [1602 31 11](/commodities/1602311100), [1602 32 11](/subheadings/1602321100-80), [1602 39 21](/commodities/1602392100), [1602 50 10](/subheadings/1602501000-80) and [1602 90 61](/commodities/1602906100), the term ‘uncooked’ is to apply to products which have not been subjected to any heat treatment or which have been subjected to a heat treatment insufficient to ensure the coagulation of meat proteins in the whole of the product and which, therefore, in the case of subheadings [1602 50 10](/subheadings/1602501000-80) and [1602 90 61](/commodities/1602906100), show traces of a pinkish liquid on the cut surface when the product is cut along a line passing through its thickest part.
 
-2. For the purposes of subheadings [1602 41 10](/subheadings/1602411000-80), [1602 42 10](/subheadings/1602421000-80) and [1602 49 11](/subheadings/1602491100-80) to [1602 49 15](/subheadings/1602491500-80), the expression ‘cuts thereof’ applies only to prepared or preserved meat which, due to the size and the characteristics of the coherent muscle tissue, is identifiable as having been obtained from hams, shoulders, loins, or collars of domestic swine, as the case may be.
+2. For the purposes of subheadings [1602 41 10](/subheadings/1602411000-80), [1602 42 10](/commodities/1602421000) and [1602 49 11](/commodities/1602491100) to [1602 49 15](/commodities/1602491500), the expression ‘cuts thereof’ applies only to prepared or preserved meat which, due to the size and the characteristics of the coherent muscle tissue, is identifiable as having been obtained from hams, shoulders, loins, or collars of domestic swine, as the case may be.
 
 3. For the purposes of determining the percentage weight of poultry meat, the weight of any bones is to be disregarded.

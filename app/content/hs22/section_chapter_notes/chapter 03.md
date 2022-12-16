@@ -14,7 +14,7 @@
 
 ### Additional chapter notes
 
-1. For the purposes of subheadings [0305 32 11](/subheadings/0305321100-80) and [0305 32 19](/subheadings/0305321900-80), cod fillets (Gadus morhua, Gadus ogac, Gadus macrocephalus) having a total salt content by weight of 12% or more which are fit for human consumption without further industrial processing, are considered to be salted fish. 
+1. For the purposes of subheadings [0305 32 11](/commodities/0305321100) and [0305 32 19](/subheadings/0305321900-80), cod fillets (Gadus morhua, Gadus ogac, Gadus macrocephalus) having a total salt content by weight of 12% or more which are fit for human consumption without further industrial processing, are considered to be salted fish. 
 
    However, frozen cod fillets which have a total salt content by weight of less than 12% are to be classified under subheadings [0304 71 10](/subheadings/0304711000-80) and [0304 71 90](/subheadings/0304719000-80), in so far as the actual and lasting preservation depends essentially upon freezing.
 
@@ -26,8 +26,8 @@
 
    - (a) tuna, of the genus Thunnus, of subheadings [0304 49 90](/subheadings/0304499000-80) and [0304 87 00](/subheadings/0304870000-80);
 
-   - (b) swordfish (Xiphias gladius) of subheadings [0304 45 00](/subheadings/0304450000-80) and [0304 84 00](/subheadings/0304840000-80);
+   - (b) swordfish (Xiphias gladius) of subheadings [0304 45 00](/commodities/0304450000) and [0304 84 00](/commodities/0304840000);
 
    - (c) marlin, sailfish and spearfish, of the family Istiophoridae, of subheadings [0304 49 90](/subheadings/0304499000-80) and [0304 89 90](/subheadings/0304899000-80);
 
-   - (d) oceanic sharks (Hexanchus griseus, Cetorhinus maximus, Rhincodon typus, or of the families Alopiidae, Carcharhinidae, Sphyrnidae and Isuridae) of subheadings [0304 47 90](/subheadings/0304479000-80) and [0304 88 19](/subheadings/0304881900-80).
+   - (d) oceanic sharks (Hexanchus griseus, Cetorhinus maximus, Rhincodon typus, or of the families Alopiidae, Carcharhinidae, Sphyrnidae and Isuridae) of subheadings [0304 47 90](/commodities/0304479000) and [0304 88 19](/commodities/0304881900).

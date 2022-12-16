@@ -57,7 +57,7 @@
 
     The presence of substances associated with whey production (e.g. lactic acid, lactates and glycomacropeptides) is a condition for the classification of whey permeates into that subheading. Subheading [0404 90](/subheadings/0404900000-80) includes ‘milk permeate’ which is a product with generally a milky smell obtained from milk by ultrafiltration or other processing techniques. The quantitatively limited level or absence of lactic acid and lactates (max. 0.1 % by weight, in milk permeates in powder form, or max. 0.015% by weight in milk permeates in liquid form) as well as the absence of glycomacropeptides, are the conditions for the classification of milk permeates into subheading [0404 90](/subheadings/0404900000-80). The method to be used for the detection of lactates shall be the ISO 8069:2005 method and the method to detect rennet whey (i.e. the presence of caseinomacropeptides such as glycomacropeptides) shall be the UK equivalent method to that set out in Appendix II to Commission Implementing Regulation (EU) 2018/150).
 
-5. The term “unfit for human consumption” as regards codes [0408 11 20](/subheadings/0408112000-80), [0408 19 20](/subheadings/0408192000-80), [0408 91 20](/subheadings/0408912000-80) and [0408 99 20](/subheadings/0408992000-80) applies when:
+5. The term “unfit for human consumption” as regards codes [0408 11 20](/commodities/0408112000), [0408 19 20](/commodities/0408192000), [0408 91 20](/commodities/0408912000) and [0408 99 20](/commodities/0408992000) applies when:
 
    - the goods are homogeneously mixed with one of the denaturants shown in column 1 of the table below in the quantities indicated in column 2 and
 

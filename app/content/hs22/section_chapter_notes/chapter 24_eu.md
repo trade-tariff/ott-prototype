@@ -6,4 +6,4 @@
 
 ### Subheading note
 
-1. For the purposes of subheading [2403 11](/subheadings/2403110000-80), the expression ‘water-pipe tobacco’ means tobacco intended for smoking in a water pipe and which consists of a mixture of tobacco and glycerol, whether or not containing aromatic oils and extracts, molasses or sugar, and whether or not flavoured with fruit. However, tobacco free products intended for smoking in a water pipe are excluded from this subheading.
+1. For the purposes of subheading [2403 11](/commodities/2403110000), the expression ‘water-pipe tobacco’ means tobacco intended for smoking in a water pipe and which consists of a mixture of tobacco and glycerol, whether or not containing aromatic oils and extracts, molasses or sugar, and whether or not flavoured with fruit. However, tobacco free products intended for smoking in a water pipe are excluded from this subheading.

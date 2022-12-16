@@ -46,7 +46,7 @@
 
    - b. in the case of nuts of heading [0801](/headings/0801) and [0802](/headings/0802) at least 50% by weight passes through a woven metal wire cloth sieve with an aperture of 2.5 mm.
 
-2. The term “denatured” as regards code [1106 20 10](/subheadings/1106201000-80) applies when:
+2. The term “denatured” as regards code [1106 20 10](/commodities/1106201000) applies when:
 
    - the goods are homogeneously mixed with one of the denaturants shown in column 1 of the table below in the quantities indicated in column 2 and
 
@@ -57,4 +57,4 @@
    | - | - |
    | (1) | (2) |
    | Fish oil or fish liver oil, filtered but not deodorised or decolourised, with no additives | 1,000 |
-   | Fish meal of subheading [2301 20 00](/subheadings/2301200000-80), having a characteristic odour and containing by weight in the dry matter at least: 62.5 % crude protein and 6 % crude lipids (fatty matter) | 5,000 |
+   | Fish meal of subheading [2301 20 00](/commodities/2301200000), having a characteristic odour and containing by weight in the dry matter at least: 62.5 % crude protein and 6 % crude lipids (fatty matter) | 5,000 |

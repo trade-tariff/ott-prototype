@@ -118,7 +118,7 @@
     
     (1) the designation in a subheading of a polymer by the prefix ‘poly’ (for example, polyethylene and polyamide-6,6) means that the constituent monomer unit or monomer units of the named polymer taken together must contribute 95 % or more by weight of the total polymer content;
     
-    (2) the copolymers named in subheadings [3901 30](/subheadings/3901300000-80), [3901 40](/subheadings/3901400000-80), [3903 20](/subheadings/3903200000-80), [3903 30](/subheadings/3903300000-80) and [3904 30](/subheadings/3904300000-80) are to be classified in those subheadings, provided that the comonomer units of the named copolymers contribute 95 % or more by weight of the total polymer content;
+    (2) the copolymers named in subheadings [3901 30](/subheadings/3901300000-80), [3901 40](/subheadings/3901400000-80), [3903 20](/commodities/3903200000), [3903 30](/commodities/3903300000) and [3904 30](/subheadings/3904300000-80) are to be classified in those subheadings, provided that the comonomer units of the named copolymers contribute 95 % or more by weight of the total polymer content;
     
     (3) chemically modified polymers are to be classified in the subheading named ‘Other’, provided that the chemically modified polymers are not more specifically covered by another subheading;
     
@@ -134,7 +134,7 @@
 
 2. For the purposes of subheading [3920 43](/subheadings/3920430000-80), the term ‘plasticisers’ includes secondary plasticisers.
 
-### Additional chapter note
+### Additional chapter notes
 
 1. Where the woven, knitted or crocheted fabrics, felt or nonwovens are present merely for reinforcing purposes, gloves, mittens or mitts impregnated, coated or covered with cellular plastics belong to Chapter [39](/chapters/39), even if they are:
 
@@ -143,3 +143,7 @@
     - made up from unimpregnated, uncoated or uncovered woven, knitted or crocheted fabrics, felt or nonwovens and subsequently impregnated, coated or covered with cellular plastics.
 
     (Note 3(c) to Chapter [56](/chapters/56) and note 2(a)(5) to Chapter [59](/chapters/59)).
+
+2. Chapter 39 includes articles comprising a bulking agent mixed with resin.  The resin, by giving shape and rigidity, gives an article its essential character.
+
+    For example, code 3922 20 00 includes lavatory seats consisting of approximately 85% wood flour, which is a powder obtained from grinding sawdust, shavings or other wood waste, and approximately 15% phenolic resin. The article is made by compressing the wood flour and resin powder, which includes a hardener, in a mould which is then heated, curing the article and making it rigid. In curing, the resin is melted and reacts with the hardener. The lavatory seat is classified as an article of plastics within code 3922 20 00 as the resin gives the article its shape and rigidity while the wood flour acts as a filler. 

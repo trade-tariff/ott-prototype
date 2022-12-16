@@ -22,9 +22,9 @@
 
 ### Additional chapter notes
 
-1. Subheading [2202 10 00](/subheadings/2202100000-80) covers waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, providing they are for direct consumption as a beverage.
+1. Subheading [2202 10 00](/commodities/2202100000) covers waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, providing they are for direct consumption as a beverage.
 
-2. For the purposes of heading [2204](/headings/2204) and [2205](/headings/2205) and subheading [2206 00 10](/subheadings/2206001000-80):
+2. For the purposes of heading [2204](/headings/2204) and [2205](/headings/2205) and subheading [2206 00 10](/commodities/2206001000):
 
     - a. 'actual alcoholic strength by volume' means the number of volumes of pure alcohol contained at a temperature of 20°C in 100 volumes of the product at that temperature;
     
@@ -36,7 +36,7 @@
     
     - e. '% vol' is the symbol for alcoholic strength by volume.
 
-3. For the purposes of subheading [2204 30 10](/subheadings/2204301000-80), 'grape must in fermentation' means the product derived from the fermentation of grape must, having an actual alcoholic strength by volume of more than 1% vol and less than three-fifths of its total alcoholic strength by volume.
+3. For the purposes of subheading [2204 30 10](/commodities/2204301000), 'grape must in fermentation' means the product derived from the fermentation of grape must, having an actual alcoholic strength by volume of more than 1% vol and less than three-fifths of its total alcoholic strength by volume.
 
 4. For the purposes of subheadings [2204 21](/subheadings/2204210000-80), [2204 22](/subheadings/2204220000-80) and [2204 29](/subheadings/2204290000-80):
 
@@ -82,33 +82,33 @@
         
         - of a product derived from the distillation of wine, or
         
-        - of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by the UK equivalent of Article 104 of Regulation (EU) No 1308/2013 and for which such practise is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or
+        - of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Article 104 of Regulation (EU) No 2019/934 and for which such practice is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or
         
         - of a mixture of these products.
         
-        However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by the UK equivalent of Article 104 of Regulation (EU) No 1308/2013 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.
+        However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Article 104 of Regulation (EU) No 2019/934 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.
 
 6. For the purposes of subheadings [2204 10](/subheadings/2204100000-80), [2204 21](/subheadings/2204210000-80), [2204 22](/subheadings/2204220000-80) and [2204 29](/subheadings/2204290000-80):
 
     - a. wines with a protected designation of origin (PDO) and wines with a protected geographical indication (PGI) are wines which comply with the provisions of the UK equivalent of Articles 93 to 108 of Regulation (EU) No 1308/2013;
     
-    - b. ‘varietal wines’ are wines which comply with the provisions of Article 120 of the UK equivalent of Regulation (EU) No 1308/2013 of the European Parliament and of the Council and the provisions adopted in implementation of the aforesaid Regulation and defined in national regulations;
+    - b. ‘varietal wines’ are wines which comply with the provisions of the UK equivalent of Article 120 of Regulation (EU) No 1308/2013
     
     - c. wines produced in the European Union are wines which comply with the provisions of the UK equivalent of Regulation (EU) No 1308/2013 and the provisions of the UK equivalent of Article 45 of Regulation (EU) 33/2019.
 
-7. For the purposes of subheadings [2204 30 92](/subheadings/2204309200-80) and [2204 30 96](/subheadings/2204309600-80) 'concentrated grape must' means grape must for which the figure indicated by a refractometer (used in accordance with the method prescribed in the 'Compendium of International Methods of Analysis of Wines and Musts' of the International Organisation of Vine and Wine) at a temperature of 20C is not less than 50.9%.
+7. For the purposes of subheadings [2204 30 92](/commodities/2204309200) and [2204 30 96](/commodities/2204309600) 'concentrated grape must' means grape must for which the figure indicated by a refractometer (used in accordance with the method prescribed in the 'Compendium of International Methods of Analysis of Wines and Musts' of the International Organisation of Vine and Wine) at a temperature of 20C is not less than 50.9%.
 
 8. Only vermouth and other wine of fresh grapes flavoured with plants or aromatic substances having an actual alcoholic strength by volume of not less than 7% vol shall be regarded as products of heading [2205](/headings/2205).
 
-9. For the purposes of subheading [2206 00 10](/subheadings/2206001000-80), the expression 'piquette' means the product obtained by the fermentation of untreated grape marc macerated in water or by the extraction of fermented grape marc with water.
+9. For the purposes of subheading [2206 00 10](/commodities/2206001000), the expression 'piquette' means the product obtained by the fermentation of untreated grape marc macerated in water or by the extraction of fermented grape marc with water.
 
-10. For the purposes of subheadings [2206 00 31](/subheadings/2206003100-80) and [2206 00 39](/subheadings/2206003900-80), the following are regarded as 'sparkling':
+10. For the purposes of subheadings [2206 00 31](/commodities/2206003100) and [2206 00 39](/commodities/2206003900), the following are regarded as 'sparkling':
 
     - fermented beverages in bottles with 'mushroom' stoppers held in place by ties or fastenings,
     
     - fermented beverages otherwise put up, with an excess pressure of 3 bar or more, measured at a temperature of 20 C.
 
-11. For the purposes of subheadings [2209 00 11](/subheadings/2209001100-80) and [2209 00 19](/subheadings/2209001900-80), the expression 'wine vinegar' means vinegar obtained exclusively by acetous fermentation of wine and having a total acidity of not less than 60g/l, expressed as acetic acid.
+11. For the purposes of subheadings [2209 00 11](/commodities/2209001100) and [2209 00 19](/commodities/2209001900), the expression 'wine vinegar' means vinegar obtained exclusively by acetous fermentation of wine and having a total acidity of not less than 60g/l, expressed as acetic acid.
 
 12. Subheading [2207 20](/subheadings/2207200000-80) covers mixtures of ethyl alcohol used as raw material to produce fuels for motor vehicles of an alcoholic strength by volume of 50 % or higher and denatured with one or more of the following substances:
 
@@ -126,13 +126,13 @@
     
     The denaturants referred to in points (e) and (f) of the first paragraph must be used in combination with at least one of the denaturants listed in points (a) to (d) of the first paragraph.
 
-13. For the purposes of subheadings [2202 99 11](/subheadings/2202991100-80) and [2202 99 15](/subheadings/2202991500-80), the protein content shall be determined by multiplying the total nitrogen content, calculated using the method laid down in (the UK equivalent of points 2 to 8 of part C of Annex III to Commission Regulation (EC) No 152/2009), by the factor of 6.25.
+13. For the purposes of subheadings [2202 99 11](/subheadings/2202991100-80) and [2202 99 15](/subheadings/2202991500-80), the protein content shall be determined by multiplying the total nitrogen content, calculated using the method laid down in the UK equivalent of points 2 to 8 of part C of Annex III to Commission Regulation (EC) No 152/2009, by the factor of 6.25.
 
 14. For the purposes of this chapter, “agricultural products” means:
 
-    - goods of chapters 1 to 4, 6 to 12, 16 and [23](/chapters/23) of the classification;
+    - goods of chapters [1](/chapters/01) to [4](/chapters/04), [6](/chapters/06) to [12](/chapters/12), [16](/chapters/16) and [23](/chapters/23) of the classification;
     
-    - goods of heading [0504](/headings/0504), [0515](/headings/0515), [1501](/headings/1501), [1502](/headings/1502), [1503](/headings/1503), [1504](/headings/1504), [1507](/headings/1507), [1512](/headings/1512), [1513](/headings/1513), [1517](/headings/1517), [1701](/headings/1701), [1702](/headings/1702), [1703](/headings/1703), [1705](/headings/1705), [1801](/headings/1801), [1802](/headings/1802), [2204](/headings/2204), [2205](/headings/2205), [2207](/headings/2207), [2210](/headings/2210), [2401](/headings/2401), [2501](/headings/2501), [5410](/headings/5410) and [5701](/headings/5701) of the classification;
+    - goods of heading [0504](/headings/0504), [1501](/headings/1501), [1502](/headings/1502), [1503](/headings/1503), [1504](/headings/1504), [1507](/headings/1507), [1512](/headings/1512), [1513](/headings/1513), [1517](/headings/1517), [1701](/headings/1701), [1702](/headings/1702), [1703](/headings/1703), [1801](/headings/1801), [1802](/headings/1802), [2204](/headings/2204), [2205](/headings/2205), [2207](/headings/2207), [2401](/headings/2401), [2501](/headings/2501) and [5701](/headings/5701) of the classification;
     
     - pectin;
     

@@ -2,7 +2,7 @@
 
 1.  
 
-    (A) For the purposes of subheadings [5306 10 90](/subheadings/5306109000-80), [5306 20 90](/subheadings/5306209000-80) and [5308 20 90](/subheadings/5308209000-80), the expression 'put up for retail sale' in relation to yarn (single, multiple or cabled) means, subject to the exceptions in paragraph (B) below, yarn put up:
+    (A) For the purposes of subheadings [5306 10 90](/commodities/5306109000), [5306 20 90](/commodities/5306209000) and [5308 20 90](/commodities/5308209000), the expression 'put up for retail sale' in relation to yarn (single, multiple or cabled) means, subject to the exceptions in paragraph (B) below, yarn put up:
 
     - a. in balls or on cards, reels, tubes or similar supports, of a weight (including support) not exceeding 200 grams;
     

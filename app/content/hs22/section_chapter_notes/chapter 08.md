@@ -15,6 +15,6 @@
 
 1. The content of various sugars expressed as sucrose (sugar content) of the products classified in this chapter corresponds to the figure indicated by a refractometer at a temperature of 20C and multiplied by the factor 0.95.
 
-2. For the purposes of subheadings [0811 90 11](/subheadings/0811901100-80), [0811 90 31](/subheadings/0811903100-80) and [0811 90 85](/subheadings/0811908500-80) 'tropical fruit' means guavas, mangoes, mangosteens, papaws (papayas), tamarinds, cashew apples, lychees, jackfruit, sapodillo plums, passion fruit, carambola and pitahaya.
+2. For the purposes of subheadings [0811 90 11](/commodities/0811901100), [0811 90 31](/commodities/0811903100) and [0811 90 85](/commodities/0811908500) 'tropical fruit' means guavas, mangoes, mangosteens, papaws (papayas), tamarinds, cashew apples, lychees, jackfruit, sapodillo plums, passion fruit, carambola and pitahaya.
 
-3. For the purposes of subheadings [0811 90 11](/subheadings/0811901100-80), [0811 90 31](/subheadings/0811903100-80), [0811 90 85](/subheadings/0811908500-80), [0812 90 70](/subheadings/0812907000-80) and [0813 50 31](/subheadings/0813503100-80) 'tropical nuts' means coconuts, cashew nuts, Brazil nuts, areca (or betel), cola and macadamia nuts.
+3. For the purposes of subheadings [0811 90 11](/commodities/0811901100), [0811 90 31](/commodities/0811903100), [0811 90 85](/commodities/0811908500), [0812 90 70](/commodities/0812907000) and [0813 50 31](/subheadings/0813503100-80) 'tropical nuts' means coconuts, cashew nuts, Brazil nuts, areca (or betel), cola and macadamia nuts.

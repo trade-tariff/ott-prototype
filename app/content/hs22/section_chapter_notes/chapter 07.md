@@ -13,12 +13,12 @@
 
 ### Additional chapter notes
 
-1. Seed potatoes shall be classified in subheading [0701 10 00](/subheadings/0701100000-80) provided that the goods comply with The Seed Potatoes Regulations 1991.
+1. Seed potatoes shall be classified in subheading [0701 10 00](/commodities/0701100000) provided that the goods comply with The Seed Potatoes Regulations 1991.
 
-2. Sweetcorn hybrids shall be classified in subheading [0712 90 11](/subheadings/0712901100-80) as for sowing provided that:
+2. Sweetcorn hybrids shall be classified in subheading [0712 90 11](/commodities/0712901100) as for sowing provided that:
 
    - the goods comply with the Cereal Seeds Regulation 1974 or
 
    - it is established that the goods are actually intended for sowing.
 
-3. Sweet potatoes shall be deemed to be for human consumption within the meaning of code [0714 20 10](/subheadings/0714201000-80) if they are fresh, whole and put up in immediate packings at the time of release for free circulation.
+3. Sweet potatoes shall be deemed to be for human consumption within the meaning of code [0714 20 10](/commodities/0714201000) if they are fresh, whole and put up in immediate packings at the time of release for free circulation.

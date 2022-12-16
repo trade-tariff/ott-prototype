@@ -125,20 +125,20 @@
 
 ### Subheading notes
 
-1. For the purposes of subheading [8465 20](/subheadings/8465200000-80), the term “machining centres” applies only to machine-tools for working wood, cork, bone, hard rubber, hard plastics or similar hard materials, which can carry out different types of machining operations by automatic tool change from a magazine or the like in conformity with a machining programme.
+1. For the purposes of subheading [8465 20](/commodities/8465200000), the term “machining centres” applies only to machine-tools for working wood, cork, bone, hard rubber, hard plastics or similar hard materials, which can carry out different types of machining operations by automatic tool change from a magazine or the like in conformity with a machining programme.
 
-2. For the purposes of subheading [8471 49](/subheadings/8471490000-80), the term ‘systems’ means automatic data-processing machines whose units satisfy the conditions laid down in note 6(C) to Chapter [84](/chapters/84) and which comprise at least a central processing unit, one input unit (for example, a keyboard or a scanner), and one output unit (for example, a visual display unit or a printer).
+2. For the purposes of subheading [8471 49](/commodities/8471490000), the term ‘systems’ means automatic data-processing machines whose units satisfy the conditions laid down in note 6(C) to Chapter [84](/chapters/84) and which comprise at least a central processing unit, one input unit (for example, a keyboard or a scanner), and one output unit (for example, a visual display unit or a printer).
 
 3. For the purposes of subheading [8481 20](/subheadings/8481200000-80), the expression “valves for oleohydraulic or pneumatic transmissions” means valves which are used specifically in the transmission of “fluid power” in a hydraulic or pneumatic system, where the energy source is supplied in the form of pressurised fluids (liquid or gas).
 
     These valves may be of any type (for example, pressure-reducing type, check type). Subheading [8481 20](/subheadings/8481200000-80) takes precedence over all other subheadings of heading [8481](/headings/8481).
 
-4. Subheading [8482 40](/subheadings/8482400000-80) applies only to bearings with cylindrical rollers of a uniform diameter not exceeding 5 mm and having a length which is at least three times the diameter. The ends of the rollers may be rounded.
+4. Subheading [8482 40](/commodities/8482400000) applies only to bearings with cylindrical rollers of a uniform diameter not exceeding 5 mm and having a length which is at least three times the diameter. The ends of the rollers may be rounded.
 
 ### Additional chapter notes
 
 1. For the purposes of subheadings [8407 10](/subheadings/8407100000-80) and [8409 10](/subheadings/8409100000-80), the expression 'aircraft engines' shall apply only to engines designed for fitting with an airscrew or rotor.
 
-2. Subheading [8471 70 30](/subheadings/8471703000-80) shall also apply to CD-ROM drives, being storage units for automatic data processing machines, which consist of drive units designed for retrieving the signals from CD-ROMs, audio CDs and photo CDs and equipped with a jack for earphones, a volume-control button or a start/stop button.
+2. Subheading [8471 70 30](/commodities/8471703000) shall also apply to CD-ROM drives, being storage units for automatic data processing machines, which consist of drive units designed for retrieving the signals from CD-ROMs, audio CDs and photo CDs and equipped with a jack for earphones, a volume-control button or a start/stop button.
 
-3. Code [8472 90 80](/subheadings/8472908000-80) includes apparatus consisting of a bank note validator and cash boxes (so called ‘note float unit’). The bank note validator uses optical scanning technology to check the authenticity of bank notes according to predefined specifications. In addition to checking the authenticity of bank notes, it also carries out other functions such as sorting and distributing bank notes between different storage boxes and dispensing bank notes.
+3. Code [8472 90 80](/commodities/8472908000) includes apparatus consisting of a bank note validator and cash boxes (so called ‘note float unit’). The bank note validator uses optical scanning technology to check the authenticity of bank notes according to predefined specifications. In addition to checking the authenticity of bank notes, it also carries out other functions such as sorting and distributing bank notes between different storage boxes and dispensing bank notes.

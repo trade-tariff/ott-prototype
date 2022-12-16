@@ -21,7 +21,7 @@
 
 ### Additional chapter notes
 
-1. For the purposes of subheadings [1507 10](/subheadings/1507100000-80), [1508 10](/subheadings/1508100000-80), [1510 10 00](/subheadings/1510100000-80), [1511 10](/subheadings/1511100000-80), [1512 11](/subheadings/1512110000-80), [1512 21](/subheadings/1512210000-80), [1513 11](/subheadings/1513110000-80), [1513 21](/subheadings/1513210000-80), [1514 11](/subheadings/1514110000-80), [1514 91](/subheadings/1514910000-80), [1515 11](/subheadings/1515110000-80), [1515 21](/subheadings/1515210000-80), [1515 50 11](/subheadings/1515501100-80), [1515 50 19](/subheadings/1515501900-80), [1515 90 21](/subheadings/1515902100-80), [1515 90 29](/subheadings/1515902900-80), [1515 90 40](/subheadings/1515904000-80) to [1515 90 59](/subheadings/1515905900-80) and [1518 00 31](/subheadings/1518003100-80):
+1. For the purposes of subheadings [1507 10](/subheadings/1507100000-80), [1508 10](/subheadings/1508100000-80), [1510 10 00](/commodities/1510100000), [1511 10](/subheadings/1511100000-80), [1512 11](/subheadings/1512110000-80), [1512 21](/subheadings/1512210000-80), [1513 11](/subheadings/1513110000-80), [1513 21](/subheadings/1513210000-80), [1514 11](/subheadings/1514110000-80), [1514 91](/subheadings/1514910000-80), [1515 11](/commodities/1515110000), [1515 21](/subheadings/1515210000-80), [1515 50 11](/commodities/1515501100), [1515 50 19](/commodities/1515501900), [1515 90 21](/commodities/1515902100), [1515 90 29](/commodities/1515902900), [1515 90 40](/commodities/1515904000) to [1515 90 59](/commodities/1515905900) and [1518 00 31](/commodities/1518003100):
 
    - (a) fixed vegetable oils, fluid or solid, obtained by pressure, are to be considered as ‘crude’ if they have undergone no other processing than:
 
@@ -38,21 +38,21 @@
 
     Headings [1509](/headings/1509) and [1510](/headings/1510) do not cover chemically altered olive oil (in particular re-esterified olive oil) and mixtures of olive oil with other oils.
 
-    B. Subheadings [1509 20 00](/subheadings/1509200000-80), [1509 30 00](/subheadings/1509300000-80) and [1509 40 00](/subheadings/1509400000-80) cover only the olive oils defined in points 1, 2 and 3 below, obtained solely by mechanical or other physical means under conditions which do not lead to the modification of the oil, and which have not undergone any treatment other than washing, decantation, centrifugation or filtration. Olive oils obtained using solvents, chemical or biochemical reagents, or re-esterification processes, as well as any mixtures with oils of other kinds, are excluded from these subheadings.
+    B. Subheadings [1509 20 00](/subheadings/1509200000-80), [1509 30 00](/subheadings/1509300000-80) and [1509 40 00](/commodities/1509400000) cover only the olive oils defined in points 1, 2 and 3 below, obtained solely by mechanical or other physical means under conditions which do not lead to the modification of the oil, and which have not undergone any treatment other than washing, decantation, centrifugation or filtration. Olive oils obtained using solvents, chemical or biochemical reagents, or re-esterification processes, as well as any mixtures with oils of other kinds, are excluded from these subheadings.
 
       1. For the purposes of subheading [1509 20 00](/subheadings/1509200000-80), ‘extra virgin olive oil’ means olive oil having the characteristics of olive oils of category 1 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
       2. Subheading [1509 30 00](/subheadings/1509300000-80), covers virgin olive oils which have the characteristics of olive oils of category 2 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-      3. For the purposes of subheading [1509 40 00](/subheadings/1509400000-80),  ‘other virgin olive oils’ means olive oils having the characteristics of olive oils of category 3 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+      3. For the purposes of subheading [1509 40 00](/commodities/1509400000),  ‘other virgin olive oils’ means olive oils having the characteristics of olive oils of category 3 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-    C. Subheading [1509 90 00](/subheadings/1509900000-80) covers olive oil obtained by the treatment of olive oils of subheadings [1509 20 00](/subheadings/1509200000-80), [1509 30 00](/subheadings/1509300000-80), and [1509 40 00](/subheadings/1509400000-80), whether or not blended with extra virgin olive oil or virgin olive oil, and having the characteristics of olive oils of categories 4 and 5 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+    C. Subheading [1509 90 00](/subheadings/1509900000-80) covers olive oil obtained by the treatment of olive oils of subheadings [1509 20 00](/subheadings/1509200000-80), [1509 30 00](/subheadings/1509300000-80), and [1509 40 00](/commodities/1509400000), whether or not blended with extra virgin olive oil or virgin olive oil, and having the characteristics of olive oils of categories 4 and 5 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-    D. For the purposes of subheading [1510 10 00](/subheadings/1510100000-80), ‘crude olive pomace oil’ means oils with the characteristics of olive oils of category 6 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+    D. For the purposes of subheading [1510 10 00](/commodities/1510100000), ‘crude olive pomace oil’ means oils with the characteristics of olive oils of category 6 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-    E. Subheading [1510 90 00](/subheadings/1510900000-80) covers oils obtained by the treatment of oils of subheading [1510 10 00](/subheadings/1510100000-80), whether or not blended with extra virgin olive oil or virgin olive oil, and oils not having the characteristics of the oils referred to in points B, C and D of this additional chapter note. Oils of this subheading must have the characteristics of the olive oils of categories 7 and 8 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+    E. Subheading [1510 90 00](/commodities/1510900000) covers oils obtained by the treatment of oils of subheading [1510 10 00](/commodities/1510100000), whether or not blended with extra virgin olive oil or virgin olive oil, and oils not having the characteristics of the oils referred to in points B, C and D of this additional chapter note. Oils of this subheading must have the characteristics of the olive oils of categories 7 and 8 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-3. Subheadings [1522 00 31](/subheadings/1522003100-80) and [1522 00 39](/subheadings/1522003900-80) do not cover:
+3. Subheadings [1522 00 31](/commodities/1522003100) and [1522 00 39](/commodities/1522003900) do not cover:
 
    - (a) residues resulting from the treatment of fatty substances containing oil having an iodine index, determined in accordance with the method laid down in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91, lower than 70 or higher than 100;
 

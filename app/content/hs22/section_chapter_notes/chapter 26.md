@@ -24,6 +24,6 @@
 
 ### Subheading notes
 
-1. For the purposes of subheading [2620 21](/subheadings/2620210000-80), 'leaded gasoline sludges and leaded anti-knock compound sludges' mean sludges obtained from storage tanks of leaded gasoline and leaded anti-knock compounds (for example, tetraethyl lead), and consisting essentially of lead, lead compounds and iron oxide.
+1. For the purposes of subheading [2620 21](/commodities/2620210000), 'leaded gasoline sludges and leaded anti-knock compound sludges' mean sludges obtained from storage tanks of leaded gasoline and leaded anti-knock compounds (for example, tetraethyl lead), and consisting essentially of lead, lead compounds and iron oxide.
 
-2. Slag, ash and residues containing arsenic, mercury, thallium or their mixtures, of a kind used for the extraction of arsenic or those metals or for the manufacture of their chemical compounds, are to be classified in subheading [2620 60](/subheadings/2620600000-80).
+2. Slag, ash and residues containing arsenic, mercury, thallium or their mixtures, of a kind used for the extraction of arsenic or those metals or for the manufacture of their chemical compounds, are to be classified in subheading [2620 60](/commodities/2620600000).

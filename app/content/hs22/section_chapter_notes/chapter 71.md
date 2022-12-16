@@ -78,8 +78,8 @@
 
 ### Subheading notes
 
-1. For the purposes of subheadings [7106 10](/subheadings/7106100000-80), [7108 11](/subheadings/7108110000-80), [7110 11](/subheadings/7110110000-80), [7110 21](/subheadings/7110210000-80), [7110 31](/subheadings/7110310000-80) and [7110 41](/subheadings/7110410000-80), the expressions 'powder' and 'in powder form' mean products of which 90% or more by weight passes through a sieve having a mesh aperture of 0.5 mm.
+1. For the purposes of subheadings [7106 10](/commodities/7106100000), [7108 11](/commodities/7108110000), [7110 11](/commodities/7110110000), [7110 21](/commodities/7110210000), [7110 31](/commodities/7110310000) and [7110 41](/commodities/7110410000), the expressions 'powder' and 'in powder form' mean products of which 90% or more by weight passes through a sieve having a mesh aperture of 0.5 mm.
 
-2. Notwithstanding the provisions of chapter note 4(B), for the purposes of subheadings [7110 11](/subheadings/7110110000-80) and [7110 19](/subheadings/7110190000-80), the expression 'platinum' does not include iridium, osmium, palladium, rhodium or ruthenium.
+2. Notwithstanding the provisions of chapter note 4(B), for the purposes of subheadings [7110 11](/commodities/7110110000) and [7110 19](/subheadings/7110190000-80), the expression 'platinum' does not include iridium, osmium, palladium, rhodium or ruthenium.
 
 3. For the classification of alloys in subheadings of heading [7110](/headings/7110), each alloy is to be classified with that metal, platinum, palladium, rhodium, iridium, osmium or ruthenium which predominates by weight over each other of these metals.

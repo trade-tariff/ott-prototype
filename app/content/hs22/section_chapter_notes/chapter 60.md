@@ -13,4 +13,4 @@
 
 ### Subheading note
 
-Subheading [6005 35](/subheadings/6005350000-80) covers fabrics of polyethylene monofilament or of polyester multifilament, weighing not less than 30 g/m<sup>2</sup> and not more than 55 g/m<sup>2</sup>, having a mesh size of not less than 20 holes/cm<sup>2</sup> and not more than 100 holes/cm<sup>2</sup>, and impregnated or coated with alpha-cypermethrin (ISO), chlorfenapyr (ISO), deltamethrin (INN, ISO), lambda-cyhalothrin (ISO), permethrin (ISO) or pirimiphos-methyl (ISO).
+Subheading [6005 35](/commodities/6005350000) covers fabrics of polyethylene monofilament or of polyester multifilament, weighing not less than 30 g/m<sup>2</sup> and not more than 55 g/m<sup>2</sup>, having a mesh size of not less than 20 holes/cm<sup>2</sup> and not more than 100 holes/cm<sup>2</sup>, and impregnated or coated with alpha-cypermethrin (ISO), chlorfenapyr (ISO), deltamethrin (INN, ISO), lambda-cyhalothrin (ISO), permethrin (ISO) or pirimiphos-methyl (ISO).

@@ -68,7 +68,7 @@
 8. Chemical elements (for example, silicon and selenium) doped for use in electronics are to be classified in this chapter, provided that they are in forms unworked as drawn, or in the form of cylinders or rods. When cut in the form of discs, wafers or similar forms, they fall in heading [3818](/headings/3818).
 
 ### Subheading note
-1. For the purposes of subheading [2852 10](/subheadings/2852100000-80), the expression ‘chemically defined’ means all organic or inorganic compounds of mercury meeting the requirements of paragraphs (a) to (e) of note 1 to Chapter [28](/chapters/28) or paragraphs (a) to (h) of note 1 to Chapter [29](/chapters/29).
+1. For the purposes of subheading [2852 10](/commodities/2852100000), the expression ‘chemically defined’ means all organic or inorganic compounds of mercury meeting the requirements of paragraphs (a) to (e) of note 1 to Chapter [28](/chapters/28) or paragraphs (a) to (h) of note 1 to Chapter [29](/chapters/29).
 
 ### Additional chapter note
 1. Unless provided otherwise, the salts specified in subheadings include acid salts and basic salts.

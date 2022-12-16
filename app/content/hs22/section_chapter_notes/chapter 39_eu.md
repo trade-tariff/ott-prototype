@@ -118,7 +118,7 @@
     
     (1) the designation in a subheading of a polymer by the prefix ‘poly’ (for example, polyethylene and polyamide-6,6) means that the constituent monomer unit or monomer units of the named polymer taken together must contribute 95 % or more by weight of the total polymer content;
     
-    (2) the copolymers named in subheadings [3901 30](/subheadings/3901300000-80), [3901 40](/subheadings/3901400000-80), [3903 20](/subheadings/3903200000-80), [3903 30](/subheadings/3903300000-80) and [3904 30](/subheadings/3904300000-80) are to be classified in those subheadings, provided that the comonomer units of the named copolymers contribute 95 % or more by weight of the total polymer content;
+    (2) the copolymers named in subheadings [3901 30](/subheadings/3901300000-80), [3901 40](/subheadings/3901400000-80), [3903 20](/commodities/3903200000), [3903 30](/commodities/3903300000) and [3904 30](/subheadings/3904300000-80) are to be classified in those subheadings, provided that the comonomer units of the named copolymers contribute 95 % or more by weight of the total polymer content;
     
     (3) chemically modified polymers are to be classified in the subheading named ‘Other’, provided that the chemically modified polymers are not more specifically covered by another subheading;
     

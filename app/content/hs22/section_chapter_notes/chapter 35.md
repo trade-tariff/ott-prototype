@@ -16,9 +16,9 @@
 
 ### Additional chapter note
 
-1. Subheading [3504 00 10](/subheadings/3504001000-80) covers concentrated milk proteins with a protein content of more than 85% by weight, calculated on the dry matter.
+1. Subheading [3504 00 10](/commodities/3504001000) covers concentrated milk proteins with a protein content of more than 85% by weight, calculated on the dry matter.
 
-2. The term “unfit for human consumption” as regards codes [3502 11 10](/subheadings/3502111000-80), [3502 19 10](/subheadings/3502191000-80), [3502 20 10](/subheadings/3502201000-80) and [3502 90 10](/subheadings/3502901000-80) applies when:
+2. The term “unfit for human consumption” as regards codes [3502 11 10](/commodities/3502111000), [3502 19 10](/commodities/3502191000), [3502 20 10](/commodities/3502201000) and [3502 90 20](/commodities/3502902000) applies when:
 
     - the goods are homogeneously mixed with one of the denaturants shown in column 1 of the table below in the quantities indicated in column 2 and
     

@@ -45,4 +45,4 @@
     (ii) the content by weight of at least one of the other elements is greater than the limit specified in the foregoing table, or
     (iii) the total content by weight of elements other than nickel plus cobalt exceeds 1%.
 
-2. Notwithstanding the provisions of note 9(c) to Section XV, for the purposes of subheading [7508 10](/subheadings/7508100000-80) the term `wire’ applies only to products, whether or not in coils, of any cross-sectional shape, of which no cross sectional dimension exceeds 6 mm
+2. Notwithstanding the provisions of note 9(c) to Section XV, for the purposes of subheading [7508 10](/commodities/7508100000) the term `wire’ applies only to products, whether or not in coils, of any cross-sectional shape, of which no cross sectional dimension exceeds 6 mm

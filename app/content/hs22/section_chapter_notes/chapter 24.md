@@ -6,6 +6,10 @@
 
 ### Subheading note
 
-1. For the purposes of subheading [2403 11](/subheadings/2403110000-80), the expression ‘water-pipe tobacco’ means tobacco intended for smoking in a water pipe and which consists of a mixture of tobacco and glycerol, whether or not containing aromatic oils and extracts, molasses or sugar, and whether or not flavoured with fruit.
+1. For the purposes of subheading [2403 11](/commodities/2403110000), the expression ‘water-pipe tobacco’ means tobacco intended for smoking in a water pipe and which consists of a mixture of tobacco and glycerol, whether or not containing aromatic oils and extracts, molasses or sugar, and whether or not flavoured with fruit.
 
     However, tobacco free products intended for smoking in a water pipe are excluded from this subheading.
+
+### Additional Chapter Note
+
+1. Code 2404 12 00 10 includes disposable electronic cigarettes (disposable e-cigarettes) and similar disposable personal electric vaporising devices, that incorporate both the product intended for inhalation without combustion (e.g., e-liquid, gels) and the delivery mechanism in an integrated housing, that are designed for disposal after the incorporated product is exhausted or the battery runs out (not designed for refilling or recharging).

@@ -37,7 +37,7 @@
 
 ### Additional chapter notes
 
-1. Subheadings [9619 00 71](/subheadings/9619007100-80) to [9619 00 89](/subheadings/9619008900-80) include goods of paper pulp, paper, cellulose wadding or webs of cellulose fibres. Those subheadings also include composite goods consisting of the following:
+1. Subheadings [9619 00 71](/commodities/9619007100) to [9619 00 89](/commodities/9619008900) include goods of paper pulp, paper, cellulose wadding or webs of cellulose fibres. Those subheadings also include composite goods consisting of the following:
 
     a. an inner layer (for example, of nonwovens) designed to wick fluid from the wearer's skin and thereby prevent chafing;
     

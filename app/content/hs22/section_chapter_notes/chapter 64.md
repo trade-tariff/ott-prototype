@@ -29,7 +29,7 @@
 
 ### Subheading note
 
-1. For the purposes of subheadings [6402 12](/subheadings/6402120000-80), [6402 19](/subheadings/6402190000-80), [6403 12](/subheadings/6403120000-80), [6403 19](/subheadings/6403190000-80) and [6404 11](/subheadings/6404110000-80), the expression 'sports footwear' applies only to:
+1. For the purposes of subheadings [6402 12](/subheadings/6402120000-80), [6402 19](/commodities/6402190000), [6403 12](/commodities/6403120000), [6403 19](/commodities/6403190000) and [6404 11](/commodities/6404110000), the expression 'sports footwear' applies only to:
 
     a. footwear which is designed for a sporting activity and has, or has provision for the attachment of, spikes, sprigs, stops, clips, bars or the like;
     

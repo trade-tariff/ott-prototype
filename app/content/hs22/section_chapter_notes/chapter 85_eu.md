@@ -106,7 +106,7 @@
 
 ### Subheading notes
 
-1. Subheading [8525 81](/subheadings/8525810000-80) covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics:
+1. Subheading [8525 81](/commodities/8525810000) covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics:
 
     - writing speed exceeding 0.0 mm per microsecond;
     
@@ -114,18 +114,18 @@
     
     - frame rate exceeding 225 000 frames per second.
 
-2. In respect of subheading [8525 82](/subheadings/8525820000-80), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 x 10<sup>3</sup> Gy(silicon) (5 x 10<sup>6</sup> RAD (silicon)), without operational degradation.
+2. In respect of subheading [8525 82](/commodities/8525820000), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 x 10<sup>3</sup> Gy(silicon) (5 x 10<sup>6</sup> RAD (silicon)), without operational degradation.
 
-3. Subheading [8525 83](/subheadings/8525830000-80) covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading [8525 89](/subheadings/8525890000-80)). ENOfficial Journal of the European Union 19.11.2021 L 414/611
+3. Subheading [8525 83](/commodities/8525830000) covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading [8525 89](/commodities/8525890000)). ENOfficial Journal of the European Union 19.11.2021 L 414/611
 
-4. Subheading [8527 12](/subheadings/8527120000-80) covers only cassette-players with built-in amplifier, without built-in loudspeaker, capable of operating without an external source of electric power and the dimensions of which do not exceed 170 mm x 100 mm x 45 mm.
+4. Subheading [8527 12](/commodities/8527120000) covers only cassette-players with built-in amplifier, without built-in loudspeaker, capable of operating without an external source of electric power and the dimensions of which do not exceed 170 mm x 100 mm x 45 mm.
 
 5. For the purposes of subheadings [8549 11](/subheadings/8549110000-80) to [8549 19](/subheadings/8549190000-80), 'spent primary cells, spent primary batteries and spent electric accumulators' are those which are neither usable as such because of breakage, cutting-up, wear or other reasons, nor capable of being recharged.
 
 ### Additional chapter notes
 
-1. Subheadings [8519 20 10](/subheadings/8519201000-80) and [8519 30 00](/subheadings/8519300000-80) are to be taken not to apply to sound reproducing apparatus with laser reading system.
+1. Subheadings [8519 20 10](/commodities/8519201000) and [8519 30 00](/commodities/8519300000) are to be taken not to apply to sound reproducing apparatus with laser reading system.
 
-2. For the purposes of subheadings [8528 71 15](/subheadings/8528711500-80) and [8528 71 91](/subheadings/8528719100-80) only, the term 'modem' covers devices or equipment that modulate and demodulate incoming and outgoing signals, such as V.90-modems or cable modems, and other devices that use like technologies for gaining access to the internet, such as WLAN, ISDN and ethernet. The extent of access to the internet may be limited by the service provider.
+2. For the purposes of subheadings [8528 71 15](/commodities/8528711500) and [8528 71 91](/commodities/8528719100) only, the term 'modem' covers devices or equipment that modulate and demodulate incoming and outgoing signals, such as V.90-modems or cable modems, and other devices that use like technologies for gaining access to the internet, such as WLAN, ISDN and ethernet. The extent of access to the internet may be limited by the service provider.
 
     Apparatus of these subheadings must enable a two-way communication process or the two-way flow of information for the purposes of providing interactive information exchange.

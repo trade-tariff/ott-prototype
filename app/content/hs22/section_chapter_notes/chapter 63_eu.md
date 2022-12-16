@@ -28,4 +28,4 @@
 
 ### Subheading note
 
-1. Subheading [6304 20](/subheadings/6304200000-80) covers articles made from warp knit fabrics, impregnated or coated with alphacypermethrin (ISO), chlorfenapyr (ISO), deltamethrin (INN, ISO), lambda-cyhalothrin (ISO), permethrin (ISO) or pirimiphos-methyl (ISO).
+1. Subheading [6304 20](/commodities/6304200000) covers articles made from warp knit fabrics, impregnated or coated with alphacypermethrin (ISO), chlorfenapyr (ISO), deltamethrin (INN, ISO), lambda-cyhalothrin (ISO), permethrin (ISO) or pirimiphos-methyl (ISO).

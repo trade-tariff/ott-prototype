@@ -20,6 +20,6 @@ Subheading [8708 22](/subheadings/8708220000-80) covers:
 
 ### Additional chapter notes
 
-1. Code [8703 10 18](/subheadings/8703101800-80) includes mobility scooters which typically include a separate adjustable steering column, a horizontal platform, an adjustable seat, a steering column that can be folded down, thumb-operated levers for accelerating, braking and reversing.  They are not specially designed for the transport of disabled persons as they have no special features to alleviate a dis-ability.
+1. Code [8703 10 18](/commodities/8703101800) includes mobility scooters which typically include a separate adjustable steering column, a horizontal platform, an adjustable seat, a steering column that can be folded down, thumb-operated levers for accelerating, braking and reversing.  They are not specially designed for the transport of disabled persons as they have no special features to alleviate a dis-ability.
 
-2. Heading [8713](/headings/8713) does not include mobility scooters, see also the Additional chapter note to code [8703 10 18](/subheadings/8703101800-80).
+2. Heading [8713](/headings/8713) does not include mobility scooters, see also the Additional chapter note to code [8703 10 18](/commodities/8703101800).

@@ -4,4 +4,4 @@
 
 ## Additional chapter note
 
-1. For the purposes of applying the maximum rate of duty provided for in respect of carpets, carpeting and rugs of subheading [5701 10 90](/subheadings/5701109000-80), the dutiable surface shall not include the heading, the selvedges and the fringes.
+1. For the purposes of applying the maximum rate of duty provided for in respect of carpets, carpeting and rugs of subheading [5701 10 90](/commodities/5701109000), the dutiable surface shall not include the heading, the selvedges and the fringes.
