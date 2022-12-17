@@ -76,11 +76,19 @@
     </div>
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
+        
             {% if context.is_local %}
+            <!-- Link to set search references //-->
                 <p>
                     <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]<img class="references" src="/public/images/references/references.png"></a>
                 </p>
             {% endif %}
+
+            {% set show_breadcrumb = true %}
+            {% if show_breadcrumb %}
+                {% include "includes/headings_breadcrumb.html" %}
+            {% endif %}
+            
             {% include "includes/heading_include.html" %}
 
             <!-- Start section / chapter notes //-->

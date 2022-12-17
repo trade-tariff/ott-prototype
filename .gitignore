@@ -20,3 +20,5 @@ python/
 app/assets/downloads/roo_reference/psr only/
 .vscode/
 .tmp
+app/content/hs22/section_chapter_notes_rewritten
+app/content/hs22/section_chapter_notes_safe
