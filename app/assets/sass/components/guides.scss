@@ -1,0 +1,21 @@
+.classification_guide {
+    display: flex;
+    flex-flow: row wrap;
+    margin:1em 0px 0px 0px;
+    background-color: #F6F6F6;
+    padding:0.5em;
+
+    .classification_guide_image {
+        width: 30%;
+        margin-right: 1em;
+    }
+
+    .classification_guide_copy {
+        width: 60%
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}

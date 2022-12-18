@@ -65,6 +65,20 @@
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
 
+            {% if context.guides | length > 0 %}
+                {% for guide in context.guides %}
+                    <div class="classification_guide">
+                        <div class="classification_guide_image">
+                            <img src="/public/images/guides_new/browse/{{ guide.image }}" alt="">
+                        </div>
+                        <div class="classification_guide_copy">
+                            <span class="govuk-caption-m">Classification guide</span>
+                            <h2 class="govuk-heading-m">{{ guide.title }}</h2>
+                            <p><a href="{{ guide.url }}" target="_blank">{{ guide.strapline }} (opens in new tab)</a>.</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
             <div class="govuk-inset-text">
                 <p>There are <strong>{{ heading.leaf_count }} commodities</strong> in this category. Choose the commodity code that best matches your goods to see more information. 
                 If your item is not listed by name, it may be shown under what it's used for, what it's made from or 'Other'.</p>
@@ -76,9 +90,9 @@
     </div>
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
-        
+
             {% if context.is_local %}
-            <!-- Link to set search references //-->
+                <!-- Link to set search references //-->
                 <p>
                     <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]<img class="references" src="/public/images/references/references.png"></a>
                 </p>
@@ -88,11 +102,9 @@
             {% if show_breadcrumb %}
                 {% include "includes/headings_breadcrumb.html" %}
             {% endif %}
-            
+
             {% include "includes/heading_include.html" %}
 
-            
-            {{ context.guides | dump }}
 
             <!-- Start section / chapter notes //-->
             <article class="section-chapter-notes" id="section-chapter-notes">
