@@ -28,6 +28,7 @@ class Context {
         this.subdivision = ''
 
         this.set_default_article_content()
+        this.get_guides()
 
         this.set_profile()
         this.get_root_url(req)
@@ -44,6 +45,38 @@ class Context {
         this.show_rosa_version = true
         this.check_localhost()
     }
+
+    get_guides() {
+        var url = this.req.url
+
+        this.guides = []
+        if ((url.includes("headings")) || (url.includes("commodities"))) {
+            // Get the guides
+            var filename = path.join(process.cwd(), 'app', 'data', 'guides', 'guides3.json')
+            var guides = require(filename);
+            // Get the guides to headings links
+            var filename = path.join(process.cwd(), 'app', 'data', 'guides', 'headings_guides.json')
+            console.log(filename)
+            var headings_guides = require(filename);
+            url = url.replace("/subheadings/", "").replace("/headings/", "").replace("/commodities/", "")
+            var heading = url.substr(0, 4);
+            for (var i = 0; i < headings_guides.length; i += 1) {
+                var heading_guide = headings_guides[i]
+                if (heading_guide["heading_id"] == heading) {
+                    var obj = {
+                        "id": heading_guide["id"],
+                        "title": guides[heading_guide["id"]]["title"],
+                        "url": guides[heading_guide["id"]]["url"],
+                        "image": guides[heading_guide["id"]]["image"]
+                    }
+                    this.guides.push(obj)
+                }
+            }
+        }
+    }
+
+
+
 
     check_localhost() {
         var host_name = this.req.hostname

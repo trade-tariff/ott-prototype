@@ -298,7 +298,6 @@ module.exports = function (env) {
     }
 
     filters.convert_markdown = function (str, hide_bullets = false, add_back_to_top = false, insert_toc = false) {
-        console.log(str)
         if ((typeof str === 'undefined') || (!str)) {
             return ("")
         } else {

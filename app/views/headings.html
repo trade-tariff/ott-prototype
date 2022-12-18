@@ -91,6 +91,9 @@
             
             {% include "includes/heading_include.html" %}
 
+            
+            {{ context.guides | dump }}
+
             <!-- Start section / chapter notes //-->
             <article class="section-chapter-notes" id="section-chapter-notes">
                 {% for item in heading.included %}

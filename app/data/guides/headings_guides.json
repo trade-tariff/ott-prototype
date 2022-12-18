@@ -1,0 +1,2722 @@
+[
+    {
+      "heading_id": "0701",
+      "description": "Potatoes, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0701000000",
+      "goods_nomenclature_sid": 30241
+    },
+    {
+      "heading_id": "0702",
+      "description": "Tomatoes, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0702000000",
+      "goods_nomenclature_sid": 30256
+    },
+    {
+      "heading_id": "0703",
+      "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0703000000",
+      "goods_nomenclature_sid": 30292
+    },
+    {
+      "heading_id": "0704",
+      "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0704000000",
+      "goods_nomenclature_sid": 30319
+    },
+    {
+      "heading_id": "0705",
+      "description": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0705000000",
+      "goods_nomenclature_sid": 30343
+    },
+    {
+      "heading_id": "0706",
+      "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0706000000",
+      "goods_nomenclature_sid": 30380
+    },
+    {
+      "heading_id": "0707",
+      "description": "Cucumbers and gherkins, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0707000000",
+      "goods_nomenclature_sid": 30411
+    },
+    {
+      "heading_id": "0708",
+      "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0708000000",
+      "goods_nomenclature_sid": 30423
+    },
+    {
+      "heading_id": "0709",
+      "description": "Other vegetables, fresh or chilled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0709000000",
+      "goods_nomenclature_sid": 30463
+    },
+    {
+      "heading_id": "0710",
+      "description": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0710000000",
+      "goods_nomenclature_sid": 30588
+    },
+    {
+      "heading_id": "0711",
+      "description": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0711000000",
+      "goods_nomenclature_sid": 30626
+    },
+    {
+      "heading_id": "0712",
+      "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0712000000",
+      "goods_nomenclature_sid": 30682
+    },
+    {
+      "heading_id": "0713",
+      "description": "Dried leguminous vegetables, shelled, whether or not skinned or split",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0713000000",
+      "goods_nomenclature_sid": 30726
+    },
+    {
+      "heading_id": "0714",
+      "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0714000000",
+      "goods_nomenclature_sid": 30772
+    },
+    {
+      "heading_id": "0801",
+      "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0801000000",
+      "goods_nomenclature_sid": 30809
+    },
+    {
+      "heading_id": "0802",
+      "description": "Other nuts, fresh or dried, whether or not shelled or peeled",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0802000000",
+      "goods_nomenclature_sid": 30815
+    },
+    {
+      "heading_id": "0803",
+      "description": "Bananas, including plantains, fresh or dried",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0803000000",
+      "goods_nomenclature_sid": 30845
+    },
+    {
+      "heading_id": "0804",
+      "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0804000000",
+      "goods_nomenclature_sid": 30853
+    },
+    {
+      "heading_id": "0805",
+      "description": "Citrus fruit, fresh or dried",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0805000000",
+      "goods_nomenclature_sid": 30893
+    },
+    {
+      "heading_id": "0806",
+      "description": "Grapes, fresh or dried",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0806000000",
+      "goods_nomenclature_sid": 31162
+    },
+    {
+      "heading_id": "0807",
+      "description": "Melons (including watermelons) and papaws (papayas), fresh",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0807000000",
+      "goods_nomenclature_sid": 31215
+    },
+    {
+      "heading_id": "0808",
+      "description": "Apples, pears and quinces, fresh",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0808000000",
+      "goods_nomenclature_sid": 31254
+    },
+    {
+      "heading_id": "0809",
+      "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0809000000",
+      "goods_nomenclature_sid": 31301
+    },
+    {
+      "heading_id": "0810",
+      "description": "Other fruit, fresh",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0810000000",
+      "goods_nomenclature_sid": 31412
+    },
+    {
+      "heading_id": "0811",
+      "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0811000000",
+      "goods_nomenclature_sid": 31524
+    },
+    {
+      "heading_id": "0812",
+      "description": "Fruit and nuts, provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0812000000",
+      "goods_nomenclature_sid": 31644
+    },
+    {
+      "heading_id": "0813",
+      "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this chapter",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0813000000",
+      "goods_nomenclature_sid": 31666
+    },
+    {
+      "heading_id": "0814",
+      "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",
+      "title": "Edible fruit, vegetables and nuts",
+      "id": 24,
+      "fqcc": "0814000000",
+      "goods_nomenclature_sid": 31698
+    },
+    {
+      "heading_id": 1006,
+      "description": "Rice",
+      "title": "Rice",
+      "id": 17,
+      "fqcc": 1006000000,
+      "goods_nomenclature_sid": 31827
+    },
+    {
+      "heading_id": 2106,
+      "description": "Food preparations not elsewhere specified or included",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 2106000000,
+      "goods_nomenclature_sid": 34567
+    },
+    {
+      "heading_id": 2106,
+      "description": "Food preparations not elsewhere specified or included",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2106000000,
+      "goods_nomenclature_sid": 34567
+    },
+    {
+      "heading_id": 2202,
+      "description": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 2009",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2202000000,
+      "goods_nomenclature_sid": 34638
+    },
+    {
+      "heading_id": 2205,
+      "description": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2205000000,
+      "goods_nomenclature_sid": 34941
+    },
+    {
+      "heading_id": 2206,
+      "description": "Other fermented beverages (for example, cider, perry, mead); mixtures of fermented beverages and mixtures of fermented beverages and non-alcoholic beverages, not elsewhere specified or included",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2206000000,
+      "goods_nomenclature_sid": 34948
+    },
+    {
+      "heading_id": 2208,
+      "description": "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol; spirits, liqueurs and other spirituous beverages",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2208000000,
+      "goods_nomenclature_sid": 34981
+    },
+    {
+      "heading_id": 2401,
+      "description": "Unmanufactured tobacco; tobacco refuse",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 2401000000,
+      "goods_nomenclature_sid": 35247
+    },
+    {
+      "heading_id": 2402,
+      "description": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 2402000000,
+      "goods_nomenclature_sid": 35283
+    },
+    {
+      "heading_id": 2403,
+      "description": "Other manufactured tobacco and manufactured tobacco substitutes; 'homogenised' or 'reconstituted' tobacco; tobacco extracts and essences",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 2403000000,
+      "goods_nomenclature_sid": 35287
+    },
+    {
+      "heading_id": 2404,
+      "description": "Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 2404000000,
+      "goods_nomenclature_sid": 106659
+    },
+    {
+      "heading_id": 2530,
+      "description": "Mineral substances not elsewhere specified or included",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 2530000000,
+      "goods_nomenclature_sid": 35443
+    },
+    {
+      "heading_id": 2901,
+      "description": "Acyclic hydrocarbons",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2901000000,
+      "goods_nomenclature_sid": 36170
+    },
+    {
+      "heading_id": 2902,
+      "description": "Cyclic hydrocarbons",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2902000000,
+      "goods_nomenclature_sid": 36186
+    },
+    {
+      "heading_id": 2903,
+      "description": "Halogenated derivatives of hydrocarbons",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2903000000,
+      "goods_nomenclature_sid": 36225
+    },
+    {
+      "heading_id": 2904,
+      "description": "Sulphonated, nitrated or nitrosated derivatives of hydrocarbons, whether or not halogenated",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2904000000,
+      "goods_nomenclature_sid": 36312
+    },
+    {
+      "heading_id": 2905,
+      "description": "Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2905000000,
+      "goods_nomenclature_sid": 36339
+    },
+    {
+      "heading_id": 2906,
+      "description": "Cyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2906000000,
+      "goods_nomenclature_sid": 36399
+    },
+    {
+      "heading_id": 2907,
+      "description": "Phenols; phenol-alcohols",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2907000000,
+      "goods_nomenclature_sid": 36416
+    },
+    {
+      "heading_id": 2908,
+      "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of phenols or phenol-alcohols",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2908000000,
+      "goods_nomenclature_sid": 36452
+    },
+    {
+      "heading_id": 2909,
+      "description": "Ethers, ether-alcohols, ether-phenols, ether-alcohol-phenols, alcohol peroxides, ether peroxides, ketone peroxides (whether or not chemically defined), and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2909000000,
+      "goods_nomenclature_sid": 36465
+    },
+    {
+      "heading_id": 2910,
+      "description": "Epoxides, epoxyalcohols, epoxyphenols and epoxyethers, with a three-membered ring, and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2910000000,
+      "goods_nomenclature_sid": 36508
+    },
+    {
+      "heading_id": 2911,
+      "description": "Acetals and hemiacetals, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2911000000,
+      "goods_nomenclature_sid": 36518
+    },
+    {
+      "heading_id": 2912,
+      "description": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2912000000,
+      "goods_nomenclature_sid": 36520
+    },
+    {
+      "heading_id": 2913,
+      "description": "Halogenated, sulphonated, nitrated or nitrosated derivatives of products of heading 2912",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2913000000,
+      "goods_nomenclature_sid": 36538
+    },
+    {
+      "heading_id": 2914,
+      "description": "Ketones and quinones, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2914000000,
+      "goods_nomenclature_sid": 36540
+    },
+    {
+      "heading_id": 2915,
+      "description": "Saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2915000000,
+      "goods_nomenclature_sid": 36587
+    },
+    {
+      "heading_id": 2916,
+      "description": "Unsaturated acyclic monocarboxylic acids, cyclic monocarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2916000000,
+      "goods_nomenclature_sid": 36644
+    },
+    {
+      "heading_id": 2917,
+      "description": "Polycarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2917000000,
+      "goods_nomenclature_sid": 36694
+    },
+    {
+      "heading_id": 2918,
+      "description": "Carboxylic acids with additional oxygen function and their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2918000000,
+      "goods_nomenclature_sid": 36744
+    },
+    {
+      "heading_id": 2919,
+      "description": "Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2919000000,
+      "goods_nomenclature_sid": 36797
+    },
+    {
+      "heading_id": 2920,
+      "description": "Esters of other inorganic acids of non-metals (excluding esters of hydrogen halides) and their salts; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2920000000,
+      "goods_nomenclature_sid": 36808
+    },
+    {
+      "heading_id": 2921,
+      "description": "Amine-function compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2921000000,
+      "goods_nomenclature_sid": 36826
+    },
+    {
+      "heading_id": 2922,
+      "description": "Oxygen-function amino-compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2922000000,
+      "goods_nomenclature_sid": 36896
+    },
+    {
+      "heading_id": 2923,
+      "description": "Quaternary ammonium salts and hydroxides; lecithins and other phosphoaminolipids, whether or not chemically defined",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2923000000,
+      "goods_nomenclature_sid": 36961
+    },
+    {
+      "heading_id": 2924,
+      "description": "Carboxyamide-function compounds; amide-function compounds of carbonic acid",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2924000000,
+      "goods_nomenclature_sid": 36969
+    },
+    {
+      "heading_id": 2925,
+      "description": "Carboxyimide-function compounds (including saccharin and its salts) and imine-function compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2925000000,
+      "goods_nomenclature_sid": 36995
+    },
+    {
+      "heading_id": 2926,
+      "description": "Nitrile-function compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2926000000,
+      "goods_nomenclature_sid": 37012
+    },
+    {
+      "heading_id": 2927,
+      "description": "Diazo-, azo- or azoxy-compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2927000000,
+      "goods_nomenclature_sid": 37029
+    },
+    {
+      "heading_id": 2928,
+      "description": "Organic derivatives of hydrazine or of hydroxylamine",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2928000000,
+      "goods_nomenclature_sid": 37033
+    },
+    {
+      "heading_id": 2929,
+      "description": "Compounds with other nitrogen function",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2929000000,
+      "goods_nomenclature_sid": 37042
+    },
+    {
+      "heading_id": 2930,
+      "description": "Organo-sulphur compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2930000000,
+      "goods_nomenclature_sid": 37063
+    },
+    {
+      "heading_id": 2931,
+      "description": "Other organo-inorganic compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2931000000,
+      "goods_nomenclature_sid": 37096
+    },
+    {
+      "heading_id": 2932,
+      "description": "Heterocyclic compounds with oxygen hetero-atom(s) only",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2932000000,
+      "goods_nomenclature_sid": 37122
+    },
+    {
+      "heading_id": 2933,
+      "description": "Heterocyclic compounds with nitrogen hetero-atom(s) only; nucleic acids and their salts",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2933000000,
+      "goods_nomenclature_sid": 37193
+    },
+    {
+      "heading_id": 2934,
+      "description": "Nucleic acids and their salts, whether or not chemically defined; other heterocyclic compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2934000000,
+      "goods_nomenclature_sid": 37349
+    },
+    {
+      "heading_id": 2935,
+      "description": "Sulphonamides",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2935000000,
+      "goods_nomenclature_sid": 37418
+    },
+    {
+      "heading_id": 2936,
+      "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 2936000000,
+      "goods_nomenclature_sid": 37433
+    },
+    {
+      "heading_id": 2936,
+      "description": "Provitamins and vitamins, natural or reproduced by synthesis (including natural concentrates), derivatives thereof used primarily as vitamins, and intermixtures of the foregoing, whether or not in any solvent",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2936000000,
+      "goods_nomenclature_sid": 37433
+    },
+    {
+      "heading_id": 2937,
+      "description": "Hormones, prostaglandins, thromboxanes and leukotrienes, natural or reproduced by synthesis; derivatives and structural analogues thereof, including chain modified polypeptides, used primarily as hormones",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2937000000,
+      "goods_nomenclature_sid": 37461
+    },
+    {
+      "heading_id": 2938,
+      "description": "Glycosides, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2938000000,
+      "goods_nomenclature_sid": 37496
+    },
+    {
+      "heading_id": 2939,
+      "description": "Vegetable alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2939000000,
+      "goods_nomenclature_sid": 37502
+    },
+    {
+      "heading_id": 2940,
+      "description": "Sugars, chemically pure, other than sucrose, lactose, maltose, glucose and fructose; sugar ethers and sugar esters, and their salts, other than products of heading No 2937, 2938 or 2939",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2940000000,
+      "goods_nomenclature_sid": 37534
+    },
+    {
+      "heading_id": 2941,
+      "description": "Antibiotics",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2941000000,
+      "goods_nomenclature_sid": 37541
+    },
+    {
+      "heading_id": 2942,
+      "description": "Other organic compounds",
+      "title": "Organic chemicals",
+      "id": 13,
+      "fqcc": 2942000000,
+      "goods_nomenclature_sid": 37613
+    },
+    {
+      "heading_id": 3001,
+      "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo-therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere specified or included",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3001000000,
+      "goods_nomenclature_sid": 37615
+    },
+    {
+      "heading_id": 3002,
+      "description": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3002000000,
+      "goods_nomenclature_sid": 37627
+    },
+    {
+      "heading_id": 3003,
+      "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3003000000,
+      "goods_nomenclature_sid": 37661
+    },
+    {
+      "heading_id": 3003,
+      "description": "Medicaments (excluding goods of heading 3002, 3005 or 3006) consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses, not put up in measured doses or in forms or packings for retail sale",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 3003000000,
+      "goods_nomenclature_sid": 37661
+    },
+    {
+      "heading_id": 3004,
+      "description": "Medicaments (excluding goods of heading No 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses or in forms or packings for retail sale",
+      "title": "Herbal medicines, supplements and tonics",
+      "id": 9,
+      "fqcc": 3004000000,
+      "goods_nomenclature_sid": 37684
+    },
+    {
+      "heading_id": 3004,
+      "description": "Medicaments (excluding goods of heading No 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses or in forms or packings for retail sale",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3004000000,
+      "goods_nomenclature_sid": 37684
+    },
+    {
+      "heading_id": 3005,
+      "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 3005000000,
+      "goods_nomenclature_sid": 37744
+    },
+    {
+      "heading_id": 3005,
+      "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3005000000,
+      "goods_nomenclature_sid": 37744
+    },
+    {
+      "heading_id": 3006,
+      "description": "Pharmaceutical goods specified in Note 3 to this Chapter",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3006000000,
+      "goods_nomenclature_sid": 37760
+    },
+    {
+      "heading_id": 3207,
+      "description": "Prepared pigments, prepared opacifiers and prepared colours, vitrifiable enamels and glazes, engobes (slips), liquid lustres and similar preparations, of a kind used in the ceramic, enamelling or glass industry; glass frit and other glass, in the form of powder, granules or flakes",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 3207000000,
+      "goods_nomenclature_sid": 37894
+    },
+    {
+      "heading_id": 3304,
+      "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or sun tan preparations; manicure or pedicure preparations",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 3304000000,
+      "goods_nomenclature_sid": 38027
+    },
+    {
+      "heading_id": 3824,
+      "description": "Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries (including those consisting of mixtures of natural products), not elsewhere specified or included",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 3824000000,
+      "goods_nomenclature_sid": 59671
+    },
+    {
+      "heading_id": 3824,
+      "description": "Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries (including those consisting of mixtures of natural products), not elsewhere specified or included",
+      "title": "Pharmaceutical products and placebos",
+      "id": 26,
+      "fqcc": 3824000000,
+      "goods_nomenclature_sid": 59671
+    },
+    {
+      "heading_id": 3901,
+      "description": "Polymers of ethylene, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3901000000,
+      "goods_nomenclature_sid": 38661
+    },
+    {
+      "heading_id": 3902,
+      "description": "Polymers of propylene or of other olefins, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3902000000,
+      "goods_nomenclature_sid": 38687
+    },
+    {
+      "heading_id": 3903,
+      "description": "Polymers of styrene, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3903000000,
+      "goods_nomenclature_sid": 38704
+    },
+    {
+      "heading_id": 3904,
+      "description": "Polymers of vinyl chloride or of other halogenated olefins, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3904000000,
+      "goods_nomenclature_sid": 38720
+    },
+    {
+      "heading_id": 3905,
+      "description": "Polymers of vinyl acetate or of other vinyl esters, in primary forms; other vinyl polymers in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3905000000,
+      "goods_nomenclature_sid": 38757
+    },
+    {
+      "heading_id": 3906,
+      "description": "Acrylic polymers in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3906000000,
+      "goods_nomenclature_sid": 38774
+    },
+    {
+      "heading_id": 3907,
+      "description": "Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3907000000,
+      "goods_nomenclature_sid": 38789
+    },
+    {
+      "heading_id": 3908,
+      "description": "Polyamides in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3908000000,
+      "goods_nomenclature_sid": 38838
+    },
+    {
+      "heading_id": 3909,
+      "description": "Amino-resins, phenolic resins and polyurethanes, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3909000000,
+      "goods_nomenclature_sid": 38843
+    },
+    {
+      "heading_id": 3910,
+      "description": "Silicones in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3910000000,
+      "goods_nomenclature_sid": 38853
+    },
+    {
+      "heading_id": 3911,
+      "description": "Petroleum resins, coumarone-indene resins, polyterpenes, polysulphides, polysulphones and other products specified in note 3 to this chapter, not elsewhere specified or included, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3911000000,
+      "goods_nomenclature_sid": 38854
+    },
+    {
+      "heading_id": 3912,
+      "description": "Cellulose and its chemical derivatives, not elsewhere specified or included, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3912000000,
+      "goods_nomenclature_sid": 38872
+    },
+    {
+      "heading_id": 3913,
+      "description": "Natural polymers (for example, alginic acid) and modified natural polymers (for example, hardened proteins, chemical derivatives of natural rubber), not elsewhere specified or included, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3913000000,
+      "goods_nomenclature_sid": 38902
+    },
+    {
+      "heading_id": 3914,
+      "description": "Ion-exchangers based on polymers of headings 3901 to 3913, in primary forms",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3914000000,
+      "goods_nomenclature_sid": 38917
+    },
+    {
+      "heading_id": 3915,
+      "description": "Waste, parings and scrap, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3915000000,
+      "goods_nomenclature_sid": 38921
+    },
+    {
+      "heading_id": 3916,
+      "description": "Monofilament of which any cross-sectional dimension exceeds 1 mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3916000000,
+      "goods_nomenclature_sid": 38940
+    },
+    {
+      "heading_id": 3917,
+      "description": "Tubes, pipes and hoses, and fittings therefor (for example, joints, elbows, flanges), of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3917000000,
+      "goods_nomenclature_sid": 38970
+    },
+    {
+      "heading_id": 3918,
+      "description": "Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics, as defined in note 9 to this chapter",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3918000000,
+      "goods_nomenclature_sid": 39073
+    },
+    {
+      "heading_id": 3919,
+      "description": "Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3919000000,
+      "goods_nomenclature_sid": 39084
+    },
+    {
+      "heading_id": 3920,
+      "description": "Other plates, sheets, film, foil and strip, of plastics, non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3920000000,
+      "goods_nomenclature_sid": 39155
+    },
+    {
+      "heading_id": 3921,
+      "description": "Other plates, sheets, film, foil and strip, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3921000000,
+      "goods_nomenclature_sid": 39406
+    },
+    {
+      "heading_id": 3922,
+      "description": "Baths, shower-baths, sinks, washbasins, bidets, lavatory pans, seats and covers, flushing cisterns and similar sanitary ware, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3922000000,
+      "goods_nomenclature_sid": 39478
+    },
+    {
+      "heading_id": 3923,
+      "description": "Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3923000000,
+      "goods_nomenclature_sid": 39482
+    },
+    {
+      "heading_id": 3924,
+      "description": "Tableware, kitchenware, other household articles and toilet articles, of plastics",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3924000000,
+      "goods_nomenclature_sid": 39501
+    },
+    {
+      "heading_id": 3925,
+      "description": "Builders' ware of plastics, not elsewhere specified or included",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3925000000,
+      "goods_nomenclature_sid": 39508
+    },
+    {
+      "heading_id": 3926,
+      "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 3926000000,
+      "goods_nomenclature_sid": 39517
+    },
+    {
+      "heading_id": 3926,
+      "description": "Other articles of plastics and articles of other materials of headings 3901 to 3914",
+      "title": "Plastics",
+      "id": 16,
+      "fqcc": 3926000000,
+      "goods_nomenclature_sid": 39517
+    },
+    {
+      "heading_id": 4201,
+      "description": "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle-cloths, saddlebags, dog coats and the like), of any material",
+      "title": "Leather",
+      "id": 11,
+      "fqcc": 4201000000,
+      "goods_nomenclature_sid": 39808
+    },
+    {
+      "heading_id": 4202,
+      "description": "Trunks, suitcases, vanity cases, executive-cases, briefcases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverages bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
+      "title": "Leather",
+      "id": 11,
+      "fqcc": 4202000000,
+      "goods_nomenclature_sid": 39809
+    },
+    {
+      "heading_id": 4203,
+      "description": "Articles of apparel and clothing accessories, of leather or of composition leather",
+      "title": "Leather",
+      "id": 11,
+      "fqcc": 4203000000,
+      "goods_nomenclature_sid": 39904
+    },
+    {
+      "heading_id": 4205,
+      "description": "Other articles of leather or of composition leather",
+      "title": "Leather",
+      "id": 11,
+      "fqcc": 4205000000,
+      "goods_nomenclature_sid": 39922
+    },
+    {
+      "heading_id": 4206,
+      "description": "Articles of gut (other than silkworm gut), of goldbeater's skin, of bladders or of tendons",
+      "title": "Leather",
+      "id": 11,
+      "fqcc": 4206000000,
+      "goods_nomenclature_sid": 39923
+    },
+    {
+      "heading_id": 4401,
+      "description": "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4401000000,
+      "goods_nomenclature_sid": 39989
+    },
+    {
+      "heading_id": 4402,
+      "description": "Wood charcoal (including shell or nut charcoal), whether or not agglomerated",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4402000000,
+      "goods_nomenclature_sid": 39997
+    },
+    {
+      "heading_id": 4403,
+      "description": "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4403000000,
+      "goods_nomenclature_sid": 39998
+    },
+    {
+      "heading_id": 4404,
+      "description": "Hoopwood; split poles; piles, pickets and stakes of wood, pointed but not sawn lengthwise; wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking sticks, umbrellas, tool handles or the like; chipwood and the like",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4404000000,
+      "goods_nomenclature_sid": 40028
+    },
+    {
+      "heading_id": 4405,
+      "description": "Wood wool; wood flour",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4405000000,
+      "goods_nomenclature_sid": 40031
+    },
+    {
+      "heading_id": 4406,
+      "description": "Railway or tramway sleepers (cross-ties) of wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4406000000,
+      "goods_nomenclature_sid": 40032
+    },
+    {
+      "heading_id": 4407,
+      "description": "Wood sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or end-jointed, of a thickness exceeding 6 mm",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4407000000,
+      "goods_nomenclature_sid": 40035
+    },
+    {
+      "heading_id": 4408,
+      "description": "Sheets for veneering (including those obtained by slicing laminated wood), for plywood or for similar laminated wood and other wood, sawn lengthwise, sliced or peeled, whether or not planed, sanded, spliced or end-jointed, of a thickness not exceeding 6 mm",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4408000000,
+      "goods_nomenclature_sid": 40118
+    },
+    {
+      "heading_id": 4409,
+      "description": "Wood (including strips and friezes for parquet flooring, not assembled) continuously shaped (tongued, grooved, rebated, chamfered, V-jointed, beaded, moulded, rounded or the like) along any of its edges, ends or faces, whether or not planed, sanded or end-jointed",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4409000000,
+      "goods_nomenclature_sid": 40154
+    },
+    {
+      "heading_id": 4410,
+      "description": "Particle board, oriented strand board (OSB) and similar board (for example, waferboard) of wood or other ligneous materials, whether or not agglomerated with resins or other organic binding substances",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4410000000,
+      "goods_nomenclature_sid": 40169
+    },
+    {
+      "heading_id": 4411,
+      "description": "Fibreboard of wood or other ligneous materials, whether or not bonded with resins or other organic substances",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4411000000,
+      "goods_nomenclature_sid": 40178
+    },
+    {
+      "heading_id": 4412,
+      "description": "Plywood, veneered panels and similar laminated wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4412000000,
+      "goods_nomenclature_sid": 40191
+    },
+    {
+      "heading_id": 4413,
+      "description": "Densified wood, in blocks, plates, strips or profile shapes",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4413000000,
+      "goods_nomenclature_sid": 40216
+    },
+    {
+      "heading_id": 4414,
+      "description": "Wooden frames for paintings, photographs, mirrors or similar objects",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4414000000,
+      "goods_nomenclature_sid": 40217
+    },
+    {
+      "heading_id": 4415,
+      "description": "Packing cases, boxes, crates, drums and similar packings, of wood; cable-drums of wood; pallets, box pallets and other load boards, of wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4415000000,
+      "goods_nomenclature_sid": 40222
+    },
+    {
+      "heading_id": 4416,
+      "description": "Casks, barrels, vats, tubs and other coopers' products and parts thereof, of wood, including staves",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4416000000,
+      "goods_nomenclature_sid": 40229
+    },
+    {
+      "heading_id": 4417,
+      "description": "Tools, tool bodies, tool handles, broom or brush bodies and handles, of wood; boot or shoe lasts and trees, of wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4417000000,
+      "goods_nomenclature_sid": 40234
+    },
+    {
+      "heading_id": 4418,
+      "description": "Builders' joinery and carpentry of wood, including cellular wood panels, assembled flooring panels, shingles and shakes",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4418000000,
+      "goods_nomenclature_sid": 40237
+    },
+    {
+      "heading_id": 4419,
+      "description": "Tableware and kitchenware, of wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4419000000,
+      "goods_nomenclature_sid": 40255
+    },
+    {
+      "heading_id": 4420,
+      "description": "Wood marquetry and inlaid wood; caskets and cases for jewellery or cutlery, and similar articles, of wood; statuettes and other ornaments, of wood; wooden articles of furniture not falling in Chapter 94",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4420000000,
+      "goods_nomenclature_sid": 40265
+    },
+    {
+      "heading_id": 4421,
+      "description": "Other articles of wood",
+      "title": "Wood",
+      "id": 22,
+      "fqcc": 4421000000,
+      "goods_nomenclature_sid": 40304
+    },
+    {
+      "heading_id": 6101,
+      "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 6103",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6101000000,
+      "goods_nomenclature_sid": 42797
+    },
+    {
+      "heading_id": 6102,
+      "description": "Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 6104",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6102000000,
+      "goods_nomenclature_sid": 42812
+    },
+    {
+      "heading_id": 6103,
+      "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6103000000,
+      "goods_nomenclature_sid": 42827
+    },
+    {
+      "heading_id": 6104,
+      "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6104000000,
+      "goods_nomenclature_sid": 42859
+    },
+    {
+      "heading_id": 6105,
+      "description": "Men's or boys' shirts, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6105000000,
+      "goods_nomenclature_sid": 42907
+    },
+    {
+      "heading_id": 6106,
+      "description": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6106000000,
+      "goods_nomenclature_sid": 42915
+    },
+    {
+      "heading_id": 6107,
+      "description": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6107000000,
+      "goods_nomenclature_sid": 42923
+    },
+    {
+      "heading_id": 6108,
+      "description": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6108000000,
+      "goods_nomenclature_sid": 42944
+    },
+    {
+      "heading_id": 6109,
+      "description": "T-shirts, singlets and other vests, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6109000000,
+      "goods_nomenclature_sid": 42978
+    },
+    {
+      "heading_id": 6110,
+      "description": "Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6110000000,
+      "goods_nomenclature_sid": 42984
+    },
+    {
+      "heading_id": 6111,
+      "description": "Babies' garments and clothing accessories, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6111000000,
+      "goods_nomenclature_sid": 43032
+    },
+    {
+      "heading_id": 6112,
+      "description": "Tracksuits, ski suits and swimwear, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6112000000,
+      "goods_nomenclature_sid": 43047
+    },
+    {
+      "heading_id": 6113,
+      "description": "Garments, made up of knitted or crocheted fabrics of heading 5903, 5906 or 5907",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6113000000,
+      "goods_nomenclature_sid": 43069
+    },
+    {
+      "heading_id": 6114,
+      "description": "Other garments, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6114000000,
+      "goods_nomenclature_sid": 43072
+    },
+    {
+      "heading_id": 6115,
+      "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (for example, stockings for varicose veins) and footwear without applied soles, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6115000000,
+      "goods_nomenclature_sid": 43077
+    },
+    {
+      "heading_id": 6116,
+      "description": "Gloves, mittens and mitts, knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6116000000,
+      "goods_nomenclature_sid": 43099
+    },
+    {
+      "heading_id": 6117,
+      "description": "Other made-up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6117000000,
+      "goods_nomenclature_sid": 43108
+    },
+    {
+      "heading_id": 6201,
+      "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), windcheaters, wind-jackets and similar articles, other than those of heading 6203",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6201000000,
+      "goods_nomenclature_sid": 43116
+    },
+    {
+      "heading_id": 6202,
+      "description": "Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 6204",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6202000000,
+      "goods_nomenclature_sid": 43145
+    },
+    {
+      "heading_id": 6203,
+      "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6203000000,
+      "goods_nomenclature_sid": 43175
+    },
+    {
+      "heading_id": 6204,
+      "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6204000000,
+      "goods_nomenclature_sid": 43246
+    },
+    {
+      "heading_id": 6205,
+      "description": "Men's or boys' shirts",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6205000000,
+      "goods_nomenclature_sid": 43395
+    },
+    {
+      "heading_id": 6206,
+      "description": "Women's or girls' blouses, shirts and shirt-blouses",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6206000000,
+      "goods_nomenclature_sid": 43406
+    },
+    {
+      "heading_id": 6207,
+      "description": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6207000000,
+      "goods_nomenclature_sid": 43418
+    },
+    {
+      "heading_id": 6208,
+      "description": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6208000000,
+      "goods_nomenclature_sid": 43446
+    },
+    {
+      "heading_id": 6209,
+      "description": "Babies' garments and clothing accessories",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6209000000,
+      "goods_nomenclature_sid": 43481
+    },
+    {
+      "heading_id": 6210,
+      "description": "Garments, made up of fabrics of heading 5602, 5603, 5903, 5906 or 5907",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6210000000,
+      "goods_nomenclature_sid": 43498
+    },
+    {
+      "heading_id": 6211,
+      "description": "Tracksuits, ski suits and swimwear; other garments",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6211000000,
+      "goods_nomenclature_sid": 43512
+    },
+    {
+      "heading_id": 6212,
+      "description": "Brassières, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6212000000,
+      "goods_nomenclature_sid": 43557
+    },
+    {
+      "heading_id": 6213,
+      "description": "Handkerchiefs",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6213000000,
+      "goods_nomenclature_sid": 43562
+    },
+    {
+      "heading_id": 6214,
+      "description": "Shawls, scarves, mufflers, mantillas, veils and the like",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6214000000,
+      "goods_nomenclature_sid": 43568
+    },
+    {
+      "heading_id": 6215,
+      "description": "Ties, bow ties and cravats",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6215000000,
+      "goods_nomenclature_sid": 43594
+    },
+    {
+      "heading_id": 6216,
+      "description": "Gloves, mittens and mitts",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6216000000,
+      "goods_nomenclature_sid": 43604
+    },
+    {
+      "heading_id": 6217,
+      "description": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading No. 6212",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6217000000,
+      "goods_nomenclature_sid": 43605
+    },
+    {
+      "heading_id": 6308,
+      "description": "Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered tablecloths or serviettes, or similar textile articles, put up in packings for retail sale",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6308000000,
+      "goods_nomenclature_sid": 43838
+    },
+    {
+      "heading_id": 6309,
+      "description": "Worn clothing and other worn articles",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6309000000,
+      "goods_nomenclature_sid": 43846
+    },
+    {
+      "heading_id": 6310,
+      "description": "Used or new rags, scrap twine, cordage, rope and cables and worn-out articles of twine, cordage, rope or cables, of textile materials",
+      "title": "Textile apparel",
+      "id": 18,
+      "fqcc": 6310000000,
+      "goods_nomenclature_sid": 43847
+    },
+    {
+      "heading_id": 6401,
+      "description": "Waterproof footwear with outer soles and uppers of rubber or of plastics, the uppers of which are neither fixed to the sole nor assembled by stitching, riveting, nailing, screwing, plugging or similar processes",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6401000000,
+      "goods_nomenclature_sid": 43854
+    },
+    {
+      "heading_id": 6402,
+      "description": "Other footwear with outer soles and uppers of rubber or plastics",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6402000000,
+      "goods_nomenclature_sid": 43868
+    },
+    {
+      "heading_id": 6403,
+      "description": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6403000000,
+      "goods_nomenclature_sid": 43915
+    },
+    {
+      "heading_id": 6404,
+      "description": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6404000000,
+      "goods_nomenclature_sid": 44034
+    },
+    {
+      "heading_id": 6405,
+      "description": "Other footwear",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6405000000,
+      "goods_nomenclature_sid": 44047
+    },
+    {
+      "heading_id": 6406,
+      "description": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable insoles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
+      "title": "Footwear",
+      "id": 8,
+      "fqcc": 6406000000,
+      "goods_nomenclature_sid": 44061
+    },
+    {
+      "heading_id": 6801,
+      "description": "Setts, curbstones and flagstones, of natural stone (except slate)",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6801000000,
+      "goods_nomenclature_sid": 44163
+    },
+    {
+      "heading_id": 6802,
+      "description": "Worked monumental or building stone (except slate) and articles thereof, other than goods of heading 6801; mosaic cubes and the like, of natural stone (including slate), whether or not on a backing; artificially coloured granules, chippings and powder, of natural stone (including slate)",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6802000000,
+      "goods_nomenclature_sid": 44164
+    },
+    {
+      "heading_id": 6803,
+      "description": "Worked slate and articles of slate or of agglomerated slate",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6803000000,
+      "goods_nomenclature_sid": 44196
+    },
+    {
+      "heading_id": 6804,
+      "description": "Millstones, grindstones, grinding wheels and the like, without frameworks, for grinding, sharpening, polishing, trueing or cutting, hand sharpening or polishing stones, and parts thereof, of natural stone, of agglomerated natural or artificial abrasives, or of ceramics, with or without parts of other materials",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6804000000,
+      "goods_nomenclature_sid": 44199
+    },
+    {
+      "heading_id": 6805,
+      "description": "Natural or artificial abrasive powder or grain, on a base of textile material, of paper, of paperboard or of other materials, whether or not cut to shape or sewn or otherwise made up",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6805000000,
+      "goods_nomenclature_sid": 44217
+    },
+    {
+      "heading_id": 6806,
+      "description": "Slag-wool, rock-wool and similar mineral wools; exfoliated vermiculite, expanded clays, foamed slag and similar expanded mineral materials; mixtures and articles of heat-insulating, sound-insulating or sound-absorbing mineral materials, other than those of heading 6811 or 6812 or of Chapter 69",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6806000000,
+      "goods_nomenclature_sid": 44225
+    },
+    {
+      "heading_id": 6807,
+      "description": "Articles of asphalt or of similar material (for example, petroleum bitumen or coal tar pitch)",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6807000000,
+      "goods_nomenclature_sid": 44231
+    },
+    {
+      "heading_id": 6808,
+      "description": "Panels, boards, tiles, blocks and similar articles of vegetable fibre, of straw or of shavings, chips, particles, sawdust or other waste of wood, agglomerated with cement, plaster or other mineral binders",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6808000000,
+      "goods_nomenclature_sid": 44238
+    },
+    {
+      "heading_id": 6809,
+      "description": "Articles of plaster or of compositions based on plaster",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6809000000,
+      "goods_nomenclature_sid": 44239
+    },
+    {
+      "heading_id": 6810,
+      "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6810000000,
+      "goods_nomenclature_sid": 44244
+    },
+    {
+      "heading_id": 6811,
+      "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6811000000,
+      "goods_nomenclature_sid": 44262
+    },
+    {
+      "heading_id": 6812,
+      "description": "Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (for example, thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 6811 or 6813",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6812000000,
+      "goods_nomenclature_sid": 44271
+    },
+    {
+      "heading_id": 6813,
+      "description": "Friction material and articles thereof (for example, sheets, rolls, strips, segments, discs, washers, pads), not mounted, for brakes, for clutches or the like, with a basis of asbestos, of other mineral substances or of cellulose, whether or not combined with textile or other materials",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6813000000,
+      "goods_nomenclature_sid": 44282
+    },
+    {
+      "heading_id": 6814,
+      "description": "Worked mica and articles of mica, including agglomerated or reconstituted mica, whether or not on a support of paper, paperboard or other materials",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6814000000,
+      "goods_nomenclature_sid": 44289
+    },
+    {
+      "heading_id": 6815,
+      "description": "Articles of stone or of other mineral substances (including carbon fibres, articles of carbon fibres and articles of peat), not elsewhere specified or included",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6815000000,
+      "goods_nomenclature_sid": 44294
+    },
+    {
+      "heading_id": 6901,
+      "description": "Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals (for example, kieselguhr, tripolite or diatomite) or of similar siliceous earths",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6901000000,
+      "goods_nomenclature_sid": 44312
+    },
+    {
+      "heading_id": 6902,
+      "description": "Refractory bricks, blocks, tiles and similar refractory ceramic constructional goods, other than those of siliceous fossil meals or similar siliceous earths",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6902000000,
+      "goods_nomenclature_sid": 44315
+    },
+    {
+      "heading_id": 6903,
+      "description": "Other refractory ceramic goods (for example, retorts, crucibles, muffles, nozzles, plugs, supports, cupels, tubes, pipes, sheaths, rods and slide gates), other than those of siliceous fossil meals or of similar siliceous earths",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6903000000,
+      "goods_nomenclature_sid": 44323
+    },
+    {
+      "heading_id": 6904,
+      "description": "Ceramic building bricks, flooring blocks, support or filler tiles and the like",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6904000000,
+      "goods_nomenclature_sid": 44338
+    },
+    {
+      "heading_id": 6905,
+      "description": "Roofing tiles, chimney pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6905000000,
+      "goods_nomenclature_sid": 44341
+    },
+    {
+      "heading_id": 6906,
+      "description": "Ceramic pipes, conduits, guttering and pipe fittings",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6906000000,
+      "goods_nomenclature_sid": 44344
+    },
+    {
+      "heading_id": 6907,
+      "description": "Ceramic flags and paving, hearth or wall tiles; ceramic mosaic cubes and the like, whether or not on a backing; finishing ceramics",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6907000000,
+      "goods_nomenclature_sid": 44345
+    },
+    {
+      "heading_id": 6909,
+      "description": "Ceramic wares for laboratory, chemical or other technical uses; ceramic troughs, tubs and similar receptacles of a kind used in agriculture; ceramic pots, jars and similar articles of a kind used for the conveyance or packing of goods",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6909000000,
+      "goods_nomenclature_sid": 44372
+    },
+    {
+      "heading_id": 6910,
+      "description": "Ceramic sinks, washbasins, washbasin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6910000000,
+      "goods_nomenclature_sid": 44382
+    },
+    {
+      "heading_id": 6911,
+      "description": "Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6911000000,
+      "goods_nomenclature_sid": 44385
+    },
+    {
+      "heading_id": 6912,
+      "description": "Ceramic tableware, kitchenware, other household articles and toilet articles, other than of porcelain or china",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6912000000,
+      "goods_nomenclature_sid": 44388
+    },
+    {
+      "heading_id": 6913,
+      "description": "Statuettes and other ornamental ceramic articles",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6913000000,
+      "goods_nomenclature_sid": 44393
+    },
+    {
+      "heading_id": 6914,
+      "description": "Other ceramic articles",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 6914000000,
+      "goods_nomenclature_sid": 44401
+    },
+    {
+      "heading_id": 7019,
+      "description": "Glass fibres (including glass wool) and articles thereof (for example, yarn, woven fabrics)",
+      "title": "Ceramics",
+      "id": 3,
+      "fqcc": 7019000000,
+      "goods_nomenclature_sid": 44635
+    },
+    {
+      "heading_id": 7201,
+      "description": "Pig iron and spiegeleisen in pigs, blocks or other primary forms",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7201000000,
+      "goods_nomenclature_sid": 44812
+    },
+    {
+      "heading_id": 7202,
+      "description": "Ferro-alloys",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7202000000,
+      "goods_nomenclature_sid": 44824
+    },
+    {
+      "heading_id": 7203,
+      "description": "Ferrous products obtained by direct reduction of iron ore and other spongy ferrous products, in lumps, pellets or similar forms; iron having a minimum purity by weight of 99,94 %, in lumps, pellets or similar forms",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7203000000,
+      "goods_nomenclature_sid": 44883
+    },
+    {
+      "heading_id": 7204,
+      "description": "Ferrous waste and scrap; remelting scrap ingots of iron or steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7204000000,
+      "goods_nomenclature_sid": 44886
+    },
+    {
+      "heading_id": 7205,
+      "description": "Granules and powders, of pig iron, spiegeleisen, iron or steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7205000000,
+      "goods_nomenclature_sid": 44908
+    },
+    {
+      "heading_id": 7206,
+      "description": "Iron and non-alloy steel in ingots or other primary forms (excluding iron of heading 7203)",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7206000000,
+      "goods_nomenclature_sid": 44916
+    },
+    {
+      "heading_id": 7207,
+      "description": "Semi-finished products of iron or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7207000000,
+      "goods_nomenclature_sid": 44919
+    },
+    {
+      "heading_id": 7208,
+      "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, hot-rolled, not clad, plated or coated",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7208000000,
+      "goods_nomenclature_sid": 44986
+    },
+    {
+      "heading_id": 7209,
+      "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7209000000,
+      "goods_nomenclature_sid": 45192
+    },
+    {
+      "heading_id": 7210,
+      "description": "Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7210000000,
+      "goods_nomenclature_sid": 45242
+    },
+    {
+      "heading_id": 7211,
+      "description": "Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, not clad, plated or coated",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7211000000,
+      "goods_nomenclature_sid": 45297
+    },
+    {
+      "heading_id": 7212,
+      "description": "Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, clad, plated or coated",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7212000000,
+      "goods_nomenclature_sid": 45432
+    },
+    {
+      "heading_id": 7213,
+      "description": "Bars and rods, hot-rolled, in irregularly wound coils, of iron or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7213000000,
+      "goods_nomenclature_sid": 45501
+    },
+    {
+      "heading_id": 7214,
+      "description": "Other bars and rods of iron or non-alloy steel, not further worked than forged, hot-rolled, hot-drawn or hot-extruded, but including those twisted after rolling",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7214000000,
+      "goods_nomenclature_sid": 45521
+    },
+    {
+      "heading_id": 7215,
+      "description": "Other bars and rods of iron or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7215000000,
+      "goods_nomenclature_sid": 45544
+    },
+    {
+      "heading_id": 7216,
+      "description": "Angles, shapes and sections of iron or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7216000000,
+      "goods_nomenclature_sid": 45554
+    },
+    {
+      "heading_id": 7217,
+      "description": "Wire of iron or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7217000000,
+      "goods_nomenclature_sid": 45655
+    },
+    {
+      "heading_id": 7218,
+      "description": "Stainless steel in ingots or other primary forms; semi-finished products of stainless steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7218000000,
+      "goods_nomenclature_sid": 45687
+    },
+    {
+      "heading_id": 7219,
+      "description": "Flat-rolled products of stainless steel, of a width of 600 mm or more",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7219000000,
+      "goods_nomenclature_sid": 45704
+    },
+    {
+      "heading_id": 7220,
+      "description": "Flat-rolled products of stainless steel, of a width of less than 600 mm",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7220000000,
+      "goods_nomenclature_sid": 45757
+    },
+    {
+      "heading_id": 7221,
+      "description": "Bars and rods, hot-rolled, in irregularly wound coils, of stainless steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7221000000,
+      "goods_nomenclature_sid": 45782
+    },
+    {
+      "heading_id": 7222,
+      "description": "Other bars and rods of stainless steel; angles, shapes and sections of stainless steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7222000000,
+      "goods_nomenclature_sid": 45785
+    },
+    {
+      "heading_id": 7223,
+      "description": "Wire of stainless steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7223000000,
+      "goods_nomenclature_sid": 45846
+    },
+    {
+      "heading_id": 7224,
+      "description": "Other alloy steel in ingots or other primary forms; semi-finished products of other alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7224000000,
+      "goods_nomenclature_sid": 45856
+    },
+    {
+      "heading_id": 7225,
+      "description": "Flat-rolled products of other alloy steel, of a width of 600 mm or more",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7225000000,
+      "goods_nomenclature_sid": 45881
+    },
+    {
+      "heading_id": 7226,
+      "description": "Flat-rolled products of other alloy steel, of a width of less than 600 mm",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7226000000,
+      "goods_nomenclature_sid": 45913
+    },
+    {
+      "heading_id": 7227,
+      "description": "Bars and rods, hot-rolled, in irregularly wound coils, of other alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7227000000,
+      "goods_nomenclature_sid": 45961
+    },
+    {
+      "heading_id": 7228,
+      "description": "Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7228000000,
+      "goods_nomenclature_sid": 45971
+    },
+    {
+      "heading_id": 7325,
+      "description": "Other cast articles of iron or steel",
+      "title": "Iron and steel",
+      "id": 10,
+      "fqcc": 7325000000,
+      "goods_nomenclature_sid": 46668
+    },
+    {
+      "heading_id": 8418,
+      "description": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air-conditioning machines of heading 8415",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8418000000,
+      "goods_nomenclature_sid": 47989
+    },
+    {
+      "heading_id": 8456,
+      "description": "Machine tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes; water-jet cutting machines",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8456000000,
+      "goods_nomenclature_sid": 48705
+    },
+    {
+      "heading_id": 8467,
+      "description": "Tools for working in the hand, pneumatic or with self-contained non-electric motor",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8467000000,
+      "goods_nomenclature_sid": 48923
+    },
+    {
+      "heading_id": 8471,
+      "description": "Automatic data processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+      "title": "Computers and software",
+      "id": 4,
+      "fqcc": 8471000000,
+      "goods_nomenclature_sid": 48984
+    },
+    {
+      "heading_id": 8473,
+      "description": "Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
+      "title": "Computers and software",
+      "id": 4,
+      "fqcc": 8473000000,
+      "goods_nomenclature_sid": 49065
+    },
+    {
+      "heading_id": 8475,
+      "description": "Machines for assembling electric or electronic lamps, tubes or valves or flashbulbs, in glass envelopes; machines for manufacturing or hot working glass or glassware",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8475000000,
+      "goods_nomenclature_sid": 49151
+    },
+    {
+      "heading_id": 8486,
+      "description": "Machines and apparatus of a kind used solely or principally for the manufacture of semiconductor boules or wafers, semiconductor devices, electronic integrated circuits or flat panel displays; machines and apparatus specified in note 9(C) to this chapter; parts and accessories",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8486000000,
+      "goods_nomenclature_sid": 85494
+    },
+    {
+      "heading_id": 8487,
+      "description": "Machinery parts, not containing electrical connectors, insulators, coils, contacts or other electrical features, not specified or included elsewhere in this chapter",
+      "title": "Computers and software",
+      "id": 4,
+      "fqcc": 8487000000,
+      "goods_nomenclature_sid": 85434
+    },
+    {
+      "heading_id": 8501,
+      "description": "Electric motors and generators (excluding generating sets)",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8501000000,
+      "goods_nomenclature_sid": 49497
+    },
+    {
+      "heading_id": 8502,
+      "description": "Electric generating sets and rotary converters",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8502000000,
+      "goods_nomenclature_sid": 49639
+    },
+    {
+      "heading_id": 8503,
+      "description": "Parts suitable for use solely or principally with the machines of heading 8501 or 8502",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8503000000,
+      "goods_nomenclature_sid": 49668
+    },
+    {
+      "heading_id": 8504,
+      "description": "Electrical transformers, static converters (for example, rectifiers) and inductors",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8504000000,
+      "goods_nomenclature_sid": 49682
+    },
+    {
+      "heading_id": 8504,
+      "description": "Electrical transformers, static converters (for example, rectifiers) and inductors",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 8504000000,
+      "goods_nomenclature_sid": 49682
+    },
+    {
+      "heading_id": 8505,
+      "description": "Electromagnets; permanent magnets and articles intended to become permanent magnets after magnetisation; electromagnetic or permanent magnet chucks, clamps and similar holding devices; electromagnetic couplings, clutches and brakes; electromagnetic lifting heads",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8505000000,
+      "goods_nomenclature_sid": 49749
+    },
+    {
+      "heading_id": 8506,
+      "description": "Primary cells and primary batteries",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8506000000,
+      "goods_nomenclature_sid": 49777
+    },
+    {
+      "heading_id": 8507,
+      "description": "Electric accumulators, including separators therefor, whether or not rectangular (including square)",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8507000000,
+      "goods_nomenclature_sid": 49833
+    },
+    {
+      "heading_id": 8508,
+      "description": "Vacuum cleaners",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8508000000,
+      "goods_nomenclature_sid": 86654
+    },
+    {
+      "heading_id": 8509,
+      "description": "Electromechanical domestic appliances, with self-contained electric motor",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8509000000,
+      "goods_nomenclature_sid": 49905
+    },
+    {
+      "heading_id": 8510,
+      "description": "Shavers and hair clippers, with self-contained electric motor",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8510000000,
+      "goods_nomenclature_sid": 49916
+    },
+    {
+      "heading_id": 8511,
+      "description": "Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8511000000,
+      "goods_nomenclature_sid": 49920
+    },
+    {
+      "heading_id": 8512,
+      "description": "Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8512000000,
+      "goods_nomenclature_sid": 49942
+    },
+    {
+      "heading_id": 8512,
+      "description": "Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 8512000000,
+      "goods_nomenclature_sid": 49942
+    },
+    {
+      "heading_id": 8513,
+      "description": "Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 8512",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 8513000000,
+      "goods_nomenclature_sid": 49952
+    },
+    {
+      "heading_id": 8513,
+      "description": "Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 8512",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8513000000,
+      "goods_nomenclature_sid": 49952
+    },
+    {
+      "heading_id": 8514,
+      "description": "Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8514000000,
+      "goods_nomenclature_sid": 49955
+    },
+    {
+      "heading_id": 8515,
+      "description": "Electric (including electrically heated gas), laser or other light or photon beam, ultrasonic, electron beam, magnetic pulse or plasma arc soldering, brazing or welding machines and apparatus, whether or not capable of cutting; electric machines and apparatus for hot spraying of metals or sintered metal carbides",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8515000000,
+      "goods_nomenclature_sid": 49974
+    },
+    {
+      "heading_id": 8516,
+      "description": "Electric instantaneous or storage water heaters and immersion heaters; electric space-heating apparatus and soil-heating apparatus; electrothermic hairdressing apparatus (for example, hairdryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 8545",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8516000000,
+      "goods_nomenclature_sid": 50001
+    },
+    {
+      "heading_id": 8517,
+      "description": "Telephone sets, including telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 8443, 8525, 8527 or 8528",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8517000000,
+      "goods_nomenclature_sid": 50047
+    },
+    {
+      "heading_id": 8518,
+      "description": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8518000000,
+      "goods_nomenclature_sid": 50091
+    },
+    {
+      "heading_id": 8519,
+      "description": "Turntables (record-decks), record-players, cassette-players and other sound reproducing apparatus, not incorporating a sound recording device",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8519000000,
+      "goods_nomenclature_sid": 50126
+    },
+    {
+      "heading_id": 8521,
+      "description": "Video recording or reproducing apparatus, whether or not incorporating a video tuner",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8521000000,
+      "goods_nomenclature_sid": 50181
+    },
+    {
+      "heading_id": 8522,
+      "description": "Parts and accessories suitable for use solely or principally with the apparatus of headings 8519 to 8521",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8522000000,
+      "goods_nomenclature_sid": 50201
+    },
+    {
+      "heading_id": 8523,
+      "description": "Prepared unrecorded media for sound recording or similar recording of other phenomena, other than products of Chapter 37",
+      "title": "Computers and software",
+      "id": 4,
+      "fqcc": 8523000000,
+      "goods_nomenclature_sid": 50224
+    },
+    {
+      "heading_id": 8523,
+      "description": "Prepared unrecorded media for sound recording or similar recording of other phenomena, other than products of Chapter 37",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8523000000,
+      "goods_nomenclature_sid": 50224
+    },
+    {
+      "heading_id": 8524,
+      "description": "Flat panel display modules, whether or not incorporating touch-sensitive screens",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8524000000,
+      "goods_nomenclature_sid": 107188
+    },
+    {
+      "heading_id": 8525,
+      "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8525000000,
+      "goods_nomenclature_sid": 50280
+    },
+    {
+      "heading_id": 8526,
+      "description": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8526000000,
+      "goods_nomenclature_sid": 50294
+    },
+    {
+      "heading_id": 8527,
+      "description": "Reception apparatus for radio-telephony, radio-telegraphy or radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8527000000,
+      "goods_nomenclature_sid": 50310
+    },
+    {
+      "heading_id": 8528,
+      "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8528000000,
+      "goods_nomenclature_sid": 50350
+    },
+    {
+      "heading_id": 8529,
+      "description": "Parts suitable for use solely or principally with the apparatus of headings 8525 to 8528",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8529000000,
+      "goods_nomenclature_sid": 50452
+    },
+    {
+      "heading_id": 8530,
+      "description": "Electrical signalling, safety or traffic control equipment for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields (other than those of heading 8608)",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8530000000,
+      "goods_nomenclature_sid": 50501
+    },
+    {
+      "heading_id": 8531,
+      "description": "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8531000000,
+      "goods_nomenclature_sid": 50505
+    },
+    {
+      "heading_id": 8532,
+      "description": "Electrical capacitors, fixed, variable or adjustable (pre-set)",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8532000000,
+      "goods_nomenclature_sid": 50561
+    },
+    {
+      "heading_id": 8533,
+      "description": "Electrical resistors (including rheostats and potentiometers), other than heating resistors",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8533000000,
+      "goods_nomenclature_sid": 50616
+    },
+    {
+      "heading_id": 8534,
+      "description": "Printed circuits",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8534000000,
+      "goods_nomenclature_sid": 50657
+    },
+    {
+      "heading_id": 8535,
+      "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1 000 V",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8535000000,
+      "goods_nomenclature_sid": 50683
+    },
+    {
+      "heading_id": 8536,
+      "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp holders, junction boxes), for a voltage not exceeding 1 000 volts",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8536000000,
+      "goods_nomenclature_sid": 50711
+    },
+    {
+      "heading_id": 8537,
+      "description": "Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8537000000,
+      "goods_nomenclature_sid": 50824
+    },
+    {
+      "heading_id": 8538,
+      "description": "Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8538000000,
+      "goods_nomenclature_sid": 50853
+    },
+    {
+      "heading_id": 8539,
+      "description": "Electric filament or discharge lamps, including sealed beam lamp units and ultraviolet or infra-red lamps; arc lamps",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 8539000000,
+      "goods_nomenclature_sid": 50867
+    },
+    {
+      "heading_id": 8539,
+      "description": "Electric filament or discharge lamps, including sealed beam lamp units and ultraviolet or infra-red lamps; arc lamps",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8539000000,
+      "goods_nomenclature_sid": 50867
+    },
+    {
+      "heading_id": 8540,
+      "description": "Thermionic, cold cathode or photocathode valves and tubes (for example, vacuum or vapour or gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode ray tubes, television camera tubes)",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8540000000,
+      "goods_nomenclature_sid": 50931
+    },
+    {
+      "heading_id": 8541,
+      "description": "Diodes, transistors and similar semiconductor devices; photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED); mounted piezoelectric crystals",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8541000000,
+      "goods_nomenclature_sid": 51101
+    },
+    {
+      "heading_id": 8541,
+      "description": "Diodes, transistors and similar semiconductor devices; photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED); mounted piezoelectric crystals",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 8541000000,
+      "goods_nomenclature_sid": 51101
+    },
+    {
+      "heading_id": 8542,
+      "description": "Electronic integrated circuits",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8542000000,
+      "goods_nomenclature_sid": 51173
+    },
+    {
+      "heading_id": 8543,
+      "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
+      "title": "Tobacco",
+      "id": 19,
+      "fqcc": 8543000000,
+      "goods_nomenclature_sid": 52805
+    },
+    {
+      "heading_id": 8543,
+      "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8543000000,
+      "goods_nomenclature_sid": 52805
+    },
+    {
+      "heading_id": 8544,
+      "description": "Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8544000000,
+      "goods_nomenclature_sid": 52840
+    },
+    {
+      "heading_id": 8545,
+      "description": "Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8545000000,
+      "goods_nomenclature_sid": 52898
+    },
+    {
+      "heading_id": 8546,
+      "description": "Electrical insulators of any material",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8546000000,
+      "goods_nomenclature_sid": 52910
+    },
+    {
+      "heading_id": 8547,
+      "description": "Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating material apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of assembly, other than insulators of heading 8546; electrical conduit tubing and joints therefor, of base metal lined with insulating material",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8547000000,
+      "goods_nomenclature_sid": 52920
+    },
+    {
+      "heading_id": 8548,
+      "description": "Electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8548000000,
+      "goods_nomenclature_sid": 52926
+    },
+    {
+      "heading_id": 8549,
+      "description": "Electrical and electronic waste and scrap",
+      "title": "Electrical equipment",
+      "id": 25,
+      "fqcc": 8549000000,
+      "goods_nomenclature_sid": 107218
+    },
+    {
+      "heading_id": 8701,
+      "description": "Tractors (other than tractors of heading No 8709)",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8701000000,
+      "goods_nomenclature_sid": 53016
+    },
+    {
+      "heading_id": 8702,
+      "description": "Motor vehicles for the transport of ten or more persons, including the driver",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8702000000,
+      "goods_nomenclature_sid": 53036
+    },
+    {
+      "heading_id": 8703,
+      "description": "Motor cars and other motor vehicles principally designed for the transport of persons (other than those of heading 8702), including station wagons and racing cars",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8703000000,
+      "goods_nomenclature_sid": 53053
+    },
+    {
+      "heading_id": 8704,
+      "description": "Motor vehicles for the transport of goods",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8704000000,
+      "goods_nomenclature_sid": 53107
+    },
+    {
+      "heading_id": 8705,
+      "description": "Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8705000000,
+      "goods_nomenclature_sid": 53149
+    },
+    {
+      "heading_id": 8706,
+      "description": "Chassis fitted with engines, for the motor vehicles of headings 8701 to 8705",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8706000000,
+      "goods_nomenclature_sid": 53158
+    },
+    {
+      "heading_id": 8707,
+      "description": "Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8707000000,
+      "goods_nomenclature_sid": 53165
+    },
+    {
+      "heading_id": 8708,
+      "description": "Parts and accessories of the motor vehicles of headings 8701 to 8705",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8708000000,
+      "goods_nomenclature_sid": 53172
+    },
+    {
+      "heading_id": 8709,
+      "description": "Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories, warehouses, dock areas or airports for short distance transport of goods; tractors of the type used on railway station platforms; parts of the foregoing vehicles",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8709000000,
+      "goods_nomenclature_sid": 53236
+    },
+    {
+      "heading_id": 8710,
+      "description": "Tanks and other armoured fighting vehicles, motorised, whether or not fitted with weapons, and parts of such vehicles",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8710000000,
+      "goods_nomenclature_sid": 53247
+    },
+    {
+      "heading_id": 8711,
+      "description": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8711000000,
+      "goods_nomenclature_sid": 53248
+    },
+    {
+      "heading_id": 8712,
+      "description": "Bicycles and other cycles (including delivery tricycles), not motorised",
+      "title": "Toys, games and festive articles",
+      "id": 27,
+      "fqcc": 8712000000,
+      "goods_nomenclature_sid": 53273
+    },
+    {
+      "heading_id": 8712,
+      "description": "Bicycles and other cycles (including delivery tricycles), not motorised",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8712000000,
+      "goods_nomenclature_sid": 53273
+    },
+    {
+      "heading_id": 8713,
+      "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8713000000,
+      "goods_nomenclature_sid": 53279
+    },
+    {
+      "heading_id": 8714,
+      "description": "Parts and accessories of vehicles of headings 8711 to 8713",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8714000000,
+      "goods_nomenclature_sid": 53282
+    },
+    {
+      "heading_id": 8715,
+      "description": "Baby carriages and parts thereof",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8715000000,
+      "goods_nomenclature_sid": 53312
+    },
+    {
+      "heading_id": 8716,
+      "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
+      "title": "Vehicles, bicycles, parts and accessories",
+      "id": 28,
+      "fqcc": 8716000000,
+      "goods_nomenclature_sid": 53315
+    },
+    {
+      "heading_id": 8801,
+      "description": "Balloons and dirigibles; gliders, hang gliders and other non-powered aircraft",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8801000000,
+      "goods_nomenclature_sid": 53345
+    },
+    {
+      "heading_id": 8802,
+      "description": "Other aircraft (for example, helicopters, aeroplanes), except unmanned aircraft of heading 8806; spacecraft (including satellites) and suborbital and spacecraft launch vehicles",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8802000000,
+      "goods_nomenclature_sid": 53354
+    },
+    {
+      "heading_id": 8804,
+      "description": "Parachutes (including dirigible parachutes and paragliders) and rotochutes; parts thereof and accessories thereto",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8804000000,
+      "goods_nomenclature_sid": 53395
+    },
+    {
+      "heading_id": 8805,
+      "description": "Aircraft launching gear; deck-arrestor or similar gear; ground flying trainers; parts of the foregoing articles",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8805000000,
+      "goods_nomenclature_sid": 53396
+    },
+    {
+      "heading_id": 8806,
+      "description": "Unmanned aircraft",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8806000000,
+      "goods_nomenclature_sid": 107324
+    },
+    {
+      "heading_id": 8807,
+      "description": "Parts of goods of heading 8801, 8802 or 8806",
+      "title": "Drones and aircraft parts",
+      "id": 1,
+      "fqcc": 8807000000,
+      "goods_nomenclature_sid": 107355
+    },
+    {
+      "heading_id": 9405,
+      "description": "Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated nameplates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
+      "title": "Electric lamps",
+      "id": 7,
+      "fqcc": 9405000000,
+      "goods_nomenclature_sid": 54404
+    },
+    {
+      "heading_id": 9503,
+      "description": "Other toys; reduced-size (\"scale\") models and similar recreational models, working or not; puzzles of all kinds",
+      "title": "Toys, games and festive articles",
+      "id": 27,
+      "fqcc": 9503000000,
+      "goods_nomenclature_sid": 54491
+    },
+    {
+      "heading_id": 9504,
+      "description": "Video game consoles and machines, articles for funfair, table or parlour games, including pintables, billiards, special tables for casino games and automatic bowling alley equipment",
+      "title": "Toys, games and festive articles",
+      "id": 27,
+      "fqcc": 9504000000,
+      "goods_nomenclature_sid": 54540
+    },
+    {
+      "heading_id": 9505,
+      "description": "Festive, carnival or other entertainment articles, including conjuring tricks and novelty jokes",
+      "title": "Toys, games and festive articles",
+      "id": 27,
+      "fqcc": 9505000000,
+      "goods_nomenclature_sid": 54557
+    }
+  ]
