@@ -65,6 +65,7 @@
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
 
+<<<<<<< HEAD
             {% if context.guides | length > 0 %}
                 {% for guide in context.guides %}
                     <div class="classification_guide">
@@ -79,6 +80,8 @@
                     </div>
                 {% endfor %}
             {% endif %}
+=======
+>>>>>>> parent of a73d2be (Guides on headings pages)
             <div class="govuk-inset-text">
                 <p>There are <strong>{{ heading.leaf_count }} commodities</strong> in this category. Choose the commodity code that best matches your goods to see more information. 
                 If your item is not listed by name, it may be shown under what it's used for, what it's made from or 'Other'.</p>
@@ -90,11 +93,22 @@
     </div>
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
+<<<<<<< HEAD
+=======
+        
+            {% if context.is_local %}
+            <!-- Link to set search references //-->
+                <p>
+                    <a target="_blank" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">[Search references for this heading]<img class="references" src="/public/images/references/references.png"></a>
+                </p>
+            {% endif %}
+>>>>>>> parent of a73d2be (Guides on headings pages)
 
             {% set show_breadcrumb = true %}
             {% if show_breadcrumb %}
                 {% include "includes/headings_breadcrumb.html" %}
             {% endif %}
+<<<<<<< HEAD
 
             {% if context.is_local %}
                 <!-- Link to set search references //-->
@@ -103,8 +117,13 @@
                 </p>
             {% endif %}
 
+=======
+            
+>>>>>>> parent of a73d2be (Guides on headings pages)
             {% include "includes/heading_include.html" %}
 
+            
+            {{ context.guides | dump }}
 
             <!-- Start section / chapter notes //-->
             <article class="section-chapter-notes" id="section-chapter-notes">

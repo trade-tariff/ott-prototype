@@ -402,7 +402,7 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
         margin          : 0px 2px 0px 0px;
         font-size       : 13px;
         font-weight     : normal;
-        background-color: #F6F6F6;
+        background-color: #eee;
         color           : #000;
     }
 
@@ -451,7 +451,7 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
 }
 
 .heading-body {
-    border: 1px solid #F6F6F6;
+    border: 1px solid #eee;
 
     .heading-nav {
         padding: 0.5em;
@@ -459,7 +459,7 @@ $other-widths            : calc(#{$width-vat} + #{$width-commodity-code} + #{$wi
 
     .tools {
         padding         : 0.75em 0.5em;
-        background-color: #F6F6F6;
+        background-color: #eee;
 
         span {
             font-family            : "GDS Transport", arial, sans-serif;

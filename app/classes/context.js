@@ -67,14 +67,12 @@ class Context {
                         "id": heading_guide["id"],
                         "title": guides[heading_guide["id"]]["title"],
                         "url": guides[heading_guide["id"]]["url"],
-                        "image": guides[heading_guide["id"]]["image"],
-                        "strapline": guides[heading_guide["id"]]["strapline"]
+                        "image": guides[heading_guide["id"]]["image"]
                     }
                     this.guides.push(obj)
                 }
             }
         }
-        var a = 1
     }
 
 
