@@ -37,7 +37,7 @@ Metallic substances other than unrefined copper in which copper predominates by 
 
 c. Master alloys:
 
-Alloys containing with other elements more than 10% by weight of copper, not usefully malleable and commonly used as an additive in the manufacture of other alloys or as de-oxidants, de-sulphurising agents or for similar uses in the metallurgy of non-ferrous metals. However, copper phosphide (phosphor copper) containing more than 15% by weight of phosphorus falls in heading [2848](/headings/2848).
+Alloys containing with other elements more than 10% by weight of copper, not usefully malleable and commonly used as an additive in the manufacture of other alloys or as de-oxidants, de-sulphurising agents or for similar uses in the metallurgy of non-ferrous metals. However, copper phosphide (phosphor copper) containing more than 15% by weight of phosphorus falls in heading [2853](/headings/2853).
 
 ### Subheading note
 

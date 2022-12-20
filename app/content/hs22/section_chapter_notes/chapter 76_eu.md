@@ -52,7 +52,7 @@
 
 ### Additional chapter notes
 
-1. For the purposes of subheading [7601 20 10](/commodities/7601201000), [7601 20 30](/commodities/7601203000) and [7601 20 40](/commodities/7601204000), the following terms shall have the meanings hereby assigned to them:
+1. For the purposes of subheading [7601 10 10](/commodities/7601101000), [7601 20 30](/commodities/7601203000?day=1&month=1&year=2023) and [7601 20 40](/commodities/7601204000?day=1&month=1&year=2023), the following terms shall have the meanings hereby assigned to them:
 
     - ‘slabs’: unwrought products which have a uniform solid cross-section along their whole length in the shape of a rectangle or other polygon, of a width exceeding 800 mm, of a thickness exceeding 280 mm and of a length always superior to the width and to the thickness. These products are intended for being rolled;
     
