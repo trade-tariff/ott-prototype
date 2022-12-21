@@ -85,7 +85,7 @@
 
     - goods of chapters 1 to 4, 6 to 12, 16 and [23](/chapters/23) of the classification;
     
-    - goods of heading [0504](/headings/0504), [0515](/headings/0515), [1501](/headings/1501), [1502](/headings/1502), [1503](/headings/1503), [1504](/headings/1504), [1507](/headings/1507), [1512](/headings/1512), [1513](/headings/1513), [1517](/headings/1517), [1701](/headings/1701), [1702](/headings/1702), [1703](/headings/1703), [1705](/headings/1705), [1801](/headings/1801), [1802](/headings/1802), [2204](/headings/2204), [2205](/headings/2205), [2207](/headings/2207), [2210](/headings/2210), [2401](/headings/2401), [2501](/headings/2501), [5410](/headings/5410) and [5701](/headings/5701) of the classification;
+    - goods of heading [0504](/headings/0504), [1501](/headings/1501), [1502](/headings/1502), [1503](/headings/1503), [1504](/headings/1504), [1507](/headings/1507), [1512](/headings/1512), [1513](/headings/1513), [1517](/headings/1517), [1701](/headings/1701), [1702](/headings/1702), [1703](/headings/1703), [1801](/headings/1801), [1802](/headings/1802), [2204](/headings/2204), [2205](/headings/2205), [2207](/headings/2207), [2401](/headings/2401), [2501](/headings/2501) and [5701](/headings/5701) of the classification;
     
     - pectin;
     
