@@ -100,6 +100,18 @@
                 </div>
             {% endif %}
 
+            {% if commodity.search_references | length > 0 %}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Classification tags</dt>
+                    <dd class="govuk-summary-list__value">
+                        {% for sr in commodity.search_references %}
+                            <span class="tag">{{sr}}</span>
+                        {% endfor %}
+                    </dd>
+                    <dd class="govuk-summary-list__actions">&nbsp;</dd>
+                </div>
+            {% endif %}
+            
         </dl>
     </div>
 </div>

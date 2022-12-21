@@ -354,24 +354,24 @@ class Commodity {
         // this.description = "- " + this.description
         this.description = this.description.replace(/\<br\>$/g, '')
         this.description = this.description.replace(/\<br\>/g, '\n\n')
-        
+
         var tmp = this.description
         this.description = this.description.replace(/\-\s/g, '- ')
 
         this.description = this.description.replace(/&nbsp;/g, ' ')
         // this.description = this.description.replace("-", "-")
-        
+
         console.log(this.description)
         // this.description = "Classified in Chapter 1"
-        
+
         // 1 digit chapter string
         this.description = this.description.replace(/(chapter)\s([0-9])$/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/0\$2)')
         this.description = this.description.replace(/(chapter)\s([0-9])([\s,;\)])/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/0\$2)\$3')
-        
+
         // 2 digit chapter string
         this.description = this.description.replace(/(chapter)\s([0-9]{2})$/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/\$2)')
         this.description = this.description.replace(/(chapter)\s([0-9]{2})([\s,;\)])/ig, '[\$1 \$2](https://www.trade-tariff.service.gov.uk/chapters/\$2)\$3')
-        
+
         // 4 digit headings at the end of the string
         this.description = this.description.replace(/\s([0-9]{4})$/g, ' [\$1](https://www.trade-tariff.service.gov.uk/search?q=\$1)')
 
@@ -564,6 +564,7 @@ class Commodity {
         this.legal_acts = []
         this.crumb = ''
         this.ancestry = []
+        this.ancestry_ids = []
 
         this.chapter_note = ''
         this.section_note = ''
@@ -583,9 +584,12 @@ class Commodity {
             } else if (item['type'] == 'heading') {
                 var description = item['attributes']['formatted_description']
                 this.ancestry.push(description)
+                this.ancestry_ids.push(item['attributes']['goods_nomenclature_item_id'] + "_80")
             } else if (item['type'] == 'commodity') {
                 var description = item['attributes']['formatted_description']
                 this.ancestry.push(description)
+                this.ancestry_ids.push(item['attributes']['goods_nomenclature_item_id'] + "_" + item['attributes']['producline_suffix'])
+                a = 1
             } else if (item['type'] == 'measure') {
                 id = item['id']
                 if (id == 3175200) {
@@ -690,6 +694,9 @@ class Commodity {
             }
         })
 
+        this.sort_ancestry_ids()
+        this.get_search_references()
+
         this.get_export_measure_ids()
 
         this.count_footnotes()
@@ -759,6 +766,44 @@ class Commodity {
             this.calculate_quotas()
         }
         this.assign_preference_codes()
+    }
+
+    sort_ancestry_ids() {
+        if (this.productline_suffix == null) {
+            this.productline_suffix = "80"
+        }
+        this.gnidpls = this.goods_nomenclature_item_id + "_" + this.productline_suffix
+        this.ancestry_ids.push(this.gnidpls)
+        this.ancestry_ids.sort()
+
+        // Get ancestry JSON path query for search references
+        // $.data[?((@.gnidpls == '9705000000_80') || (@.gnidpls == '9613000000_80'))]
+        var query_string = "$.data[?({ANCESTRY})]"
+        var ancestry_string = ""
+        var ancestry_count = this.ancestry_ids.length
+
+        for (var i = 0; i < ancestry_count; i += 1) {
+            ancestry_string += "(@.gnidpls == '" + this.ancestry_ids[i] + "')"
+            if (i < ancestry_count - 1) {
+                ancestry_string += " || "
+            }
+        }
+
+        this.search_references = []
+        query_string = query_string.replace("{ANCESTRY}", ancestry_string)
+        var data = require('../data/search/search_references.json');
+        var jp = require('jsonpath');
+        var results = jp.query(data, query_string);
+        if (results.length > 0) {
+            results.forEach(result => {
+                this.search_references.push(result["title"])
+            });
+        }
+        var a = 1
+    }
+
+    get_search_references() {
+        var a = 1
     }
 
     get_third_country_duty() {
