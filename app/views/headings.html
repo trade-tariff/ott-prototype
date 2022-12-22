@@ -54,6 +54,9 @@
             </span>
             <h1 class="{{ title_class }}">
                  Heading {{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }} - {{ heading.data.attributes.formatted_description | safe }}
+                 {% if context.is_local %}
+                    <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references"><img class="references_in_header" src="/public/images/references/references2.png"></a>
+            {% endif %}
             </h1>
             {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
             {% set admin_link = admin_root + "headings/" + heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) + "/search_references" %}
@@ -85,7 +88,7 @@
             {% if context.is_local %}
                 <!-- Link to set search references //-->
                 <p>
-                    <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">** EDIT SEARCH REFERENCES FOR THIS HEADING **<img class="references" src="/public/images/references/references.png"></a>
+                    <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">** EDIT SEARCH REFERENCES FOR THIS HEADING **<img class="references" src="/public/images/references/references2.png"></a>
                 </p>
             {% endif %}
 
