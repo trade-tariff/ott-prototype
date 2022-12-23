@@ -11,9 +11,21 @@
             "prose_ni": "<p>The table below lists the customs duties that apply to the import of commodity {commodity}.</p><p>Use our <strong>tariff duty calculator</strong> to <a href='/duty-calculator/xi/0101291000/import-date'>work out the duties and taxes applicable to the import of commodity {commodity}</a>.</p><p>ssdfdos</p>"
         }
     },
-    "quotas": {
+    "suspensions": {
         "export": false,
         "index": 3,
+        "block": "Suspensions",
+        "block_xi": "Suspensions",
+        "explainers": {
+            "title": "What are the main types of tariffs and charges",
+            "image": null,
+            "prose": "",
+            "prose_ni": ""
+        }
+    },
+    "quotas": {
+        "export": false,
+        "index": 4,
         "block": "Quotas",
         "block_xi": "Quotas",
         "explainers": {
@@ -24,7 +36,7 @@
     },
     "remedies": {
         "export": false,
-        "index": 4,
+        "index": 5,
         "block": "Trade remedies, safeguards and retaliatory duties",
         "block_xi": "Trade remedies, safeguards and retaliatory duties",
         "explainers": {
@@ -35,7 +47,7 @@
     },
     "vat_excise": {
         "export": false,
-        "index": 5,
+        "index": 6,
         "block": "Import <abbr title='Value-added tax'>VAT</abbr> and excise",
         "block_xi": "Import VAT and excise",
         "explainers": {
@@ -48,7 +60,7 @@
     },
     "other": {
         "export": false,
-        "index": 10,
+        "index": 0,
         "block": "Import controls",
         "block_xi": "EU import controls",
         "explainers": {
@@ -59,7 +71,7 @@
     },
     "other_uk": {
         "export": false,
-        "index": 11,
+        "index": 1,
         "block": "UK import controls",
         "block_xi": "UK import controls",
         "explainers": {
@@ -69,7 +81,7 @@
     },
     "export": {
         "export": true,
-        "index": 11,
+        "index": 12,
         "block": "Export controls",
         "block_xi": "Export controls",
         "explainers": {

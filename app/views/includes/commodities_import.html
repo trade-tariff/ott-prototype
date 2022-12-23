@@ -29,20 +29,22 @@
         </h3>
 
         {% if display_block.explainers %}
-            <div class="govuk-inset-text govuk-inset-text--s nhs-grey-5 explainer">
-                {% if display_block.explainers.image %}
-                    <img src="/public/images/{{ display_block.explainers.image | safe }}"/>
-                {% endif %}
-                {% if context.scope_id == "xi" %}
-                    {% if display_block.explainers.prose_ni %}
-                        {{ display_block.explainers.prose_ni | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+            {% if display_block.explainers.prose != "" %}
+                <div class="govuk-inset-text govuk-inset-text--s nhs-grey-5 explainer">
+                    {% if display_block.explainers.image %}
+                        <img src="/public/images/{{ display_block.explainers.image | safe }}"/>
                     {% endif %}
-                {% else %}
-                    {% if display_block.explainers.prose %}
-                        {{ display_block.explainers.prose | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+                    {% if context.scope_id == "xi" %}
+                        {% if display_block.explainers.prose_ni != "" %}
+                            {{ display_block.explainers.prose_ni | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+                        {% endif %}
+                    {% else %}
+                        {% if display_block.explainers.prose != "" %}
+                            {{ display_block.explainers.prose | insert_vat_excise(commodity.vat_string, commodity.excise_string) | safe }}
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            </div>
+                </div>
+            {% endif %}
         {% endif %}
 
         {% if display_block.block != "Import controls" and display_block.block != "UK import controls" %}
@@ -79,7 +81,7 @@
                 <tr class="sticky govuk-table__row app-flexible-table__row {{ class }}">
                     <th scope="col" class="govuk-table__header country app-flexible-table__header">Country</th>
                     <th scope="col" class="govuk-table__header measure app-flexible-table__header">Measure type</th>
-                    {% if 1 > 2 and (display_block.block == "Customs duties" or display_block.block == "Quotas") %}
+                    {% if 1 > 2 and(display_block.block == "Customs duties" or display_block.block == "Quotas") %}
                         <th scope="col" class="govuk-table__header value app-flexible-table__header c">Preference code</th>
                     {% endif %}
                     {% if display_block.block != "Import controls" and display_block.block != "UK import controls" %}
@@ -94,7 +96,7 @@
                     {% if (measure.import == true) and (measure.display_block.block == display_block.block) %}
                         <tr id="import_measure_{{ measure.id }}" class="govuk-table__row measure app-flexible-table__row {{ class }}">
 
-                            <td class="govuk-table__cell country app-flexible-table__cell" scope="row" data-column-heading="Country">
+                            <td class="govuk-table__cell country app-flexible-table__cell" scope="row" data-column-heading="country">
                                 {% if (measure.geographical_area.geographical_area_code == 1) %}
                                     <a style="float:none" href="{% if (scope_id == 'ni') %}/ni{% endif %}/geographical_area/{{ measure.geographical_area_id }}">{{ measure.geographical_area_description }}
                                         ({{ measure.geographical_area.id }})
@@ -104,48 +106,46 @@
                                         <span class="v-small">excluding {{ measure.excluded_country_string }}
                                             <!--</span>//-->
                                         {% endif %}
-                                {% else %}
-                                    {{ measure.geographical_area_description }}
+                                    {% else %}
+                                        {{ measure.geographical_area_description }}
                                     ({{ measure.geographical_area.id }})
                                 {% endif %}
-                            </td>
-
-                            <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }}" scope="row" data-column-heading="measure type">
-                                <div>
-                                    <span class="table-line">
-                                        {% if display_block.block == "Customs duties" or display_block.block == "Quotas" %}
-                                            <a href="{{ measure.measure_type_url }}" title="{{ measure.measure_type_description }} - use preference code {{ measure.preference_code }}">{{ measure.measure_type_description }}</a>
-                                        {% else %}
-                                            {{ measure.measure_type_description }}
-                                        {% endif %}
-                                    </span>
-                                    {% if measure.order_number_id %}
-                                        {% if context.flag_show_quota_popup %}
-                                            <span class="table-line">
-                                                Order no: <a href="#quota_{{ measure.order_number_id }}" rel="modal:open">{{ measure.order_number_id }}</a>
-                                            </span>
-                                        {% else %}
-                                            <span class="table-line">
-                                                Order no: <a href="/quotas/{{ measure.order_number_id }}" >{{ measure.order_number_id }}</a>
-                                            </span>
-                                        {% endif %}
-                                    {% endif %}
-                                    {% if measure.additional_code %}
-                                        <span class="table-line">Additional code: <strong>{{ measure.additional_code.code }}</strong>
-                                        </span><span class="table-line">{{ measure.additional_code.description | safe }}</span>
-                                    {% endif %}
-                                </div>
-                            </td>
-
-                            {% if 1 > 2 %}
-                            {% if display_block.block == "Customs duties" or display_block.block == "Quotas" %}
-                                <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }} c" scope="row" data-column-heading="Preference code">
-                                    <span title="{{ measure.preference_code.description | safe }}">{{ measure.preference_code.preference_code | safe }}</span>
                                 </td>
-                            {% endif %}
-                            {% endif %}
 
+                                <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }}" scope="row" data-column-heading="measure type">
+                                    <div>
+                                        <span class="table-line">
+                                            {% if display_block.block == "Customs duties" or display_block.block == "Quotas" %}
+                                                <a href="{{ measure.measure_type_url }}" title="{{ measure.measure_type_description }} - use preference code {{ measure.preference_code }}">{{ measure.measure_type_description }}</a>
+                                            {% else %}
+                                                {{ measure.measure_type_description }}
+                                            {% endif %}
+                                        </span>
+                                        {% if measure.order_number_id %}
+                                            {% if context.flag_show_quota_popup %}
+                                                <span class="table-line">
+                                                Order no: <a href="#quota_{{ measure.order_number_id }}" rel="modal:open">{{ measure.order_number_id }}</a>
+                                                </span>
+                                            {% else %}
+                                                <span class="table-line">
+                                                Order no: <a href="/quotas/{{ measure.order_number_id }}" >{{ measure.order_number_id }}</a>
+                                                </span>
+                                            {% endif %}
+                                        {% endif %}
+                                        {% if measure.additional_code %}
+                                            <span class="table-line">Additional code: <strong>{{ measure.additional_code.code }}</strong>
+                                            </span><span class="table-line">{{ measure.additional_code.description | safe }}</span>
+                                        {% endif %}
+                                    </div>
+                                </td>
 
+                                {% if 1 > 2 %}
+                                    {% if display_block.block == "Customs duties" or display_block.block == "Quotas" %}
+                                        <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }} c" scope="row" data-column-heading="Preference code">
+                                            <span title="{{ measure.preference_code.description | safe }}">{{ measure.preference_code.preference_code | safe }}</span>
+                                        </td>
+                                    {% endif %}
+                                {% endif %}
 
                                 {% if display_block.block != "Import controls" and display_block.block != "UK import controls" %}
                                     <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="Value">

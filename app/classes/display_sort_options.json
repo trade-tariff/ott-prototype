@@ -17,7 +17,7 @@
     },
     "suspensions": {
         "sort": "02_suspensions",
-        "block": "tariffs_charges"
+        "block": "suspensions"
     },
     "agri": {
         "sort": "03_agri",
