@@ -128,54 +128,58 @@ router.get(['/chapters/:chapterId', '/:scope_id/chapters/:chapterId'], function 
 
 // Browse within a heading
 router.get(['/headings/:headingId', '/:scope_id/headings/:headingId'], async function (req, res) {
-    var context = new Context(req, "headings");
     var heading_id = req.params["headingId"];
-    var url = 'https://www.trade-tariff.service.gov.uk/api/v2/headings/' + heading_id;
-    if (context.simulation_date != "") {
-        if (url.includes("?")) {
-            url += "&";
-        } else {
-            url += "?";
-        }
-        url += "as_of=" + context.simulation_date;
-    }
-
-    const axiosrequest1 = axios.get(url);
-    try {
-        await axios.all([axiosrequest1]).then(axios.spread(function (response) {
-            h = new Heading(response.data);
-            if (h.data.attributes.declarable) {
-                var url = "/commodities/" + heading_id + "000000";
-                res.redirect(url);
-            } else {
-                // Get a record count of declarable codes
-                h.leaf_count = 0;
-                h.included.forEach(item => {
-                    if (item.type == "commodity") {
-                        if (item.attributes.leaf) {
-                            h.leaf_count += 1;
-                        }
-                    }
-                });
-
-                context.value_classifier = h.data.attributes.goods_nomenclature_item_id.substr(0, 4);
-                context.value_description = h.data.attributes.formatted_description;
-                context.set_description_class()
-                res.render('headings', {
-                    'context': context,
-                    'heading': h
-                });
-            }
-        }));
-    }
-    catch (error) {
-        var url = "/commodity_history/" + heading_id; //.padEnd(10, '0');
+    if (req.url.includes("uk")) {
+        url = "/headings/" + heading_id
+        res.redirect(url)
+    } else {
+        var context = new Context(req, "headings");
+        var url = 'https://www.trade-tariff.service.gov.uk/api/v2/headings/' + heading_id;
         if (context.simulation_date != "") {
-            url += "?as_of=" + context.simulation_date
+            if (url.includes("?")) {
+                url += "&";
+            } else {
+                url += "?";
+            }
+            url += "as_of=" + context.simulation_date;
         }
-        res.redirect(url);
-    }
 
+        const axiosrequest1 = axios.get(url);
+        try {
+            await axios.all([axiosrequest1]).then(axios.spread(function (response) {
+                h = new Heading(response.data);
+                if (h.data.attributes.declarable) {
+                    var url = "/commodities/" + heading_id + "000000";
+                    res.redirect(url);
+                } else {
+                    // Get a record count of declarable codes
+                    h.leaf_count = 0;
+                    h.included.forEach(item => {
+                        if (item.type == "commodity") {
+                            if (item.attributes.leaf) {
+                                h.leaf_count += 1;
+                            }
+                        }
+                    });
+
+                    context.value_classifier = h.data.attributes.goods_nomenclature_item_id.substr(0, 4);
+                    context.value_description = h.data.attributes.formatted_description;
+                    context.set_description_class()
+                    res.render('headings', {
+                        'context': context,
+                        'heading': h
+                    });
+                }
+            }));
+        }
+        catch (error) {
+            var url = "/commodity_history/" + heading_id; //.padEnd(10, '0');
+            if (context.simulation_date != "") {
+                url += "?as_of=" + context.simulation_date
+            }
+            res.redirect(url);
+        }
+    }
 
 });
 
@@ -1063,7 +1067,7 @@ router.get([
     context.base_url_year = base_url
     context.base_url_theme = base_url
 
-    
+
     if (theme != "") {
         url += "theme/" + theme + "/"
         context.base_url_year += "theme/" + theme + "/"

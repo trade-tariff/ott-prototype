@@ -64,8 +64,20 @@
             </span>
             <h1 class="govuk-heading-l commodity-split">Commodity {{ commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe }}</h1>
             {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
-            {% set admin_link = admin_root + "commodities/" + commodity.goods_nomenclature_item_id + "-" + commodity.data.attributes.producline_suffix + "/search_references" %}
-            {# <p class="govuk-!-margin-top-1 govuk-!-margin-bottom-0"><a href="{{ admin_link }}" target="_blank">Edit references</a></p> #}
+            
+            {% if commodity.data.attributes.goods_nomenclature_item_id.substring(4, 10) == "000000" %}
+                {% set admin_link = admin_root + "headings/" + commodity.goods_nomenclature_item_id.substring(0, 4) + "/search_references" %}
+            {% else %}
+                {% set admin_link = admin_root + "commodities/" + commodity.goods_nomenclature_item_id + "-" + commodity.data.attributes.producline_suffix + "/search_references" %}
+            {% endif %}
+
+            {% if context.is_local %}
+                <!-- Link to set search references //-->
+                <p>
+                    <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="{{ admin_link }}">** EDIT SEARCH REFERENCES FOR THIS COMMODITY **<img class="references" src="/public/images/references/references2.png"></a>
+                </p>
+            {% endif %}
+
             {% if commodity.data.attributes.goods_nomenclature_item_id > "9900000000" %}
                 <div class="govuk-warning-text govuk-grid-column-three-quarters">
                     <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
