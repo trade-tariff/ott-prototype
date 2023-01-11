@@ -82,11 +82,11 @@
         
         - of a product derived from the distillation of wine, or
         
-        - of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Article 104 of Regulation (EU) No 2019/934 and for which such practice is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or
+        - of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Regulation (EU) No 2019/934 and for which such practice is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or
         
         - of a mixture of these products.
         
-        However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Article 104 of Regulation (EU) No 2019/934 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.
+        However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the list provided for by the UK equivalent of Regulation (EU) No 2019/934 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.
 
 6. For the purposes of subheadings [2204 10](/subheadings/2204100000-80), [2204 21](/subheadings/2204210000-80), [2204 22](/subheadings/2204220000-80) and [2204 29](/subheadings/2204290000-80):
 
