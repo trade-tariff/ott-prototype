@@ -90,7 +90,7 @@
 
 6. For the purposes of subheadings [2204 10](/subheadings/2204100000-80), [2204 21](/subheadings/2204210000-80), [2204 22](/subheadings/2204220000-80) and [2204 29](/subheadings/2204290000-80):
 
-    - a. varietal wines’ are wines which comply with the provisions of Article 120 of Regulation (EU) No 1308/2013 of the European Parliament and of the Council and the provisions adopted in implementation of the aforesaid Regulation and defined in national regulations;
+    - a. ‘wines with a protected designation of origin (PDO)’ and ‘wines with a protected geographical indication (PGI)’ are wines which comply with the provisions of Articles 93 to 108 of the European Parliament and of the Council ([OJ L 347, 20.12.2013](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=OJ:L:2013:347:TOC), p. 671) and the provisions adopted in implementation of the aforesaid Regulation and defined in national regulations;
     
     - b. ‘varietal wines’ are wines which comply with the provisions of Article 120 of the UK equivalent of Regulation (EU) No 1308/2013 of the European Parliament and of the Council and the provisions adopted in implementation of the aforesaid Regulation and defined in national regulations;
     
