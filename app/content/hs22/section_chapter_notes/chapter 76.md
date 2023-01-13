@@ -28,8 +28,8 @@
 
 1. For the purposes of subheadings [7601 10 10](/commodities/7601101000),[7601 20 30](/commodities/7601203000?day=1&month=1&year=2023) and [7601 20 40](/commodities/7601204000?day=1&month=1&year=2023), the following terms shall have the meanings hereby assigned to them:
 
-    - ‘slabs’: unwrought products which have a uniform solid cross-section along their whole length in the shape of a rectangle or other polygon, of a width exceeding 800 mm, of a thickness exceeding 280 mm and of a length always superior to the width and to the thickness.
-    
+    - ‘slabs’: unwrought products which have a uniform solid cross-section along their whole length in the shape of a rectangle or other polygon, of a width exceeding 800 mm, of a thickness exceeding 280 mm and of a length always superior to the width and to the thickness. These products are intended for being rolled.
+
     - ‘billets’: unwrought products which have a uniform solid cross-section along their whole length in the shape of a circle (including a ‘flattened circle’), of a diameter exceeding 125 mm.
 
 2. For the purposes of subheadings [7606 12 11](/commodities/7606121100) and [7606 12 19](/commodities/7606121900), the following terms shall have the meaning hereby assigned to them:
