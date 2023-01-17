@@ -1,0 +1,13 @@
+<p>Your trade may qualify for preferential rates with {{ context.country_name }} through {{ roo.scheme_count }} agreements. Check the rules of origin applicable to each of these agreements.</p>
+<ul class="govuk-list govuk-list--bullet">
+    {% for scheme in roo.matching_schemes %}
+        <li>{{ scheme.title }}</li>
+    {% endfor %}
+</ul>
+{{ govukButton({
+    text: "Check rules of origin",
+    href: "/roo/trade_direction/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.country
+}) }}
+
+{% include "includes/roo/commodities_roo_psrs.html" %}
+{% include "includes/roo/commodities_roo_proofs.html" %}

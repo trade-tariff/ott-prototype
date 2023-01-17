@@ -44,6 +44,11 @@ class Context {
 
         this.show_rosa_version = true
         this.check_localhost()
+        try {
+            this.flag_show_edit_references_link = parseInt(process.env.FLAG_SHOW_EDIT_REFERENCES_LINK);
+        } catch {
+            this.flag_show_edit_references_link = 0
+        }
     }
 
     get_guides() {

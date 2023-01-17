@@ -1,0 +1,37 @@
+<h2 class="govuk-heading-m" id="psrs">Product-specific rules for the trade of commodity {{ commodity.data.attributes.goods_nomenclature_item_id }} with {{ context.country_name }}</h2>
+{% for scheme in roo_psrs.roo_schemes %}
+    {% if scheme.rule_sets | length > 0 %}
+        {% set show_description = false %}
+        {% for rule_set in scheme.rule_sets %}
+            {% if rule_set.heading != "" %}
+                {% set show_description = true %}
+            {% endif %}
+        {% endfor %}
+        <table class="govuk-table">
+            <caption class="govuk-table__caption govuk-table__caption--m">Rules under the {{ scheme.title }}</caption>
+            <thead class="govuk-table__head">
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">Heading</th>
+                    {% if show_description %}<th scope="col" class="govuk-table__header">Description</th>{% endif %}
+                    <th scope="col" class="govuk-table__header">Rules</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+                {% for rule_set in scheme.rule_sets %}
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">{{ rule_set.heading }}</td>
+                        {% if show_description %}<td class="govuk-table__cell">{{ rule_set.subdivision }}</td>{% endif %}
+                        <td class="govuk-table__cell">
+                            <ul class="govuk-list">
+                            {% for rule in rule_set.rules %}
+                                <li>{{ rule.rule | format_psr | safe }}</li>
+                            {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    {% endif %}
+{% endfor %}

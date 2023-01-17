@@ -1,0 +1,29 @@
+<h2 class="govuk-heading-m" id="proofs">Proofs of origin</h2>
+<h3 class="govuk-heading-s">Proofs of origin for importing goods from {{ context.country_name }}</h3>
+{% for scheme in roo_psrs.roo_schemes %}
+    {% if scheme.proofs | length > 0 %}
+    {# <p>The following proofs of origin may be used for the import of goods from {{ context.country_name }}</p> #}
+        <ul class="govuk-list">
+        {% for proof in scheme.proofs %}
+            <li><a href="{{ proof.url}}">{{ proof.summary}}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
+<h3 class="govuk-heading-s">Proofs of origin for exporting goods to {{ context.country_name }}</h3>
+{% for scheme in roo_psrs.roo_schemes %}
+    {% if scheme.proofs | length > 0 %}
+    {# <p>The following proofs of origin may be used for the exporting of goods from {{ context.country_name }}</p> #}
+        <ul class="govuk-list">
+        {% for proof in scheme.proofs %}
+            <li><a href="{{ proof.url}}">{{ proof.summary}}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
+
+<h3 class="govuk-heading-s">Find out more about proofs of origin</h3>
+<ul class="govuk-list">
+    <li><a href="">How proofs of origin are verified</a></li>
+    <li><a href="">See detailed processes and requirements for proving the origin for goods</a></li>
+</ul>

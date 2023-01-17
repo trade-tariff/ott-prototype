@@ -70,6 +70,7 @@ class Commodity {
         this.agri_array = ['488', '489', '490']
         this.preference_array = ['142', '145', '106', '109', '110', '464']
         this.suspension_array = ['112', '115', '117', '119']
+        this.credibility_array = ['481', '482', '483', '484', '485', '491', '492', '493', '494', '495', '496']
         this.quota_array = ['143', '146', '122', '123']
         this.supplementary_unit_array = ['109', '110']
         this.remedy_array = [
@@ -1671,7 +1672,7 @@ class Commodity {
 
         this.display_blocks = []
         this.measures.forEach(m => {
-            if (m.measure_type_id == '483') {
+            if (m.sid == 3832204) {
                 var a = 1;
             }
             // Check for end use
@@ -1849,6 +1850,15 @@ class Commodity {
 
                 if (!this.customs_duties_measures.includes(m.measure_type_id)) {
                     this.customs_duties_measures.push(m.measure_type_id)
+                }
+            } else if (this.credibility_array.includes(m.measure_type_id)) {
+                m.block = 'credibility'
+                m.duty_bearing = true
+                m.sort_block = display_sort_options[m.block]
+                m.display_block = display_block_options[m.sort_block.block]
+
+                if (!this.display_blocks.includes(m.display_block)) {
+                    this.display_blocks.push(m.display_block)
                 }
             } else if (this.quota_array.includes(m.measure_type_id)) {
                 m.block = 'quotas'

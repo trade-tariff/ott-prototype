@@ -31,13 +31,17 @@
         "sort": "06_other",
         "block": "other"
     },
+    "remedies": {
+        "sort": "07_remedies",
+        "block": "remedies"
+    },
     "other_uk": {
-        "sort": "07_other_uk",
+        "sort": "08_other_uk",
         "block": "other_uk"
     },
-    "remedies": {
-        "sort": "98_remedies",
-        "block": "remedies"
+    "credibility": {
+        "sort": "09_credibility",
+        "block": "credibility"
     },
     "export": {
         "sort": "99_export",

@@ -71,12 +71,23 @@
                 {% set admin_link = admin_root + "commodities/" + commodity.goods_nomenclature_item_id + "-" + commodity.data.attributes.producline_suffix + "/search_references" %}
             {% endif %}
 
-            {% if context.is_local %}
-                <!-- Link to set search references //-->
-                <p>
-                    <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="{{ admin_link }}">** EDIT SEARCH REFERENCES FOR THIS COMMODITY **<img class="references" src="/public/images/references/references2.png"></a>
-                </p>
-            {% endif %}
+
+            {# <div class="govuk-warning-text govuk-grid-column-three-quarters" xstyle="border:silver 1px solid;padding:2.5em !important">
+                    <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                    <strong class="govuk-warning-text__text">
+                        <span class="govuk-warning-text__assistive">Warning</span>
+                        Please read the bulletins on commodity code 4402200010<br><br>
+                        <ul class="govuk-list">
+                            <li><a href="https://www.gov.uk/guidance/application-for-transfer-of-residence-relief-tor1">Data issues with some commodity codes</a></li>
+                            <li><a href="https://www.gov.uk/guidance/application-for-transfer-of-residence-relief-tor1">Quota allocation update</a></li>
+                        </ul>
+
+                        <p>This code cannot be without prior authorisation from HMRC under the Transfer of Residence Relief.
+                        To apply for this please see guidance at:<br><br>
+
+                        <a href="https://www.gov.uk/guidance/application-for-transfer-of-residence-relief-tor1">Application for transfer of residence relief guidance</a>
+                    </strong>
+                </div> #}
 
             {% if commodity.data.attributes.goods_nomenclature_item_id > "9900000000" %}
                 <div class="govuk-warning-text govuk-grid-column-three-quarters">

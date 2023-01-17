@@ -8,6 +8,7 @@ const Subheading = require('./classes/subheading.js');
 const Commodity = require('./classes/commodity.js');
 const Roo = require('./classes/roo.js');
 const RooMvp = require('./classes/roo_mvp.js');
+const RooFixer = require('./classes/roo_fixer.js');
 const ImportedContext = require('./classes/imported_context.js');
 const CPCController = require('./classes/cpc/cpc-controller.js');
 const Error_handler = require('./classes/error_handler.js');
@@ -22,6 +23,7 @@ const SearchExtended = require('./classes/search_extended');
 const SearchApi = require('./classes/search_api');
 const SectionChapterNotesCollection = require('./classes/section_chapter_notes_collection');
 const CommodityHistory = require('./classes/commodity_history');
+const e = require('express');
 
 
 require('./classes/global.js');
@@ -333,42 +335,68 @@ router.get([
     } else {
         // UK
         const axiosrequest1 = axios.get(url);
-        // try {
-        await axios.all([axiosrequest1]).then(axios.spread(function (response) {
-            c = new Commodity();
-            c.country = context.country;
-            c.pass_request(req);
-            c.get_data(response.data);
-            c.get_measure_data(req, "basic");
+        if (context.country == "") {
+            await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
+                c = new Commodity();
+                c.country = context.country;
+                c.pass_request(req);
+                c.get_data(response1.data);
+                c.get_measure_data(req, "basic");
 
-            context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
-            context.value_description = c.description;
-            context.set_description_class()
+                context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
+                context.value_description = c.description;
+                context.set_description_class()
 
-            c.sort_measures();
+                c.sort_measures();
 
-            context.show_chief = true;
-            context.show_cds = true;
-            context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
+                context.show_chief = true;
+                context.show_cds = true;
+                context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
 
-            res.render('commodities', {
-                'context': context,
-                'date': date,
-                'countries': countries,
-                'roo': roo_mvp,
-                'toggle_message': toggle_message,
-                'commodity': c
-            });
-        }));
-        // }
-        // catch (error) {
-        //     var url = "/commodity_history/" + req.params["goods_nomenclature_item_id"];
-        //     if (context.simulation_date != "") {
-        //         url += "?as_of=" + context.simulation_date
-        //     }
-        //     var url = "/headings/" + req.params["goods_nomenclature_item_id"].substr(0, 4);
-        //     res.redirect(url);
-        // }
+                res.render('commodities', {
+                    'context': context,
+                    'date': date,
+                    'countries': countries,
+                    'roo': roo_mvp,
+                    'toggle_message': toggle_message,
+                    'commodity': c
+                });
+            }));
+        } else {
+            var subheading = context.goods_nomenclature_item_id.substr(0, 6);
+            var url_roo = "https://www.trade-tariff.service.gov.uk/api/v2/rules_of_origin_schemes/" + subheading + "/" + context.country
+            const axiosrequest1 = axios.get(url);
+            const axiosrequest2 = axios.get(url_roo);
+            await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
+                c = new Commodity();
+                var a = 1
+                var roo_psrs = new RooFixer(response2.data, context)
+                c.country = context.country;
+                c.pass_request(req);
+                c.get_data(response1.data);
+                c.get_measure_data(req, "basic");
+
+                context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
+                context.value_description = c.description;
+                context.set_description_class()
+
+                c.sort_measures();
+
+                context.show_chief = true;
+                context.show_cds = true;
+                context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
+
+                res.render('commodities', {
+                    'context': context,
+                    'date': date,
+                    'countries': countries,
+                    'roo': roo_mvp,
+                    'toggle_message': toggle_message,
+                    'commodity': c,
+                    'roo_psrs': roo_psrs
+                });
+            }));
+        }
     }
 });
 

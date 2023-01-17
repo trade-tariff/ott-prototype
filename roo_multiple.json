@@ -1,0 +1,416 @@
+{
+    "data": [
+        {},
+        {}
+    ],
+    "included": [
+        {
+            "id": "fc03a712d39d13f7c5595516eabd4222",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Check your goods meet the rules of origin",
+                "url": "https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin",
+                "source": "scheme_set"
+            }
+        },
+        {
+            "id": "1d51be7ef171948f4ea6eb2418a79d10",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "UK-Vietnam Free Trade Agreement",
+                "url": "https://www.gov.uk/government/collections/uk-vietnam-free-trade-agreement",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "d6ced5dbdf14efbea15111b6067c63aa",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Trade with Vietnam",
+                "url": "https://www.gov.uk/guidance/summary-of-the-uk-vietnam-agreement",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "f4883e9f89ed57ca27557afc0f3f5f74",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "EUR1 or EUR.MED movement certificate",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#eur1-and-eur-med-movement-certificates"
+            }
+        },
+        {
+            "id": "348fb001a66717963c2e0cbdef19909c",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "Origin declaration",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#origin-declaration"
+            }
+        },
+        {
+            "id": "258300",
+            "type": "rules_of_origin_rule",
+            "attributes": {
+                "id_rule": 258300,
+                "heading": "ex&nbsp;Chapter&nbsp;85",
+                "description": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                "rule": "Manufacture from materials of any heading, except that of the product;\n\nor\n\n\n manufacture in which the value of all the materials used does not exceed 70 % of the ex-works price of the product. \n\n\n",
+                "alternate_rule": ""
+            }
+        },
+        {
+            "id": "vietnam/accessories",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "accessories",
+                "content": "Accessories, spare parts, tools and instructional or other information materials dispatched with a piece of equipment, machine, apparatus or vehicle, which are part of the normal equipment and included in the price thereof or which are not separately invoiced, shall be regarded as one with the piece of equipment, machine, apparatus or vehicle in question.\n\n{{ Article 8 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/cumulation-export",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "cumulation-export",
+                "content": "### Cumulation of Origin\n\n1. Notwithstanding Article 2 (General Requirements), products shall be considered as originating in the exporting Party if such products are obtained there by incorporating materials originating in the other Party or the EU, provided that the working or processing carried out in the exporting Party goes beyond the operations referred to in Article 6 (Insufficient Working or Processing). \n\n2. For the purposes of paragraph 1, the origin of the materials shall be determined according to the rules of origin of the United Kingdom-Viet Nam Agreement. \n\n3. Notwithstanding Article 2 (General Requirements), working or processing carried out in the EU shall be considered as having been carried out in the UK when the products obtained undergo subsequent working or processing in the UK provided that the working or processing carried out in the UK goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n4. For the purposes of paragraph 1, the originating status of materials exported from the EU to a Party to be used in further working or processing shall be established by a proof of origin under which these materials could be exported directly to the Party. \n\n5. The cumulation in respect of the EU (provided for in paragraphs 1, 2, 3 and 4) applies if the countries involved in the acquisition of the originating status and the country of destination have arrangements on administrative cooperation which ensure the correct implementation of this Article.\n\n6. Materials listed in Annex III to this Origin Reference Document (Materials Referred to in Paragraph 3 of Article 3) originating in an ASEAN country which applies with the UK a preferential trade agreement in accordance with Article XXIV of GATT 1994, shall be considered as materials originating in Viet Nam when further processed or incorporated into one of the products listed in Annex IV to this Origin Reference Document (Products Referred to in Paragraph 6 of Article 3).\n\n7. For the purpose of paragraph 6, the origin of the materials shall be determined according to the rules of origin applicable in the framework of the UK's preferential trade agreements with those ASEAN countries.\n\n8. For the purpose of paragraph 6, the originating status of materials exported from an ASEAN country to Viet Nam to be used in further working or processing shall be established by a proof of origin as if those materials were exported directly to the UK.\n\n9. The cumulation in respect of the ASEAN countries (provided for in paragraphs 6, 7 and 8) applies if:\n\n   1. the ASEAN countries involved in the acquisition of the originating status have undertaken to:\n\n       1. comply or ensure compliance with this Origin Reference Document; and\n\n       2. provide the administrative cooperation necessary to ensure the correct implementation of this Origin Reference Document both with regard to the UK and among themselves;\n\n   2. the undertakings referred to in subparagraph (a) have been notified to the UK; and\n\n   3. the tariff duty the UK applies to the products listed in Annex IV to this Origin Reference Document obtained in Viet Nam by use of such cumulation is higher than or the same as the duty the UK applies to the same product originating in the ASEAN country involved in the cumulation.\n\n10. Proofs of origin issued by application of paragraph 6 shall bear the following entry: \"Application of Article 3(6) of the Origin Reference Document to the Viet Nam-UK FTA\".\n\n11. Fabrics originating in the Republic of Korea shall be considered as originating in Viet Nam when further processed or incorporated into one of the products listed in Annex V to this Origin Reference Document obtained in Viet Nam, provided that they have undergone working or processing in Viet Nam which goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n12. For the purpose of paragraph 11, the origin of the fabrics shall be determined in accordance with the rules of origin applicable in the framework of the Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland, and the Republic of Korea, done at London on 22 August 2019 except for the rules set out in Annex II(a) to the Protocol concerning the Definition of \"Originating Products\" and Methods of Administrative Cooperation of that preferential trade agreement.\n\n13. For the purpose of paragraph 11, the originating status of the fabrics exported from the Republic of Korea to Viet Nam to be used in further working or processing shall be established by a proof of origin as if those fabrics were exported directly from the Republic of Korea to the UK.\n\n14. The cumulation provided for in paragraphs 11 to 13 applies if:\n\n    1. the Republic of Korea applies with the UK a preferential trade agreement in accordance with Article XXIV of GATT 1994;\n\n    2. the Republic of Korea and Viet Nam have undertaken and notified to the UK their undertaking to:\n\n        1. comply or ensure compliance with the cumulation provided for by this Article; and\n\n        2. provide the administrative cooperation necessary to ensure the correct implementation of this Origin Reference Document both with regard to the UK and between themselves.\n\n15. Proofs of origin issued by Viet Nam by application of paragraph 11 shall bear the following entry: \"Application of Article 3(11) of Protocol 1 to the Viet Nam-UK FTA\".\n\n16. The Committee on Customs established pursuant to incorporated Article 17.2 (Specialised Committees) of the United Kingdom-Viet Nam Agreement, may decide that fabrics originating in a country with which both the UK and Viet Nam apply a preferential trade agreement in accordance with Article XXIV of GATT 1994 shall be considered as originating in a Party when further processed or incorporated into one of the products listed in Annex V to this Origin Reference Document obtained in that Party, provided that they have undergone working or processing in that Party which goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n{{ Article 3 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/cumulation-import",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "cumulation-import",
+                "content": "### Cumulation of Origin\n\n1. Notwithstanding Article 2 (General Requirements), products shall be considered as originating in the exporting Party if such products are obtained there by incorporating materials originating in the other Party or the EU, provided that the working or processing carried out in the exporting Party goes beyond the operations referred to in Article 6 (Insufficient Working or Processing). \n\n2. For the purposes of paragraph 1, the origin of the materials shall be determined according to the rules of origin of the United Kingdom-Viet Nam Agreement. \n\n3. Notwithstanding Article 2 (General Requirements), working or processing carried out in the EU shall be considered as having been carried out in the UK when the products obtained undergo subsequent working or processing in the UK provided that the working or processing carried out in the UK goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n4. For the purposes of paragraph 1, the originating status of materials exported from the EU to a Party to be used in further working or processing shall be established by a proof of origin under which these materials could be exported directly to the Party. \n\n5. The cumulation in respect of the EU (provided for in paragraphs 1, 2, 3 and 4) applies if the countries involved in the acquisition of the originating status and the country of destination have arrangements on administrative cooperation which ensure the correct implementation of this Article.\n\n6. Materials listed in Annex III to this Origin Reference Document (Materials Referred to in Paragraph 3 of Article 3) originating in an ASEAN country which applies with the UK a preferential trade agreement in accordance with Article XXIV of GATT 1994, shall be considered as materials originating in Viet Nam when further processed or incorporated into one of the products listed in Annex IV to this Origin Reference Document (Products Referred to in Paragraph 6 of Article 3).\n\n7. For the purpose of paragraph 6, the origin of the materials shall be determined according to the rules of origin applicable in the framework of the UK's preferential trade agreements with those ASEAN countries.\n\n8. For the purpose of paragraph 6, the originating status of materials exported from an ASEAN country to Viet Nam to be used in further working or processing shall be established by a proof of origin as if those materials were exported directly to the UK.\n\n9. The cumulation in respect of the ASEAN countries (provided for in paragraphs 6, 7 and 8) applies if:\n\n   1. the ASEAN countries involved in the acquisition of the originating status have undertaken to:\n\n       1. comply or ensure compliance with this Origin Reference Document; and\n\n       2. provide the administrative cooperation necessary to ensure the correct implementation of this Origin Reference Document both with regard to the UK and among themselves;\n\n   2. the undertakings referred to in subparagraph (a) have been notified to the UK; and\n\n   3. the tariff duty the UK applies to the products listed in Annex IV to this Origin Reference Document obtained in Viet Nam by use of such cumulation is higher than or the same as the duty the UK applies to the same product originating in the ASEAN country involved in the cumulation.\n\n10. Proofs of origin issued by application of paragraph 6 shall bear the following entry: \"Application of Article 3(6) of the Origin Reference Document to the Viet Nam-UK FTA\".\n\n11. Fabrics originating in the Republic of Korea shall be considered as originating in Viet Nam when further processed or incorporated into one of the products listed in Annex V to this Origin Reference Document obtained in Viet Nam, provided that they have undergone working or processing in Viet Nam which goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n12. For the purpose of paragraph 11, the origin of the fabrics shall be determined in accordance with the rules of origin applicable in the framework of the Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland, and the Republic of Korea, done at London on 22 August 2019 except for the rules set out in Annex II(a) to the Protocol concerning the Definition of \"Originating Products\" and Methods of Administrative Cooperation of that preferential trade agreement.\n\n13. For the purpose of paragraph 11, the originating status of the fabrics exported from the Republic of Korea to Viet Nam to be used in further working or processing shall be established by a proof of origin as if those fabrics were exported directly from the Republic of Korea to the UK.\n\n14. The cumulation provided for in paragraphs 11 to 13 applies if:\n\n    1. the Republic of Korea applies with the UK a preferential trade agreement in accordance with Article XXIV of GATT 1994;\n\n    2. the Republic of Korea and Viet Nam have undertaken and notified to the UK their undertaking to:\n\n        1. comply or ensure compliance with the cumulation provided for by this Article; and\n\n        2. provide the administrative cooperation necessary to ensure the correct implementation of this Origin Reference Document both with regard to the UK and between themselves.\n\n15. Proofs of origin issued by Viet Nam by application of paragraph 11 shall bear the following entry: \"Application of Article 3(11) of Protocol 1 to the Viet Nam-UK FTA\".\n\n16. The Committee on Customs established pursuant to incorporated Article 17.2 (Specialised Committees) of the United Kingdom-Viet Nam Agreement, may decide that fabrics originating in a country with which both the UK and Viet Nam apply a preferential trade agreement in accordance with Article XXIV of GATT 1994 shall be considered as originating in a Party when further processed or incorporated into one of the products listed in Annex V to this Origin Reference Document obtained in that Party, provided that they have undergone working or processing in that Party which goes beyond the operations referred to in Article 6 (Insufficient Working or Processing).\n\n{{ Article 3 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/insufficient-processing",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "insufficient-processing",
+                "content": "The following operations shall be considered as insufficient working or processing to confer the status of originating products, whether or not the requirements of Article 5 (Sufficiently Worked or Processed Products) are satisfied:\n\n1. preserving operations to ensure that the products remain in good condition during transport and storage;\n\n2. breaking-up and assembly of packages;\n\n3. washing, cleaning, removal of dust, oxide, oil, paint or other coverings;\n\n4. ironing or pressing of textiles and textile articles;\n\n5. simple painting and polishing operations;\n\n6. husking and partial or total milling of rice; polishing and glazing of cereals and rice;\n\n7. operations to colour or flavour sugar or form sugar lumps; partial or total milling of crystal sugar;\n\n8. peeling, stoning and shelling of fruits, nuts and vegetables;\n\n9. sharpening, simple grinding or simple cutting;\n\n10. sifting, screening, sorting, classifying, grading, or matching (including the making-up of sets of articles);\n\n11. simple placing in bottles, cans, flasks, bags, cases, boxes, fixing on cards or boards and all other simple packaging operations;\n\n12. affixing or printing marks, labels, logos and other like distinguishing signs on products or their packaging;\n\n13. simple mixing of products, whether or not of different kinds; mixing of sugar with any material;\n\n14. simple addition of water, dilution, dehydration or denaturation of products;\n\n15. simple assembly of parts of articles to constitute a complete article or disassembly of products into parts;\n\n16. a combination of two or more of the operations specified in subparagraphs (a) to (o); or\n\n17. slaughter of animals.\n\nOperations shall be considered simple when for their performance neither special skills are required nor machines, apparatus or tools especially produced or installed for those operations.\n\nAll operations carried out either in the UK or in Viet Nam on a given product shall be considered together when determining whether the working or processing undergone by that product is to be regarded as insufficient.\n\n{{ Article 6 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/neutral-elements",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "neutral-elements",
+                "content": "In order to determine whether a product originates in a Party, it shall not be necessary to determine the origin of the following elements which might be used in its manufacture:\n\n- energy and fuel;\n\n- production plants and equipment, including goods to be used for their maintenance;\n\n- machines, tools, dies and moulds; spare parts and materials used in the maintenance of equipment and buildings; lubricants, greases, compounding materials and other materials used in production or used to operate equipment and buildings; gloves, glasses, footwear, clothing, safety equipment and supplies; catalysts and solvents; equipment, devices and supplies used for testing or inspecting the product; and\n\n- other goods which do not enter and which are not intended to enter into the final composition of the product.\n\n{{ Article 10 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/non-alteration",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "non-alteration",
+                "content": "1. The products declared for home use in a Party shall be the same products as exported from the other Party in which they are considered to originate. They shall not have been altered, transformed in any way or subjected to operations other than operations to preserve them in good condition or other than adding or affixing marks, labels, seals or any other documentation to ensure compliance with specific domestic requirements of the importing Party carried out under customs supervision in the country or countries of transit or splitting prior to being declared for home use.\n\n2. Storage of products or consignments may take place provided they remain under customs supervision in the country or countries of transit.\n\n3. Without prejudice to Title D (Proof of Origin), the splitting of consignments may take place where carried out by the exporter or under his responsibility, provided they remain under customs supervision in the country or countries of splitting.\n\n4. In case of doubt, the importing Party may request the declarant to provide evidence of compliance, which may be given by any means, including:\n\n    1. contractual transport documents such as bills of lading;\n\n    2. factual or concrete evidence based on marking or numbering of packages;\n\n    3. any evidence related to the goods themselves;\n\n    4. a certificate of non-manipulation provided by the customs authorities of the country or countries of transit or splitting, or any other documents demonstrating that the goods remained under customs supervision in the country or countries of transit or splitting.\n\n{{ Article 13 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/origin_processes",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "origin_processes",
+                "content": "## Article 15 - General Requirements\n\n1. Products originating in the UK shall, on importation into Viet Nam, benefit from the United Kingdom-Viet Nam Agreement upon submission of any of the following proofs of origin:\n\n   1. a certificate of origin made out in accordance with Articles 16 (Procedure for the Issuance of a Certificate of Origin) to 18 (Issuance of a Duplicate Certificate of Origin);\n\n   2. an origin declaration made out in accordance with Article 19 (Conditions for Making out an Origin Declaration) by:\n\n      1. an approved exporter within the meaning of Article 20 (Approved Exporter) for any consignment regardless of its value; or\n\n      2. any exporter for consignments the total value of which does not exceed EUR 6 000;\n\n   3. a statement of origin made out by exporters registered in an electronic database in accordance with the relevant legislation of the UK after the UK has notified to Viet Nam that such legislation applies to its exporters. Such notification may stipulate that subparagraphs (a) and (b) shall cease to apply to the UK.\n\n2. Products originating in Viet Nam shall, on importation into the UK, benefit from the United Kingdom-Viet Nam Agreement upon submission of any of the following proofs of origin:\n\n   1. a certificate of origin made out in accordance with Articles 16 (Procedure for the Issuance of a Certificate of Origin) to 18 (Issuance of a Duplicate Certificate of Origin);\n\n   2. an origin declaration made out in accordance with Article 19 (Conditions for Making out an Origin Declaration) by any exporter for consignments the total value of which is to be determined in the national legislation of Viet Nam and shall not exceed EUR 6 000;\n\n   3. an origin declaration made out in accordance with Article 19 (Conditions for Making out an Origin Declaration) by an exporter approved or registered in accordance with the relevant legislation of Viet Nam after Viet Nam has notified to the UK that such legislation applies to its exporters. Such notification may stipulate that subparagraph (a) shall cease to apply to Viet Nam.\n\n3. Originating products within the meaning of this Origin Reference Document shall, in the cases specified in Article 24 (Exemptions from Proof of Origin), benefit from the United Kingdom-Viet Nam Agreement without requiring the submission of any of the documents referred to in this Article.\n\n\n\n## Article 16 - Procedure for the Issuance of a Certificate of Origin\n\n1. A certificate of origin shall be issued by the competent authorities of the exporting Party on application having been made in writing by the exporter or, under the exporter's responsibility, by his authorised representative.\n\n2. For this purpose, the exporter or his authorised representative shall fill out both the certificate of origin, specimen of which appears in Annex VII to this Origin Reference Document, and the application form. The specimen of the application form to be used for exports from the UK to Viet Nam appears in Annex VII to this Origin Reference Document; the specimen of the application form to be used for exports from Viet Nam to the UK shall be determined in the domestic legislation of Viet Nam. These forms shall be completed in one of the languages in which the United Kingdom-Viet Nam Agreement is drawn up and in accordance with the domestic law of the exporting Party. If they are hand-written, they shall be completed in ink in printed characters. The description of the products must be given in the box reserved for this purpose without leaving any blank lines. Where the box is not completely filled, a horizontal line must be drawn below the last line of the description, the empty space being crossed through to prevent any subsequent addition.\n\n3. The exporter applying for the issuance of a certificate of origin shall be prepared to submit at any time, at the request of the competent authorities of the exporting Party, all appropriate documents proving the originating status of the products concerned as well as the fulfilment of the other requirements of this Origin Reference Document.\n\n4. A certificate of origin shall be issued by the competent authorities of the exporting Party if the products concerned can be considered as products originating in the UK or in Viet Nam and fulfil the other requirements of this Origin Reference Document.\n\n5. The competent authorities issuing certificates of origin shall take any steps necessary to verify the originating status of the products and the fulfilment of the other requirements of this Origin Reference Document. For this purpose, they shall have the right to call for any evidence and to carry out any inspection of the exporter's accounts or any other check considered appropriate. They shall also ensure that the forms referred to in paragraph 2 are duly completed. In particular, they shall check whether the space reserved for the description of the products has been completed in such a manner as to exclude all possibility of fraudulent additions.\n\n6. The date of issuance of the certificate of origin shall be indicated in Box 11 of the certificate.\n\n7. The certificate of origin shall be issued as soon as possible to but not later than three working days after the date of exportation (the declared shipment date).\n\n\n\n## Article 17 - Certificates of Origin Issued Retrospectively\n\n1. Notwithstanding paragraph 7 of Article 16 (Procedure for the Issuance of a Certificate of Origin), a certificate of origin may also be issued after exportation of the products to which it relates in specific situations where:\n   1. it was not issued at the time of exportation because of errors, involuntary omissions or other valid reasons;\n   2. it is demonstrated to the competent authorities that a certificate of origin was issued but was not accepted at importation for technical reasons; or\n   3. the final destination of the products concerned was not known at the time of exportation and was determined during their transportation, storage or after splitting of consignments in accordance with Article 13 (Non-Alteration).\n\n2. For the implementation of paragraph 1, the exporter shall indicate in his application the place and date of exportation of the products to which the certificate of origin relates, and state the reasons for his request.\n\n3. The competent authorities may issue a certificate of origin retrospectively only after verifying that the information supplied in the exporter's application conforms with that in the corresponding file.\n\n4. Certificates of origin issued retrospectively shall be endorsed with the following phrase in English: \n\n    \"ISSUED RETROSPECTIVELY\".\n\n5. The endorsement referred to in paragraph 4 shall be inserted in Box 7 of the certificate of origin. \n\n\n\n## Article 18 - Issuance of a Duplicate Certificate of Origin\n\n1. In the event of theft, loss or destruction of a certificate of origin, the exporter may apply to the competent authorities which issued it for a duplicate made out on the basis of the export documents in their possession.\n\n2. The duplicate issued in this way must be endorsed with the following word in English: \n\n    \"DUPLICATE\".\n\n3. The endorsement referred to in paragraph 2 shall be inserted in Box 7 of the duplicate certificate of origin.\n\n4. The duplicate, which must bear the date of issue of the original certificate of origin, shall take effect as from that date.\n\n\n\n## Article 19 - Conditions for Making out an Origin Declaration\n\n1. An origin declaration may be made out if the products concerned can be considered as products originating in the UK or in Viet Nam and fulfil the other requirements of this Origin Reference Document.\n\n2. The exporter making out an origin declaration shall be prepared to submit at any time, at the request of the competent authorities of the exporting Party, all appropriate documents proving the originating status of the products concerned as well as the fulfilment of the other requirements of this Origin Reference Document.\n\n3. An origin declaration shall be made out by the exporter on the invoice, the delivery note or any other commercial document which describes the products concerned in sufficient details to enable them to be identified, by typing, stamping or printing on that document the declaration, the text of which appears in Annex VI to this Origin Reference Document, in accordance with the provisions of the domestic law of the exporting Party. If the declaration is hand-written, it shall be written in ink in capital characters.\n\n4. Origin declarations shall bear the original signature of the exporter in manuscript. However, an approved exporter within the meaning of Article 20 (Approved Exporter) shall not be required to sign such declarations provided that he gives the competent authorities of the exporting Party a written undertaking that he accepts full responsibility for any origin declaration which identifies him as if it had been signed in manuscript by him.\n\n5. An origin declaration may be made out after exportation provided that it is presented in the importing Party no later than two years, or the period specified in the legislation of the importing Party, after the entry of the goods into the territory.\n\n6. The conditions for making out an origin declaration referred to in paragraphs 1 to 5 apply mutatis mutandis to statements of origin made out by an exporter registered as provided for in subparagraphs 1(c) and 2(c) of Article 15 (General Requirements). \n\n\n\n## Article 20 - Approved Exporter\n\n1. The competent authorities of the exporting Party may authorise any exporter (hereinafter referred to as \"approved exporter\") who exports products under the United Kingdom-Viet Nam Agreement to make out origin declarations irrespective of the value of the products concerned. An exporter seeking such authorisation shall offer to the satisfaction of the competent authorities all guarantees necessary to verify the originating status of the products as well as the fulfilment of the other requirements of this Origin Reference Document.\n\n2. The competent authorities may grant the status of approved exporter subject to any conditions specified in domestic legislation which they consider appropriate.\n\n3. The competent authorities shall grant to the approved exporter an authorisation number which shall appear on the origin declaration.\n\n4. The competent authorities shall monitor the use of the authorisation by the approved exporter.\n\n5. The competent authorities may withdraw the authorisation at any time. They shall do so when the approved exporter no longer offers the guarantees referred to in paragraph 1, no longer fulfils the conditions referred to in paragraph 2 or otherwise makes an incorrect use of the authorisation. \n\n\n\n## Article 21 - Validity of Proof of Origin\n\n1. A proof of origin shall be valid for 12 months from the date of issuance in the exporting Party, and shall be submitted to the customs authorities of the importing Party within that period.\n\n2. Proofs of origin which are submitted to the customs authorities of the importing Party after the period of validity referred to in paragraph 1 may be accepted for the purpose of applying preferential tariff treatment, when the importer failed to submit those documents by the final date of the period of validity due to force majeure or other valid reasons beyond that person's control.\n\n3. In other cases of belated presentation, the customs authorities of the importing Party may accept the proofs of origin when the products have been imported within the period of validity referred to in paragraph 1.\n\n\n\n## Article 22 - Submission of Proof of Origin\n\nFor the purpose of claiming preferential tariff treatment, proofs of origin shall be submitted to the customs authorities of the importing Party in accordance with the procedures applicable in that Party. Those authorities may request a translation of the proof of origin if it is not issued in English. \n\n\n\n## Article 23 - Importation by Instalments\n\nWhere, at the request of the importer and on the conditions laid down by the customs authorities of the importing Party, dismantled or non-assembled products within the meaning of paragraph 2(a) of Part Two, Section 1, of the Tariff of the United Kingdom falling within Sections XVI and XVII or headings 7308 and 9406 of HS 2012 are imported by instalments, a single proof of origin for such products shall be submitted to the customs authorities upon importation of the first instalment.\n\n\n\n## Article 24 - Exemptions from Proof of Origin\n\n1. Products sent as small packages from private persons to private persons or forming part of travellers' personal luggage shall be admitted as originating products without requiring the submission of a proof of origin, provided that such products are not imported by way of trade and have been declared as meeting the requirements of this Origin Reference Document and where there is no doubt as to the veracity of such declaration. In the case of products sent by post, this declaration can be made on the customs declaration CN22, CN23 or on a sheet of paper attached to that document.\n\n2. Imports which are occasional and consist solely of products for the personal use of the recipients or travellers or their families shall not be considered as imports by way of trade if it is evident from the nature and quantity of the products that no commercial purpose exists.\n\n3. Furthermore, the total value of the products referred to in paragraphs 1 and 2 shall not exceed:\n\n   1. when entering the UK, EUR 500 in the case of small packages or EUR 1 200 in the case of products forming part of travellers' personal luggage;\n\n   2. when entering Viet Nam, USD 200, both in the case of small packages and in the case of products forming part of travellers' personal luggage.\n\n\n\n## Article 25 - Supporting Documents\n\nThe documents referred to in paragraph 3 of Article 16 (Procedure for the Issuance of a Certificate of Origin) and paragraph 2 of Article 19 (Conditions for Making out an Origin Declaration), used for the purpose of proving that products covered by an origin declaration or a certificate of origin can be considered as products originating in the UK or in Viet Nam and fulfil the other requirements of this Origin Reference Document, may consist, inter alia, of the following:\n\n- direct evidence of the manufacturing or other processes carried out by the exporter or supplier to obtain the goods concerned, contained for example in his accounts or internal book- keeping;\n\n- documents proving the originating status of materials used, issued or made out in a Party, where those documents are used in accordance with domestic law;\n\n- documents proving the working or processing of materials in a Party, issued or made out in a Party, where those documents are used in accordance with domestic law; or\n\n- proof of origin proving the originating status of materials used, issued or made out in a Party in accordance with this Origin Reference Document.\n\n\n\n## Article 26 - Preservation of Proof of Origin and Supporting Documents\n\n1. The exporter making out an origin declaration or applying for the issuance of a certificate of origin shall keep for at least three years a copy of this origin declaration or of the certificate of origin as well as of the documents referred to in paragraph 3 of Article 16 (Procedure for the Issuance of a Certificate of Origin) and paragraph 2 of Article 19 (Conditions for Making out an Origin Declaration).\n\n2. The competent authorities of the exporting Party issuing a certificate of origin shall keep for at least three years the application form referred to in in paragraph 2 of Article 16 (Procedure for the Issuance of a Certificate of Origin).\n\n3. The customs authorities of the importing Party shall keep for at least three years the proofs of origin submitted to them.\n\n4. Each Party shall permit, in accordance with that Party's laws and regulations, exporters in its territory to maintain documentation or records in any form or medium, provided that the documentation or records can be retrieved and printed.\n\n\n\n## Article 27 - Discrepancies and Formal Errors\n\n1. The discovery of slight discrepancies between the statements made in the proof of origin and those made in the documents submitted to the customs office for the purpose of carrying out the formalities for importing the products shall not ipso facto render the proof of origin null and void if it is duly established that this document corresponds to the products submitted.\n\n2. Obvious formal errors such as typing errors on a proof of origin shall not cause this document to be rejected if these errors are not such as to create doubts concerning the correctness of the statements made in this document.\n\n3. For multiple goods declared under the same proof of origin, a problem encountered with one of the goods listed shall not affect or delay the granting of preferential tariff treatment and customs clearance of the remaining goods listed in the proof of origin.\n\n\n\n## Article 28 - Amounts Expressed in Euro\n\n1. For the application of subparagraph 1(b)(ii) of Article 15 (General Requirements) and subparagraph 3(a) of Article 24 (Exemptions from Proof of Origin) in cases where products are invoiced in a currency other than euro, amounts in the national currency of the UK or of Viet Nam equivalent to the amounts expressed in euro shall be fixed annually by each Party.\n\n2. A consignment shall benefit from subparagraph 1(b)(ii) of Article 15 (General Requirements) and subparagraph 3(a) of Article 24 (Exemptions from Proof of Origin) by reference to the currency in which the invoice is drawn up, according to the amount fixed by the Party concerned.\n\n3. The amounts to be used in any given national currency shall be the equivalent in that currency of the amounts expressed in euro as at the first working day of October. The amounts shall be communicated by 15 October and shall apply from 1 January of the following year. The Parties shall notify each other of the relevant amounts.\n\n4. A Party may round up or down the amount resulting from the conversion into its national currency of an amount expressed in euro. The rounded-off amount may not differ from the amount resulting from the conversion by more than 5 per cent. A Party may retain unchanged its national currency equivalent of an amount expressed in euro if, at the time of the annual adjustment provided for in paragraph 3, the conversion of that amount, prior to any rounding-off, results in an increase of less than 15 per cent in the national currency equivalent. The national currency equivalent may be retained unchanged if the conversion would result in a decrease in that equivalent value.\n\n\n\n{{ Articles 15 to 28 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/originating_export",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "originating_export",
+                "content": "For the purpose of implementing the United Kingdom-Viet Nam Agreement, the following products shall be considered as originating in a Party:\n\n- products **wholly obtained** in a Party;\n\n- products obtained in a Party incorporating materials which have not been wholly obtained there, provided that such materials have undergone **sufficient working or processing** in the Party concerned. \n"
+            }
+        },
+        {
+            "id": "vietnam/originating_import",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "originating_import",
+                "content": "For the purpose of implementing the United Kingdom-Viet Nam Agreement, the following products shall be considered as originating in a Party:\n\n- products **wholly obtained** in a Party;\n\n- products obtained in a Party incorporating materials which have not been wholly obtained there, provided that such materials have undergone **sufficient working or processing** in the Party concerned. \n"
+            }
+        },
+        {
+            "id": "vietnam/packaging",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "packaging",
+                "content": "Where, under paragraph 5 of Part Two, Section 1, of the Tariff of the United Kingdom, packaging is included in the product for classification purposes, it shall be included for the purposes of determining origin.\n\n{{ Article 7 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/sets",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "sets",
+                "content": "### Sets\n\nSets, as defined in paragraph 3 of Part Two, Section 1, of the Tariff of the United Kingdom, shall be regarded as originating when all component products are originating products. When a set is composed of originating and non-originating products, the set as a whole shall be regarded as originating, provided that the value of the non-originating products does not exceed 15 per cent of the ex-works price of the set.\n\n{{ Article 9 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/sufficiently-worked",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "sufficiently-worked",
+                "content": "### Sufficiently Worked or Processed Products\n\n1. For the purpose of subparagraph (b) of Article 2 (General Requirements), products which are not wholly obtained are considered to be sufficiently worked or processed when the conditions set out in Annex II to this Origin Reference Document are fulfilled.\n\n2. The conditions referred to in paragraph 1 indicate, for all products covered by the United Kingdom-Viet Nam Agreement, the working or processing which must be carried out on non-originating materials used in manufacturing and apply only in relation to such materials.\n\n    If a product which has acquired originating status by fulfilling the conditions set out in the list is used in the manufacture of another product, the conditions applicable to the product in which it is incorporated do not apply to it, and no account shall be taken of the non-originating materials which may have been used in its manufacture.\n\n3. By way of derogation from paragraph 1 and subject to paragraphs 4 and 5, non-originating materials which, in accordance with the conditions set out in Annex II to this Origin Reference Document, are not to be used in the manufacture of a given product, may nevertheless be used, provided that their total value or net weight assessed for the product does not exceed:\n\n    (a) 10 per cent of the weight of the product or ex-works price for products of Chapters 2 and 4 to 24 of HS 2012, other than processed fishery products referred to in Chapter 16 of HS 2012; or\n\n    (b) 10 per cent of the ex-works price of the product for other products, except for products of Chapters 50 to 63 of HS 2012, for which the tolerances mentioned in Notes 6 and 7 of Annex I to this Origin Reference Document apply.\n\n4. Paragraph 3 shall not allow exceeding any of the percentages for the maximum value or weight of non-originating materials as specified in Annex II to this Origin Reference Document.\n\n5. Paragraphs 3 and 4 do not apply to products wholly obtained in a Party within the meaning of Article 4 (Wholly Obtained Products). Without prejudice to Article 6 (Insufficient Working or Processing) and paragraph 2 of Article 7 (Unit of Qualification), the tolerance provided for in paragraphs 3 and 4 applies to the sum of all the materials which are used in the manufacture of a product for which Annex II to this Origin Reference Document requires that such materials be wholly obtained.\n\n{{ Article 5 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/tolerances",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "tolerances",
+                "content": "### Tolerances\n\n"
+            }
+        },
+        {
+            "id": "vietnam/verification",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "verification",
+                "content": "## Verification of Proofs of Origin\n\n1. Subsequent verifications of proofs of origin shall be carried out at random or whenever the competent authorities of the importing Party have reasonable doubts as to the authenticity of such documents, the originating status of the products concerned or the fulfilment of the other requirements of this Origin Reference Document.\n\n2. For the purpose of implementing the provisions of paragraph 1, the competent authorities of the importing Party shall return the certificate of origin and the invoice, if it has been submitted, or the origin declaration, or a copy of these documents, to the competent authorities of the exporting Party giving, where appropriate, the reasons for the enquiry. Any documents and information obtained suggesting that the information given on the proof of origin is incorrect shall be forwarded in support of the request for verification.\n\n3. The verification shall be carried out by the competent authorities of the exporting Party. For that purpose, they shall have the right to request any evidence and to carry out any inspection of the exporter's accounts or any other check considered appropriate.\n\n4. If the competent authorities of the importing Party decide to suspend the granting of preferential tariff treatment to the products concerned while awaiting the results of the verification, release of the products shall be offered to the importer subject to any precautionary measures deemed necessary. Any suspension of preferential tariff treatment shall be reinstated as soon as possible after the originating status of the products concerned or the fulfilment of the other requirements of this Origin Reference Document has been ascertained by the competent authorities of the importing Party.\n\n5. The competent authorities requesting the verification shall be informed of the results of this verification as soon as possible. These results must indicate clearly whether the documents are authentic and whether the products concerned can be considered as products originating in the Parties and fulfil the other requirements of this Origin Reference Document.\n\n6. If in cases of reasonable doubt there is no reply within 10 months of the date of the verification request or if the reply does not contain sufficient information to determine the authenticity of the document in question or the real origin of the products, the requesting competent authorities may, except in exceptional circumstances, refuse entitlement to the preferential tariff treatment.\n\n{{ Article 29 }}\n"
+            }
+        },
+        {
+            "id": "vietnam/wholly-obtained-verbatim",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained-verbatim",
+                "content": "## Wholly obtained products\n1. The following shall be considered as wholly obtained in a Party:\n\n   1. mineral products extracted from its soil or from its seabed;\n\n   2. plants and vegetable products grown and harvested or gathered there;\n\n   3. live animals born and raised there;\n\n   4. products from live animals raised there;\n\n   5. products from slaughtered animals born and raised there;\n\n   6. products obtained by hunting or fishing conducted there;\n\n   7. products of aquaculture, where the fish, crustaceans and molluscs are born or raised there from eggs, fry, fingerlings and larvae;\n\n   8. products of sea fishing and other products taken from outside any territorial sea by its vessels;\n\n   9. products made aboard its factory ships exclusively from products referred to in subparagraph (h);\n\n   10. used articles collected there which are only fit for the recovery of raw materials;\n\n   11. waste and scrap resulting from manufacturing operations conducted there;\n\n   12. products extracted from the seabed or below the seabed which is situated outside any territorial sea but where it has exclusive exploitation rights;\n\n   13. goods produced there exclusively from the products specified in subparagraphs (a) to (l).\n\n2. The terms \"its vessels\" and \"its factory ships\" in subparagraphs 1(h) and 1(i) apply only to vessels and factory ships which:\n\n   1. are registered in the UK or in Viet Nam;\n\n   2. fly the flag of the UK or of Viet Nam; and\n\n   3. meet one of the following conditions:\n\n      1. they are at least 50 per cent owned by natural persons of a Party or a Member State of the EU; or\n\n      2. they are owned by legal persons which:\n\n         1. have their head office and their main place of business in the UK, Viet Nam or a Member State of the EU; and\n\n         2. are at least 50 per cent owned by the UK, by Viet Nam, by a Member State of the EU or by their public entities or nationals.\n\n{{ Article 4 }}"
+            }
+        },
+        {
+            "id": "vietnam/wholly-obtained-vessels",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained-vessels",
+                "content": "The terms \"its vessels\" and \"its factory ships\" in subparagraphs 1(h) and 1(i) apply only to vessels and factory ships which:\n\n1. are registered in the UK or in Viet Nam;\n\n2. fly the flag of the UK or of Viet Nam; and\n\n3. meet one of the following conditions:\n\n   1. they are at least 50 per cent owned by natural persons of a Party or a Member State of the EU; or\n\n   2. they are owned by legal persons which:\n\n      1. have their head office and their main place of business in the UK, Viet Nam or a Member State of the EU; and\n\n      2. are at least 50 per cent owned by the UK, by Viet Nam, by a Member State of the EU or by their public entities or nationals.\n"
+            }
+        },
+        {
+            "id": "vietnam/wholly-obtained",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained",
+                "content": "The following shall be considered as wholly obtained in a Party:\n\n1. **mineral products** extracted from its soil or from its seabed;\n\n2. plants and **vegetable products** grown and harvested or gathered there;\n\n3. **live animals** born and raised there;\n\n4. **products from live animals** raised there;\n\n5. products from **slaughtered animals** born and raised there;\n\n6. products obtained by **hunting or fishing** conducted there;\n\n7. Products of **aquaculture**, where the fish, crustaceans and molluscs are born or raised there from eggs, fry, fingerlings and larvae;\n\n8. products of **sea fishing and other products** taken from outside any territorial sea by its vessels;\n\n9. products made aboard its **factory ships** exclusively from products referred to in subparagraph (h);\n\n10. used articles collected there which are only fit for the **recovery of raw materials**;\n\n11. **waste and scrap** resulting from manufacturing operations conducted there;\n\n12. products extracted from the **seabed or below the seabed** which is situated outside any territorial sea but where it has exclusive exploitation rights;\n\n13. goods produced there exclusively from the products specified in subparagraphs (a) to (l).\n\n{{ Article 4 }}"
+            }
+        },
+        {
+            "id": "538c7c8666cc55100fb6b705c159e91b",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "Manufacture from materials of any heading, except that of the product.",
+                "rule_class": [
+                    "CTH"
+                ],
+                "operator": null
+            }
+        },
+        {
+            "id": "50f54f8f336736c3af7259d1e3207790",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "Manufacture in which the value of all the materials used does not exceed **70%** of the ex-works price of the product.",
+                "rule_class": [
+                    "MAXNOM"
+                ],
+                "operator": "or"
+            }
+        },
+        {
+            "id": "4bc2a3c65e1e632dd41893b550a92c57",
+            "type": "rules_of_origin_rule_set",
+            "attributes": {
+                "heading": "8507",
+                "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles"
+            },
+            "relationships": {
+                "rules": {
+                    "data": [
+                        {
+                            "id": "538c7c8666cc55100fb6b705c159e91b",
+                            "type": "rules_of_origin_v2_rule"
+                        },
+                        {
+                            "id": "50f54f8f336736c3af7259d1e3207790",
+                            "type": "rules_of_origin_v2_rule"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "e384a8b2b7836d28cb0b99a0f8a407f3",
+            "type": "rules_of_origin_origin_reference_document",
+            "attributes": {
+                "ord_title": "Origin Reference Document implementing the Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland and the Socialist Republic of Viet Nam, signed on 29th December 2020 (“the Viet Nam Origin Reference Document”)",
+                "ord_version": "1.1",
+                "ord_date": "28 December 2021",
+                "ord_original": "211223_ORD_Vietnam__V1.1.odt"
+            }
+        },
+        {
+            "id": "e6d24f873fe946bb839038c1787cb871",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "GSP - Least Developed Countries Framework",
+                "url": "https://www.gov.uk/government/publications/trading-with-developing-nations",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "f954fbd16d08133b76e1c53076e42b32",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Use the UK Generalised Scheme of Preference to import goods",
+                "url": "https://www.gov.uk/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "439b0b62f3eceadffd8d9691ce1c634f",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Using an origin declaration for the UK Generalised Scheme of Preference",
+                "url": "https://www.gov.uk/guidance/using-an-origin-declaration-for-the-uk-generalised-scheme-of-preference",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "d30f8b710154b33b31654e14742ee984",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "Generalised Scheme of Preferences form A",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#generalised-scheme-of-preferences-form-a"
+            }
+        },
+        {
+            "id": "98e28b38fba6dea15cebd29d6d4b953d",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "Invoice declaration",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#origin-declaration"
+            }
+        },
+        {
+            "id": "16000288",
+            "type": "rules_of_origin_rule",
+            "attributes": {
+                "id_rule": 16000288,
+                "heading": "ex Chapter 85",
+                "description": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles; except for:",
+                "rule": "Manufacture from materials of any heading, except that of the product",
+                "alternate_rule": null
+            }
+        },
+        {
+            "id": "gsp/accessories",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "accessories",
+                "content": "Accessories, spare parts and tools dispatched with a piece of equipment, machine, apparatus or vehicle which are part of the normal equipment and included in its price or which are not separately invoiced are to be regarded as having the same origin as the piece of equipment, machine, apparatus or vehicle.\n"
+            }
+        },
+        {
+            "id": "gsp/duty-drawback",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "duty-drawback",
+                "content": "Check"
+            }
+        },
+        {
+            "id": "gsp/neutral-elements",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "neutral-elements",
+                "content": "1. In determining the origin of goods, neutral elements used to process, or used in the course of processing, the goods are to be disregarded.\n\n2. In this regulation, \"neutral elements\" means:\n\n   1. energy in the form of fuel, or in any other form;\n\n   2. plant or equipment, including machinery and tools;\n\n   3. materials which do not form part of, or are not integral to, the final composition of the goods.\n"
+            }
+        },
+        {
+            "id": "gsp/origin_processes",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "origin_processes",
+                "content": ""
+            }
+        },
+        {
+            "id": "gsp/originating_import",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "originating_import",
+                "content": "Qualifying goods listed in Column 2 of the table in Part 2 of Schedule 1 are to be regarded as originating from a beneficiary country if:\n\n1. the goods are **wholly obtained** in that beneficiary country in accordance with regulation 6;\n\n2. where the goods are obtained in **two or more countries or territories**, that beneficiary country is the last country or territory in which processing of the goods which constitutes an important stage of manufacture has taken place in accordance with regulation 7;\n\n3. the requirements set out in regulation 20(1) are met;\n\n4. in the case of returned goods, the requirements set out in regulation 19 are met; and\n\n5. the evidence requirements set out in regulation 4 are met."
+            }
+        },
+        {
+            "id": "gsp/sets",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "sets",
+                "content": "Goods in a set for retail sale are to be regarded as goods originating from a beneficiary country if:\n\n- all the components are originating materials, or\n- where the set is composed of a mixture of originating materials and non-originating materials, the value of the non-originating materials does not exceed 15% of the ex-works price of the set."
+            }
+        },
+        {
+            "id": "gsp/wholly-obtained",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained",
+                "content": "1. In Part 1 of the Act and in Column 3 of the table in Part 2 of Schedule 1, any reference to goods being wholly obtained in a country or territory includes the following specified cases-\n\n   1. **mineral products** extracted from the soil or seabed of the country or territory;\n\n   2. live animals born and raised in the country or territory;\n\n   3. products from live animals raised in the country or territory;\n\n   4. products from **slaughtered animals** born and raised in the country or territory;\n\n   5. products obtained by hunting, fishing or harvesting conducted in the country or territory;\n\n   6. products of aquaculture where the fish, crustaceans and molluscs are born and raised in the country or territory;\n\n   7. products of **sea fishing and other products** taken from the sea outside any territorial sea by vessels of the country or territory;\n\n   8. products made on board the factory ships of the country or territory exclusively from the products referred to in sub-paragraph (g);\n\n   9. used articles collected in the country or territory and fit only for the **recovery of raw materials**;\n\n   10. products extracted from the **seabed or below the seabed** which is situated outside any territorial sea provided the country or territory has exclusive exploitation rights;\n\n   11. goods produced in the country or territory exclusively from the things specified in sub-paragraphs (a) to (j).\n\n2. In paragraph (1)(g) and (h), “vessels of the country or territory” and “factory ships of the country or territory” apply only to vessels and factory ships which-\n\n   1. are registered in the beneficiary country or in the United Kingdom;\n\n   2. sail under the flag of the beneficiary country or the United Kingdom; and\n\n   3. are:\n\n      1. at least 50% owned by nationals of the beneficiary country, the United Kingdom or a member State of the European Union; or\n\n      2. owned by bodies corporate which:\n\n         1. have their head office and principal place of business in the beneficiary country, the United Kingdom or a member State of the European Union, and\n\n         2. are at least 50% owned by public bodies or nationals of the beneficiary country, the United Kingdom or a member State of the European Union.\n\n      3. For the purposes of intra-regional cumulation under regulation 16, the goods must be regarded as originating from the beneficiary country under whose flag the vessel or factory ship sails."
+            }
+        },
+        {
+            "id": "cf38ec45bd438909b82edf8441ba96b0",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "Manufacture from materials of any heading, except that of the product",
+                "rule_class": [],
+                "operator": null
+            }
+        },
+        {
+            "id": "9bba6f1a3e040bfb17eb23128ce439d3",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "Manufacture in which the value of all the materials used does not exceed 70% of the ex-works price of the product",
+                "rule_class": [],
+                "operator": null
+            }
+        },
+        {
+            "id": "4535f576dae06379576c9f6f71cb0e4e",
+            "type": "rules_of_origin_rule_set",
+            "attributes": {
+                "heading": "ex Chapter 85",
+                "subdivision": "Electrical machinery and equipment and parts thereof;\nsound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles"
+            },
+            "relationships": {
+                "rules": {
+                    "data": [
+                        {
+                            "id": "cf38ec45bd438909b82edf8441ba96b0",
+                            "type": "rules_of_origin_v2_rule"
+                        },
+                        {
+                            "id": "9bba6f1a3e040bfb17eb23128ce439d3",
+                            "type": "rules_of_origin_v2_rule"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "2228e977ebea8966e27929f43e39cb67",
+            "type": "rules_of_origin_origin_reference_document",
+            "attributes": {
+                "ord_title": "",
+                "ord_version": "",
+                "ord_date": "",
+                "ord_original": ""
+            }
+        }
+    ]
+}

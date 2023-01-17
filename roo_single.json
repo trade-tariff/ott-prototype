@@ -1,0 +1,431 @@
+{
+    "data": [
+        {
+            "id": "japan",
+            "type": "rules_of_origin_scheme",
+            "attributes": {
+                "scheme_code": "japan",
+                "title": "UK-Japan Comprehensive Economic Partnership Agreement",
+                "countries": [
+                    "JP"
+                ],
+                "footnote": null,
+                "unilateral": null,
+                "fta_intro": "### The UK-Japan Comprehensive Economic Partnership Agreement (CEPA)\n\nThe UK signed a free trade agreement (FTA) with Japan on 23 October 2020. This Comprehensive Economic Partnership Agreement (CEPA) maintains the benefits of the EU-Japan Economic Partnership Agreement (EPA) with enhancements in areas of mutual interest.\n",
+                "introductory_notes": "### Note 1 - General principles\n\n1. This Annex sets out the general rules for the applicable requirements of Annex 3-B provided for in subparagraph 1(c) of Article 3.2.\n\n2. For the purposes of this Annex and Annex 3-B, the requirements for a product to be originating in accordance with subparagraph 1(c) of Article 3.2 are a change in tariff classification, a production process, a maximum value of non-originating materials, a minimum regional value content, or any other requirement specified in this Annex and Annex 3-B.\n\n3. Reference to weight in a product specific rule of origin means the net weight, which is the weight of a material or a product, not including the weight of packaging.\n\n4. This Annex, Annex 3-B and Annex 3-E are based on the Harmonized System, as amended on 1 January 2017.\n\n### Note 2 - The structure of Annex 3-B\n\n1. Notes on Sections or Chapters, where applicable, are read in conjunction with the product specific rules of origin for the relevant Section, Chapter, heading or subheading.\n\n2. Each product specific rule of origin set out in Column 2 of Annex 3-B applies to the corresponding product identified in Column 1 of Annex 3-B.\n\n3. If a product is subject to alternative product specific rules of origin, the product shall be originating if it satisfies one of the alternatives. If a product is subject to a product specific rule of origin that includes multiple requirements, the product shall be originating only if it satisfies all of the requirements.\n\n4. For the purpose of this Annex and Annex 3-B,\n   1. \"**chapter**\" means the first two-digits in the tariff classification number under the Harmonized System;\n   2. \"**heading**\" means the first four-digits in the tariff classification number under the Harmonized System;\n   3. \"**section**\" means a section of the Harmonized System; and\n   4. \"**subheading**\" means the first six-digits in the tariff classification number under the Harmonized System.\n\n5. For the purposes of product specific rules of origin, the following abbreviations apply:¹\n\n- **\"CC\"** means production from non-originating materials of any Chapter, except that of the product, or a change to the Chapter, heading or subheading from any other Chapter; this means that all non-originating materials used in the production of the product must undergo a change in tariff classification at the 2-digit level (i.e. a change in Chapter) of the Harmonized System.\n- **\"CTH\"** means production from non-originating materials of any heading, except that of the product, or a change to the Chapter, heading or subheading from any other heading; this means that all non-originating materials used in the production of the product must undergo a change in tariff classification at the 4-digit level (i.e. a change in heading) of the Harmonized System.\n\n- **\"CTSH\"** means production from non-originating materials of any subheading, except that of the product, or a change to the Chapter, heading or subheading from any other subheading; this means that all non-originating materials used in the production of the product must undergo a change in tariff classification at the 6-digit level (i.e. a change in sub-heading) of the Harmonized System.\n\n### Note 3 - Application of Annex 3-B\n\n1. Paragraph 3 of Article 3.2, concerning products having acquired originating status which are used in the production of other products, applies irrespective of whether or not this status has been acquired inside the same factory in a Party where those products are used.\n\n2. If a product specific rule of origin provides that a specified non-originating material may not be used or that the value or weight of a specified non-originating material cannot exceed a specific threshold, those requirements do not apply to non-originating materials classified elsewhere in the Harmonized System.\n\n3. If a product specific rule of origin provides that a product shall be produced from a particular material, this does not prevent the use of other materials which cannot satisfy the requirement because of their inherent nature.\n\n### Note 4\n\nCalculation of a maximum value of non-originating materials and of a minimum regional value content\n\n**Definitions:**\n\n1. For the purposes of product specific rules of origin:\n\n   1. \"**customs value**\" means the value as determined in accordance with the Agreement on Implementation of Article VII of the General Agreement on Tariffs and Trade 1994;\n\n   2. \"**EXW**\" means:\n\n      1. the ex-works price of the product paid or payable to the manufacturer in whose undertaking the last working or processing is carried out, provided that the price includes the value of all the materials used and all other costs incurred in the production of a product minus any internal taxes which are, or may be, repaid when the product obtained is exported; or\n\n      2. if there is no price paid or payable or if the actual price paid does not reflect all costs related to the production of the product which are actually incurred in the production of a product, the value of all the materials used and all other costs incurred in the production of the product in the exporting Party which:\n\n         (A) include selling, general and administrative expenses, as well as profit, that can be reasonably allocated to the product; and\n\n         (B) exclude the costs of freight, insurance, all other costs incurred in transporting the product and any internal taxes of the exporting Party which are, or may be, repaid when the product obtained is exported;\n\n   3. \"**FOB**\" means:\n\n      1. the free on board price of the product paid or payable to the seller regardless of the mode of shipment, provided that the price includes the value of all the materials used and all other costs incurred in the production of a product and its transportation to the exportation port in the Party, minus any internal taxes which are, or may be, repaid when the product obtained is exported; or\n\n      2. if there is no price paid or payable or if the actual price paid does not reflect all costs related to the production of the product which are actually incurred in the production of a product, the value of all the materials used and all other costs incurred in the production of the product in the exporting Party, and its transportation to the exportation port in the Party which:\n\n         (A) include selling, general and administrative expenses, as well as profit, that can be reasonably allocated to the product, the costs of freight and insurance; and\n\n         (B) exclude any internal taxes of the exporting Party which are, or may be, repaid when the product obtained is exported;\n\n   4. \"**MaxNOM**\" means the maximum value of non-originating materials expressed as a percentage;\n\n   5. \"**RVC**\" means the minimum regional value content of a product, expressed as a percentage; and\n\n   6. \"**VNM**\" means the value of non-originating materials used in the production of the product which is its customs value at the time of importation including freight, insurance where appropriate, packing and all the other costs incurred in transporting the materials to the importation port in the Party where the producer of the product is located. Where it is not known and cannot be ascertained, the first ascertainable price paid for the non-originating materials in either Party is used.\n\n2. For the calculation of MaxNOM and RVC, the following formulas apply: \n\n   MaxNOM(%) = VNM / EXW × 100\n\n   RVC(%) = (FOB - VNM) / FOB × 100\n\n### Note 5 - Definitions of processes referred to in Sections V to VII in Annex 3-B\n\nFor the purposes of product specific rules of origin:\n\n1. \"**biotechnological processing**\" means:\n   1. biological or biotechnological culturing (including cell culture), hybridisation or genetic modification of micro-organisms (bacteria, viruses (including phages) etc.) or human, animal or plant cells; and\n   2. production, isolation or purification of cellular or intercellular structures (such as isolated genes, gene fragments and plasmids), or fermentation;\n\n2. \"**change in particle size**\" means the deliberate and controlled modification in particle size of a product, other than by merely crushing or pressing, resulting in a product with a defined particle size, defined particle size distribution or defined surface area, which is relevant to the purposes of the resulting product and with physical or chemical characteristics different from those of the input materials;\n\n3. \"**chemical reaction**\" means a process (including a biochemical processing) which results in a molecule with a new structure by breaking intramolecular bonds and by forming new intramolecular bonds, or by altering the spatial arrangement of atoms in a molecule, with the exception of the following which are not considered to be chemical reactions for the purpose of this definition:\n   1. dissolving in water or other solvents;\n   2. the elimination of solvents including solvent water; or\n   3. the addition or elimination of water of crystallisation;\n4. \"**distillation**\" means:\n   1. atmospheric distillation: a separation process in which petroleum oils are converted, in a distillation tower, into fractions according to boiling point and the vapour then condensed into different liquefied fractions; products produced from petroleum distillation may include liquefied petroleum gas, naphtha, gasoline, kerosene, diesel or heating oil, light gas oils and lubricating oil; and\n   2. vacuum distillation: distillation at a pressure below atmospheric but not so low that it would be classed as molecular distillation; vacuum distillation is used for distilling high-boiling and heat-sensitive materials such as heavy distillates in petroleum oils to produce light to heavy vacuum gas oils and residuum;\n5. \"**isomer separation**\" means the isolation or separation of isomers from a mixture of isomers;\n6. \"**mixing and blending**\" means the deliberate and proportionally controlled mixing or blending (including dispersing) of materials, other than the addition of diluents, only to conform to predetermined specifications which results in the production of a product having physical or chemical characteristics that are relevant to the purposes or uses of the product and are different from the input materials;\n\n7. \"**production of standard materials**\" (including standard solutions) means a production of a preparation suitable for analytical, calibrating or referencing uses with precise degrees of purity or proportions certified by the manufacturer; and\n\n8. \"**purification**\" means a process which results in the elimination of at least 80 per cent of the content of existing impurities.\n\n### Note 6\n\nDefinitions of terms used in Section XI of Annex 3-B\n\nFor the purposes of product specific rules of origin:\n\n1. \"**man-made staple fibres**\" means synthetic or artificial filament tow, staple fibres or waste, of headings 55.01 to 55.07;\n\n2. \"**natural fibres**\" means fibres other than synthetic or artificial fibres. Their use is restricted to the stages before spinning takes place, including waste, and, unless otherwise specified, includes fibres which have been carded, combed or otherwise processed, but not spun; \"natural fibres\" includes horsehair of heading 05.11, silk of headings 50.02 and 50.03, wool-fibres and fine or coarse animal hair of headings 51.01 to 51.05, cotton fibres of headings 52.01 to 52.03, and other vegetable fibres of headings 53.01 to 53.05;\n\n3. \"**printing**\" means a technique by which an objectively assessed function, such as colour, design, or technical performance, is given to a textile substrate with a permanent character, using screen, roller, digital or transfer techniques; and\n\n4. \"**printing (as standalone operation)**\" means a technique by which an objectively assessed function, such as colour, design, or technical performance, is given to a textile substrate with a permanent character, using screen, roller, digital or transfer techniques combined with at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendaring, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling, shearing, singeing, process of air-tumbler, process of stenter, milling, steam and shrinking, and wet decatising), provided that the value of all the non-originating materials used does not exceed 50 per cent of the EXW or 45 per cent of the FOB of the product.\n\n### Note 7 - Tolerances applicable to products containing two or more basic textile materials\n\n1. For the purposes of this Note, basic textile materials are the following:\n   1. silk;\n   2. wool;\n   3. coarse animal hair;\n   4. fine animal hair;\n   5. horsehair;\n   6. cotton;\n   7. paper-making materials and paper;\n   8. flax;\n   9. true hemp;\n   10. jute and other textile bast fibres;\n   11. sisal and other textile fibres of the genus Agave;\n   12. coconut, abaca, ramie and other vegetable textile fibres;\n   13. synthetic man-made filaments;\n   14. artificial man-made filaments;\n   15. current-conducting filaments;\n   16. synthetic man-made staple fibres of polypropylene;\n   17. synthetic man-made staple fibres of polyester;\n   18. synthetic man-made staple fibres of polyamide;\n   19. synthetic man-made staple fibres of polyacrylonitrile;\n   20. synthetic man-made staple fibres of polyimide;\n   21. synthetic man-made staple fibres of polytetrafluoroethylene;\n   22. synthetic man-made staple fibres of poly (phenylene sulphide);\n   23. synthetic man-made staple fibres of poly (vinyl chloride);\n   24. other synthetic man-made staple fibres;\n   25. artificial man-made staple fibres of viscose;\n   26. other artificial man-made staple fibres;\n   27. yarn made of polyurethane segmented with flexible segments of polyether, whether or not gimped;\n   28. yarn made of polyurethane segmented with flexible segments of polyester whether or not gimped;\n   29. products of heading 56.05 (metallised yarn) incorporating strip consisting of a core of aluminium foil or of a core of plastic film irrespective of whether or not coated with aluminium powder, of a width not exceeding 5 mm, sandwiched by means of a transparent or coloured adhesive between two layers of plastic film;\n   30. other products of heading 56.05;\n   31. glass fibres; and\n   32. metal fibres.\n\n2. Where reference to this Note is made in Annex 3-B, the requirements set out in its Column 2 shall not apply, as a tolerance, to non-originating basic textile materials which are used in the production of a product, provided that:\n\n   1. the product contains two or more basic textile materials; and\n\n   2. the weight of the non-originating basic textile materials, taken together, does not exceed 10 per cent of the total weight of all the basic textile materials used.\n\n      For example:\n\n      For a woollen fabric of heading 51.12 containing woollen yarn of heading 51.07, synthetic yarn of staple fibres of heading 55.09 and materials other than basic textile materials, non-originating woollen yarn which does not satisfy the requirement set out in Annex 3-B, or non-originating synthetic yarn which does not satisfy the requirement set out in Annex 3-B, or a combination of both, may be used, provided that their total weight does not exceed 10 per cent of the weight of all the basic textile materials.\n\n3. Notwithstanding Note 7.2 (b), for products containing \"yarn made of polyurethane segmented with flexible segments of polyether, whether or not gimped\", the maximum tolerance is 20 per cent. However, the percentage of the other non-originating basic textile materials shall not exceed 10 per cent.\n\n4. Notwithstanding Note 7.2 (b), for products containing \"strip consisting of a core of aluminium foil or of a core of plastic film irrespective of whether or not coated with aluminium powder, of a width not exceeding 5 mm, sandwiched by means of a transparent or coloured adhesive between two layers of plastic film\", the maximum tolerance is 30 per cent. However, the percentage of the other non-originating basic textile materials shall not exceed 10 per cent.\n\n5. For a product of headings 51.06 to 51.10 and headings 52.04 to 52.07, non-originating man-made fibres may be used in the process of spinning of natural fibres, provided that their total weight does not exceed 40 per cent of the weight of the product.\n\n### Note 8 - Other tolerances applicable to certain textile products\n\n1. Where reference to this Note is made in Annex 3-B, non-originating textile materials (with the exception of linings and interlinings) which do not satisfy the requirements set out in its Column 2 for a made-up textile product may be used, provided that they are classified in a heading other than that of the product and that their value does not exceed 8 per cent of the EXW or FOB of the product.\n\n2. Non-originating materials which are not classified in Chapters 50 to 63 may be used without restriction in the production of textile products classified in Chapters 61 to 63, whether or not they contain textiles.\n\n   For example:\n\n   If a requirement set out in Annex 3-B provides that yarn shall be used, for a certain textile item (such as trousers), this does not prevent the use of non-originating metal items (such as buttons), because metal items are not classified in Chapters 50 to 63. For the same reasons, it does not prevent the use of non-originating slide fasteners, even though slide-fasteners normally contain textiles.\n\n3. Where a requirement set out in Annex 3-B consists in a maximum value of non-originating materials, the value of the non-originating materials which are not classified in Chapters 50 to 63 shall be taken into account in the calculation of the value of the non-originating materials.\n\n¹ For greater certainty, if a requirement of a change in tariff classification provides for exception for a change from certain Chapters, headings or subheadings, none of the non-originating materials of those Chapters, headings or subheadings may be used, individually or jointly.",
+                "cumulation_methods": {
+                    "bilateral": [
+                        "GB",
+                        "JP"
+                    ],
+                    "extended": [
+                        "EU",
+                        "AD",
+                        "SM"
+                    ]
+                }
+            },
+            "relationships": {
+                "rules": {
+                    "data": [
+                        {
+                            "id": "13000380",
+                            "type": "rules_of_origin_rule"
+                        }
+                    ]
+                },
+                "links": {
+                    "data": [
+                        {
+                            "id": "fc03a712d39d13f7c5595516eabd4222",
+                            "type": "rules_of_origin_link"
+                        },
+                        {
+                            "id": "1a98a472292583d4a175171d5aac0207",
+                            "type": "rules_of_origin_link"
+                        },
+                        {
+                            "id": "30e48f0d589c2c20b41252d813ac5e42",
+                            "type": "rules_of_origin_link"
+                        },
+                        {
+                            "id": "842bbb2f6f833621d1995848b037cd10",
+                            "type": "rules_of_origin_link"
+                        },
+                        {
+                            "id": "853bf5f65db5270787b5de287812d1ed",
+                            "type": "rules_of_origin_link"
+                        }
+                    ]
+                },
+                "proofs": {
+                    "data": [
+                        {
+                            "id": "aa493add57cc7488b4b62db860cd2cf4",
+                            "type": "rules_of_origin_proof"
+                        },
+                        {
+                            "id": "93b139700293e4b9db121f61ddeae9cb",
+                            "type": "rules_of_origin_proof"
+                        }
+                    ]
+                },
+                "articles": {
+                    "data": [
+                        {
+                            "id": "japan/accessories",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/cumulation-export",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/cumulation-import",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/insufficient-processing",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/neutral-elements",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/non-alteration",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/origin_processes",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/originating_export",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/originating_import",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/packaging",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/sets",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/tolerances",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/verification",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/wholly-obtained-verbatim",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/wholly-obtained-vessels",
+                            "type": "rules_of_origin_article"
+                        },
+                        {
+                            "id": "japan/wholly-obtained",
+                            "type": "rules_of_origin_article"
+                        }
+                    ]
+                },
+                "rule_sets": {
+                    "data": [
+                        {
+                            "id": "a6ab6a7d2faeb431f7b749e3999f1702",
+                            "type": "rules_of_origin_rule_set"
+                        }
+                    ]
+                },
+                "origin_reference_document": {
+                    "data": {
+                        "id": "0d564fab9c20b69c841959917c69424b",
+                        "type": "rules_of_origin_origin_reference_document"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "fc03a712d39d13f7c5595516eabd4222",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Check your goods meet the rules of origin",
+                "url": "https://www.gov.uk/guidance/check-your-goods-meet-the-rules-of-origin",
+                "source": "scheme_set"
+            }
+        },
+        {
+            "id": "1a98a472292583d4a175171d5aac0207",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "UK/Japan: Agreement for a Comprehensive Economic Partnership",
+                "url": "https://www.gov.uk/government/publications/ukjapan-agreement-for-a-comprehensive-economic-partnership-cs-japan-no12020",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "30e48f0d589c2c20b41252d813ac5e42",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "Trade with Japan",
+                "url": "https://www.gov.uk/guidance/summary-of-the-uk-japan-comprehensive-economic-partnership-agreement",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "842bbb2f6f833621d1995848b037cd10",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "UK-Japan CEPA: rules of origin explainer",
+                "url": "https://www.gov.uk/government/publications/uk-japan-cepa-rules-of-origin-explainer",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "853bf5f65db5270787b5de287812d1ed",
+            "type": "rules_of_origin_link",
+            "attributes": {
+                "text": "UK-Japan CEPA: benefits for the UK",
+                "url": "https://www.gov.uk/government/publications/the-uk-japan-comprehensive-economic-partnership-benefits-for-the-uk",
+                "source": "scheme"
+            }
+        },
+        {
+            "id": "aa493add57cc7488b4b62db860cd2cf4",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "Statement on origin",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#origin-declaration"
+            }
+        },
+        {
+            "id": "93b139700293e4b9db121f61ddeae9cb",
+            "type": "rules_of_origin_proof",
+            "attributes": {
+                "summary": "Importer's knowledge",
+                "subtext": "",
+                "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods#importers-knowledge"
+            }
+        },
+        {
+            "id": "13000380",
+            "type": "rules_of_origin_rule",
+            "attributes": {
+                "id_rule": 13000380,
+                "heading": "85.02-85.18",
+                "description": "85.02-85.18",
+                "rule": "A change from any other heading  - CTH;\nMaximum of non-originating materials - MaxNOM 50% (EXW);\n\nor Regional Value Content - RVC 55% (FOB).{{EXW}}{{CTH}}",
+                "alternate_rule": null
+            }
+        },
+        {
+            "id": "japan/accessories",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "accessories",
+                "content": "1. For the purposes of this Article, accessories, spare parts, tools and instructional or other information materials are covered if:\n\n   1. the accessories, spare parts, tools and instructional or other information materials are classified and delivered with, but not invoiced separately from, the product; and\n\n   2. the types, quantities and value of the accessories, spare parts, tools and instructional or other information materials are customary for that product.\n\n2. In determining whether a product is wholly obtained, or satisfies a production process or change in tariff classification requirement as set out in Annex B, accessories, spare parts, tools and instructional or other information materials shall be disregarded.\n\n3. In determining whether a product meets a value requirement set out in Annex B, the value of accessories, spare parts, tools and instructional or other information materials shall be taken into account as originating or non-originating materials, as the case may be, in the calculation for the purpose of the application of the value requirement to the product.\n\n4. A product's accessories, spare parts, tools and instructional or other information materials shall have the originating status of the product with which they are delivered.\n\n{{ Article 12 }}\n"
+            }
+        },
+        {
+            "id": "japan/cumulation-export",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "cumulation-export",
+                "content": "1. A product that qualifies as originating in a Party shall be considered as originating in the other Party if used as a material in the production of another product in the other Party.\n\n2. A product that qualifies as originating in the European Union  shall be considered as originating in a Party if used as a material in the production of another product classified under the Chapters and headings of HS 2017 as specified in Annex C in the Party.\n\n3. Production carried out in a Party on a non-originating material may be taken into account for the purpose of determining whether a product is originating in the other Party.\n\n4. Production carried out in the European Union on a non-originating material may be taken into account for the purpose of determining whether a product classified under the Chapters and headings of HS 2017 as specified in Annex C is originating in a Party.\n\n5. Paragraphs 1 and 3 do not apply if the production carried out in the other Party does not go beyond one or more of the operations referred to in subparagraphs 1(a) to (q) of Article 4.\n\n6.  Paragraphs 2 and 4 do not apply if the production carried out in a Party does not go beyond one or more of the operations referred to in subparagraphs 1(a) to (q) of Article 4.\n\n7. In order for an exporter to complete the statement on origin referred to in subparagraph 2(a) of Article 16 for a product referred to in paragraphs 3 and 4, the exporter shall obtain from its supplier information as provided for in Annex D.\n\n8. The information referred to in paragraph 7 shall apply to a single consignment or multiple consignments for the same material that is supplied within a period that does not exceed 12 months from the date on which the information was provided.\n\n9. For the purposes of paragraphs 2 and 4, the rules of origin under this Origin Reference Document shall apply, mutatis mutandis, in order to determine whether a product is originating in the European Union, or in order to take into account the production carried out in the European Union on a non-originating material.\n\n{{ Article 5 }}\n"
+            }
+        },
+        {
+            "id": "japan/cumulation-import",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "cumulation-import",
+                "content": "1. A product that qualifies as originating in a Party shall be considered as originating in the other Party if used as a material in the production of another product in the other Party.\n\n2. A product that qualifies as originating in the European Union  shall be considered as originating in a Party if used as a material in the production of another product classified under the Chapters and headings of HS 2017 as specified in Annex C in the Party.\n\n3. Production carried out in a Party on a non-originating material may be taken into account for the purpose of determining whether a product is originating in the other Party.\n\n4. Production carried out in the European Union on a non-originating material may be taken into account for the purpose of determining whether a product classified under the Chapters and headings of HS 2017 as specified in Annex C is originating in a Party.\n\n5. Paragraphs 1 and 3 do not apply if the production carried out in the other Party does not go beyond one or more of the operations referred to in subparagraphs 1(a) to (q) of Article 4.\n\n6.  Paragraphs 2 and 4 do not apply if the production carried out in a Party does not go beyond one or more of the operations referred to in subparagraphs 1(a) to (q) of Article 4.\n\n7. In order for an exporter to complete the statement on origin referred to in subparagraph 2(a) of Article 16 for a product referred to in paragraphs 3 and 4, the exporter shall obtain from its supplier information as provided for in Annex D.\n\n8. The information referred to in paragraph 7 shall apply to a single consignment or multiple consignments for the same material that is supplied within a period that does not exceed 12 months from the date on which the information was provided.\n\n9. For the purposes of paragraphs 2 and 4, the rules of origin under this Origin Reference Document shall apply, mutatis mutandis, in order to determine whether a product is originating in the European Union, or in order to take into account the production carried out in the European Union on a non-originating material.\n\n{{ Article 5 }}\n"
+            }
+        },
+        {
+            "id": "japan/insufficient-processing",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "insufficient-processing",
+                "content": "A product shall not be considered as originating in a Party if solely one or more of the following operations are conducted on non originating materials in the production of the product in that Party:\n\n1. preserving operations such as drying, freezing, keeping in brine and other similar operations where their sole purpose is to ensure that the product remains in good condition during transport and storage;\n\n2. changes of packaging;\n\n3. breaking-up or assembly of packages;\n\n4. washing, cleaning or removal of dust, oxide, oil, paint or other coverings;\n\n5. ironing or pressing of textiles and textile articles;\n\n6. simple painting or polishing operations;\n\n7. husking, partial or total bleaching, polishing or glazing of cereals and rice;\n\n8. operations to colour or flavour sugar or form sugar lumps; partial or total milling of sugar in solid form;\n\n9. peeling, stoning or shelling of fruits, nuts or vegetables;\n\n10. sharpening, simple grinding or simple cutting;\n\n11. sifting, screening, sorting, classifying, grading or matching including the making-up of sets of articles;\n\n12. simple placing in bottles, cans, flasks, bags, cases or boxes, simple fixing on cards or boards and all other simple packaging operations;\n\n13. affixing or printing marks, labels, logos and other like distinguishing signs on products or their packaging;\n\n14. simple mixing of products , whether or not of different kinds;\n\n15. simple addition of water, dilution, dehydration or denaturation of products;\n\n16. simple collection or assembly of parts to constitute a complete or finished article, or an article falling to be classified as complete or finished pursuant to paragraph 2(a) of Part Two, Section 1, of the Tariff of the United Kingdom; disassembly of products in parts; or\n\n17. slaughter of animals.\n\nOperations shall be considered simple if neither special skills nor machines, apparatus or equipment especially produced or installed are needed for carrying out those operations.\n\n{{ Article 4 }}\n"
+            }
+        },
+        {
+            "id": "japan/neutral-elements",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "neutral-elements",
+                "content": "In order to determine whether a product is originating in a Party, it shall not be necessary to determine the originating status of the following elements:\n\n- fuel, energy, catalysts and solvents;\n\n- equipment, devices and supplies used to test or inspect the product;\n\n- gloves, glasses, footwear, clothing, safety equipment and supplies;\n\n- machines, tools, dies and moulds;\n\n- spare parts and materials used in the maintenance of equipment and buildings;\n\n- lubricants, greases, compounding materials and other materials used in production or used to operate equipment and buildings; and\n\n- any other material that is not incorporated into the product but the use of which in the production of the product can reasonably be demonstrated to be a part of that production.\n\n{{ Article 13 }}\n"
+            }
+        },
+        {
+            "id": "japan/non-alteration",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "non-alteration",
+                "content": "1. An originating product declared for home use in the importing Party shall not have, after exportation and prior to being declared for home use, been altered, transformed in any way or subjected to operations other than to preserve them in good condition or than adding or affixing marks, labels, seals or any other documentation to ensure compliance with specific domestic requirements of the importing Party.\n\n2. Storage or exhibition of a product may take place in a third country provided that it remains under customs supervision in that third country.\n\n3. Without prejudice to Section B, the splitting of consignments may take place in a third country if it is carried out by the exporter or under its responsibility and provided that they remain under customs supervision in that third country.\n\n4. In case of doubt as to whether the requirements provided for in paragraphs 1 to 3 are complied with, the customs authority of the importing Party may request the importer to provide evidence of compliance, which may be given by any means, including contractual transport documents such as bills of lading or factual or concrete evidence based on marking or numbering of packages or any evidence related to the product itself.\n\n{{ Article 10 }}\n"
+            }
+        },
+        {
+            "id": "japan/origin_processes",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "origin_processes",
+                "content": "## Article 16 - Claim for preferential tariff treatment\n\n1. The importing Party shall, on importation, grant **preferential tariff treatment** to a product originating in the other Party on the basis of a claim by the importer for preferential tariff treatment. The importer shall be responsible for the correctness of the claim for preferential tariff treatment and compliance with the requirements provided for in this Origin Reference Document.\n\n2. A claim for preferential tariff treatment shall be based on:\n\n   1. a statement on origin that the product is originating made out by the exporter; or\n\n   2. the importer's knowledge that the product is originating.\n\n3. A claim for preferential tariff treatment and its basis as referred to in subparagraph 2(a) or (b) shall be included in the customs import declaration in accordance with the laws and regulations of the importing Party. The customs authority of the importing Party may request, to the extent that the importer can provide such explanation, the importer to provide an explanation, as part of the customs import declaration or accompanying it, that the product satisfies the requirements of this Origin Reference Document.\n\n4. The importer making a claim for preferential tariff treatment based on a statement on origin referred to in subparagraph 2(a) shall keep the statement on origin and, when required by the customs authority of the importing Party, provide a copy thereof to that customs authority.\n\n5. Paragraphs 2 to 4 do not apply in the cases specified in Article 20.\n\n\n\n\n## Article 17 - Statement on origin\n\n1. A statement on origin may be made out by an exporter of a product on the basis of information demonstrating that the product is originating, including information on the originating status of materials used in the production of the product. The exporter is responsible for the correctness of the statement on origin and of the information provided.\n\n2. A statement on origin shall be made out using either of the linguistic versions of the text set out in Annex E on an invoice or on any other commercial document that describes the originating product in sufficient detail to enable its identification. The importing Party shall not require the importer to submit a translation of the statement on origin.\n\n3. The customs authority of the importing Party shall not reject a claim for preferential tariff treatment due to minor errors or discrepancies in the statement on origin or for the sole reason that an invoice was issued in a third country.\n\n4. A statement on origin shall be valid for:\n\n   1. 12 months from the date on which it was made out or such longer period of time as provided by the importing Party, for a single shipment referred to in subparagraph 5(a); or\n\n   2. 12 months from the date on which it was made out, for multiple shipments referred to in subparagraph 5(b).\n\n5. A statement on origin may apply to:\n\n   1. a single shipment of one or more products imported into a Party; or\n\n   2. multiple shipments of identical products imported into a Party within any period specified in the statement on origin not exceeding 12 months.\n\n6. If, on request of the importer, unassembled or disassembled products within the meaning of paragraph 2(a) of Part Two, Section 1, of the Tariff of the United Kingdom falling within Sections XV to XXI of HS 2017 are imported by instalments, a single statement on origin for such products may be used in accordance with the requirements laid down by the customs authority of the importing Party.\n\n\n\n\n## Article 18 - Importer's knowledge\n\nThe importer's knowledge that a product is originating in the exporting Party shall be based on information demonstrating that the product is originating and satisfies the requirements provided for in this Origin Reference Document.\n\n\n\n## Article 19 - Record keeping requirements\n\n1. An importer making a claim for preferential tariff treatment for a product imported into the importing Party shall, for a minimum of three years after the date of importation of the product, keep:\n\n   1. if the claim was based on a statement on origin, the statement on origin made out by the exporter; or\n\n   2. if the claim was based on the importer's knowledge, all records demonstrating that the product satisfies the requirements to obtain originating status.\n\n2. An exporter who has made out a statement on origin shall, for a minimum of four years after the date of the making out of that statement on origin, keep a copy of the statement on origin and all other records demonstrating that the product satisfies the requirements to obtain originating status.\n\n3. The records to be kept in accordance with this Article may be held in electronic format.\n\n4. Paragraphs 1 to 3 do not apply in the cases specified in Article 20.\n\n\n\n\n## Article 20 - Small consignments and waivers\n\n1. Products sent as small packages from private persons to private persons or forming part of travellers' personal luggage shall be admitted as originating products provided that such products are not imported by way of trade , have been declared as satisfying the requirements of this Origin Reference Document and if there is no doubt as to the veracity of such a declaration.\n\n2. Provided that the importation does not form part of importations that may reasonably be considered to have been made separately for the purpose of avoiding the requirement for a statement on origin, the total value of the products referred to in paragraph 1 shall not exceed such value limits as the importing Party may set out in its laws and regulations and which have been notified to the other Party.\n\n3. Each Party may provide that the basis for the claim as referred to in paragraph 2 of Article 16 shall not be required for an importation of a product for which the importing Party has waived the requirements.\n\n\n\n{{ Articles 16 to 20 }}"
+            }
+        },
+        {
+            "id": "japan/originating_export",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "originating_export",
+                "content": "For the purpose of the application of preferential tariff treatment by a Party to an originating good of the other Party, the following products shall be considered as originating in the other Party:\n\n1. **wholly obtained or produced** products;\n\n2. products produced exclusively from **materials originating in that Party**; *or*\n\n3. products produced using non-originating materials provided they satisfy all applicable requirements of the **product-specific rules of origin**.\n\nIf a product has acquired originating status, the non-originating materials used in the production of the product shall not be considered non-originating when that product is incorporated as material into another product.\n"
+            }
+        },
+        {
+            "id": "japan/originating_import",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "originating_import",
+                "content": "For the purpose of the application of preferential tariff treatment by a Party to an originating good of the other Party, the following products shall be considered as originating in the other Party:\n\n1. **wholly obtained or produced** products;\n\n2. products produced exclusively from **materials originating in that Party**; *or*\n\n3. products produced using non-originating materials provided they satisfy all applicable requirements of the **product-specific rules of origin**.\n\nIf a product has acquired originating status, the non-originating materials used in the production of the product shall not be considered non-originating when that product is incorporated as material into another product.\n"
+            }
+        },
+        {
+            "id": "japan/packaging",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "packaging",
+                "content": "Packing materials and containers for shipment that are used to protect a product during transportation shall be disregarded in determining the originating status of a product.\n\nPackaging materials and containers in which a product is packaged for retail sale, if classified with the product, shall be disregarded in determining whether all the non-originating materials used in the production of the product have undergone the applicable change in tariff classification or a production process set out in Annex B or whether the product is wholly obtained.\n\nIf a product is subject to a value requirement set out in Annex B, the value of the packaging materials and containers in which the product is packaged for retail sale, if classified with the product, shall be taken into account as originating or non-originating, as the case may be, in the calculation for the purpose of the application of the value requirement to the product.\n\n{{ Articles 14 and 15 }}\n"
+            }
+        },
+        {
+            "id": "japan/sets",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "sets",
+                "content": "A set, classified pursuant to paragraphs 3(b) and (c) of Part Two, Section 1, of the Tariff of the United Kingdom, shall be considered as originating in a Party when all of its components are originating under this Origin Reference Document.\n\nWhere the set is composed of originating and non-originating components, it shall as a whole be considered as originating in a Party, provided that the value of the non-originating components does not exceed 15 per cent of the ex-works or free on board price of the set.\n\n{{ Article 9 }}"
+            }
+        },
+        {
+            "id": "japan/tolerances",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "tolerances",
+                "content": "1. If a non-originating material used in the production of a product does not satisfy the requirements set out in Annex B, the product shall be considered as originating in a Party, provided that:\n\n   1. for a product classified under **Chapters 1 to 49** or **Chapters 64 to 97** of HS 2017, the value of all those non-originating materials does not exceed 10 per cent of the ex-works or free on board price of the product; or\n\n   2. for a product classified under **Chapters 50 to 63** of HS 2017, tolerances apply as stipulated in Notes 6 to 8 of Annex A.\n\n2. Paragraph 1 does not apply if the value of non-originating materials used in the production of a product exceeds any of the percentages for the maximum value of non-originating materials as specified in the requirements set out in Annex B.\n\n3. Paragraph 1 does not apply to products wholly obtained in a Party within the meaning of Article 3. If Annex B requires that the materials used in the production of a product are wholly obtained, paragraphs 1 and 2 apply.\n\n{{ Article 6 }}\n"
+            }
+        },
+        {
+            "id": "japan/verification",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "verification",
+                "content": "1. For the purposes of verifying whether a product imported into a Party is originating in the other Party or whether the other requirements <!--of this Origin Reference Document//--> are satisfied, the customs authority of the importing Party may conduct a **verification based on risk assessment methods**, which may include random selection, by means of a request for information from the importer who made the claim<!-- referred to in Article 16//-->.\n\n   The customs authority of the importing Party may conduct a verification either at the time of the customs import declaration, before the release of products, or after the release of the products.\n\n2. The information requested pursuant to paragraph 1 shall cover no more than the following elements:\n\n   1. if a **statement on origin** was the basis of the claim<!-- referred to in subparagraph 2(a) of Article 16//-->, that statement on origin;\n\n   2. the **tariff classification number** of the product under **HS 2017** and origin criteria used;\n\n   3. a brief description of the **production process**;\n\n   4. if the origin criterion was based on a specific production process, a **specific description of that process**;\n\n   5. if applicable, a **description of the originating and non-originating materials** used in the production process;\n\n   6. if the origin criterion was \"**wholly obtained**\", the applicable category (such as harvesting, mining, fishing and place of production);\n\n   7. if the origin criterion was based on a **value method**, the value of the product as well as the value of all the non-originating or, as appropriate to establish compliance with the value requirement, originating materials used in the production;\n\n   8. if the origin criterion was **based on weight**, the weight of the product as well as the weight of the relevant non-originating or, as appropriate to establish compliance with the weight requirement, originating materials used in the product;\n\n   9. if the origin criterion was based on a **change in tariff classification**, a list of all the non originating materials including their tariff classification number under HS 2017 (in two-, four- or six-digit format depending on the origin criteria); or\n\n   10. the information relating to the compliance with the provision on non-alteration referred to in Article 10.\n\n3. When providing the requested information, the importer may add **any other information** that it considers relevant for the purpose of verification.\n\n4. If the claim for preferential tariff treatment was based on a **statement on origin**<!-- referred to in subparagraph 2(a) of Article 16//-->, the importer shall inform the customs authority of the importing Party when the requested information may be provided in full or in relation to one or more data elements by the exporter directly.\n\n5. If the claim for preferential tariff treatment was based on the **importer's knowledge**<!-- referred to in subparagraph 2(b) of Article 16//-->, after having first requested information in accordance with paragraph 1, the customs authority of the importing Party conducting the verification may request information from the importer if that customs authority considers that additional information is necessary in order to verify the originating status of the product. The customs authority of the importing Party may request the importer for specific documentation and information, if appropriate.\n\n6. If the customs authority of the importing Party decides to suspend the granting of preferential tariff treatment to the product concerned while awaiting the results of the verification, release of the product shall be offered to the importer subject to appropriate precautionary measures including guarantees. Any suspension of preferential tariff treatment shall be terminated as soon as possible after the originating status of the product concerned or the fulfilment of the other requirements of this Origin Reference Document has been ascertained by the customs authority of the importing Party.\n\n{{ Article 21 }}\n"
+            }
+        },
+        {
+            "id": "japan/wholly-obtained-verbatim",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained-verbatim",
+                "content": "1. For the purposes of Article 2, a product is wholly obtained in a Party if it is:\n\n   1. a plant or plant product, grown, cultivated, harvested, picked or gathered there;\n\n   2. a live animal born and raised there;\n\n   3. a product obtained from a live animal raised there;\n\n   4. a product obtained from a slaughtered animal born and raised there;\n\n   5. an animal obtained by hunting, trapping, fishing, gathering or capturing there;\n\n   6. a product obtained from aquaculture there;\n\n   7. a mineral or other naturally occurring substance, not included in subparagraphs (a) to (f), extracted or taken there;\n\n   8. fish, shellfish or other marine life taken by a Party's vessel from the sea, seabed or subsoil beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;\n\n   9. a product produced exclusively from products referred to in subparagraph (h) on board a Party's factory ship beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;\n\n   10. a product other than fish, shellfish and other marine life taken by a Party or a person of a Party from the seabed or subsoil beyond the territorial sea of each Party, and beyond areas over which third countries exercise jurisdiction provided that that Party or a person of that Party has the right to exploit that seabed or subsoil in accordance with international law;\n\n   11. a product that is:\n\n       1.  waste or scrap derived from production there; or\n\n       2.  waste or scrap derived from used products collected there, provided that those products are fit only for the recovery of raw materials; or\n\n       3.  a product produced there, exclusively from products referred to in subparagraphs (a) to (k) or from their derivatives.\n\n2. \"A Party's vessel\" in subparagraph 1(h) or \"a Party's factory ship\" in subparagraph 1(i) means respectively a vessel or a factory ship which:\n\n   1. is registered in a Party;\n\n   2. flies the flag of a Party; and\n\n   3. satisfies one of the following requirements:\n\n      1. it is at least 50 per cent owned by one or more natural persons of a Party or of the European Union; or\n\n      2. it is owned by one or more juridical persons:\n\n         1. which have their head office and their main place of business in a Party or in the European Union; and\n\n         2. in which at least 50 per cent of the ownership belongs to natural persons or juridical persons of a Party or of the European Union.\n\n{{ Article 3 }}\n"
+            }
+        },
+        {
+            "id": "japan/wholly-obtained-vessels",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained-vessels",
+                "content": "\"A Party's vessel\" in subparagraph 1(h) or \"a Party's factory ship\" in subparagraph 1(i) means respectively a vessel or a factory ship which:\n\n1. is registered in a Party;\n\n2. flies the flag of a Party; and\n\n3. satisfies one of the following requirements:\n\n    1. it is at least 50 per cent owned by one or more natural persons of a Party or of the European Union; or\n\n    2. it is owned by one or more juridical persons:\n\n        1. which have their head office and their main place of business in a Party or in the European Union; and\n\n        2. in which at least 50 per cent of the ownership belongs to natural persons or juridical persons of a Party or of the European Union.\n\n{{ Article 3 }}\n"
+            }
+        },
+        {
+            "id": "japan/wholly-obtained",
+            "type": "rules_of_origin_article",
+            "attributes": {
+                "article": "wholly-obtained",
+                "content": "A product is wholly obtained in a Party if it is:\n\n1. a **plant or plant product**, grown, cultivated, harvested, picked or gathered there;\n\n2. a **live animal** born and raised there;\n\n3. a product **obtained from a live animal** raised there;\n\n4. a product obtained from a **slaughtered animal** born and raised there;\n\n5. an animal obtained by **hunting, trapping, fishing, gathering or capturing** there;\n\n6. a product obtained from **aquaculture** there;\n\n7. a **mineral** or other naturally occurring substance, not included in subparagraphs (a) to (f), extracted or taken there;\n\n8. **fish, shellfish or other marine life** taken by a Party's vessel from the sea, seabed or subsoil beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;\n\n9. a product produced exclusively from products referred to in subparagraph (h) on board a Party's **factory ship** beyond the territorial sea of each Party and, in accordance with international law, beyond the territorial sea of third countries;\n\n10. a product other than fish, shellfish and other marine life taken by a Party or a person of a Party from the seabed or subsoil beyond the territorial sea of each Party, and beyond areas over which third countries exercise jurisdiction provided that that Party or a person of that Party has the right to exploit that seabed or subsoil in accordance with international law;\n\n11. a product that is:\n\n    1.  **waste or scrap** derived from production there; or\n\n    2.  waste or scrap derived from **used products** collected there, provided that those products are fit only for the **recovery of raw materials**; or\n\n    3.  a product produced there, exclusively from products referred to in subparagraphs (a) to (k) or from their derivatives.\n\n{{ Article 3 }}\n"
+            }
+        },
+        {
+            "id": "0842b7ecd467470e02f90c3f461b4fcf",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
+                "rule_class": [
+                    "CTH"
+                ],
+                "operator": null
+            }
+        },
+        {
+            "id": "58e171df09a2a78686f8de848f637389",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM).",
+                "rule_class": [
+                    "Unspecified"
+                ],
+                "operator": null
+            }
+        },
+        {
+            "id": "5ac2d7a311443b0d7b112b98c9a81eb7",
+            "type": "rules_of_origin_v2_rule",
+            "attributes": {
+                "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
+                "rule_class": [
+                    "RVC"
+                ],
+                "operator": "or"
+            }
+        },
+        {
+            "id": "a6ab6a7d2faeb431f7b749e3999f1702",
+            "type": "rules_of_origin_rule_set",
+            "attributes": {
+                "heading": "8502-8518",
+                "subdivision": null
+            },
+            "relationships": {
+                "rules": {
+                    "data": [
+                        {
+                            "id": "0842b7ecd467470e02f90c3f461b4fcf",
+                            "type": "rules_of_origin_v2_rule"
+                        },
+                        {
+                            "id": "58e171df09a2a78686f8de848f637389",
+                            "type": "rules_of_origin_v2_rule"
+                        },
+                        {
+                            "id": "5ac2d7a311443b0d7b112b98c9a81eb7",
+                            "type": "rules_of_origin_v2_rule"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "0d564fab9c20b69c841959917c69424b",
+            "type": "rules_of_origin_origin_reference_document",
+            "attributes": {
+                "ord_title": "Origin Reference Document implementing the Agreement between the United Kingdom of Great Britain and Northern Ireland and Japan for a Comprehensive Economic Partnership, signed on 23 October 2020 ('the Japan Origin Reference Document')",
+                "ord_version": "1.1",
+                "ord_date": "28 December 2021",
+                "ord_original": "211203_ORD_Japan_V1.1.odt"
+            }
+        }
+    ]
+}

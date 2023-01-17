@@ -1,0 +1,162 @@
+{
+    "data": [
+        {
+            "id": "CD134",
+            "type": "footnote",
+            "attributes": {
+                "code": "CD134",
+                "footnote_type_id": "CD",
+                "footnote_id": "134",
+                "description": "Eligibility to benefit from the reduced import duty is subject to the presentation of an import licence and of a certificate of authenticity in accordance with the conditions of Regulation (EC) No 972/2006 (OJ L 176).",
+                "formatted_description": "Eligibility to benefit from the reduced import duty is subject to the presentation of an import licence and of a certificate of authenticity in accordance with the conditions of Regulation (EC) No 972/2006 (OJ L 176).",
+                "extra_large_measures": false
+            },
+            "relationships": {
+                "measures": {
+                    "data": [
+                        {
+                            "id": "2823656",
+                            "type": "measure"
+                        },
+                        {
+                            "id": "2823655",
+                            "type": "measure"
+                        },
+                        {
+                            "id": "2823641",
+                            "type": "measure"
+                        },
+                        {
+                            "id": "2823642",
+                            "type": "measure"
+                        }
+                    ]
+                },
+                "goods_nomenclatures": {
+                    "data": []
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "80627",
+            "type": "commodity",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006209813",
+                "producline_suffix": "80",
+                "description": "Of the varieties Basmati 370, Basmati 386 (India), Type-3 (Dehradun) (India), Taraori Basmati (HBC-19) (India), Basmati 217 (India), Ranbir Basmati (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Super Basmati",
+                "formatted_description": "Of the varieties basmati 370, basmati 386 (india), type-3 (dehradun) (india), taraori basmati (hbc-19) (india), basmati 217 (india), ranbir basmati (india), kernel (basmati) (pakistan), pusa basmati, super basmati"
+            }
+        },
+        {
+            "id": "2823656",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006209813",
+                "validity_end_date": "2006-06-30T00:00:00.000Z",
+                "validity_start_date": "2005-07-15T00:00:00.000Z"
+            },
+            "relationships": {
+                "goods_nomenclature": {
+                    "data": {
+                        "id": "80627",
+                        "type": "commodity"
+                    }
+                },
+                "geographical_area": {
+                    "data": {
+                        "id": "PK",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2823655",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006209813",
+                "validity_end_date": "2006-06-30T00:00:00.000Z",
+                "validity_start_date": "2005-07-15T00:00:00.000Z"
+            },
+            "relationships": {
+                "goods_nomenclature": {
+                    "data": {
+                        "id": "80627",
+                        "type": "commodity"
+                    }
+                },
+                "geographical_area": {
+                    "data": {
+                        "id": "IN",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        },
+        {
+            "id": "80624",
+            "type": "commodity",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006201713",
+                "producline_suffix": "80",
+                "description": "Of the varieties Basmati 370, Basmati 386 (India), Type-3 (Dehradun) (India), Taraori Basmati (HBC-19) (India), Basmati 217 (India), Ranbir Basmati (India), Kernel (Basmati) (Pakistan), Pusa Basmati, Super Basmati",
+                "formatted_description": "Of the varieties basmati 370, basmati 386 (india), type-3 (dehradun) (india), taraori basmati (hbc-19) (india), basmati 217 (india), ranbir basmati (india), kernel (basmati) (pakistan), pusa basmati, super basmati"
+            }
+        },
+        {
+            "id": "2823641",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006201713",
+                "validity_end_date": "2006-06-30T00:00:00.000Z",
+                "validity_start_date": "2005-07-15T00:00:00.000Z"
+            },
+            "relationships": {
+                "goods_nomenclature": {
+                    "data": {
+                        "id": "80624",
+                        "type": "commodity"
+                    }
+                },
+                "geographical_area": {
+                    "data": {
+                        "id": "IN",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        },
+        {
+            "id": "2823642",
+            "type": "measure",
+            "attributes": {
+                "goods_nomenclature_item_id": "1006201713",
+                "validity_end_date": "2006-06-30T00:00:00.000Z",
+                "validity_start_date": "2005-07-15T00:00:00.000Z"
+            },
+            "relationships": {
+                "goods_nomenclature": {
+                    "data": {
+                        "id": "80624",
+                        "type": "commodity"
+                    }
+                },
+                "geographical_area": {
+                    "data": {
+                        "id": "PK",
+                        "type": "geographical_area"
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "per_page": 5,
+            "total_count": 1
+        }
+    }
+}

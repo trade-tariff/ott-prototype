@@ -2,22 +2,12 @@
     {% if commodity.country_name2.length > 0 %}
         <div class="govuk-grid-column-two-thirds">
             <h2 class="govuk-heading-m roo_heading">
-                Preferential rules of origin for trading with {{ commodity.country_name2 }}&nbsp;&nbsp;
-                <img class="flag" src="/public/images/flags/{{ data["country"] | lower }}.png" 
-                height="20" alt="{{commodity.country_name2 }}">
+                Preferential rules of origin for trading with {{ context.country_name }}&nbsp;&nbsp;
+                <img class="flag" src="/public/images/flags/{{ context.country | lower }}.png" height="20" alt="{{commodity.country_name2 }}">
             </h2>
             {% if roo.valid_rules %}
                 {% if roo.scheme_count > 1 %}
-                    <p>Your trade may qualify for preferential rates with {{ context.country_name }} through {{ roo.scheme_count }} agreements. Check the rules of origin applicable to each of these agreements.</p>
-                    <ul class="govuk-list govuk-list--bullet">
-                        {% for scheme in roo.matching_schemes %}
-                            <li>{{ scheme.title }}</li>
-                        {% endfor %}
-                    </ul>
-                    {{ govukButton({
-                        text: "Check rules of origin",
-                        href: "/roo/trade_direction/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.country
-                    }) }}
+                    {% include "includes/roo/commodities_roo_multiple.html" %}
                 {% else %}
                     <p>
                         Preferential tariff treatment reduces the duties you are required to pay when
@@ -115,9 +105,11 @@
                         {% endif %}
                     {% endif %}
 
+                    {% include "includes/roo/commodities_roo_psrs.html" %}
+                    {% include "includes/roo/commodities_roo_proofs.html" %}
 
                     {% if commodity.preferential_tariff_duty != "" or commodity.preferential_quota_duty != "" or commodity_uk.preferential_tariff_duty != "" or commodity_uk.preferential_quota_duty != "" %}
-                        <h3 class="govuk-heading-s">{{ title_text }}</h3>
+                        <h2 class="govuk-heading-m">{{ title_text }}</h2>
 
                         <p>{{ caption_text | safe }}</p>
 
@@ -237,7 +229,7 @@
                     <p>To view preferential rules of origin, select a country with which the UK has a trade agreement from the dropdown above.</p>
                 </div>
             {% endif %}
-            {% include "includes/commodities_roo_non_preferential.html" %}
+            {% include "includes/roo/commodities_roo_non_preferential.html" %}
         </div>
         <div class="govuk-grid-column-one-third">
             <aside class="app-related-items noborder govuk-!-margin-top-2" role="complementary">

@@ -23,6 +23,18 @@
             "prose_ni": ""
         }
     },
+    "credibility": {
+        "export": false,
+        "index": 300,
+        "block": "Credibility checks",
+        "block_xi": "Credibility checks",
+        "explainers": {
+            "title": "What are the main types of tariffs and charges",
+            "image": null,
+            "prose": "",
+            "prose_ni": ""
+        }
+    },
     "quotas": {
         "export": false,
         "index": 4,
