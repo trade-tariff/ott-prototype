@@ -8,7 +8,7 @@
                   "max": "0199999999",
                   "rules": [
                         {
-                              "rule": "All the animals of [chapter&nbsp;1](/chapters/1) shall be wholly obtained.",
+                              "rule": "All the animals of [chapter&nbsp;01](/chapters/01) shall be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -25,7 +25,7 @@
                   "max": "0299999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;1](/chapters/1) and [chapter&nbsp;2](/chapters/2) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;01](/chapters/01) and [chapter&nbsp;2](/chapters/02) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -42,7 +42,7 @@
                   "max": "0399999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;3](/chapters/3) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;03](/chapters/03) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -58,7 +58,7 @@
                   "max": "0401999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -75,7 +75,7 @@
                   "max": "0402999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -93,7 +93,7 @@
                   "max": "0403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -109,7 +109,7 @@
                   "max": "0404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -126,7 +126,7 @@
                   "max": "0405999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -143,7 +143,7 @@
                   "max": "0406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -160,7 +160,7 @@
                   "max": "0407999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -177,7 +177,7 @@
                   "max": "0408999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -194,7 +194,7 @@
                   "max": "0409999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -211,7 +211,7 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -229,7 +229,7 @@
                   "max": "0599999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;5](/chapters/5) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;05](/chapters/05) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -263,7 +263,7 @@
                   "max": "0699999999",
                   "rules": [
                         {
-                              "rule": "All the products of [chapter&nbsp;6](/chapters/6) shall be wholly obtained.",
+                              "rule": "All the products of [chapter&nbsp;06](/chapters/06) shall be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -280,7 +280,7 @@
                   "max": "0799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/7) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -297,7 +297,7 @@
                   "max": "0899999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;8](/chapters/8) used are wholly obtained *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -314,7 +314,7 @@
                   "max": "0901999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -324,7 +324,25 @@
                   "valid": true
             },
             {
+                  "heading": "ex 0901",
+                  "chapter": 9,
+                  "subdivision": "Roasted coffee of the variety Arabica\n<br><b>Within the annual quotas per country, UK to Colombia, Ecuador or Peru only</b>",
+                  "min": "0901000000",
+                  "max": "0901999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading.",
+                              "class": [
+                                    "AH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "0902",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0902000000",
                   "max": "0902999999",
@@ -337,11 +355,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0903",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0903000000",
                   "max": "0903999999",
@@ -354,11 +372,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0904",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0904000000",
                   "max": "0904999999",
@@ -371,11 +389,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0905",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0905000000",
                   "max": "0905999999",
@@ -388,11 +406,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0906",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0906000000",
                   "max": "0906999999",
@@ -405,11 +423,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0907",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0907000000",
                   "max": "0907999999",
@@ -422,11 +440,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0908",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0908000000",
                   "max": "0908999999",
@@ -439,11 +457,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0909",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0909000000",
                   "max": "0909999999",
@@ -456,11 +474,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "0910",
+                  "chapter": 9,
                   "subdivision": "Coffee, tea, mate and spices",
                   "min": "0910000000",
                   "max": "0910999999",
@@ -473,8 +491,7 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 9
+                  "valid": true
             },
             {
                   "heading": "Chapter 10",
@@ -535,7 +552,7 @@
                   "max": "1102999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -552,7 +569,7 @@
                   "max": "1103999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -569,7 +586,7 @@
                   "max": "1104999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -586,7 +603,7 @@
                   "max": "1105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -620,7 +637,7 @@
                   "max": "1106999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -637,7 +654,7 @@
                   "max": "1107999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -671,7 +688,7 @@
                   "max": "1108999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -688,7 +705,7 @@
                   "max": "1109999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;7](/chapters/7), fruits of [chapter&nbsp;8](/chapters/8) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
+                              "rule": "Manufacture in which all edible vegetables, roots and tubers of [chapter&nbsp;07](/chapters/07), fruits of [chapter&nbsp;08](/chapters/08) and cereals of [chapter&nbsp;10](/chapters/10) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -984,7 +1001,7 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- at least **40%** by weight of all the materials of [chapter&nbsp;4](/chapters/4) used are originating, *and*\n\n- the value of all the materials used does not exceed **20%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- at least **40%** by weight of all the materials of [chapter&nbsp;04](/chapters/04) used are originating, *and*\n\n- the value of all the materials used does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1069,7 +1086,7 @@
                   "max": "1699999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- from animals of [chapter&nbsp;1](/chapters/1), *and*\n\n- in which all the materials of [chapter&nbsp;3](/chapters/3) used are wholly obtained.",
+                              "rule": "Manufacture:\n\n- from animals of [chapter&nbsp;01](/chapters/01), *and*\n\n- in which all the materials of [chapter&nbsp;03](/chapters/03) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1198,6 +1215,23 @@
                   "valid": true
             },
             {
+                  "heading": "1805",
+                  "chapter": 18,
+                  "subdivision": "Cocoa powder, not containing added sugar or other sweetening matter\n<br><b>Within the annual quotas per country</b>",
+                  "min": "1805000000",
+                  "max": "1805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "1806",
                   "chapter": 18,
                   "subdivision": "Chocolate and other food preparations containing cocoa",
@@ -1240,7 +1274,7 @@
                   "max": "1901999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the weight of all the materials of [chapter&nbsp;4](/chapters/4) used does not exceed **50%** of the total weight of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product, *and*\n\n- in which the weight of all the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **50%** of the total weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1309,7 +1343,7 @@
                   "max": "1902999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;11](/chapters/11) used are originating. However, durum wheat and its derivatives of [chapter&nbsp;11](/chapters/11) may be used, *and*\n\n- all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used are wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;11](/chapters/11) used are originating. However, durum wheat and its derivatives of [chapter&nbsp;11](/chapters/11) may be used, *and*\n\n- all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1394,7 +1428,7 @@
                   "max": "2001999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1411,7 +1445,7 @@
                   "max": "2002999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1428,7 +1462,7 @@
                   "max": "2003999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1445,7 +1479,7 @@
                   "max": "2004999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1462,7 +1496,7 @@
                   "max": "2005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1479,7 +1513,7 @@
                   "max": "2006999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1496,7 +1530,7 @@
                   "max": "2007999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1513,7 +1547,7 @@
                   "max": "2008999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- the weight of all the materials of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used does not exceed **50%** of the total weight of the product, *and*\n\n- the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1581,7 +1615,7 @@
                   "max": "2008999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Manufacture in which all the vegetables, fruits and nuts of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1598,7 +1632,7 @@
                   "max": "2009999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product\n\n- the weight of all the materials of [chapter&nbsp;7](/chapters/7) and [chapter&nbsp;8](/chapters/8) used does not exceed **50%** of the total weight of the product, *and*\n\n- in which the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except that of the product\n\n- the weight of all the materials of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used does not exceed **50%** of the total weight of the product, *and*\n\n- in which the value of all the materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1717,7 +1751,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the weight of all the materials of [chapter&nbsp;4](/chapters/4) used does not exceed **50%** of the total weight of the product.",
+                              "rule": "Manufacture in which the weight of all the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **50%** of the total weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1928,7 +1962,7 @@
                   "max": "2301999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used are wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2047,7 +2081,7 @@
                   "max": "2306999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the olives of [chapter&nbsp;7](/chapters/7) used are wholly obtained.",
+                              "rule": "Manufacture in which all the olives of [chapter&nbsp;07](/chapters/07) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2115,7 +2149,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- the weight of all the materials from [heading&nbsp;1006](/headings/1006), [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the total weight of the product,\n\n- all the sugar, molasses or milk used are originating, *and*\n\n- all the materials of [chapter&nbsp;3](/chapters/3) used are wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- the weight of all the materials from [heading&nbsp;1006](/headings/1006), [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the total weight of the product,\n\n- all the sugar, molasses or milk used are originating, *and*\n\n- all the materials of [chapter&nbsp;03](/chapters/03) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -6381,6 +6415,30 @@
                   "valid": true
             },
             {
+                  "heading": "ex 3824",
+                  "chapter": 38,
+                  "subdivision": "Biodiesel: mixtures of mono alkyl ethers of the fatty acids of the long chain of sub products of vegetable and animal oils. For greater certainty, the mono alkyl ether makes reference to methyl ether or ethyl ether of fatty acids",
+                  "min": "3824000000",
+                  "max": "3824999999",
+                  "rules": [
+                        {
+                              "rule": "UK to Peru, or Peru to UK only - Manufacture from materials of any heading, except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n**40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "3825",
                   "chapter": 38,
                   "subdivision": "Miscellaneous chemical products",
@@ -6944,6 +7002,31 @@
                         },
                         {
                               "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3920",
+                  "chapter": 39,
+                  "subdivision": "Other plates, sheets, film, foil and strip, of plastics, non- cellular and not- reinforced, laminated, supported or similarly combined with other materials\n<br><b>Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
+                  "min": "3920000000",
+                  "max": "3920999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading except that of the product. However, materials of the same heading as the product may be used, provided that their total value does not exceed **50%** of the ex works price of the product.",
+                              "class": [
+                                    "MAXNOM",
+                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Colombia, Ecuador and Peru to the UK within the annual quotas per country - Manufacture in which the value of all the materials used does not exceed **55%** of the ex works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -9856,7 +9939,24 @@
                   "max": "5607599999",
                   "rules": [
                         {
-                              "rule": "Manufacture from (u):\n\ncoir yarn,\n\nnatural fibres,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from: coir yarn, natural fibres, elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404) chemical materials or textile pulp, or paper-making materials.",
+                              "class": [
+                                    "(PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM)"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 560750",
+                  "chapter": 56,
+                  "subdivision": "Twine (cordage) and nets\n<br><b>Products exported from Peru to the UK within the annual quota</b>",
+                  "min": "5607500000",
+                  "max": "5607599999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from high tenacity filament yarn classified in [subheading&nbsp;540211](/subheading/5402110000-80), [subheading&nbsp;540219](/subheading/5402190000-80) or [subheading&nbsp;540220](/subheading/5402200000-80).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9907,7 +10007,24 @@
                   "max": "5608999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from (u):\n\ncoir yarn,\n\nnatural fibres,\n\nelastomeric yarns from\n\n[heading&nbsp;5402](/headings/5402) and 5404\n\nchemical materials or textile pulp, or\n\npaper-making materials.",
+                              "rule": "Manufacture from : coir yarn, natural fibres, elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404) chemical materials or textile pulp, or paper-making materials.",
+                              "class": [
+                                    "(PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM OR_ENUM PRODUCTION FROM)"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5608",
+                  "chapter": 56,
+                  "subdivision": "Twine (cordage) and nets\n<br><b>Products exported from Peru to the UK within the annual quota</b>",
+                  "min": "5608000000",
+                  "max": "5608999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from high tenacity filament yarn classified in [subheading&nbsp;540211](/subheading/5402110000-80), [subheading&nbsp;540219](/subheading/5402190000-80) or [subheading&nbsp;540220](/subheading/5402200000-80).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9957,7 +10074,7 @@
                   "max": "5701999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, not carded or\n\ncombed or otherwise\n\nprocessed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from: natural fibres, not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10008,7 +10125,7 @@
                   "max": "5702999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, not carded or\n\ncombed or otherwise\n\nprocessed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from: natural fibres, not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10059,7 +10176,7 @@
                   "max": "5703999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, not carded or\n\ncombed or otherwise\n\nprocessed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from: natural fibres, not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10110,7 +10227,7 @@
                   "max": "5704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, not carded or\n\ncombed or otherwise\n\nprocessed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from: natural fibres, not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -10161,7 +10278,7 @@
                   "max": "5705999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\nnatural fibres, not carded or\n\ncombed or otherwise\n\nprocessed for spinning, or\n\nchemical materials or textile pulp.",
+                              "rule": "Manufacture from: natural fibres, not carded or combed or otherwise processed for spinning, or chemical materials or textile pulp.",
                               "class": [
                                     "PRODUCTION FROM OR_ENUM PRODUCTION FROM"
                               ],
@@ -11185,6 +11302,23 @@
                   "chapter": 61
             },
             {
+                  "heading": "610822",
+                  "chapter": 61,
+                  "subdivision": "Women's or girls' briefs and panties, knitted or crocheted of man- made fibres\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6108220000",
+                  "max": "6108229999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "6109",
                   "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted: \u2794 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6109000000",
@@ -11321,6 +11455,40 @@
                   "chapter": 61
             },
             {
+                  "heading": "611231",
+                  "chapter": 61,
+                  "subdivision": "Men's or boys' swimwear knitted or crocheted of synthetic fibres\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6112310000",
+                  "max": "6112319999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "611241",
+                  "chapter": 61,
+                  "subdivision": "Women's or girls' swimwear knitted or crocheted of synthetic fibres\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6112410000",
+                  "max": "6112419999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "6113",
                   "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted: \u2794 Obtained by sewing together or otherwise assembling, two or more pieces of knitted or crocheted fabric which have been either cut to form or obtained directly to form",
                   "min": "6113000000",
@@ -11421,6 +11589,91 @@
                   ],
                   "valid": true,
                   "chapter": 61
+            },
+            {
+                  "heading": "611510",
+                  "chapter": 61,
+                  "subdivision": "Graduated compression hosiery (for example, stockings for varicose veins), knitted or crocheted\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6115100000",
+                  "max": "6115109999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "611521",
+                  "chapter": 61,
+                  "subdivision": "Other pantyhose and tights of synthetic fibres measuring per single yarn less than 67 decitex, knitted or crocheted\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6115210000",
+                  "max": "6115219999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "611522",
+                  "chapter": 61,
+                  "subdivision": "Other pantyhose and tights of synthetic fibres measuring per single yarn 67 decitex or more, knitted or crocheted\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6115220000",
+                  "max": "6115229999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "611530",
+                  "chapter": 61,
+                  "subdivision": "Other women's full- length or knee length hosiery, measuring per single yarn less than 67 decitex\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6115300000",
+                  "max": "6115309999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "611596",
+                  "chapter": 61,
+                  "subdivision": "Other, of synthetic fibres\n<br><b>Products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country </b>",
+                  "min": "6115960000",
+                  "max": "6115969999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from nylon yarn or elastomeric yarns from [heading&nbsp;5402](/headings/5402) and [heading&nbsp;5404](/headings/5404).",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
             },
             {
                   "heading": "6116",
@@ -12446,6 +12699,7 @@
             },
             {
                   "heading": "6501",
+                  "chapter": 65,
                   "subdivision": "Headgear and parts thereof",
                   "min": "6501000000",
                   "max": "6501999999",
@@ -12458,11 +12712,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "valid": true
             },
             {
                   "heading": "6502",
+                  "chapter": 65,
                   "subdivision": "Headgear and parts thereof",
                   "min": "6502000000",
                   "max": "6502999999",
@@ -12475,12 +12729,29 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "valid": true
             },
             {
-                  "heading": "6504",
-                  "subdivision": "Headgear and parts thereof",
+                  "heading": "ex 6504",
+                  "chapter": 65,
+                  "subdivision": "Toquilla straw hats\n<br><b>products exported from Ecuador to the UK and from the UK to Ecuador</b>",
+                  "min": "6504000000",
+                  "max": "6504999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which the toquilla straw of [heading&nbsp;1401](/headings/1401) used is originating.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 6504",
+                  "chapter": 65,
+                  "subdivision": "Any other product",
                   "min": "6504000000",
                   "max": "6504999999",
                   "rules": [
@@ -12492,8 +12763,7 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "valid": true
             },
             {
                   "heading": "6505",
@@ -12514,6 +12784,7 @@
             },
             {
                   "heading": "6506",
+                  "chapter": 65,
                   "subdivision": "Headgear and parts thereof",
                   "min": "6506000000",
                   "max": "6506999999",
@@ -12526,11 +12797,11 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "valid": true
             },
             {
                   "heading": "6507",
+                  "chapter": 65,
                   "subdivision": "Headgear and parts thereof",
                   "min": "6507000000",
                   "max": "6507999999",
@@ -12543,8 +12814,7 @@
                               "operator": null
                         }
                   ],
-                  "valid": true,
-                  "chapter": 65
+                  "valid": true
             },
             {
                   "heading": "6601",
@@ -13709,6 +13979,54 @@
                   "valid": true
             },
             {
+                  "heading": "7209-7214",
+                  "chapter": 72,
+                  "subdivision": "Flat- rolled products of iron or non- alloy steel; bars and rods of iron or non- alloy steel\n<br><b>Valid as long as the UK maintains a 0 per cent WTO bound tariff for these products. If the UK increases the WTO bound tariff applicable to these products, this rule shall confer origin for products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
+                  "min": "7209000000",
+                  "max": "7214999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n**50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7216-7217",
+                  "chapter": 72,
+                  "subdivision": "Angles, shapes and sections of iron or non- alloy steel; wire of iron or non- alloy steel\n<br><b>Valid as long as the UK maintains a 0 per cent WTO bound tariff for these products. If the UK increases the WTO bound tariff applicable to these products, this rule shall confer origin for products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
+                  "min": "7216000000",
+                  "max": "7217999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n**50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "7217",
                   "chapter": 72,
                   "subdivision": "Wire of iron or non- alloy steel",
@@ -13964,6 +14282,30 @@
                   "valid": true
             },
             {
+                  "heading": "7304-7306",
+                  "chapter": 73,
+                  "subdivision": "Tubes, pipes and hollow profiles, of iron or steel\n<br><b>Valid as long as the UK maintains a 0 per cent WTO bound tariff for these products. If the UK increases the WTO bound tariff applicable to these products, this rule shall confer origin for products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
+                  "min": "7304000000",
+                  "max": "7306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n**50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex 7307",
                   "chapter": 73,
                   "subdivision": "Tube or pipe fittings of stainless steel (ISO No X5CrNiMo 1712), consisting of several parts",
@@ -14011,6 +14353,30 @@
                                     "CTH RESTRICTION MAY NOT BE USED"
                               ],
                               "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7308",
+                  "chapter": 73,
+                  "subdivision": "Structures and parts of structures, of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel\n<br><b>Valid as long as the UK maintains a 0 per cent WTO bound tariff for these products. If the UK increases the WTO bound tariff applicable to these products, this rule shall confer origin for products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
+                  "min": "7308000000",
+                  "max": "7308999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed\n\n**50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -14239,7 +14605,7 @@
             {
                   "heading": "7321",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas rings, plate warmers and similar nonelectric domestic appliances, and parts thereof, of iron or steel\n<br><b>products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
                   "min": "7321000000",
                   "max": "7321999999",
                   "rules": [
@@ -14249,6 +14615,13 @@
                                     "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -14273,7 +14646,7 @@
             {
                   "heading": "7323",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel\n<br><b>products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
                   "min": "7323000000",
                   "max": "7323999999",
                   "rules": [
@@ -14283,6 +14656,13 @@
                                     "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -14307,7 +14687,7 @@
             {
                   "heading": "7325",
                   "chapter": 73,
-                  "subdivision": "Articles of iron or steel",
+                  "subdivision": "Other cast articles of iron or steel\n<br><b>products exported from Colombia, Ecuador and Peru to the UK within the annual quotas per country</b>",
                   "min": "7325000000",
                   "max": "7325999999",
                   "rules": [
@@ -14317,6 +14697,13 @@
                                     "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
