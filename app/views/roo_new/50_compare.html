@@ -21,9 +21,10 @@
     {% include "includes/language_selector.html" %}
     <div class="govuk-grid-row roo_container">
         <div class="govuk-grid-column-three-quarters">
-            <h1 class="govuk-heading-xl">Commodity {{ commodity.goods_nomenclature_item_id }}</h1>
+            <h1 class="govuk-heading-l">Commodity {{ commodity.goods_nomenclature_item_id }}</h1>
+            <p>{{ commodity.description }}
             <p>This page lists the product-specific rules of origin in place for all UK trade agreements
-            for commodity {{ commodity.goods_nomenclature_item_id }}.
+            for commodity {{ commodity.goods_nomenclature_item_id }}.</p>
 
 <nav>
   <ul class="app-contents app-contents--s govuk-!-margin-bottom-6">
