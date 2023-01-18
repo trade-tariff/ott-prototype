@@ -1,7 +1,5 @@
 # Sleeveless knitted garment (Tariff notice 21)
 
-
-
 Check the tariff classification for a sleeveless knitted garment (a so-called running vest).
 
 ## New regulation

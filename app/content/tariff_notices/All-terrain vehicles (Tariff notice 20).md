@@ -1,9 +1,6 @@
 # All-terrain vehicles (Tariff notice 20)
 
-
-
 Check the tariff classification for all-terrain vehicles designed to be used as tractors.
-
 
 ## New regulation
 
