@@ -13,7 +13,7 @@
             "proofs": [
                 {
                     "summary": "Statement on origin",
-                    "subtext": "",
+                    "subtext": "using EORI number",
                     "proof_class": "origin-declaration",
                     "detail": "statement-on-origin.md"
                 },
@@ -152,13 +152,14 @@
             "proofs": [
                 {
                     "summary": "Statement on origin",
-                    "subtext": "",
+                    "subtext": "using EORI number",
                     "proof_class": "origin-declaration",
                     "detail": "statement-on-origin.md"
                 },
                 {
                     "summary": "Importer's knowledge",
                     "subtext": "",
+                    "subtexts": "The importer's knowledge that a product is originating in the exporting Party shall be based on information demonstrating that the product is originating and satisfies the requirements provided for in this Origin Reference Document.",
                     "proof_class": "importers-knowledge",
                     "detail": "importers-knowledge.md"
                 }
@@ -311,7 +312,7 @@
                 },
                 {
                     "summary": "Origin declaration",
-                    "subtext": "",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "origin-declaration.md"
                 }
@@ -405,7 +406,7 @@
             "proofs": [
                 {
                     "summary": "Statement on origin",
-                    "subtext": "",
+                    "subtext": "using EORI number",
                     "proof_class": "origin-declaration",
                     "detail": "statement-on-origin.md"
                 }
@@ -763,7 +764,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -944,7 +945,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -1061,7 +1062,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500/6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -1300,7 +1301,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -1490,7 +1491,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -1562,13 +1563,13 @@
             "proofs": [
                 {
                     "summary": "Origin declaration",
-                    "subtext": "",
+                    "subtext": "issued in UK",
                     "proof_class": "origin-declaration",
                     "detail": "origin-declaration.md"
                 },
                 {
                     "summary": "EUR1 or EUR.MED movement certificate",
-                    "subtext": "",
+                    "subtext": "issued in Cote d’Ivoire",
                     "proof_class": "eur1-eur-med",
                     "detail": "eur1.md"
                 }
@@ -1914,8 +1915,8 @@
                     "detail": "eur1.md"
                 },
                 {
-                    "summary": "",
-                    "subtext": "",
+                    "summary": "Invoice declaration",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }
@@ -3453,8 +3454,8 @@
                     "detail": "origin-declaration.md"
                 },
                 {
-                    "summary": "Approved exporter for consignments with a value over £5500 / 6000 euros",
-                    "subtext": "",
+                    "summary": "Approved exporter",
+                    "subtext": "for consignments with a value over £5500",
                     "proof_class": "origin-declaration",
                     "detail": "approved-exporter.md"
                 }
@@ -3641,7 +3642,7 @@
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "",
+                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
                     "proof_class": "origin-declaration",
                     "detail": "invoice-declaration.md"
                 }

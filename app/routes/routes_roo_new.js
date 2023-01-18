@@ -11,6 +11,8 @@ const date = require('date-and-time');
 const GeographicalArea = require('../classes/geographical_area');
 const Link = require('../classes/link');
 const Context = require('../classes/context');
+const RooScheme = require('../classes/roo_scheme');
+
 const { xor } = require('lodash');
 
 require('../classes/global.js');
@@ -570,6 +572,94 @@ router.get(['/roo/proofs/:goods_nomenclature_item_id/:country/'],
             'context': context
         });
     }));
+
+
+
+// Compare PSRs
+router.get(['/roo/compare/:goods_nomenclature_item_id/'], async function (req, res) {
+    var context = new Context(req, "commodity");
+    var countries = global.get_countries(req.session.data["country"]);
+    var date = global.get_date(req);
+    context.get_country(req, params_only = true);
+    context.get_feature_flags();
+    context.goods_nomenclature_item_id = req.params["goods_nomenclature_item_id"];
+    context.subheading = context.goods_nomenclature_item_id.substr(0, 6)
+    req.session.data["scheme_code"] = "";
+    context.scheme_code = "";
+
+    var c;
+    req.session.data["goods_nomenclature_item_id"] = req.params["goods_nomenclature_item_id"];
+    req.session.data["error"] = "";
+    var url_original;
+    if (context.country == null) {
+        var url = 'https://www.trade-tariff.service.gov.uk/api/v2/commodities/' + req.params["goods_nomenclature_item_id"];
+    } else {
+        var url = 'https://www.trade-tariff.service.gov.uk/api/v2/commodities/' + req.params["goods_nomenclature_item_id"] + "?filter[geographical_area_id]=" + context.country;
+    }
+    if (context.simulation_date != "") {
+        if (url.includes("?")) {
+            url += "&";
+        } else {
+            url += "?";
+        }
+        url += "as_of=" + context.simulation_date;
+    }
+    // Set the URLs to access
+    var data = require('../data/roo/uk/roo_compare.json')
+    var urls = [url]
+    data.forEach(country => {
+        if (country != "") {
+            urls.push("https://www.trade-tariff.service.gov.uk/api/v2/rules_of_origin_schemes/" + context.subheading + "/" + country)
+        }
+    });
+
+    /*
+    | Perform the HTTP get request via Axios
+    | It returns a Promise immediately,
+    | not the response
+    */
+    const requests = urls.map((url) => axios.get(url));
+    /*
+    | For waiting the Promise is fulfilled
+    | with the Response, use the then() method.
+    | If the HTTP request received errors
+    | use catch() method
+    */
+    roo_schemes = []
+    axios.all(requests).then((responses) => {
+        responses.forEach((resp) => {
+            var a = 1
+            if (resp.config.url.includes("commodities")) {
+                c = new Commodity();
+                c.country = context.country;
+                c.pass_request(req);
+                c.get_data(resp.data);
+                c.get_measure_data(req, "basic");
+            } else {
+                let msg = {
+                    server: resp.headers.server,
+                    status: resp.status,
+                    fields: Object.keys(resp.data).toString(),
+                };
+                var data = resp.data.data
+                var included = resp.data.included
+                data.forEach(scheme => {
+                    var roo_scheme = new RooScheme(scheme, included)
+                    roo_schemes.push(roo_scheme)
+                });
+                console.info(resp.config.url);
+                console.table(msg);
+            }
+        });
+
+        res.render('roo_new/50_compare', {
+            'commodity': c,
+            'context': context,
+            'roo_schemes': roo_schemes
+        });
+    });
+});
+
 
 
 // Test the PSRs - not this one

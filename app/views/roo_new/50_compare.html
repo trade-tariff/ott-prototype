@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  RoO compare - Rules of origin for commodity {{ context.goods_nomenclature_item_id }}
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukPhaseBanner({
+      tag: {
+        text: "beta"
+      },
+      html: 'This is a Beta service - your <a href="{{ context.feedback_url }}" class="govuk-link">feedback</a> will help us to improve it.'
+    }) }}
+    {{ govukBackLink({
+        text: "Back",
+        href: "javascript:history.back()"
+    }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row roo_container">
+        <div class="govuk-grid-column-three-quarters">
+            <h1 class="govuk-heading-xl">Commodity {{ commodity.goods_nomenclature_item_id }}</h1>
+            <p>This page lists the product-specific rules of origin in place for all UK trade agreements
+            for commodity {{ commodity.goods_nomenclature_item_id }}.
+            {% for scheme in roo_schemes %}
+                {% if scheme.rule_sets | length > 0 %}
+                    {% set show_description = false %}
+                    {% for rule_set in scheme.rule_sets %}
+                        {% if rule_set.subdivision != "" and rule_set.subdivision != null %}
+                            {% set show_description = true %}
+                        {% endif %}
+                    {% endfor %}
+                    <h3 class="govuk-heading-m govuk-!-margin-bottom-0">The {{ scheme.title }}</h3>
+                    <p style="color:#666">{{ scheme.country_strings | join(", ") }}</p>
+                    <table class="govuk-table">
+                        <thead class="govuk-table__head">
+                            <tr class="govuk-table__row">
+                                <th scope="col" class="govuk-table__header">Heading</th>
+                                {% if show_description %}
+                                    <th scope="col" class="govuk-table__header">Description</th>
+                                {% endif %}
+                                <th scope="col" class="govuk-table__header">Rules</th>
+                            </tr>
+                        </thead>
+                        <tbody class="govuk-table__body">
+                            {% for rule_set in scheme.rule_sets %}
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell nw">{{ rule_set.heading }}</td>
+                                    {% if show_description %}
+                                        <td class="govuk-table__cell">{{ rule_set.subdivision }}</td>
+                                    {% endif %}
+                                    <td class="govuk-table__cell">
+                                        {# <ul class="govuk-list"> #}
+                                            {% for rule in rule_set.rules %}
+                                                {{ rule.rule | format_psr | safe }}
+                                            {% endfor %}
+                                        {# </ul> #}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+
+                        </tbody>
+                    </table>
+                {% endif %}
+            {% endfor %}
+            {# {{ roo_schemes | dump }} #}
+
+        </div>
+    </div>
+
+{% endblock %}
+</html>

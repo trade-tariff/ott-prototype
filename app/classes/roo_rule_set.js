@@ -15,6 +15,7 @@ class RooRuleSet {
         // this.url = proof["url"]
         var a = 1
         this.get_rules()
+        delete this.included
     }
 
     get_rules() {

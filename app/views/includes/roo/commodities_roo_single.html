@@ -1,0 +1,149 @@
+{% include "includes/roo/commodities_roo_nav.html" %}
+<h2 class="govuk-heading-m" id="overview">Overview</h2>
+<p>
+    Preferential tariff treatment reduces the duties you are required to pay when
+    importing or exporting goods to or from {{ context.country_name }}.
+</p>
+<p>
+    Rules of origin are the criteria which determine the national source of a product.
+    They determine if your trade is eligible for preferential tariff treatment and
+    may influence the rules that apply to your import or export.
+</p>
+
+{% if context.scope_id != "xi" %}
+    <p>In order to qualify for preferential tariff treatment under the {{ roo.title }}, the product
+        must originate in <strong>{{ roo.origin_text }}</strong> or <strong>{{ roo.partners }}</strong>.
+    </p>
+{% endif %}
+
+{% if context.scope_id != "xi" %}
+    <div class="govuk-inset-text">
+        <h3 class="govuk-heading-s">How rules of origin could affect the import duty payable</h3>
+        <ul class="govuk-list govuk-list--bullet">
+            <li class="commodity-split">
+                Basic third country duty = <strong>{{ commodity.third_country_duty }}</strong>
+            </li>
+            {% if commodity.preferential_tariff_duty == "" and commodity.preferential_quota_duty == "" %}
+                <li>
+                    There is no preferential tariff duty or quota available for this commodity
+                </li>
+            {% endif %}
+
+            {% if commodity.preferential_tariff_duty != null %}
+                <li>
+                    Preferential tariff duty = 
+                    <strong class="nw_simple">{{ commodity.preferential_tariff_duty | trim_string }}</strong>
+                </li>
+            {% endif %}
+
+            {% if commodity.preferential_quota_duty != null %}
+                <li>
+                    Preferential quota duty = 
+                    <strong class="nw_simple">{{ commodity.preferential_quota_duty | trim_string }}</strong> (order number <strong class="nw_simple">{{ commodity.preferential_quota_quota }}</strong>)
+                </li>
+            {% endif %}
+        </ul>
+        {# <h3 class="govuk-heading-s">How rules of origin could affect export duties</h3>
+        <p>Find out <a href="https://www.check-duties-customs-exporting-goods.service.gov.uk/commdrilld?d={{ context.country }}&ds=gtp&pc={{ commodity.data.attributes.goods_nomenclature_item_id | substring(0, 6) }}" target="_blank">more about
+        exporting comm code {{ commodity.data.attributes.goods_nomenclature_item_id | substring(0, 6) }} to {{ context.country_name }} (opens in new tab)</a>.</p> #}
+
+    </div>
+
+{% else %}
+    <div class="govuk-inset-text">
+        <h3 class="govuk-heading-s">How rules of origin could affect the import duty payable</h3>
+        <table class="govuk-table">
+            <thead class="govuk-table__head">
+                <tr class="govuk-table__row">
+                    <th scope="col" class="govuk-table__header">&nbsp;</th>
+                    <th scope="col" class="govuk-table__header">UK Global Tariff</th>
+                    <th scope="col" class="govuk-table__header">NI Tariff</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+                <tr class="govuk-table__row">
+                    <th scope="row" class="govuk-table__header">Third-country duty</th>
+                    <td class="govuk-table__cell">{{ commodity_uk.third_country_duty }}</td>
+                    <td class="govuk-table__cell">{{ commodity.third_country_duty }}</td>
+                </tr>
+                <tr class="govuk-table__row">
+                    <th scope="row" class="govuk-table__header">Preferential tariff duty</th>
+                    <td class="govuk-table__cell">{{ commodity_uk.preferential_tariff_duty if commodity_uk.preferential_tariff_duty else "n/a" }}</td>
+                    <td class="govuk-table__cell">{{ commodity.preferential_tariff_duty if commodity.preferential_tariff_duty else "n/a" }}</td>
+                </tr>
+                <tr class="govuk-table__row">
+                    <th scope="row" class="govuk-table__header">Preferential quota duty</th>
+                    <td class="govuk-table__cell">{{ commodity_uk.preferential_quota_duty if commodity_uk.preferential_quota_duty else "n/a" }}</td>
+                    <td class="govuk-table__cell">{{ commodity.preferential_quota_duty if commodity.preferential_quota_duty else "n/a" }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endif %}
+{% if context.scope == "uk" %}
+    {% set title_text = "Work out if your goods meet the rules of origin" %}
+    {% set caption_text = "Use this tool to determine whether your trade fulfils the rules of origin
+ and can therefore be considered as < strong > originating</strong>." %}
+{% else %}
+    {% set title_text = "Work out if your goods meet the rules of origin" %}
+    {% if context.permit_uk_roo == 1 and context.permit_xi_roo == 0 %}
+        {% set caption_text = "Use this tool to determine whether your trade fulfils the rules
+ of origin of the UK trade agreement and can therefore be considered as <strong>originating</strong>." %}
+    {% else %}
+        {% set caption_text = "Use this tool to determine whether your trade fulfils the rules
+ of origin of the EU trade agreement and can therefore be considered as <strong>originating</strong>." %}
+    {% endif %}
+{% endif %}
+
+{% if commodity.preferential_tariff_duty != "" or commodity.preferential_quota_duty != "" or commodity_uk.preferential_tariff_duty != "" or commodity_uk.preferential_quota_duty != "" %}
+    <div class="grey_box">
+        <h2 class="govuk-heading-m" id="wizard">{{ title_text }}</h2>
+
+        <p class="govuk-!-margin-bottom-3">{{ caption_text | safe }}</p>
+
+        {% if context.scope_id == "xi" %}
+            {% if context.permit_uk_roo and context.permit_uk_roo %}
+                <form action="">
+                    <div class="govuk-form-group">
+                        <fieldset class="govuk-fieldset">
+                            <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                                <h1 class="govuk-fieldset__heading">Would you like to take advantage of
+                                    the UK or EU preferential trade agremeent?
+                                </h1>
+                            </legend>
+                            <div class="govuk-radios" data-module="govuk-radios">
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live">UK trade agreement</label>
+                                </div>
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">EU trade agreement</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            {% endif %}
+        {% endif %}
+        {% if commodity.third_country_duty == "0.00 %" %}
+            <div class="grey_box">
+                <p>As the third country duty is zero, you do not need to apply for a preferential tariff or comply with preferential rules of origin.</p>
+                <p>If you would still like to continue, click the 'Check&nbsp;rules&nbsp;of&nbsp;origin' button.</p>
+            </div>
+        {% endif %}
+
+        {{ govukButton({
+            text: "Check rules of origin",
+            href: "/roo/trade_direction/" + commodity.data.attributes.goods_nomenclature_item_id + "/" + context.country
+        }) }}
+    </div>
+{% else %}
+    <div class="grey_box">
+        <p>As there is neither a preferential tariff nor a preferential quota present
+            for this commodity, the 'Check rules of origin' tool is not available.
+        </p>
+    </div>
+{% endif %}
+{% include "includes/roo/commodities_roo_psrs.html" %}
+{% include "includes/roo/commodities_roo_proofs.html" %}
