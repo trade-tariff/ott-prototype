@@ -43,7 +43,7 @@
                                 {% endif %}
                                 <div class="govuk-radios__item">
                                     <input class="govuk-radios__input" id="subdivision_{{ index }}" name="subdivision" type="radio" value="{{ subdivision_value }}">
-                                    <label class="govuk-label govuk-radios__label" for="subdivision_{{ index }}">{{ subdivision }}</label>
+                                    <label class="govuk-label govuk-radios__label" for="subdivision_{{ index }}">{{ subdivision | safe }}</label>
                                 </div>
                                 {% set index = index + 1 %}
                             {% endfor %}
