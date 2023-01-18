@@ -24,6 +24,19 @@
             <h1 class="govuk-heading-xl">Commodity {{ commodity.goods_nomenclature_item_id }}</h1>
             <p>This page lists the product-specific rules of origin in place for all UK trade agreements
             for commodity {{ commodity.goods_nomenclature_item_id }}.
+
+<nav>
+  <ul class="app-contents app-contents--s govuk-!-margin-bottom-6">
+  {% for scheme in roo_schemes %}
+    <li class="govuk-!-margin-bottom-2">
+      <a class="govuk-body" href="#{{ scheme.scheme_code }}">
+        {{ scheme.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+
             {% for scheme in roo_schemes %}
                 {% if scheme.rule_sets | length > 0 %}
                     {% set show_description = false %}
@@ -32,7 +45,7 @@
                             {% set show_description = true %}
                         {% endif %}
                     {% endfor %}
-                    <h3 class="govuk-heading-m govuk-!-margin-bottom-0">The {{ scheme.title }}</h3>
+                    <h3 id="{{ scheme.scheme_code }}" class="govuk-heading-m govuk-!-margin-bottom-0">The {{ scheme.title }}</h3>
                     <p style="color:#666">{{ scheme.country_strings | join(", ") }}</p>
                     <table class="govuk-table">
                         <thead class="govuk-table__head">
@@ -63,6 +76,7 @@
 
                         </tbody>
                     </table>
+                    <p><a href="#top">Back to top</a></p>
                 {% endif %}
             {% endfor %}
             {# {{ roo_schemes | dump }} #}
