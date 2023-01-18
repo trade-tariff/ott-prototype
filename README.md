@@ -50,4 +50,4 @@ Then rename the file `.env.sample` to `.env`.
 
 ## Licence
 
-This application is made available under the [MIT licence](/LICENSE.txt).
+This application is made available under the [MIT licence](/LICENCE.txt).
