@@ -21,7 +21,7 @@ const middleware = [
   require('./lib/middleware/extensions/extensions.js')
 ]
 const config = require('./app/config.js')
-const documentationRoutes = require('./docs/documentation_routes.js')
+// const documentationRoutes = require('./docs/documentation_routes.js')
 const prototypeAdminRoutes = require('./lib/prototype-admin-routes.js')
 const packageJson = require('./package.json')
 const routes = require(`${process.cwd()}/app/routes.js`)
@@ -276,7 +276,7 @@ if (useDocumentation) {
   app.use('/docs', documentationApp)
 
   // Docs under the /docs namespace
-  documentationApp.use('/', documentationRoutes)
+  // documentationApp.use('/', documentationRoutes)
 }
 
 if (useV6) {
