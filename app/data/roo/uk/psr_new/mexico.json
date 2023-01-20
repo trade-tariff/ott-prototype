@@ -8,7 +8,7 @@
                   "max": "0199999999",
                   "rules": [
                         {
-                              "rule": "All the animals of [chapter&nbsp;1](/chapters/1) used must be wholly obtained.",
+                              "rule": "All the animals of [chapter&nbsp;01](/chapters/01) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -25,7 +25,7 @@
                   "max": "0299999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;1](/chapters/1) and [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;01](/chapters/01) and [chapter&nbsp;2](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -42,7 +42,7 @@
                   "max": "0399999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -58,7 +58,7 @@
                   "max": "0401999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -75,7 +75,7 @@
                   "max": "0402999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -93,7 +93,7 @@
                   "max": "0403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained,\n\n- any fruit juice (expect those of pineapple, lime or grapefruit) of [heading&nbsp;2009](/headings/2009) used must already be originating,\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained,\n\n- any fruit juice (expect those of pineapple, lime or grapefruit) of [heading&nbsp;2009](/headings/2009) used must already be originating,\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -109,7 +109,7 @@
                   "max": "0404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -126,7 +126,7 @@
                   "max": "0405999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -143,7 +143,7 @@
                   "max": "0406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -160,7 +160,7 @@
                   "max": "0407999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -177,7 +177,7 @@
                   "max": "0408999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -194,7 +194,7 @@
                   "max": "0409999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -211,7 +211,7 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -229,7 +229,7 @@
                   "max": "0599999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;5](/chapters/5) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;05](/chapters/05) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -263,7 +263,7 @@
                   "max": "0699999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;6](/chapters/6) used must be wholly obtained,\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;06](/chapters/06) used must be wholly obtained,\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -280,7 +280,7 @@
                   "max": "0799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/7) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -348,7 +348,7 @@
                   "max": "0903999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -365,7 +365,7 @@
                   "max": "0904999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -382,7 +382,7 @@
                   "max": "0905999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -399,7 +399,7 @@
                   "max": "0906999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -416,7 +416,7 @@
                   "max": "0907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -433,7 +433,7 @@
                   "max": "0908999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -450,7 +450,7 @@
                   "max": "0909999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -484,7 +484,7 @@
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -564,7 +564,7 @@
             {
                   "heading": "1301",
                   "chapter": 13,
-                  "subdivision": "Lac; natural gums, resins, gum- resins and oleoresins (for example, balsams)",
+                  "subdivision": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)",
                   "min": "1301000000",
                   "max": "1301999999",
                   "rules": [
@@ -581,7 +581,7 @@
             {
                   "heading": "1302",
                   "chapter": 13,
-                  "subdivision": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar- agar and other mucilages and thickeners, whether or not modified, derived from vegetable products: \u2794 Mucilages and thickeners, modified, derived from vegetable products",
+                  "subdivision": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products: \u2794 Mucilages and thickeners, modified, derived from vegetable products",
                   "min": "1302000000",
                   "max": "1302999999",
                   "rules": [
@@ -598,7 +598,7 @@
             {
                   "heading": "1302",
                   "chapter": 13,
-                  "subdivision": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar- agar and other mucilages and thickeners, whether or not modified, derived from vegetable products: \u2794 Other",
+                  "subdivision": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products: \u2794 Other",
                   "min": "1302000000",
                   "max": "1302999999",
                   "rules": [
@@ -688,7 +688,7 @@
                   "max": "1502999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -739,7 +739,7 @@
                   "max": "1504999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -807,7 +807,7 @@
                   "max": "1506999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -870,12 +870,12 @@
             {
                   "heading": "1516",
                   "chapter": 15,
-                  "subdivision": "Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter- esterified, re- esterified or elaidinised, whether or not refined, but not further prepared",
+                  "subdivision": "Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",
                   "min": "1516000000",
                   "max": "1516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained,\n\n- all the vegetable materials used must be wholly obtained.\n\n- However, materials of heading Nos 1507, 150, 1511 and 1513 may be used.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained,\n\n- all the vegetable materials used must be wholly obtained.\n\n- However, materials of heading Nos 1507, 150, 1511 and 1513 may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -892,7 +892,7 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;4](/chapters/4) used must be wholly obtained, all the vegetable materials used must be wholly obtained.\n\nHowever, materials of heading Nos 1507, 1508, 1511 and 1513 may be used.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained, all the vegetable materials used must be wholly obtained.\n\nHowever, materials of heading Nos 1507, 1508, 1511 and 1513 may be used.",
                               "class": [
                                     "WO"
                               ],
@@ -977,7 +977,7 @@
                   "max": "1699999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from animals of [chapter&nbsp;1](/chapters/1). All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture from animals of [chapter&nbsp;01](/chapters/01). All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1198,7 +1198,7 @@
                   "max": "1902999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the cereals and derivatives (except durum wheat and its derivatives) used must be wholly obtained,\n\n- all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- all the cereals and derivatives (except durum wheat and its derivatives) used must be wholly obtained,\n\n- all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1397,7 +1397,7 @@
             {
                   "heading": "2006",
                   "chapter": 20,
-                  "subdivision": "Vegetables, fruit, nuts, fruit- peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+                  "subdivision": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
                   "min": "2006000000",
                   "max": "2006999999",
                   "rules": [
@@ -1686,7 +1686,7 @@
             {
                   "heading": "2202",
                   "chapter": 22,
-                  "subdivision": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non- alcoholic beverages, not including fruit or vegetable juices of heading No 2009",
+                  "subdivision": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading No 2009",
                   "min": "2202000000",
                   "max": "2202999999",
                   "rules": [
@@ -1827,7 +1827,7 @@
                   "max": "2301999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2014,7 +2014,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the cereals, sugar or molasses, meat or milk used must already be originating,\n\n- all the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- all the cereals, sugar or molasses, meat or milk used must already be originating,\n\n- all the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2196,7 +2196,7 @@
             {
                   "heading": "ex 2519",
                   "chapter": 25,
-                  "subdivision": "Crushed natural magnesium carbonate (magnesite), in hermetically- sealed containers, and magnesium oxide, whether or not pure, other than fused magnesia or dead- burned (sintered) magnesia",
+                  "subdivision": "Crushed natural magnesium carbonate (magnesite), in hermetically-sealed containers, and magnesium oxide, whether or not pure, other than fused magnesia or dead-burned (sintered) magnesia",
                   "min": "2519000000",
                   "max": "2519999999",
                   "rules": [
@@ -2400,7 +2400,7 @@
             {
                   "heading": "ex 2707",
                   "chapter": 27,
-                  "subdivision": "Oils in which the weight of the aromatic constituents exceeds that of the non- aromatic constituents, being oils similar to mineral oils obtained by distillation of high temperature coal tar, of which more than 65% by volume distils at a temperature of up to 250 \u00b0C (including mixtures of petroleum spirit and benzole), for use as power or heating fuels",
+                  "subdivision": "Oils in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents, being oils similar to mineral oils obtained by distillation of high temperature coal tar, of which more than 65% by volume distils at a temperature of up to 250 \u00b0C (including mixtures of petroleum spirit and benzole), for use as power or heating fuels",
                   "min": "2707000000",
                   "max": "2707999999",
                   "rules": [
@@ -2612,7 +2612,7 @@
             {
                   "heading": "2715",
                   "chapter": 27,
-                  "subdivision": "Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (for example, bituminous mastics, cut- backs)",
+                  "subdivision": "Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (for example, bituminous mastics, cut-backs)",
                   "min": "2715000000",
                   "max": "2715999999",
                   "rules": [
@@ -2653,7 +2653,7 @@
             {
                   "heading": "ex Chapter 28",
                   "chapter": 28,
-                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare- earth metals, of radioactive elements or of isotopes; except for",
+                  "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes; except for",
                   "min": "2800000000",
                   "max": "2899999999",
                   "rules": [
@@ -3648,7 +3648,7 @@
             {
                   "heading": "2933",
                   "chapter": 29,
-                  "subdivision": "Heterocyclic compounds with nitrogen hetero- atom(s) only",
+                  "subdivision": "Heterocyclic compounds with nitrogen hetero-atom(s) only",
                   "min": "2933000000",
                   "max": "2933999999",
                   "rules": [
@@ -3905,7 +3905,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Products consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses or unmixed products for these uses, put up in measured doses or in forms or packings for retail sale",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Products consisting of two or more constituents which have been mixed together for therapeutic or prophylactic uses or unmixed products for these uses, put up in measured doses or in forms or packings for retail sale",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3922,7 +3922,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Human blood",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Human blood",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3939,7 +3939,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Animal blood prepared for therapeutic or prophylactic uses",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Animal blood prepared for therapeutic or prophylactic uses",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3956,7 +3956,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Blood fractions other than antisera, haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3973,7 +3973,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Haemoglobin, blood globulins and serum globulins",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Haemoglobin, blood globulins and serum globulins",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -3990,7 +3990,7 @@
             {
                   "heading": "3002",
                   "chapter": 30,
-                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro- organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Other",
+                  "subdivision": "Human blood; animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modified immunological products, whether or not obtained by means of biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: \u2794 Other: \u2794 - Other",
                   "min": "3002000000",
                   "max": "3002999999",
                   "rules": [
@@ -4015,7 +4015,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials of [heading&nbsp;3003](/headings/3003) or [heading&nbsp;3004](/headings/3004) may be used provided their value, taken together, does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
@@ -4477,7 +4477,7 @@
             {
                   "heading": "3301",
                   "chapter": 33,
-                  "subdivision": "Essential oils (terpeneless or not), including concentrates and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by- products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils",
+                  "subdivision": "Essential oils (terpeneless or not), including concentrates and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats, in fixed oils, in waxes or the like, obtained by enfleurage or maceration; terpenic by-products of the deterpenation of essential oils; aqueous distillates and aqueous solutions of essential oils",
                   "min": "3301000000",
                   "max": "3301999999",
                   "rules": [
@@ -4645,7 +4645,7 @@
             {
                   "heading": "3401",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface- active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
                   "min": "3401000000",
                   "max": "3401999999",
                   "rules": [
@@ -4669,7 +4669,7 @@
             {
                   "heading": "3402",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface- active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
                   "min": "3402000000",
                   "max": "3402999999",
                   "rules": [
@@ -4782,7 +4782,7 @@
             {
                   "heading": "3405",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface- active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
                   "min": "3405000000",
                   "max": "3405999999",
                   "rules": [
@@ -4806,7 +4806,7 @@
             {
                   "heading": "3406",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface- active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
                   "min": "3406000000",
                   "max": "3406999999",
                   "rules": [
@@ -4830,7 +4830,7 @@
             {
                   "heading": "3407",
                   "chapter": 34,
-                  "subdivision": "Soap, organic surface- active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
+                  "subdivision": "Soap, organic surface-active agents, washing preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster, except for:",
                   "min": "3407000000",
                   "max": "3407999999",
                   "rules": [
@@ -5095,7 +5095,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than [heading&nbsp;3701](/headings/3701) or [heading&nbsp;3702](/headings/3702). However, materials from [heading&nbsp;3702](/headings/3702) may be used provided their value does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "AH EXCEPT TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "AH EXCEPT TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         },
@@ -5280,7 +5280,7 @@
             {
                   "heading": "ex 3801",
                   "chapter": 38,
-                  "subdivision": "Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs: \u2794 Colloidal graphite in suspension in oil and semi- colloidal graphite; carbonaceous pastes for electrodes",
+                  "subdivision": "Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs: \u2794 Colloidal graphite in suspension in oil and semi-colloidal graphite; carbonaceous pastes for electrodes",
                   "min": "3801000000",
                   "max": "3801999999",
                   "rules": [
@@ -5585,7 +5585,7 @@
             {
                   "heading": "3808",
                   "chapter": 38,
-                  "subdivision": "Insecticides, rodenticides, fungicides, herbicides, anti- sprouting products and plant growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur- treated bands, wicks and candles, and fly- papers)",
+                  "subdivision": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant growth regulators, disinfectants and similar products, put up in forms or packings for retail sale or as preparations or articles (for example, sulphur-treated bands, wicks and candles, and fly-papers)",
                   "min": "3808000000",
                   "max": "3808999999",
                   "rules": [
@@ -5636,7 +5636,7 @@
             {
                   "heading": "3811",
                   "chapter": 38,
-                  "subdivision": "Anti- knock preparations, oxidation inhibitors, gum inhibitors, viscosity improvers, anti- corrosive preparations and other prepared additives, for mineral oils (including gasoline) or for other liquids used for the same purposes as mineral oils: \u2794 Prepared additives for lubricating oil, containing petroleum oils or oils obtained from bituminous minerals",
+                  "subdivision": "Anti-knock preparations, oxidation inhibitors, gum inhibitors, viscosity improvers, anti-corrosive preparations and other prepared additives, for mineral oils (including gasoline) or for other liquids used for the same purposes as mineral oils: \u2794 Prepared additives for lubricating oil, containing petroleum oils or oils obtained from bituminous minerals",
                   "min": "3811000000",
                   "max": "3811999999",
                   "rules": [
@@ -5653,7 +5653,7 @@
             {
                   "heading": "3811",
                   "chapter": 38,
-                  "subdivision": "Anti- knock preparations, oxidation inhibitors, gum inhibitors, viscosity improvers, anti- corrosive preparations and other prepared additives, for mineral oils (including gasoline) or for other liquids used for the same purposes as mineral oils: \u2794 Other",
+                  "subdivision": "Anti-knock preparations, oxidation inhibitors, gum inhibitors, viscosity improvers, anti-corrosive preparations and other prepared additives, for mineral oils (including gasoline) or for other liquids used for the same purposes as mineral oils: \u2794 Other",
                   "min": "3811000000",
                   "max": "3811999999",
                   "rules": [
@@ -5670,7 +5670,7 @@
             {
                   "heading": "3812",
                   "chapter": 38,
-                  "subdivision": "Prepared rubber accelerators; compound plasticisers for rubber or plastics, not elsewhere specified or included; anti- oxidising preparations and other compound stabilisers for rubber or plastics",
+                  "subdivision": "Prepared rubber accelerators; compound plasticisers for rubber or plastics, not elsewhere specified or included; anti-oxidising preparations and other compound stabilisers for rubber or plastics",
                   "min": "3812000000",
                   "max": "3812999999",
                   "rules": [
@@ -5687,7 +5687,7 @@
             {
                   "heading": "3813",
                   "chapter": 38,
-                  "subdivision": "Preparations and charges for fire- extinguishers; charged fire- extinguishing grenades",
+                  "subdivision": "Preparations and charges for fire-extinguishers; charged fire-extinguishing grenades",
                   "min": "3813000000",
                   "max": "3813999999",
                   "rules": [
@@ -5827,7 +5827,7 @@
             {
                   "heading": "3820",
                   "chapter": 38,
-                  "subdivision": "Anti- freezing preparations and prepared de- icing fluids",
+                  "subdivision": "Anti-freezing preparations and prepared de-icing fluids",
                   "min": "3820000000",
                   "max": "3820999999",
                   "rules": [
@@ -6104,7 +6104,7 @@
             {
                   "heading": "3907",
                   "chapter": 39,
-                  "subdivision": "Polyacetals, other polyethers and epoxide resins, in primary forms, polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms \u2794 Copolymer, made from polycarbonate and acrylonitrile- butadiene- styrene copolymer (ABS)",
+                  "subdivision": "Polyacetals, other polyethers and epoxide resins, in primary forms, polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms \u2794 Copolymer, made from polycarbonate and acrylonitrile-butadiene-styrene copolymer (ABS)",
                   "min": "3907000000",
                   "max": "3907999999",
                   "rules": [
@@ -6162,7 +6162,7 @@
             {
                   "heading": "3908-3911",
                   "chapter": 39,
-                  "subdivision": "Polyamides; amino- resins, phenolic resins and polyurethanes; silicones; petroleum resins, coumumarone- inede resins, polyterpenes, polysulphides, polysulphones and other products; all in primary forms",
+                  "subdivision": "Polyamides; amino-resins, phenolic resins and polyurethanes; silicones; petroleum resins, coumumarone-inede resins, polyterpenes, polysulphides, polysulphones and other products; all in primary forms",
                   "min": "3908000000",
                   "max": "3911999999",
                   "rules": [
@@ -6203,7 +6203,7 @@
             {
                   "heading": "3913-3914",
                   "chapter": 39,
-                  "subdivision": "Natural polymers and modified natural polymers not elsewhere specified or included; ion- exchangers based on polymers of heading Nos 3901 to 3913, in primary forms",
+                  "subdivision": "Natural polymers and modified natural polymers not elsewhere specified or included; ion-exchangers based on polymers of heading Nos 3901 to 3913, in primary forms",
                   "min": "3913000000",
                   "max": "3914999999",
                   "rules": [
@@ -6275,7 +6275,7 @@
             {
                   "heading": "3916-3921",
                   "chapter": 39,
-                  "subdivision": "Semi- manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Flat products, further worked than only surface- worked or cut into forms other than rectangular (including square); other products, further worked than only surface- worked",
+                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -6299,7 +6299,7 @@
             {
                   "heading": "3916-3921",
                   "chapter": 39,
-                  "subdivision": "Semi- manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
+                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -6323,7 +6323,7 @@
             {
                   "heading": "3916-3921",
                   "chapter": 39,
-                  "subdivision": "Semi- manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Other",
+                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Other",
                   "min": "3916000000",
                   "max": "3921999999",
                   "rules": [
@@ -6371,7 +6371,7 @@
             {
                   "heading": "ex 3920",
                   "chapter": 39,
-                  "subdivision": "Semi- manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Ionomer sheet or film",
+                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Ionomer sheet or film",
                   "min": "3920000000",
                   "max": "3920999999",
                   "rules": [
@@ -6395,7 +6395,7 @@
             {
                   "heading": "ex 3920",
                   "chapter": 39,
-                  "subdivision": "Semi- manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Sheets of regenerated cellulose, polyamides or polyethylene",
+                  "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below: \u2794 Other: \u2794 Sheets of regenerated cellulose, polyamides or polyethylene",
                   "min": "3920000000",
                   "max": "3920999999",
                   "rules": [
@@ -6876,6 +6876,23 @@
                   "valid": true
             },
             {
+                  "heading": "4104",
+                  "chapter": 41,
+                  "subdivision": "Leather of bovine or equine animals, without hair on, other than leather of heading No 410 or 4109 - <b>Until the conclusion of the present round of WTO negotiations</b>",
+                  "min": "4104000000",
+                  "max": "4104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "4104-4107",
                   "chapter": 41,
                   "subdivision": "Leather, without hair or wool, other than leather of heading No 4108 or 4109",
@@ -7141,7 +7158,7 @@
             {
                   "heading": "ex 4407",
                   "chapter": 44,
-                  "subdivision": "Wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or finger- jointed",
+                  "subdivision": "Wood sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, planed, sanded or finger-jointed",
                   "min": "4407000000",
                   "max": "4407999999",
                   "rules": [
@@ -7158,7 +7175,7 @@
             {
                   "heading": "ex 4408",
                   "chapter": 44,
-                  "subdivision": "Veneer sheets and sheets for plywood, of a thickness not exceeding 6 mm, spliced, and other wood sawn lengthwise, sliced or peeled of a thickness not exceeding 6 mm, planed, sanded or finger- jointed",
+                  "subdivision": "Veneer sheets and sheets for plywood, of a thickness not exceeding 6 mm, spliced, and other wood sawn lengthwise, sliced or peeled of a thickness not exceeding 6 mm, planed, sanded or finger-jointed",
                   "min": "4408000000",
                   "max": "4408999999",
                   "rules": [
@@ -7175,7 +7192,7 @@
             {
                   "heading": "ex 4409",
                   "chapter": 44,
-                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger- jointed: \u2794 Sanded or finger- jointed",
+                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger-jointed: \u2794 Sanded or finger-jointed",
                   "min": "4409000000",
                   "max": "4409999999",
                   "rules": [
@@ -7192,7 +7209,7 @@
             {
                   "heading": "ex 4409",
                   "chapter": 44,
-                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger- jointed: \u2794 Beadings and mouldings",
+                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger-jointed: \u2794 Beadings and mouldings",
                   "min": "4409000000",
                   "max": "4409999999",
                   "rules": [
@@ -7277,7 +7294,7 @@
             {
                   "heading": "ex 4418",
                   "chapter": 44,
-                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger- jointed: \u2794 Builders' joinery and carpentry of wood",
+                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger-jointed: \u2794 Builders' joinery and carpentry of wood",
                   "min": "4418000000",
                   "max": "4418999999",
                   "rules": [
@@ -7294,7 +7311,7 @@
             {
                   "heading": "ex 4418",
                   "chapter": 44,
-                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger- jointed: \u2794 Beadings and mouldings",
+                  "subdivision": "Wood continuously shaped along any of its edges or faces, whether or not planed, sanded or finger-jointed: \u2794 Beadings and mouldings",
                   "min": "4418000000",
                   "max": "4418999999",
                   "rules": [
@@ -7583,7 +7600,7 @@
             {
                   "heading": "4810",
                   "chapter": 48,
-                  "subdivision": "Paper and paperboard, coated on one or both sides with kaolin (China clay) or other inorganic substances, with or without a binder, and with no other coating, whether or not surface- coloured, surface- decorated or printed, in rolls or sheets",
+                  "subdivision": "Paper and paperboard, coated on one or both sides with kaolin (China clay) or other inorganic substances, with or without a binder, and with no other coating, whether or not surface-coloured, surface-decorated or printed, in rolls or sheets",
                   "min": "4810000000",
                   "max": "4810999999",
                   "rules": [
@@ -7685,7 +7702,7 @@
             {
                   "heading": "4816",
                   "chapter": 48,
-                  "subdivision": "Carbon paper, self- copy paper and other copying or transfer papers (other than those of heading No 4809), duplicator stencils and offset plates, of paper, whether or not put up in boxes",
+                  "subdivision": "Carbon paper, self-copy paper and other copying or transfer papers (other than those of heading No 4809), duplicator stencils and offset plates, of paper, whether or not put up in boxes",
                   "min": "4816000000",
                   "max": "4816999999",
                   "rules": [
@@ -8241,7 +8258,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8377,7 +8394,7 @@
                   "max": "5113999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper or\n\nPrinting accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Manufacture from:\n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper or\n\nPrinting accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8479,7 +8496,7 @@
                   "max": "5212999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from: \n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper or\n\nPrinting accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Manufacture from: \n\n- coir yarn,\n\n- natural fibres,\n\n- man-made staple fibres not carded or combed or otherwise prepared for spinning,\n\n- chemical materials or textile pulp, or\n\n- paper or\n\nPrinting accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8605,7 +8622,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8617,7 +8634,7 @@
             {
                   "heading": "5401-5406",
                   "chapter": 54,
-                  "subdivision": "Yarn, monofilament and thread of man- made filaments",
+                  "subdivision": "Yarn, monofilament and thread of man-made filaments",
                   "min": "5401000000",
                   "max": "5406999999",
                   "rules": [
@@ -8634,7 +8651,7 @@
             {
                   "heading": "5407-5408",
                   "chapter": 54,
-                  "subdivision": "Woven fabrics of man- made filament yarn: \u2794 Incorporating rubber thread",
+                  "subdivision": "Woven fabrics of man-made filament yarn: \u2794 Incorporating rubber thread",
                   "min": "5407000000",
                   "max": "5408999999",
                   "rules": [
@@ -8651,7 +8668,7 @@
             {
                   "heading": "5407-5408",
                   "chapter": 54,
-                  "subdivision": "Woven fabrics of man- made filament yarn: \u2794 Other",
+                  "subdivision": "Woven fabrics of man-made filament yarn: \u2794 Other",
                   "min": "5407000000",
                   "max": "5408999999",
                   "rules": [
@@ -8663,7 +8680,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8675,7 +8692,7 @@
             {
                   "heading": "5501-5507",
                   "chapter": 55,
-                  "subdivision": "Man- made staple fibres",
+                  "subdivision": "Man-made staple fibres",
                   "min": "5501000000",
                   "max": "5507999999",
                   "rules": [
@@ -8692,7 +8709,7 @@
             {
                   "heading": "5508-5511",
                   "chapter": 55,
-                  "subdivision": "Yarn and sewing thread of man- made staple fibres",
+                  "subdivision": "Yarn and sewing thread of man-made staple fibres",
                   "min": "5508000000",
                   "max": "5511999999",
                   "rules": [
@@ -8709,7 +8726,7 @@
             {
                   "heading": "5512-5516",
                   "chapter": 55,
-                  "subdivision": "Woven fabrics of man- made staple fibres: \u2794 Incorporating rubber thread",
+                  "subdivision": "Woven fabrics of man-made staple fibres: \u2794 Incorporating rubber thread",
                   "min": "5512000000",
                   "max": "5516999999",
                   "rules": [
@@ -8726,7 +8743,7 @@
             {
                   "heading": "5512-5516",
                   "chapter": 55,
-                  "subdivision": "Woven fabrics of man- made staple fibres: \u2794 Other",
+                  "subdivision": "Woven fabrics of man-made staple fibres: \u2794 Other",
                   "min": "5512000000",
                   "max": "5516999999",
                   "rules": [
@@ -8738,7 +8755,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8749,7 +8766,7 @@
             },
             {
                   "heading": "5601",
-                  "subdivision": "Wadding, felt and non- wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "subdivision": "Wadding, felt and non-wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
                   "min": "5601000000",
                   "max": "5601999999",
                   "rules": [
@@ -8800,7 +8817,7 @@
             },
             {
                   "heading": "5603",
-                  "subdivision": "Wadding, felt and non- wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "subdivision": "Wadding, felt and non-wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
                   "min": "5603000000",
                   "max": "5603999999",
                   "rules": [
@@ -8869,7 +8886,7 @@
             {
                   "heading": "5606",
                   "chapter": 56,
-                  "subdivision": "Gimped yarn, and strip and the like of heading No 5404 or 5405, gimped (other than those of heading No 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop wale- yarn",
+                  "subdivision": "Gimped yarn, and strip and the like of heading No 5404 or 5405, gimped (other than those of heading No 5605 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop wale-yarn",
                   "min": "5606000000",
                   "max": "5606999999",
                   "rules": [
@@ -8885,7 +8902,7 @@
             },
             {
                   "heading": "5607",
-                  "subdivision": "Wadding, felt and non- wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "subdivision": "Wadding, felt and non-wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
                   "min": "5607000000",
                   "max": "5607999999",
                   "rules": [
@@ -8902,7 +8919,7 @@
             },
             {
                   "heading": "5608",
-                  "subdivision": "Wadding, felt and non- wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "subdivision": "Wadding, felt and non-wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
                   "min": "5608000000",
                   "max": "5608999999",
                   "rules": [
@@ -8919,7 +8936,7 @@
             },
             {
                   "heading": "5609",
-                  "subdivision": "Wadding, felt and non- wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+                  "subdivision": "Wadding, felt and non-wovens; special yarns; twine, cordage, ropes and cables and articles thereof",
                   "min": "5609000000",
                   "max": "5609999999",
                   "rules": [
@@ -9306,7 +9323,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9354,7 +9371,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9366,7 +9383,7 @@
             {
                   "heading": "5805",
                   "chapter": 58,
-                  "subdivision": "Hand- woven tapestries of the types Gobelins, Flanders, Aubusson, Beauvais and the like, and needle- worked tapestries (for example, petit point, cross stitch), whether or not made up",
+                  "subdivision": "Hand-woven tapestries of the types Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up",
                   "min": "5805000000",
                   "max": "5805999999",
                   "rules": [
@@ -9383,7 +9400,7 @@
             {
                   "heading": "5806",
                   "chapter": 58,
-                  "subdivision": "Narrow- woven fabrics, other than goods of heading No 5807; narrow fabrics consisting of warp without weft assembled by means of an adhesive (bolducs) \u2794 Combined with rubber thread",
+                  "subdivision": "Narrow-woven fabrics, other than goods of heading No 5807; narrow fabrics consisting of warp without weft assembled by means of an adhesive (bolducs) \u2794 Combined with rubber thread",
                   "min": "5806000000",
                   "max": "5806999999",
                   "rules": [
@@ -9400,7 +9417,7 @@
             {
                   "heading": "5806",
                   "chapter": 58,
-                  "subdivision": "Narrow- woven fabrics, other than goods of heading No 5807; narrow fabrics consisting of warp without weft assembled by means of an adhesive (bolducs) \u2794 Other",
+                  "subdivision": "Narrow-woven fabrics, other than goods of heading No 5807; narrow fabrics consisting of warp without weft assembled by means of an adhesive (bolducs) \u2794 Other",
                   "min": "5806000000",
                   "max": "5806999999",
                   "rules": [
@@ -9412,7 +9429,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9460,7 +9477,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9518,7 +9535,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9583,7 +9600,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9641,7 +9658,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9704,7 +9721,7 @@
             {
                   "heading": "5907",
                   "chapter": 59,
-                  "subdivision": "Textile fabrics otherwise impregnated, coated or covered; painted canvas being theatrical scenery, studio back- cloths or the like",
+                  "subdivision": "Textile fabrics otherwise impregnated, coated or covered; painted canvas being theatrical scenery, studio back-cloths or the like",
                   "min": "5907000000",
                   "max": "5907999999",
                   "rules": [
@@ -9716,7 +9733,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10709,7 +10726,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10740,7 +10757,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10764,7 +10781,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10788,7 +10805,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10819,7 +10836,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10843,7 +10860,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10867,7 +10884,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10898,7 +10915,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10922,7 +10939,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10946,7 +10963,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10970,7 +10987,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11001,7 +11018,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11025,7 +11042,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11037,7 +11054,7 @@
             {
                   "heading": "ex 6210",
                   "chapter": 62,
-                  "subdivision": "Fire- resistant equipment of fabric covered with foil of aluminised polyester",
+                  "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester",
                   "min": "6210000000",
                   "max": "6210999999",
                   "rules": [
@@ -11066,7 +11083,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11097,7 +11114,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11121,7 +11138,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11145,7 +11162,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11176,7 +11193,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11200,7 +11217,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Making up followed by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink-resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted goods of [heading&nbsp;6213](/headings/6213) and [heading&nbsp;6214](/headings/6214) used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Making up followed by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink-resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted goods of [heading&nbsp;6213](/headings/6213) and [heading&nbsp;6214](/headings/6214) used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11224,7 +11241,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11236,7 +11253,7 @@
             {
                   "heading": "ex 6216",
                   "chapter": 62,
-                  "subdivision": "Fire- resistant equipment of fabric covered with foil of aluminised polyester",
+                  "subdivision": "Fire-resistant equipment of fabric covered with foil of aluminised polyester",
                   "min": "6216000000",
                   "max": "6216999999",
                   "rules": [
@@ -11265,7 +11282,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11296,7 +11313,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11308,7 +11325,7 @@
             {
                   "heading": "6217",
                   "chapter": 62,
-                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading No 6212: \u2794 Fire- resistant equipment of fabric covered with foil of aluminised polyester",
+                  "subdivision": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading No 6212: \u2794 Fire-resistant equipment of fabric covered with foil of aluminised polyester",
                   "min": "6217000000",
                   "max": "6217999999",
                   "rules": [
@@ -11361,7 +11378,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11409,7 +11426,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11433,7 +11450,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the ex-works price of the printed fabric.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed 47.5% of the ex-works price of the printed fabric.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11496,7 +11513,7 @@
             {
                   "heading": "6307",
                   "chapter": 63,
-                  "subdivision": "Other made- up articles, including dress patterns",
+                  "subdivision": "Other made-up articles, including dress patterns",
                   "min": "6307000000",
                   "max": "6307999999",
                   "rules": [
@@ -11529,7 +11546,7 @@
             },
             {
                   "heading": "6309",
-                  "subdivision": "Other made- up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
                   "min": "6309000000",
                   "max": "6309999999",
                   "rules": [
@@ -11547,7 +11564,7 @@
             {
                   "heading": "6310",
                   "chapter": 63,
-                  "subdivision": "Used or new rags, scrap twine, cordage, rope and cables and worn- out of articles of twine, cordage, rope or cables, of textile materials",
+                  "subdivision": "Used or new rags, scrap twine, cordage, rope and cables and worn-out of articles of twine, cordage, rope or cables, of textile materials",
                   "min": "6310000000",
                   "max": "6310999999",
                   "rules": [
@@ -11591,6 +11608,13 @@
                                     "MAXNOM"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture from materials of any heading, except from assemblies of uppers affixed to inner soles or to other sole components of [heading&nbsp;6406](/headings/6406) - <b>applies only to goods exported by the United Kingdom to Mexico within the set annual quotas</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -11615,7 +11639,7 @@
             {
                   "heading": "6406",
                   "chapter": 64,
-                  "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable in- soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
+                  "subdivision": "Parts of footwear (including uppers whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof",
                   "min": "6406000000",
                   "max": "6406999999",
                   "rules": [
@@ -11751,7 +11775,7 @@
             {
                   "heading": "6601",
                   "chapter": 66,
-                  "subdivision": "Umbrellas and sun umbrellas (including walking- stick umbrellas, garden umbrellas and similar umbrellas)",
+                  "subdivision": "Umbrellas and sun umbrellas (including walking-stick umbrellas, garden umbrellas and similar umbrellas)",
                   "min": "6601000000",
                   "max": "6601999999",
                   "rules": [
@@ -11938,7 +11962,7 @@
             {
                   "heading": "ex 7003",
                   "chapter": 70,
-                  "subdivision": "Glass with a non- reflecting layer",
+                  "subdivision": "Glass with a non-reflecting layer",
                   "min": "7003000000",
                   "max": "7003999999",
                   "rules": [
@@ -11972,7 +11996,7 @@
             {
                   "heading": "ex 7004",
                   "chapter": 70,
-                  "subdivision": "Glass with a non- reflecting layer",
+                  "subdivision": "Glass with a non-reflecting layer",
                   "min": "7004000000",
                   "max": "7004999999",
                   "rules": [
@@ -12006,7 +12030,7 @@
             {
                   "heading": "ex 7005",
                   "chapter": 70,
-                  "subdivision": "Glass with a non- reflecting layer",
+                  "subdivision": "Glass with a non-reflecting layer",
                   "min": "7005000000",
                   "max": "7005999999",
                   "rules": [
@@ -12074,7 +12098,7 @@
             {
                   "heading": "7008",
                   "chapter": 70,
-                  "subdivision": "Multiple- walled insulating units of glass",
+                  "subdivision": "Multiple-walled insulating units of glass",
                   "min": "7008000000",
                   "max": "7008999999",
                   "rules": [
@@ -12091,7 +12115,7 @@
             {
                   "heading": "7009",
                   "chapter": 70,
-                  "subdivision": "Glass mirrors; whether or not framed, including rear- view mirrors",
+                  "subdivision": "Glass mirrors; whether or not framed, including rear-view mirrors",
                   "min": "7009000000",
                   "max": "7009999999",
                   "rules": [
@@ -12350,7 +12374,7 @@
             {
                   "heading": "ex 7102",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi- precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
                   "min": "7102000000",
                   "max": "7102999999",
                   "rules": [
@@ -12384,7 +12408,7 @@
             {
                   "heading": "ex 7103",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi- precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
                   "min": "7103000000",
                   "max": "7103999999",
                   "rules": [
@@ -12418,7 +12442,7 @@
             {
                   "heading": "ex 7104",
                   "chapter": 71,
-                  "subdivision": "Worked precious or semi- precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Worked precious or semi-precious stones (natural, synthetic or reconstructed)",
                   "min": "7104000000",
                   "max": "7104999999",
                   "rules": [
@@ -12452,7 +12476,7 @@
             {
                   "heading": "7105",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7105000000",
                   "max": "7105999999",
                   "rules": [
@@ -12500,7 +12524,7 @@
             {
                   "heading": "7106",
                   "chapter": 71,
-                  "subdivision": "Precious metals \u2794 Semi- manufactured or in powder form",
+                  "subdivision": "Precious metals \u2794 Semi-manufactured or in powder form",
                   "min": "7106000000",
                   "max": "7106999999",
                   "rules": [
@@ -12517,7 +12541,7 @@
             {
                   "heading": "ex 7107",
                   "chapter": 71,
-                  "subdivision": "Metals clad with precious metals, semi- manufactured",
+                  "subdivision": "Metals clad with precious metals, semi-manufactured",
                   "min": "7107000000",
                   "max": "7107999999",
                   "rules": [
@@ -12582,7 +12606,7 @@
             {
                   "heading": "7108",
                   "chapter": 71,
-                  "subdivision": "Precious metals \u2794 Semi- manufactured or in powder form",
+                  "subdivision": "Precious metals \u2794 Semi-manufactured or in powder form",
                   "min": "7108000000",
                   "max": "7108999999",
                   "rules": [
@@ -12599,7 +12623,7 @@
             {
                   "heading": "ex 7109",
                   "chapter": 71,
-                  "subdivision": "Metals clad with precious metals, semi- manufactured",
+                  "subdivision": "Metals clad with precious metals, semi-manufactured",
                   "min": "7109000000",
                   "max": "7109999999",
                   "rules": [
@@ -12664,7 +12688,7 @@
             {
                   "heading": "7110",
                   "chapter": 71,
-                  "subdivision": "Precious metals \u2794 Semi- manufactured or in powder form",
+                  "subdivision": "Precious metals \u2794 Semi-manufactured or in powder form",
                   "min": "7110000000",
                   "max": "7110999999",
                   "rules": [
@@ -12681,7 +12705,7 @@
             {
                   "heading": "ex 7111",
                   "chapter": 71,
-                  "subdivision": "Metals clad with precious metals, semi- manufactured",
+                  "subdivision": "Metals clad with precious metals, semi-manufactured",
                   "min": "7111000000",
                   "max": "7111999999",
                   "rules": [
@@ -12715,7 +12739,7 @@
             {
                   "heading": "7112",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7112000000",
                   "max": "7112999999",
                   "rules": [
@@ -12732,7 +12756,7 @@
             {
                   "heading": "7113",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7113000000",
                   "max": "7113999999",
                   "rules": [
@@ -12749,7 +12773,7 @@
             {
                   "heading": "7114",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7114000000",
                   "max": "7114999999",
                   "rules": [
@@ -12766,7 +12790,7 @@
             {
                   "heading": "7115",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7115000000",
                   "max": "7115999999",
                   "rules": [
@@ -12783,7 +12807,7 @@
             {
                   "heading": "7116",
                   "chapter": 71,
-                  "subdivision": "Articles of natural or cultured pearls, precious or semi- precious stones (natural, synthetic or reconstructed)",
+                  "subdivision": "Articles of natural or cultured pearls, precious or semi-precious stones (natural, synthetic or reconstructed)",
                   "min": "7116000000",
                   "max": "7116999999",
                   "rules": [
@@ -12824,7 +12848,7 @@
             {
                   "heading": "7118",
                   "chapter": 71,
-                  "subdivision": "Natural or cultured pearls, precious or semi- precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stone, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
                   "min": "7118000000",
                   "max": "7118999999",
                   "rules": [
@@ -12943,7 +12967,7 @@
             {
                   "heading": "7207",
                   "chapter": 72,
-                  "subdivision": "Semi- finished products of iron or non- alloy steel",
+                  "subdivision": "Semi-finished products of iron or non-alloy steel",
                   "min": "7207000000",
                   "max": "7207999999",
                   "rules": [
@@ -12960,7 +12984,7 @@
             {
                   "heading": "7208-7216",
                   "chapter": 72,
-                  "subdivision": "Flat- rolled products, bars and rods, angles, shapes and sections of iron or non- alloy steel",
+                  "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
                   "min": "7208000000",
                   "max": "7216999999",
                   "rules": [
@@ -12977,7 +13001,7 @@
             {
                   "heading": "7217",
                   "chapter": 72,
-                  "subdivision": "Wire of iron or non- alloy steel",
+                  "subdivision": "Wire of iron or non-alloy steel",
                   "min": "7217000000",
                   "max": "7217999999",
                   "rules": [
@@ -12994,7 +13018,7 @@
             {
                   "heading": "ex 7218",
                   "chapter": 72,
-                  "subdivision": "Semi- finished products, flat- rolled products, bars and rods, angles, shapes and sections of stainless steel",
+                  "subdivision": "Semi-finished products, flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
                   "min": "7218000000",
                   "max": "7218999999",
                   "rules": [
@@ -13028,7 +13052,7 @@
             {
                   "heading": "7219-7222",
                   "chapter": 72,
-                  "subdivision": "Semi- finished products, flat- rolled products, bars and rods, angles, shapes and sections of stainless steel",
+                  "subdivision": "Semi-finished products, flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
                   "min": "7219000000",
                   "max": "7222999999",
                   "rules": [
@@ -13062,7 +13086,7 @@
             {
                   "heading": "ex 7224",
                   "chapter": 72,
-                  "subdivision": "Semi- finished products",
+                  "subdivision": "Semi-finished products",
                   "min": "7224000000",
                   "max": "7224999999",
                   "rules": [
@@ -13096,7 +13120,7 @@
             {
                   "heading": "7225-7228",
                   "chapter": 72,
-                  "subdivision": "Flat- rolled products, hot- rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non- alloy steel",
+                  "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
                   "min": "7225000000",
                   "max": "7228999999",
                   "rules": [
@@ -13164,7 +13188,7 @@
             {
                   "heading": "7302",
                   "chapter": 73,
-                  "subdivision": "Railway or tramway track construction materials of iron or steel; rails, checkrails and rackrails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross- ties), fish- plates, chairs, chair wedges, sole pates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails",
+                  "subdivision": "Railway or tramway track construction materials of iron or steel; rails, checkrails and rackrails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole pates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails",
                   "min": "7302000000",
                   "max": "7302999999",
                   "rules": [
@@ -13249,7 +13273,7 @@
             {
                   "heading": "7308",
                   "chapter": 73,
-                  "subdivision": "Structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge- sections, lock- gates, towers, lattice masts, roofs, roofing frame- works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
+                  "subdivision": "Structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frame-works, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
                   "min": "7308000000",
                   "max": "7308999999",
                   "rules": [
@@ -15007,7 +15031,7 @@
             {
                   "heading": "8207",
                   "chapter": 82,
-                  "subdivision": "Interchangeable tools for hand tools, whether or not power- operated, or for machine- tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning, or screwdriving), including dies for drawing or extruding metal, and rock drilling or earth boring tools",
+                  "subdivision": "Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning, or screwdriving), including dies for drawing or extruding metal, and rock drilling or earth boring tools",
                   "min": "8207000000",
                   "max": "8207999999",
                   "rules": [
@@ -15209,7 +15233,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, the other materials of [heading&nbsp;8302](/headings/8302) may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
@@ -15295,7 +15319,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, the other materials of [heading&nbsp;8306](/headings/8306) may be used provided their value does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
@@ -15431,7 +15455,7 @@
             {
                   "heading": "8402",
                   "chapter": 84,
-                  "subdivision": "Steam or other vapour generating boilers (other than central- heating hot- water boilers capable also of producing low pressure steam); super- heated water boilers",
+                  "subdivision": "Steam or other vapour generating boilers (other than central-heating hot-water boilers capable also of producing low pressure steam); super-heated water boilers",
                   "min": "8402000000",
                   "max": "8402999999",
                   "rules": [
@@ -15455,7 +15479,7 @@
             {
                   "heading": "8403",
                   "chapter": 84,
-                  "subdivision": "Central- heating boilers other than those of heading No 8402 and auxiliary plant for central heating boilers",
+                  "subdivision": "Central-heating boilers other than those of heading No 8402 and auxiliary plant for central heating boilers",
                   "min": "8403000000",
                   "max": "8403999999",
                   "rules": [
@@ -15479,7 +15503,7 @@
             {
                   "heading": "ex 8404",
                   "chapter": 84,
-                  "subdivision": "Central- heating boilers other than those of heading No 8402 and auxiliary plant for central heating boilers",
+                  "subdivision": "Central-heating boilers other than those of heading No 8402 and auxiliary plant for central heating boilers",
                   "min": "8404000000",
                   "max": "8404999999",
                   "rules": [
@@ -15568,7 +15592,7 @@
             {
                   "heading": "8407",
                   "chapter": 84,
-                  "subdivision": "Spark- ignition reciprocating or rotary internal combustion piston engines",
+                  "subdivision": "Spark-ignition reciprocating or rotary internal combustion piston engines",
                   "min": "8407000000",
                   "max": "8407999999",
                   "rules": [
@@ -15585,7 +15609,7 @@
             {
                   "heading": "8408",
                   "chapter": 84,
-                  "subdivision": "Compression- ignition internal combustion piston engines (diesel or semi- diesel engines)",
+                  "subdivision": "Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
                   "min": "8408000000",
                   "max": "8408999999",
                   "rules": [
@@ -15667,7 +15691,7 @@
             {
                   "heading": "8411",
                   "chapter": 84,
-                  "subdivision": "Turbo- jets, turbo propellers and other gas turbines",
+                  "subdivision": "Turbo-jets, turbo propellers and other gas turbines",
                   "min": "8411000000",
                   "max": "8411999999",
                   "rules": [
@@ -15804,7 +15828,7 @@
             {
                   "heading": "8415",
                   "chapter": 84,
-                  "subdivision": "Air- conditioning machines, comprising a motor- driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated",
+                  "subdivision": "Air-conditioning machines, comprising a motor-driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated",
                   "min": "8415000000",
                   "max": "8415999999",
                   "rules": [
@@ -15869,7 +15893,7 @@
             {
                   "heading": "8418",
                   "chapter": 84,
-                  "subdivision": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading No 8415: \u2794 Combined refrigerator- freezers, fitted with separate external doors, refrigerators household type, refrigerating or freezing display counters, cabinets, showcases and the like, other refrigerators, freezers and other refrigerating or freezing equipment",
+                  "subdivision": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading No 8415: \u2794 Combined refrigerator-freezers, fitted with separate external doors, refrigerators household type, refrigerating or freezing display counters, cabinets, showcases and the like, other refrigerators, freezers and other refrigerating or freezing equipment",
                   "min": "8418000000",
                   "max": "8418999999",
                   "rules": [
@@ -15893,7 +15917,7 @@
             {
                   "heading": "8418",
                   "chapter": 84,
-                  "subdivision": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading No 8415: \u2794 Freezers and compression type units whose condensers are heat- exchangers",
+                  "subdivision": "Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air conditioning machines of heading No 8415: \u2794 Freezers and compression type units whose condensers are heat-exchangers",
                   "min": "8418000000",
                   "max": "8418999999",
                   "rules": [
@@ -16085,7 +16109,7 @@
             {
                   "heading": "8423",
                   "chapter": 84,
-                  "subdivision": "Weighing machinery (excluding balances of a sensitivity of 5 cg or better), including weight- operated counting of checking machines; weighing machine weights of all kinds",
+                  "subdivision": "Weighing machinery (excluding balances of a sensitivity of 5 cg or better), including weight-operated counting of checking machines; weighing machine weights of all kinds",
                   "min": "8423000000",
                   "max": "8423999999",
                   "rules": [
@@ -16157,7 +16181,7 @@
             {
                   "heading": "8429",
                   "chapter": 84,
-                  "subdivision": "Self- propelled bulldozers, angledozers, graders, levellers, scrapers, mechanical shovels, excavators, shovel loaders, tamping machines and road rollers: \u2794 Road rollers",
+                  "subdivision": "Self-propelled bulldozers, angledozers, graders, levellers, scrapers, mechanical shovels, excavators, shovel loaders, tamping machines and road rollers: \u2794 Road rollers",
                   "min": "8429000000",
                   "max": "8429999999",
                   "rules": [
@@ -16174,7 +16198,7 @@
             {
                   "heading": "8429",
                   "chapter": 84,
-                  "subdivision": "Self- propelled bulldozers, angledozers, graders, levellers, scrapers, mechanical shovels, excavators, shovel loaders, tamping machines and road rollers: \u2794 Other",
+                  "subdivision": "Self-propelled bulldozers, angledozers, graders, levellers, scrapers, mechanical shovels, excavators, shovel loaders, tamping machines and road rollers: \u2794 Other",
                   "min": "8429000000",
                   "max": "8429999999",
                   "rules": [
@@ -16198,7 +16222,7 @@
             {
                   "heading": "8430",
                   "chapter": 84,
-                  "subdivision": "Other moving, grading, levelling, scraping, excavating, tamping, compacting, extracting or boring machinery, for earth, minerals or ores; pile- drivers and pile- extractors; snow- ploughs and snowblowers",
+                  "subdivision": "Other moving, grading, levelling, scraping, excavating, tamping, compacting, extracting or boring machinery, for earth, minerals or ores; pile-drivers and pile-extractors; snow-ploughs and snowblowers",
                   "min": "8430000000",
                   "max": "8430999999",
                   "rules": [
@@ -16681,7 +16705,7 @@
             {
                   "heading": "8452",
                   "chapter": 84,
-                  "subdivision": "Sewing machines, other than book- sewing machines of heading No 8440; furniture, bases and covers specially designed for sewing machines; sewing machine needles: \u2794 Sewing machines (lock stitch only) with heads of a weight not exceeding 16 kg without motor or 17 kg with motor",
+                  "subdivision": "Sewing machines, other than book-sewing machines of heading No 8440; furniture, bases and covers specially designed for sewing machines; sewing machine needles: \u2794 Sewing machines (lock stitch only) with heads of a weight not exceeding 16 kg without motor or 17 kg with motor",
                   "min": "8452000000",
                   "max": "8452999999",
                   "rules": [
@@ -16698,7 +16722,7 @@
             {
                   "heading": "8452",
                   "chapter": 84,
-                  "subdivision": "Sewing machines, other than book- sewing machines of heading No 8440; furniture, bases and covers specially designed for sewing machines; sewing machine needles: \u2794 Other",
+                  "subdivision": "Sewing machines, other than book-sewing machines of heading No 8440; furniture, bases and covers specially designed for sewing machines; sewing machine needles: \u2794 Other",
                   "min": "8452000000",
                   "max": "8452999999",
                   "rules": [
@@ -16852,7 +16876,7 @@
             {
                   "heading": "8469-8472",
                   "chapter": 84,
-                  "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data- processing machines, duplicating machines, stapling machines)",
+                  "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data-processing machines, duplicating machines, stapling machines)",
                   "min": "8469000000",
                   "max": "8472999999",
                   "rules": [
@@ -17054,7 +17078,7 @@
             {
                   "heading": "8481",
                   "chapter": 84,
-                  "subdivision": "Taps, cocks, valves and similar appliances, for pipes, boiler shells, tanks, vats or the like, including pressure- reducing valves and thermostatically controlled valves; parts thereof",
+                  "subdivision": "Taps, cocks, valves and similar appliances, for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves; parts thereof",
                   "min": "8481000000",
                   "max": "8481999999",
                   "rules": [
@@ -17304,7 +17328,7 @@
             {
                   "heading": "ex 8504",
                   "chapter": 85,
-                  "subdivision": "Power supply units for automatic data- processing machines",
+                  "subdivision": "Power supply units for automatic data-processing machines",
                   "min": "8504000000",
                   "max": "8504999999",
                   "rules": [
@@ -17417,7 +17441,7 @@
             {
                   "heading": "8508",
                   "chapter": 85,
-                  "subdivision": "Electromechanical tools for working in the hand with self- contained electric motor, parts thereof",
+                  "subdivision": "Electromechanical tools for working in the hand with self-contained electric motor, parts thereof",
                   "min": "8508000000",
                   "max": "8508999999",
                   "rules": [
@@ -17441,7 +17465,7 @@
             {
                   "heading": "8509",
                   "chapter": 85,
-                  "subdivision": "Electromechanical domestic appliances, with self- contained electric motor, parts thereof: \u2794 Electromechanical domestic appliances, with self- contained electric motor,",
+                  "subdivision": "- Electromechanical domestic appliances, with self-contained electric motor,",
                   "min": "8509000000",
                   "max": "8509999999",
                   "rules": [
@@ -17465,7 +17489,7 @@
             {
                   "heading": "8509",
                   "chapter": 85,
-                  "subdivision": "Electromechanical domestic appliances, with self- contained electric motor, parts thereof: \u2794 Parts thereof",
+                  "subdivision": "Electromechanical domestic appliances, with self-contained electric motor, parts thereof: \u2794 Parts thereof",
                   "min": "8509000000",
                   "max": "8509999999",
                   "rules": [
@@ -17633,7 +17657,7 @@
             {
                   "heading": "8516",
                   "chapter": 85,
-                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair- dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Electric ovens, electric heating resistors, electric smoothing irons",
+                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Electric ovens, electric heating resistors, electric smoothing irons",
                   "min": "8516000000",
                   "max": "8516999999",
                   "rules": [
@@ -17657,7 +17681,7 @@
             {
                   "heading": "8516",
                   "chapter": 85,
-                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair- dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Parts for electric ovens, electric heating resistors and electric smoothing irons",
+                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Parts for electric ovens, electric heating resistors and electric smoothing irons",
                   "min": "8516000000",
                   "max": "8516999999",
                   "rules": [
@@ -17681,7 +17705,7 @@
             {
                   "heading": "8516",
                   "chapter": 85,
-                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair- dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Other",
+                  "subdivision": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric flat irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading No 8545: \u2794 Other",
                   "min": "8516000000",
                   "max": "8516999999",
                   "rules": [
@@ -17729,7 +17753,7 @@
             {
                   "heading": "8518",
                   "chapter": 85,
-                  "subdivision": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones, earphones and combined microphone/speaker sets; audio- frequency electric amplifiers; electric sound amplifier sets: \u2794 Headphones, earphones and combined microphone/speaker sets; parts thereof",
+                  "subdivision": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones, earphones and combined microphone/speaker sets; audio-frequency electric amplifiers; electric sound amplifier sets: \u2794 Headphones, earphones and combined microphone/speaker sets; parts thereof",
                   "min": "8518000000",
                   "max": "8518999999",
                   "rules": [
@@ -17753,7 +17777,7 @@
             {
                   "heading": "8518",
                   "chapter": 85,
-                  "subdivision": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones, earphones and combined microphone/speaker sets; audio- frequency electric amplifiers; electric sound amplifier sets: \u2794 Other",
+                  "subdivision": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones, earphones and combined microphone/speaker sets; audio-frequency electric amplifiers; electric sound amplifier sets: \u2794 Other",
                   "min": "8518000000",
                   "max": "8518999999",
                   "rules": [
@@ -18318,7 +18342,7 @@
             {
                   "heading": "ex 8541",
                   "chapter": 85,
-                  "subdivision": "Diodes, transistors and similar semi- conductor devices, except wafers not yet cut into chips",
+                  "subdivision": "Diodes, transistors and similar semi-conductor devices, except wafers not yet cut into chips",
                   "min": "8541000000",
                   "max": "8541999999",
                   "rules": [
@@ -18850,7 +18874,7 @@
             {
                   "heading": "8708",
                   "chapter": 87,
-                  "subdivision": "Parts and accessories of the motor vehicles of heading Nos 8701 to 8705: \u2794 Drive axles with differentials, whether or not provided with other transmission components; non- driving axles and parts thereof",
+                  "subdivision": "Parts and accessories of the motor vehicles of heading Nos 8701 to 8705: \u2794 Drive axles with differentials, whether or not provided with other transmission components; non-driving axles and parts thereof",
                   "min": "8708000000",
                   "max": "8708999999",
                   "rules": [
@@ -18922,7 +18946,7 @@
             {
                   "heading": "8709",
                   "chapter": 87,
-                  "subdivision": "Works trucks, self- propelled not fitted with lifting or handling equipment, or the type used in factories, warehouses, dock areas or airports for short distance transport of goods; tractors of the type used in railway station platforms; parts of the foregoing vehicles",
+                  "subdivision": "Works trucks, self-propelled not fitted with lifting or handling equipment, or the type used in factories, warehouses, dock areas or airports for short distance transport of goods; tractors of the type used in railway station platforms; parts of the foregoing vehicles",
                   "min": "8709000000",
                   "max": "8709999999",
                   "rules": [
@@ -19141,7 +19165,7 @@
             {
                   "heading": "8716",
                   "chapter": 87,
-                  "subdivision": "Trailers and semi- trailers; other vehicles, not mechanically propelled; parts thereof",
+                  "subdivision": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
                   "min": "8716000000",
                   "max": "8716999999",
                   "rules": [
@@ -19819,7 +19843,7 @@
             {
                   "heading": "9017",
                   "chapter": 90,
-                  "subdivision": "Drawing, marking- out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter",
+                  "subdivision": "Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter",
                   "min": "9017000000",
                   "max": "9017999999",
                   "rules": [
@@ -19836,7 +19860,7 @@
             {
                   "heading": "9018",
                   "chapter": 90,
-                  "subdivision": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro- medical apparatus and sight- testing instruments: \u2794 Dentists' chairs incorporating dental appliances or dentists' spittoons",
+                  "subdivision": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro-medical apparatus and sight-testing instruments: \u2794 Dentists' chairs incorporating dental appliances or dentists' spittoons",
                   "min": "9018000000",
                   "max": "9018999999",
                   "rules": [
@@ -19860,7 +19884,7 @@
             {
                   "heading": "9018",
                   "chapter": 90,
-                  "subdivision": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro- medical apparatus and sight- testing instruments: \u2794 Other",
+                  "subdivision": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro-medical apparatus and sight-testing instruments: \u2794 Other",
                   "min": "9018000000",
                   "max": "9018999999",
                   "rules": [
@@ -19884,7 +19908,7 @@
             {
                   "heading": "9019",
                   "chapter": 90,
-                  "subdivision": "Mechano- therapy appliances; massage apparatus; psychological aptitude- testing apparatus; ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus",
+                  "subdivision": "Mechano-therapy appliances; massage apparatus; psychological aptitude-testing apparatus; ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus",
                   "min": "9019000000",
                   "max": "9019999999",
                   "rules": [
@@ -20161,7 +20185,7 @@
             {
                   "heading": "9030",
                   "chapter": 90,
-                  "subdivision": "Oscilloscopes, spectrum analysers and other instruments and apparatus for measuring or checking electrical quantities, excluding meters of heading No 9028; instruments and apparatus for measuring or detecting alpha, beta, gamma, X- ray, cosmic or other ionising radiations",
+                  "subdivision": "Oscilloscopes, spectrum analysers and other instruments and apparatus for measuring or checking electrical quantities, excluding meters of heading No 9028; instruments and apparatus for measuring or detecting alpha, beta, gamma, X-ray, cosmic or other ionising radiations",
                   "min": "9030000000",
                   "max": "9030999999",
                   "rules": [
@@ -20468,7 +20492,7 @@
             {
                   "heading": "9113",
                   "chapter": 91,
-                  "subdivision": "Watch straps, watch bands and watch bracelets, and part thereof: \u2794 Of base metal, whether or not gold- or silver- plated, or of metal clad with precious metal",
+                  "subdivision": "Watch straps, watch bands and watch bracelets, and part thereof: \u2794 Of base metal, whether or not gold- or silver-plated, or of metal clad with precious metal",
                   "min": "9113000000",
                   "max": "9113999999",
                   "rules": [
@@ -20608,7 +20632,7 @@
             {
                   "heading": "9402",
                   "chapter": 94,
-                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name- plates and the like; prefabricated buildings",
+                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated buildings",
                   "min": "9402000000",
                   "max": "9402999999",
                   "rules": [
@@ -20687,7 +20711,7 @@
             {
                   "heading": "9404",
                   "chapter": 94,
-                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name- plates and the like; prefabricated buildings",
+                  "subdivision": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated buildings",
                   "min": "9404000000",
                   "max": "9404999999",
                   "rules": [
@@ -20745,7 +20769,7 @@
             {
                   "heading": "9503",
                   "chapter": 95,
-                  "subdivision": "Other toys; reduced- size ('scale') models and similar recreational models, working or not; puzzles of all kinds",
+                  "subdivision": "Other toys; reduced-size ('scale') models and similar recreational models, working or not; puzzles of all kinds",
                   "min": "9503000000",
                   "max": "9503999999",
                   "rules": [
@@ -20932,7 +20956,7 @@
             {
                   "heading": "ex 9603",
                   "chapter": 96,
-                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand- operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
+                  "subdivision": "Brooms and brushes (except for besoms and the like and brushes made from marten or squirrel hair), hand-operated mechanical floor sweepers, not motorised, paint pads and rollers, squeegees and mops",
                   "min": "9603000000",
                   "max": "9603999999",
                   "rules": [
@@ -21000,7 +21024,7 @@
             {
                   "heading": "9606",
                   "chapter": 96,
-                  "subdivision": "Buttons, press- fasteners, snap- fasteners and press- studs, button moulds and other parts of these articles; button blanks",
+                  "subdivision": "Buttons, press-fasteners, snap-fasteners and press-studs, button moulds and other parts of these articles; button blanks",
                   "min": "9606000000",
                   "max": "9606999999",
                   "rules": [
@@ -21102,7 +21126,7 @@
             {
                   "heading": "9612",
                   "chapter": 96,
-                  "subdivision": "Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink- pads, whether or not inked, with or without boxes",
+                  "subdivision": "Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
                   "min": "9612000000",
                   "max": "9612999999",
                   "rules": [
@@ -21119,7 +21143,7 @@
             {
                   "heading": "ex 9613",
                   "chapter": 96,
-                  "subdivision": "Lighters with piezo- igniter",
+                  "subdivision": "Lighters with piezo-igniter",
                   "min": "9613000000",
                   "max": "9613999999",
                   "rules": [

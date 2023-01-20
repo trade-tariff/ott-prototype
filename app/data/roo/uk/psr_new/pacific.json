@@ -8,7 +8,7 @@
                   "max": "0199999999",
                   "rules": [
                         {
-                              "rule": "All the animals of [chapter&nbsp;1](/chapters/1) used must be wholly obtained.",
+                              "rule": "All the animals of [chapter&nbsp;01](/chapters/01) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -25,7 +25,7 @@
                   "max": "0299999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;1](/chapters/1) and [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;01](/chapters/01) and [chapter&nbsp;2](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -42,7 +42,7 @@
                   "max": "0301999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -59,7 +59,7 @@
                   "max": "0302999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -76,7 +76,7 @@
                   "max": "0303999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -93,7 +93,7 @@
                   "max": "0304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;3](/chapters/3) used does not exceed **15%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;03](/chapters/03) used does not exceed **15%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -110,7 +110,7 @@
                   "max": "0305999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;3](/chapters/3) used does not exceed **15%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;03](/chapters/03) used does not exceed **15%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -127,7 +127,7 @@
                   "max": "0306999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;3](/chapters/3) used does not exceed **15%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;03](/chapters/03) used does not exceed **15%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -144,7 +144,7 @@
                   "max": "0306999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -161,7 +161,7 @@
                   "max": "0307999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;3](/chapters/3) used does not exceed **15%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;03](/chapters/03) used does not exceed **15%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -178,7 +178,7 @@
                   "max": "0307999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -195,7 +195,7 @@
                   "max": "0308999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -212,7 +212,7 @@
                   "max": "0309999999",
                   "rules": [
                         {
-                              "rule": "All the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "All the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -228,7 +228,24 @@
                   "max": "0401999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0401",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0401000000",
+                  "max": "0401999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -245,7 +262,24 @@
                   "max": "0402999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0402",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0402000000",
+                  "max": "0402999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -263,7 +297,7 @@
                   "max": "0403999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained\n\n- any fruit juice (except those of pineapple, lime or grape fruit) of [heading&nbsp;2009](/headings/2009) used must already be originating\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained\n\n- any fruit juice (except those of pineapple, lime or grape fruit) of [heading&nbsp;2009](/headings/2009) used must already be originating\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -279,7 +313,24 @@
                   "max": "0404999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0404",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0404000000",
+                  "max": "0404999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -296,7 +347,24 @@
                   "max": "0405999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0405",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0405000000",
+                  "max": "0405999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -313,7 +381,24 @@
                   "max": "0406999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0406",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0406000000",
+                  "max": "0406999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -330,7 +415,24 @@
                   "max": "0407999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0407",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0407000000",
+                  "max": "0407999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -347,7 +449,24 @@
                   "max": "0408999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0408",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0408000000",
+                  "max": "0408999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -364,7 +483,24 @@
                   "max": "0409999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0409",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0409000000",
+                  "max": "0409999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -381,7 +517,24 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;4](/chapters/4) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 4
+            },
+            {
+                  "heading": "0410",
+                  "subdivision": "Dairy produce - with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0410000000",
+                  "max": "0410999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -399,7 +552,7 @@
                   "max": "0599999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;5](/chapters/5) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;05](/chapters/05) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -433,7 +586,15 @@
                   "max": "0699999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;6](/chapters/6) used must be wholly obtained\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which:\n\nall the materials of [chapter&nbsp;06](/chapters/06) used must be wholly obtained, *and*\n\nthe value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "WO",
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document) </b>.",
                               "class": [
                                     "WO"
                               ],
@@ -450,7 +611,7 @@
                   "max": "0799999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/7) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -460,11 +621,10 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 08",
-                  "chapter": 8,
+                  "heading": "0801",
                   "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
-                  "min": "0800000000",
-                  "max": "0899999999",
+                  "min": "0801000000",
+                  "max": "0801999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
@@ -474,7 +634,467 @@
                               "operator": null
                         }
                   ],
-                  "valid": true
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0801",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0801000000",
+                  "max": "0801999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0802",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0802000000",
+                  "max": "0802999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0802",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0802000000",
+                  "max": "0802999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0803",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0803000000",
+                  "max": "0803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0803",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0803000000",
+                  "max": "0803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0804",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0804000000",
+                  "max": "0804999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0804",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0804000000",
+                  "max": "0804999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0805",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0805000000",
+                  "max": "0805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0805",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0805000000",
+                  "max": "0805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0806",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0806000000",
+                  "max": "0806999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0806",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0806000000",
+                  "max": "0806999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0807",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0807000000",
+                  "max": "0807999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0807",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0807000000",
+                  "max": "0807999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0808",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0808000000",
+                  "max": "0808999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0808",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0808000000",
+                  "max": "0808999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0809",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0809000000",
+                  "max": "0809999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0809",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0809000000",
+                  "max": "0809999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0810",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0810000000",
+                  "max": "0810999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0810",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0810000000",
+                  "max": "0810999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0811",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0811000000",
+                  "max": "0811999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0811",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0811000000",
+                  "max": "0811999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0812",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0812000000",
+                  "max": "0812999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0812",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0812000000",
+                  "max": "0812999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0813",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0813000000",
+                  "max": "0813999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0813",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0813000000",
+                  "max": "0813999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0814",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
+                  "min": "0814000000",
+                  "max": "0814999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the fruit and nuts used must be wholly obtained\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the value of the ex-works price of the product.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
+            },
+            {
+                  "heading": "0814",
+                  "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "0814000000",
+                  "max": "0814999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 8
             },
             {
                   "heading": "0901",
@@ -518,7 +1138,7 @@
                   "max": "0903999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -535,7 +1155,7 @@
                   "max": "0904999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -552,7 +1172,7 @@
                   "max": "0905999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -569,7 +1189,7 @@
                   "max": "0906999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -586,7 +1206,7 @@
                   "max": "0907999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -603,7 +1223,7 @@
                   "max": "0908999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -620,7 +1240,7 @@
                   "max": "0909999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -654,7 +1274,7 @@
                   "max": "0910999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;9](/chapters/9) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;09](/chapters/09) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -691,6 +1311,74 @@
                               "rule": "Manufacture in which all the cereals, edible vegetables, roots and tubers of heading\n\nNo 0714 or fruit used must be wholly obtained.",
                               "class": [
                                     "WO"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 1101",
+                  "chapter": 11,
+                  "subdivision": "Products of the milling industry, of cereals other than rice",
+                  "min": "1101000000",
+                  "max": "1101999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from cereals of [chapter&nbsp;10](/chapters/10), other than rice of [heading&nbsp;1006](/headings/1006) \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 1102",
+                  "chapter": 11,
+                  "subdivision": "Products of the milling industry, of cereals other than rice",
+                  "min": "1102000000",
+                  "max": "1102999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from cereals of [chapter&nbsp;10](/chapters/10), other than rice of [heading&nbsp;1006](/headings/1006) \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 1103",
+                  "chapter": 11,
+                  "subdivision": "Products of the milling industry, of cereals other than rice",
+                  "min": "1103000000",
+                  "max": "1103999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from cereals of [chapter&nbsp;10](/chapters/10), other than rice of [heading&nbsp;1006](/headings/1006) \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 1104",
+                  "chapter": 11,
+                  "subdivision": "Products of the milling industry, of cereals other than rice",
+                  "min": "1104000000",
+                  "max": "1104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from cereals of [chapter&nbsp;10](/chapters/10), other than rice of [heading&nbsp;1006](/headings/1006) \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -744,6 +1432,13 @@
                                     "MAXNOM"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials of [heading&nbsp;1301](/headings/1301) used does not exceed **60%** of the ex-works price of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -778,6 +1473,13 @@
                                     "MAXNOM"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -793,6 +1495,13 @@
                               "rule": "Manufacture in which all the materials of [chapter&nbsp;14](/chapters/14) used must be wholly obtained.",
                               "class": [
                                     "WO"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture from materials of any heading except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -858,7 +1567,7 @@
                   "max": "1502999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -909,7 +1618,7 @@
                   "max": "1504999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -977,9 +1686,16 @@
                   "max": "1506999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained.",
                               "class": [
                                     "WO"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture from materials of any heading except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -1016,6 +1732,13 @@
                                     "Unspecified"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture from materials of any heading except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -1045,10 +1768,27 @@
                   "max": "1516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/2) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;02](/chapters/02) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO",
-                                    "(WO TOLERANCE MAY BE USED)"
+                                    "WO TOLERANCE MAY BE USED"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 1516",
+                  "chapter": 15,
+                  "subdivision": "Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further pre pared:\n- fats and oils and their fractions of hydrogenated castor oil, so called 'opal wax'",
+                  "min": "1516000000",
+                  "max": "1516999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials classified in a heading other than that of the product <b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -1063,10 +1803,10 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;4](/chapters/4) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;4](/chapters/04) used must be wholly obtained\n\n- all the vegetable materials used must be wholly obtained. However, materials of [heading&nbsp;1507](/headings/1507), [heading&nbsp;1508](/headings/1508), [heading&nbsp;1511](/headings/1511) and [heading&nbsp;1513](/headings/1513) may be used.",
                               "class": [
                                     "WO",
-                                    "(WO TOLERANCE MAY BE USED)"
+                                    "WO TOLERANCE MAY BE USED"
                               ],
                               "operator": null
                         }
@@ -1148,7 +1888,7 @@
                   "max": "1601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from animals of [chapter&nbsp;1](/chapters/1).",
+                              "rule": "Manufacture from animals of [chapter&nbsp;01](/chapters/01).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1165,7 +1905,7 @@
                   "max": "1602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from animals of [chapter&nbsp;1](/chapters/1).",
+                              "rule": "Manufacture from animals of [chapter&nbsp;01](/chapters/01).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1182,7 +1922,7 @@
                   "max": "1603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from animals of [chapter&nbsp;1](/chapters/1).",
+                              "rule": "Manufacture from animals of [chapter&nbsp;01](/chapters/01).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1200,7 +1940,7 @@
                   "max": "1605999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;3](/chapters/3) used does not exceed **15%** of the ex-works price of the product.",
+                              "rule": "Manufacture in which the value of any materials of [chapter&nbsp;03](/chapters/03) used does not exceed **15%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -1346,11 +2086,10 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 18",
-                  "chapter": 18,
+                  "heading": "1801",
                   "subdivision": "Cocoa and cocoa preparations",
-                  "min": "1800000000",
-                  "max": "1899999999",
+                  "min": "1801000000",
+                  "max": "1801999999",
                   "rules": [
                         {
                               "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
@@ -1360,7 +2099,195 @@
                               "operator": null
                         }
                   ],
-                  "valid": true
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1801",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1801000000",
+                  "max": "1801999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1802",
+                  "subdivision": "Cocoa and cocoa preparations",
+                  "min": "1802000000",
+                  "max": "1802999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1802",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1802000000",
+                  "max": "1802999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1803",
+                  "subdivision": "Cocoa and cocoa preparations",
+                  "min": "1803000000",
+                  "max": "1803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1803",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1803000000",
+                  "max": "1803999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1804",
+                  "subdivision": "Cocoa and cocoa preparations",
+                  "min": "1804000000",
+                  "max": "1804999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1804",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1804000000",
+                  "max": "1804999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1805",
+                  "subdivision": "Cocoa and cocoa preparations",
+                  "min": "1805000000",
+                  "max": "1805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1805",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1805000000",
+                  "max": "1805999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1806",
+                  "subdivision": "Cocoa and cocoa preparations",
+                  "min": "1806000000",
+                  "max": "1806999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
+            },
+            {
+                  "heading": "1806",
+                  "subdivision": "Cocoa and cocoa preparations:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1806000000",
+                  "max": "1806999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 18
             },
             {
                   "heading": "1901",
@@ -1397,6 +2324,23 @@
                   "valid": true
             },
             {
+                  "heading": "ex 1901",
+                  "chapter": 19,
+                  "subdivision": "Food preparations of flour, groats, meal, starch or malt extract, not containing cocoa in more than 40% by weight calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings No 0401 to 0404, not containing cocoa in more than 5% by weight calculated on a totally defatted basis, not elsewhere specified or included:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1901000000",
+                  "max": "1901999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "1902",
                   "chapter": 19,
                   "subdivision": "Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise pre pared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not pre pared: \u2794 Containing 20% or less by weight of meat, meat offal, fish, crustaceans or molluscs",
@@ -1407,6 +2351,13 @@
                               "rule": "Manufacture in which all the cereals and derivatives (except durum wheat and its derivatives) used must be wholly obtained.",
                               "class": [
                                     "WO"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which all the products of [chapter&nbsp;11](/chapters/11) used are originating \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -1421,7 +2372,14 @@
                   "max": "1902999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all cereals and derivatives (except durum wheat and its derivatives) used must be wholly obtained\n\n- all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- all cereals and derivatives (except durum wheat and its derivatives) used must be wholly obtained\n\nall the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
+                              "class": [
+                                    "WO"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which:\n\n- all the products of [chapter&nbsp;11](/chapters/11) used are originating,\n\n- all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "WO"
                               ],
@@ -1448,6 +2406,23 @@
                   "valid": true
             },
             {
+                  "heading": "ex 1903",
+                  "chapter": 19,
+                  "subdivision": "Tapioca and substitutes thereof prepared from starch, in the form of flakes, grains, pearls, sifting or similar forms:\n- with a content of materials of heading No 1108.13 (potato starch) not more than 20% by weight",
+                  "min": "1903000000",
+                  "max": "1903999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product \n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "1904",
                   "chapter": 19,
                   "subdivision": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour and meal), pre- cooked, or otherwise pre pared, not elsewhere specified or included",
@@ -1465,6 +2440,23 @@
                   "valid": true
             },
             {
+                  "heading": "ex 1904",
+                  "chapter": 19,
+                  "subdivision": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included:\n- with a content of materials of Chapter 17 not more than 20% by weight",
+                  "min": "1904000000",
+                  "max": "1904999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture:\n\n- from materials of any heading, except those of [heading&nbsp;1806](/headings/1806),\n\n- in which all the products of [chapter&nbsp;11](/chapters/11) used are originating \n\n- <b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "1905",
                   "chapter": 19,
                   "subdivision": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suit able for pharmaceutical use, sealing wafers, rice paper and similar products",
@@ -1475,6 +2467,30 @@
                               "rule": "Manufacture from materials of any heading except those of [chapter&nbsp;11](/chapters/11).",
                               "class": [
                                     "AH EXCEPT"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which all the products of [chapter&nbsp;11](/chapters/11) used are originating\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 20",
+                  "chapter": 20,
+                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "min": "2000000000",
+                  "max": "2099999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "class": [
+                                    "WO"
                               ],
                               "operator": null
                         }
@@ -1506,11 +2522,18 @@
                   "max": "2001999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1518,16 +2541,23 @@
             {
                   "heading": "2002",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants:\nfrom materials other than those of subheading No 0711.51;\nfrom materials other than of headings No 2002, 2003, 2008 and 2009;\nwith a content of materials of Chapter 17 not more than 20% by weight",
                   "min": "2002000000",
                   "max": "2002999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1535,16 +2565,23 @@
             {
                   "heading": "2003",
                   "chapter": 20,
-                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants",
+                  "subdivision": "Preparations of vegetables, fruit, nuts or other parts of plants:\nfrom materials other than those of subheading No 0711.51;\nfrom materials other than of headings No 2002, 2003, 2008 and 2009;\nwith a content of materials of Chapter 17 not more than 20% by weight",
                   "min": "2003000000",
                   "max": "2003999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1574,11 +2611,18 @@
                   "max": "2004999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1608,11 +2652,18 @@
                   "max": "2005999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1710,11 +2761,18 @@
                   "max": "2008999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the fruit, nuts or vegetables used must be wholly obtained.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "WO"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1730,6 +2788,23 @@
                               "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of any materials of [chapter&nbsp;17](/chapters/17) used does not exceed **30%** of the\n\n- ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex Chapter 21",
+                  "chapter": 21,
+                  "subdivision": "Miscellaneous edible preparations",
+                  "min": "2100000000",
+                  "max": "2199999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
@@ -1756,16 +2831,23 @@
             {
                   "heading": "2102",
                   "chapter": 21,
-                  "subdivision": "Miscellaneous edible preparations",
+                  "subdivision": "Miscellaneous edible preparations:\n- with a content of materials of Chapters 4 and 17 not more than 20% by weight",
                   "min": "2102000000",
                   "max": "2102999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1829,11 +2911,18 @@
                   "max": "2104999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1841,16 +2930,23 @@
             {
                   "heading": "2105",
                   "chapter": 21,
-                  "subdivision": "Miscellaneous edible preparations",
+                  "subdivision": "Miscellaneous edible preparations:\n- with a content of materials of Chapters 4 and 17 not more than 20% by weight",
                   "min": "2105000000",
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1986,7 +3082,7 @@
                               "class": [
                                     "WO",
                                     "AH EXCEPT",
-                                    "(WO TOLERANCE MAY BE USED)"
+                                    "WO TOLERANCE MAY BE USED"
                               ],
                               "operator": null
                         }
@@ -2028,6 +3124,23 @@
                   "chapter": 22
             },
             {
+                  "heading": "ex Chapter 23",
+                  "chapter": 23,
+                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "min": "2300000000",
+                  "max": "2399999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "ex 2301",
                   "chapter": 23,
                   "subdivision": "Whale meal; flours, meals and pellets of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption",
@@ -2035,7 +3148,7 @@
                   "max": "2301999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;2](/chapters/2) and [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2052,11 +3165,18 @@
                   "max": "2301999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2064,16 +3184,23 @@
             {
                   "heading": "2302",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder:\n- with a content of maize or materials of Chapters 2, 4 and 17 not more than 20% by weight",
                   "min": "2302000000",
                   "max": "2302999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2103,11 +3230,18 @@
                   "max": "2303999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2115,16 +3249,23 @@
             {
                   "heading": "2304",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder:\n- with a content of maize or materials of Chapters 2, 4 and 17 not more than 20% by weight",
                   "min": "2304000000",
                   "max": "2304999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2132,16 +3273,23 @@
             {
                   "heading": "2305",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder:\n- with a content of maize or materials of Chapters 2, 4 and 17 not more than 20% by weight",
                   "min": "2305000000",
                   "max": "2305999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2171,11 +3319,18 @@
                   "max": "2306999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2183,16 +3338,23 @@
             {
                   "heading": "2307",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder:\n- with a content of maize or materials of Chapters 2, 4 and 17 not more than 20% by weight",
                   "min": "2307000000",
                   "max": "2307999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2200,16 +3362,23 @@
             {
                   "heading": "2308",
                   "chapter": 23,
-                  "subdivision": "Residues and waste from the food industries; prepared ani mal fodder",
+                  "subdivision": "Residues and waste from the food industries; prepared animal fodder:\n- with a content of maize or materials of Chapters 2, 4 and 17 not more than 20% by weight",
                   "min": "2308000000",
                   "max": "2308999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "rule": "Manufacture from materials of any heading except that of the product.",
                               "class": [
-                                    "Unspecified"
+                                    "CTH"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **60%** of the ex-works price of the product\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -2222,7 +3391,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the cereals, sugar or molasses, meat or milk used must already be originating\n\n- all the materials of [chapter&nbsp;3](/chapters/3) used must be wholly obtained.",
+                              "rule": "Manufacture in which:\n\n- all the cereals, sugar or molasses, meat or milk used must already be originating\n\n- all the materials of [chapter&nbsp;03](/chapters/03) used must be wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -2257,6 +3426,13 @@
                   "rules": [
                         {
                               "rule": "Manufacture in which at least **70%** by weight of the unmanufactured tobacco or tobacco refuse of heading\n\nNo 2401 used must already be originating.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Manufacture in which at least **60%** by weight of the unmanufactured tobacco or tobacco refuse of [heading&nbsp;2401](/headings/2401) used must already be originating\n\n<b>(derogation - see Annex II\n\n- a) of the origin reference document)</b>.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -3885,7 +5061,7 @@
                   "max": "2934999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading Nos 2932, 2933 and 2934 used may not exceed\n\n**20%** of the ex-works price of the product.",
+                              "rule": "Manufacture from materials of any heading. However, the value of all the materials of heading Nos 2932, 2933 and 2934 used may not exceed\n\n20% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4220,9 +5396,9 @@
                   "max": "3004999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials of [heading&nbsp;3003](/headings/3003) or [heading&nbsp;3004](/headings/3004) may be used provided their value, taken together, does not exceed\n\n**20%** of the ex works price of the product.",
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials of [heading&nbsp;3003](/headings/3003) or [heading&nbsp;3004](/headings/3004) may be used provided their value, taken together, does not exceed\n\n20% of the ex works price of the product.",
                               "class": [
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
@@ -4723,7 +5899,7 @@
                               "rule": "Manufacture from materials of any heading, including materials of a different 'group' in this heading. However, materials of the same group may be used, provided their value\n\ndoes not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "AH INCLUDING TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "AH INCLUDING TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         },
@@ -5348,7 +6524,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than [heading&nbsp;3701](/headings/3701) or [heading&nbsp;3702](/headings/3702). However, materials from [heading&nbsp;3702](/headings/3702) may be used provided their value does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "AH EXCEPT TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "AH EXCEPT TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         },
@@ -8711,7 +9887,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8837,7 +10013,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -8929,7 +10105,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9038,7 +10214,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9079,7 +10255,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9137,7 +10313,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9602,7 +10778,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9626,7 +10802,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9650,7 +10826,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9674,7 +10850,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9715,7 +10891,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9739,7 +10915,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9763,7 +10939,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9787,7 +10963,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9828,7 +11004,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9887,7 +11063,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9928,7 +11104,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -9969,7 +11145,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, rasing, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted fabric used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -10901,7 +12077,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Making up followed by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted goods of [heading&nbsp;6213](/headings/6213) and [heading&nbsp;6214](/headings/6214) used does not exceed 47.**5%** of the\n\nex-works price of the product.",
+                              "rule": "Making up followed by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerizing, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending\n\nand burling) where the value of the unprinted goods of [heading&nbsp;6213](/headings/6213) and [heading&nbsp;6214](/headings/6214) used does not exceed 47.5% of the\n\nex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11041,7 +12217,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Manufacture from unembroidered fabric (other than knitted or crocheted) provided the value of the unembroidered fabric used does not exceed\n\n**40%** of the ex-works price of the product.",
+                              "rule": "Manufacture from unembroidered fabric (other than knitted or crocheted) provided the value of the unembroidered fabric used does not exceed\n\n40% of the ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -11126,7 +12302,7 @@
                   "max": "6308999999",
                   "rules": [
                         {
-                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set. However, non-originating articles may be incorporated provided their total value does not exceed\n\n**25%** of the ex-works price of the set.",
+                              "rule": "Each item in the set must satisfy the rule which would apply to it if it were not included in the set. However, non-originating articles may be incorporated provided their total value does not exceed\n\n25% of the ex-works price of the set.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -12596,7 +13772,7 @@
                   "max": "7216999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from ingots or other primary forms or semi- finished materials of heading No 7206 or 7207.",
+                              "rule": "Manufacture from ingots or other primary forms or semi- finished materials of [heading&nbsp;7206](/headings/7206) or [heading&nbsp;7207](/headings/7207).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -12630,7 +13806,7 @@
                   "max": "7218999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of heading No 7201, 7202, 7203, 7204 or 7205.",
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204) or [heading&nbsp;7205](/headings/7205).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -12698,7 +13874,7 @@
                   "max": "7224999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of heading No 7201, 7202, 7203, 7204 or 7205.",
+                              "rule": "Manufacture from materials of [heading&nbsp;7201](/headings/7201), [heading&nbsp;7202](/headings/7202), [heading&nbsp;7203](/headings/7203), [heading&nbsp;7204](/headings/7204) or [heading&nbsp;7205](/headings/7205).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -12732,7 +13908,7 @@
                   "max": "7228999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from ingots or other primary forms or semi- finished materials of heading No 7206, 7207, 7218 or 7224.",
+                              "rule": "Manufacture from ingots or other primary forms or semi- finished materials of [heading&nbsp;7206](/headings/7206), [heading&nbsp;7207](/headings/7207), [heading&nbsp;7218](/headings/7218) or [heading&nbsp;7224](/headings/7224).",
                               "class": [
                                     "PRODUCTION FROM"
                               ],
@@ -14834,7 +16010,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, the other materials of [heading&nbsp;8302](/headings/8302) may be used provided their value does not exceed **20%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
@@ -14852,7 +16028,7 @@
                               "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, the other materials of [heading&nbsp;8306](/headings/8306) may be used provided their value does not exceed **30%** of the ex-works price of the product.",
                               "class": [
                                     "MAXNOM",
-                                    "CTH TOLERANCE (MAY BE USED RESTRICTION MAXNOM)"
+                                    "CTH TOLERANCE MAY BE USED RESTRICTION MAXNOM"
                               ],
                               "operator": null
                         }
