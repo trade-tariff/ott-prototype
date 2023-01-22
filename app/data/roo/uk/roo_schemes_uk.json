@@ -13,15 +13,15 @@
             "proofs": [
                 {
                     "summary": "Statement on origin",
-                    "subtext": "using EORI number",
+                    "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "statement-on-origin.md"
+                    "detail": ""
                 },
                 {
                     "summary": "Importer's knowledge",
                     "subtext": "",
                     "proof_class": "importers-knowledge",
-                    "detail": "importers-knowledge.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -152,16 +152,16 @@
             "proofs": [
                 {
                     "summary": "Statement on origin",
-                    "subtext": "using EORI number",
+                    "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "statement-on-origin.md"
+                    "detail": ""
                 },
                 {
                     "summary": "Importer's knowledge",
                     "subtext": "",
                     "subtexts": "The importer's knowledge that a product is originating in the exporting Party shall be based on information demonstrating that the product is originating and satisfies the requirements provided for in this Origin Reference Document.",
                     "proof_class": "importers-knowledge",
-                    "detail": "importers-knowledge.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -305,16 +305,22 @@
             "title": "UK-Albania Partnership, Trade and Cooperation Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
+                },
+                {
+                    "summary": "EUR-MED movement certificate",
+                    "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
                 },
                 {
                     "summary": "Origin declaration",
                     "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -405,10 +411,10 @@
             "title": "UK-Canada Trade Continuity Agreement",
             "proofs": [
                 {
-                    "summary": "Statement on origin",
-                    "subtext": "using EORI number",
+                    "summary": "Origin declaration",
+                    "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "statement-on-origin.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -495,7 +501,7 @@
                     "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -567,16 +573,16 @@
             "title": "Comprehensive Economic Partnership Agreement UK Kenya",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -757,16 +763,16 @@
             "title": "ESA-UK Economic Partnership Agreement (EPA)",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "subtext": "",
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -938,16 +944,16 @@
             "title": "UK-Central America Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "subtext": "",
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1055,16 +1061,16 @@
             "title": "UK-Andean Countries Trade Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "including UK Approved Exporter number for consignments with a value over £5500/6000 euros",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1168,16 +1174,16 @@
             "title": "UK-Cameroon Economic Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1294,16 +1300,16 @@
             "title": "CARIFORUM-UK Economic Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "subtext": "",
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1484,16 +1490,16 @@
             "title": "UK-Chile Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "subtext": "",
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1562,16 +1568,16 @@
             "title": "UK-Côte d'Ivoire Stepping Stone Economic Partnership Agreement",
             "proofs": [
                 {
+                    "summary": "EUR.1 movement certificate",
+                    "subtext": "issued in Cote d’Ivoire",
+                    "proof_class": "eur1",
+                    "detail": ""
+                },
+                {
                     "summary": "Origin declaration",
                     "subtext": "issued in UK",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
-                },
-                {
-                    "summary": "EUR1 or EUR.MED movement certificate",
-                    "subtext": "issued in Cote d’Ivoire",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1708,16 +1714,22 @@
             "title": "UK-Egypt Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1808,16 +1820,22 @@
             "title": "UK-Faroe Islands Free Trade Agreement (FTA)",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -1909,16 +1927,22 @@
             "title": "UK-Georgia Strategic Partnership and Cooperation Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
+                    "summary": "EUR-MED movement certificate",
+                    "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2083,16 +2107,16 @@
             "title": "UK-Ghana Interim Trade Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2227,16 +2251,22 @@
             "title": "Agreement on Trade in Goods between Iceland, Norway and the UK",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2326,16 +2356,22 @@
             "title": "UK-Israel Trade and Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2426,16 +2462,22 @@
             "title": "UK-Kosovo Partnership, Trade and Cooperation Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2526,16 +2568,22 @@
             "title": "UK-Jordan Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
+                },
+                {
+                    "summary": "EUR-MED movement certificate",
+                    "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
                 },
                 {
                     "summary": "Origin declaration",
-                    "subtext": "",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2626,16 +2674,16 @@
             "title": "UK-Lebanon Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2711,16 +2759,16 @@
             "title": "UK-Mexico Trade Continuity Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2789,16 +2837,16 @@
             "title": "UK-Switzerland-Liechtenstein Trade Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2890,16 +2938,22 @@
             "title": "UK-Moldova Strategic Partnership, Trade and Cooperation Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -2990,16 +3044,22 @@
             "title": "UK-Morocco Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
+                },
+                {
+                    "summary": "EUR-MED movement certificate",
+                    "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3085,16 +3145,22 @@
             "title": "UK-North Macedonia Partnership, Trade and Cooperation Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3186,16 +3252,16 @@
             "title": "UK-Pacific Economic Partnership Agreement (EPA)",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
-                    "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "proof_class": "invoice-declaration",
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3365,16 +3431,22 @@
             "title": "UK-Palestinian Authority Political, Trade and Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3451,13 +3523,7 @@
                     "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
-                },
-                {
-                    "summary": "Approved exporter",
-                    "subtext": "for consignments with a value over £5500",
-                    "proof_class": "origin-declaration",
-                    "detail": "approved-exporter.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3535,16 +3601,22 @@
             "title": "UK-Serbia Partnership, Trade and Cooperation Agreement ",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3635,16 +3707,16 @@
             "title": "SACUM-UK Economic Partnership Agreement (EPA)",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
-                    "subtext": "including UK Approved Exporter number for consignments with a value over £5500 / 6000 euros",
+                    "summary": "Origin declaration",
+                    "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3782,16 +3854,22 @@
             "title": "UK-Tunisia Association Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -3959,7 +4037,7 @@
                     "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -4029,17 +4107,24 @@
             "title": "UK-Ukraine Political, Free Trade and Strategic Partnership Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
-                    "summary": "Invoice declaration",
+                    "summary": "EUR-MED movement certificate",
                     "subtext": "",
+                    "proof_class": "eur-med",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "or origin declaration EUR-MED including UK Approved Exporter number for consignments with a value over £5500  / 6000 euros",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
+
             ],
             "cumulation_methods": {
                 "bilateral": {
@@ -4203,16 +4288,16 @@
             "title": "UK-Vietnam Free Trade Agreement",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -4290,16 +4375,16 @@
             "title": "Arrangement for import duty on trade in goods from certain British Overseas Territories",
             "proofs": [
                 {
-                    "summary": "EUR1 or EUR.MED movement certificate",
+                    "summary": "EUR.1 movement certificate",
                     "subtext": "",
-                    "proof_class": "eur1-eur-med",
-                    "detail": "eur1.md"
+                    "proof_class": "eur1",
+                    "detail": ""
                 },
                 {
                     "summary": "Origin declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "invoice-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {
@@ -4492,13 +4577,13 @@
                     "summary": "Generalised Scheme of Preferences form A",
                     "subtext": "",
                     "proof_class": "gsp-form-a",
-                    "detail": "gsp.md"
+                    "detail": ""
                 },
                 {
                     "summary": "Invoice declaration",
                     "subtext": "",
                     "proof_class": "origin-declaration",
-                    "detail": "origin-declaration.md"
+                    "detail": ""
                 }
             ],
             "cumulation_methods": {

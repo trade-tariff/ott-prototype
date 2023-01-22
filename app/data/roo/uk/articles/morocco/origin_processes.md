@@ -6,7 +6,7 @@
 
    2. a movement certificate EUR-MED, a specimen of which appears in Annex IIIb;
 
-   3. in the cases specified in Article 22(1), a declaration, subsequently referred to as the ‘invoice declaration’ or ‘the invoice declaration EUR-MED’, given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified; the texts of the invoice declarations appear in Annexes IVa and b.
+   3. in the cases specified in Article 22(1), a declaration, subsequently referred to as the 'invoice declaration' or ‘the invoice declaration EUR-MED’, given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified; the texts of the invoice declarations appear in Annexes IVa and b.
 
 2. Notwithstanding paragraph 1, originating products within the meaning of this Origin Reference Document shall, in the cases specified in Article 27, benefit from the provisions of the United Kingdom-Morocco Agreement without it being necessary to submit any of the proofs of origin referred to in paragraph 1.
 

@@ -1,6 +1,6 @@
 ## Article 14 - General requirements
 
-1. Products originating in the UK shall, on importation into Korea and products originating in Korea shall, on importation into the UK benefit from preferential tariff treatment of the UK-Korea Agreement on the basis of a declaration, subsequently referred to as the ‘origin declaration’, given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The texts of the origin declarations appear in Annex III.
+1. Products originating in the UK shall, on importation into Korea and products originating in Korea shall, on importation into the UK benefit from preferential tariff treatment of the UK-Korea Agreement on the basis of a declaration, subsequently referred to as the 'origin declaration', given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The texts of the origin declarations appear in Annex III.
 
 2. Notwithstanding paragraph 1, originating products within the meaning of this Origin Reference Document shall, in the cases specified in Article 20, benefit from preferential tariff treatment of the UK-Korea Agreement without it being necessary to submit any of the documents referred to in paragraph 1.
 

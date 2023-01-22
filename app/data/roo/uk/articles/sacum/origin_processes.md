@@ -2,7 +2,7 @@
 
 1. Products originating in a SACU Member State or Mozambique shall, on importation into the UK and products originating in the UK shall, on importation into a SACU Member State or Mozambique, benefit from the provisions of the Agreement upon submission of either:
 
-   1. in the cases specified in Article 24(1) of this Origin Reference Document, a declaration, subsequently referred to as the ‘origin declaration’, given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The text of the origin declaration appears in Annex IV; or
+   1. in the cases specified in Article 24(1) of this Origin Reference Document, a declaration, subsequently referred to as the 'origin declaration', given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The text of the origin declaration appears in Annex IV; or
 
    2. a movement certificate EUR 1, a specimen of which appears in Annex III.
 

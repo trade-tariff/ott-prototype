@@ -6,7 +6,7 @@
 
    2. a movement certificate EUR-MED a specimen of which appears in Annex IIIb; or
 
-   3. in the cases specified in Article 22(1), a declaration (hereinafter referred to as the ‘origin declaration’ or the ‘origin declaration EUR-MED’), given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The texts of the origin declarations appear in Annexes IVa and IVb.
+   3. in the cases specified in Article 22(1), a declaration (hereinafter referred to as the 'origin declaration' or the ‘origin declaration EUR-MED’), given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The texts of the origin declarations appear in Annexes IVa and IVb.
 
 2. Notwithstanding paragraph 1, originating products within the meaning of this Origin Reference Document shall, in the cases specified in Article 27, benefit from the United Kingdom-Palestinian Authority Agreement without it being necessary to submit any of the proofs of origin referred to in paragraph 1 of this Article. 
 

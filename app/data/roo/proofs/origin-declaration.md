@@ -1,5 +1,5 @@
 Origin declaration
-You can make an origin declaration (also known as an ‘invoice declaration’ or ‘statement on origin’) on a commercial document that has enough detail in it to identify the origin of the goods. The document can be:
+You can make an origin declaration (also known as an 'invoice declaration' or ‘statement on origin’) on a commercial document that has enough detail in it to identify the origin of the goods. The document can be:
 
 an invoice
 a packing list

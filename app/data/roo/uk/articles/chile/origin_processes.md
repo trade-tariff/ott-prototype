@@ -4,7 +4,7 @@
 
     1. a movement certificate EUR.1, a specimen of which appears in Appendix III; *or*
 
-    2. in the cases specified in Article 20(1), a declaration, subsequently referred to as the ‘invoice declaration’, given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The text of the invoice declaration appears in Appendix IV.
+    2. in the cases specified in Article 20(1), a declaration, subsequently referred to as the 'invoice declaration', given by the exporter on an invoice, a delivery note or any other commercial document which describes the products concerned in sufficient detail to enable them to be identified. The text of the invoice declaration appears in Appendix IV.
 
 2. Notwithstanding paragraph 1, originating products within the meaning of this Origin Reference Document shall, in the cases specified in Article 25, benefit from the United Kingdom-Chile Agreement without it being necessary to submit any of the documents referred to above.
 

@@ -1,6 +1,6 @@
 ## Proof of Origin
 
-1. Products originating in the UK, on importation into Canada, and products originating in Canada, on importation into the UK, benefit from preferential tariff treatment of the United Kingdom-Canada Agreement on the basis of a declaration (‘origin declaration’).
+1. Products originating in the UK, on importation into Canada, and products originating in Canada, on importation into the UK, benefit from preferential tariff treatment of the United Kingdom-Canada Agreement on the basis of a declaration ('origin declaration').
 
 2. The origin declaration is provided on an invoice or any other commercial document that describes the originating product in sufficient detail to enable its identification.
 
