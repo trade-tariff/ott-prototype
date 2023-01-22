@@ -12,6 +12,7 @@ const GeographicalArea = require('../classes/geographical_area');
 const Link = require('../classes/link');
 const Context = require('../classes/context');
 const RooScheme = require('../classes/roo_scheme');
+const RooProofs = require('../classes/roo_proofs.js');
 
 const { xor } = require('lodash');
 
@@ -705,6 +706,20 @@ router.get([
     context.get_document(req);
 
     res.render('roo_new/99_document', {
+        'context': context
+    });
+});
+
+// Document
+router.get([
+    '/roo/proofs'
+], function (req, res) {
+    var context = new Context(req, "");
+    var roo = new RooProofs(context);
+    context.use_details_on_proofs_page = parseInt(process.env.USE_DETAILS_ON_PROOFS_PAGE) + 0;
+    var a = 1
+    res.render('roo_new/all_proofs', {
+        'roo': roo,
         'context': context
     });
 });

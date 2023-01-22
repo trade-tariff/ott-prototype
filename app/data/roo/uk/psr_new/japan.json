@@ -7,7 +7,7 @@
                   "max": "0106999999",
                   "rules": [
                         {
-                              "rule": "All animals of [chapter&nbsp;1](/chapters/1) are wholly obtained.",
+                              "rule": "All animals of [chapter&nbsp;01](/chapters/01) are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -23,7 +23,7 @@
                   "max": "0210999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;1](/chapters/1) and [chapter&nbsp;2](/chapters/2) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;01](/chapters/01) and [chapter&nbsp;2](/chapters/02) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -78,7 +78,7 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;4](/chapters/4) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -110,7 +110,7 @@
                   "max": "0604999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;6](/chapters/6) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -126,7 +126,7 @@
                   "max": "0714999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;7](/chapters/7) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -142,7 +142,7 @@
                   "max": "0814999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;8](/chapters/8) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;08](/chapters/08) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -673,7 +673,7 @@
                   "max": "1601999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapters 2](/chapters/2), 3 and 16 and heading\n\n10.06 used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapters 02](/chapters/02), 3 and 16 and heading\n\n10.06 used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -705,7 +705,7 @@
                   "max": "1602329999",
                   "rules": [
                         {
-                              "rule": "CC except from [chapter&nbsp;2](/chapters/2).",
+                              "rule": "CC except from [chapter&nbsp;02](/chapters/02).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -751,7 +751,7 @@
                   "max": "1602599999",
                   "rules": [
                         {
-                              "rule": "CC except from [chapter&nbsp;2](/chapters/2).",
+                              "rule": "CC except from [chapter&nbsp;02](/chapters/02).",
                               "class": [
                                     "Unspecified"
                               ],
@@ -797,7 +797,7 @@
                   "max": "1603999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapters 2](/chapters/2), 3 and 16 used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapters 02](/chapters/02), 3 and 16 used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -813,7 +813,7 @@
                   "max": "1605999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapters 2](/chapters/2), 3 and 16 and heading\n\n10.06 used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapters 02](/chapters/02), 3 and 16 and heading\n\n10.06 used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -901,7 +901,7 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/4) and heading\n\n19.01 used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;04](/chapters/04) and heading\n\n19.01 used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1158,7 +1158,7 @@
                   "max": "2003999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the materials of [chapter&nbsp;7](/chapters/7) used are wholly obtained.",
+                              "rule": "Production in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -1343,7 +1343,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/4) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;04](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1360,7 +1360,7 @@
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the materials of Konnyaku of [subheading&nbsp;121299](/subheading/1212990000-80) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/4) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1001](/headings/1001) used does not exceed **30%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1003](/headings/1003) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1006](/headings/1006) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the materials of Konnyaku of [subheading&nbsp;121299](/subheading/1212990000-80) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [chapter&nbsp;04](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1001](/headings/1001) used does not exceed **30%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1003](/headings/1003) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1006](/headings/1006) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1393,7 +1393,7 @@
                   "max": "2202999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/4) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;04](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1410,7 +1410,7 @@
                   "max": "2208999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80) and [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained, *and*\n\n- the weight of non-originating materials of [chapter&nbsp;4](/chapters/4) used does not exceed **40%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80) and [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained, *and*\n\n- the weight of non-originating materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -7258,7 +7258,7 @@
                   "valid": true
             },
             {
-                  "heading": "7007 -7009",
+                  "heading": "7007-7009",
                   "subdivision": "",
                   "min": "7007000000",
                   "max": "7009999999",
@@ -7283,6 +7283,38 @@
                                     "RVC"
                               ],
                               "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "700711",
+                  "subdivision": "",
+                  "min": "7007110000",
+                  "max": "7007119999",
+                  "rules": [
+                        {
+                              "rule": "Tempering of non-originating materials, provided that nonoriginating materials of [heading&nbsp;7007](/headings/7007) are not used.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "700721",
+                  "subdivision": "",
+                  "min": "7007210000",
+                  "max": "7007219999",
+                  "rules": [
+                        {
+                              "rule": "Tempering or laminating of non-originating materials, provided that non-originating materials of [heading&nbsp;7007](/headings/7007) are not used.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -9701,24 +9733,89 @@
                   "valid": true
             },
             {
-                  "heading": "8706",
+                  "heading": "8703",
                   "subdivision": "",
-                  "min": "8706000000",
-                  "max": "8706999999",
+                  "min": "8703000000",
+                  "max": "8703999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM).",
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2022)</b>.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2022)</b>.",
                               "class": [
                                     "RVC"
                               ],
-                              "operator": "or"
+                              "operator": null
+                        },
+                        {
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2023 to 31st Dec 2025)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2023 to 31st Dec 2025)</b>.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2026 onwards)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2026 onwards)</b>.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8706",
+                  "subdivision": "",
+                  "min": "8706000000",
+                  "max": "8706999999",
+                  "rules": [
+                        {
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2025 onwards)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2025 onwards)</b>.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -9730,18 +9827,48 @@
                   "max": "8707999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM).",
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
                               "class": [
                                     "RVC"
                               ],
-                              "operator": "or"
+                              "operator": null
+                        },
+                        {
+                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2025 onwards)</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2025 onwards)</b>.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870710",
+                  "subdivision": "",
+                  "min": "8707100000",
+                  "max": "8707199999",
+                  "rules": [
+                        {
+                              "rule": "Your goods are produced from non-originating semi-finished steel products of [heading&nbsp;7207](/headings/7207), [heading&nbsp;7218](/headings/7218) and [heading&nbsp;7224](/headings/7224).",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -9772,6 +9899,86 @@
                                     "RVC"
                               ],
                               "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870810",
+                  "subdivision": "",
+                  "min": "8708100000",
+                  "max": "8708199999",
+                  "rules": [
+                        {
+                              "rule": "All non-originating polymer and flat-rolled products used shall be moulded or stamped.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870829",
+                  "subdivision": "Body stampings (not including parts thereof)",
+                  "min": "8708290000",
+                  "max": "8708299999",
+                  "rules": [
+                        {
+                              "rule": "All non-originating materials shall be moulded or stamped.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870829",
+                  "subdivision": "Door assemblies (not including parts thereof)",
+                  "min": "8708290000",
+                  "max": "8708299999",
+                  "rules": [
+                        {
+                              "rule": "All non-originating materials used to produce door skin or insole panel shall be moulded or stamped *and*\n\nall non-originating door parts used shall be assembled *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870850",
+                  "subdivision": "Drive\n-axles with differential, whether or not provided with other transmission components",
+                  "min": "8708500000",
+                  "max": "8708599999",
+                  "rules": [
+                        {
+                              "rule": "Drive shaft and differential gears are produced from non-originating flat-rolled metal *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "870850",
+                  "subdivision": "Non\n-driving axles (not including parts thereof)",
+                  "min": "8708500000",
+                  "max": "8708599999",
+                  "rules": [
+                        {
+                              "rule": "Non-driving axles are produced from non-originating flat rolled metal *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true

@@ -1,29 +1,49 @@
 <h2 class="govuk-heading-m" id="proofs">Proofs of origin</h2>
-<h3 class="govuk-heading-s govuk-!-margin-bottom-2">Proofs of origin for importing goods from {{ context.country_name }}</h3>
 {% for scheme in roo_psrs.roo_schemes %}
     {% if scheme.proofs | length > 0 %}
-    {# <p>The following proofs of origin may be used for the import of goods from {{ context.country_name }}</p> #}
-        <ul class="govuk-list govuk-list--bullet">
+
+        {% if scheme.proofs | length > 1 %}
+            <p>The following are valid proofs of origin:</p>
+        {% else %}
+            <p>The following proof of origin is valid:</p>
+        {% endif %}
+
         {% for proof in scheme.proofs %}
-            <li><a href="{{ proof.url}}">{{ proof.summary}}</a> {{ proof.subtext}}</li>
+            <details class="govuk-details govuk-!-margin-bottom-1" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                    <span class="govuk-details__summary-text">
+                        {{proof.summary}}
+                    </span>
+                </summary>
+                <div class="govuk-details__text proof">
+                    {{proof.html_content | safe }}
+                </div>
+            </details>
         {% endfor %}
-        </ul>
-    {% endif %}
-{% endfor %}
-<h3 class="govuk-heading-s govuk-!-margin-bottom-2">Proofs of origin for exporting goods to {{ context.country_name }}</h3>
-{% for scheme in roo_psrs.roo_schemes %}
-    {% if scheme.proofs | length > 0 %}
-    {# <p>The following proofs of origin may be used for the exporting of goods from {{ context.country_name }}</p> #}
-        <ul class="govuk-list govuk-list--bullet">
-        {% for proof in scheme.proofs %}
-            <li><a href="{{ proof.url}}">{{ proof.summary}}</a> {{ proof.subtext}}</li>
-        {% endfor %}
-        </ul>
+
+        {# <ul class="govuk-list govuk-list--bullet">
+            {% for proof in scheme.proofs %}
+                <li>
+                    <a href="{{ proof.url}}">{{ proof.summary}}</a>
+                    {{ proof.subtext}}
+                </li>
+
+            {% endfor %}
+
+        </ul> #}
     {% endif %}
 {% endfor %}
 
-<h3 class="govuk-heading-s govuk-!-margin-bottom-2">Find out more about proofs of origin</h3>
+{# <h3 class="govuk-heading-s govuk-!-margin-top-6 govuk-!-margin-bottom-2">Find out more about proofs of origin</h3> #}
+<p class="govuk-!-margin-top-6 govuk-!-margin-bottom-2">Find out more about proofs of origin:</p>
 <ul class="govuk-list govuk-list--bullet">
-    <li><a href="#">How proofs of origin are verified</a></li>
-    <li><a href="#">Detailed processes and requirements for proving the origin for goods</a></li>
+    <li>
+        <a href="/roo/verification/{{ commodity.goods_nomenclature_item_id }}/FR">How proofs of origin are verified</a>
+    </li>
+    <li>
+        <a href="/roo/origin_processes/{{ commodity.goods_nomenclature_item_id }}/FR">Detailed processes and requirements for proving the origin for goods</a>
+    </li>
+    <li>
+        <a href="/roo/proofs">See valid proofs of origin for all trade agreements</a>
+    </li>
 </ul>

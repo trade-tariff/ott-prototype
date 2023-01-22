@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+  Proofs of origin
+{% endblock %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "/sections"
+    },
+    {
+      text: "Rules of origin",
+      href: "/roo"
+    },
+    {
+      text: "Glossary of key terms",
+      href: ""
+    }
+  ]
+}) }}
+{% endblock %}
+{% block content %}
+    {% include "includes/language_selector.html" %}
+    <div class="govuk-grid-row" id="top">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">Rules of origin</span>
+            <h1 class="govuk-heading-l">Proofs of origin required for all trade agreements</h1>
+            {# <p class="govuk-body-l">This is a glossary for terms related to Rules of Origin.</p> #}
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+
+            <nav class="gem-c-contents-list  gem-c-contents-list--no-underline" aria-label="contents" role="navigation">
+                <h2 class="gem-c-contents-list__title">Contents</h2>
+                <ol class="gem-c-contents-list__list">
+                    {% for scheme in roo.roo_schemes %}
+                        <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                            <a class="gem-c-contents-list__link govuk-link " href="#{{ scheme.scheme_code }}">{{ scheme.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </nav>
+
+            {% for scheme in roo.roo_schemes %}
+                <div id="{{ scheme.scheme_code }}" class="proof">
+                    <h2 class="govuk-heading-m govuk-!-margin-top-3">{{ scheme.title | safe }}</h2>
+                    {% if scheme.proofs | length > 1 %}
+                        <p>The following are valid proofs of origin:</p>
+                    {% else %}
+                        <p>The following proof of origin is valid:</p>
+                    {% endif %}
+
+                    {% if context.use_details_on_proofs_page == 1 %}
+                        {% for proof in scheme.proofs %}
+                            <details class="govuk-details govuk-!-margin-bottom-1" data-module="govuk-details">
+                                <summary class="govuk-details__summary">
+                                    <span class="govuk-details__summary-text">
+                                        {{proof.summary}}
+                                    </span>
+                                </summary>
+                                <div class="govuk-details__text">
+                                    {{proof.html_content | safe }}
+                                </div>
+                            </details>
+                        {% endfor %}
+                    {% else %}
+                        {% for proof in scheme.proofs %}
+                            <h3 class="govuk-heading-s govuk-!-margin-bottom-1">{{proof.summary}}</h3>
+                            {{proof.html_content | safe }}
+                        {% endfor %}
+                        <p>
+                            <a href="#top">Back to top</a>
+                        </p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+        </div>
+        <div class="govuk-grid-column-one-quarter"></div>
+    </div>
+
+{% endblock %}
+</html>

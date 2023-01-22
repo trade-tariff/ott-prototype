@@ -994,7 +994,6 @@ router.get(['/notes'], function (req, res) {
 
 // Comm code history
 router.get(['/commodity_history/:commodity_code'], function (req, res) {
-    var a = process.env.USER_ID;
     var context = new Context(req);
     var commodity_code = req.params["commodity_code"];
     if (commodity_code.length == 4) {

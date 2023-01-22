@@ -10,7 +10,7 @@ class RooFixer {
 
         this.parse_data()
         this.get_schemes_file()
-        this.apply_subtexts()
+        // this.apply_subtexts()
 
         delete this.data
         delete this.included
@@ -48,11 +48,13 @@ class RooFixer {
                 subtexts.forEach(subtext => {
                     if (subtext.summary == proof.summary) {
                         proof.subtext = subtext.subtext
+                        proof.proof_class = subtext.proof_class
                         var a = 1
                     }
                 });
             });
         });
+        var a = 1
     }
 }
 module.exports = RooFixer

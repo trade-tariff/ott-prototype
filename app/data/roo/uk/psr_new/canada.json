@@ -7,7 +7,7 @@
                   "max": "0106999999",
                   "rules": [
                         {
-                              "rule": "All animals of [chapter&nbsp;1](/chapters/1) are wholly obtained.",
+                              "rule": "All animals of [chapter&nbsp;01](/chapters/01) are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -23,7 +23,7 @@
                   "max": "0210999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;1](/chapters/1) or [chapter&nbsp;2](/chapters/2) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;01](/chapters/01) or [chapter&nbsp;2](/chapters/02) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -39,7 +39,7 @@
                   "max": "0309999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;3](/chapters/3) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;03](/chapters/03) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -55,7 +55,7 @@
                   "max": "0401999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that all the material of [chapter&nbsp;4](/chapters/4) used is wholly obtained.",
+                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that all the material of [chapter&nbsp;04](/chapters/04) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -71,7 +71,7 @@
                   "max": "0402199999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n\n- a) all the material of [chapter&nbsp;4](/chapters/4) used is wholly obtained, *and*\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product.",
+                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n\n- a) all the material of [chapter&nbsp;04](/chapters/04) used is wholly obtained, *and*\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -87,7 +87,7 @@
                   "max": "0402999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n\n- a) all the material of [chapter&nbsp;4](/chapters/4) used is wholly obtained, *and*\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n\n- a) all the material of [chapter&nbsp;04](/chapters/04) used is wholly obtained, *and*\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -103,7 +103,7 @@
                   "max": "0406999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n- a) all the material of [chapter&nbsp;4](/chapters/4) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other chapter, except from dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids, provided that:\n\n- a) all the material of [chapter&nbsp;04](/chapters/04) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -119,7 +119,7 @@
                   "max": "0410999999",
                   "rules": [
                         {
-                              "rule": "Production in which:\n\n- a) all the material of [chapter&nbsp;4](/chapters/4) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "Production in which:\n\n- a) all the material of [chapter&nbsp;04](/chapters/04) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -151,7 +151,7 @@
                   "max": "0604999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;6](/chapters/6) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;06](/chapters/06) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -167,7 +167,7 @@
                   "max": "0709999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -183,7 +183,7 @@
                   "max": "0710899999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -199,7 +199,7 @@
                   "max": "0710999999",
                   "rules": [
                         {
-                              "rule": "A change from any other subheading, provided that:\n\n- a) the net weight of non-originating asparagus, beans, broccoli, cabbage, carrots, cauliflower, courgettes, cucumbers, gherkins, globe artichokes, mushrooms, onions, peas, potatoes, sweet corn, sweet peppers and tomatoes of [chapter&nbsp;7](/chapters/7) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- b) the net weight of non-originating vegetables of [chapter&nbsp;7](/chapters/7) used in production does not exceed **50%** of the net weight of the product.",
+                              "rule": "A change from any other subheading, provided that:\n\n- a) the net weight of non-originating asparagus, beans, broccoli, cabbage, carrots, cauliflower, courgettes, cucumbers, gherkins, globe artichokes, mushrooms, onions, peas, potatoes, sweet corn, sweet peppers and tomatoes of [chapter&nbsp;07](/chapters/07) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- b) the net weight of non-originating vegetables of [chapter&nbsp;07](/chapters/07) used in production does not exceed **50%** of the net weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -215,7 +215,7 @@
                   "max": "0711999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -231,7 +231,7 @@
                   "max": "0712399999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -247,14 +247,14 @@
                   "max": "0712999999",
                   "rules": [
                         {
-                              "rule": "A change to mixtures of dried vegetables from single dried vegetables from within this subheading or any other subheading, provided that:\n\n- a) the net weight of non-originating cabbage, carrots, courgettes, cucumbers, gherkins, globe artichokes, mushrooms, potatoes, sweet corn, sweet peppers, tomatoes and turnips of [chapter&nbsp;7](/chapters/7) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- b) the net weight of non-originating vegetables of [chapter&nbsp;7](/chapters/7) used in production does not exceed **50%** of the net weight of the product.",
+                              "rule": "A change to mixtures of dried vegetables from single dried vegetables from within this subheading or any other subheading, provided that:\n\n- a) the net weight of non-originating cabbage, carrots, courgettes, cucumbers, gherkins, globe artichokes, mushrooms, potatoes, sweet corn, sweet peppers, tomatoes and turnips of [chapter&nbsp;07](/chapters/07) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- b) the net weight of non-originating vegetables of [chapter&nbsp;07](/chapters/07) used in production does not exceed **50%** of the net weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "For any other product of [subheading&nbsp;071290](/subheading/0712900000-80), production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "For any other product of [subheading&nbsp;071290](/subheading/0712900000-80), production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -270,7 +270,7 @@
                   "max": "0714999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -286,7 +286,7 @@
                   "max": "0810999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;8](/chapters/8) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;08](/chapters/08) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -302,7 +302,7 @@
                   "max": "0811999999",
                   "rules": [
                         {
-                              "rule": "Production in which:\n\n- a) all the material of [chapter&nbsp;8](/chapters/8) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product.",
+                              "rule": "Production in which:\n\n- a) all the material of [chapter&nbsp;08](/chapters/08) used is wholly obtained, *and*\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product.",
                               "class": [
                                     "WO"
                               ],
@@ -318,7 +318,7 @@
                   "max": "0812999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;8](/chapters/8) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;08](/chapters/08) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -334,7 +334,7 @@
                   "max": "0813499999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;8](/chapters/8) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;08](/chapters/08) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -350,7 +350,7 @@
                   "max": "0813599999",
                   "rules": [
                         {
-                              "rule": "A change from any other subheading, provided that:\n\n- a) the net weight of non-originating almonds, apples, apricots, bananas, cherries, chestnuts, citrus fruit, figs, grapes, hazelnuts, nectarines, peaches, pears, plums and walnuts of [chapter&nbsp;8](/chapters/8) used in production does not exceed **20%** of the net weight of the product,\n\n- b) the net weight of non-originating fruits and nuts other than almonds, apples, apricots, bananas, brazil nuts, carambola, cashew apples, cashew nuts, cherries, chestnuts, citrus fruit, coconuts, figs, grapes, guava, hazelnuts, jackfruit, lychees, macadamia nuts, mangoes, mangosteens, nectarines, papaws (papaya), passion fruit, peaches, pears, pistachios, pitahaya, plums, tamarinds or walnuts of [chapter&nbsp;8](/chapters/8) used in production does not exceed **50%** of the net weight of the product, *and*\n\n- c) the net weight of non-originating fruits and nuts of [chapter&nbsp;8](/chapters/8) used in production does not exceed **80%** of the net weight of the product.",
+                              "rule": "A change from any other subheading, provided that:\n\n- a) the net weight of non-originating almonds, apples, apricots, bananas, cherries, chestnuts, citrus fruit, figs, grapes, hazelnuts, nectarines, peaches, pears, plums and walnuts of [chapter&nbsp;08](/chapters/08) used in production does not exceed **20%** of the net weight of the product,\n\n- b) the net weight of non-originating fruits and nuts other than almonds, apples, apricots, bananas, brazil nuts, carambola, cashew apples, cashew nuts, cherries, chestnuts, citrus fruit, coconuts, figs, grapes, guava, hazelnuts, jackfruit, lychees, macadamia nuts, mangoes, mangosteens, nectarines, papaws (papaya), passion fruit, peaches, pears, pistachios, pitahaya, plums, tamarinds or walnuts of [chapter&nbsp;08](/chapters/08) used in production does not exceed **50%** of the net weight of the product, *and*\n\n- c) the net weight of non-originating fruits and nuts of [chapter&nbsp;08](/chapters/08) used in production does not exceed **80%** of the net weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -366,7 +366,7 @@
                   "max": "0814999999",
                   "rules": [
                         {
-                              "rule": "Production in which all the material of [chapter&nbsp;8](/chapters/8) used is wholly obtained.",
+                              "rule": "Production in which all the material of [chapter&nbsp;08](/chapters/08) used is wholly obtained.",
                               "class": [
                                     "WO"
                               ],
@@ -694,7 +694,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "A change to inedible mixtures of animal or vegetable fats or oils or their fractions, or preparations thereof, containing 0.**15%** or less by net weight of insoluble impurities from within this heading or any other heading, provided that the production reduces the insoluble impurity content.",
+                              "rule": "A change to inedible mixtures of animal or vegetable fats or oils or their fractions, or preparations thereof, containing **0.15%** or less by net weight of insoluble impurities from within this heading or any other heading, provided that the production reduces the insoluble impurity content.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -749,7 +749,7 @@
                   "max": "1602999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from [chapter&nbsp;2](/chapters/2).",
+                              "rule": "A change from any other chapter, except from [chapter&nbsp;02](/chapters/02).",
                               "class": [
                                     "CC EXCEPT"
                               ],
@@ -765,7 +765,7 @@
                   "max": "1603999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from [chapter&nbsp;2](/chapters/2) or [chapter&nbsp;3](/chapters/3).",
+                              "rule": "A change from any other chapter, except from [chapter&nbsp;02](/chapters/02) or [chapter&nbsp;3](/chapters/03).",
                               "class": [
                                     "CC EXCEPT"
                               ],
@@ -781,7 +781,7 @@
                   "max": "1605999999",
                   "rules": [
                         {
-                              "rule": "A change from any other chapter, except from [chapter&nbsp;3](/chapters/3).",
+                              "rule": "A change from any other chapter, except from [chapter&nbsp;03](/chapters/03).",
                               "class": [
                                     "CC EXCEPT"
                               ],
@@ -846,10 +846,26 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n- a) \n\n- i) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product or (ii) the value of non-originating sugar used in production does not exceed **30%** of the transaction value or ex-works price of the product *and*\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n- a) \n\n- i) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product or (ii) the value of non-originating sugar used in production does not exceed **30%** of the transaction value or ex-works price of the product *and*\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1704",
+                  "subdivision": "",
+                  "min": "1704000000",
+                  "max": "1704999999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
                               ],
                               "operator": null
                         }
@@ -911,7 +927,72 @@
                   "max": "1806999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n- a) \n\n- i) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product or (ii) the value of non-originating sugar used in production does not exceed **30%** of the transaction value or ex-works price of the product, *and*\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n- a) \n\n- i) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product or (ii) the value of non-originating sugar used in production does not exceed **30%** of the transaction value or ex-works price of the product, *and*\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "180631",
+                  "subdivision": "",
+                  "min": "1806310000",
+                  "max": "1806319999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other subheading, provided that the change is the result of more than packaging. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "180632",
+                  "subdivision": "",
+                  "min": "1806320000",
+                  "max": "1806329999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other subheading, provided that the change is the result of more than packaging. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "180690",
+                  "subdivision": "",
+                  "min": "1806900000",
+                  "max": "1806999999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other subheading, provided that the change is the result of more than packaging. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1901",
+                  "subdivision": "",
+                  "min": "1901000000",
+                  "max": "1901999999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading, provided that:\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **40%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -928,10 +1009,9 @@
                   "max": "1901999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product, *and*\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **40%** of the net weight of the product.",
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
                               "class": [
-                                    "CTH",
-                                    "MAXNOM"
+                                    "CTH"
                               ],
                               "operator": null
                         }
@@ -945,10 +1025,58 @@
                   "max": "1902199999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the weight of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the weight of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1902110020",
+                  "subdivision": "",
+                  "min": "1902110020",
+                  "max": "1902110029",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1902191020",
+                  "subdivision": "",
+                  "min": "1902191020",
+                  "max": "1902191029",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1902199020",
+                  "subdivision": "",
+                  "min": "1902199020",
+                  "max": "1902199029",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
                               ],
                               "operator": null
                         }
@@ -962,7 +1090,7 @@
                   "max": "1902299999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [chapter&nbsp;2](/chapters/2), [chapter&nbsp;3](/chapters/3) or [chapter&nbsp;16](/chapters/16) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- c) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [chapter&nbsp;02](/chapters/02), [chapter&nbsp;03](/chapters/03) or [chapter&nbsp;16](/chapters/16) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- c) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -979,10 +1107,42 @@
                   "max": "1902499999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1902301020",
+                  "subdivision": "",
+                  "min": "1902301020",
+                  "max": "1902301029",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1902309020",
+                  "subdivision": "",
+                  "min": "1902309020",
+                  "max": "1902309029",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
                               ],
                               "operator": null
                         }
@@ -1007,18 +1167,64 @@
                   "valid": true
             },
             {
+                  "heading": "190410",
+                  "subdivision": "",
+                  "min": "1904100000",
+                  "max": "1904199999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "A change from within this heading, whether or not there is also a change from any other heading, provided that the weight of the non-originating materials of this heading does not exceed **30%** of either the net weight of the product or the net weight of all material used in production <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": "or"
+                        }
+                  ],
+                  "valid": true
+            },
+            {
                   "heading": "190410-190420",
                   "subdivision": "",
                   "min": "1904100000",
                   "max": "1904299999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **40%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **40%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
                               ],
                               "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "190420",
+                  "subdivision": "",
+                  "min": "1904200000",
+                  "max": "1904299999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "A change from within this heading, whether or not there is also a change from any other heading, provided that the weight of the non-originating materials of this heading does not exceed **30%** of either the net weight of the product or the net weight of all material used in production <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": "or"
                         }
                   ],
                   "valid": true
@@ -1047,7 +1253,40 @@
                   "max": "1904999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **40%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **30%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **40%** of the net weight of the product.",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "190490",
+                  "subdivision": "",
+                  "min": "1904900000",
+                  "max": "1904999999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1905",
+                  "subdivision": "",
+                  "min": "1905000000",
+                  "max": "1905999999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **50%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1064,10 +1303,9 @@
                   "max": "1905999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating material of [heading&nbsp;1006](/headings/1006) or [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product,\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- d) the net weight of non-originating sugar and non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **50%** of the net weight of the product.",
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
                               "class": [
-                                    "CTH",
-                                    "MAXNOM"
+                                    "CTH"
                               ],
                               "operator": null
                         }
@@ -1097,12 +1335,11 @@
                   "max": "2003999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, in which all the material of [chapter&nbsp;7](/chapters/7) used is wholly obtained.",
+                              "rule": "A change from any other heading, in which all the material of [chapter&nbsp;07](/chapters/07) used is wholly obtained.",
                               "class": [
                                     "CTH",
                                     "MAXNOM",
-                                    "(CTH",
-                                    "WO)"
+                                    "WO"
                               ],
                               "operator": null
                         }
@@ -1383,13 +1620,44 @@
                                     "MAXNOM"
                               ],
                               "operator": null
+                        },
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
             },
             {
                   "heading": "200989",
-                  "subdivision": "",
+                  "subdivision": "Blueberry juice",
+                  "min": "2009890000",
+                  "max": "2009899999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading, provided that the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product.",
+                              "class": [
+                                    "CTH",
+                                    "MAXNOM"
+                              ],
+                              "operator": null
+                        },
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "200989",
+                  "subdivision": "Others",
                   "min": "2009890000",
                   "max": "2009899999",
                   "rules": [
@@ -1434,7 +1702,23 @@
                   "max": "2101399999",
                   "rules": [
                         {
-                              "rule": "A change from any other subheading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other subheading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "210112",
+                  "subdivision": "",
+                  "min": "2101120000",
+                  "max": "2101129999",
+                  "rules": [
+                        {
+                              "rule": "A change from any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1533,6 +1817,13 @@
                                     "Unspecified"
                               ],
                               "operator": "or"
+                        },
+                        {
+                              "rule": "A change from any other heading <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
                         }
                   ],
                   "valid": true
@@ -1544,7 +1835,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "A change from any other subheading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other subheading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1560,7 +1851,7 @@
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **40%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1593,7 +1884,7 @@
                   "max": "2202199999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1617,7 +1908,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "A change to any other product of [subheading&nbsp;220290](/subheading/2202900000-80) from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change to any other product of [subheading&nbsp;220290](/subheading/2202900000-80) from any other heading, provided that:\n\n\n- a) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- b) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -1781,7 +2072,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, except from [chapter&nbsp;2](/chapters/2) or [chapter&nbsp;3](/chapters/3), provided that:\n\n\n- a) the net weight of non-originating material of [chapter&nbsp;10](/chapters/10) or [chapter&nbsp;11](/chapters/11) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;4](/chapters/4) used in production does not exceed **20%** of the net weight of the product.",
+                              "rule": "A change from any other heading, except from [chapter&nbsp;02](/chapters/02) or [chapter&nbsp;3](/chapters/03), provided that:\n\n\n- a) the net weight of non-originating material of [chapter&nbsp;10](/chapters/10) or [chapter&nbsp;11](/chapters/11) used in production does not exceed **20%** of the net weight of the product,\n\n\n- b) the net weight of non-originating sugar used in production does not exceed **20%** of the net weight of the product, *and*\n\n\n- c) the net weight of non-originating material of [chapter&nbsp;04](/chapters/04) used in production does not exceed **20%** of the net weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -2699,7 +2990,7 @@
                   "max": "3502999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, except from [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4).",
+                              "rule": "A change from any other heading, except from [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04).",
                               "class": [
                                     "CTH",
                                     "CTH EXCEPT"
@@ -2707,7 +2998,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "A change from [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4), whether or not there is also a change from any other heading, provided that the value of non-originating materials of [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4) does not exceed **40%** of the transaction value or ex-works price of the product.",
+                              "rule": "A change from [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04), whether or not there is also a change from any other heading, provided that the value of non-originating materials of [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04) does not exceed **40%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2723,7 +3014,7 @@
                   "max": "3503999999",
                   "rules": [
                         {
-                              "rule": "A change from any other heading, except from [chapter&nbsp;2](/chapters/2) other than swine skin or [chapter&nbsp;3](/chapters/3) other than fish skin.",
+                              "rule": "A change from any other heading, except from [chapter&nbsp;02](/chapters/02) other than swine skin or [chapter&nbsp;03](/chapters/03) other than fish skin.",
                               "class": [
                                     "CTH",
                                     "CTH EXCEPT"
@@ -2731,7 +3022,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "A change from [chapter&nbsp;2](/chapters/2) other than swine skin or [chapter&nbsp;3](/chapters/3) other than fish skin, whether or not there is also a change from any other heading, swine skin of [chapter&nbsp;2](/chapters/2) or fish skin of [chapter&nbsp;3](/chapters/3), provided that the value of non-originating materials of [chapter&nbsp;2](/chapters/2) other than swine skin or [chapter&nbsp;3](/chapters/3) other than fish skin does not exceed **40%** of the transaction value or ex-works price of the product.",
+                              "rule": "A change from [chapter&nbsp;02](/chapters/02) other than swine skin or [chapter&nbsp;03](/chapters/03) other than fish skin, whether or not there is also a change from any other heading, swine skin of [chapter&nbsp;02](/chapters/02) or fish skin of [chapter&nbsp;03](/chapters/03), provided that the value of non-originating materials of [chapter&nbsp;02](/chapters/02) other than swine skin or [chapter&nbsp;03](/chapters/03) other than fish skin does not exceed **40%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -2747,21 +3038,21 @@
                   "max": "3504999999",
                   "rules": [
                         {
-                              "rule": "A change to milk protein substances from any other heading, except from [chapter&nbsp;4](/chapters/4) or dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids.",
+                              "rule": "A change to milk protein substances from any other heading, except from [chapter&nbsp;04](/chapters/04) or dairy preparations of [subheading&nbsp;190190](/subheading/1901900000-80) containing more than **10%** by dry weight of milk solids.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A change to any other product of [heading&nbsp;3504](/headings/3504) from any other heading, except from non-originating material of [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4) or [heading&nbsp;1108](/headings/1108).",
+                              "rule": "A change to any other product of [heading&nbsp;3504](/headings/3504) from any other heading, except from non-originating material of [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04) or [heading&nbsp;1108](/headings/1108).",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": "or"
                         },
                         {
-                              "rule": "A change to any other product of [heading&nbsp;3504](/headings/3504) from [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4) or [heading&nbsp;1108](/headings/1108), whether or not there is also a change from any other heading, provided that the value of non-originating materials of [chapter&nbsp;2](/chapters/2) to [chapter&nbsp;4](/chapters/4) or [heading&nbsp;1108](/headings/1108) does not exceed **40%** of the transaction value or ex-works price of the product.",
+                              "rule": "A change to any other product of [heading&nbsp;3504](/headings/3504) from [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04) or [heading&nbsp;1108](/headings/1108), whether or not there is also a change from any other heading, provided that the value of non-originating materials of [chapter&nbsp;02](/chapters/02) to [chapter&nbsp;04](/chapters/04) or [heading&nbsp;1108](/headings/1108) does not exceed **40%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -3359,7 +3650,7 @@
                         {
                               "rule": "A change to biodiesel from any other heading, provided that the biodiesel is transesterified in the territory of a Party.",
                               "class": [
-                                    "(CTH RESTRICTION PROCESSING)"
+                                    "CTH RESTRICTION PROCESSING"
                               ],
                               "operator": null
                         },
@@ -3407,7 +3698,7 @@
                               "class": [
                                     "CTH",
                                     "MAXNOM",
-                                    "(CTH RESTRICTION PROCESSING)"
+                                    "CTH RESTRICTION PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4021,8 +4312,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres, accompanied by spinning or twisting.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4038,8 +4328,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres, extrusion of man-made filament yarn or twisting, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4058,7 +4347,7 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4092,8 +4381,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4109,8 +4397,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4129,7 +4416,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4163,8 +4450,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4180,8 +4466,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4200,7 +4485,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4234,8 +4519,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4251,8 +4535,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4271,7 +4554,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4289,8 +4572,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied, if necessary, by spinning or spinning of natural fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4306,8 +4588,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4319,14 +4600,14 @@
                               "operator": null
                         },
                         {
-                              "rule": "Twisting or texturing, accompanied by weaving, provided that the value of the non-twisted or non-textured yarns used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Twisting or texturing, accompanied by weaving, provided that the value of the non-twisted or non-textured yarns used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4360,8 +4641,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4377,8 +4657,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4397,7 +4676,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4454,8 +4733,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by fabric formation.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4478,8 +4756,7 @@
                         {
                               "rule": "Extrusion of man-made fibres or use of natural fibres, accompanied by nonwoven techniques including needle punching.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4527,8 +4804,7 @@
                         {
                               "rule": "Spinning of natural fibres or extrusion of man-made fibres accompanied by spinning.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4552,8 +4828,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by spinning, or spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4577,8 +4852,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by spinning, or spinning of natural or man-made staple fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4616,8 +4890,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4640,8 +4913,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4672,8 +4944,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by spinning or spinning of natural fibres.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4696,8 +4967,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4741,8 +5011,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4768,7 +5037,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4802,8 +5071,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving or fabric formation.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4829,7 +5097,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4863,8 +5131,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving, knitting or non-woven process.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4890,7 +5157,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4908,8 +5175,7 @@
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing, flocking or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -4948,8 +5214,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by weaving, knitting or a non-woven process.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -4965,13 +5230,12 @@
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -4989,8 +5253,7 @@
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -5006,8 +5269,7 @@
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -5023,21 +5285,19 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by weaving, knitting or a non-woven process.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5055,8 +5315,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5086,8 +5345,7 @@
                         {
                               "rule": "Extrusion of man-made fibres accompanied by weaving, knitting or a non-woven process.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -5103,8 +5361,7 @@
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5146,7 +5403,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5212,8 +5469,7 @@
                         {
                               "rule": "Spinning of natural or of man-made staple fibres, in each case accompanied by weaving or knitting.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5236,16 +5492,14 @@
                         {
                               "rule": "Extrusion of man-made filament yarn or spinning of natural or man-made staple fibres, in each case accompanied by weaving, knitting or a non-woven process.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
                               "rule": "Weaving, knitting or a non-woven process, in each case accompanied by dyeing or coating.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": "or"
                         }
@@ -5261,8 +5515,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5288,7 +5541,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Twisting or texturing, accompanied by knitting provided that the value of the non-twisted or non-textured yarns used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Twisting or texturing, accompanied by knitting provided that the value of the non-twisted or non-textured yarns used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5322,8 +5575,7 @@
                         {
                               "rule": "Spinning of natural or man-made staple fibres or extrusion of man-made filament yarn, in each case accompanied by knitting or crocheting.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5346,13 +5598,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing, accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5370,8 +5621,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5394,13 +5644,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5418,13 +5667,12 @@
                         {
                               "rule": "Weaving accompanied by making up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5442,8 +5690,7 @@
                         {
                               "rule": "Weaving accompanied by making up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5466,13 +5713,12 @@
                         {
                               "rule": "Weaving accompanied by making up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5490,13 +5736,12 @@
                         {
                               "rule": "Weaving accompanied by making up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5514,8 +5759,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5538,13 +5782,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5562,13 +5805,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5586,8 +5828,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5610,13 +5851,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5657,13 +5897,12 @@
                         {
                               "rule": "Weaving or other fabric formation process, accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5681,8 +5920,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5705,13 +5943,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5729,13 +5966,12 @@
                         {
                               "rule": "Knitting or weaving, accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5753,8 +5989,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5766,7 +6001,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5784,13 +6019,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5808,13 +6042,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5855,13 +6088,12 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed 47.**5%** of the transaction value or ex-works price of the product.",
+                              "rule": "Making-up preceded by printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink resistance processing, permanent finishing, decatising, impregnating, mending and burling), provided that the value of the unprinted fabric used does not exceed **47.5%** of the transaction value or ex-works price of the product.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -5879,8 +6111,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5903,8 +6134,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5927,8 +6157,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -5944,8 +6173,7 @@
                         {
                               "rule": "Extrusion of man-made fibres or use of natural fibres, in each case accompanied by a non-woven process including needle punching and making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -5961,8 +6189,7 @@
                         {
                               "rule": "Weaving or knitting, accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -5985,8 +6212,7 @@
                         {
                               "rule": "Weaving or knitting, accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -6002,8 +6228,7 @@
                         {
                               "rule": "Extrusion of man-made fibres or spinning of natural or man-made staple fibres, in each case accompanied by weaving or knitting and making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -6026,8 +6251,7 @@
                         {
                               "rule": "Extrusion of man-made fibres or use of natural fibres, in each case accompanied by any non-woven techniques including needle punching.",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         }
@@ -6043,8 +6267,7 @@
                         {
                               "rule": "Weaving accompanied by making-up (including cutting).",
                               "class": [
-                                    "(PROCESSING",
-                                    "PROCESSING)"
+                                    "PROCESSING"
                               ],
                               "operator": null
                         },
@@ -6083,7 +6306,7 @@
                         {
                               "rule": "A change from any other chapter, provided that either the fabric or the yarn meets the rule of origin that would be applicable if the fabric or yarn were classified alone.",
                               "class": [
-                                    "(CC RESTRICTION WO)"
+                                    "CC RESTRICTION WO"
                               ],
                               "operator": null
                         }
@@ -9915,6 +10138,102 @@
                               "rule": "A change from any other heading.",
                               "class": [
                                     "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 130220",
+                  "subdivision": "",
+                  "min": "ex 1302200",
+                  "max": "ex 1302299",
+                  "rules": [
+                        {
+                              "rule": "A change from within this subheading or any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 180610",
+                  "subdivision": "",
+                  "min": "ex 1806100",
+                  "max": "ex 1806199",
+                  "rules": [
+                        {
+                              "rule": "A change from any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 180620",
+                  "subdivision": "",
+                  "min": "ex 1806200",
+                  "max": "ex 1806299",
+                  "rules": [
+                        {
+                              "rule": "A change from within this subheading or any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 190220",
+                  "subdivision": "",
+                  "min": "ex 1902200",
+                  "max": "ex 1902299",
+                  "rules": [
+                        {
+                              "rule": "A change from any other heading. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 210120",
+                  "subdivision": "",
+                  "min": "ex 2101200",
+                  "max": "ex 2101299",
+                  "rules": [
+                        {
+                              "rule": "A change from within this subheading or any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
+                              ],
+                              "operator": null
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "ex 210690",
+                  "subdivision": "",
+                  "min": "ex 2106900",
+                  "max": "ex 2106999",
+                  "rules": [
+                        {
+                              "rule": "A change from within this subheading or any other subheading, except from [subheading&nbsp;170191](/subheading/1701910000-80) through 170199. <b>within annual quota volumes, exported from Canada to UK</b>.",
+                              "class": [
+                                    "Unspecified"
                               ],
                               "operator": null
                         }
