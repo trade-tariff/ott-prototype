@@ -100,7 +100,9 @@
         <h2 class="govuk-heading-m" id="wizard">{{ title_text }}</h2>
 
         <p class="govuk-!-margin-bottom-3">{{ caption_text | safe }}</p>
-
+        <p class="govuk-!-margin-bottom-3">This is not a legal binding decision. For certainty,
+        you can <a target="_blank" href="https://www.gov.uk/guidance/apply-for-an-advance-origin-ruling">apply for
+        an advanced origin ruling (opens in new window)</a>.</p>
         {% if context.scope_id == "xi" %}
             {% if context.permit_uk_roo and context.permit_uk_roo %}
                 <form action="">
