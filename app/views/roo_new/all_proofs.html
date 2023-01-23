@@ -3,22 +3,13 @@
   Proofs of origin
 {% endblock %}
 {% block beforeContent %}
-    {{ govukBreadcrumbs({
-  items: [
-    {
-      text: "Home",
-      href: "/sections"
-    },
-    {
-      text: "Rules of origin",
-      href: "/roo"
-    },
-    {
-      text: "Glossary of key terms",
-      href: ""
-    }
-  ]
+
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.back()"
 }) }}
+
 {% endblock %}
 {% block content %}
     {% include "includes/language_selector.html" %}

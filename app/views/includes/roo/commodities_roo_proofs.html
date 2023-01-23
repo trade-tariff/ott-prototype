@@ -1,11 +1,10 @@
 <h2 class="govuk-heading-m" id="proofs">Proofs of origin</h2>
 {% for scheme in roo_psrs.roo_schemes %}
-    {% if scheme.proofs | length > 0 %}
-
+    {% if roo_psrs.roo_schemes | length > 0 %}
         {% if scheme.proofs | length > 1 %}
-            <p>The following are valid proofs of origin:</p>
+            <p>The following are valid proofs of origin for the {{ scheme.title }}:</p>
         {% else %}
-            <p>The following proof of origin is valid:</p>
+            <p>The following proof of origin is valid for the {{ scheme.title }}:</p>
         {% endif %}
 
         {% for proof in scheme.proofs %}
@@ -21,29 +20,26 @@
             </details>
         {% endfor %}
 
-        {# <ul class="govuk-list govuk-list--bullet">
-            {% for proof in scheme.proofs %}
-                <li>
-                    <a href="{{ proof.url}}">{{ proof.summary}}</a>
-                    {{ proof.subtext}}
-                </li>
-
-            {% endfor %}
-
-        </ul> #}
     {% endif %}
 {% endfor %}
 
-{# <h3 class="govuk-heading-s govuk-!-margin-top-6 govuk-!-margin-bottom-2">Find out more about proofs of origin</h3> #}
-<p class="govuk-!-margin-top-6 govuk-!-margin-bottom-2">Find out more about proofs of origin:</p>
-<ul class="govuk-list govuk-list--bullet">
-    <li>
-        <a href="/roo/verification/{{ commodity.goods_nomenclature_item_id }}/FR">How proofs of origin are verified</a>
-    </li>
-    <li>
-        <a href="/roo/origin_processes/{{ commodity.goods_nomenclature_item_id }}/FR">Detailed processes and requirements for proving the origin for goods</a>
-    </li>
-    <li>
+{% if roo_psrs.roo_schemes | length == 1 %}
+    <p class="govuk-!-margin-top-6 govuk-!-margin-bottom-2">Find out more about proofs of origin:</p>
+    <ul class="govuk-list govuk-list--bullet">
+
+        <li>
+            <a href="/roo/verification/{{ commodity.goods_nomenclature_item_id }}/fr">How proofs of origin are verified</a>
+        </li>
+        <li>
+            <a href="/roo/origin_processes/{{ commodity.goods_nomenclature_item_id }}/fr">Detailed processes and requirements for proving the origin for goods</a>
+        </li>
+
+        <li>
+            <a href="/roo/proofs">See valid proofs of origin for all trade agreements</a>
+        </li>
+    </ul>
+{% else %}
+    <p>
         <a href="/roo/proofs">See valid proofs of origin for all trade agreements</a>
-    </li>
-</ul>
+    </p>
+{% endif %}
