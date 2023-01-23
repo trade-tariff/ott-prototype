@@ -45,9 +45,9 @@ Use form EUR.1 to claim preferential duty rates on goods exported to or imported
 
 1. Notwithstanding Article 17(9), a movement certificate EUR.1 or EUR-MED may exceptionally be issued after exportation of the products to which it relates if:
 
-(a) it was not issued at the time of exportation because of errors, involuntary omissions or special circumstances; or
+    (a) it was not issued at the time of exportation because of errors, involuntary omissions or special circumstances; or
 
-(b) it is demonstrated to the satisfaction of the customs authorities that a movement certificate EUR.1 or EUR-MED was issued but was not accepted at importation for technical reasons.
+    (b) it is demonstrated to the satisfaction of the customs authorities that a movement certificate EUR.1 or EUR-MED was issued but was not accepted at importation for technical reasons.
 
 2. Notwithstanding Article 17(9), a movement certificate EUR-MED may be issued after exportation of the products to which it relates and for which a movement certificate EUR.1 was issued at the time of exportation, provided that it is demonstrated to the satisfaction of the customs authorities that the conditions referred to in Article 17(5) are satisfied.
 

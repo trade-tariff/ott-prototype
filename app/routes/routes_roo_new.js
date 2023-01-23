@@ -565,8 +565,9 @@ router.get(['/roo/proofs/:goods_nomenclature_item_id/:country/'],
         context.get_scope();
         context.get_roo_origin(req);
         context.get_scheme_code(req);
+        console.log("proofs")
         context.get_product_specific_rules_json(req, "check_wo_only");
-        await context.get_proofs();
+        // await context.get_proofs();
         await context.get_roo_links();
 
         res.render('roo_new/15_proofs', {

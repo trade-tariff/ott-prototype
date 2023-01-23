@@ -39,17 +39,31 @@
                     </p>
                 {% endif %}
 
-                <ul class="govuk-list xgovuk-list--bullet">
+                {# <ul class="govuk-list xgovuk-list--bullet">
                     {% for proof in context.proofs %}
                         <li>
                             <a target="_blank" href="{{ proof.attributes.url }}">{{ proof.attributes.summary }} (opens in new tab)</a>
                         </li>
                     {% endfor %}
-                </ul>
+                </ul> #}
+
+                {% for proof in context.proofs %}
+                    <details class="govuk-details govuk-!-margin-bottom-1" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">
+                                {{ proof.summary }}
+                            </span>
+                        </summary>
+                        <div class="govuk-details__text">
+                            {{ proof.html_content | safe }}
+                        </div>
+                    </details>
+                {% endfor %}
+
             {% endif %}
 
-            <h2 class="govuk-heading-m">Next steps</h1>
-            
+            <h2 class="govuk-heading-m govuk-!-margin-top-6">Next steps</h1>
+
             <ul class="govuk-list xgovuk-list--bullet">
                 <li>
                     <a href="/roo/origin_processes/{{ context.goods_nomenclature_item_id }}/{{ context.country }}">

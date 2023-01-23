@@ -472,6 +472,7 @@ class Context {
         }
         if (this.multiple_schemes == false) {
             this.get_psr_file()
+            this.get_proofs_new()
         }
     }
 
@@ -608,12 +609,7 @@ class Context {
     get_psr_file() {
         var filename = this.scheme_code + '.json'
         // var filename = this.scheme_code + "_psr.json"
-        var path =
-            process.cwd() +
-            '/app/data/roo/' +
-            this.scope_id_roo +
-            '/psr_new/' +
-            filename
+        var path = process.cwd() + '/app/data/roo/' + this.scope_id_roo + '/psr_new/' + filename
         this.psr_data = require(path)
     }
 
@@ -882,6 +878,50 @@ class Context {
                 file: 'cumulation.md'
             }
         ]
+    }
+
+    get_proofs_new() {
+        this.proofs = []
+        const path = require('path')
+        var fs = require('fs');
+
+        this.matching_schemes.forEach(scheme => {
+            scheme.proofs.forEach(proof => {
+                var folder = process.cwd() + "/app/data/roo/proofs/proofs-by-scheme"
+                folder = path.join(folder, scheme.scheme_code)
+                var filename = path.join(folder, proof.proof_class + ".md")
+                console.log(filename)
+                if (fs.existsSync(filename)) {
+                    var data = fs.readFileSync(filename, 'utf8');
+                    var md = new MarkdownIt();
+                    var html_content = md.render(data);
+                    html_content = this.govify(html_content);
+                    var a = 1
+                    var obj = {
+                        "summary": proof.summary,
+                        "html_content": html_content
+                    }
+                    this.proofs.push(obj)
+                }
+                else {
+                    this.html_content = "Missing"
+                }
+            });
+        });
+    }
+
+    govify(s) {
+        s = s.replace(/<a /g, "<a target='_blank' ");
+        s = s.replace(/<h1/g, "<h1 class='govuk-heading-l'");
+        s = s.replace(/<h2/g, "<h2 class='govuk-heading-m'");
+        s = s.replace(/<h3/g, "<h3 class='govuk-heading-s'");
+        s = s.replace(/<h4/g, "<h4 class='govuk-heading-s'");
+        s = s.replace(/<ul/g, "<ul class='govuk-list govuk-list--bullet'");
+        s = s.replace(/<ol/g, "<ol class='govuk-list govuk-list--number'");
+
+        s = s.replace(/<h3 class='govuk-heading-s'>([^<]*)<\/h3>/gm, "<h3 class='govuk-heading-s' id='$1'>$1</h3>");
+
+        return (s);
     }
 
     async get_proofs() {
