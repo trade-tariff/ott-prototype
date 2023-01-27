@@ -612,8 +612,7 @@ class Commodity {
                 if (item.hasOwnProperty('relationships')) {
                     item2 = item['relationships']
                     if (item2.hasOwnProperty('additional_code')) {
-                        m.additional_code_id =
-                            item['relationships']['additional_code']['data']['id']
+                        m.additional_code_id = item['relationships']['additional_code']['data']['id']
                     }
                 }
 
@@ -731,12 +730,12 @@ class Commodity {
 
         this.assign_duty_expressions()
         this.assign_geographical_areas()
+        this.get_measure_type_descriptions()
         this.assign_additional_codes()
 
         this.assign_measure_components(req)
         this.get_third_country_duty()
         this.get_preferential_duty()
-        this.get_measure_type_descriptions()
         this.assign_measure_conditions()
         this.get_import_control_prose()
         if (origin != 'basic') {
@@ -1259,13 +1258,54 @@ class Commodity {
 
     // Assign the additional code to the measure
     assign_additional_codes() {
+        var control_series = ["A", "B"]
+        this.measure_types_geographical_areas_and_acs = {}
         this.measures.forEach(m => {
+            var unique_identity = m.measure_type_id + "_" + m.geographical_area_id
             this.additional_codes.forEach(ac => {
                 if (m.additional_code_id == ac.id) {
                     m.additional_code = ac
                     m.additional_code_code = ac.code
+                    if (control_series.includes(m.measure_type_series_id)) {
+                        if (this.measure_types_geographical_areas_and_acs[unique_identity] === undefined) {
+                            this.measure_types_geographical_areas_and_acs[unique_identity] = [ac.code.substr(2, 2)]
+                        } else {
+                            this.measure_types_geographical_areas_and_acs[unique_identity].push(ac.code.substr(2, 2))
+                        }
+                    }
                 }
             })
+        })
+        var others = ['49', '98', '99']
+        var measure_nouns = {
+            "277": "Prohibition",
+            "278": "Prohibition",
+            "464": "Control",
+            "465": "Restriction",
+            "467": "Restriction",
+            "474": "Restriction",
+            "475": "Restriction",
+            "725": "Control"
+        }
+
+        this.measures.forEach(m => {
+            var control_text = "Control"
+            if (measure_nouns[m.measure_type_id] !== undefined) {
+                control_text = measure_nouns[m.measure_type_id]
+            }
+            m.additional_code_message = control_text + " applies to goods covered under "
+            var unique_identity = m.measure_type_id + "_" + m.geographical_area_id
+            if (this.measure_types_geographical_areas_and_acs[unique_identity] !== undefined) {
+                var obj = this.measure_types_geographical_areas_and_acs[unique_identity]
+                if (obj.includes('49') || obj.includes('98') || obj.includes('99')) {
+                    m.additional_code_addendum = " (conditional)"
+                    var s = m.additional_code_code.substr(2, 2)
+                    m.additional_code_text = "additional code"
+                    if (others.includes(s)) {
+                        m.additional_code_message = control_text + " does not apply to goods covered under "
+                    }
+                }
+            }
         })
     }
 

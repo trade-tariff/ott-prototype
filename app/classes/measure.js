@@ -66,6 +66,11 @@ class Measure {
         this.display_block = "";
         this.duty_bearing = null;
         this.condition_codes = [];
+
+        this.additional_code_message = ""
+        this.additional_code_text = "additional code"
+        this.additional_code_addendum = ""
+        // this.additional_code_text = "Measure applies to goods covered under"
     }
 
     structure_conditions() {
@@ -308,9 +313,9 @@ class Measure {
             } else {
                 this.condition_code_tally[ec.condition_code] = 1;
             }
-
         });
     }
+
 
     get_special_conditions() {
         // Strategic
