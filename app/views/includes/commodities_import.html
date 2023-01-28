@@ -132,18 +132,28 @@
                                         {% endif %}
                                     {% endif %}
                                     {% if measure.additional_code %}
-                                        <span class="add_code">
+                                        {% if measure.measure_type_series_id in['A', 'B'] %}
+                                            <span class="add_code">
+                                                <span class="table-line">
+                                                    {{ measure.measure_type_series_id }}
+                                                    {{ measure.additional_code_message | safe }}
+                                                    {{ measure.additional_code_text }}:
+                                            </span>
+                                                <span class="table-line">
+                                                    <div class="tab1">
+                                                        <strong>{{ measure.additional_code.code }}</strong>
+                                                    </div>
+                                                    <div class="tab2">{{ measure.additional_code.description | safe }}</div>
+                                                </span>
+                                            </span>
+                                        {% else %}
                                             <span class="table-line">
-                                                {{ measure.additional_code_message | safe }}
-                                                {{ measure.additional_code_text }}:
+                                                Additional code:&nbsp;<strong>{{ measure.additional_code.code }}</strong>
                                             </span>
                                             <span class="table-line">
-                                                <div class="tab1">
-                                                    <strong>{{ measure.additional_code.code }}</strong>
-                                                </div>
-                                                <div class="tab2">{{ measure.additional_code.description | safe }}</div>
+                                                {{ measure.additional_code.description | safe }}
                                             </span>
-                                        </span>
+                                        {% endif %}
                                     {% endif %}
                                 </div>
                             </td>
