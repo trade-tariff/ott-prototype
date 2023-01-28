@@ -1283,7 +1283,7 @@ class Commodity {
             "464": "Control",
             "465": "Restriction",
             "467": "Restriction",
-            "474": "Restriction",
+            "474": "Control",
             "475": "Restriction",
             "725": "Control"
         }
@@ -1298,7 +1298,8 @@ class Commodity {
             if (this.measure_types_geographical_areas_and_acs[unique_identity] !== undefined) {
                 var obj = this.measure_types_geographical_areas_and_acs[unique_identity]
                 if (obj.includes('49') || obj.includes('98') || obj.includes('99')) {
-                    m.additional_code_addendum = " (conditional)"
+                    // m.additional_code_addendum = " (conditional)"
+                    m.additional_code_addendum = ""
                     var s = m.additional_code_code.substr(2, 2)
                     m.additional_code_text = "additional code"
                     if (others.includes(s)) {
