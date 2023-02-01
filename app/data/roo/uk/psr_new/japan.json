@@ -9739,42 +9739,42 @@
                   "max": "8703999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2022)</b>.",
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2021 to 31st Dec 2022)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2022)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2022)**.",
                               "class": [
                                     "RVC"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2023 to 31st Dec 2025)</b>.",
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2023 to 31st Dec 2025)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2023 to 31st Dec 2025)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods **(1st Jan 2023 to 31st Dec 2025)**.",
                               "class": [
                                     "RVC"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2026 onwards)</b>.",
+                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2026 onwards)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2026 onwards)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods **(1st Jan 2026 onwards)**.",
                               "class": [
                                     "RVC"
                               ],
@@ -9790,28 +9790,28 @@
                   "max": "8706999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2021 to 31st Dec 2024)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2024)**.",
                               "class": [
                                     "RVC"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2025 onwards)</b>.",
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2025 onwards)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2025 onwards)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods **(1st Jan 2025 onwards)**.",
                               "class": [
                                     "RVC"
                               ],
@@ -9827,28 +9827,28 @@
                   "max": "8707999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2021 to 31st Dec 2024)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2021 to 31st Dec 2024)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2024)**.",
                               "class": [
                                     "RVC"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>(1st Jan 2025 onwards)</b>.",
+                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **(1st Jan 2025 onwards)**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods <b>(1st Jan 2025 onwards)</b>.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods **(1st Jan 2025 onwards)**.",
                               "class": [
                                     "RVC"
                               ],

@@ -5964,7 +5964,7 @@
                   "max": "7603999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -5996,7 +5996,7 @@
                   "max": "7604999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -6012,7 +6012,7 @@
                   "max": "7605999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7604](/headings/7604) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7604](/headings/7604) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -6028,7 +6028,7 @@
                   "max": "7606999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -6044,7 +6044,7 @@
                   "max": "7607999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7606](/headings/7606) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from non-originating materials of [heading&nbsp;7606](/headings/7606) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -6060,7 +6060,7 @@
                   "max": "7616999999",
                   "rules": [
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) <b>within the limits of the applicable annual quota</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **within the limits of the applicable annual quota**.",
                               "class": [
                                     "CTH"
                               ],
@@ -6893,21 +6893,21 @@
                               "operator": null
                         },
                         {
-                              "rule": "CTSH <b>until 31 December 2023</b>.",
+                              "rule": "CTSH **until 31 December 2023**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "Assembly of battery packs from non-originating battery cells or battery modules <b>until 31 December 2023</b>.",
+                              "rule": "Assembly of battery packs from non-originating battery cells or battery modules **until 31 December 2023**.",
                               "class": [
                                     "Unspecified"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>until 31 December 2023</b>.",
+                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **until 31 December 2023**.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -6937,14 +6937,14 @@
                               "operator": "or"
                         },
                         {
-                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) <b>until 31 December 2023</b>.",
+                              "rule": "All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) **until 31 December 2023**.",
                               "class": [
                                     "CTH"
                               ],
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>until 31 December 2023</b>.",
+                              "rule": "A maximum of **70%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **until 31 December 2023**.",
                               "class": [
                                     "Unspecified"
                               ],
@@ -7259,7 +7259,7 @@
                               "operator": null
                         },
                         {
-                              "rule": "A maximum of **60%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) <b>until 31 December 2023</b>.",
+                              "rule": "A maximum of **60%** of the ex-works price (EXW) is made up of non-originating parts (MaxNOM) **until 31 December 2023**.",
                               "class": [
                                     "Unspecified"
                               ],
