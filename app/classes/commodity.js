@@ -34,6 +34,8 @@ class Commodity {
         this.productline_suffix = productline_suffix
         this.description = description
         this.number_indents = number_indents
+        this.validity_start_date = ""
+        this.validity_end_date = ""
         this.indent_class = ''
         this.leaf = leaf
         this.parent_sid = parent_sid
@@ -313,6 +315,8 @@ class Commodity {
         ]
 
         this.number_indents = this.data['attributes']['number_indents']
+        this.validity_start_date = this.data['attributes']['validity_start_date']
+        this.validity_end_date = this.data['attributes']['validity_end_date']
         this.basic_duty_rate_string = this.data['attributes']['basic_duty_rate']
         if (this.basic_duty_rate_string == null) {
             this.basic_duty_rate_string = 'variable'

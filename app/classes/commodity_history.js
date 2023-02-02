@@ -25,6 +25,7 @@ class CommodityHistory {
         axios.get(url)
             .then((response) => {
                 var commodity_history = response.data["data"];
+                var successors = response.data["successors"];
                 if (commodity_history.length == 0) {
                     this.context.no_results = true;
                 } else {
@@ -35,10 +36,10 @@ class CommodityHistory {
                     'commodity': this.commodity,
                     'commodity_link': this.commodity_link,
                     'context': this.context,
-                    'commodity_history': commodity_history
+                    'commodity_history': commodity_history,
+                    'successors': successors
                 });
             });
-
     }
 }
 module.exports = CommodityHistory

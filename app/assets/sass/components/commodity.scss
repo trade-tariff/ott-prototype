@@ -165,15 +165,15 @@ table.measures2 dl dd ul li {
         }
     }
 
-    // .commodity-split {
-    //     span {
-    //         padding: 0px 4px 0px 0px;
-    //     }
+    .commodity-split-new {
+        span {
+            padding: 0px 4px 0px 0px;
+        }
 
-    //     span:last-of-type {
-    //         padding: 0px;
-    //     }
-    // }
+        span:last-of-type {
+            padding: 0px;
+        }
+    }
 
 }
 
@@ -571,4 +571,11 @@ dl.tabular {
         margin-left: 1.8em;
         display: block;
     }
+}
+
+.validity {
+    color:#666;
+    font-size: 16px;
+    // top:-2px;
+    // position: relative;
 }

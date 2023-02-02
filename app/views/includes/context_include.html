@@ -1,10 +1,15 @@
 <div class="govuk-grid-row" id="context-selector">
     <div class="govuk-grid-column-full govuk-!-margin-top-3">
         <dl class="govuk-summary-list">
-            <div class="govuk-summary-list__row">
+            {# <div class="govuk-summary-list__row">
                 <dt class="govuk-summary-list__key">{{ context.heading_classifier }}</dt>
                 <dd class="govuk-summary-list__value commodity-split">
                     {{ context.value_classifier | format_commodity_code2 | safe }}
+                    <span class="validity">{% if commodity.validity_end_date == null %}
+                        valid from {{ commodity.validity_start_date | format_date("D MMMM YYYY") }}
+                    {% else %}
+                        valid between {{ commodity.validity_start_date | format_date("D MMMM YYYY") }} and {{ commodity.validity_end_date | format_date("D MMMM YYYY") }}
+                    {% endif %}</span>
                 </dd>
                 <dd class="govuk-summary-list__actions">
                     {% if context.show_change_commodity %}
@@ -13,11 +18,26 @@
                         </a>
                     </dd>
                 {% endif %}
-            </div>
+            </div> #}
 
             <div class="govuk-summary-list__row">
                 <dt class="govuk-summary-list__key">{{ context.heading_description }}</dt>
                 <dd class="govuk-summary-list__value {{ context.description_class }}">{{ context.value_description | convert_markdown | safe }}</dd>
+                <dd class="govuk-summary-list__actions"></dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+                {% if commodity.validity_end_date == null %}
+                <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid from</dt>
+                <dd class="govuk-summary-list__value">
+                    {{ commodity.validity_start_date | format_date("D MMMM YYYY") }}
+                </dd>
+                {% else %}
+                <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid between</dt>
+                <dd class="govuk-summary-list__value">
+                    {{ commodity.validity_start_date | format_date("D MMMM YYYY") }} and {{ commodity.validity_end_date | format_date("D MMMM YYYY") }}
+                </dd>
+                {% endif %}
                 <dd class="govuk-summary-list__actions"></dd>
             </div>
 

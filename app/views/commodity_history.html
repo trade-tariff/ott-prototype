@@ -1,17 +1,17 @@
 {% if context.resource_type == "heading" %}
-  {% set entity = "Heading " %}
-  {% set content = "data " %}
-  {% set instance = commodity | substring(0, 4) %}
+    {% set entity = "Heading " %}
+    {% set content = "data " %}
+    {% set instance = commodity | substring(0, 4) %}
 {% else %}
-  {% set entity = "Commodity " %}
-  {% set content = "measures " %}
-  {% set instance = commodity | format_commodity_code2 %}
+    {% set entity = "Commodity " %}
+    {% set content = "measures " %}
+    {% set instance = commodity | format_commodity_code2 %}
 {% endif %}
 {% set title = "Commodity " + commodity %}
 
 {% extends "layout.html" %}
 {% block beforeContent %}
-  {{ govukBreadcrumbs({
+    {{ govukBreadcrumbs({
   items: [
     {
       text: "Home",
@@ -28,81 +28,117 @@
 }) }}
 {% endblock %}
 {% block pageTitle %}
-  {{ title }}
+    {{ title }}
 {% endblock %}
 
 {% block content %}
     {% include "includes/language_selector.html" %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-three-quarters">
-      <h1 class="govuk-heading-l commodity-split">
-        {{ entity }}
-        {{ instance | safe }}
-      </h1>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <h1 class="govuk-heading-l commodity-split-new">
+                {{ entity }}
+                {{ instance | safe }}
+            </h1>
 
-      {% if context.no_results %}
+            {% if context.no_results %}
 
-        <p>The {{ entity | lower }} that you searched for can't be found. Try searching again.</p>
+                <p>The {{ entity | lower }} that you searched for can't be found. Try searching again.</p>
 
-        {% if context.resource_type == "heading" %}
-          <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>{% if context.simulation_date != "" %}
+                {% if context.resource_type == "heading" %}
+                    <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+                        {% if context.simulation_date != "" %}
               for {{ context.simulation_date | format_date("D MMMM YYYY") }}
-            {% endif %}.
+                        {% endif %}.
           {% else %}
-          <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
+                        <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
             or <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
-            {% if context.simulation_date != "" %}
+                            {% if context.simulation_date != "" %}
               for {{ context.simulation_date | format_date("D MMMM YYYY") }}
-            {% endif %}.
+                            {% endif %}.
           {% endif %}
 
-      {% else %}
+                    {% else %}
 
-          <p>The {{ entity | lower }} that you entered could not be found for the date selected.
+                        <p>The {{ entity | lower }} that you entered could not be found for the date selected.
           The {{ entity | lower }} is present between the dates shown below.</p>
 
-          <p>Click on a date to see the {{ content }} present on that date.</p>
+                        <p>Click on a date to see the {{ content }} present on that date.</p>
 
-          <ol class="govuk-list govuk-list--number">
-            {% for c in commodity_history %}
-              <li>
-                {% if context.resource_type == "heading" %}
-                  <span class="govuk-visually-hidden">Period</span>
-              From <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
-                  {% if c.validity_end_date_display != "" %}
-                to <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
-                  {% endif %}
-                {% else %}
-                  <span class="govuk-visually-hidden">Period</span>
-              From <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
-                  {% if c.validity_end_date_display != "" %}
-                to <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
-                  {% endif %}
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ol>
+                        <ol class="govuk-list govuk-list--number">
+                            {% for c in commodity_history %}
+                                <li>
+                                    {% if context.resource_type == "heading" %}
+                                        <span class="govuk-visually-hidden">Period</span>
+                                        From <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
+                                        {% if c.validity_end_date_display != "" %}
+                                            to <a href="/headings/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
+                                        {% endif %}
+                                    {% else %}
+                                        <span class="govuk-visually-hidden">Period</span>
+                                        From <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_start_date }}">{{ c.validity_start_date_display }}</a>
+                                        {% if c.validity_end_date_display != "" %}
+                                            to <a href="/commodities/{{ commodity_link }}?as_of={{ c.validity_end_date }}">{{ c.validity_end_date_display }}</a>
+                                        {% endif %}
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ol>
 
-          {% if context.resource_type == "heading" %}
-            <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
-              {% if context.simulation_date != "" %}
-        for {{ context.simulation_date | format_date("D MMMM YYYY") }}
-              {% endif %}.</p>
+                        {% if context.resource_type == "heading" %}
+                            <p>Alternatively, you can visit <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+                                {% if context.simulation_date != "" %}
+                                    for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+                                {% endif %}.</p>
 
-          {% else %}
+                        {% else %}
+                            {% if successors | length > 0 %}
+                                {% if successors | length == 1 %}
+                                    <p class="commodity-split-new">
+                                        Goods previously classified under {{ entity | lower }}{{ instance | safe }}
+                                        were moved to code <a href="https://www.trade-tariff.service.gov.uk/search?q={{ successors[0].goods_nomenclature_item_id }}">{{ successors[0].goods_nomenclature_item_id | format_commodity_code2 | safe }}</a>
+                                        ({{ successors[0].description }})
+                                        on {{ successors[0].validity_start_date | format_date("D MMMM YYYY") }}.
+                                    </p>
+                                {% else %}
+                                    <p class="commodity-split-new">
+                                        Goods previously classified under {{ entity | lower }}{{ instance | safe }}
+                                        were moved to the following codes:
+                                    </p>
+                                    <table class="govuk-table">
+                                        <thead class="govuk-table__head">
+                                            <tr class="govuk-table__row">
+                                                <th scope="col" class="govuk-table__header">Commodity</th>
+                                                <th scope="col" class="govuk-table__header">Description</th>
+                                                <th scope="col" class="govuk-table__header">Transfer date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="govuk-table__body">
+                                            {% for s in successors %}
+                                                <tr class="govuk-table__row">
+                                                    <td class="govuk-table__cell">
+                                                        <a href="https://www.trade-tariff.service.gov.uk/search?q={{ s.goods_nomenclature_item_id }}">{{ s.goods_nomenclature_item_id }}</a>
+                                                    </td>
+                                                    <td class="govuk-table__cell">{{ s.description }}</td>
+                                                    <td class="govuk-table__cell nw">{{ s.validity_start_date | format_date("D MMMM YYYY") }}</td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                {% endif %}
+                            {% endif %}
 
-            <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
-        or <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
-              {% if context.simulation_date != "" %}
-        for {{ context.simulation_date | format_date("D MMMM YYYY") }}
-              {% endif %}.</p>
+                            <p>Alternatively, you can visit <a href="/headings/{{ commodity | substring(0, 4) }}?as_of={{ context.simulation_date }}">heading {{ commodity | substring(0, 4) }}</a>
+                            or <a href="/chapters/{{ commodity | substring(0, 2) }}?as_of={{ context.simulation_date }}">chapter {{ commodity | substring(0, 2) }}</a>
+                                {% if context.simulation_date != "" %}
+                            for {{ context.simulation_date | format_date("D MMMM YYYY") }}
+                                {% endif %}.</p>
 
-          {% endif %}
-        {% endif %}
+                        {% endif %}
+                    {% endif %}
 
-      </div>
-      <div class="govuk-grid-column-full"></div>
-    </div>
+                </div>
+                <div class="govuk-grid-column-full"></div>
+            </div>
 
-  {% endblock %}
+        {% endblock %}

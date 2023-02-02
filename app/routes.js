@@ -336,32 +336,36 @@ router.get([
         // UK
         const axiosrequest1 = axios.get(url);
         if (context.country == "") {
-            await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
-                c = new Commodity();
-                c.country = context.country;
-                c.pass_request(req);
-                c.get_data(response1.data);
-                c.get_measure_data(req, "basic");
+            try {
+                await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
+                    c = new Commodity();
+                    c.country = context.country;
+                    c.pass_request(req);
+                    c.get_data(response1.data);
+                    c.get_measure_data(req, "basic");
 
-                context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
-                context.value_description = c.description;
-                context.set_description_class()
+                    context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
+                    context.value_description = c.description;
+                    context.set_description_class()
 
-                c.sort_measures();
+                    c.sort_measures();
 
-                context.show_chief = true;
-                context.show_cds = true;
-                context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
+                    context.show_chief = true;
+                    context.show_cds = true;
+                    context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
 
-                res.render('commodities', {
-                    'context': context,
-                    'date': date,
-                    'countries': countries,
-                    'roo': roo_mvp,
-                    'toggle_message': toggle_message,
-                    'commodity': c
-                });
-            }));
+                    res.render('commodities', {
+                        'context': context,
+                        'date': date,
+                        'countries': countries,
+                        'roo': roo_mvp,
+                        'toggle_message': toggle_message,
+                        'commodity': c
+                    });
+                }));
+            } catch {
+                res.redirect("/commodity_history/" + req.params["goods_nomenclature_item_id"]);
+            }
         } else {
             var subheading = context.goods_nomenclature_item_id.substr(0, 6);
             var url_roo = "https://www.trade-tariff.service.gov.uk/api/v2/rules_of_origin_schemes/" + subheading + "/" + context.country
