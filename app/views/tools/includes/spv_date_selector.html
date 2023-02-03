@@ -1,0 +1,19 @@
+<form action="/tools/spv_actions">
+    <div class="govuk-form-group panel panel_grey">
+        <label class="govuk-label" for="my_date">
+          Select unit price period start date
+        </label>
+        <select class="govuk-select" id="my_date" name="my_date">
+            {% for my_date in dates %}
+                {% if my_date == data["my_date"] %}
+                    <option selected value="{{ my_date }}">{{ my_date | format_date('D MMMM YYYY') }}</option>
+                {% else %}
+                    <option value="{{ my_date }}">{{ my_date | format_date('D MMMM YYYY') }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+        <button class="govuk-button" data-module="govuk-button">
+            View rates for selected date
+        </button>
+    </div>
+</form>

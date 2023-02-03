@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block pageTitle %}
+   Check simplified procedure value rates for fresh fruit and vegetables 
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBackLink({
+      text: "Back",
+      href: "javascript:history.back()"
+    }) }}
+{% endblock %}
+{% block content %}
+  {% include "includes/language_selector.html" %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+      </span>
+      <h1 class="govuk-heading-l">Simplified procedure value rates for code {{ code_data["code"] }} - {{ code_data["label"] }}</h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p>Applies to commodity codes {{ code_data["commodities"] | join_array(", ") }}.</p>
+      <table class="govuk-table govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row sticky">
+            <th scope="col" class="govuk-table__header">From</th>
+            <th scope="col" class="govuk-table__header">To</th>
+            <th scope="col" class="govuk-table__header">Value per 100 kg</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for key, spv_data in spvs %}
+            <tr class="govuk-table__row">
+              <td class="govuk-table__cell">{{ spv_data["validity_start_date"] | format_date('D MMM YYYY') }}</td>
+              <td class="govuk-table__cell">{{ spv_data["validity_end_date"] | format_date('D MMM YYYY') }}</td>
+              <td class="govuk-table__cell">
+                {% if spv_data["rate"] != "" %}
+                  {{ spv_data["rate"] }}
+                {% else %}
+                —
+              {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {{ govukBackLink({
+        text: "Back",
+        href: "javascript:history.back()"
+      }) }}
+    </div>
+    <div class="govuk-grid-column-one-third">
+      {% include "tools/includes/spv_includes.html" %}
+    </div>
+  </div>
+
+{% endblock %}
+</html>

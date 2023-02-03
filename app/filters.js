@@ -70,6 +70,18 @@ module.exports = function (env) {
         return (s);
     }
 
+    filters.split_string = function (s, divider=",") {
+        console.log(s)
+        var my_array = s.split(divider);
+        s = my_array.join(divider)
+        return (s);
+    }
+
+    filters.join_array = function (my_array, joiner="<br>") {
+        var s = my_array.join(joiner)
+        return (s);
+    }
+
     filters.format_psr = function (rule_text, minimal = false) {
         md = new MarkdownIt();
         rule_text = rule_text.replace(/;/g, ';\n');

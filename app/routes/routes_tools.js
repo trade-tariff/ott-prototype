@@ -54,6 +54,58 @@ router.get(['/tools/quota_search/',], function (req, res) {
         });
 });
 
+// SPVs / Unit prices
+router.get(['/tools/unit_prices', '/tools/unit_prices/:date'], function (req, res) {
+    var context = new Context(req);
+    var my_date = req.params["date"]
+    var url
+    if (typeof my_date !== 'undefined') {
+        url = process.env["TRADE_TARIFF_API"] + "spvs/" + my_date;
+    } else {
+        url = process.env["TRADE_TARIFF_API"] + "spvs"
+    }
+
+    axios.get(url)
+        .then((response) => {
+            res.render('tools/unit_prices', {
+                'context': context,
+                'spvs': response.data["spvs"],
+                'dates': response.data["dates"],
+                'period': response.data["period"]
+            });
+        });
+});
+
+// SPVs / Unit prices by commodity
+router.get(['/tools/unit_prices_by_code/:code', '/tools/unit_prices_by_code'], function (req, res) {
+    var context = new Context(req);
+    var code = req.params["code"]
+    var url
+    if (typeof code !== 'undefined') {
+        url = process.env["TRADE_TARIFF_API"] + "spvs_by_code/" + code;
+    } else {
+        url = "/tools/unit_prices"
+        res.redirect(url)
+    }
+
+    axios.get(url)
+        .then((response) => {
+            res.render('tools/unit_prices_by_code', {
+                'context': context,
+                'spvs': response.data["spvs"],
+                'code_data': response.data["code_data"]
+            });
+        });
+});
+
+// SPV actions
+router.get(['/tools/spv_actions'], function (req, res) {
+    var a = 1
+    var my_date = req.session.data["my_date"]
+    var url = "/tools/unit_prices/" + my_date + "#rates"
+    res.redirect(url)
+});
+
 // Licenced quotas
 router.get(['/tools/licenced_quotas', '/:scope_id/tools/licenced_quotas'], function (req, res) {
     var context = new Context(req);
