@@ -14,6 +14,9 @@
                 </li>
             {% endif %}
         {% endfor %}
+        <li class="govuk-!-margin-bottom-2">
+            <a class="govuk-body" href="#seasonal_staged">Seasonal and staged import duties</a>
+        </li>
     </ul>
 </nav>
 
@@ -123,11 +126,11 @@
                                     {% if measure.order_number_id %}
                                         {% if context.flag_show_quota_popup %}
                                             <span class="table-line">
-                                                Order no: <a href="#quota_{{ measure.order_number_id }}" rel="modal:open">{{ measure.order_number_id }}</a>
+                                                Order no:&nbsp;&nbsp;<a href="#quota_{{ measure.order_number_id }}" rel="modal:open">{{ measure.order_number_id }}</a>
                                             </span>
                                         {% else %}
                                             <span class="table-line">
-                                                Order no: <a href="/quotas/{{ measure.order_number_id }}" >{{ measure.order_number_id }}</a>
+                                                Order no:&nbsp;&nbsp;<a href="/quotas/{{ measure.order_number_id }}" >{{ measure.order_number_id }}</a>
                                             </span>
                                         {% endif %}
                                     {% endif %}
@@ -185,6 +188,9 @@
                                     {% else %}
                                         n/a
                                         {% endif %}
+                                        {% if measure.effective_end_date != null %}
+                                            (until {{ measure.effective_end_date | format_date('D MMM YYYY') }})
+                                        {% endif %}
                                 </td>
                             {% endif %}
 
@@ -236,3 +242,5 @@
             {% endif %} #}
     {% endif %}
 {% endfor %}
+
+{% include "includes/seasonal_rates.html" %}

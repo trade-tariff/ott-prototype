@@ -20,13 +20,17 @@
   </div>
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <p>Applies to commodity codes {{ code_data["commodities"] | join_array(", ") }}.</p>
+      {% if code_data["commodities"] | length > 1%}
+        <p>Applies to commodity codes {{ code_data["commodities"] | join_array(", ") }}.</p>
+      {% else %}
+        <p>Applies to commodity code {{ code_data["commodities"] | join_array(", ") }}.</p>
+      {% endif %}
       <table class="govuk-table govuk-table">
         <thead class="govuk-table__head">
           <tr class="govuk-table__row sticky">
             <th scope="col" class="govuk-table__header">From</th>
             <th scope="col" class="govuk-table__header">To</th>
-            <th scope="col" class="govuk-table__header">Value per 100 kg</th>
+            <th scope="col" class="govuk-table__header r">Value per 100 kg</th>
           </tr>
         </thead>
         <tbody class="govuk-table__body">
@@ -34,7 +38,7 @@
             <tr class="govuk-table__row">
               <td class="govuk-table__cell">{{ spv_data["validity_start_date"] | format_date('D MMM YYYY') }}</td>
               <td class="govuk-table__cell">{{ spv_data["validity_end_date"] | format_date('D MMM YYYY') }}</td>
-              <td class="govuk-table__cell">
+              <td class="govuk-table__cell r">
                 {% if spv_data["rate"] != "" %}
                   {{ spv_data["rate"] }}
                 {% else %}

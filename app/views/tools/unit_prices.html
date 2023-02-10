@@ -59,7 +59,7 @@
             <th scope="col" class="govuk-table__header">Simplified procedure code</th>
             <th scope="col" class="govuk-table__header">Commodity code(s)</th>
             <th scope="col" class="govuk-table__header">Description of goods</th>
-            <th scope="col" class="govuk-table__header">Value per 100 kg</th>
+            <th scope="col" class="govuk-table__header r">Value per 100 kg</th>
           </tr>
         </thead>
         <tbody class="govuk-table__body">
@@ -74,7 +74,7 @@
                 {% endfor %}
               </td>
               <td class="govuk-table__cell">{{ spv_data["label"] }}</td>
-              <td class="govuk-table__cell">
+              <td class="govuk-table__cell r">
                 {% if spv_data["rate"] != "" %}
                   {{ spv_data["rate"] }}
                 {% else %}

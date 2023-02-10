@@ -1,0 +1,104 @@
+<h3 id="seasonal_staged" class="govuk-heading-m govuk-!-margin-top-7 govuk-!-margin-bottom-3">
+    Seasonal and staged duties
+</h3>
+<div class="govuk-inset-text govuk-inset-text--s nhs-grey-5">
+    <p>The tables below list all duties since 1 January 2022 for:</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>trade agreements which are staged, e.g. with import duties or quotas which change over time</li>
+        <li>duties which are seasonal, i.e. do not apply for the entire year</li>
+    </ul>
+</div>
+{% for geographical_area_id, data in seasonal_rates %}
+    <details class="govuk-details govuk-details-m govuk-!-margin-bottom-1" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">
+                {{ data["geographical_area_description"]}} ({{ geographical_area_id }})
+        </span>
+        </summary>
+        <div class="govuk-details__text">
+
+            <table class="govuk-table govuk-table--m measures2 app-flexible-table">
+                <thead class="govuk-table__head app-flexible-table__head">
+                    <tr class="sticky govuk-table__row app-flexible-table__row standard">
+                        <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:30%">Measure type</th>
+                        <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:30%">Applicable dates</th>
+                        <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:40%">Duty rate</th>
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body  app-flexible-table__body">
+                    {% for sort_key, sort_key_data in data["sort_keys"] %}
+                        <tr id="import_measure_{{ measure.measure_sid }}" class="govuk-table__row measure app-flexible-table__row">
+                            <td rowspan="{{ sort_key_data.rates | length }}" class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }}" scope="row" data-column-heading="measure type">
+                                <div>
+                                    <span class="table-line">
+                                        <a href="{{ measure.measure_type_url }}" title="{{ sort_key_data.measure_type_description }} - use preference code {{ measure.preference_code }}">{{ sort_key_data.measure_type_description }}</a>
+                                    </span>
+                                    {% if sort_key_data.ordernumber %}
+                                        <span class="table-line">
+                                        Order no:&nbsp;&nbsp;<a href="#quota_{{ sort_key_data.ordernumber }}" rel="modal:open">{{ sort_key_data.ordernumber }}</a>
+                                        </span>
+                                    {% endif %}
+                                </div>
+                            </td>
+                            {% set count = 1 %}
+                            {% for measure in sort_key_data["rates"] %}
+                                {% if count > 1 %}
+                                    <tr>
+                                    {% endif %}
+                                    <td class="govuk-table__cell value app-flexible-table__cell nw  govuk-!-padding-left-0" scope="row" data-column-heading="value">
+                                        {{ measure.validity_start_date | format_date('D MMM YYYY') }} - {{ measure.validity_end_date | format_date('D MMM YYYY') }}
+                                    </td>
+
+                                    <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="value">
+                                        {{ measure.duty_rate }}
+                                    </td>
+                                    {% if count > 1 %}
+                                    </tr>
+                                {% endif %}
+                                {% set count = count + 1 %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            {# 
+        <table class="govuk-table govuk-table--m measures2 app-flexible-table">
+            <thead class="govuk-table__head app-flexible-table__head">
+                <tr class="sticky govuk-table__row app-flexible-table__row standard">
+                    <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:40%">Measure type</th>
+                    <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:40%">Applicable dates</th>
+                    <th scope="col" class="govuk-table__header app-flexible-table__header" style="width:20%">Duty rate</th>
+                </tr>
+            </thead>
+            <tbody class="govuk-table__body  app-flexible-table__body">
+                {% set current_sort_key = "" %}
+                {% for measure in data["rates"] %}
+                    <tr id="import_measure_{{ measure.measure_sid }}" class="govuk-table__row measure app-flexible-table__row {{ class }}">
+                        <td class="govuk-table__cell measure app-flexible-table__cell measure_type_{{ measure.measure_type_id }}" scope="row" data-column-heading="measure type">
+                            <div>
+                                <span class="table-line">
+                                    <a href="{{ measure.measure_type_url }}" title="{{ measure.measure_type_description }} - use preference code {{ measure.preference_code }}">{{ measure.measure_type_description }}</a>
+                                </span>
+                                {% if measure.ordernumber %}
+                                    <span class="table-line">
+                                        Order no:&nbsp;&nbsp;<a href="#quota_{{ measure.ordernumber }}" rel="modal:open">{{ measure.ordernumber }}</a>
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </td>
+
+                        <td class="govuk-table__cell value app-flexible-table__cell nw" scope="row" data-column-heading="value">
+                            {{ measure.validity_start_date | format_date('D MMM YYYY') }} - {{ measure.validity_end_date | format_date('D MMM YYYY') }}
+                        </td>
+
+                        <td class="govuk-table__cell value app-flexible-table__cell" scope="row" data-column-heading="value">
+                            {{ measure.duty_rate }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table> #}
+        </div>
+    </details>
+{% endfor %}
