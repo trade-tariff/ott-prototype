@@ -33,6 +33,8 @@ const routes_tools = require('./app/routes/routes_tools.js')
 const routes_roo_new = require('./app/routes/routes_roo_new.js')
 const routes_duty_calculator = require('./app/routes/routes_duty_calculator.js')
 const routes_static = require('./app/routes/routes_static.js')
+const routes_how_to = require('./app/routes/routes_how_to.js')
+
 const utils = require('./lib/utils.js')
 const extensions = require('./lib/extensions/extensions.js')
 const { projectDir } = require('./lib/utils')
@@ -263,6 +265,7 @@ if (typeof (routes) !== 'function') {
   app.use('/', routes_roo_new)
   app.use('/', routes_duty_calculator)
   app.use('/', routes_static)
+  app.use('/', routes_how_to)
 }
 
 if (useDocumentation) {

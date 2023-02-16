@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  How to use the Online Tariff
+{% endblock %}
+
+{% block beforeContent %}
+    {{ govukBackLink({
+    text: "Back",
+    classes: "noprint",
+    href: "/duty-calculator/destination/" + commodity.data.attributes.goods_nomenclature_item_id
+  }) }}
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            <span class="govuk-caption-xl">Import guidance</span>
+            <h1 class="govuk-heading-l">Using the Integrated Tariff</h1>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+            {# <h2 class="gem-c-contents-list__title">Contents</h2>
+            <ol class="gem-c-contents-list__list govuk-!-margin-bottom-6">
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#definition">What is origin?</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#worldwide">Are rules of origin used internationally?</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#non-preferential">How to determine non-preferential origin?</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#preferential">How to determine preferential rules of origin?</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#certified">How is origin certified?</a>
+                </li>
+                <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed">
+                    <a class="gem-c-contents-list__link govuk-link govuk-link--no-underline" href="#responsible">Who is responsible for determining the origin of products?</a>
+                </li>
+            </ol> #}
+
+
+            <h2 class="govuk-heading-m" id="definition">Using the Integrated Tariff</h2>
+            <p>The UK Integrated Tariff (UKIT) is the complete set of customs duties and controls that can apply to imports and exports from the UK.</p>
+
+            <p>Structured around a commodity code nomenclature it sets out the:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+                <li>The standard duty rates, aka the UK Global Tariff (UKGT).</li>
+                <li>Preferential rates, which provide for country specific lower rates as agreed with the UKs trading partners </li>
+                <li>etc.</li>
+            </ul>
+        </div>
+        <div class="govuk-grid-column-one-third noprint">
+            {% include "howto/howto_aside.html" %}
+        </div>
+    </div>
+
+{% endblock %}
+</html>
