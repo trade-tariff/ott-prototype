@@ -1,0 +1,61 @@
+Please see changes below for the following commodity codes.
+
+### Seasonal rate updates
+Updates to seasonal MFN rates affecting:
+
+- 03024100
+- 03024390
+- 03024400
+- 03035100
+- 03035390
+- 03035410
+- 03045950
+- 03049923
+- 03038940
+- 07020000
+- 07081000
+- 08051022
+- 08051024
+- 08051028
+- 08081080
+- 08083090
+- 08092900
+- 08094005
+
+### Footnote updates
+Addition of footnotes to the following duty suspensions:
+
+- 8414802220
+- 8409990070
+- 3824999360
+- 8544300040
+- 8544429040
+- 8409910050
+- 8412390020
+
+### CHED requirements
+Update to CHED measures affecting commodities:
+
+- 0208907000
+- 0306150000
+- 0306329100
+- 0306329900
+- 0407000000
+- 0409000000
+- 0502100000
+- 0504000010
+- 2309101300
+- 2309101500
+- 2309101900
+- 2309103300
+- 2309103900
+- 2309105300
+- 2309105900
+- 2309107000
+- 3502111000
+- 3502201000
+- 3502209100
+- 5101110000
+- 5101190000
+
+CDS and CHIEF have been updated.
