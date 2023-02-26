@@ -26,6 +26,7 @@
                 <dd class="govuk-summary-list__actions"></dd>
             </div>
 
+            {# Start commodity dates #}
             <div class="govuk-summary-list__row">
                 {% if commodity.validity_end_date == null %}
                 <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid from</dt>
@@ -40,6 +41,7 @@
                 {% endif %}
                 <dd class="govuk-summary-list__actions"></dd>
             </div>
+            {# End commodity dates #}
 
             {% if commodity.referenced_entities | length > 0 %}
                 <div class="govuk-summary-list__row">
