@@ -220,7 +220,6 @@ router.get([
     }
 });
 
-
 // Browse a single commodity
 router.get([
     '/commodities/:goods_nomenclature_item_id/',
@@ -335,19 +334,20 @@ router.get([
     } else {
         // UK
 
-        var url_seasonal = "http://127.0.0.1:5000/seasonal_rates/0806101090"
+        // var url_seasonal = "http://127.0.0.1:5000/seasonal_rates/0806101090"
         const axiosrequest1 = axios.get(url);
-        const axiosrequest2 = axios.get(url_seasonal);
+        // const axiosrequest2 = axios.get(url_seasonal);
         if (context.country == "") {
             try {
-                await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
+                // await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
+                await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
                     c = new Commodity();
                     c.country = context.country;
                     c.pass_request(req);
                     c.get_data(response1.data);
                     c.get_measure_data(req, "basic");
 
-                    var seasonal_rates = response2.data
+                    // var seasonal_rates = response2.data
 
                     context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
                     context.value_description = c.description;
@@ -359,14 +359,23 @@ router.get([
                     context.show_cds = true;
                     context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
 
+                    // res.render('commodities', {
+                    //     'context': context,
+                    //     'date': date,
+                    //     'countries': countries,
+                    //     'roo': roo_mvp,
+                    //     'toggle_message': toggle_message,
+                    //     'commodity': c,
+                    //     'seasonal_rates': seasonal_rates.seasonal_rates
+                    // });
+
                     res.render('commodities', {
                         'context': context,
                         'date': date,
                         'countries': countries,
                         'roo': roo_mvp,
                         'toggle_message': toggle_message,
-                        'commodity': c,
-                        'seasonal_rates': seasonal_rates.seasonal_rates
+                        'commodity': c
                     });
                 }));
             } catch {
