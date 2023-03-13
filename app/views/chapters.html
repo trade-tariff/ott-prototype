@@ -1,3 +1,6 @@
+{% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
+{% set admin_link = admin_root + "chapters/" + chapter.data.attributes.goods_nomenclature_item_id | substring(0, 2) + "/search_references" %}
+
 {% extends "layout.html" %}
 {% block beforeContent %}
     {{ govukBreadcrumbs({
@@ -75,9 +78,9 @@
                 </div>
                 <div class="description b">Description</div>
             </div>
-            {% for heading in chapter.included %}
-                {% if (heading.type == "heading") %}
-                    <div class="chapter_row">
+            {% for heading in headings %}
+                <div class="chapter_row">
+                    {% if heading.attributes.producline_suffix == "80" %}
                         <div class="commodity">
                             <span class="code digits_chapter">{{ heading.attributes.goods_nomenclature_item_id | substring(0, 2) }}</span>
                             <span class="code digits_heading">{{ heading.attributes.goods_nomenclature_item_id | substring(2, 2) }}</span>
@@ -87,8 +90,12 @@
                                 {{ heading.attributes.formatted_description | safe }}
                             </a>
                         </div>
-                    </div>
-                {% endif %}
+                    {% else %}
+                        <div class="description govuk-!-margin-top-6">
+                            {{ heading.attributes.formatted_description | safe }}
+                        </div>
+                    {% endif %}
+                </div>
             {% endfor %}
 
             {% if (chapter.data.attributes.chapter_note) %}

@@ -1,0 +1,4 @@
+<div class="commodity_row_2023">
+    <div class="indent_by_{{ result.indent }}"><a target="_blank" href="http://www.trade-tariff.service.gov.uk/commodities/{{ result.goods_nomenclature_item_id }}">{{ result.description }}</a></div>
+    <div class="commodity-split-new">{{ result.goods_nomenclature_item_id | format_commodity_code3("commodity") | safe }}</div>
+</div>

@@ -51,6 +51,29 @@ class Context {
         }
     }
 
+    sort_chapters(chapter) {
+        var a = 1
+        var headings = []
+        chapter.included.forEach(element => {
+            if (element.type == "heading") {
+                element.gnid_pls = element.attributes.goods_nomenclature_item_id + element.attributes.producline_suffix
+                headings.push(element)
+            }
+        });
+        headings.sort(compare_gnid_pls)
+
+        function compare_gnid_pls(a, b) {
+            if (a.gnid_pls < b.gnid_pls) {
+                return -1
+            }
+            else if (a.gnid_pls > b.gnid_pls) {
+                return 1
+            }
+            return 0
+        }
+        return (headings)
+    }
+
     get_guides() {
         var url = this.req.url
 
