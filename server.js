@@ -34,6 +34,7 @@ const routes_roo_new = require('./app/routes/routes_roo_new.js')
 const routes_duty_calculator = require('./app/routes/routes_duty_calculator.js')
 const routes_static = require('./app/routes/routes_static.js')
 const routes_how_to = require('./app/routes/routes_how_to.js')
+const routes_search = require('./app/routes/routes_search.js')
 
 const utils = require('./lib/utils.js')
 const extensions = require('./lib/extensions/extensions.js')
@@ -266,6 +267,7 @@ if (typeof (routes) !== 'function') {
   app.use('/', routes_duty_calculator)
   app.use('/', routes_static)
   app.use('/', routes_how_to)
+  app.use('/', routes_search)
 }
 
 if (useDocumentation) {
