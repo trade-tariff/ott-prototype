@@ -110,23 +110,71 @@ router.get(['/:scope_id/sections/:sectionId', '/sections/:sectionId'], function 
         });
 });
 
-// Browse within a chapter
-router.get(['/chapters/:chapterId', '/:scope_id/chapters/:chapterId'], function (req, res) {
+// Browse within a chapter - safe
+router.get(['/xchapters/:chapterId', '/:scope_id/xchapters/:chapterId'], function (req, res) {
     var context = new Context(req, "chapters");
     var chapter_id = req.params["chapterId"];
     chapter_id = chapter_id.padStart(2, "0");
-    axios.get('https://www.trade-tariff.service.gov.uk/api/v2/chapters/' + chapter_id)
-        .then((response) => {
-            var chapter = response.data;
-            context.value_classifier = chapter.data.attributes.goods_nomenclature_item_id.substr(0, 2);
-            context.value_description = chapter.data.attributes.formatted_description;
-            context.set_description_class()
-            res.render('chapters', {
-                'context': context,
-                'chapter': chapter
+    try {
+        axios.get('https://www.trade-tariff.service.gov.uk/api/v2/chapters/' + chapter_id)
+            .then((response) => {
+                var chapter = response.data;
+                var headings = context.sort_chapters(chapter)
+                context.value_classifier = chapter.data.attributes.goods_nomenclature_item_id.substr(0, 2);
+                context.value_description = chapter.data.attributes.formatted_description;
+                context.set_description_class()
+                res.render('chapters', {
+                    'context': context,
+                    'chapter': chapter,
+                    'headings': headings
+                });
             });
-        });
+    }
+    catch (error) {
+        res.redirect("/");
+    }
 });
+
+// Browse within a heading
+router.get(['/chapters/:chapterId', '/:scope_id/chapters/:chapterId'], async function (req, res) {
+    var chapterId = req.params["chapterId"];
+    if (req.url.includes("uk")) {
+        url = "/chapters/" + chapterId
+        res.redirect(url)
+    } else {
+        var context = new Context(req, "chapters");
+        var url = 'https://www.trade-tariff.service.gov.uk/api/v2/chapters/' + chapterId;
+        if (context.simulation_date != "") {
+            if (url.includes("?")) {
+                url += "&";
+            } else {
+                url += "?";
+            }
+            url += "as_of=" + context.simulation_date;
+        }
+
+        const axiosrequest1 = axios.get(url);
+        try {
+            await axios.all([axiosrequest1]).then(axios.spread(function (response) {
+                var chapter = response.data;
+                var headings = context.sort_chapters(chapter)
+                context.value_classifier = chapter.data.attributes.goods_nomenclature_item_id.substr(0, 2);
+                context.value_description = chapter.data.attributes.formatted_description;
+                context.set_description_class()
+                res.render('chapters', {
+                    'context': context,
+                    'chapter': chapter,
+                    'headings': headings
+                });
+            }));
+        }
+        catch (error) {
+            res.redirect("/");
+        }
+    }
+
+});
+
 
 // Browse within a heading
 router.get(['/headings/:headingId', '/:scope_id/headings/:headingId'], async function (req, res) {
