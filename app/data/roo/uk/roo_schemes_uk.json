@@ -366,6 +366,72 @@
             ]
         },
         {
+            "scheme_code": "australia",
+            "title": "Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland and Australia",
+            "proofs": [
+                {
+                    "summary": "Declaration of origin",
+                    "subtext": "",
+                    "proof_class": "origin-declaration",
+                    "detail": ""
+                },
+                {
+                    "summary": "Importer's knowledge",
+                    "subtext": "",
+                    "subtexts": "",
+                    "proof_class": "importers-knowledge",
+                    "detail": ""
+                }
+            ],
+            "cumulation_methods": {
+                "bilateral": {
+                    "countries": [
+                        "GB",
+                        "AU"
+                    ]
+                }
+            },
+            "ord": {
+                "ord_title": "The Australia Origin Reference Document",
+                "ord_version": "1.1",
+                "ord_date": "20 February 2023",
+                "ord_original": "tbc"
+            },
+            "articles": {
+                "article 1": "definitions",
+                "article 2": "general requirements",
+                "article 3": "cumulation",
+                "article 4": "wholly obtained",
+                "article 5": "sufficient working",
+                "article 6": "tolerances",
+                "article 7": "insufficient working",
+                "article 8": "unit of qualification",
+                "article 9": "packing materials - shipment",
+                "article 10": "accounting segregation",
+                "article 11": "accessories",
+                "article 12": "sets",
+                "Annex II": "sufficient working"
+            },
+            "features": {
+                "absorption": true,
+                "tolerances": false,
+                "sets": true,
+                "cumulation": true,
+                "drawback": false
+            },
+            "introductory_notes_file": "australia_intro.md",
+            "fta_intro_file": "australia.md",
+            "links": [
+                {
+                    "text": "UK-Australia Free Trade Agreement",
+                    "url": "https://www.gov.uk/government/collections/uk-australia-free-trade-agreement"
+                }
+            ],
+            "countries": [
+                "AU"
+            ]
+        },
+        {
             "scheme_code": "canada",
             "title": "UK-Canada Trade Continuity Agreement",
             "proofs": [
@@ -2050,8 +2116,7 @@
                 },
                 {
                     "summary": "Importer's knowledge",
-                    "subtext": "",
-                    "subtexts": "The importer's knowledge that a product is originating in the exporting Party shall be based on information demonstrating that the product is originating and satisfies the requirements provided for in this Origin Reference Document.",
+                    "subtext": "The importer's knowledge that a product is originating in the exporting Party shall be based on information demonstrating that the product is originating and satisfies the requirements provided for in this Origin Reference Document.",
                     "proof_class": "importers-knowledge",
                     "detail": ""
                 }
@@ -2818,7 +2883,7 @@
                 }
             },
             "ord": {
-                "ord_title": "Origin Reference Document implementing the Strategic Partnership, Trade and Cooperation Agreement between the United Kingdom of Great Britain and Northern Ireland and the Republic of Moldova , signed on 24th December 2020 ('the Moldova Origin Reference Document')",
+                "ord_title": "Origin Reference Document implementing the Strategic Partnership, Trade and Cooperation Agreement between the United Kingdom of Great Britain and Northern Ireland and the Republic of Moldova, signed on 24th December 2020 ('the Moldova Origin Reference Document')",
                 "ord_version": "1.1",
                 "ord_date": "28 December 2021",
                 "ord_original": "211203_ORD_Moldova_V1.1.odt"
@@ -2962,6 +3027,76 @@
             ],
             "countries": [
                 "MA"
+            ]
+        },
+        {
+            "scheme_code": "new-zealand",
+            "title": "Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland and New Zealand",
+            "proofs": [
+                {
+                    "summary": "Declaration of origin",
+                    "subtext": "",
+                    "proof_class": "origin-declaration",
+                    "detail": ""
+                },
+                {
+                    "summary": "Importer's knowledge",
+                    "subtext": "",
+                    "subtexts": "",
+                    "proof_class": "importers-knowledge",
+                    "detail": ""
+                }
+            ],
+            "cumulation_methods": {
+                "bilateral": {
+                    "countries": [
+                        "GB",
+                        "NZ"
+                    ]
+                }
+            },
+            "ord": {
+                "ord_title": "The New Zealand Origin Reference Document",
+                "ord_version": "1.1",
+                "ord_date": "20 February 2023",
+                "ord_original": "tbc"
+            },
+            "articles": {
+                "article 1": "definitions",
+                "article 2": "general requirements",
+                "article 3": "cumulation",
+                "article 4": "wholly obtained",
+                "article 5": "sufficient working",
+                "article 6": "tolerances",
+                "article 7": "insufficient working",
+                "article 8": "unit of qualification",
+                "article 9": "packing materials - shipment",
+                "article 10": "accounting segregation",
+                "article 11": "accessories",
+                "article 12": "sets",
+                "Annex II": "sufficient working"
+            },
+            "features": {
+                "absorption": true,
+                "tolerances": false,
+                "sets": true,
+                "cumulation": true,
+                "drawback": false
+            },
+            "introductory_notes_file": "new-zealand_intro.md",
+            "fta_intro_file": "new-zealand.md",
+            "links": [
+                {
+                    "text": "Trade with New Zealand",
+                    "url": "https://www.gov.uk/guidance/summary-of-the-uk-new-zealand-trade-continuity-agreement"
+                },
+                {
+                    "text": "UK-New Zealand Trade Continuity Agreement (TCA)",
+                    "url": "https://www.gov.uk/guidance/uk-new-zealand-trade-continuity-agreement-tca"
+                }
+            ],
+            "countries": [
+                "NZ"
             ]
         },
         {
@@ -4124,7 +4259,6 @@
                     "proof_class": "origin-declaration",
                     "detail": ""
                 }
-
             ],
             "cumulation_methods": {
                 "bilateral": {

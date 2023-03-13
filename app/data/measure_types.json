@@ -17,7 +17,7 @@
     {
         "measure_type": "112",
         "overlay": "Autonomous tariff suspension",
-        "hint": "sfsaf"
+        "hint": ""
     },
     {
         "measure_type": "115",
@@ -27,22 +27,22 @@
     {
         "measure_type": "117",
         "overlay": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
-        "hint": "SDFSDFDS"
+        "hint": ""
     },
     {
         "measure_type": "119",
         "overlay": "Airworthiness tariff suspension",
-        "hint": "dfsfdsf"
+        "hint": ""
     },
     {
         "measure_type": "122",
         "overlay": "Non preferential tariff quota",
-        "hint": "sdfdsfds"
+        "hint": ""
     },
     {
         "measure_type": "123",
         "overlay": "Non preferential tariff quota under authorised use",
-        "hint": "dsfdsfds"
+        "hint": ""
     },
     {
         "measure_type": "142",
@@ -52,21 +52,21 @@
     {
         "measure_type": "143",
         "overlay": "Preferential tariff quota",
-        "hint": "sdfdsfs"
+        "hint": ""
     },
     {
         "measure_type": "145",
         "overlay": "Preference under authorised use",
-        "hint": "sdfsdfd"
+        "hint": ""
     },
     {
         "measure_type": "552",
         "overlay": "Definitive anti-dumping duty",
-        "hint": "sdfsdfd"
+        "hint": ""
     },
     {
         "measure_type": "553",
         "overlay": "Definitive countervailing duty",
-        "hint": "sfsF"
+        "hint": ""
     }
 ]
