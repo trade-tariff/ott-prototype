@@ -1,0 +1,100 @@
+$indent: 20;
+$initial-indent: 0;
+
+
+div.search_2023 {
+    font-family: "GDS Transport", arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 19px !important;
+    // font-size: 1rem !important;
+    line-height: 1.25;
+
+    @for $i from 1 through 13 {
+        .indent_by_#{$i} {
+            padding-left       : #{$initial-indent + ($i * $indent)}px;
+            // background-image   : url('/public/images/dashes_#{$i}.png');
+            // background-repeat  : no-repeat;
+            // background-position: 2px 11px;
+        }
+    }
+
+    div.chapter_row_2023 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        font-weight: bold;
+        margin-top: 0.5em;
+
+        div:first-of-type {
+            flex-basis: 85%;
+        }
+        div:last-of-type {
+            flex-basis: 10%
+        }
+    }
+    
+    div.heading_row_2023 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+
+        div:first-of-type {
+            flex-basis: 85%;
+        }
+        div:last-of-type {
+            flex-basis: 10%
+        }
+    }
+    
+    div.heading_row_2023 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+
+        div:first-of-type {
+            flex-basis: 85%;
+        }
+        div:last-of-type {
+            flex-basis: 10%
+        }
+    }
+    
+    div.subheading_row_2023 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+
+        div:first-of-type {
+            flex-basis: 85%;
+        }
+        div:last-of-type {
+            flex-basis: 10%
+        }
+    }
+    
+    div.commodity_row_2023 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        color:red;
+
+        div:first-of-type {
+            flex-basis: 85%;
+        }
+        div:last-of-type {
+            flex-basis: 10%
+        }
+    }
+}
