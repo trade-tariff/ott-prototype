@@ -29,15 +29,15 @@
             {# Start commodity dates #}
             <div class="govuk-summary-list__row">
                 {% if commodity.validity_end_date == null %}
-                <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid from</dt>
-                <dd class="govuk-summary-list__value">
-                    {{ commodity.validity_start_date | format_date("D MMMM YYYY") }}
-                </dd>
+                    <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid from</dt>
+                    <dd class="govuk-summary-list__value">
+                        {{ commodity.validity_start_date | format_date("D MMMM YYYY") }}
+                    </dd>
                 {% else %}
-                <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid between</dt>
-                <dd class="govuk-summary-list__value">
-                    {{ commodity.validity_start_date | format_date("D MMMM YYYY") }} and {{ commodity.validity_end_date | format_date("D MMMM YYYY") }}
-                </dd>
+                    <dt class="govuk-summary-list__key">{{ context.heading_classifier }} valid between</dt>
+                    <dd class="govuk-summary-list__value">
+                        {{ commodity.validity_start_date | format_date("D MMMM YYYY") }} and {{ commodity.validity_end_date | format_date("D MMMM YYYY") }}
+                    </dd>
                 {% endif %}
                 <dd class="govuk-summary-list__actions"></dd>
             </div>
@@ -75,7 +75,12 @@
                 <div class="govuk-summary-list__row">
                     <dt class="govuk-summary-list__key">Supplementary unit</dt>
                     <dd class="govuk-summary-list__value {{ context.description_class }}">
-                        {% if commodity.supplementary_unit != "" %}
+                        {% if commodity.excise_supplementary %}
+                            There are no supplementary unit measures assigned to this commodity,
+                            however you will need to declare the unit of import ({{ commodity.supplementary_unit_description | lower }}) for excise purposes.
+                            <br><br>
+                    {% else %}
+                        {% if commodity.supplementary_unit_description != "" %}
                             <p>
                                 {{ commodity.supplementary_unit_description }}
                                 {% if commodity.supplementary_unit_abbreviation != "" %} ({{ commodity.supplementary_unit_abbreviation }}){% endif %}
@@ -83,65 +88,67 @@
                         {% else %}
                             <p>No supplementary unit required</p>
                         {% endif %}
+                    {% endif %}
 
-                        <details class="govuk-details" data-module="govuk-details">
-                            <summary class="govuk-details__summary">
-                                <span class="govuk-details__summary-text">What are supplementary units?</span>
-                            </summary>
-                            <div class="govuk-details__text  govuk-!-font-size-16">
+                    <details class="govuk-details" data-module="govuk-details">
+                        <summary class="govuk-details__summary">
+                            <span class="govuk-details__summary-text">What are supplementary units?</span>
+                        </summary>
+                        <div class="govuk-details__text  govuk-!-font-size-16">
                             Supplementary units are used when an additional measurement unit is needed on customs declarations. For example: the quantity of the products as well as the weight in kilograms.<br>
-                                <!--<a target="_blank" href="https://www.gov.uk/government/publications/measurement-unit-codes-for-data-elements-23-and-44-of-the-customs-declaration-service">Supplementary units on CDS</a>
+                            <!--<a target="_blank" href="https://www.gov.uk/government/publications/measurement-unit-codes-for-data-elements-23-and-44-of-the-customs-declaration-service">Supplementary units on CDS</a>
                             {% if context.scope_id != "xi" %}<br>
                             <a target="_blank" href="https://www.gov.uk/government/publications/uk-trade-tariff-quantity-codes/uk-trade-tariff-quantity-codes">Supplementary units on CHIEF</a>
                             {% endif %}//-->
-                            </div>
-                        </details>
-                    </dd>
-                    <dd class="govuk-summary-list__actions"></dd>
-                </div>
-            {% endif %}
-
-            {% if context.show_date %}
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Date of trade</dt>
-                    <dd class="govuk-summary-list__value">21 January 2021</dd>
-                    <dd class="govuk-summary-list__actions">
-                        <a class="govuk-link" href="/date">
-                        Change<span class="govuk-visually-hidden"> date of trade</span>
-                        </a>
-                    </dd>
-                </div>
-            {% endif %}
-
-            {% if context.show_countries %}
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Filter by country</dt>
-                    <dd class="govuk-summary-list__value">
-                        {{ context.country_name }}
-                    </dd>
-                    <dd class="govuk-summary-list__actions">
-                        <a class="govuk-link" href="/country/{{ commodity.data.attributes.goods_nomenclature_item_id }}">
-                            Change<span class="govuk-visually-hidden"> trading partner</span>
-                        </a>
-                    </dd>
-                </div>
-            {% endif %}
-            {% if context.flag_show_edit_references_link == 1 %}
-                {% if context.is_local %}
-                    {# {% if commodity.search_references | length > 0 %} #}
-                        <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key">Classification tags<a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="{{ admin_link }}"><img class="references" src="/public/images/references/references2.png"></a></dt>
-                            <dd class="govuk-summary-list__value">
-                                {% for sr in commodity.search_references %}
-                                    <span class="tag">{{sr}}</span>
-                                {% endfor %}
-                            </dd>
-                            <dd class="govuk-summary-list__actions">&nbsp;</dd>
                         </div>
-                    {# {% endif %} #}
-                {% endif %}
-            {% endif %}
+                    </details>
+                </dd>
+                <dd class="govuk-summary-list__actions"></dd>
+            </div>
+        {% endif %}
 
-        </dl>
-    </div>
+        {% if context.show_date %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Date of trade</dt>
+                <dd class="govuk-summary-list__value">21 January 2021</dd>
+                <dd class="govuk-summary-list__actions">
+                    <a class="govuk-link" href="/date">
+                        Change<span class="govuk-visually-hidden"> date of trade</span>
+                    </a>
+                </dd>
+            </div>
+        {% endif %}
+
+        {% if context.show_countries %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Filter by country</dt>
+                <dd class="govuk-summary-list__value">
+                    {{ context.country_name }}
+                </dd>
+                <dd class="govuk-summary-list__actions">
+                    <a class="govuk-link" href="/country/{{ commodity.data.attributes.goods_nomenclature_item_id }}">
+                            Change<span class="govuk-visually-hidden"> trading partner</span>
+                    </a>
+                </dd>
+            </div>
+        {% endif %}
+        {% if context.flag_show_edit_references_link == 1 %}
+            {% if context.is_local %}
+                {# {% if commodity.search_references | length > 0 %} #}
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Classification tags<a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="{{ admin_link }}"><img class="references" src="/public/images/references/references2.png"></a>
+                    </dt>
+                    <dd class="govuk-summary-list__value">
+                        {% for sr in commodity.search_references %}
+                            <span class="tag">{{sr}}</span>
+                        {% endfor %}
+                    </dd>
+                    <dd class="govuk-summary-list__actions">&nbsp;</dd>
+                </div>
+                {# {% endif %} #}
+            {% endif %}
+        {% endif %}
+
+    </dl>
+</div>
 </div>

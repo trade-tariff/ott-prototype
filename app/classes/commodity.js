@@ -54,6 +54,7 @@ class Commodity {
         this.all_certificates = []
         this.vat = null
         this.unit_values = null
+        this.excise_supplementary = false
 
         this.get_heading_class()
 
@@ -746,7 +747,6 @@ class Commodity {
             this.remove_irrelevant_measures(measure_types)
         }
         this.get_units()
-        this.get_supplementary_unit()
         this.get_measure_country_descriptions()
         this.categorise_measures(override_block)
         this.get_customs_duties_string()
@@ -770,6 +770,7 @@ class Commodity {
             this.calculate_quotas()
         }
         this.assign_preference_codes()
+        this.get_supplementary_unit()
     }
 
     sort_ancestry_ids() {
@@ -1483,15 +1484,46 @@ class Commodity {
         this.measures.forEach(m => {
             if (this.supplementary_unit_array.includes(m.measure_type_id)) {
                 this.supplementary_unit = m.measure_components[0].measurement_unit_code
-                this.lookup_supplementary_unit()
+                this.lookup_supplementary_unit(this.supplementary_unit)
                 var a = 1
             }
         })
+        if (this.supplementary_unit == '') {
+            this.get_excise_supp_codes()
+        }
     }
 
-    lookup_supplementary_unit() {
+    get_excise_supp_codes() {
+        var a = 1
+        this.excise_supp_unit_requirement = []
+        if (this.excises.length > 0) {
+            this.excises.forEach(excise => {
+                var m = excise.measure
+                m.measure_components.forEach(component => {
+                    var a = 1
+                    if (component.measurement_unit_code != null) {
+                        if (!this.excise_supp_unit_requirement.includes(component.measurement_unit_code)) {
+                            this.excise_supp_unit_requirement.push(component.measurement_unit_code)
+                        }
+                        // break
+                    }
+                });
+            });
+        }
+
+        var units = []
+        if (this.excise_supp_unit_requirement.length > 0) {
+            this.excise_supp_unit_requirement.forEach(requirement => {
+                units.push(this.lookup_supplementary_unit(requirement, "excise"))
+            });
+            this.supplementary_unit_description = units.join(", ")
+        }
+    }
+
+    lookup_supplementary_unit(unit, excise = null) {
         const fs = require('fs')
         const path = require('path')
+        var ret = ""
 
         var directoryPath = path.join(__dirname, '..')
         var directoryPath = path.join(directoryPath, 'data')
@@ -1499,13 +1531,20 @@ class Commodity {
         var unit_file = fs.readFileSync(filename, 'utf8')
         var supplementary_units = JSON.parse(unit_file)
 
+        if (excise == "excise") {
+            this.excise_supplementary = true
+        }
+
         supplementary_units.forEach(su => {
-            if (su.unit_code == this.supplementary_unit && su.unit_qualifier == '') {
+            if (su.unit_code == unit && su.unit_qualifier == '') {
                 this.supplementary_unit_description = su.description
                 this.supplementary_unit_chief_code = su.chief_code
                 this.supplementary_unit_abbreviation = su.abbreviation
             }
         })
+        if (excise == "excise") {
+            return (this.supplementary_unit_description)
+        }
     }
 
     // Work out the units
