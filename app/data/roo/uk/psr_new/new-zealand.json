@@ -205,6 +205,23 @@
             "valid": true
         },
         {
+            "heading": "0707",
+            "chapter": 7,
+            "subdivision": "",
+            "min": "0707000000",
+            "max": "0707999999",
+            "rules": [
+                {
+                    "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
+                    "class": [
+                        "CC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "0708",
             "chapter": 7,
             "subdivision": "",
@@ -2269,6 +2286,57 @@
             "valid": true
         },
         {
+            "heading": "1509.20",
+            "chapter": 15,
+            "subdivision": "",
+            "min": "1509200000",
+            "max": "1509299999",
+            "rules": [
+                {
+                    "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
+                    "class": [
+                        "CC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "1509.30",
+            "chapter": 15,
+            "subdivision": "",
+            "min": "1509300000",
+            "max": "1509399999",
+            "rules": [
+                {
+                    "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
+                    "class": [
+                        "CC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "1509.40",
+            "chapter": 15,
+            "subdivision": "",
+            "min": "1509400000",
+            "max": "1509499999",
+            "rules": [
+                {
+                    "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
+                    "class": [
+                        "CC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "1509.90",
             "chapter": 15,
             "subdivision": "",
@@ -2691,6 +2759,28 @@
             "subdivision": "",
             "min": "1515500000",
             "max": "1515599999",
+            "rules": [
+                {
+                    "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
+                    "class": [
+                        "CC"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "Refining.",
+                    "class": [],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "1515.60",
+            "chapter": 15,
+            "subdivision": "",
+            "min": "1515600000",
+            "max": "1515699999",
             "rules": [
                 {
                     "rule": "CC (all non-originating materials used in the production of the good have undergone a change in tariff classification at the two-digit level).",
@@ -4171,6 +4261,23 @@
             "subdivision": "",
             "min": "2403000000",
             "max": "2403999999",
+            "rules": [
+                {
+                    "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "2404",
+            "chapter": 24,
+            "subdivision": "",
+            "min": "2404000000",
+            "max": "2404999999",
             "rules": [
                 {
                     "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
@@ -16781,6 +16888,30 @@
             "valid": true
         },
         {
+            "heading": "8414.70",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8414700000",
+            "max": "8414799999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "8414.80",
             "chapter": 84,
             "subdivision": "",
@@ -17429,6 +17560,30 @@
             "valid": true
         },
         {
+            "heading": "8419.12",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8419120000",
+            "max": "8419129999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "8419.19",
             "chapter": 84,
             "subdivision": "",
@@ -17506,6 +17661,78 @@
             "subdivision": "",
             "min": "8419320000",
             "max": "8419329999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8419.33",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8419330000",
+            "max": "8419339999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8419.34",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8419340000",
+            "max": "8419349999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8419.35",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8419350000",
+            "max": "8419359999",
             "rules": [
                 {
                     "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
@@ -17938,6 +18165,30 @@
             "subdivision": "",
             "min": "8421310000",
             "max": "8421319999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8421.32",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8421320000",
+            "max": "8421329999",
             "rules": [
                 {
                     "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
@@ -23093,6 +23344,30 @@
             "valid": true
         },
         {
+            "heading": "8479.83",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8479830000",
+            "max": "8479839999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "8479.89",
             "chapter": 84,
             "subdivision": "",
@@ -23530,6 +23805,30 @@
             "subdivision": "",
             "min": "8484000000",
             "max": "8484999999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8485",
+            "chapter": 84,
+            "subdivision": "",
+            "min": "8485000000",
+            "max": "8485999999",
             "rules": [
                 {
                     "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
@@ -25618,6 +25917,54 @@
             "valid": true
         },
         {
+            "heading": "8517.13",
+            "chapter": 85,
+            "subdivision": "",
+            "min": "8517130000",
+            "max": "8517139999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8517.14",
+            "chapter": 85,
+            "subdivision": "",
+            "min": "8517140000",
+            "max": "8517149999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "8517.18",
             "chapter": 85,
             "subdivision": "",
@@ -26199,6 +26546,30 @@
             "subdivision": "",
             "min": "8523800000",
             "max": "8523899999",
+            "rules": [
+                {
+                    "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8524",
+            "chapter": 85,
+            "subdivision": "",
+            "min": "8524000000",
+            "max": "8524999999",
             "rules": [
                 {
                     "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
@@ -27922,6 +28293,30 @@
             "valid": true
         },
         {
+            "heading": "8543.40",
+            "chapter": 85,
+            "subdivision": "",
+            "min": "8543400000",
+            "max": "8543499999",
+            "rules": [
+                {
+                    "rule": "CTSH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the six-digit level).",
+                    "class": [
+                        "CTSH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
             "heading": "8543.70",
             "chapter": 85,
             "subdivision": "",
@@ -28071,6 +28466,30 @@
             "subdivision": "",
             "min": "8548000000",
             "max": "8548999999",
+            "rules": [
+                {
+                    "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
+                    "class": [
+                        "CTH"
+                    ],
+                    "operator": null
+                },
+                {
+                    "rule": "The good has a Regional Value Content (RVC) as calculated under Article 4 of the Origin Reference Document of not less than 40%, whether using the build-up method or build-down method (RVC40)",
+                    "class": [
+                        "RVC"
+                    ],
+                    "operator": null
+                }
+            ],
+            "valid": true
+        },
+        {
+            "heading": "8549",
+            "chapter": 85,
+            "subdivision": "",
+            "min": "8549000000",
+            "max": "8549999999",
             "rules": [
                 {
                     "rule": "CTH (all non-originating materials used in the production of the good have undergone a change in tariff classification at the four-digit level).",
