@@ -1,0 +1,37 @@
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+        <h2 class="govuk-heading-m roo_heading">
+            Chemicals included within commodity code {{ commodity.data.attributes.goods_nomenclature_item_id }}
+        </h2>
+        <p>This table list the chemicals that are included within commodity {{ commodity.data.attributes.goods_nomenclature_item_id }}.</p>
+        <p>Products are identified according to the Chemical Abstracts Service Registry Number (CAS RN),
+        the system used to globally identify chemical products, and by the CUS number, which is used to 
+        identify chemicals in the European Union.</p>
+        {% if chemicals.chemicals | length > 0 %}
+            <table class="govuk-table">
+                {# <caption class="govuk-table__caption govuk-table__caption--m">Chemicals</caption> #}
+                <thead class="govuk-table__head">
+                    <tr class="govuk-table__row sticky">
+                        <th scope="col" class="govuk-table__header"><abbr title="Chemical Abstracts Service Registry Number">CAS RN</abbr></th>
+                        <th scope="col" class="govuk-table__header"><abbr title="European Union unique chemical identifier">CUS number</abbr></th>
+                        <th scope="col" class="govuk-table__header">Name</th>
+                        {# <th scope="col" class="govuk-table__header">Nomen</th> #}
+                    </tr>
+                </thead>
+                <tbody class="govuk-table__body">
+
+                    {% for chemical in chemicals.chemicals %}
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">{{ chemical.cas_rn }}</td>
+                            <td class="govuk-table__cell">{{ chemical.cus }}</td>
+                            <td class="govuk-table__cell">{{ chemical.name }}</td>
+                            {# <td class="govuk-table__cell">{{ chemical.nomen }}</td> #}
+                        </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+
+        {% endif %}
+    </div>
+</div>

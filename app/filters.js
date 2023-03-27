@@ -486,7 +486,7 @@ module.exports = function (env) {
                 var replace = "(\\b)(" + term + ")(\\b)";
                 var re = new RegExp(replace, "gmi");
 
-                s = s.replace(re, "$1<span class='hi'>$2</span>$3");
+                // s = s.replace(re, "$1<span class='hi'>$2</span>$3");
             });
             out = s;
         } else {

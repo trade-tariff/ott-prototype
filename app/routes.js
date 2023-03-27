@@ -383,12 +383,13 @@ router.get([
         // UK
 
         // var url_seasonal = "http://127.0.0.1:5000/seasonal_rates/0806101090"
+        var url_chemicals = "http://127.0.0.1:5000/chemicals/" + req.params["goods_nomenclature_item_id"];
         const axiosrequest1 = axios.get(url);
-        // const axiosrequest2 = axios.get(url_seasonal);
+        const axiosrequest2 = axios.get(url_chemicals);
         if (context.country == "") {
             try {
-                // await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
-                await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
+                await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
+                // await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
                     c = new Commodity();
                     c.country = context.country;
                     c.pass_request(req);
@@ -396,6 +397,7 @@ router.get([
                     c.get_measure_data(req, "basic");
 
                     // var seasonal_rates = response2.data
+                    var chemicals = response2.data
 
                     context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
                     context.value_description = c.description;
@@ -423,7 +425,8 @@ router.get([
                         'countries': countries,
                         'roo': roo_mvp,
                         'toggle_message': toggle_message,
-                        'commodity': c
+                        'commodity': c,
+                        'chemicals': chemicals
                     });
                 }));
             } catch {
@@ -656,22 +659,22 @@ router.get(['/stop-press-future/', '/:scope_id/stop-press'], function (req, res)
 });
 
 // Preferences
-router.get([
-    '/preferences/',
-    ':scope_id/preferences/',
-    '/preferences/:confirm',
-    ':scope_id/preferences/:confirm'
-], function (req, res) {
-    var context = new Context(req);
-    var show_confirmation = req.params["confirm"];
-    res.render('preferences', {
-        'context': context,
-        'show_confirmation': show_confirmation,
-        'scope_id': scope_id,
-        'root_url': root_url,
-        'title': title
-    });
-});
+// router.get([
+//     '/preferences/',
+//     ':scope_id/preferences/',
+//     '/preferences/:confirm',
+//     ':scope_id/preferences/:confirm'
+// ], function (req, res) {
+//     var context = new Context(req);
+//     var show_confirmation = req.params["confirm"];
+//     res.render('preferences', {
+//         'context': context,
+//         'show_confirmation': show_confirmation,
+//         'scope_id': scope_id,
+//         'root_url': root_url,
+//         'title': title
+//     });
+// });
 
 
 /* ############################################################################ */
@@ -1209,6 +1212,14 @@ router.get(['/bulletin/story/:id', '/xi/bulletin/story/:id'], async function (re
             });
         });
 
+});
+
+// Preferences - heading state
+router.get(['/preferences', '/xi/preferences'], async function (req, res) {
+    var context = new Context(req);
+    res.render('heading_defaults', {
+        'context': context
+    });
 });
 
 module.exports = router

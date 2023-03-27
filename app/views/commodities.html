@@ -64,13 +64,18 @@
             </span>
             <h1 class="govuk-heading-l commodity-split">Commodity {{ commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code2 | safe }}</h1>
             {% set admin_root = "https://tariff-admin-production.london.cloudapps.digital/search_references/" %}
-            
-            {% if commodity.data.attributes.goods_nomenclature_item_id.substring(4, 10) == "000000" %}
-                {% set admin_link = admin_root + "headings/" + commodity.goods_nomenclature_item_id.substring(0, 4) + "/search_references" %}
+
+            {% if commodity
+                .data
+                .attributes
+                .goods_nomenclature_item_id
+                .substring(4, 10) == "000000" %}
+                {% set admin_link = admin_root + "headings/" + commodity
+                    .goods_nomenclature_item_id
+                    .substring(0, 4) + "/search_references" %}
             {% else %}
                 {% set admin_link = admin_root + "commodities/" + commodity.goods_nomenclature_item_id + "-" + commodity.data.attributes.producline_suffix + "/search_references" %}
             {% endif %}
-
 
             {# <div class="govuk-warning-text govuk-grid-column-three-quarters" xstyle="border:silver 1px solid;padding:2.5em !important">
                     <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
@@ -124,6 +129,11 @@
                     <li class="govuk-tabs__list-item">
                         <a class="govuk-tabs__tab" id="tab_rules_of_origin" href="#rules_of_origin">Rules of origin</a>
                     </li>
+                    {% if chemicals.chemicals | length > 0 %}
+                        <li class="govuk-tabs__list-item">
+                            <a class="govuk-tabs__tab" id="tab_chemicals" href="#chemicals">Chemicals</a>
+                        </li>
+                    {% endif %}
                     <li class="govuk-tabs__list-item">
                         <a class="govuk-tabs__tab" id="tab_footnotes" href="#footnotes">Notes</a>
                     </li>
@@ -138,6 +148,11 @@
                 <div class="govuk-tabs__panel" id="rules_of_origin">
                     {% include "includes/roo/commodities_roo.html" %}
                 </div>
+                {% if chemicals.chemicals | length > 0 %}
+                    <div class="govuk-tabs__panel" id="chemicals">
+                        {% include "includes/commodities_chemicals.html" %}
+                    </div>
+                {% endif %}
                 <div class="govuk-tabs__panel" id="footnotes">
                     {% if commodity.commodity_footnote_count > 0 %}
                         <table class="govuk-table xgovuk-table--m">
