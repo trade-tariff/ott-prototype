@@ -4784,7 +4784,7 @@
         {
             "scheme_code": "gsp",
             "validity_start_date": "2021-01-01",
-            "validity_end_date": "2023-04-20",
+            "validity_end_date": "2021-04-20",
             "title": "Generalised Scheme of Preferences (GSP)",
             "proofs": [
                 {
@@ -4999,7 +4999,7 @@
             ]
         },
         {
-            "scheme_code": "dcts_ldcs",
+            "scheme_code": "dcts-ldcs",
             "validity_start_date": "2023-04-21",
             "validity_end_date": null,
             "title": "Developing Countries Trading Scheme (DCTS)",
@@ -5199,7 +5199,7 @@
             ]
         },
         {
-            "scheme_code": "dcts_general_enhanced",
+            "scheme_code": "dcts-general-enhanced",
             "validity_start_date": "2023-04-21",
             "validity_end_date": null,
             "title": "Developing Countries Trading Scheme (DCTS)",

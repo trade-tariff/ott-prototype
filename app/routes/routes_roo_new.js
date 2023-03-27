@@ -670,7 +670,7 @@ router.get(['/roo/test_psr'],
         var context = new Context(req, "commodity");
         context.get_all_psrs();
 
-        res.render('roo_new/99_roo_test', {
+        res.render('roo_new/test_psr', {
             'context': context
         });
     }));
@@ -688,7 +688,7 @@ router.get(['/roo/test_psr/:file', '/uk/roo/test_psr/:file', '/xi/roo/test_psr/:
         context.get_all_psrs();
         context.get_all_psrs_for_scheme(req);
 
-        res.render('roo_new/99_roo_test', {
+        res.render('roo_new/test_psr', {
             'context': context
         });
     }));

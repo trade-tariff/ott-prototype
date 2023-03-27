@@ -54,6 +54,31 @@
                                 </div>
                                 {% set index = index + 1 %}
                             {% endfor %}
+
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="not met">
+                                <label class="govuk-label govuk-radios__label psr_for_selenium_label" for="psr_{{ index }}">Distillation rule: read more about the distillation rule in the notes below</label>
+                                <details class="govuk-details govuk-!-margin-left-3" data-module="govuk-details" style="display:none">
+                                    <summary class="govuk-details__summary">
+                                        <span class="govuk-details__summary-text">
+                                        Read more about the distillation rule
+                                        </span>
+                                    </summary>
+                                    <div class="govuk-details__text">
+                                        <p>Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils</p>
+                                        <h2 id="heading-note-1-distillation-rule">Heading Note 1: Distillation Rule</h2>
+                                        <p>Notwithstanding the applicable product specific rules of origin, a good of heading 2710 that undergoes atmospheric or vacuum distillation in the territory of one or both of the Parties satisfies the requirements of this Annex.</p>
+                                        <p>For the purposes of this rule:</p>
+                                        <ul>
+                                        <li><p>(a) “atmospheric distillation” means a separation process in which petroleum oils are converted, in a distillation tower, into fractions according to boiling point and the vapor then condensed in different liquid fractions. Goods produced from atmospheric distillation may include liquefied petroleum gas, naphtha, gasoline, kerosene, diesel, heating oil, light gas oils and lubricating oils; and </p>
+                                        </li>
+                                        <li><p>(b) “vacuum distillation” means distillation at a pressure below atmospheric, but not so low that it would be classed as molecular distillation. Vacuum distillation is used for distilling high boiling and heat sensitive materials, such as heavy distillates in petroleum oils to produce light and heavy vacuum gas oils and residuum. In some refineries, gas oils may be further processed into lubricating oils.</p>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </details>
+                            </div>
+
                             {% if context.rules.length > 2 %}
                                 <div class="govuk-radios__item">
                                     <input class="govuk-radios__input" id="psr_{{ index }}" name="psr" type="radio" value="not met">
