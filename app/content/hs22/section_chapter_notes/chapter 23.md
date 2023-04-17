@@ -10,9 +10,17 @@
 
 2. Subheading [2306 90 05](/commodities/2306900500) includes only residues from the extraction of oil of germs of maize and containing the following ingredients in the quantities specified, calculated by weight on the dry product:
 
-    - a. products of an oil content of less than 3% starch content: less than 45%, protein content (nitrogen content x 6.25): not less than 11.5%;
+    - a. products of:
+      -  oil content: less than 3%
+      -  starch content: less than 45%
+      -  protein content (nitrogen content x 6.25): not less than 11.5%;
 
-    - b. products of an oil content of not less than 3% and not more than 8%: starch content: less than 45%, protein content (nitrogen content x 6.25): not less than 13%. Moreover, such residues shall not contain ingredients which are not obtained from maize grains.
+    - b. products of:
+      - oil content: not less than 3% and not more than 8%
+      - starch content: less than 45%
+      - protein content (nitrogen content x 6.25): not less than 13%.
+      
+    Moreover, such residues shall not contain ingredients which are not obtained from maize grains.
 
 3. For the purposes of subheadings [2307 00 11](/commodities/2307001100), [2307 00 19](/commodities/2307001900), [2308 00 11](/commodities/2308001100) and [2308 00 19](/commodities/2308001900), the following expressions shall have the meanings hereby assigned to them:
 
@@ -34,4 +42,4 @@
     
     These products may also contain residues from the extraction of maize germ oil by the wet milling process.
     
-    Their starch content may not exceed 28% by weight on the dry product, their fat content may not exceed 4.5% by weight on the dry product and their protein content may not exceed 40% on the dry product
+    Their starch content may not exceed 28% by weight on the dry product, their fat content may not exceed 4.5% by weight on the dry product and their protein content may not exceed 40% on the dry product.

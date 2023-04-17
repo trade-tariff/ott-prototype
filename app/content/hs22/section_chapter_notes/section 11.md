@@ -2,7 +2,7 @@
 
     a. animal brush-making bristles or hair (heading [0502](/headings/0502)); horsehair or horsehair waste (heading [0511](/headings/0511));
     
-    b. human hair or articles of human hair (heading [0501](/headings/0501), [6703](/headings/6703) or [6704](/headings/6704)), except straining cloth of a kind commonly used in oil-presses or the like (heading [5911](/headings/5911));
+    b. human hair or articles of human hair (heading [0501](/headings/0501), [6703](/headings/6703) or [6704](/headings/6704)), except filtering or straining cloth of a kind commonly used in oil-presses or the like (heading [5911](/headings/5911));
     
     c. cotton linters or other vegetable materials of Chapter [14](/chapters/14);
     
@@ -169,7 +169,7 @@
 
     a. Chapters [50](/chapters/50) to [55](/chapters/55) and [60](/chapters/60) and, except where the context otherwise requires, Chapters [56](/chapters/56) to [59](/chapters/59) do not apply to goods made up within the meaning of note 7 above; and
     
-    b. Chapters [50](/chapters/50) to [55](/chapters/55) and [60](/chapters/60) do not apply to goods of Chapters [56](/chapters/56) to [569](/chapters/59).
+    b. Chapters [50](/chapters/50) to [55](/chapters/55) and [60](/chapters/60) do not apply to goods of Chapters [56](/chapters/56) to [59](/chapters/59).
 
 9.  The woven fabrics of Chapters [50](/chapters/50) to [55](/chapters/55) include fabrics consisting of layers of parallel textile yarns superimposed on each other at acute or right angles. These layers are bonded at the intersections of the yarns by an adhesive or by thermal bonding.
 
@@ -183,7 +183,7 @@
 
 14. Unless the context otherwise requires, textile garments of different headings are to be classified in their own headings, even if put up in sets for retail sale. For the purposes of this note, the expression 'textile garments' means garments of heading [6101](/headings/6101) to [6114](/headings/6114) and heading [6201](/headings/6201) to [6211](/headings/6211).
 
-15. Subject to Note 1 to Section XI, textiles, garments and other textile articles, incorporating chemical, mechanical or electronic components for additional functionality, whether incorpo-rated as built-in components or within the fibre or fabric, are classified in their respective head-ings in Section XI provided that they retain the essential character of the goods of this Section.
+15. Subject to Note 1 to Section XI, textiles, garments and other textile articles, incorporating chemical, mechanical or electronic components for additional functionality, whether incorporated as built-in components or within the fibre or fabric, are classified in their respective headings in Section XI provided that they retain the essential character of the goods of this Section.
 
 ### Subheading notes
 

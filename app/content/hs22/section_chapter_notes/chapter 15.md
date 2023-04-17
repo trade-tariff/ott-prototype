@@ -27,7 +27,7 @@
 
      - decantation within the normal time limits,
 
-     - centrifugation or filtration, provided that, in order to separate the oils from their solid constituents, only mechanical force, such as gravity, pressure or centrifugal force, has been employed (excluding any adsorption filtering process or any other physical or chemical process);
+     - centrifugation or filtration, provided that, in order to separate the oils from their solid constituents, only mechanical force, such as gravity, pressure or centrifugal force, has been employed (excluding any absorption filtering process or any other physical or chemical process);
 
    - (b) fixed vegetable oils, fluid or solid, obtained by extraction are to continue to be considered as ‘crude’ when they cannot be distinguished, by their colour, odour or taste, nor by recognised special analytical properties, from vegetable oils and fats obtained by pressure;
 
@@ -54,8 +54,8 @@
 
 3. Subheadings [1522 00 31](/commodities/1522003100) and [1522 00 39](/commodities/1522003900) do not cover:
 
-   - (a) residues resulting from the treatment of fatty substances containing oil having an iodine index, determined in accordance with the method laid down in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91, lower than 70 or higher than 100;
+   - (a) residues resulting from the treatment of fatty substances containing oil having an iodine index, determined in accordance with the method laid down in the UK equivalent of Annex XVI to Commission Regulation (EEC) No 2568/91, lower than 70 or higher than 100;
 
-   - (b) residues resulting from the treatment of fatty substances containing oil having an iodine index higher than 70 or lower than 100, of which the peak area representing the retention volume of betasitosterol (Delta-5,23-stigmastadienol + chlerosterol + betasitosterol + sitostanol + delta-5-avenasterol + delta-5,24-stigmastadienol), determined in accordance with the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91, is less than 93.0 % of the total sterol peak areas.
+   - (b) residues resulting from the treatment of fatty substances containing oil having an iodine index higher than 70 or lower than 100, of which the peak area representing the retention volume of betasitosterol (Delta-5,23-stigmastadienol + chlerosterol + betasitosterol + sitostanol + delta-5-avenasterol + delta-5,24-stigmastadienol), determined in accordance with the UK equivalent of Annex XIX to Commission Regulation (EEC) No 2568/91, is less than 93.0 % of the total sterol peak areas.
 
 4. Food preparations made from products of Chapter [15](/chapters/15) presented in measured doses, such as capsules, tablets, pastilles and pills, intended for use as food supplements, are excluded from this Chapter. The essential character of a food supplement is not only given by its ingredients, but also by its specific form of presentation revealing its function as a food supplement, since it determines the dosage, the way in which it is absorbed and the place where it is supposed to become active. Such food preparations are to be classified under heading [2106](/headings/2106) insofar as they are not specified or included elsewhere.

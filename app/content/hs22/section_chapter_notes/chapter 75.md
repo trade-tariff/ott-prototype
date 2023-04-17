@@ -10,11 +10,11 @@
     (ii) the content by weight of any other element does not exceed the limit specified in the following table:
 
 
-    | Element              | Limiting content % by weight |
-    |----------------------|------------------------------|
-    | Fe                   | Iron                         |
-    | O                    | Oxygen                       |
-    | Other elements, each | 0.3                          |
+    | Element | Limiting content % by weight |
+    |-|-|
+    | Fe (Iron) | 0.5 |
+    | O (Oxygen) | 0.4 |
+    | Other elements, each | 0.3 |
 
 
     b. nickel alloys:

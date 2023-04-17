@@ -8,7 +8,7 @@
     - d. vegetable saps or extracts constituting alcoholic beverages (Chapter [22](/chapters/22));
     - e. camphor, glycyrrhizin or other products of heading [2914](/headings/2914) or [2938](/headings/2938);
     - f. concentrates of poppy straw containing not less than 50% by weight of alkaloids (heading [2939](/headings/2939));
-    - g. medicaments of heading [3003](/headings/3003) or [3004](/headings/3004) or blood-grouping reagents (heading [3006](/headings/3006));
+    - g. medicaments of heading [3003](/headings/3003) or [3004](/headings/3004) or blood-grouping reagents (heading [3822](/headings/3822));
     - h. tanning or dyeing extracts (heading [3201](/headings/3201) or [3203](/headings/3203));
     - ij. essential oils, concretes, absolutes, resinoids, extracted oleoresins, aqueous distillates or aqueous solutions of essential oils or preparations based on odoriferous substances of a kind used for the manufacture of beverages (Chapter [33](/chapters/33)); or
     - k. natural rubber, balata, gutta-percha, guayule, chicle or similar natural gums (heading [4001](/headings/4001)).

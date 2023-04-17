@@ -25,7 +25,7 @@
 
     - (a) fixed vegetable oils, fluid or solid, obtained by pressure, are to be considered as ‘crude’ if they have undergone no other processing than:
           - decantation within the normal time limits,
-          - centrifugation or filtration, provided that, in order to separate the oils from their solid constituents, only mechanical force, such as gravity, pressure or centrifugal force, has been employed (excluding any adsorption filtering process or any other physical or chemical process);
+          - centrifugation or filtration, provided that, in order to separate the oils from their solid constituents, only mechanical force, such as gravity, pressure or centrifugal force, has been employed (excluding any absorption filtering process or any other physical or chemical process);
     - (b) fixed vegetable oils, fluid or solid, obtained by extraction are to continue to be considered as ‘crude’ when they cannot be distinguished, by their colour, odour or taste, nor by recognised special analytical properties, from vegetable oils and fats obtained by pressure;
     - (c) the expression ‘crude oils’ is to be taken to extend to degummed soya-bean oil and to cotton-seed oil from which the gossypol has been removed.
 

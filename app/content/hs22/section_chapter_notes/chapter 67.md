@@ -1,6 +1,6 @@
 1. This chapter does not cover:
 
-    a. straining cloth of human hair (heading [5911](/headings/5911));
+    a. filtering or straining cloth of human hair (heading [5911](/headings/5911));
     
     b. floral motifs of lace, of embroidery or other textile fabric (Section XI);
     

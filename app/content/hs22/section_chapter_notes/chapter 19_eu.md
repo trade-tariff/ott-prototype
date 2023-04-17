@@ -24,6 +24,6 @@
 
 2. The expression 'sweet biscuits' in heading [1905 31](/subheadings/1905310000-80) applies only to products having a water content of not more than 12% by weight and a fat content of not more than 35% by weight (fillings and coatings are not to be taken into consideration in determining these contents).
 
-3. Subheading [1905 20](/subheadings/1905200000-80) covers only dry and brittle products.
+3. Subheading [1905 90 20](/subheadings/1905902000-80) covers only dry and brittle products.
 
 4. Food preparations of flour, groats, meal, starch or malt extract of heading [1901](/headings/1901) as well as those of goods of heading [0401](/headings/0401) to [0404](/headings/0404) presented in measured doses, such as capsules, tablets, pastilles and pills intended for use as food supplements, are excluded from classification under heading [1901](/headings/1901). The essential character of a food supplement is not only given by its ingredients, but also by its specific form of presentation revealing its function as a food supplement, since it determines the dosage, the way in which it is absorbed and the place where it is supposed to become active. Such food preparations are to be classified under heading [2106](/headings/2106) insofar as they are not specified or included elsewhere.

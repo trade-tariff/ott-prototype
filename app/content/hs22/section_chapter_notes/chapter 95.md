@@ -54,7 +54,7 @@
 
 5. Heading [9503](/headings/9503) does not cover articles which, on account of their design, shape or constituent material, are identifiable as intended exclusively for animals, for example, 'pet toys' (classification in their own appropriate heading).
 
-6. For the purposes of heading [9508](/headings/9508) : 
+6. For the purposes of heading [9508](/headings/9508):
 
     - a. the expression “amusement park rides” means a device or combination of devices or equipment that carry, convey, or direct a person or persons over or through a fixed or restricted course, including watercourses, or within a defined area for the primary purposes of amusement or entertainment. Such rides may be combined within an amusement park, theme park, water park or fairground. These amusement park rides do not include equipment of a kind commonly installed in residences or playgrounds; 
 
@@ -95,3 +95,5 @@
         The subheading does not cover articles of the winter season which are suitable for a more general use as decorations during that season, because their objective characteristics suggest that they are not exclusively used for Christmas festivities but mainly as decorations during the winter season, such as icicles, snow crystals, stars, reindeers, robins, snowmen, and other images of the winter season, whether or not the colours or outfits etc. suggest a connection with Christmas.
     
     (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree).
+
+This heading does not include equipment more specifically classified elsewhere in the classification.

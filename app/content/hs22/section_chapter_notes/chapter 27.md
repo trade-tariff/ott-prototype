@@ -30,7 +30,7 @@
 
 ### Additional chapter notes
 
-1. For the purposes of subheading [2707 99 80](/subheadings/2707998000-80) the term phenols applies to products which contain more than 50% by weight of phenols.
+1. For the purposes of subheading [2707 99 80](/subheadings/2707998000-80) the term 'phenols' applies to products which contain more than 50% by weight of phenols.
 
 2. For the purposes of heading [2710](/headings/2710):
 
@@ -44,7 +44,7 @@
     
     - e. 'gas oils' (subheadings [2710 19 31](/commodities/2710193100) to [2710 19 48](/subheadings/2710194800-80) and [2710 20 11](/subheadings/2710201100-80) to [2710 20 19](/subheadings/2710201900-80)) mean heavy oils as defined in paragraph (d) above of which 85% or more by volume (including losses) distils at 350°C (ISO 3405 method (equivalent to the ASTM D 86 method);
     
-    - f. 'fuel oils' (subheadings [2710 19 51](/commodities/2710195100) to [2710 19 67](/commodities/2710196700) and [2710](/headings/2710) 2031 to [2710](/headings/2710) 2039) mean heavy oils as defined in paragraph (d) above (other than gas oils as defined in paragraph (e) above) which, for a corresponding diluted colour C, have a viscosity V:
+    - f. 'fuel oils' (subheadings [2710 19 51](/commodities/2710195100) to [2710 19 67](/commodities/2710196700) and [2710 20 32](/commodities/2710203200) to [2710 20 38](/commodities/2710203800) mean heavy oils as defined in paragraph (d) above (other than gas oils as defined in paragraph (e) above) which, for a corresponding diluted colour C, have a viscosity V:
     
         - not exceeding that shown in line I of the following table when the sulphated ashes content is less than 1% by the ISO 3987 method and the saponification index is less than 4 by the ISO 6293-1 or ISO 6293-2 method,
             
@@ -70,23 +70,23 @@
 
         These subheadings do not cover heavy oils defined in paragraph (d) above for which it is not possible to determine:
         
-        - the distillation percentage at 250°C by the EN ISO 3104 method (zero shall be deemed to be a percentage);
+        - the distillation percentage at 250°C by the ISO 3405 method (equivalent to the ASTM D 186 method) (zero shall be deemed to be a percentage);
         
         - the kinematic viscosity at 50°C by the EN ISO 3104 method;
         
-        - or the diluted colour C by the ASTM D 1500 method.
+        - or the diluted colour C by the ISO 2049 method (equivalent to the ASTM D 1500 method).
         
         Such products fall in subheadings [2710 19 71](/commodities/2710197100) to [2710 19 99](/subheadings/2710199900-80).
     
     - g. 'containing biodiesel' means that the products of subheading [2710 20](/subheadings/2710200000-80) have a minimum content of biodiesel, i.e. mono-alkyl esters of fatty acids (FAMAE) of a kind used as a fuel, of 0.5% by volume (determination by the EN 14078 method).
 
-3. For the purposes of heading [2712](/headings/2712) the expression 'crude petroleum jelly' (subheading [2712 10 10](/commodities/2712101000)) is to be taken to apply to petroleum jelly of a natural colour higher than 4.5 by the ASTM D 1500 method.
+3. For the purposes of heading [2712](/headings/2712) the expression 'crude petroleum jelly' (subheading [2712 10 10](/commodities/2712101000)) is to be taken to apply to petroleum jelly of a natural colour higher than 4.5 by the ISO 2049 method (equivalent to the ASTM D 1500 method).
 
 4. For the purposes of subheadings [2712 90 31](/commodities/2712903100) to [2712 90 39](/subheadings/2712903900-80), the term 'crude' is to be taken to apply to products:
 
-    - a. with an oil content of 3.5 or higher by the ISO 2908 method, if their viscosity at 100°C is lower than 9x10-6 m<sup>2</sup> s-1 by the EN ISO 3104 method; or
+    - a. with an oil content of 3.5 or higher, if their viscosity at 100°C is lower than 9x10-6 m<sup>2</sup> s-1 by the EN ISO 3104 method; or
     
-    - b. of a natural colour higher than 3 by the ASTM D 1500 method, if their viscosity at 100°C is 9x10-6 m<sup>2</sup> s-1 or higher by the EN ISO 3104 method.
+    - b. of a natural colour higher than 3 by the ISO 2049 method (equivalent to the ASTM D 1500 method), if their viscosity at 100°C is 9x10-6 m<sup>2</sup> s-1 or higher by the EN ISO 3104 method.
 
 5. For the purposes of heading [2710](/headings/2710), [2711](/headings/2711) and [2712](/headings/2712), the term 'specific process' is to be taken to apply to the following operations:
 
@@ -108,11 +108,11 @@
     
     - ij. isomerisation;
     
-    - k. (in respect of products of subheadings [2710 19 31](/commodities/2710193100) to [2710 19 99](/subheadings/2710199900-80) only) desulphurisation with hydrogen resulting in a reduction of at least 85% of the sulphur content of the products processed (EN ISO 20846, EN ISO 20884, or EN ISO 14596 or EN ISO 24260, EN ISO 20847 and EN ISO 8754 method);
+    - k. (in respect of products of subheadings [2710 19 31](/commodities/2710193100) to [2710 19 99](/subheadings/2710199900-80) only) desulphurisation with hydrogen resulting in a reduction of at least 85% of the sulphur content of the products processed (EN ISO 20846, EN ISO 20884, or EN ISO 14596 or EN ISO 24260, EN ISO 20847 and EN ISO 8754 methods);
     
-    - l. (in respect of products of heading [2710](/headings/2710) only) deparaffing by a process other than filtering;
+    - l. (in respect of products of heading [2710](/headings/2710) only) deparaffining by a process other than filtering;
     
-    - m. (in respect of products of subheadings [2710 19 31](/commodities/2710193100) to [2710 19 99](/subheadings/2710199900-80) only) treatment with hydrogen at a pressure of more than 20 bar and a temperature of more than 250°C with the use of a catalyst, other than to effect desulphurisation, when the hydrogen constitutes an active element in a chemical reaction. The further treatment with hydrogen of lubricating oils of subheadings [2710 19 71](/commodities/2710197100) to [2710 19 99](/subheadings/2710199900-80) (eg hydrofinishing or decolourisation) in order, more especially, to improve colour or stability shall not, however, be deemed to be a specific process;
+    - m. (in respect of products of subheadings [2710 19 31](/commodities/2710193100) to [2710 19 99](/subheadings/2710199900-80) only) treatment with hydrogen at a pressure of more than 20 bar and a temperature of more than 250°C with the use of a catalyst, other than to effect desulphurisation, when the hydrogen constitutes an active element in a chemical reaction. The further treatment with hydrogen of lubricating oils of subheadings [2710 19 71](/commodities/2710197100) to [2710 19 99](/subheadings/2710199900-80) (e.g. hydrofinishing or decolourisation) in order, more especially, to improve colour or stability shall not, however, be deemed to be a specific process;
     
     - n. (in respect of products of subheadings [2710 19 51](/commodities/2710195100) to [2710 19 67](/commodities/2710196700) only) atmospheric distillation, on condition that less than 30% of these products distils, by volume, including losses, at 300°C by the ISO 3405 method (equivalent to the ASTM D 86 method).;
     

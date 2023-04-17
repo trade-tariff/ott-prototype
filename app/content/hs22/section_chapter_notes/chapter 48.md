@@ -28,9 +28,9 @@
 
     - n. metal foil backed with paper or paperboard (generally Section XIV or Section XV);
 
-    - o. articles of heading [9209](/headings/9209); or
+    - o. articles of heading [9209](/headings/9209);
 
-    - p. articles of Chapter [95](/chapters/95) (for example, toys, games, sports requisites).
+    - p. articles of Chapter [95](/chapters/95) (for example, toys, games, sports requisites);
 
     - q. articles of Chapter [96](/chapters/96) (for example, buttons, sanitary towels (pads) and tampons, napkins (diapers) and napkin liners).
 
@@ -129,18 +129,18 @@
     
     (b) having minima for tear and tensile as indicated in the following table or the linearly interpolated equivalent for any other weight:
 
-    | Minimum tear (mN)                                                              | Minimum tensile (kN/m)                                          |
-    |-------------------|-------------------|----------------------------------------|------------------------|----------------------------------------|
-    | Weight (g/m2)     | Machine direction | Machine direction plus cross direction | Cross direction        | Machine direction plus cross direction |
-    | 60                | 700               | 1,510                                  | 1.9                    | 6                                      |
-    | 70                | 830               | 1,790                                  | 2.3                    | 7.2                                    |
-    | 80                | 965               | 2,070                                  | 2.8                    | 8.3                                    |
-    | 100               | 1,230             | 2,635                                  | 3.7                    | 10.6                                   |
-    | 115               | 1,425             | 3,060                                  | 4.4                    | 12.3                                   |
+    | |Minimum tear (mN)|Minimum tear (mN)|Minimum tensile (kN/m)|Minimum tensile (kN/m)|
+    |-|-|-|-|-|
+    |Weight (g/m<sup>2</sup>)|Machine direction|Machine direction plus cross direction|Cross direction|Machine direction plus cross direction|
+    |60|700|1,510|1.9|6|
+    |70|830|1,790|2.3|7.2|
+    |80|965|2,070|2.8|8.3|
+    |100|1,230|2,635|3.7|10.6|
+    |115|1,425|3,060|4.4|12.3|
 
-3. For the purposes of subheading [4805 11](/commodities/4805110000), 'semi-chemical fluting paper' means paper, in rolls, of which not less than 65% by weight of the total fibre content consists of unbleached hardwood fibres obtained by a combination of mechanical and chemical pulping processes, and having acmT 30 (Corrugated Medium Test with 30 minutes of conditioning) crush resistance exceeding 1.8 newtons/g/m<sup>2</sup> at 50% relative humidity, at 23°C.
+3. For the purposes of subheading [4805 11](/commodities/4805110000), 'semi-chemical fluting paper' means paper, in rolls, of which not less than 65% by weight of the total fibre content consists of unbleached hardwood fibres obtained by a combination of mechanical and chemical pulping processes, and having a CMT 30 (Corrugated Medium Test with 30 minutes of conditioning) crush resistance exceeding 1.8 newtons/g/m<sup>2</sup> at 50% relative humidity, at 23°C.
 
-4. Subheading [4805 12](/commodities/4805120000) covers paper, in rolls, made mainly of straw pulp obtained by a combination of mechanical and chemical pulping processes, weighing 130g/m<sup>2</sup> or more, and having acmT 30 (Corrugated Medium Test with 30 minutes of conditioning) crush resistance exceeding 1.4 newtons/g/m<sup>2</sup> at 50% relative humidity, at 23°C.
+4. Subheading [4805 12](/commodities/4805120000) covers paper, in rolls, made mainly of straw pulp obtained by a combination of mechanical and chemical pulping processes, weighing 130g/m<sup>2</sup> or more, and having a CMT 30 (Corrugated Medium Test with 30 minutes of conditioning) crush resistance exceeding 1.4 newtons/g/m<sup>2</sup> at 50% relative humidity, at 23°C.
 
 5. Subheadings [4805 24](/commodities/4805240000) and [4805 25](/commodities/4805250000) cover paper and paperboard made wholly or mainly of pulp of recovered (waste and scrap) paper or paperboard. Testliner may also have a surface layer of dyed paper or of paper made of bleached or unbleached non-recovered pulp. These products have a Mullen burst index of not less than 2 kPa.m<sup>2</sup>/g.
 

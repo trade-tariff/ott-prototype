@@ -2,7 +2,7 @@
 
    (A) The products specified in the headings of this chapter are to be classified in those headings only if grains are present, whether or not in the ear or on the stalk.
 
-   (B) The chapter does not cover grains which have been hulled or otherwise worked. However, rice, husked, milled, polished, glazed, parboiled or broken remains classified in heading [1006](/headings/1006). Similarly, quinoa from which the pericarp has been wholly or partly removed in order to separate the saponin, but which has not undergone any other processes, remains classified in heading [1008](/headings/1008).
+   (B) The chapter does not cover grains which have been hulled or otherwise worked. However, rice, husked, milled, polished, glazed, parboiled or broken remains classified in heading [1006](/headings/1006).
 
    Similarly, quinoa from which the pericarp has been wholly or partly removed in order to separate the saponin, but which has not undergone any other processes, remains classified in heading [1008](/headings/1008).
 

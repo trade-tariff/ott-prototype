@@ -22,3 +22,7 @@
    - it is established that the goods are actually intended for sowing.
 
 3. Sweet potatoes shall be deemed to be for human consumption within the meaning of code [0714 20 10](/commodities/0714201000) if they are fresh, whole and put up in immediate packings at the time of release for free circulation.
+
+4.	However, dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta are excluded from this chapter (heading [0904](/headings/0904)).
+
+5.	Heading [0711](/headings/0711) applies to vegetables which have been treated solely to ensure their provisional preservation during transport or storage prior to use (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), provided they remain unsuitable for immediate consumption in that state.
