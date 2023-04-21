@@ -62,6 +62,8 @@
 
     - c. The expression “fairground amusements” means games of chance, strength or skill, which commonly employ an operator or attendant and may be installed in permanent buildings or in-dependent concession stalls. Fairground amusements do not include equipment of heading [9504](/headings/9504). 
 
+This heading does not include equipment more specifically classified elsewhere in the classification.
+
 ### Subheading notes
 
 1. Subheading [9504 50](/commodities/9504500000) covers:
@@ -95,5 +97,3 @@
         The subheading does not cover articles of the winter season which are suitable for a more general use as decorations during that season, because their objective characteristics suggest that they are not exclusively used for Christmas festivities but mainly as decorations during the winter season, such as icicles, snow crystals, stars, reindeers, robins, snowmen, and other images of the winter season, whether or not the colours or outfits etc. suggest a connection with Christmas.
     
     (b) decorative articles for Christmas trees. These are articles designed to be hung on a Christmas tree (i.e.lightweight articles of generally non-durable material designed to decorate a Christmas tree).
-
-This heading does not include equipment more specifically classified elsewhere in the classification.

@@ -46,12 +46,13 @@
     
     - f. 'fuel oils' (subheadings [2710 19 51](/commodities/2710195100) to [2710 19 67](/commodities/2710196700) and [2710 20 32](/commodities/2710203200) to [2710 20 38](/commodities/2710203800) mean heavy oils as defined in paragraph (d) above (other than gas oils as defined in paragraph (e) above) which, for a corresponding diluted colour C, have a viscosity V:
     
-        - not exceeding that shown in line I of the following table when the sulphated ashes content is less than 1% by the ISO 3987 method and the saponification index is less than 4 by the ISO 6293-1 or ISO 6293-2 method,
+        - not exceeding that shown in line I of the following table when the sulphated ashes content is less than 1% by the ISO 3987 method and the saponification index is less than 4 by the ISO 6293-1 or ISO 6293-2 method, (except where the product contains one or more bio-components, in which case the requirement in this indent for the saponification number to be less than 4 does not apply).
             
-        - exceeding that shown in line II when the pour point is not less than 10°C by the ISO 3016 method, (except where the product contains one or more bio-components, in which case the requirement in this indent for the saponification number to be less than 4 does not apply).
+        - exceeding that shown in line II when the pour point is not less than 10°C by the ISO 3016 method.
             
         - exceeding that shown in line I but not exceeding that shown in line II when 25% or more by volume distils at 300°C by the ISO 3405 method (equivalent to the ASTM D 86 method) or, if less than 25% by volume distils at 300°C, when the pour point is higher than 10°C below zero by the ISO 3016 method. These provisions apply only to oils having a diluted colour C of less than 2.
 
+        <!-- trunk-ignore(markdownlint/MD036) -->
         **Diluted colour C / Viscosity V concordance table**
 
 

@@ -22,7 +22,7 @@
 
 1. Goods of subheadings [1905 31](/subheadings/1905310000-80), [1905 32](/subheadings/1905320000-80), [1905 40](/subheadings/1905400000-80) and [1905 90](/subheadings/1905900000-80), presented in the form of an assortment, are subject to an agricultural component (EA) fixed according to the average content in milkfats, milk proteins, sucrose, isoglucose, glucose and starch of the assortment as a whole.
 
-2. The expression 'sweet biscuits' in heading [1905 31](/subheadings/1905310000-80) applies only to products having a water content of not more than 12% by weight and a fat content of not more than 35% by weight (fillings and coatings are not to be taken into consideration in determining these contents).
+2. The expression 'sweet biscuits' in subheading [1905 31](/subheadings/1905310000-80) applies only to products having a water content of not more than 12% by weight and a fat content of not more than 35% by weight (fillings and coatings are not to be taken into consideration in determining these contents).
 
 3. Subheading [1905 90 20](/subheadings/1905902000-80) covers only dry and brittle products.
 
