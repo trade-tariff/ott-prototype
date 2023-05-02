@@ -8,7 +8,7 @@
             "max": "0199999999",
             "rules": [
                 {
-                    "rule": "All the animals of [chapter 1](/chapters/01) used must be wholly obtained",
+                    "rule": "yyyAll the animals of [chapter 1](/chapters/01) used must be wholly obtained",
                     "class": [],
                     "operator": null
                 }

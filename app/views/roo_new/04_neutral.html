@@ -43,7 +43,7 @@
             </div>
 
             <div class="roo_container">
-                <h3 class="govuk-heading-s">Neutral elements in the {{ context.scheme_title }}</h3>
+                {# <h3 class="govuk-heading-s">Neutral elements in the {{ context.scheme_title }}</h3> #}
 
                 {% if context.neutral_elements %}
                     <div class="agreement_content">{{ context.neutral_elements | convert_markdown | safe }}</div>

@@ -652,7 +652,7 @@ class Context {
                     this.subdivisions.push('Any other product')
                 } else {
                     var tmp = heading.subdivision
-                    tmp = tmp.replace('\n-', ', ')
+                    // tmp = tmp.replace('\n-', ', ')
                     this.subdivisions.push(tmp)
                 }
             })
@@ -1656,11 +1656,10 @@ class Context {
     get_all_psrs() {
         var _ = require('lodash')
         var folder
+        this.scope_id = 'uk';
         if (this.scope_id == 'uk') {
-            // folder = process.env["psr_folder"];
             folder = this.get_psr_folder('uk')
         } else {
-            // folder = process.env["psr_folder_xi"];
             folder = this.get_psr_folder('xi')
         }
 

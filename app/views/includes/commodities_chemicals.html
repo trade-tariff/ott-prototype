@@ -1,9 +1,9 @@
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
         <h2 class="govuk-heading-m roo_heading">
-            Chemicals included within commodity code {{ commodity.data.attributes.goods_nomenclature_item_id }}
+            Chemicals included within commodity code {{ commodity.data.attributes.goods_nomenclature_item_id | format_commodity_code }}
         </h2>
-        <p>This table list the chemicals that are included within commodity {{ commodity.data.attributes.goods_nomenclature_item_id }}.</p>
+        {# <p>This table list the chemicals that are included within commodity {{ commodity.data.attributes.goods_nomenclature_item_id }}.</p> #}
         <p>Products are identified according to the Chemical Abstracts Service Registry Number (CAS RN),
         the system used to globally identify chemical products, and by the CUS number, which is used to 
         identify chemicals in the European Union.</p>
@@ -24,7 +24,7 @@
                         <tr class="govuk-table__row">
                             <td class="govuk-table__cell">{{ chemical.cas_rn }}</td>
                             <td class="govuk-table__cell">{{ chemical.cus }}</td>
-                            <td class="govuk-table__cell">{{ chemical.name }}</td>
+                            <td class="govuk-table__cell" style="break-word !important;cword-break: break-word;overflow-wrap: break-word !important;"><!--The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog --> {{ chemical.name }}</td>
                             {# <td class="govuk-table__cell">{{ chemical.nomen }}</td> #}
                         </tr>
                     {% endfor %}

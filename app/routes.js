@@ -1222,4 +1222,13 @@ router.get(['/preferences', '/xi/preferences'], async function (req, res) {
     });
 });
 
+
+// New sign-up (stop press)
+router.get(['/stop_press/signup', ], async function (req, res) {
+    var context = new Context(req);
+    res.render('stop_press/signup', {
+        'context': context
+    });
+});
+
 module.exports = router

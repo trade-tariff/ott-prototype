@@ -2,6 +2,22 @@
     "data": [
         {
             "sid": null,
+            "title": "live animals",
+            "goods_nomenclature_item_id": "0100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0100000000_80"
+        },
+        {
+            "sid": null,
+            "title": "livestock",
+            "goods_nomenclature_item_id": "0100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0100000000_80"
+        },
+        {
+            "sid": null,
             "title": "horses, live",
             "goods_nomenclature_item_id": "0101210000-10",
             "productline_suffix": "10",
@@ -362,6 +378,14 @@
         },
         {
             "sid": null,
+            "title": "meat",
+            "goods_nomenclature_item_id": "0200000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0200000000_80"
+        },
+        {
+            "sid": null,
             "title": "beef, fresh or chilled",
             "goods_nomenclature_item_id": "0201000000",
             "productline_suffix": "80",
@@ -634,14 +658,6 @@
         },
         {
             "sid": null,
-            "title": "frogs legs",
-            "goods_nomenclature_item_id": "0208000000",
-            "productline_suffix": "80",
-            "class": "Heading",
-            "gnidpls": "0208000000_80"
-        },
-        {
-            "sid": null,
             "title": "rabbits, dead",
             "goods_nomenclature_item_id": "0208100000-80",
             "productline_suffix": "80",
@@ -671,6 +687,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "0208901000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "frogs legs",
+            "goods_nomenclature_item_id": "0208907000-80",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "0208907000-80_80"
         },
         {
             "sid": null,
@@ -775,6 +799,14 @@
             "productline_suffix": "10",
             "class": "Subheading",
             "gnidpls": "0210992100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "fish",
+            "goods_nomenclature_item_id": "0300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0300000000_80"
         },
         {
             "sid": null,
@@ -1327,6 +1359,14 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "0308300000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "dairy produce",
+            "goods_nomenclature_item_id": "0400000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0400000000_80"
         },
         {
             "sid": null,
@@ -2426,6 +2466,14 @@
         },
         {
             "sid": null,
+            "title": "vegetables, edible",
+            "goods_nomenclature_item_id": "0700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0700000000_80"
+        },
+        {
+            "sid": null,
             "title": "potato seeds",
             "goods_nomenclature_item_id": "0701100000-80",
             "productline_suffix": "80",
@@ -3327,6 +3375,22 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "0714909000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "fruit, edible",
+            "goods_nomenclature_item_id": "0800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0800000000_80"
+        },
+        {
+            "sid": null,
+            "title": "nuts, edible",
+            "goods_nomenclature_item_id": "0800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "0800000000_80"
         },
         {
             "sid": null,
@@ -4418,6 +4482,14 @@
         },
         {
             "sid": null,
+            "title": "cereals",
+            "goods_nomenclature_item_id": "1000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1000000000_80"
+        },
+        {
+            "sid": null,
             "title": "wheat",
             "goods_nomenclature_item_id": "1001000000",
             "productline_suffix": "80",
@@ -4879,6 +4951,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "1109000000_80"
+        },
+        {
+            "sid": null,
+            "title": "oil seeds",
+            "goods_nomenclature_item_id": "1200000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1200000000_80"
         },
         {
             "sid": null,
@@ -5711,6 +5791,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "1404900090-80_80"
+        },
+        {
+            "sid": null,
+            "title": "animal fats",
+            "goods_nomenclature_item_id": "1500000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1500000000_80"
         },
         {
             "sid": null,
@@ -6802,6 +6890,14 @@
         },
         {
             "sid": null,
+            "title": "sugar",
+            "goods_nomenclature_item_id": "1700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1700000000_80"
+        },
+        {
+            "sid": null,
             "title": "brown sugar",
             "goods_nomenclature_item_id": "1701000000",
             "productline_suffix": "80",
@@ -7122,6 +7218,14 @@
         },
         {
             "sid": null,
+            "title": "cocoa",
+            "goods_nomenclature_item_id": "1800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1800000000_80"
+        },
+        {
+            "sid": null,
             "title": "cocoa beans",
             "goods_nomenclature_item_id": "1801000000",
             "productline_suffix": "80",
@@ -7327,6 +7431,14 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "1806907000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "cereal, preparations of",
+            "goods_nomenclature_item_id": "1900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "1900000000_80"
         },
         {
             "sid": null,
@@ -7783,6 +7895,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "1905908000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "vegetables, preparations of",
+            "goods_nomenclature_item_id": "2000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2000000000_80"
         },
         {
             "sid": null,
@@ -8698,6 +8818,22 @@
         },
         {
             "sid": null,
+            "title": "beverages",
+            "goods_nomenclature_item_id": "2200000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2200000000_80"
+        },
+        {
+            "sid": null,
+            "title": "drinks",
+            "goods_nomenclature_item_id": "2200000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2200000000_80"
+        },
+        {
+            "sid": null,
             "title": "carbonated drinks",
             "goods_nomenclature_item_id": "2201000000",
             "productline_suffix": "80",
@@ -9447,6 +9583,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "2209000000_80"
+        },
+        {
+            "sid": null,
+            "title": "residues and waste, food industry",
+            "goods_nomenclature_item_id": "2300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2300000000_80"
         },
         {
             "sid": null,
@@ -11010,6 +11154,22 @@
         },
         {
             "sid": null,
+            "title": "fuels, mineral",
+            "goods_nomenclature_item_id": "2700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2700000000_80"
+        },
+        {
+            "sid": null,
+            "title": "oils, mineral",
+            "goods_nomenclature_item_id": "2700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2700000000_80"
+        },
+        {
+            "sid": null,
             "title": "anthracite",
             "goods_nomenclature_item_id": "2701000000",
             "productline_suffix": "80",
@@ -11551,6 +11711,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "2716000000_80"
+        },
+        {
+            "sid": null,
+            "title": "inorganic chemicals",
+            "goods_nomenclature_item_id": "2800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2800000000_80"
         },
         {
             "sid": null,
@@ -12794,6 +12962,14 @@
         },
         {
             "sid": null,
+            "title": "organic chemicals",
+            "goods_nomenclature_item_id": "2900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "2900000000_80"
+        },
+        {
+            "sid": null,
             "title": "hydrocarbons",
             "goods_nomenclature_item_id": "2901000000",
             "productline_suffix": "80",
@@ -13618,6 +13794,14 @@
         },
         {
             "sid": null,
+            "title": "pharmaceuticals",
+            "goods_nomenclature_item_id": "3000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3000000000_80"
+        },
+        {
+            "sid": null,
             "title": "glands or other organs and extracts (medical)",
             "goods_nomenclature_item_id": "3001000000",
             "productline_suffix": "80",
@@ -13975,6 +14159,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "3006600000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "fertilisers",
+            "goods_nomenclature_item_id": "3100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3100000000_80"
         },
         {
             "sid": null,
@@ -16202,6 +16394,14 @@
         },
         {
             "sid": null,
+            "title": "pyrotechnics",
+            "goods_nomenclature_item_id": "3600000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3600000000_80"
+        },
+        {
+            "sid": null,
             "title": "gun-powder (black powder)",
             "goods_nomenclature_item_id": "3601000000",
             "productline_suffix": "80",
@@ -16415,6 +16615,22 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "3606000000_80"
+        },
+        {
+            "sid": null,
+            "title": "cinematographic goods",
+            "goods_nomenclature_item_id": "3700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3700000000_80"
+        },
+        {
+            "sid": null,
+            "title": "photographic goods",
+            "goods_nomenclature_item_id": "3700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3700000000_80"
         },
         {
             "sid": null,
@@ -18175,6 +18391,22 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "3826000000_80"
+        },
+        {
+            "sid": null,
+            "title": "plastic articles",
+            "goods_nomenclature_item_id": "3900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3900000000_80"
+        },
+        {
+            "sid": null,
+            "title": "plastics",
+            "goods_nomenclature_item_id": "3900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "3900000000_80"
         },
         {
             "sid": null,
@@ -20167,6 +20399,22 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "3926909790-80_80"
+        },
+        {
+            "sid": null,
+            "title": "rubber",
+            "goods_nomenclature_item_id": "4000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4000000000_80"
+        },
+        {
+            "sid": null,
+            "title": "rubber articles",
+            "goods_nomenclature_item_id": "4000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4000000000_80"
         },
         {
             "sid": null,
@@ -22242,6 +22490,14 @@
         },
         {
             "sid": null,
+            "title": "animal furs",
+            "goods_nomenclature_item_id": "4300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4300000000_80"
+        },
+        {
+            "sid": null,
             "title": "furskin raw",
             "goods_nomenclature_item_id": "4301000000",
             "productline_suffix": "80",
@@ -22367,6 +22623,22 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "4303900000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "articles of wood",
+            "goods_nomenclature_item_id": "4400000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4400000000_80"
+        },
+        {
+            "sid": null,
+            "title": "wood",
+            "goods_nomenclature_item_id": "4400000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4400000000_80"
         },
         {
             "sid": null,
@@ -23570,7 +23842,23 @@
         },
         {
             "sid": null,
-            "title": "plaiting material, manufactures of",
+            "title": "esparto",
+            "goods_nomenclature_item_id": "4600000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4600000000_80"
+        },
+        {
+            "sid": null,
+            "title": "plaiting material and manufactures thereof",
+            "goods_nomenclature_item_id": "4600000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4600000000_80"
+        },
+        {
+            "sid": null,
+            "title": "straw",
             "goods_nomenclature_item_id": "4600000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -23783,6 +24071,22 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "4707000000_80"
+        },
+        {
+            "sid": null,
+            "title": "paper",
+            "goods_nomenclature_item_id": "4800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4800000000_80"
+        },
+        {
+            "sid": null,
+            "title": "paperboard",
+            "goods_nomenclature_item_id": "4800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4800000000_80"
         },
         {
             "sid": null,
@@ -26066,6 +26370,14 @@
         },
         {
             "sid": null,
+            "title": "silk",
+            "goods_nomenclature_item_id": "5000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5000000000_80"
+        },
+        {
+            "sid": null,
             "title": "cocoons, silk worm - suitable for reeling",
             "goods_nomenclature_item_id": "5001000000",
             "productline_suffix": "80",
@@ -26311,6 +26623,14 @@
             "productline_suffix": "10",
             "class": "Subheading",
             "gnidpls": "5007202100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "wool",
+            "goods_nomenclature_item_id": "5100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5100000000_80"
         },
         {
             "sid": null,
@@ -26879,6 +27199,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "5212000000_80"
+        },
+        {
+            "sid": null,
+            "title": "vegetable textile fibres",
+            "goods_nomenclature_item_id": "5300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5300000000_80"
         },
         {
             "sid": null,
@@ -27666,6 +27994,14 @@
         },
         {
             "sid": null,
+            "title": "man-made filaments",
+            "goods_nomenclature_item_id": "5400000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5400000000_80"
+        },
+        {
+            "sid": null,
             "title": "hair, animal - other (including sheep's or lambs wool) - not carded or combed, wool",
             "goods_nomenclature_item_id": "5401000000",
             "productline_suffix": "80",
@@ -28402,6 +28738,14 @@
         },
         {
             "sid": null,
+            "title": "woven fabrics",
+            "goods_nomenclature_item_id": "5800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5800000000_80"
+        },
+        {
+            "sid": null,
             "title": "chenille fabrics",
             "goods_nomenclature_item_id": "5801000000",
             "productline_suffix": "80",
@@ -29002,6 +29346,14 @@
         },
         {
             "sid": null,
+            "title": "impregnated, coated, covered or laminated textile fabrics",
+            "goods_nomenclature_item_id": "5900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "5900000000_80"
+        },
+        {
+            "sid": null,
             "title": "bookcloth",
             "goods_nomenclature_item_id": "5901000000",
             "productline_suffix": "80",
@@ -29375,6 +29727,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "5911200020-80_80"
+        },
+        {
+            "sid": null,
+            "title": "fabrics, knitted or crocheted",
+            "goods_nomenclature_item_id": "6000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "6000000000_80"
         },
         {
             "sid": null,
@@ -30746,47 +31106,7 @@
         },
         {
             "sid": null,
-            "title": "adults' clothing",
-            "goods_nomenclature_item_id": "6200000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "6200000000_80"
-        },
-        {
-            "sid": null,
-            "title": "children's clothing",
-            "goods_nomenclature_item_id": "6200000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "6200000000_80"
-        },
-        {
-            "sid": null,
             "title": "clothing, not knitted or crocheted",
-            "goods_nomenclature_item_id": "6200000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "6200000000_80"
-        },
-        {
-            "sid": null,
-            "title": "garments - other than knitted or crocheted",
-            "goods_nomenclature_item_id": "6200000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "6200000000_80"
-        },
-        {
-            "sid": null,
-            "title": "headgear",
-            "goods_nomenclature_item_id": "6200000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "6200000000_80"
-        },
-        {
-            "sid": null,
-            "title": "raincoats - textile",
             "goods_nomenclature_item_id": "6200000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -33114,6 +33434,14 @@
         },
         {
             "sid": null,
+            "title": "clothing sets",
+            "goods_nomenclature_item_id": "6308000000",
+            "productline_suffix": "80",
+            "class": "Heading",
+            "gnidpls": "6308000000_80"
+        },
+        {
+            "sid": null,
             "title": "apparel - worn, in bulk packings",
             "goods_nomenclature_item_id": "6309000000",
             "productline_suffix": "80",
@@ -33194,7 +33522,7 @@
         },
         {
             "sid": null,
-            "title": "moccasins",
+            "title": "footwear",
             "goods_nomenclature_item_id": "6400000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -33202,7 +33530,7 @@
         },
         {
             "sid": null,
-            "title": "skating boots - without skates",
+            "title": "moccasins",
             "goods_nomenclature_item_id": "6400000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -35810,7 +36138,15 @@
         },
         {
             "sid": null,
-            "title": "glass and glassware",
+            "title": "glass",
+            "goods_nomenclature_item_id": "7000000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "7000000000_80"
+        },
+        {
+            "sid": null,
+            "title": "glassware",
             "goods_nomenclature_item_id": "7000000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -35819,14 +36155,6 @@
         {
             "sid": null,
             "title": "optical glass",
-            "goods_nomenclature_item_id": "7000000000",
-            "productline_suffix": "80",
-            "class": "Chapter",
-            "gnidpls": "7000000000_80"
-        },
-        {
-            "sid": null,
-            "title": "quartz, fused",
             "goods_nomenclature_item_id": "7000000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -43418,6 +43746,14 @@
         },
         {
             "sid": null,
+            "title": "cutlery",
+            "goods_nomenclature_item_id": "8215000000",
+            "productline_suffix": "80",
+            "class": "Heading",
+            "gnidpls": "8215000000_80"
+        },
+        {
+            "sid": null,
             "title": "fish-knives, of base metal",
             "goods_nomenclature_item_id": "8215000000",
             "productline_suffix": "80",
@@ -43471,6 +43807,14 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "8215990000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "metal articles",
+            "goods_nomenclature_item_id": "8300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8300000000_80"
         },
         {
             "sid": null,
@@ -58946,6 +59290,22 @@
         },
         {
             "sid": null,
+            "title": "locomotives, railway",
+            "goods_nomenclature_item_id": "8600000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8600000000_80"
+        },
+        {
+            "sid": null,
+            "title": "trains, railway",
+            "goods_nomenclature_item_id": "8600000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8600000000_80"
+        },
+        {
+            "sid": null,
             "title": "locomotive, rail - electric",
             "goods_nomenclature_item_id": "8601000000",
             "productline_suffix": "80",
@@ -60386,6 +60746,30 @@
         },
         {
             "sid": null,
+            "title": "aeroplanes",
+            "goods_nomenclature_item_id": "8800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8800000000_80"
+        },
+        {
+            "sid": null,
+            "title": "aircraft",
+            "goods_nomenclature_item_id": "8800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8800000000_80"
+        },
+        {
+            "sid": null,
+            "title": "spacecraft",
+            "goods_nomenclature_item_id": "8800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8800000000_80"
+        },
+        {
+            "sid": null,
             "title": "non-powered aircraft",
             "goods_nomenclature_item_id": "8801000000",
             "productline_suffix": "80",
@@ -60602,7 +60986,31 @@
         },
         {
             "sid": null,
-            "title": "ships spare parts",
+            "title": "boats",
+            "goods_nomenclature_item_id": "8900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8900000000_80"
+        },
+        {
+            "sid": null,
+            "title": "maritime vessels",
+            "goods_nomenclature_item_id": "8900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8900000000_80"
+        },
+        {
+            "sid": null,
+            "title": "ships",
+            "goods_nomenclature_item_id": "8900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "8900000000_80"
+        },
+        {
+            "sid": null,
+            "title": "ships' spare parts",
             "goods_nomenclature_item_id": "8900000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -63570,6 +63978,22 @@
         },
         {
             "sid": null,
+            "title": "clocks",
+            "goods_nomenclature_item_id": "9100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9100000000_80"
+        },
+        {
+            "sid": null,
+            "title": "watches",
+            "goods_nomenclature_item_id": "9100000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9100000000_80"
+        },
+        {
+            "sid": null,
             "title": "pocket watches",
             "goods_nomenclature_item_id": "9101000000",
             "productline_suffix": "80",
@@ -63923,6 +64347,14 @@
         {
             "sid": null,
             "title": "instruments and apparatus - rules - instruments, musical - other",
+            "goods_nomenclature_item_id": "9200000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9200000000_80"
+        },
+        {
+            "sid": null,
+            "title": "musical instruments",
             "goods_nomenclature_item_id": "9200000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -64378,7 +64810,31 @@
         },
         {
             "sid": null,
-            "title": "weapons, armaments",
+            "title": "ammunition",
+            "goods_nomenclature_item_id": "9300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9300000000_80"
+        },
+        {
+            "sid": null,
+            "title": "armaments",
+            "goods_nomenclature_item_id": "9300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9300000000_80"
+        },
+        {
+            "sid": null,
+            "title": "arms",
+            "goods_nomenclature_item_id": "9300000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9300000000_80"
+        },
+        {
+            "sid": null,
+            "title": "weapons",
             "goods_nomenclature_item_id": "9300000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -64783,6 +65239,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "9307000000_80"
+        },
+        {
+            "sid": null,
+            "title": "furniture",
+            "goods_nomenclature_item_id": "9400000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9400000000_80"
         },
         {
             "sid": null,
@@ -65847,6 +66311,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "9406200000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "games",
+            "goods_nomenclature_item_id": "9500000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9500000000_80"
         },
         {
             "sid": null,
@@ -68034,6 +68506,22 @@
         },
         {
             "sid": null,
+            "title": "collectors' pieces",
+            "goods_nomenclature_item_id": "9700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9700000000_80"
+        },
+        {
+            "sid": null,
+            "title": "works of art",
+            "goods_nomenclature_item_id": "9700000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9700000000_80"
+        },
+        {
+            "sid": null,
             "title": "collages",
             "goods_nomenclature_item_id": "9701000000",
             "productline_suffix": "80",
@@ -68247,6 +68735,14 @@
             "productline_suffix": "80",
             "class": "Heading",
             "gnidpls": "9706000000_80"
+        },
+        {
+            "sid": null,
+            "title": "special combined nomenclature codes",
+            "goods_nomenclature_item_id": "9900000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "9900000000_80"
         }
     ]
 }

@@ -54,7 +54,7 @@
                 </ul>
             </nav>
 
-<!--
+
             <table class="govuk-table govuk-table--s roo_test" id="full">
                 <caption class="govuk-table__caption govuk-table__caption--m">Rules of origin - full view</caption>
                 <thead class="govuk-table__head">
@@ -72,7 +72,7 @@
                             <td class="govuk-table__cell nw">{{ item.heading }}</td>
                             <td class="govuk-table__cell">{{ item.min }}</td>
                             <td class="govuk-table__cell">{{ item.max }}</td>
-                            <td class="govuk-table__cell">{{ item.subdivision | safe | safe }}</td>
+                            <td class="govuk-table__cell subdivision">{{ item.subdivision | safe | safe }}</td>
                             <td class="govuk-table__cell">
                                 {% for rule in item["rules"] %}
                                     <div class="roo_rule">
@@ -92,7 +92,7 @@
             <p>
                 <a href="#nav">Back to navigation</a>
             </p>
-            //-->
+            
 
             <table class="govuk-table govuk-table--s roo_test" id="partial">
                 <caption class="govuk-table__caption govuk-table__caption--m">Rules of origin - partial view</caption>

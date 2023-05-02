@@ -326,6 +326,7 @@ module.exports = function (env) {
                     str = str.replace(/  \* \(([a-z]{1,2})\)/g, '\n\n    $1. ');
 
                     var markdown_text = md.render(str);
+                    markdown_text = markdown_text.replace(/and\/or/g, "and / or");
                     markdown_text = markdown_text.replace(/&lt;/g, "<");
                     markdown_text = markdown_text.replace(/&gt;/g, ">");
                     markdown_text = markdown_text.replace(/<h1>/g, "<h1 class='govuk-heading-l'>");
