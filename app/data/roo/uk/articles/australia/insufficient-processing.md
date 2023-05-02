@@ -34,7 +34,7 @@ The following operations are insufficient to confer origin on a product, whether
 
 17. slaughter of animals.
 
-All production carried out in the UK, in the European Union and in Canada on a product is considered when determining whether the production undertaken on that product is insufficient.
+All production carried out in the UK and in Australia on a product is considered when determining whether the production undertaken on that product is insufficient.
 
 An operation shall be considered simple when neither special skills, nor machines, apparatus, or tools especially produced or installed for those operations are required for their  performance or  when  those skills, machines, apparatus, or tools do not contribute to the product's essential characteristics or properties.
 
