@@ -1,5 +1,5 @@
 1. This chapter applies only to ceramic products which have been fired after shaping. 
-    
+
     - a. heading [6904](/headings/6904) to [6914](/headings/6914) apply only to such products other than those classifiable in heading [6901](/headings/6901) to [6903](/headings/6903);
 
     - b. articles heated to temperatures less than 800 °C for purposes such as curing of resins, accel-erating hydration reactions, or for the removal of water or other volatile components, are not considered to be fired. Such articles are excluded from Chapter [69](/chapters/69); and 

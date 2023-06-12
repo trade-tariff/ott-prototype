@@ -9,7 +9,7 @@
     - d. front windscreens (windshields), rear windows and other windows, framed, for vehicles of Chapter [86](/chapters/86) to Chapter [88](/chapters/88);
 
     - e. front windscreens (windshields), rear windows and other windows, whether or not framed, incorporating heating devices or other electrical or electronic devices, for vehicles of Chapter [86](/chapters/86) to Chapter [88](/chapters/88);
-    
+
     - f. optical fibres, optically worked optical elements, hypodermic syringes, artificial eyes, thermometers, barometers, hydrometers or other articles of Chapter [90](/chapters/90);
 
     - g. luminaires and lighting fittings, illuminated signs, illuminated nameplates or the like, having a permanently fixed light source, or parts thereof of heading [9405](/headings/9405);
@@ -21,9 +21,9 @@
 2. For the purposes of heading [7003](/headings/7003), [7004](/headings/7004) and [7005](/headings/7005):
 
     - a. glass is not regarded as 'worked' by reason of any process it has undergone before annealing;
-    
+
     - b. cutting to shape does not affect the classification of glass in sheets;
-    
+
     - c. the expression 'absorbent, reflecting or non-reflecting layer' means a microscopically thin coating of metal or of a chemical compound (for example, metal oxide) which absorbs, for example, infra-red light or improves the reflecting qualities of the glass while still allowing it to retain a degree of transparency or translucency; or which prevents light from being reflected on the surface of the glass.
 
 3. The products referred to in heading [7006](/headings/7006) remain classified in that heading, whether or not they have the character of articles.
@@ -31,9 +31,9 @@
 4. For the purposes of heading [7019](/headings/7019), the expression 'glass wool' means:
 
     - a. mineral wools with a silica (SiO2) content not less than 60% by weight;
-    
+
     - b. mineral wools with a silica (SiO2) content less than 60% but with an alkaline oxide (K2O or Na2O) content exceeding 5% by weight or a boric oxide (B2O3) content exceeding 2% by weight.
-    
+
         Mineral wools which do not comply with the above specifications fall in heading [6806](/headings/6806).
 
 5. Throughout the classification, the expression 'glass' includes fused quartz and other fused silica.

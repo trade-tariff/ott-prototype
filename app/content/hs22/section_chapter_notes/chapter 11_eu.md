@@ -1,35 +1,35 @@
 1. This chapter does not cover:
 
- - a. roasted malt put up as coffee substitutes (heading [0901](/headings/0901) or [2101](/headings/2101));
- - b. prepared flours, groats, meals or starches of heading [1901](/headings/1901);
- - c. corn flakes and other products of heading [1904](/headings/1904);
- - d. vegetables, prepared or preserved, of heading [2001](/headings/2001), [2004](/headings/2004) or [2005](/headings/2005);
- - e. pharmaceutical products (Chapter [30](/chapters/30)); or
- - f. starches having the character of perfumery, cosmetic or toilet preparations (Chapter [33](/chapters/33)).
+   - a. roasted malt put up as coffee substitutes (heading [0901](/headings/0901) or [2101](/headings/2101));
+   - b. prepared flours, groats, meals or starches of heading [1901](/headings/1901);
+   - c. corn flakes and other products of heading [1904](/headings/1904);
+   - d. vegetables, prepared or preserved, of heading [2001](/headings/2001), [2004](/headings/2004) or [2005](/headings/2005);
+   - e. pharmaceutical products (Chapter [30](/chapters/30)); or
+   - f. starches having the character of perfumery, cosmetic or toilet preparations (Chapter [33](/chapters/33)).
 
 2. (A). Products from the milling of the cereals listed in the table below fall in this chapter if they have, by weight on the dry product:
 
- - a. a starch content (determined by the modified Ewers polarimetric method) exceeding that indicated in column 2; and
- - b. an ash content (after deduction of any added minerals) not exceeding that indicated in column 3.
+      - a. a starch content (determined by the modified Ewers polarimetric method) exceeding that indicated in column 2; and
+      - b. an ash content (after deduction of any added minerals) not exceeding that indicated in column 3.
 
- Otherwise, they fall in heading [2302](/headings/2302).
+   Otherwise, they fall in heading [2302](/headings/2302).
 
- However, germ of cereals, whole, rolled, flaked or ground, is always classified in heading [1104](/headings/1104).
+   However, germ of cereals, whole, rolled, flaked or ground, is always classified in heading [1104](/headings/1104).
 
- (B). Products falling in this chapter under the above provisions shall be classified in heading [1101](/headings/1101) or [1102](/headings/1102) if the percentage passing through a woven metal wire cloth sieve with the aperture indicated in Column 4 or 5 is not less, by weight, than that shown against the cereal concerned.
-Otherwise, they fall in heading [1103](/headings/1103) or [1104](/headings/1104).
+   (B). Products falling in this chapter under the above provisions shall be classified in heading [1101](/headings/1101) or [1102](/headings/1102) if the percentage passing through a woven metal wire cloth sieve with the aperture indicated in Column 4 or 5 is not less, by weight, than that shown against the cereal concerned.
 
+   Otherwise, they fall in heading [1103](/headings/1103) or [1104](/headings/1104).
 
- | Cereal | Starch content | Ash content | Rate of passage through a sieve with an aperture of 315 micrometres (microns) | Rate of passage through a sieve with an aperture of 500 micrometres (microns) |
- |-|-|-|-|-|
- | (1) | (2) | (3) | (4) | (5) |
- | Wheat and rye | 45 % | 2.5% | 80% | - |
- | Barley | 45% | 3% | 80% | - |
- | Oats | 45% | 5% | 80% | - |
- | Maize (corn) and grain sorghum | 45% | 2% | - | 90% |
- | Rice | 45% | 1.6% | 80% | - |
- | Buckwheat | 45% | 4% | 80% | - |
- | Other cereals | 45% | 2% | 50% | - |
+   | Cereal | Starch content | Ash content | Rate of passage through a sieve with an aperture of 315 micrometres (microns) | Rate of passage through a sieve with an aperture of 500 micrometres (microns) |
+   |-|-|-|-|-|
+   | (1) | (2) | (3) | (4) | (5) |
+   | Wheat and rye | 45 % | 2.5% | 80% | - |
+   | Barley | 45% | 3% | 80% | - |
+   | Oats | 45% | 5% | 80% | - |
+   | Maize (corn) and grain sorghum | 45% | 2% | - | 90% |
+   | Rice | 45% | 1.6% | 80% | - |
+   | Buckwheat | 45% | 4% | 80% | - |
+   | Other cereals | 45% | 2% | 50% | - |
 
 3. For the purposes of heading [1103](/headings/1103), the terms 'groats' and 'meal' mean products obtained by the fragmentation of cereal grains, of which:
 

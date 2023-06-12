@@ -1,37 +1,37 @@
 1. This chapter does not cover:
 
     a. wood, in chips, in shavings, crushed, ground or powdered, of a kind used primarily in perfumery, in pharmacy, or for insecticidal, fungicidal or similar purposes (heading [1211](/headings/1211));
-    
+
     b. bamboos or other materials of a woody nature of a kind used primarily for plaiting, in the rough, whether or not split, sawn lengthwise or cut to length (heading [1401](/headings/1401));
-    
+
     c. wood, in chips, in shavings, ground or powdered, of a kind used primarily in dyeing or in tanning (heading [1404](/headings/1404));
-    
+
     d. activated charcoal (heading [3802](/headings/3802));
-    
+
     e. articles of heading [4202](/headings/4202);
-    
+
     f. goods of Chapter [46](/chapters/46);
-    
+
     g. footwear or parts thereof of Chapter [64](/chapters/64);
-    
+
     h. goods of Chapter [66](/chapters/66) (for example, umbrellas and walking sticks and parts thereof);
-    
+
     ij. goods of heading [6808](/headings/6808);
-    
+
     k. imitation jewellery of heading [7117](/headings/7117);
-    
+
     l. goods of Section XVI or XVII (for example, machine parts, cases, covers, cabinets for machines and apparatus and wheelwrights' wares);
-    
+
     m. goods of Section XVIII (for example, clock cases and musical instruments and parts thereof);
-    
+
     n. parts of firearms (heading [9305](/headings/9305));
-    
+
     o. articles of Chapter [94](/chapters/94) (for example, furniture, luminaires and lighting fittings, prefabricated buildings);
-    
+
     p. articles of Chapter [95](/chapters/95) (for example, toys, games, sports requisites);
-    
+
     q. articles of Chapter [96](/chapters/96) (for example, smoking pipes and parts thereof, buttons, pencils, and monopods, bipods, tripods and similar articles) excluding bodies and handles, of wood, for articles of heading [9603](/headings/9603); or
-    
+
     r. articles of Chapter [97](/chapters/97) (for example, works of art).
 
 2. In this Chapter, the expression 'densified wood' means wood which has been subjected to chemical or physical treatment (being, in the case of layers bonded together, treatment in excess of that needed to ensure a good bond), and which has thereby acquired increased density or hardness together with improved mechanical strength or resistance to chemical or electrical agencies.

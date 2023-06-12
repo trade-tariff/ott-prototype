@@ -12,8 +12,8 @@
 
 1. Subheading [8708 22](/subheadings/8708220000-80) covers:
 
-    (a) front windscreens (windshields), rear windows and other windows, framed; and
-    
-    (b) front windscreens (windshields), rear windows and other windows, whether or not framed, incorporating heating devices or other electrical or electronic devices,
-    
-    when suitable for use solely or principally with the motor vehicles of heading [8701](/headings/8701) to [8705](/headings/8705).
+   - a. front windscreens (windshields), rear windows and other windows, framed; and
+
+   - b. front windscreens (windshields), rear windows and other windows, whether or not framed, incorporating heating devices or other electrical or electronic devices
+
+   when suitable for use solely or principally with the motor vehicles of heading [8701](/headings/8701) to [8705](/headings/8705).

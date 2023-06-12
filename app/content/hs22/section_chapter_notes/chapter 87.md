@@ -8,9 +8,9 @@
 
 4. Heading [8712](/headings/8712) includes all children's bicycles. Other children's cycles fall in heading [9503](/headings/9503).
 
-### Subheading Note
+### Subheading note
 
-Subheading [8708 22](/subheadings/8708220000-80) covers:
+1. Subheading [8708 22](/subheadings/8708220000-80) covers:
 
    - a. front windscreens (windshields), rear windows and other windows, framed; and 
 

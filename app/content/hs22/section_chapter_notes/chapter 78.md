@@ -5,7 +5,7 @@
     Metal containing by weight at least 99.9% of lead, provided that the content by weight of any other element does not exceed the limit specified in the following table:
 
     **Other elements**
-    
+
     | Element                       | Element name | Limiting content % by weight |
     |-------------------------------|--------------|------------------------------|
     | Ag                            | Silver       | 0.02                         |
@@ -21,4 +21,4 @@
     | Zn                            | Zinc         | 0.002                        |
     | Other (for example, Te), each |              | 0.001                        |
 
-    
+

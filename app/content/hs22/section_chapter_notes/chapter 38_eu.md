@@ -1,26 +1,27 @@
 1. This chapter does not cover:
 
-    a. separate chemically defined elements or compounds with the exception of the following:
-    
-    (1) artificial graphite (heading [3801](/headings/3801));
-    
-    (2) insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up as described in heading [3808](/headings/3808);
-    
-    (3) products put up as charges for fire-extinguishers or put up in fire-extinguishing grenades (heading [3813](/headings/3813));
-    
-    (4) certified reference materials specified in note 2 below;
-    
-    (5) products specified in note 3(a) or 3(c) below;
+    - a. separate chemically defined elements or compounds with the exception of the following:
 
-    b. mixtures of chemicals with foodstuffs or other substances with nutritive value, of a kind used in the preparation of human foodstuffs (generally, heading [2106](/headings/2106)).
+      (1) artificial graphite (heading [3801](/headings/3801));
 
-    c. products of heading [2404](/headings/2404);
-    
-    d. slag, ash and residues (including sludges, other than sewage sludge), containing metals, arsenic or their mixtures and meeting the requirements of note 3 (a) or 3(b) to Chapter [26](/chapters/26) (heading [2620](/headings/2620));
-    
-    e. medicaments (heading [3003](/headings/3003) or [3004](/headings/3004)); or
-    
-    f. spent catalysts of a kind used for the extraction of base metals or for the manufacture of chemical compounds of base metals (heading [2620](/headings/2620)), spent catalysts of a kind used principally for the recovery of precious metal (heading [7112](/headings/7112)) or catalysts consisting of metals or metal alloys in the form of, for example, finely divided powder or woven guaze (Section XIV or XV).
+      (2) insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products, put up as described in heading [3808](/headings/3808);
+
+      (3) products put up as charges for fire-extinguishers or put up in fire-extinguishing grenades (heading [3813](/headings/3813));
+
+      (4) certified reference materials specified in note 2 below;
+
+      (5) products specified in note 3(a) or 3(c) below;
+
+    - b. mixtures of chemicals with foodstuffs or other substances with nutritive value, of a kind used in the preparation of human foodstuffs (generally, heading [2106](/headings/2106)).
+
+    - c. products of heading [2404](/headings/2404)
+
+    - d. slag, ash and residues (including sludges, other than sewage sludge), containing metals, arsenic or their mixtures and meeting the requirements of note 3 (a) or 3(b) to Chapter [26](/chapters/26) (heading [2620](/headings/2620));
+
+    - e. medicaments (heading [3003](/headings/3003) or [3004](/headings/3004)); or
+
+    - f. spent catalysts of a kind used for the extraction of base metals or for the manufacture of chemical compounds of base metals (heading [2620](/headings/2620)), spent catalysts of a kind used principally for the recovery of precious metal (heading [7112](/headings/7112)) or catalysts consisting of metals or metal alloys in the form of, for example, finely divided powder or woven gauze (Section XIV or XV).
+
 
 2. (A) For the purpose of heading [3822](/headings/3822), the expression 'certified reference materials' means reference materials which are accompanied by a certificate which indicates the values of the certified properties, the methods used to determine these values and the degree of certainty associated with each value and which are suitable for analytical, calibrating or referencing purposes.
 
@@ -29,25 +30,25 @@
 3. Heading [3824](/headings/3824) includes the following goods which are not to be classified in any other heading of the classification:
 
     a. cultured crystals (other than optical elements) weighing not less than 2.5g each, of magnesium oxide or of the halides of the alkali or alkaline-earth metals;
-    
+
     b. fusel oil; Dippel's oil;
-    
+
     c. ink removers put up in packings for retail sale;
-    
+
     d. stencil correctors, other correcting fluids and correction tapes (other than those of heading [9612](/headings/9612)), put up in packings for retail sale; and
-    
-    e. ceramic firing testers, fusible (eg, Seger cones).
+
+    e. ceramic firing testers, fusible (e.g. Seger cones).
 
 4. Throughout the classification, 'municipal waste' means waste of a kind collected from households, hotels, restaurants, hospitals, shops, offices, etc., road and pavement sweepings, as well as construction and demolition waste. Municipal waste generally contains a large variety of materials such as plastics, rubber, wood, paper, textiles, glass, metals, food materials, broken furniture and other damaged or discarded articles.
 
     The term 'municipal waste', however, does not cover:
-    
+
     a. individual materials or articles segregated from the waste, such as wastes of plastics, rubber, wood, paper, textiles, glass or metals and spent batteries which fall in their appropriate headings of the classification;
-    
+
     b. industrial waste;
-    
+
     c. waste pharmaceuticals, as defined in note 4(k) to Chapter [30](/chapters/30); or
-    
+
     d. clinical waste, as defined in note 6 (a) below.
 
 5. For the purposes of heading [3825](/headings/3825), 'sewage sludge' means sludge arising from urban effluent treatment plant and includes pre-treatment waste, scourings and unstabilised sludge. Stabilised sludge when suitable for use as fertiliser is excluded (Chapter [31](/chapters/31)).
@@ -55,16 +56,16 @@
 6. For the purposes of heading [3825](/headings/3825), the expression 'other wastes' applies to:
 
     a. clinical waste, that is, contaminated waste arising from medical research, diagnosis, treatment or other medical, surgical, dental or veterinary procedures, which often contain pathogens and pharmaceutical substances and require special disposal procedures (eg, soiled dressings, used gloves and used syringes);
-    
+
     b. waste organic solvents;
-    
+
     c. wastes of metal pickling liquors, hydraulic fluids, brake fluids and anti-freezing fluids; and
-    
+
     d. other wastes from chemical or allied industries.
-    
+
     The expression 'other wastes' does not, however, cover wastes which contain mainly petroleum oils or oils obtained from bituminous minerals (heading [2710](/headings/2710)).
-    
-7. For the purposes of heading [3826](/headings/3826), the term ‘biodiesel’ means mono-alkyl esters of fatty acids of a kind used as a fuel, derived from animal, vegetable or microbial fats and oils whether or not used.
+
+7. For the purposes of heading [3826](/headings/3826), the term “biodiesel” means mono-alkyl esters of fatty ac-ids of a kind used as a fuel, derived from animal, vegetable or microbial fats and oils whether or not used.
 
 ### Subheading notes
 

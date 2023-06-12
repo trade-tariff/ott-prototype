@@ -10,7 +10,6 @@
 
 4. Heading [0812](/headings/0812) applies to fruit and nuts which have been treated solely to ensure their provisional preservation during transport or storage prior to use (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), provided they remain unsuitable for immediate consumption in that state. 
 
-
 ### Additional chapter notes
 
 1. The content of various sugars expressed as sucrose (sugar content) of the products classified in this chapter corresponds to the figure indicated by a refractometer at a temperature of 20C and multiplied by the factor 0.95.

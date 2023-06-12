@@ -15,7 +15,7 @@
 
 ### Subheading notes
 
-1. For the purposes of subheading [1509 30](/subheadings/1509300000-80), virgin olive oil has a free acidity expressed as oleic acid not exceeding 2.0 g/ 100 g and can be distinguished from the other virgin olive oil categories according to the characteristics indicated in the Codex Alimentarius Standard 33-1981 
+1. For the purposes of subheading [1509 30](/subheadings/1509300000-80), virgin olive oil has a free acidity expressed as oleic acid not exceeding 2,0 g/ 100 g and can be distinguished from the other virgin olive oil categories according to the characteristics indicated in the Codex Alimentarius Standard 33-1981.
 
 2. For the purposes of subheadings [1514 11](/subheadings/1514110000-80) and [1514 19](/subheadings/1514190000-80), the expression ‘low-erucic-acid rape or colza oil’ means the fixed oil which has an erucic acid content of less than 2% by weight.
 
@@ -33,8 +33,7 @@
 
    - (c) the expression ‘crude oils’ is to be taken to extend to degummed soya-bean oil and to cotton-seed oil from which the gossypol has been removed.
 
-2. 
-   A. Headings [1509](/headings/1509) and [1510](/headings/1510) cover only oils derived solely from the treatment of olives and having the characteristics, with regard to the content of fatty acids and sterols, which are referred to in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+2. A. Headings [1509](/headings/1509) and [1510](/headings/1510) cover only oils derived solely from the treatment of olives and having the characteristics, with regard to the content of fatty acids and sterols, which are referred to in Annex I to Commission Regulation (EEC) No 2568/91 (1).
 
     Headings [1509](/headings/1509) and [1510](/headings/1510) do not cover chemically altered olive oil (in particular re-esterified olive oil) and mixtures of olive oil with other oils.
 
@@ -42,7 +41,7 @@
 
       1. For the purposes of subheading [1509 20 00](/subheadings/1509200000-80), ‘extra virgin olive oil’ means olive oil having the characteristics of olive oils of category 1 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
-      2. Subheading [1509 30 00](/subheadings/1509300000-80), covers virgin olive oils which have the characteristics of olive oils of category 2 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
+      2. Subheading [1509 30 00](/subheadings/1509300000-80) covers virgin olive oils which have the characteristics of olive oils of category 2 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 
       3. For the purposes of subheading [1509 40 00](/commodities/1509400000),  ‘other virgin olive oils’ means olive oils having the characteristics of olive oils of category 3 as set out in the UK equivalent of Annex I to Commission Regulation (EEC) No 2568/91.
 

@@ -7,9 +7,7 @@
    - e. pharmaceutical products (Chapter [30](/chapters/30)); or
    - f. starches having the character of perfumery, cosmetic or toilet preparations (Chapter [33](/chapters/33)).
 
-2.  
-
-   (A). Products from the milling of the cereals listed in the table below fall in this chapter if they have, by weight on the dry product:
+2. (A). Products from the milling of the cereals listed in the table below fall in this chapter if they have, by weight on the dry product:
 
       - a. a starch content (determined by the modified Ewers polarimetric method) exceeding that indicated in column 2; and
       - b. an ash content (after deduction of any added minerals) not exceeding that indicated in column 3.

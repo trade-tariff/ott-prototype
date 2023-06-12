@@ -1,6 +1,4 @@
-1.   
-
-   (A) The products specified in the headings of this chapter are to be classified in those headings only if grains are present, whether or not in the ear or on the stalk.
+1. (A) The products specified in the headings of this chapter are to be classified in those headings only if grains are present, whether or not in the ear or on the stalk.
 
    (B) The chapter does not cover grains which have been hulled or otherwise worked. However, rice, husked, milled, polished, glazed, parboiled or broken remains classified in heading [1006](/headings/1006).
 
@@ -23,7 +21,6 @@
    - (c) ‘long grain rice’ (subheadings [1006 10 71](/commodities/1006107100), [1006 10 79](/commodities/1006107900), [1006 20 15](/commodities/1006201500), [1006 20 17](/subheadings/1006201700-80), [1006 20 96](/commodities/1006209600), [1006 20 98](/subheadings/1006209800-80), [1006 30 25](/subheadings/1006302500-80), [1006 30 27](/subheadings/1006302700-80), [1006 30 46](/subheadings/1006304600-80), [1006 30 48](/subheadings/1006304800-80), [1006 30 65](/subheadings/1006306500-80), [1006 30 67](/subheadings/1006306700-80), [1006 30 96](/subheadings/1006309600-80) and [1006 30 98](/subheadings/1006309800-80)): rice, the grains of which are of a length exceeding 6.0 mm;
 
    - (d) ‘paddy rice’ (subheadings [1006 10 30](/commodities/1006103000), [1006 10 50](/commodities/1006105000), [1006 10 71](/commodities/1006107100), [1006 10 79](/commodities/1006107900) and [1006 10 90](/commodities/1006109000)): rice which has retained its husk after threshing;
-
 
    - (e) ‘husked rice’ (subheadings [1006 20 11](/commodities/1006201100), [1006 20 13](/commodities/1006201300), [1006 20 15](/commodities/1006201500), [1006 20 17](/subheadings/1006201700-80), [1006 20 19](/subheadings/1006201900-80), [1006 20 92](/commodities/1006209200), [1006 20 94](/commodities/1006209400), [1006 20 96](/commodities/1006209600), [1006 20 98](/subheadings/1006209800-80) and [1006 20 99](/subheadings/1006209900-80)): rice from which only the husk has been removed. Examples of rice falling within this definition are those with the commercial descriptions ‘brown rice’, ‘cargo rice’, ‘loonzain’ and ‘riso sbramato’;
 

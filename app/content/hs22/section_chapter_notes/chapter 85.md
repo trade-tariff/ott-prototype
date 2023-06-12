@@ -21,14 +21,14 @@
     b. other machines provided the weight of such machines does not exceed 20kg. The heading does not, however, apply to fans or ventilating or recycling hoods incorporating a fan, whether or not fitted with filters (heading [8414](/headings/8414)), centrifugal clothes-dryers (heading [8421](/headings/8421)), dishwashing machines (heading [8422](/headings/8422)), household washing machines (heading [8450](/headings/8450)), roller or other ironing machines (heading [8420](/headings/8420) or [8451](/headings/8451)), sewing machines (heading [8452](/headings/8452)), electric scissors (heading [8467](/headings/8467)) or to electro-thermic appliances (heading [8516](/headings/8516)).
 
 5. For the purposes of heading [8517](/headings/8517), the term "smartphones” means telephones for cellular networks, equipped with a mobile operating system designed to perform the functions of an automatic data processing machine such as downloading and running multiple applications simultaneously, including third-party applications, and whether or not integrating other features such as digital cameras and navigational aid systems.
- 
+
 6. For the purposes of heading [8523](/headings/8523):
 
     a. 'solid-state non-volatile storage devices' (for example, 'flash memory cards' or 'flash electronic storage cards') are storage devices with a connecting socket, comprising in the same housing one or more flash memories (for example, 'Flash E2PROM') in the form of integrated circuits mounted on a printed circuit board. They may include a controller in the form of an integrated circuit and discrete passive components, such as capacitors and resistors;
 
     b. the term 'smart cards' means cards which have embedded in them one or more electronic integrated circuits (a microprocessor, random access memory (RAM) or read-only memory (ROM)) in the form of chips. These cards may contain contacts, a magnetic stripe or an embedded antenna but do not contain any other active or passive circuit elements.
 
-7. For the purposes of heading [8524](/headings/8524), “flat panel display modules” refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are de-signed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pix-els on the display. However, heading [8524](/headings/8524) does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or appli-cation processer) or have otherwise assumed the character of goods of other headings. 
+7. For the purposes of heading [8524](/headings/8524), “flat panel display modules” refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are de-signed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pix-els on the display. However, heading [8524](/headings/8524) does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or application processer) or have otherwise assumed the character of goods of other headings.
 
     For the classification of flat panel display modules defined in this Note, heading [8524](/headings/8524) shall take precedence over any other heading in the Nomenclature.
 
@@ -42,11 +42,11 @@
 
 10. Heading [8537](/headings/8537) does not include cordless infrared devices for the remote control of television receivers or other electrical equipment (heading [8543](/headings/8543)).
 
-11. For the purposes of heading [8539](/headings/8539), the expression “light-emitting diode (LED) light sources” covers : 
+11. For the purposes of heading [8539](/headings/8539), the expression “light-emitting diode (LED) light sources” covers :
 
-    (a) “Light-emitting diode (LED) modules” which are electrical light sources based on light-emitting diodes (LED) arranged in electrical circuits and containing further elements like electrical, mechanical, thermal or optical elements. They also contain discrete active elements, discrete passive elements, or articles of heading [8536](/headings/8536) or [8542](/headings/8542) for the purposes of providing power supply or power control. Light-emitting diode (LED) modules do not have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact. 
+    (a) “Light-emitting diode (LED) modules” which are electrical light sources based on light-emitting diodes (LED) arranged in electrical circuits and containing further elements like electrical, mechanical, thermal or optical elements. They also contain discrete active elements, discrete passive elements, or articles of heading [8536](/headings/8536) or [8542](/headings/8542) for the purposes of providing power supply or power control. Light-emitting diode (LED) modules do not have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.
 
-    (b) “Light-emitting diode (LED) lamps” which are electrical light sources containing one or more LED modules containing further elements like electrical, mechanical, thermal or optical elements. The distinction between light-emitting diode (LED) modules and light-emitting diode (LED) lamps is that lamps have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact. 
+    (b) “Light-emitting diode (LED) lamps” which are electrical light sources containing one or more LED modules containing further elements like electrical, mechanical, thermal or optical elements. The distinction between light-emitting diode (LED) modules and light-emitting diode (LED) lamps is that lamps have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.
 
 12. For the purpose of heading [8541](/headings/8541) and [8542](/headings/8542):
 
@@ -54,27 +54,27 @@
 
     (i) “Semiconductor devices” are semiconductor devices the operation of which depends on variations in resistivity on the application of an electric field or semiconductor based transducers.
 
-    Semiconductor devices may also include assembly of plural elements, whether or not equipped with active and passive device ancillary functions. 
+    Semiconductor devices may also include assembly of plural elements, whether or not equipped with active and passive device ancillary functions.
 
-    “Semiconductor-based transducers” are, for the purposes of this definition, semiconductor-based sensors, semiconductor-based actuators, semiconductor-based resonators and semiconductor-based oscillators, which are types of discrete semiconductor-based devices, which perform an intrinsic function, which are able to convert any kind of physical or chemical phenomena or an action into an electrical signal or an electrical signal into any type of physical phenomenon or an action. 
+    “Semiconductor-based transducers” are, for the purposes of this definition, semiconductor-based sensors, semiconductor-based actuators, semiconductor-based resonators and semiconductor-based oscillators, which are types of discrete semiconductor-based devices, which perform an intrinsic function, which are able to convert any kind of physical or chemical phenomena or an action into an electrical signal or an electrical signal into any type of physical phenomenon or an action.
 
-    All the elements in semiconductor-based transducers are indivisibly combined, and may also include necessary materials indivisibly attached, that enable their construction or function. 
+    All the elements in semiconductor-based transducers are indivisibly combined, and may also include necessary materials indivisibly attached, that enable their construction or function.
 
     The following expressions mean :
 
-    - (1) “Semiconductor-based” means built or manufactured on a semiconductor substrate or made of semiconductor materials, manufactured by semiconductor technology, in which the semiconductor substrate or material plays a critical and unreplaceable role of transducer function and performance, and the operation of which is based on semiconductor properties including physical, electrical, chemical and optical properties 
+    - (1) “Semiconductor-based” means built or manufactured on a semiconductor substrate or made of semiconductor materials, manufactured by semiconductor technology, in which the semiconductor substrate or material plays a critical and unreplaceable role of transducer function and performance, and the operation of which is based on semiconductor properties including physical, electrical, chemical and optical properties
 
-    - (2) “Physical or chemical phenomena” relate to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc. 
+    - (2) “Physical or chemical phenomena” relate to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.
 
-    - (3) “Semiconductor-based sensor” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical quantities and converting these into electric signals caused by resulting variations in electric properties or displacement of a mechanical structure. 
+    - (3) “Semiconductor-based sensor” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical quantities and converting these into electric signals caused by resulting variations in electric properties or displacement of a mechanical structure.
 
-    - (4) “Semiconductor-based actuator” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of converting electric signals into physical movement. 
+    - (4) “Semiconductor-based actuator” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of converting electric signals into physical movement.
 
-    - (5) Semiconductor-based resonator” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input 
+    - (5) Semiconductor-based resonator” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input
 
     - (6) “Semiconductor-based oscillator” is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.
 
-    (ii) “Light-emitting diodes (LED)” are semiconductor devices based on semiconductor materials which convert electrical energy into visible, infra-red or ultra-violet rays, whether or not electrically connected among each other and whether or not combined with protective diodes. Light-emitting diodes (LED) of heading [8541](/headings/8541) do not incorporate elements for the purposes of providing power supply or power control; 
+    (ii) “Light-emitting diodes (LED)” are semiconductor devices based on semiconductor materials which convert electrical energy into visible, infra-red or ultra-violet rays, whether or not electrically connected among each other and whether or not combined with protective diodes. Light-emitting diodes (LED) of heading [8541](/headings/8541) do not incorporate elements for the purposes of providing power supply or power control;
 
     b. 'Electronic integrated circuits' are:
 
@@ -101,19 +101,19 @@
 
             (d) ‘Silicon based oscillators’ are active components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.
 
-For the classification of the articles defined in this note, heading [8541](/headings/8541) and [8542](/headings/8541) shall take precedence over any other heading in the classification, except in the case of heading [8523](/headings/8523), which might cover them by reference to, in particular, their function.
+    For the classification of the articles defined in this note, heading [8541](/headings/8541) and [8542](/headings/8542) shall take precedence over any other heading in the nomenclature, except in the case of heading [8523](/headings/8523), which might cover them by reference to, in particular, their function.
 
 ### Subheading notes
 
-1. Subheading [8525 81](/commodities/8525810000) covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics : 
+1. Subheading [8525 81](/commodities/8525810000) covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics:
 
-    - writing speed exceeding 0.5 mm per microsecond; 
+    - writing speed exceeding 0.5 mm per microsecond;
 
-    - time resolution 50 nanoseconds or less; 
+    - time resolution 50 nanoseconds or less;
 
     - frame rate exceeding 225,000 frames per second
 
-2. In respect of subheading [8525 82](/commodities/8525820000), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 × 103 Gy(silicon) (5 × 106 RAD (silicon)), without operational degradation. 
+2. In respect of subheading [8525 82](/commodities/8525820000), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 × 103 Gy(silicon) (5 × 106 RAD (silicon)), without operational degradation.
 
 3. Subheading [8525 83](/commodities/8525830000) covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading [8525 89](/commodities/8525890000)).
 
@@ -131,8 +131,8 @@ For the classification of the articles defined in this note, heading [8541](/hea
 
     Apparatus of these subheadings must enable a two-way communication process or the two-way flow of information for the purposes of providing interactive information exchange.
 
-4. Code [8543 70 90](/subheadings/8543709000-80) includes electrical apparatus (so-called ‘video converter’) designed to convert video signals from SDI format to HDMI format. They are rectangular shaped, and typically have the following sockets: a Serial Digital Interface (SDI), a High Definition Multimedia Interface (HDMI), an RJ-45 interface, a power connector. 
+4. Code [8543 70 90](/subheadings/8543709000-80) includes electrical apparatus (so-called ‘video converter’) designed to convert video signals from SDI format to HDMI format. They are rectangular shaped, and typically have the following sockets: a Serial Digital Interface (SDI), a High Definition Multimedia Interface (HDMI), an RJ-45 interface, a power connector.
 
-    The apparatus is designed to convert video signals from SDI format to HDMI format. The RJ-45 interface serves to connect the apparatus to the Ethernet only for software updates and to get electric power needed for those updates, it does not enable the transmission of video signals. 
+    The apparatus is designed to convert video signals from SDI format to HDMI format. The RJ-45 interface serves to connect the apparatus to the Ethernet only for software updates and to get electric power needed for those updates, it does not enable the transmission of video signals.
 
 5. Code 8543 40 00 excludes disposable electronic cigarettes (disposable e-cigarettes) and similar disposable personal electric vaporising devices, that incorporate both the product intended for inhalation without combustion (e.g. e-liquid, gels) and the delivery mechanism in an integrated housing, that are designed for disposal after the incorporated product is exhausted or the battery runs out (not designed for refilling or recharging).

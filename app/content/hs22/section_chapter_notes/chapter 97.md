@@ -30,7 +30,7 @@
     
     The requisite characteristics for inclusion in a collection being relatively rare, not being normally used for its original purpose, being the subject of special transactions outside of the normal trade in similar utility articles, and being of greater value - are presumed to be fulfilled for motor vehicles and aircraft which comply with the above three criteria.
     
-    This heading also includes, as collectors’ items:
+    This heading also includes, as collectors' items:
     
     - motor vehicles and aircraft, irrespective of their date of manufacture, which can be proved to have been used in the course of an historic event.
     

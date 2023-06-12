@@ -1,9 +1,9 @@
 1. This chapter does not cover:
 
     a. crochet lace of heading [5804](/headings/5804);
-    
+
     b. labels, badges and similar articles, knitted or crocheted, of heading [5807](/headings/5807); or
-    
+
     c. knitted or crocheted fabrics, impregnated, coated, covered or laminated, of Chapter [59](/chapters/59). However, knitted
     or crocheted pile fabrics, impregnated, coated, covered or laminated, remain classified in heading [6001](/headings/6001).
 

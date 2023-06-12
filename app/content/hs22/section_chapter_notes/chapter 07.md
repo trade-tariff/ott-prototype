@@ -11,7 +11,7 @@
 
 4. However, dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta are excluded from this chapter (heading [0904](/headings/0904)).
 
-5.	Heading [0711](/headings/0711) applies to vegetables which have been treated solely to ensure their provisional preservation during transport or storage prior to use (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), provided they remain unsuitable for immediate consumption in that state.
+5. Heading [0711](/headings/0711) applies to vegetables which have been treated solely to ensure their provisional preservation during transport or storage prior to use (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), provided they remain unsuitable for immediate consumption in that state.
 
 ### Additional chapter notes
 

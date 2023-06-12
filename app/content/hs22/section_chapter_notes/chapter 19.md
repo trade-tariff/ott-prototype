@@ -1,6 +1,6 @@
 1. This chapter does not cover:
 
-    - a. except in the case of stuffed products of heading [1902](/headings/1902), food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof (Chapter [16](/chapters/16));
+    - a. except in the case of stuffed products of heading [1902](/headings/1902), food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof (Chapter [16](/chapters/16));
     - b. biscuits or other articles made from flour or from starch, specially prepared for use in animal feeding (heading [2309](/headings/2309)); or
     - c. medicaments or other products of Chapter [30](/chapters/30).
 

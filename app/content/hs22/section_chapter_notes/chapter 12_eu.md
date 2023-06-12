@@ -4,26 +4,29 @@
 
 3. For the purposes of heading [1209](/headings/1209), beet seeds, grass and other herbage seeds, seeds of ornamental flowers, vegetable seeds, seeds of forest trees, seeds of fruit trees, seeds of vetches (other than those of the species Vicia faba) or of lupines are to be regarded as 'seeds of a kind used for sowing'.
 
- Heading [1209](/headings/1209) does not, however, apply to the following even if for sowing:
+    Heading [1209](/headings/1209) does not, however, apply to the following even if for sowing:
 
- - a) leguminous vegetables or sweetcorn (Chapter [7](/chapters/07));
- - b) spices or other products of Chapter [9](/chapters/09);
- - c) cereals (Chapter [10](/chapters/10)); or
- - d) products of heading [1201](/headings/1201) to [1207](/headings/1207) or [1211](/headings/1211).
+    - a) leguminous vegetables or sweetcorn (Chapter [7](/chapters/07));
+
+    - b) spices or other products of Chapter [9](/chapters/09);
+
+    - c) cereals (Chapter [10](/chapters/10)); or
+
+    - d) products of heading [1201](/headings/1201) to [1207](/headings/1207) or [1211](/headings/1211).
 
 4. Heading [1211](/headings/1211) applies inter alia to the following plants or parts thereof: basil, borage, ginseng, hyssop, liquorice, all species of mint, rosemary, rue, sage and wormwood.
 
- Heading [1211](/headings/1211) does not, however apply to:
- 
- - a) medicaments of Chapter [30](/chapters/30);
- - b) perfumery, cosmetic or toilet preparations of Chapter [33](/chapters/33); or
- - c) insecticides, fungicides, herbicides, disinfectants or similar products of heading [3808](/headings/3808).
+    Heading [1211](/headings/1211) does not, however apply to:
+
+    - a) medicaments of Chapter [30](/chapters/30);
+    - b) perfumery, cosmetic or toilet preparations of Chapter [33](/chapters/33); or
+    - c) insecticides, fungicides, herbicides, disinfectants or similar products of heading [3808](/headings/3808).
 
 5. For the purposes of heading [1212](/headings/1212), the term 'seaweeds and other algae' does not include:
 
- - a) dead single-cell micro-organisms of heading [2102](/headings/2102);
- - b) cultures of micro-organisms of heading [3002](/headings/3002); or
- - c) fertilisers of heading [3101](/headings/3101) or [3105](/headings/3105).
+   - a) dead single-cell micro-organisms of heading [2102](/headings/2102);
+   - b) cultures of micro-organisms of heading [3002](/headings/3002); or
+   - c) fertilisers of heading [3101](/headings/3101) or [3105](/headings/3105).
 
 ### Subheading note
 

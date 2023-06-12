@@ -16,7 +16,7 @@
     
     (h) blood albumin not prepared for therapeutic or prophylactic uses (heading [3502](/headings/3502)).
 
-    (ij) diagnostic reagents of heading 3822.
+    (ij) diagnostic reagents of heading [3822](/headings/3822).
 
 2. For the purposes of heading [3002](/headings/3002), the expression ‘immunological products’ applies to peptides and proteins (other than goods of heading [2937](/headings/2937)) which are directly involved in the regulation of immunological processes, such as monoclonal antibodies (MAB), antibody fragments, antibody conjugates and antibody fragment conjugates, interleukins, interferons (IFN), chemokines and certain tumour-necrosis factors (TNF), growth factors (GF), hematopoietins and colony-stimulating factors (CSF).
 

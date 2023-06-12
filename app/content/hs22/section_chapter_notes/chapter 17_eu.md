@@ -1,8 +1,8 @@
 1. This chapter does not cover:
 
-- a. sugar confectionery containing cocoa (heading [1806](/headings/1806));
-- b. chemically pure sugars (other than sucrose, lactose, maltose, glucose and fructose) or other products of heading [2940](/headings/2940); or
-- c. medicaments or other products of Chapter [30](/chapters/30).
+   - a. sugar confectionery containing cocoa (heading [1806](/headings/1806));
+   - b. chemically pure sugars (other than sucrose, lactose, maltose, glucose and fructose) or other products of heading [2940](/headings/2940); or
+   - c. medicaments or other products of Chapter [30](/chapters/30).
 
 ### Subheading notes
 

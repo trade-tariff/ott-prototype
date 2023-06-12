@@ -1,11 +1,11 @@
 1. This chapter does not cover:
 
     a. photographic negatives or positives on transparent bases (Chapter [37](/chapters/37));
-    
+
     b. maps, plans or globes, in relief, whether or not printed (heading [9023](/headings/9023));
-    
+
     c. playing cards or other goods of Chapter [95](/chapters/95); or
-    
+
     d. original engravings. prints or lithographs (heading [9702](/headings/9702)), postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery or the like of heading [9704](/headings/9704), antiques of an age exceeding one hundred years or other articles of Chapter [97](/chapters/97).
 
 2. For the purposes of Chapter [49](/chapters/49), the term 'printed' also means reproduced by means of a duplicating machine, produced under the control of an automatic data processing machine, embossed, photographed, photocopied, thermocopied or typewritten.

@@ -1,19 +1,18 @@
-1. This chapter does not cover meat, meat offal, fish, crustaceans, molluscs or other aquatic invertebrates, as well as insects, prepared or preserved by the processes specified in Chapter [2](/chapters/02) or 3 or heading [0504](/headings/0504).
+1. This chapter does not cover meat, meat offal, fish, crustaceans, molluscs or other aquatic invertebrates, as well as insects, prepared or preserved by the processes specified in Chapter [2](/chapters/02) or 3, or in heading [0504](/headings/0504).
 
 2. Food preparations fall in this chapter provided that they contain more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof. In cases where the preparation contains two or more of the products mentioned above, it is classified within the heading of Chapter [16](/chapters/16) corresponding to the component or components which predominate by weight. These provisions do not apply to the stuffed products of heading [1902](/headings/1902) or to the preparations of heading [2103](/headings/2103) or [2104](/headings/2104).
 
-For preparations containing liver, the provisions of the second sentence shall not apply in determining the subheadings within heading [1601](/headings/1601) or [1602](/headings/1602).
+    For preparations containing liver, the provisions of the second sentence shall not apply in determining the subheadings within heading [1601](/headings/1601) or [1602](/headings/1602).
 
 ### Subheading notes
 
-1. For the purposes of subheading [1602 10](/commodities/1602100000), the expression ‘homogenised preparations’ means preparations of meat, meat offal or blood or insects, finely homogenised, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g. 
+1. For the purposes of subheading [1602 10](/commodities/1602100000), the expression ‘homogenised preparations’ means preparations of meat, meat offal, blood or insects, finely homogenised, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g.
 
-    For the application of this definition, no account is to be taken of small quantities of any ingredients which may have
-    been added to the preparation for seasoning, preservation or other purposes. These preparations may contain a small quantity of visible pieces of meat or meat offal or insects. 
+    For the application of this definition, no account is to be taken of small quantities of any ingredients which may have been added to the preparation for seasoning, preservation or other purposes. These preparations may contain a small quantity of visible pieces of meat, meat offal or insects.
     
     This subheading takes precedence over all other subheadings of heading [1602](/headings/1602).
 
-2. The fish, crustaceans, molluscs and other aquatic invertebrates specified in the subheadings of heading [1604](/headings/1604) or [1605](/headings/1605) under their common names only, are of the same species as those mentioned in Chapter [3](/chapters/03) under the same name
+2. The fish, crustaceans, molluscs and other aquatic invertebrates specified in the subheadings of heading [1604](/headings/1604) or [1605](/headings/1605) under their common names only, are of the same species as those mentioned in Chapter [3](/chapters/03) under the same name.
 
 ### Additional chapter notes
 

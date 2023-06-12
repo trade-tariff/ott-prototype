@@ -11,7 +11,7 @@
       (4) certified reference materials specified in note 2 below;
 
       (5) products specified in note 3(a) or 3(c) below;
-    
+
     - b. mixtures of chemicals with foodstuffs or other substances with nutritive value, of a kind used in the preparation of human foodstuffs (generally, heading [2106](/headings/2106)).
 
     - c. products of heading [2404](/headings/2404)
@@ -30,25 +30,25 @@
 3. Heading [3824](/headings/3824) includes the following goods which are not to be classified in any other heading of the classification:
 
     a. cultured crystals (other than optical elements) weighing not less than 2.5g each, of magnesium oxide or of the halides of the alkali or alkaline-earth metals;
-    
+
     b. fusel oil; Dippel's oil;
-    
+
     c. ink removers put up in packings for retail sale;
-    
+
     d. stencil correctors, other correcting fluids and correction tapes (other than those of heading [9612](/headings/9612)), put up in packings for retail sale; and
-    
+
     e. ceramic firing testers, fusible (e.g. Seger cones).
 
 4. Throughout the classification, 'municipal waste' means waste of a kind collected from households, hotels, restaurants, hospitals, shops, offices, etc., road and pavement sweepings, as well as construction and demolition waste. Municipal waste generally contains a large variety of materials such as plastics, rubber, wood, paper, textiles, glass, metals, food materials, broken furniture and other damaged or discarded articles.
 
     The term 'municipal waste', however, does not cover:
-    
+
     a. individual materials or articles segregated from the waste, such as wastes of plastics, rubber, wood, paper, textiles, glass or metals, electrical and electronic waste and scrap (including spent batteries) which fall in their appropriate headings of the classification;
-    
+
     b. industrial waste;
-    
+
     c. waste pharmaceuticals, as defined in note 4(k) to Chapter [30](/chapters/30); or
-    
+
     d. clinical waste, as defined in note 6 (a) below.
 
 5. For the purposes of heading [3825](/headings/3825), 'sewage sludge' means sludge arising from urban effluent treatment plant and includes pre-treatment waste, scourings and unstabilised sludge. Stabilised sludge when suitable for use as fertiliser is excluded (Chapter [31](/chapters/31)).
@@ -56,15 +56,15 @@
 6. For the purposes of heading [3825](/headings/3825), the expression 'other wastes' applies to:
 
     a. clinical waste, that is, contaminated waste arising from medical research, diagnosis, treatment or other medical, surgical, dental or veterinary procedures, which often contain pathogens and pharmaceutical substances and require special disposal procedures (eg, soiled dressings, used gloves and used syringes);
-    
+
     b. waste organic solvents;
-    
+
     c. wastes of metal pickling liquors, hydraulic fluids, brake fluids and anti-freezing fluids; and
-    
+
     d. other wastes from chemical or allied industries.
-    
+
     The expression 'other wastes' does not, however, cover wastes which contain mainly petroleum oils or oils obtained from bituminous minerals (heading [2710](/headings/2710)).
-    
+
 7. For the purposes of heading [3826](/headings/3826), the term “biodiesel” means mono-alkyl esters of fatty ac-ids of a kind used as a fuel, derived from animal, vegetable or microbial fats and oils whether or not used. 
 
 ### Subheading notes
@@ -84,9 +84,9 @@
 1. For the purposes of this chapter, “agricultural products” means:
 
     - goods of chapters 1 to 4, 6 to 12, 16 and [23](/chapters/23) of the classification;
-    
+
     - goods of heading [0504](/headings/0504), [1501](/headings/1501), [1502](/headings/1502), [1503](/headings/1503), [1504](/headings/1504), [1507](/headings/1507), [1512](/headings/1512), [1513](/headings/1513), [1517](/headings/1517), [1701](/headings/1701), [1702](/headings/1702), [1703](/headings/1703), [1801](/headings/1801), [1802](/headings/1802), [2204](/headings/2204), [2205](/headings/2205), [2207](/headings/2207), [2401](/headings/2401), [2501](/headings/2501) and [5701](/headings/5701) of the classification;
-    
+
     - pectin;
-    
+
     - ethyl alcohol or neutral spirits, whether or not denatured, of any strength, obtained from agricultural products listed in the three bullet points above, excluding liqueurs and other spirituous beverages and compound alcoholic preparations (known as "concentrated extracts") for the manufacture of beverages.

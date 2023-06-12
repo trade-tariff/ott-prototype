@@ -9,11 +9,11 @@
 5. For the purposes of heading [5806](/headings/5806), the expression 'narrow woven fabrics' means:
 
     a. woven fabrics of a width not exceeding 30 cm, whether woven as such or cut from wider pieces, provided with selvedges (woven, gummed or otherwise made) on both edges;
-    
+
     b. tubular woven fabrics of a flattened width not exceeding 30 cm; and
-    
+
     c. bias binding with folded edges, of a width when unfolded not exceeding 30 cm.
-    
+
     Narrow woven fabrics with woven fringes are to be classified in heading [5808](/headings/5808).
 
 6. In heading [5810](/headings/5810), the expression 'embroidery' means, inter alia, embroidery with metal or glass thread on a visible ground of textile fabric, and sewn applique work of sequins, beads or ornamental motifs of textile or other materials. The heading does not apply to needlework tapestry (heading [5805](/headings/5805)).
