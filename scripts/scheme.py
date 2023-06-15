@@ -18,7 +18,6 @@ class Scheme(object):
         self.check_existence("articles", "Missing articles node")
         self.check_existence("features", "Missing features node")
         self.check_existence("introductory_notes_file", "Missing introductory_notes_file node")
-        self.check_existence("fta_intro_file", "Missing fta_intro_file node")
         self.check_existence("links", "Missing links node")
         self.check_existence("countries", "Missing countries node")
         return self.return_values()
