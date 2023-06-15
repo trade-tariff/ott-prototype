@@ -1,0 +1,15 @@
+.download-links {
+    a {
+        border-right: 1px #333 solid;
+        padding-left:0.5em;
+        padding-right:0.75em;
+    }
+
+    a:first-of-type {
+        padding-left: 0;
+    }
+
+    a:last-of-type {
+        border: 0;
+    }
+}

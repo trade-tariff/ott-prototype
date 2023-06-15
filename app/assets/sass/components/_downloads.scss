@@ -13,12 +13,16 @@
         margin-bottom        : 1em;
         display              : grid;
         grid-template-columns: 20% 80%;
+        // border: 1px solid red;
+        display: grid;
     }
 
     .attachment-thumb {
+        width    : 99px;
+
         img {
             width    : 100%;
-            max-width: 50px;
+            max-width: 99px;
             border   : 5px solid #f0f0f0;
         }
     }
