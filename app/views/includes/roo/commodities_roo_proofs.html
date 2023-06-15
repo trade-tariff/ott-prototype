@@ -43,3 +43,51 @@
         <a href="/roo/proofs">See valid proofs of origin for all trade agreements</a>
     </p>
 {% endif %}
+
+{% if roo.show_codes %}
+    <h2 class="govuk-heading-m" id="proofs">Declaring your proof of origin</h2>
+    <table class="govuk-table">
+        <thead>
+            <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">CDS Data Element&nbsp;(DE)</th>
+                <th scope="col" class="govuk-table__header">What you must include</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for code, value in roo.codes %}
+                <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">{{ code }}</td>
+                    <td class="govuk-table__cell">
+                        {{ value | convert_markdown | safe }}</td>
+                    </tr>
+                {% endfor %}
+                {# <tr class="govuk-table__row">
+                    <td class="govuk-table__cell">{{ code }}</td>
+                    <td class="govuk-table__cell">
+                        <p>You must include one of the following document codes, as appropriate:</p>
+                        <ul class="govuk-list govuk-list--bullet">
+                            <li>
+                                <strong>U110</strong> - if the claim is based on a 'declaration of origin' for a single shipment</li>
+                            <li>
+                                <strong>U111</strong> - if the claim is based on a 'declaration of origin' for multiple shipments of identical products to cover a 12-month</li>
+                            <li>
+                                <strong>U112</strong> - if the claim is based on importers knowledge, using status code JP</li>
+                        </ul>
+                        <p>Codes <strong>U110</strong> and <strong>U111</strong> must be declared with one of the following <a target="_blank" href="https://www.gov.uk/guidance/data-element-23-document-status-codes-of-the-customs-declaration-service-cds">document status codes (opens in new window)</a>:
+                AE, AF, AG, AP, AS, AT, GE, GP, HP, JE, JP, LE, LP, UA, UE, UP, US, XB.</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">DE&nbsp;4/17</td>
+                        <td class="govuk-table__cell">The data element must include a preference code in the 300 series.</td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">
+                    DE&nbsp;5/16
+                </td>
+                        <td class="govuk-table__cell">
+                    The data element must be completed with the country of preferential origin.&nbsp;
+                </td>
+                    </tr> #}
+                </tbody>
+            </table>
+        {% endif %}
