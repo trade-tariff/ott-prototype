@@ -1298,7 +1298,7 @@
                   "max": "1699999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter) except [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03).",
+                              "rule": "<abbr title='Change of tariff chapter'>CC</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 2-digit level (chapter) except [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;3](/chapters/03).",
                               "class": [
                                     "CC"
                               ],
@@ -4677,7 +4677,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Flocking accompanied by dyeing (7).",
+                              "rule": "Flocking accompanied by dyeing.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -4738,7 +4738,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Flocking accompanied by dyeing (7).",
+                              "rule": "Flocking accompanied by dyeing.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -5649,7 +5649,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (7).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting.",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",
@@ -6128,7 +6128,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods) (7).",
+                              "rule": "Dyeing of yarn of natural fibres accompanied by knitting (knitted to shape goods).",
                               "class": [],
                               "footnotes": [],
                               "operator": "or",

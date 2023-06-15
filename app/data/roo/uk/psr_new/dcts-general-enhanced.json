@@ -8,7 +8,7 @@
                   "max": "0199999999",
                   "rules": [
                         {
-                              "rule": "None if all the animals of [chapter&nbsp;01](/chapters/01) are wholly obtained in the country or territory.",
+                              "rule": "None if all the animals of [chapter&nbsp;1](/chapters/01) are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -50,7 +50,7 @@
                   "max": "0399999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;03](/chapters/03) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -71,7 +71,7 @@
                   "max": "0499999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;04](/chapters/04) used are wholly obtained in the country or territory *and*\n\n- the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture in which:\n\n- all the materials of [chapter&nbsp;4](/chapters/04) used are wholly obtained in the country or territory *and*\n\n- the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -113,7 +113,7 @@
                   "max": "0601999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;6](/chapters/06) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -134,7 +134,7 @@
                   "max": "0602999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;6](/chapters/06) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -156,7 +156,7 @@
                   "max": "0603999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;6](/chapters/06) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -177,7 +177,7 @@
                   "max": "0604999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;06](/chapters/06) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;6](/chapters/06) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -197,7 +197,7 @@
                   "max": "0701999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -218,7 +218,7 @@
                   "max": "0702999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -239,7 +239,7 @@
                   "max": "0703999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -260,7 +260,7 @@
                   "max": "0704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -281,7 +281,7 @@
                   "max": "0705999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -302,7 +302,7 @@
                   "max": "0706999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -323,7 +323,7 @@
                   "max": "0707999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -344,7 +344,7 @@
                   "max": "0708999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -365,7 +365,7 @@
                   "max": "0709999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -386,7 +386,7 @@
                   "max": "0710999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -408,7 +408,7 @@
                   "max": "0711999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -429,7 +429,7 @@
                   "max": "0712999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -450,7 +450,7 @@
                   "max": "0713999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -470,7 +470,7 @@
                   "max": "0714999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -492,7 +492,7 @@
                   "max": "0899999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which:\n\n- all the fruit, nuts and peels of citrus fruits or melons of [chapter&nbsp;08](/chapters/08) used are wholly obtained in the country or territory\n\n- and the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture in which:\n\n- all the fruit, nuts and peels of citrus fruits or melons of [chapter&nbsp;8](/chapters/08) used are wholly obtained in the country or territory\n\n- and the weight of sugar (see Note 2.2 in Part 1 of this Schedule) used does not exceed **40%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -920,7 +920,7 @@
                   "max": "1516999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of all the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of all the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -939,7 +939,7 @@
                   "max": "1517999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of all the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which the weight of all the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1034,7 +1034,7 @@
                   "max": "1699999999",
                   "rules": [
                         {
-                              "rule": "Manufacture:\n\n- from materials of any heading, except meat and edible meat offal of [chapter&nbsp;02](/chapters/02) and materials of [chapter&nbsp;16](/chapters/16) obtained from meat and edible meat offal of [chapter&nbsp;02](/chapters/02), *and*\n\n- in which all the materials of [chapter&nbsp;03](/chapters/03) and materials of [chapter&nbsp;16](/chapters/16) obtained from fish and crustaceans, molluscs and other aquatic invertebrates of [chapter&nbsp;03](/chapters/03) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture:\n\n- from materials of any heading, except meat and edible meat offal of [chapter&nbsp;2](/chapters/02) and materials of [chapter&nbsp;16](/chapters/16) obtained from meat and edible meat offal of [chapter&nbsp;2](/chapters/02), *and*\n\n- in which all the materials of [chapter&nbsp;3](/chapters/03) and materials of [chapter&nbsp;16](/chapters/16) obtained from fish and crustaceans, molluscs and other aquatic invertebrates of [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -1112,7 +1112,7 @@
                   "max": "1704999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1131,7 +1131,7 @@
                   "max": "1899999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1150,7 +1150,7 @@
                   "max": "1999999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the weight of the materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the final good, *and*\n\n- the weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final good, *and*\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the weight of the materials of [chapters 02](/chapters/02), 3 and 16 used does not exceed **20%** of the weight of the final good, *and*\n\n- the weight of the materials of [heading&nbsp;1006](/headings/1006) and [heading&nbsp;1101](/headings/1101) to [heading&nbsp;1108](/headings/1108) used does not exceed **20%** of the weight of the final good, *and*\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1188,7 +1188,7 @@
                   "max": "2002999999",
                   "rules": [
                         {
-                              "rule": "Manufacture in which all the materials of [chapter&nbsp;07](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained in the country or territory.",
+                              "rule": "Manufacture in which all the materials of [chapter&nbsp;7](/chapters/07) and [chapter&nbsp;8](/chapters/08) used are wholly obtained in the country or territory.",
                               "class": [
                                     "WO"
                               ],
@@ -1341,7 +1341,7 @@
                   "max": "2101999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1360,7 +1360,7 @@
                   "max": "2102999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1379,7 +1379,7 @@
                   "max": "2103999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1398,7 +1398,7 @@
                   "max": "2104999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1418,7 +1418,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1436,7 +1436,7 @@
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar (see Note 2.2 in Part 1 of this Schedule) and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [],
                               "footnotes": [],
                               "operator": null,
@@ -1456,7 +1456,7 @@
                   "max": "2299999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good and [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), in which:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained in the country or territory, *and*\n\n- the individual weight of sugar and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good and [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), in which:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80), [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained in the country or territory, *and*\n\n- the individual weight of sugar and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
@@ -1629,7 +1629,7 @@
                   "max": "2309999999",
                   "rules": [
                         {
-                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- all the materials of [chapter&nbsp;02](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory, *and*\n\n- the weight of materials of [chapter&nbsp;10](/chapters/10) and [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the weight of the final good, *and*\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar and the materials of [chapter&nbsp;04](/chapters/04) used does not exceed **60%** of the weight of the final good.",
+                              "rule": "Manufacture from materials of any heading, except that of the good, in which:\n\n- all the materials of [chapter&nbsp;2](/chapters/02) and [chapter&nbsp;3](/chapters/03) used are wholly obtained in the country or territory, *and*\n\n- the weight of materials of [chapter&nbsp;10](/chapters/10) and [chapter&nbsp;11](/chapters/11) and [heading&nbsp;2302](/headings/2302) and [heading&nbsp;2303](/headings/2303) used does not exceed **20%** of the weight of the final good, *and*\n\n- the individual weight of sugar (see Note 2.2 in Part 1 of this Schedule) and of the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the final good, *and*\n\n- the total combined weight of sugar and the materials of [chapter&nbsp;4](/chapters/04) used does not exceed **60%** of the weight of the final good.",
                               "class": [
                                     "WO"
                               ],
