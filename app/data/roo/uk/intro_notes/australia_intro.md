@@ -59,6 +59,7 @@ For the purposes of this rule:
 
   (c) the addition or elimination of water of crystallisation.
 
+The Chemical Reaction Rule also applies to goods of chapters 27, 39 and 40.
 
 
 #### Section Note 2: Purification Rule
@@ -88,6 +89,8 @@ For the purposes of this rule:
 
     - (viii) nuclear grade uses.
 
+The Purification Rule also applies to goods of chapters 39.
+
 #### Section Note 3: Mixing and Blending Rule
 
 Notwithstanding the applicable product specific rules of origin, a good of chapter 30, 31 and heading of 3302, 3304, 3506, 3507, 3707 or sub-heading 3502.20, satisfies the requirements of this Annex if mixing and blending occurred in the territory of one or both of the Parties. 
@@ -112,6 +115,8 @@ For the purposes of this rule:
 
 that is relevant to the purposes of the resulting good.
 
+The Change in Particle Size Rule also applies to goods of chapters 39.
+
 #### Section Note 5: Standard Materials Rule
 
 Notwithstanding the applicable product specific rules of origin, a standard material of chapter 28 through chapter 38, satisfies the requirements of this Annex if the production of such good occurs in the territory of one or both of the Parties. 
@@ -120,9 +125,13 @@ For the purposes of this rule:
 
 “standard material” means a preparation (including a solution) suitable for analytical, calibrating or referencing uses having precise degrees of purity or proportions which are certified by the manufacturer.
 
+The Standard Materials Rule also applies to goods of chapters 39.
+
 #### Section Note 6: Isomer Separation Rule
 
 Notwithstanding the applicable product specific rules of origin, a good of chapter 28 through chapter 38, satisfies the requirements of this Annex if the isolation or separation of isomers from a mixture of isomers occurs in the territory of one or both of the Parties.
+
+The Isomer Separation Rule also applies to goods of chapters 39.
 
 #### Section Note 7: Biotechnological Processing Rule
 
