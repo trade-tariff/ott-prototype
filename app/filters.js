@@ -45,6 +45,7 @@ module.exports = function (env) {
       documentation.
   
     ------------------------------------------------------------------ */
+
     filters.get_slice = function (str, start, lngth) {
         if (typeof str !== 'undefined') {
             s = str.substr(start, lngth);

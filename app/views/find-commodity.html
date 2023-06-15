@@ -21,7 +21,7 @@
                 <form action="/search_handler" accept-charset="utf-8" method="get">
 
                     <h2 class="govuk-heading-m">{{ context.get_content("home.search_title") | safe }}</h2>
-                    <div class="govuk-error-summary" data-module="govuk-error-summary">
+                    {# <div class="govuk-error-summary" data-module="govuk-error-summary">
                         <div role="alert">
                             <h2 class="govuk-error-summary__title">There is a problem</h2>
                             <div class="govuk-error-summary__body">
@@ -32,7 +32,8 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> #}
+                    {# zz<div id="demo"></div>yy #}
 
                     <p>Commodity codes are internationally recognised reference numbers. A commodity code describes a specific product
                     when importing or exporting goods. You will use this code on any customs declarations.</p>
@@ -72,12 +73,20 @@
                         </div>
                     </details>
 
-                    <div class="govuk-form-group govuk-form-group--error">
+                    {# <div class="govuk-form-group govuk-form-group--error">
                         <label class="govuk-label govuk-label--s nb" for="search_term">Search the UK Integrated Online Tariff</label>
                         <p id="passport-issued-error" class="govuk-error-message">
                             <span class="govuk-visually-hidden">Error:</span> Enter the name of the goods or a 10-digit commodity code
                         </p>
                         <input class="govuk-input govuk-input--width-30 govuk-input--error" id="search_term" name="search_term" type="text" placeholder="Enter the name of the goods or a 10-digit commodity code">
+                    </div> #}
+
+                    <div class="govuk-form-group">
+                        <label class="govuk-label govuk-label--s nb" for="search_term">Search the UK Integrated Online Tariff</label>
+                        {# <p id="passport-issued-error" class="govuk-error-message">
+                            <span class="govuk-visually-hidden">Error:</span> Enter the name of the goods or a 10-digit commodity code
+                        </p> #}
+                        <input class="govuk-input govuk-input--width-30" id="search_term" name="search_term" type="text" placeholder="Enter the name of the goods or a 10-digit commodity code">
                     </div>
 
                     {% set show_date_button = false %}

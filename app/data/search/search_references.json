@@ -7954,6 +7954,14 @@
         },
         {
             "sid": null,
+            "title": "chips, potato (frozen)",
+            "goods_nomenclature_item_id": "2004109100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2004109100-10_10"
+        },
+        {
+            "sid": null,
             "title": "crisps, potato",
             "goods_nomenclature_item_id": "2005200000-80",
             "productline_suffix": "80",
@@ -7962,7 +7970,7 @@
         },
         {
             "sid": null,
-            "title": "potato chips",
+            "title": "potato chips, not frozen",
             "goods_nomenclature_item_id": "2005200000-80",
             "productline_suffix": "80",
             "class": "Subheading",
@@ -7975,6 +7983,22 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "2005200000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "chips, potato",
+            "goods_nomenclature_item_id": "2005202000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2005202000-10_10"
+        },
+        {
+            "sid": null,
+            "title": "crisps, potato",
+            "goods_nomenclature_item_id": "2005202000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2005202000-10_10"
         },
         {
             "sid": null,
@@ -19490,6 +19514,14 @@
         },
         {
             "sid": null,
+            "title": "plastic cups",
+            "goods_nomenclature_item_id": "3924100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "3924100000-80_80"
+        },
+        {
+            "sid": null,
             "title": "plastic tubs, kitchenware",
             "goods_nomenclature_item_id": "3924100000-80",
             "productline_suffix": "80",
@@ -19595,6 +19627,14 @@
         {
             "sid": null,
             "title": "bowls, plastic, other than kitchenware",
+            "goods_nomenclature_item_id": "3924900090-80",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "3924900090-80_80"
+        },
+        {
+            "sid": null,
+            "title": "coat hangers, plastic",
             "goods_nomenclature_item_id": "3924900090-80",
             "productline_suffix": "80",
             "class": "Commodity",
@@ -19731,14 +19771,6 @@
         {
             "sid": null,
             "title": "buckets, plastic",
-            "goods_nomenclature_item_id": "3926000000",
-            "productline_suffix": "80",
-            "class": "Heading",
-            "gnidpls": "3926000000_80"
-        },
-        {
-            "sid": null,
-            "title": "coat hangers - plastics",
             "goods_nomenclature_item_id": "3926000000",
             "productline_suffix": "80",
             "class": "Heading",
@@ -21315,6 +21347,14 @@
         {
             "sid": null,
             "title": "oil seals, rubber",
+            "goods_nomenclature_item_id": "4016930000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "4016930000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "rubber seals",
             "goods_nomenclature_item_id": "4016930000-80",
             "productline_suffix": "80",
             "class": "Subheading",
@@ -24083,6 +24123,14 @@
         {
             "sid": null,
             "title": "paperboard",
+            "goods_nomenclature_item_id": "4800000000",
+            "productline_suffix": "80",
+            "class": "Chapter",
+            "gnidpls": "4800000000_80"
+        },
+        {
+            "sid": null,
+            "title": "stationery",
             "goods_nomenclature_item_id": "4800000000",
             "productline_suffix": "80",
             "class": "Chapter",
@@ -54626,6 +54674,30 @@
         },
         {
             "sid": null,
+            "title": "cellphone chargers",
+            "goods_nomenclature_item_id": "8504406000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "8504406000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "mobile phone chargers",
+            "goods_nomenclature_item_id": "8504406000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "8504406000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "phone chargers",
+            "goods_nomenclature_item_id": "8504406000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "8504406000-80_80"
+        },
+        {
+            "sid": null,
             "title": "electromagnets",
             "goods_nomenclature_item_id": "8505000000",
             "productline_suffix": "80",
@@ -56047,6 +56119,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "8517620000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "network switches",
+            "goods_nomenclature_item_id": "8517690000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "8517690000-80_80"
         },
         {
             "sid": null,
@@ -65354,7 +65434,7 @@
         },
         {
             "sid": null,
-            "title": "highchairs",
+            "title": "highchairs - wooden frame",
             "goods_nomenclature_item_id": "9401610000-10",
             "productline_suffix": "10",
             "class": "Subheading",
@@ -65362,7 +65442,23 @@
         },
         {
             "sid": null,
-            "title": "highchairs",
+            "title": "sofas - wooden frame",
+            "goods_nomenclature_item_id": "9401610000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "9401610000-10_10"
+        },
+        {
+            "sid": null,
+            "title": "highchairs - metal frame",
+            "goods_nomenclature_item_id": "9401710000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "9401710000-10_10"
+        },
+        {
+            "sid": null,
+            "title": "sofas - metal frame",
             "goods_nomenclature_item_id": "9401710000-10",
             "productline_suffix": "10",
             "class": "Subheading",
@@ -66815,6 +66911,14 @@
             "productline_suffix": "80",
             "class": "Commodity",
             "gnidpls": "9504908000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "acrylic decorations",
+            "goods_nomenclature_item_id": "9505000000",
+            "productline_suffix": "80",
+            "class": "Heading",
+            "gnidpls": "9505000000_80"
         },
         {
             "sid": null,

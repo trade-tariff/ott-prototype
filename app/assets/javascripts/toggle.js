@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    // var demo_control = document.getElementById("demo");
+
+    // getLocation();
+    // console.log("tl");
+
     var implement_da_popup = false;
 
     $('.debug').hide()
@@ -112,4 +117,23 @@ $(document).ready(function () {
             return true;
         }
     });
+
+    function getLocation() {
+        // http://ip-api.com/json?fields=status,countryCode
+        var tl = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        demo_control.innerHTML = tl;
+        // console.log(tl);
+        console.log("tl");
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            demo_control.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+    }
 })

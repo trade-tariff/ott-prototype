@@ -43,7 +43,6 @@ class RooMvp {
                 this.partners = "";
             } else {
                 this.partners = this.matching_schemes[0].countries.length > 1 ? ' one of the partner countries' : this.matching_schemes[0].country_descriptions;
-                // this.links = this.matching_schemes[0].links;
             }
             this.scheme_code = this.matching_schemes[0].scheme_code;
 
@@ -64,8 +63,16 @@ class RooMvp {
             this.fta_intro = md.render(this.fta_intro);
             this.fta_intro = this.govify(this.fta_intro);
 
+            // Get codes needed for CDS
+            this.codes = this.matching_schemes[0].proof_codes;
+            if (typeof this.codes !== 'undefined') {
+                this.show_codes = true
+            } else {
+                this.show_codes = false
+            }
+
             // Get proofs
-            this.proofs = this.matching_schemes[0].proofs;
+            this.proofs = this.matching_schemes[0].proofs.documents;
             var proof;
             if (typeof this.proofs !== 'undefined') {
                 this.proofs.forEach(proof => {

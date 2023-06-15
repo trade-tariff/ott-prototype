@@ -23,8 +23,33 @@ require('../classes/validator.js');
 // Tools landing page
 router.get(['/tools/', '/:scope_id/tools'], function (req, res) {
     var context = new Context(req);
-    res.render('tools/tools', {
+    res.render('tools/index', {
         'context': context
+    });
+});
+
+// Tools > reporting landing page
+router.get(['/tools/data', '/:scope_id/tools/data'], function (req, res) {
+    var context = new Context(req);
+    var downloads = [
+        {
+            "title": "Full commodity code tree",
+            "precis": "Lists all commodities, including chapters, headings, subheadings and their hierarchy.",
+            "last_updated": "05 May 2023",
+            "format": "CSV",
+            "size": "100 Mb"
+        },
+        {
+            "title": "Another one",
+            "precis": "Lists all commodities, including chapters, headings, subheadings and their hierarchy.",
+            "last_updated": "05 May 2023",
+            "format": "CSV",
+            "size": "100 Mb"
+        }
+    ]
+    res.render('tools/data', {
+        'context': context,
+        'downloads': downloads
     });
 });
 
@@ -169,8 +194,28 @@ router.get(['/tools/chemicals/', '/:scope_id/tools/chemicals'], function (req, r
 // Exchange rates
 router.get(['/tools/exchange_rates/', '/:scope_id/tools/exchange_rates'], function (req, res) {
     var context = new Context(req);
-    res.render('tools/exchange_rates', {
+    res.render('tools/exchange_rates/exchange_rates', {
         'context': context
+    });
+});
+
+// Exchange rates XML
+router.get(['/tools/exchange_rates/exchange_rates_xml', '/:scope_id/tools/exchange_rates/exchange_rates_xml'], function (req, res) {
+    var context = new Context(req);
+    var months = ["June", "May", "April", "March", "February", "January"]
+    res.render('tools/exchange_rates/exchange_rates_xml', {
+        'context': context,
+        'months': months
+    });
+});
+
+// Exchange rates XML
+router.get(['/tools/exchange_rates/exchange_rates_xml2', '/:scope_id/tools/exchange_rates/exchange_rates_xml2'], function (req, res) {
+    var context = new Context(req);
+    var months = ["June", "May", "April", "March", "February", "January"]
+    res.render('tools/exchange_rates/exchange_rates_xml2', {
+        'context': context,
+        'months': months
     });
 });
 

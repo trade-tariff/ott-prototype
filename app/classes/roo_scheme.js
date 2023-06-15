@@ -19,7 +19,8 @@ class RooScheme {
     get_scheme_data_from_config() {
         this.scheme_code = this.scheme["scheme_code"]
         this.title = this.scheme["title"]
-        this.proofs_source = this.scheme["proofs"]
+        // this.proofs_source = this.scheme["proofs"]["documents"]
+        this.proofs_source = this.scheme["proof_codes"]
         this.cumulation_methods = this.scheme["cumulation_methods"]
         this.ord = this.scheme["ord"]
         this.articles = this.scheme["articles"]
@@ -64,12 +65,13 @@ class RooScheme {
         var jp = require('jsonpath')
         var data = require('../data/roo/uk/roo_schemes_uk.json');
         data = data['schemes']
+        this.scheme_code = "dcts-ldcs"
         var query_string = "$[?(@.scheme_code == '" + this.scheme_code + "')]"
         var my_schemes = jp.query(data, query_string)
         my_schemes.forEach(scheme => {
             this.proofs_source = scheme["proofs"]
+            // this.proofs_source = scheme["proof_codes"]
         });
-        
     }
 
     get_proofs_from_local_config() {
@@ -78,6 +80,7 @@ class RooScheme {
         }
         // Gets proofs from local config and MD files
         this.proofs = []
+
         this.proofs_source.forEach(proof_obj => {
             var proof = new RooProof(proof_obj, this.scheme_code)
             this.proofs.push(proof)

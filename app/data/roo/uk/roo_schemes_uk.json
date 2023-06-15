@@ -386,11 +386,15 @@
                 {
                     "summary": "Importer's knowledge",
                     "subtext": "",
-                    "subtexts": "",
                     "proof_class": "importers-knowledge",
                     "detail": ""
                 }
             ],
+            "proof_codes": {
+                "DE 2/3": "You must include one of the following document codes, as appropriate:\n\n- **U110** - if the claim is based on a 'declaration of origin' for a single shipment\n\n- **U111** - if the claim is based on a 'declaration of origin' for multiple shipments of identical products to cover a 12-month period\n\n- **U112** - if the claim is based on importers knowledge, using status code JP\n\nCodes **U110** and **U111** must be declared with one of the following [document status codes (opens in new window)](https://www.gov.uk/guidance/data-element-23-document-status-codes-of-the-customs-declaration-service-cds): AE, AF, AG, AP, AS, AT, GE, GP, HP, JE, JP, LE, LP, UA, UE, UP, US, XB.",
+                "DE 4/17": "The data element must include a preference code in the 300 series.",
+                "DE 5/16": "The data element must be completed with the country of preferential origin."
+            },
             "cumulation_methods": {
                 "bilateral": {
                     "countries": [
@@ -1988,7 +1992,7 @@
                 "ord_title": "Origin Reference Document implementing the Agreement between the United Kingdom of Great Britain and Northern Ireland, Iceland and the Kingdom of Norway on Trade in Goods, dated 8th December 2020 ('the Iceland Origin Reference Document')",
                 "ord_version": "1.1",
                 "ord_date": "28 December 2021",
-                "ord_original": "211202_Iceland_ORD_V1.1__2_.odt"
+                "ord_original": "050822_Iceland_Norway_ORD.odt"
             },
             "articles": {
                 "article 1": "definitions",
@@ -3081,7 +3085,7 @@
         },
         {
             "scheme_code": "new-zealand",
-            "validity_start_date": "2023-05-01",
+            "validity_start_date": "2023-05-31",
             "validity_end_date": null,
             "title": "Free Trade Agreement between the United Kingdom of Great Britain and Northern Ireland and New Zealand",
             "proofs": [
@@ -3094,11 +3098,15 @@
                 {
                     "summary": "Importer's knowledge",
                     "subtext": "",
-                    "subtexts": "",
                     "proof_class": "importers-knowledge",
                     "detail": ""
                 }
             ],
+            "proof_codes": {
+                "DE 2/3": "You must include one of the following document codes, as appropriate:\n\n- **U110** - if the claim is based on a 'declaration of origin' for a single shipment\n\n- **U111** - if the claim is based on a 'declaration of origin' for multiple shipments of identical products to cover a 12-month period\n\n- **U112** - if the claim is based on importers knowledge, using status code JP\n\nCodes **U110** and **U111** must be declared with one of the following [document status codes (opens in new window)](https://www.gov.uk/guidance/data-element-23-document-status-codes-of-the-customs-declaration-service-cds): AE, AF, AG, AP, AS, AT, GE, GP, HP, JE, JP, LE, LP, UA, UE, UP, US, XB.",
+                "DE 4/17": "The data element must include a preference code in the 300 series.",
+                "DE 5/16": "The data element must be completed with the country of preferential origin."
+            },
             "cumulation_methods": {
                 "bilateral": {
                     "countries": [
@@ -4784,11 +4792,11 @@
         {
             "scheme_code": "gsp",
             "validity_start_date": "2021-01-01",
-            "validity_end_date": "2021-04-20",
+            "validity_end_date": "2023-06-18",
             "title": "Generalised Scheme of Preferences (GSP)",
             "proofs": [
                 {
-                    "summary": "Generalised Scheme of Preferences form A",
+                    "summary": "Generalised Scheme of Preferences Form A",
                     "subtext": "",
                     "proof_class": "gsp-form-a",
                     "detail": ""
@@ -4984,7 +4992,7 @@
                 "SS",
                 "ST",
                 "SY",
-                "TD",
+                "xTD",
                 "TG",
                 "TJ",
                 "TL",
@@ -4996,6 +5004,380 @@
                 "VU",
                 "YE",
                 "ZM"
+            ]
+        },
+        {
+            "scheme_code": "dcts-ldcs",
+            "validity_start_date": "2023-06-19",
+            "validity_end_date": null,
+            "title": "Developing Countries Trading Scheme (DCTS)",
+            "proofs": [
+                {
+                    "summary": "Generalised Scheme of Preferences Form A",
+                    "subtext": "",
+                    "proof_class": "gsp-form-a",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "",
+                    "proof_class": "origin-declaration",
+                    "detail": ""
+                }
+            ],
+            "proof_codes": {
+                "DE 2/3": "You must include one of the following document codes, as appropriate:\n\n- **9001** (origin declaration)\n\n- **N865** (Form A)",
+                "DE 4/17": "The data element must include a preference code in the 200 series."
+            },
+            "cumulation_methods": {
+                "bilateral": {
+                    "countries": [
+                        "GB",
+                        "AF",
+                        "AO",
+                        "BD",
+                        "BF",
+                        "BI",
+                        "BJ",
+                        "BO",
+                        "BT",
+                        "CD",
+                        "CF",
+                        "CG",
+                        "CK",
+                        "CV",
+                        "DJ",
+                        "ER",
+                        "ET",
+                        "FM",
+                        "GM",
+                        "GN",
+                        "GW",
+                        "HT",
+                        "ID",
+                        "IN",
+                        "KE",
+                        "KG",
+                        "KH",
+                        "KI",
+                        "KM",
+                        "LA",
+                        "LK",
+                        "LR",
+                        "LS",
+                        "MG",
+                        "ML",
+                        "MM",
+                        "MN",
+                        "MR",
+                        "MW",
+                        "MZ",
+                        "NE",
+                        "NG",
+                        "NP",
+                        "NU",
+                        "PH",
+                        "PK",
+                        "RW",
+                        "SB",
+                        "SD",
+                        "SL",
+                        "SN",
+                        "SO",
+                        "SS",
+                        "ST",
+                        "SY",
+                        "TD",
+                        "TG",
+                        "TJ",
+                        "TL",
+                        "TV",
+                        "TZ",
+                        "UG",
+                        "UZ",
+                        "VN",
+                        "VU",
+                        "YE",
+                        "ZM"
+                    ]
+                },
+                "extended": {
+                    "countries": [
+                        "EU",
+                        "AD",
+                        "SM",
+                        "NO",
+                        "IS",
+                        "CH",
+                        "LI"
+                    ]
+                }
+            },
+            "ord": {
+                "ord_title": "The Customs (Origin of Chargeable Goods: Developing Countries Trading Scheme) Regulations 2023",
+                "ord_version": "2023 No. 557",
+                "ord_date": "19 June 2023",
+                "ord_original": "uksi_20230557_en.pdf"
+            },
+            "articles": {
+                "article 1": "definitions",
+                "article 2": "general requirements",
+                "article 3": "wholly obtained",
+                "article 4": "sufficient working",
+                "article 5": "tolerances",
+                "article 6": "insufficient working",
+                "article 7": "cumulation",
+                "article 8": "cumulation - conditions",
+                "article 9": "unit of qualification",
+                "article 10": "sets",
+                "article 11": "neutral elements",
+                "article 12": "accounting segregation",
+                "article 13": "principle of territoriality",
+                "article 14": "non-alteration",
+                "Annex II": "sufficient working"
+            },
+            "features": {
+                "absorption": true,
+                "tolerances": false,
+                "sets": true,
+                "cumulation": true,
+                "drawback": true
+            },
+            "footnote": "",
+            "introductory_notes_file": "dcts-ldcs_intro.md",
+            "fta_intro_file": "dcts-ldcs.md",
+            "unilateral": true,
+            "links": [
+                {
+                    "text": "What is DCTS and why is it important for international trade?",
+                    "url": "/news/stories/what-is-dcts-and-why-is-it-important-for-international-trade"
+                },
+                {
+                    "text": "Developing Countries Trading Scheme (DCTS) - policy report",
+                    "url": "https://www.gov.uk/government/publications/developing-countries-trading-scheme-dcts-new-policy-report"
+                }
+            ],
+            "countries": [
+                "AF",
+                "AO",
+                "BD",
+                "BJ",
+                "BT",
+                "BF",
+                "BI",
+                "KH",
+                "CF",
+                "TD",
+                "KM",
+                "CD",
+                "DJ",
+                "ER",
+                "ET",
+                "GM",
+                "GN",
+                "GW",
+                "HT",
+                "KI",
+                "LA",
+                "LS",
+                "LR",
+                "MG",
+                "MW",
+                "ML",
+                "MR",
+                "MZ",
+                "MM",
+                "NP",
+                "NE",
+                "RW",
+                "ST",
+                "SN",
+                "SL",
+                "SB",
+                "SO",
+                "SS",
+                "SD",
+                "TL",
+                "TG",
+                "TV",
+                "UG",
+                "TZ",
+                "YE",
+                "ZM"
+            ]
+        },
+        {
+            "scheme_code": "dcts-general-enhanced",
+            "validity_start_date": "2023-06-19",
+            "validity_end_date": null,
+            "title": "Developing Countries Trading Scheme (DCTS)",
+            "proofs": [
+                {
+                    "summary": "Generalised Scheme of Preferences Form A",
+                    "subtext": "",
+                    "proof_class": "gsp-form-a",
+                    "detail": ""
+                },
+                {
+                    "summary": "Origin declaration",
+                    "subtext": "",
+                    "proof_class": "origin-declaration",
+                    "detail": ""
+                }
+            ],
+            "proof_codes": {
+                "DE 2/3": "You must include one of the following document codes, as appropriate:\n\n- **9001** (origin declaration)\n\n- **N865** (Form A)",
+                "DE 4/17": "The data element must include a preference code in the 200 series."
+            },
+            "cumulation_methods": {
+                "bilateral": {
+                    "countries": [
+                        "GB",
+                        "AF",
+                        "AO",
+                        "BD",
+                        "BF",
+                        "BI",
+                        "BJ",
+                        "BO",
+                        "BT",
+                        "CD",
+                        "CF",
+                        "CG",
+                        "CK",
+                        "CV",
+                        "DJ",
+                        "ER",
+                        "ET",
+                        "FM",
+                        "GM",
+                        "GN",
+                        "GW",
+                        "HT",
+                        "ID",
+                        "IN",
+                        "KE",
+                        "KG",
+                        "KH",
+                        "KI",
+                        "KM",
+                        "LA",
+                        "LK",
+                        "LR",
+                        "LS",
+                        "MG",
+                        "ML",
+                        "MM",
+                        "MN",
+                        "MR",
+                        "MW",
+                        "MZ",
+                        "NE",
+                        "NG",
+                        "NP",
+                        "NU",
+                        "PH",
+                        "PK",
+                        "RW",
+                        "SB",
+                        "SD",
+                        "SL",
+                        "SN",
+                        "SO",
+                        "SS",
+                        "ST",
+                        "SY",
+                        "TD",
+                        "TG",
+                        "TJ",
+                        "TL",
+                        "TV",
+                        "TZ",
+                        "UG",
+                        "UZ",
+                        "VN",
+                        "VU",
+                        "YE",
+                        "ZM"
+                    ]
+                },
+                "extended": {
+                    "countries": [
+                        "EU",
+                        "AD",
+                        "SM",
+                        "NO",
+                        "IS",
+                        "CH",
+                        "LI"
+                    ]
+                }
+            },
+            "ord": {
+                "ord_title": "The Customs (Origin of Chargeable Goods: Developing Countries Trading Scheme) Regulations 2023",
+                "ord_version": "2023 No. 557",
+                "ord_date": "19 June 2023",
+                "ord_original": "uksi_20230557_en.pdf"
+            },
+            "articles": {
+                "article 1": "definitions",
+                "article 2": "general requirements",
+                "article 3": "wholly obtained",
+                "article 4": "sufficient working",
+                "article 5": "tolerances",
+                "article 6": "insufficient working",
+                "article 7": "cumulation",
+                "article 8": "cumulation - conditions",
+                "article 9": "unit of qualification",
+                "article 10": "sets",
+                "article 11": "neutral elements",
+                "article 12": "accounting segregation",
+                "article 13": "principle of territoriality",
+                "article 14": "non-alteration",
+                "Annex II": "sufficient working"
+            },
+            "features": {
+                "absorption": true,
+                "tolerances": false,
+                "sets": true,
+                "cumulation": true,
+                "drawback": true
+            },
+            "footnote": "Scheme incorporates:</p><ul class='govuk-list govuk-list--bullet govuk-body-s'><li>the GSP Least Developed Countries Framework</li><li>the GSP General Framework</li><li>the GSP Enhanced Framework</li></ul>",
+            "introductory_notes_file": "dcts-general-enhanced_intro.md",
+            "fta_intro_file": "dcts-general-enhanced.md",
+            "unilateral": true,
+            "links": [
+                {
+                    "text": "What is DCTS and why is it important for international trade?",
+                    "url": "/news/stories/what-is-dcts-and-why-is-it-important-for-international-trade"
+                },
+                {
+                    "text": "Developing Countries Trading Scheme (DCTS) - policy report",
+                    "url": "https://www.gov.uk/government/publications/developing-countries-trading-scheme-dcts-new-policy-report"
+                }
+            ],
+            "countries": [
+                "DZ",
+                "CG",
+                "CK",
+                "IN",
+                "ID",
+                "FM",
+                "NG",
+                "NU",
+                "WS",
+                "SY",
+                "TJ",
+                "VN",
+                "BO",
+                "CV",
+                "KG",
+                "MN",
+                "PK",
+                "PH",
+                "LK",
+                "UZ"
             ]
         }
     ],
