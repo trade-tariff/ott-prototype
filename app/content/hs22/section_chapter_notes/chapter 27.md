@@ -63,7 +63,7 @@
 
         The term 'viscosity V' means the 'kinematic viscosity' at 50°C expressed in 10-6 m<sup>2</sup> s-1 by the EN ISO 3104 method.
         
-        The term ‘diluted colour C’ means the colour of a product, as determined by the ISO 2049 method (equivalent to the ASTM D 1 500 method), after one part of the product has been made up to 100 parts by volume with xylene, toluene or another suitable solvent. The colour must be determined immediately after dilution.
+        The term 'diluted colour C' means the colour of a product, as determined by the ISO 2049 method (equivalent to the ASTM D 1 500 method), after one part of the product has been made up to 100 parts by volume with xylene, toluene or another suitable solvent. The colour must be determined immediately after dilution.
         
         The term “bio-components” means animal or vegetable fats, animal or vegetable oils, or mono-alkyl esters of fatty acids (FAMAE).
         

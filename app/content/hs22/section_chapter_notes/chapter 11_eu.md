@@ -33,19 +33,19 @@
 
 3. For the purposes of heading [1103](/headings/1103), the terms 'groats' and 'meal' mean products obtained by the fragmentation of cereal grains, of which:
 
- - a. in the case of maize (corn) products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2mm;
- - b. in the case of other cereal products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 1.25mm.
+   - a. in the case of maize (corn) products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2mm;
+   - b. in the case of other cereal products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 1.25mm.
 
 ### Additional chapter notes
 
 1. The duty-rate applicable to mixtures of this chapter shall be as follows:
 
- - (a) in mixtures where one of the components represents at least 90 % by weight, the rate applicable to that component applies;
+   - (a) in mixtures where one of the components represents at least 90 % by weight, the rate applicable to that component applies;
 
- - (b) in other mixtures, the rate applicable shall be that of the component which results in the highest amount of import duty.
+   - (b) in other mixtures, the rate applicable shall be that of the component which results in the highest amount of import duty.
 
 2. For the purposes of heading [1106](/headings/1106), the terms 'flour', 'meal', and 'powder' mean products (other than shredded desiccated coconut), obtained by milling or some other fragmentation process from dried leguminous vegetables of heading [0713](/headings/0713), from sago or roots or tubers of heading [0714](/headings/0714) or from products of Chapter [8](/chapters/08), of which:
 
- - a. in the case of dried leguminous vegetables, sago, roots, tubers and products of Chapter [8](/chapters/08) (excluding nuts of heading [0801](/headings/0801) and [0802](/headings/0802)), at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2 mm;
+   - a. in the case of dried leguminous vegetables, sago, roots, tubers and products of Chapter [8](/chapters/08) (excluding nuts of heading [0801](/headings/0801) and [0802](/headings/0802)), at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2 mm;
 
- - b. in the case of nuts of heading [0801](/headings/0801) and [0802](/headings/0802) at least 50% by weight passes through a woven metal wire cloth sieve with an aperture of 2.5 mm.
+   - b. in the case of nuts of heading [0801](/headings/0801) and [0802](/headings/0802) at least 50% by weight passes through a woven metal wire cloth sieve with an aperture of 2.5 mm.

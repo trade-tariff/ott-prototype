@@ -52,7 +52,7 @@
 
     c. by the automatic transfer of the workpiece to different unit heads (multi-station transfer machines).
 
-5. For the purposes of heading [8462](/headings/8462), a ‘slitting line’ for flat products is a processing line composed of an uncoiler, a coil flattener, a slitter and a recoiler. A ‘cut-to-length line’ for flat products is a processing line composed of an uncoiler, a coil flattener, and a shear.
+5. For the purposes of heading [8462](/headings/8462), a 'slitting line' for flat products is a processing line composed of an uncoiler, a coil flattener, a slitter and a recoiler. A 'cut-to-length line' for flat products is a processing line composed of an uncoiler, a coil flattener, and a shear.
 
 6. (A) For the purposes of heading [8471](/headings/8471), the expression 'automatic data-processing machines' means machines, capable of
 
@@ -101,7 +101,7 @@
 
     Subject to note 2 to this chapter and note 3 to Section XVI, a machine the principal purpose of which is not described in any heading or for which no one purpose is the principal purpose is, unless the context otherwise requires, to be classified in heading [8479](/headings/8479). Heading [8479](/headings/8479) also covers machines for making rope or cable (for example, stranding, twisting or cabling machines) from metal wire, textile yarn or any other material or from a combination of such materials.
 
-9. For the purposes of heading [8470](/headings/8470), the term ‘pocket-size’ applies only to machines the dimensions of which do not exceed 170 mm x 100 mm x 45 mm.
+9. For the purposes of heading [8470](/headings/8470), the term 'pocket-size' applies only to machines the dimensions of which do not exceed 170 mm x 100 mm x 45 mm.
 
 10. For the purposes of heading [8485](/headings/8485), the expression “additive manufacturing” (also referred to as 3D printing) means the formation of physical objects, based on a digital model, by the successive addition and layering, and consolidation and solidification, of material (for example, metal, plastics or ceramics). 
 
@@ -125,7 +125,7 @@
 
 1. For the purposes of subheading [8465 20](/commodities/8465200000), the term “machining centres” applies only to machine-tools for working wood, cork, bone, hard rubber, hard plastics or similar hard materials, which can carry out different types of machining operations by automatic tool change from a magazine or the like in conformity with a machining programme.
 
-2. For the purposes of subheading [8471 49](/commodities/8471490000), the term ‘systems’ means automatic data-processing machines whose units satisfy the conditions laid down in note 6(C) to Chapter [84](/chapters/84) and which comprise at least a central processing unit, one input unit (for example, a keyboard or a scanner), and one output unit (for example, a visual display unit or a printer).
+2. For the purposes of subheading [8471 49](/commodities/8471490000), the term 'systems' means automatic data-processing machines whose units satisfy the conditions laid down in note 6(C) to Chapter [84](/chapters/84) and which comprise at least a central processing unit, one input unit (for example, a keyboard or a scanner), and one output unit (for example, a visual display unit or a printer).
 
 3. For the purposes of subheading [8481 20](/subheadings/8481200000-80), the expression “valves for oleohydraulic or pneumatic transmissions” means valves which are used specifically in the transmission of “fluid power” in a hydraulic or pneumatic system, where the energy source is supplied in the form of pressurised fluids (liquid or gas).
 
@@ -139,4 +139,4 @@
 
 2. Subheading [8471 70 30](/commodities/8471703000) shall also apply to CD-ROM drives, being storage units for automatic data processing machines, which consist of drive units designed for retrieving the signals from CD-ROMs, audio CDs and photo CDs and equipped with a jack for earphones, a volume-control button or a start/stop button.
 
-3. Code [8472 90 80](/commodities/8472908000) includes apparatus consisting of a bank note validator and cash boxes (so called ‘note float unit’). The bank note validator uses optical scanning technology to check the authenticity of bank notes according to predefined specifications. In addition to checking the authenticity of bank notes, it also carries out other functions such as sorting and distributing bank notes between different storage boxes and dispensing bank notes.
+3. Code [8472 90 80](/commodities/8472908000) includes apparatus consisting of a bank note validator and cash boxes (so called 'note float unit'). The bank note validator uses optical scanning technology to check the authenticity of bank notes according to predefined specifications. In addition to checking the authenticity of bank notes, it also carries out other functions such as sorting and distributing bank notes between different storage boxes and dispensing bank notes.

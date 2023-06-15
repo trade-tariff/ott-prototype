@@ -8,7 +8,7 @@
 
    - (d) caviar or caviar substitutes prepared from fish eggs (heading [1604](/headings/1604)).
 
-2. In this chapter, the term ‘pellets’ means products which have been agglomerated either directly by compression or by the addition of a small quantity of binder.
+2. In this chapter, the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a small quantity of binder.
 
 3. Headings [0305](/headings/0305) to [0308](/headings/0308) do not cover flours, meals and pellets, fit for human consumption (heading [0309](/headings/0309))
 
@@ -18,7 +18,7 @@
 
    However, frozen cod fillets which have a total salt content by weight of less than 12% are to be classified under subheadings [0304 71 10](/subheadings/0304711000-80) and [0304 71 90](/subheadings/0304719000-80), in so far as the actual and lasting preservation depends essentially upon freezing.
 
-2. For the purposes of the subheadings referred to in the third paragraph, the term ‘fillets’ includes ‘loins’, i.e. the strips of meat constituting the upper or lower, right or left, side of a fish insofar as the head, guts, fins (dorsal, anal, caudal, ventral, pectoral) and bones (spinal column or main backbone, ventral or costal bones, branchial bone or stapes, etc.) have been removed. 
+2. For the purposes of the subheadings referred to in the third paragraph, the term 'fillets' includes 'loins', i.e. the strips of meat constituting the upper or lower, right or left, side of a fish insofar as the head, guts, fins (dorsal, anal, caudal, ventral, pectoral) and bones (spinal column or main backbone, ventral or costal bones, branchial bone or stapes, etc.) have been removed.
 
    The classification of such products as fillets is unaffected by cutting them into pieces, provided that these pieces can be identified as having been obtained from fillets.
 

@@ -123,7 +123,7 @@
     | 300           | 824                                    |
     | 400           | 961                                    |
 
-2. For the purposes of subheading [4804](/headings/4804).21 and [4804](/headings/4804).29, ‘sack kraft paper’ means machine-finished paper, of which not less than 80% by weight of the total fibre content consists of fibres obtained by the chemical sulphate or soda processes, in rolls, weighing not less than 60 g/m<sup>2</sup> but not more than 115 g/m<sup>2</sup> and meeting one of the following sets of specifications:
+2. For the purposes of subheading [4804](/headings/4804).21 and [4804](/headings/4804).29, 'sack kraft paper' means machine-finished paper, of which not less than 80% by weight of the total fibre content consists of fibres obtained by the chemical sulphate or soda processes, in rolls, weighing not less than 60 g/m<sup>2</sup> but not more than 115 g/m<sup>2</sup> and meeting one of the following sets of specifications:
 
     (a) having a Mullen burst index of not less than 3.7kPa.m<sup>2</sup>/g and a stretch factor of more than 4.5% in the cross direction and of more than 2% in the machine direction;
     

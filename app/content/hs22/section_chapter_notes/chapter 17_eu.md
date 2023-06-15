@@ -14,7 +14,6 @@
 
 1. For the purpose of subheadings [1701 12 10](/commodities/1701121000), [1701 12 90](/commodities/1701129000), [1701 13 10](/commodities/1701131000), [1701 13 90](/commodities/1701139000), [1701 14 10](/commodities/1701141000) and [1701 14 90](/commodities/1701149000) 'raw sugar' means sugar, not flavoured or coloured or containing any other added substances, containing, in the dry state, less than 99.5% by weight of sucrose determined by the polarimetric method.
 
-
 2. The duty applicable to raw sugar of subheadings [1701 12 10](/commodities/1701121000), [1701 13 10](/commodities/1701131000) and [1701 14 10](/commodities/1701141000) whose yield established according to part B(III) of Annex III to Regulation (EU) No 1308/2013 of the European Parliament and of the Council (OJ L 347, 20.12.2013, p. 671) differs from 92 % is fixed in the following manner:
 
     the relevant rate is multiplied by a correcting coefficient obtained by dividing the percentage yield established according to the above provisions by 92.

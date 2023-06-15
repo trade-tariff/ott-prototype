@@ -12,7 +12,7 @@
 
 2. Headings [8501](/headings/8501) to [8504](/headings/8504) do not apply to goods described in heading [8511](/headings/8511), [8512](/headings/8512), [8540](/headings/8540), [8541](/headings/8541) or [8542](/headings/8542). However, metal tank mercury arc rectifiers remain classified in heading [8504](/headings/8504).
 
-3. For the purposes of heading [8507](/headings/8507), the expression ‘electric accumulators’ includes those presented with ancillary components which contribute to the accumulator’s function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (e.g., thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used.
+3. For the purposes of heading [8507](/headings/8507), the expression 'electric accumulators' includes those presented with ancillary components which contribute to the accumulator's function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (e.g., thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used.
 
 4. Heading [8509](/headings/8509) covers only the following electromechanical machines of the kind commonly used for domestic purposes:
 
@@ -88,18 +88,18 @@
 
         For the purpose of this definition:
 
-        - (1) ‘Components’ may be discrete, manufactured independently then assembled onto the rest of the MCO, or integrated into other components.
+        - (1) 'Components' may be discrete, manufactured independently then assembled onto the rest of the MCO, or integrated into other components.
 
-        - (2) ‘Silicon based’ means built on a silicon substrate, or made of silicon materials, or manufactured onto integrated circuit die.
+        - (2) 'Silicon based' means built on a silicon substrate, or made of silicon materials, or manufactured onto integrated circuit die.
 
         - (3)
-            (a) ‘Silicon based sensors’ consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical phenomena and transducing these into electric signals, caused by resulting variations in electric properties or displacement of a mechanical structure. ‘Physical or chemical phenomena relates to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.
+            (a) 'Silicon based sensors' consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical phenomena and transducing these into electric signals, caused by resulting variations in electric properties or displacement of a mechanical structure. 'Physical or chemical phenomena relates to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.
 
             (b) 'Silicon based actuators” consist of microelectronic and mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of converting electrical signals into physical movement.
 
-            (c) ‘Silicon based resonators’ are components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.
+            (c) 'Silicon based resonators' are components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.
 
-            (d) ‘Silicon based oscillators’ are active components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.
+            (d) 'Silicon based oscillators' are active components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.
 
     For the classification of the articles defined in this note, heading [8541](/headings/8541) and [8542](/headings/8542) shall take precedence over any other heading in the nomenclature, except in the case of heading [8523](/headings/8523), which might cover them by reference to, in particular, their function.
 

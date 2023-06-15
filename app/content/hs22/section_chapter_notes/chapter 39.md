@@ -1,6 +1,6 @@
-1. Throughout the classification, the expression ‘plastics’ means those materials of heading [3901](/headings/3901) to [3914](/headings/3914) which are or have been capable, either at the moment of polymerisation or at some subsequent stage, of being formed under external influence (usually heat and pressure, if necessary, with a solvent or plasticiser) by moulding, casting, extruding, rolling or other process into shapes which are retained on the removal of the external influence.
+1. Throughout the classification, the expression 'plastics' means those materials of heading [3901](/headings/3901) to [3914](/headings/3914) which are or have been capable, either at the moment of polymerisation or at some subsequent stage, of being formed under external influence (usually heat and pressure, if necessary, with a solvent or plasticiser) by moulding, casting, extruding, rolling or other process into shapes which are retained on the removal of the external influence.
 
-    Throughout the classification, any reference to ‘plastics’ also includes vulcanised fibre. The expression, however, does not apply to materials regarded as textile materials of Section XI.
+    Throughout the classification, any reference to 'plastics' also includes vulcanised fibre. The expression, however, does not apply to materials regarded as textile materials of Section XI.
 
 2. This chapter does not cover:
 
@@ -66,7 +66,7 @@
 
     (e) resols (heading [3909](/headings/3909)) and other prepolymers.
 
-4. The expression ‘copolymers’ covers all polymers in which no single monomer unit contributes 95 % or more by weight to the total polymer content.
+4. The expression 'copolymers' covers all polymers in which no single monomer unit contributes 95 % or more by weight to the total polymer content.
 
     For the purposes of this chapter, except where the context otherwise requires, copolymers (including copolycondensates, co- polyaddition products, block copolymers and graft copolymers) and polymer blends are to be classified in the heading covering polymers of that comonomer unit which predominates by weight over every other single comonomer unit. For the purposes of this note, constituent comonomer units of polymers falling in the same heading shall be taken together.
 
@@ -76,7 +76,7 @@
 
     This provision does not apply to graft copolymers.
 
-6. In heading [3901](/headings/3901) to [3914](/headings/3914), the expression ‘primary forms’ applies only to the following forms:
+6. In heading [3901](/headings/3901) to [3914](/headings/3914), the expression 'primary forms' applies only to the following forms:
 
     (a) liquids and pastes, including dispersions (emulsions and suspensions) and solutions;
 
@@ -84,13 +84,13 @@
 
 7. Heading [3915](/headings/3915) does not apply to waste, parings and scrap of a single thermoplastic material, transformed into primary forms (heading [3901](/headings/3901) to [3914](/headings/3914)).
 
-8. For the purposes of heading [3917](/headings/3917), the expression ‘tubes, pipes and hoses’ means hollow products, whether semi-manufactured or finished products, of a kind generally used for conveying, conducting or distributing gases or liquids (for example, ribbed garden hose, perforated tubes). 
+8. For the purposes of heading [3917](/headings/3917), the expression 'tubes, pipes and hoses' means hollow products, whether semi-manufactured or finished products, of a kind generally used for conveying, conducting or distributing gases or liquids (for example, ribbed garden hose, perforated tubes).
 
     This expression also includes sausage casings and other lay-flat tubing. However, except for the last mentioned, those having an internal cross section other than round, oval, rectangular (in which the length does not exceed one-and-a-half times the width) or in the shape of a regular polygon are not to be regarded as tubes, pipes and hoses but as profile shapes.
 
-9. For the purposes of heading [3918](/headings/3918), the expression ‘wall or ceiling coverings of plastics’ applies to products in rolls, of a width not less than 45 cm, suitable for wall or ceiling decoration, consisting of plastics fixed permanently on a backing of any material other than paper, the layer of plastics (on the face side) being grained, embossed, coloured, design-printed or otherwise decorated.
+9. For the purposes of heading [3918](/headings/3918), the expression 'wall or ceiling coverings of plastics' applies to products in rolls, of a width not less than 45 cm, suitable for wall or ceiling decoration, consisting of plastics fixed permanently on a backing of any material other than paper, the layer of plastics (on the face side) being grained, embossed, coloured, design-printed or otherwise decorated.
 
-10. In heading [3920](/headings/3920) and [3921](/headings/3921), the expression ‘plates, sheets, film, foil and strip’ applies only to plates, sheets, film, foil and strip (other than those of Chapter [54](/chapters/54)) and to blocks of regular geometric shape, whether or not printed or otherwise surface-worked, uncut or cut into rectangles (including squares) but not further worked (even if when so cut they become articles ready for use).
+10. In heading [3920](/headings/3920) and [3921](/headings/3921), the expression 'plates, sheets, film, foil and strip' applies only to plates, sheets, film, foil and strip (other than those of Chapter [54](/chapters/54)) and to blocks of regular geometric shape, whether or not printed or otherwise surface-worked, uncut or cut into rectangles (including squares) but not further worked (even if when so cut they become articles ready for use).
 
 11. Heading [3925](/headings/3925) applies only to the following articles, not being products covered by any of the earlier headings of sub-chapter II:
     (a) reservoirs, tanks (including septic tanks), vats and similar containers, of a capacity exceeding 300 litres;
@@ -114,17 +114,17 @@
 ### Subheading notes
 1. Within any one heading of this chapter, polymers (including copolymers) and chemically modified polymers are to be classified according to the following provisions:
 
-    (a) where there is a subheading named ‘Other’ in the same series:
+    (a) where there is a subheading named 'Other' in the same series:
 
-    (1) the designation in a subheading of a polymer by the prefix ‘poly’ (for example, polyethylene and polyamide-6,6) means that the constituent monomer unit or monomer units of the named polymer taken together must contribute 95 % or more by weight of the total polymer content;
+    (1) the designation in a subheading of a polymer by the prefix 'poly' (for example, polyethylene and polyamide-6,6) means that the constituent monomer unit or monomer units of the named polymer taken together must contribute 95 % or more by weight of the total polymer content;
 
     (2) the copolymers named in subheadings [3901 30](/subheadings/3901300000-80), [3901 40](/subheadings/3901400000-80), [3903 20](/commodities/3903200000), [3903 30](/commodities/3903300000) and [3904 30](/subheadings/3904300000-80) are to be classified in those subheadings, provided that the comonomer units of the named copolymers contribute 95 % or more by weight of the total polymer content;
 
-    (3) chemically modified polymers are to be classified in the subheading named ‘Other’, provided that the chemically modified polymers are not more specifically covered by another subheading;
+    (3) chemically modified polymers are to be classified in the subheading named 'Other', provided that the chemically modified polymers are not more specifically covered by another subheading;
 
     (4) polymers not meeting (1), (2) or (3) above, are to be classified in the subheading, among the remaining subheadings in the series, covering polymers of that monomer unit which predominates by weight over every other single comonomer unit. For this purpose, constituent monomer units of polymers falling in the same subheading shall be taken together. Only the constituent comonomer units of the polymers in the series of subheadings under consideration are to be compared;
 
-    (b) where there is no subheading named ‘Other’ in the same series:
+    (b) where there is no subheading named 'Other' in the same series:
 
     (1) polymers are to be classified in the subheading covering polymers of that monomer unit which predominates by weight over every other single comonomer unit. For this purpose, constituent monomer units of polymers falling in the same subheading shall be taken together. Only the constituent comonomer units of the polymers in the series under consideration are to be compared;
 
@@ -132,7 +132,7 @@
 
     Polymer blends are to be classified in the same subheading as polymers of the same monomer units in the same proportions.
 
-2. For the purposes of subheading [3920 43](/subheadings/3920430000-80), the term ‘plasticisers’ includes secondary plasticisers.
+2. For the purposes of subheading [3920 43](/subheadings/3920430000-80), the term 'plasticisers' includes secondary plasticisers.
 
 ### Additional chapter notes
 

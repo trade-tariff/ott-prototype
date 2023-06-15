@@ -18,7 +18,7 @@
 
 2. Extracts of the substitutes referred to in note 1 (b) are to be classified in heading [2101](/headings/2101).
 
-3. For the purposes of heading [2104](/headings/2104), the expression ‘homogenised composite food preparations’ means preparations consisting of a finely homogenised mixture of two or more basic ingredients such as meat, fish, vegetables, fruit or nuts, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g. For the application of this definition, no account is to be taken of small quantities of any ingredients which may be added to the mixture for seasoning, preservation or other purposes. Such preparations may contain a small quantity of visible pieces of ingredients.
+3. For the purposes of heading [2104](/headings/2104), the expression 'homogenised composite food preparations' means preparations consisting of a finely homogenised mixture of two or more basic ingredients such as meat, fish, vegetables, fruit or nuts, put up for retail sale as food suitable for infants or young children or for dietetic purposes, in containers of a net weight content not exceeding 250 g. For the application of this definition, no account is to be taken of small quantities of any ingredients which may be added to the mixture for seasoning, preservation or other purposes. Such preparations may contain a small quantity of visible pieces of ingredients.
 
 ### Additional chapter notes
 

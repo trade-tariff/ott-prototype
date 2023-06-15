@@ -92,7 +92,7 @@
 
     - a. wines with a protected designation of origin (PDO) and wines with a protected geographical indication (PGI) are wines which comply with the provisions of the UK equivalent of Articles 93 to 108 of Regulation (EU) No 1308/2013;
 
-    - b. ‘varietal wines’ are wines which comply with the provisions of the UK equivalent of Article 120 of Regulation (EU) No 1308/2013
+    - b. 'varietal wines' are wines which comply with the provisions of the UK equivalent of Article 120 of Regulation (EU) No 1308/2013
 
     - c. wines produced in the European Union are wines which comply with the provisions of the UK equivalent of Regulation (EU) No 1308/2013 and the provisions of the UK equivalent of Article 45 of Regulation (EU) 33/2019.
 

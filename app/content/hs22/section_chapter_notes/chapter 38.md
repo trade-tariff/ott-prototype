@@ -77,7 +77,7 @@
 
     Short-chain chlorinated paraffins are mixtures of compounds, with a chlorination degree of more than 48 % by weight, with the following molecular formula : CxH(2x-y+2)Cly, where x=10 - 13 and y= 1 – 13 
 
-4. For the purposes of subheadings [3825 41](/commodities/3825410000) and [3825 49](/commodities/3825490000), ‘waste organic solvents’ are wastes containing mainly organic solvents, not fit for further use as presented as primary products, whether or not intended for recovery of the solvents.
+4. For the purposes of subheadings [3825 41](/commodities/3825410000) and [3825 49](/commodities/3825490000), 'waste organic solvents' are wastes containing mainly organic solvents, not fit for further use as presented as primary products, whether or not intended for recovery of the solvents.
 
 # Additional chapter note
 
