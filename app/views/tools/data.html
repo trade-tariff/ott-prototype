@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+    {{ govukBreadcrumbs({
+        items: [
+            {
+                text: "Home",
+                href: "/sections/" + context.scope_id
+            },
+            {
+                text: "Tools",
+                href: "/tools"
+            },
+            {
+                text: "Data extracts",
+                href: ""
+            }
+        ]
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+  Trade Tariff: look up commodity codes, duty and VAT rates
+{% endblock %}
+
+{% block content %}
+    {% include "includes/language_selector.html" %}
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+            <span class="govuk-caption-xl">
+                {{ context.title }}
+                {% include "includes/scope_switcher_panel.html" %}
+            </span>
+            <h1 class="govuk-heading-l">Tariff data extracts</h1>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-three-quarters">
+            <p class="govuk-body-l">Use this page to download data extracts from the tariff</p>
+            <div class="downloads" data-module="govspeak">
+                {% for download in downloads %}
+                    <section class="attachment">
+                        <div class="attachment-thumb">
+                            <a aria-hidden="true" href="/public/downloads/uk trade tariff 2022 may be subject to amendment 23 12 2022.docx">
+                                <img alt="" src="/public/images/spreadsheet-30c06c889211a590721ff066bd55f53c.png">
+                            </a>
+                        </div>
+                        <div class="attachment-details">
+                            <h3 class="govuk-heading-s">
+                                <a href="/public/downloads/uk trade tariff 2022 may be subject to amendment 23 12 2022.docx">{{ download.title }}</a>
+                            </h3>
+                            <p>{{ download.precis }}</p>
+                            <p class="metadata govuk-body-s">
+                                Last updated: <span class="type">{{ download.last_updated }}</span><br>
+                                Format: <span class="type">{{ download.format }} ({{ download.size }})</span>
+                            </p>
+                        </div>
+                    </section>
+                {% endfor %}
+            </div>
+            {# <ul class="govuk-list tools_menu">
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/reporting">Full commodity code tree</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/reporting">Basic commodity code list with third country duties</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/reporting">Declarable commodities with third country duties and supplementary units</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/reporting">Geographical areas list</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/additonal_codes">Additional codes</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="b" href="{{ context.scope_id_slash }}tools/measure_types">Measure types</a>
+                    <br>Words go here ...
+                </li>
+            </ul> #}
+        </div>
+    </div>
+{% endblock %}

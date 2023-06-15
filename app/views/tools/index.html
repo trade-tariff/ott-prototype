@@ -35,43 +35,61 @@
 
             <ul class="govuk-list tools_menu">
                 <li>
-                    <a class="b" href="{{ context.scope_id_slash }}tools/unit_prices">Unit price rates (<abbr title="Simplified procedure value">SPV</abbr> rates)</a>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/exchange_rates/exchange_rates_xml">Exchange rates</a>
                     <br>Words go here ...
                 </li>
+                <!--<li>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/data">Data extracts</a>
+                    <br>Words go here ...
+                </li>
+                <li>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/unit_prices">Unit price rates (<abbr title="Simplified procedure value">SPV</abbr> rates)</a>
+                    <br>Words go here ...
+                </li>
+                //-->
+                <li>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/unit_prices">Check simplified procedure value rates for fresh fruit and vegetables</a>
+                    <br>Use simplified procedure value rates for fresh fruit and vegetable goods that you import.
+                </li>
+
+                 
+
+
+
                 {# <li>
                     <a href="{{ context.scope_id_slash }}tools/preferences">Preferences</a>
                     <br>Words go here ...
                 </li> #}
                 {% if context.scope_id != "xi" %}
                     <li>
-                        <a class="b" href="{{ context.scope_id_slash }}tools/quota_search">First come, first served quotas</a>
+                        <a class="xb" href="{{ context.scope_id_slash }}tools/quota_search">First come, first served quotas</a>
                         <br>Search for tariff quotas, including daily updated balances.
                     </li>
                     <li>
-                        <a class="b" href="{{ context.scope_id_slash }}tools/licenced_quotas">Licenced quotas</a>
+                        <a class="xb" href="{{ context.scope_id_slash }}tools/licenced_quotas">Licenced quotas</a>
                         <br>Search for tariff quotas, including daily updated balances.
                     </li>
                 {% endif %}
                 <li>
-                    <a class="b" href="{{ context.scope_id_slash }}tools/certificates">Certificates, licences and documents</a>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/certificates">Certificates, licences and documents</a>
                     <br>Search for certificates, licences and other document codes.
                 </li>
                 <li>
-                    <a class="b" href="{{ context.scope_id_slash }}tools/additional_codes">Additional codes</a>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/additional_codes">Additional codes</a>
                     <br>Search for additional codes. Additional codes are used on the tariff for a number of purposes
                     to help you to classify goods accurately on your customs declaration.
                 </li>
                 <li>
-                    <a class="b" href="{{ context.scope_id_slash }}tools/chemicals">Chemicals</a>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/chemicals">Chemicals</a>
                     <br>Search the tariff for chemicals by <abbr title="chemical abstracts service">CAS</abbr> Registry Number (RN)
                 </li>
                 <li>
-                    <a class="b" href="{{ context.scope_id_slash }}tools/footnotes">Footnotes</a>
+                    <a class="xb" href="{{ context.scope_id_slash }}tools/footnotes">Footnotes</a>
                     <br>Search for footnotes
                 </li>
                 {% if context.scope_id == "xi" %}
                     <li>
-                        <a class="b" href="{{ context.scope_id_slash }}meursing/">Meursing code finder</a>
+                        <a class="xb" href="{{ context.scope_id_slash }}meursing/">Meursing code finder</a>
                         <br>Find the Meursing code for your composite agrifood
                 </li>
                 {% endif %}
@@ -82,7 +100,7 @@
             </ul>
             {# {{ context.scope_id_slash }} #}
         </div>
-        <div class="govuk-grid-column-one-third">
+        {# <div class="govuk-grid-column-one-third">
         <h2 class="govuk-heading-m">Tariff data tools</h2>
         <ul class="govuk-list tools_menu">
             <li><a href="/tools/measure_types">Correlation of CDS measure types to tax codes</a></li>
@@ -90,6 +108,6 @@
             <li>etc.</li>
             <li>etc.</li>
         </ul>
-        </div>
+        </div> #}
     </div>
 {% endblock %}
