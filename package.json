@@ -23,7 +23,7 @@
     "client-sessions": "^0.8.0",
     "cookie-parser": "^1.4.6",
     "cross-spawn": "^7.0.2",
-    "csv": "^6.2.5",
+    "csv": "^6.3.1",
     "date-and-time": "^2.4.1",
     "dayjs": "^1.11.5",
     "del": "^6.0.0",

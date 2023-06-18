@@ -2,6 +2,7 @@ var nomar = require("nomar");
 var MarkdownIt = require('markdown-it');
 var _ = require('underscore');
 const e = require("express");
+const FileHandler = require('./classes/file_handler.js');
 
 require('./classes/global.js');
 
@@ -18,33 +19,33 @@ module.exports = function (env) {
     /* ------------------------------------------------------------------
       add your methods to the filters obj below this comment block:
       @example:
-  
+
       filters.sayHi = function(name) {
           return 'Hi ' + name + '!'
       }
-  
+
       Which in your templates would be used as:
-  
+
       {{ 'Paul' | sayHi }} => 'Hi Paul'
-  
+
       Notice the first argument of your filters method is whatever
       gets 'piped' via '|' to the filter.
-  
+
       Filters can take additional arguments, for example:
-  
+
       filters.sayHi = function(name,tone) {
         return (tone == 'formal' ? 'Greetings' : 'Hi') + ' ' + name + '!'
       }
-  
+
       Which would be used like this:
-  
+
       {{ 'Joel' | sayHi('formal') }} => 'Greetings Joel!'
       {{ 'Gemma' | sayHi }} => 'Hi Gemma!'
-  
+
       For more on filters and how to write them see the Nunjucks
       documentation.
-  
-    ------------------------------------------------------------------ */
+
+      ------------------------------------------------------------------ */
 
     filters.get_slice = function (str, start, lngth) {
         if (typeof str !== 'undefined') {
@@ -200,6 +201,17 @@ module.exports = function (env) {
         return s;
     }
 
+    filters.do_date = function (str, fmt) {
+        var s;
+        if (str == "") {
+            s = "";
+        } else {
+            str2 = str.slice(6, 10) + "-" + str.slice(3, 5) + "-" + str.slice(0, 2)
+            s = format_date(str2, fmt);
+        }
+        return s;
+    }
+
     filters.format_date = function (str, fmt) {
         var s;
         if (str == "") {
@@ -219,6 +231,12 @@ module.exports = function (env) {
     filters.decimals = function (str, cnt) {
         var i = parseFloat(str)
         var n = i.toFixed(cnt).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+        return n;
+    }
+
+    filters.dp = function (str, cnt) {
+        var i = parseFloat(str)
+        var n = i.toFixed(cnt)
         return n;
     }
 
@@ -551,6 +569,12 @@ module.exports = function (env) {
         s = s.replace("RVC", '<a href="/static/roo/rvc">RVC</a>')
         s = s.replace("FOB", '<a href="/static/roo/fob">FOB</a>')
         return s
+    }
+
+    filters.get_file_size = function (filename) {
+        filename = process.cwd() + filename
+        var fh = new FileHandler(filename)
+        return (fh.file_size.toFixed(2))
     }
 
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {

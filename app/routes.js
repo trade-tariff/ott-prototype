@@ -382,14 +382,13 @@ router.get([
     } else {
         // UK
 
-        // var url_seasonal = "http://127.0.0.1:5000/seasonal_rates/0806101090"
-        var url_chemicals = "http://127.0.0.1:5000/chemicals/" + req.params["goods_nomenclature_item_id"];
+        // var url_chemicals = "http://127.0.0.1:5000/chemicals/" + req.params["goods_nomenclature_item_id"];
         const axiosrequest1 = axios.get(url);
-        const axiosrequest2 = axios.get(url_chemicals);
+        // const axiosrequest2 = axios.get(url_chemicals);
         if (context.country == "") {
             try {
-                await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
-                // await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
+                // await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
+                await axios.all([axiosrequest1]).then(axios.spread(function (response1) {
                     c = new Commodity();
                     c.country = context.country;
                     c.pass_request(req);
@@ -397,7 +396,7 @@ router.get([
                     c.get_measure_data(req, "basic");
 
                     // var seasonal_rates = response2.data
-                    var chemicals = response2.data
+                    // var chemicals = response2.data
 
                     context.value_classifier = c.data.attributes.goods_nomenclature_item_id;
                     context.value_description = c.description;
@@ -409,6 +408,15 @@ router.get([
                     context.show_cds = true;
                     context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
 
+                    res.render('commodities', {
+                        'context': context,
+                        'date': date,
+                        'countries': countries,
+                        'roo': roo_mvp,
+                        'toggle_message': toggle_message,
+                        'commodity': c
+                    });
+
                     // res.render('commodities', {
                     //     'context': context,
                     //     'date': date,
@@ -416,18 +424,8 @@ router.get([
                     //     'roo': roo_mvp,
                     //     'toggle_message': toggle_message,
                     //     'commodity': c,
-                    //     'seasonal_rates': seasonal_rates.seasonal_rates
+                    //     'chemicals': chemicals
                     // });
-
-                    res.render('commodities', {
-                        'context': context,
-                        'date': date,
-                        'countries': countries,
-                        'roo': roo_mvp,
-                        'toggle_message': toggle_message,
-                        'commodity': c,
-                        'chemicals': chemicals
-                    });
                 }));
             } catch {
                 res.redirect("/commodity_history/" + req.params["goods_nomenclature_item_id"]);
@@ -1064,15 +1062,19 @@ router.get(['/notes'], function (req, res) {
 
 // Comm code history
 router.get(['/commodity_history/:commodity_code'], function (req, res) {
-    var context = new Context(req);
-    var commodity_code = req.params["commodity_code"];
-    if (commodity_code.length == 4) {
-        context.resource_type = "heading";
-    } else {
-        context.resource_type = "commodity";
+    try {
+        var context = new Context(req);
+        var commodity_code = req.params["commodity_code"];
+        if (commodity_code.length == 4) {
+            context.resource_type = "heading";
+        } else {
+            context.resource_type = "commodity";
+        }
+        commodity_code = req.params["commodity_code"].padEnd(10, '0');
+        var commodity_history = new CommodityHistory(context, req, res, commodity_code)
+    } catch (error) {
+        res.redirect("/");
     }
-    commodity_code = req.params["commodity_code"].padEnd(10, '0');
-    var commodity_history = new CommodityHistory(context, req, res, commodity_code)
 });
 
 // Comm code history
@@ -1224,7 +1226,7 @@ router.get(['/preferences', '/xi/preferences'], async function (req, res) {
 
 
 // New sign-up (stop press)
-router.get(['/stop_press/signup', ], async function (req, res) {
+router.get(['/stop_press/signup',], async function (req, res) {
     var context = new Context(req);
     res.render('stop_press/signup', {
         'context': context

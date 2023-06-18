@@ -1,0 +1,42 @@
+{% if theme == "monthly" %}
+    <h2 class="govuk-heading-m">Data for other years</h2>
+    <ul class="govuk-list tools_menu">
+        {% for y in other_years %}
+            {% if y != year %}
+                <li>
+                    <a href="/tools/exchange_rates/exchange_rates/{{ y }}">HMRC exchange rates for {{ y }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h2 class="govuk-heading-m">Yearly average and spot rates</h2>
+    <ul class="govuk-list tools_menu">
+        <li>
+            <a href="/tools/exchange_rates/average_rates">Yearly average rates</a>
+        </li>
+        <li>
+            <a href="/tools/exchange_rates/spot_rates">Spot rates</a>
+        </li>
+    </ul>
+{% elseif theme == "average" %}
+    <h2 class="govuk-heading-m">Related information</h2>
+    <ul class="govuk-list tools_menu">
+        <li>
+            <a href="/tools/exchange_rates/exchange_rates">Monthly rates</a>
+        </li>
+        <li>
+            <a href="/tools/exchange_rates/spot_rates">Spot rates</a>
+        </li>
+    </ul>
+{% else %}
+    <h2 class="govuk-heading-m">Related information</h2>
+    <ul class="govuk-list tools_menu">
+        <li>
+            <a href="/tools/exchange_rates/exchange_rates">Monthly rates</a>
+        </li>
+        <li>
+            <a href="/tools/exchange_rates/average_rates">Yearly average rates</a>
+        </li>
+    </ul>
+{% endif %}

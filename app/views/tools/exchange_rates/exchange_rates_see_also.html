@@ -1,0 +1,31 @@
+<hr class="exchange_rates">
+<p class="govuk-body">
+  See also:
+</p>
+<ul class="govuk-list govuk-list--bullet">
+  {% if theme == "spot" %}
+    <li>
+      <a href="/tools/exchange_rates/exchange_rates">Monthly exchange rates</a>
+    </li>
+    <li>
+      <a href="/tools/exchange_rates/exchange_rate_average_rates">Average annual rates</a>
+    </li>
+  {% elif theme == "average" %}
+    <li>
+      <a href="/tools/exchange_rates/exchange_rates">Monthly exchange rates</a>
+    </li>
+    <li>
+      <a href="/tools/exchange_rates/exchange_rate_spot_rates">Spot rates</a>
+    </li>
+  {% else %}
+    <li>
+      <a href="/tools/exchange_rates/exchange_rates/{{ year }}">All exchange rates for {{ year }}</a>
+    </li>
+    <li>
+      <a href="/tools/exchange_rates/exchange_rate_spot_rates">Spot rates</a>
+    </li>
+    <li>
+      <a href="/tools/exchange_rates/exchange_rate_average_rates">Average annual rates</a>
+    </li>
+  {% endif %}
+</ul>

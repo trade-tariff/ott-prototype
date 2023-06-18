@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+                text: "Home",
+                href: "/sections/" + context.scope_id
+            },
+            {
+                text: "Tools",
+                href: "/tools"
+            },
+            {
+                text: "Exchange rates",
+                href: "/tools/exchange_rates/exchange_rates"
+            },
+            {
+                text: "Spot rates",
+                href: "/tools/exchange_rates/spot_rates/"
+            }
+        ]
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+  HMRC exchange rates
+{% endblock %}
+
+{% block content %}
+  {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+        {# {% include "includes/scope_switcher_panel.html" %} #}
+      </span>
+      <h1 class="govuk-heading-l">HMRC spot rates for Customs and <abbr title="value added tax">VAT</abbr>
+        <!-- in CSV and XML format//-->
+      </h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p class="govuk-body-l">
+        Check the official HMRC foreign currency exchange spot rates for Customs & <abbr title="value added tax">VAT</abbr>.
+      </p>
+      {# <p class="govuk-body">
+        Data is available in online (HTML), CSV and XML formats and includes:
+      </p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>monthly rates for use in <a target="_blank" href="https://www.gov.uk/government/collections/customs-declaration-service">
+            <abbr title=" customs declaration service ">CDS</abbr>
+          </a> Customs and <abbr title="value added tax">VAT</abbr> transactions
+        </li>
+        <li>end of month spot rates</li>
+        <li>yearly averages</li>
+      </ul> #}
+
+      <div class="govuk-grid-row news-item-grid">
+        <div class="govuk-grid-column-two-thirds tariff-print-grid-column-full-width">
+          <article class="news-item">
+            <div class="gem-c-metadata">
+              <dl>
+                <dt class="gem-c-metadata__term">From:</dt>
+                <dd class="gem-c-metadata__definition">
+                  <a href="https://www.gov.uk/government/organisations/hm-revenue-customs">HM Revenue &amp; Customs</a>
+                </dd>
+                <dt class="gem-c-metadata__term">Published:</dt>
+                <dd class="gem-c-metadata__definition">12 May 2003</dd>
+              </dl>
+            </div>
+            <div class="gem-c-print-link govuk-!-display-none-print govuk-!-margin-bottom-6"></div>
+          </article>
+        </div>
+      </div>
+
+      <h2 class="govuk-heading-m" id="10digit">Documents</h2>
+
+      {% for spot_year in spot_years %}
+        {% for spot_month in spot_months %}
+          {% if spot_month == "December" %}
+            {% set spot_month_number = "12" %}
+          {% else %}
+            {% set spot_month_number = "03" %}
+          {% endif %}
+          {% if not(spot_month == "December" and spot_year == "2023") %}
+            {% set csv_filename = "/public/exchange_rates/spot_rates/spot_rates_" + spot_year + "-" + spot_month_number + "-31" + ".csv" %}
+
+            <div class="downloads" data-module="govspeak">
+              <section class="attachment">
+                <div class="attachment-thumb">
+                  <img alt="" src="/public/images/spreadsheet-30c06c889211a590721ff066bd55f53c.png">
+                </div>
+                <div class="attachment-details">
+                  <h3 class="govuk-heading-m" style="font-weight:normal">
+                    Spot rates on 31 {{ spot_month }}
+                    {{ spot_year }}
+                  </h3>
+                  <p class="download-links">
+                    <a href="/tools/exchange_rates/spot_rates/view/{{ spot_year }}/{{ spot_month_number }}">
+                      <span class="b">View online</span></a>
+                    <a target="_blank" href="{{ csv_filename }}">
+                      <span class="b"> Download CSV</span>
+                      {{ csv_filename | get_file_size() }} KB
+                      </a>
+                  </p>
+                  <p>This file may not be suitable for users of assistive technology.</p>
+                  <details class="govuk-details" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                      <span class="govuk-details__summary-text">
+                    Request an accessible format.
+                  </span>
+                    </summary>
+                    <div class="govuk-details__text">
+                    If you use assistive technology (such as a screen reader) and need a
+                    version of this document in a more accessible format, please email <a href="mailto:different.format@hmrc.gov.uk?body=details%20of%20document%20required%3a%0a%0a%20%20title%3a%20may%202023%3a%20monthly%20exchange%20rates%0a%20%20original%20format%3a%20csv%0a%0aplease%20tell%20us%3a%0a%0a%20%201.%20what%20makes%20this%20format%20unsuitable%20for%20you%3f%0a%20%202.%20what%20format%20you%20would%20prefer%3f%0a%20%20%20%20%20%20&amp;subject=request%20for%20%27may%202023%3a%20monthly%20exchange%20rates%27%20in%20an%20alternative%20format">different.format@hmrc.gov.uk</a>.
+                    Please tell us what format you need. It will help us if you say what assistive technology you use.
+                </div>
+                  </details>
+                </div>
+              </section>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      {% include "tools/exchange_rates/exchange_rates_right_column.html" %}
+    </div>
+  </div>
+{% endblock %}

@@ -34,7 +34,7 @@ class GeographicalArea {
         } else {
             this.geographical_area_code = 0 // Country
         }
-        var n = str.length; 
+        var n = str.length;
     }
 
     get_country_description(id) {
@@ -46,7 +46,6 @@ class GeographicalArea {
            }
         });
         return(country_name);
-        
     }
 
     parse_members() {

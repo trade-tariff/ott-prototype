@@ -191,34 +191,6 @@ router.get(['/tools/chemicals/', '/:scope_id/tools/chemicals'], function (req, r
     });
 });
 
-// Exchange rates
-router.get(['/tools/exchange_rates/', '/:scope_id/tools/exchange_rates'], function (req, res) {
-    var context = new Context(req);
-    res.render('tools/exchange_rates/exchange_rates', {
-        'context': context
-    });
-});
-
-// Exchange rates XML
-router.get(['/tools/exchange_rates/exchange_rates_xml', '/:scope_id/tools/exchange_rates/exchange_rates_xml'], function (req, res) {
-    var context = new Context(req);
-    var months = ["June", "May", "April", "March", "February", "January"]
-    res.render('tools/exchange_rates/exchange_rates_xml', {
-        'context': context,
-        'months': months
-    });
-});
-
-// Exchange rates XML
-router.get(['/tools/exchange_rates/exchange_rates_xml2', '/:scope_id/tools/exchange_rates/exchange_rates_xml2'], function (req, res) {
-    var context = new Context(req);
-    var months = ["June", "May", "April", "March", "February", "January"]
-    res.render('tools/exchange_rates/exchange_rates_xml2', {
-        'context': context,
-        'months': months
-    });
-});
-
 // Terms and conditions
 router.get(['/terms', '/:scope_id/terms'], function (req, res) {
     var context = new Context(req);
@@ -269,7 +241,7 @@ router.get(['/preferences-handler/', '/:scope_id/preferences-handler'], function
 // Measure types list
 router.get(['/tools/measure_types/',], function (req, res) {
     var context = new Context(req);
-    var url = process.env["TRADE_TARIFF_API"] + "measure-types"; 
+    var url = process.env["TRADE_TARIFF_API"] + "measure-types";
     console.log(url);
 
     axios.get(url)
@@ -281,5 +253,5 @@ router.get(['/tools/measure_types/',], function (req, res) {
         });
 });
 
- 
+
 module.exports = router

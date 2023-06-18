@@ -12,7 +12,15 @@
             },
             {
                 text: "Exchange rates",
-                href: "/tools/exchange_rates"
+                href: "/tools/exchange_rates/exchange_rates"
+            },
+            {
+                text: "Exchange rates for " + year,
+                href: "/tools/exchange_rates/exchange_rates/" + year
+            },
+            {
+                text: month_name + " " + year,
+                href: "/tools/exchange_rates/exchange_rates/" + year
             }
         ]
     }) }}
@@ -29,14 +37,22 @@
     <div class="govuk-grid-column-full">
       <span class="govuk-caption-xl">
         {{ context.title }}
-        {% include "includes/scope_switcher_panel.html" %}
+        {# {% include "includes/scope_switcher_panel.html" %} #}
       </span>
-      <h1 class="govuk-heading-l">HMRC exchange rates for 2023</h1>
+      <h1 class="govuk-heading-l">
+        {{ month_name }}
+        {{ year }} monthly exchange rates </h1>
     </div>
   </div>
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <p class="govuk-body-l">Find foreign exchange rates issued by HMRC in CSV and XML format.</p>
+    <div class="govuk-grid-column-full">
+      <p class="govuk-body-l">
+        Official {{ month_name }}
+        {{ year }} HMRC foreign currency exchange monthly rates for Customs & <abbr title="value added tax">VAT</abbr>.
+      </p>
+
+      {% set csv_filename = "/public/exchange_rates/csv/exrates-monthly-" + month + year.slice(2, 4) + ".csv" %}
+      {% set xml_filename = "/public/exchange_rates/xml/exrates-monthly-" + month + year.slice(2, 4) + ".xml" %}
 
       <div class="govuk-grid-row news-item-grid">
         <div class="govuk-grid-column-two-thirds tariff-print-grid-column-full-width">
@@ -48,10 +64,16 @@
                   <a href="https://www.gov.uk/government/organisations/hm-revenue-customs">HM Revenue &amp; Customs</a>
                 </dd>
 
-                <dt class="gem-c-metadata__term">Published</dt>
+                <dt class="gem-c-metadata__term">Published:</dt>
                 <dd class="gem-c-metadata__definition">
-            12 May 2023
-          </dd>
+                  12 May 2023
+                </dd>
+
+                <dt class="gem-c-metadata__term">Download:</dt>
+                <dd class="gem-c-metadata__definition">
+                  <a href="{{ csv_filename }}" class="nb" title="download csv file: hmrc exchange rates {{ month_name }} {{ year}}">CSV file</a> (8.66KB) |
+                  <a href="{{ xml_filename }}" class="nb" title="download csv file: hmrc exchange rates {{ month_name }} {{ year}}">XML file</a> (31.66KB)
+                </dd>
               </dl>
             </div>
 
@@ -60,69 +82,34 @@
         </div>
       </div>
 
-      <h2 class="govuk-heading-m" id="10digit">Documents</h2>
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Country / territory</th>
+            <th scope="col" class="govuk-table__header">Currency</th>
+            <th scope="col" class="govuk-table__header">Currency code</th>
+            <th scope="col" class="govuk-table__header r">Currency units per&nbsp;&pound;1</th>
+            <th scope="col" class="govuk-table__header r">Start date</th>
+            <th scope="col" class="govuk-table__header r">End date</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for row in rows %}
+            <tr class="govuk-table__row">
+              <td class="govuk-table__cell">{{ row[0] }}</td>
+              <td class="govuk-table__cell">{{ row[1] }}</td>
+              <td class="govuk-table__cell">{{ row[2] }}</td>
+              <td class="govuk-table__cell r">{{ row[3] }}</td>
+              <td class="govuk-table__cell nw r">{{ row[4] | do_date("D MMMM YYYY")  }}</td>
+              <td class="govuk-table__cell nw r">{{ row[5] | do_date("D MMMM YYYY") }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
 
-      <div class="downloads" data-module="govspeak">
-        <section class="attachment">
-          <div class="attachment-thumb">
-            <a href="/cn2021_2022/uk trade tariff 2022 - 2022 01 06.docx">
-              <img alt="" src="/public/images/spreadsheet-30c06c889211a590721ff066bd55f53c.png">
-            </a>
-          </div>
-          <div class="attachment-details">
-            <h3 class="govuk-heading-m" style="font-weight:normal">
-              May 2023: monthly exchange rates
-              {# <a href="/cn2021_2022/uk trade tariff 2022 - 2022 01 06.docx">UK goods classification 2021-2022 10-digits (complete)</a> #}</h3>
-            <p>
-              <a href="#">
-                <span class="b">View online</span></a>
-              &nbsp;&nbsp;
-              <a href="#">
-                <span class="b">Download CSV</span> 8.66 KB</a>
-            </p>
-            <p>This file may not be suitable for users of assistive technology.</p>
-            <details class="govuk-details" data-module="govuk-details">
-              <summary class="govuk-details__summary">
-                <span class="govuk-details__summary-text">
-                  Request an accessible format.
-                </span>
-              </summary>
-              <div class="govuk-details__text">
-                If you use assistive technology (such as a screen reader) and need a
-                version of this document in a more accessible format, please email <a href="mailto:different.format@hmrc.gov.uk?body=details%20of%20document%20required%3a%0a%0a%20%20title%3a%20may%202023%3a%20monthly%20exchange%20rates%0a%20%20original%20format%3a%20csv%0a%0aplease%20tell%20us%3a%0a%0a%20%201.%20what%20makes%20this%20format%20unsuitable%20for%20you%3f%0a%20%202.%20what%20format%20you%20would%20prefer%3f%0a%20%20%20%20%20%20&amp;subject=request%20for%20%27may%202023%3a%20monthly%20exchange%20rates%27%20in%20an%20alternative%20format">different.format@hmrc.gov.uk</a>.
-                Please tell us what format you need. It will help us if you say what assistive technology you use.
-              </div>
-            </details>
-          </div>
-        </section>
-      </div>
-
+      {% include "tools/exchange_rates/exchange_rates_see_also.html" %}
 
     </div>
 
-    <div class="govuk-grid-column-one-third">
-      <h2 class="govuk-heading-m">Data for other years</h2>
-      <ul class="govuk-list tools_menu">
-        <li>
-          <a href="#">HMRC exchange rates for 2022</a>
-        </li>
-        <li>
-          <a href="#">HMRC exchange rates for 2021</a>
-        </li>
-        <li>
-          <a href="#">HMRC exchange rates for 2020</a>
-        </li>
-        <li>
-          <a href="#">HMRC exchange rates for 2019</a>
-        </li>
-      </ul>
-
-      <h2 class="govuk-heading-m">Yearly average and spot rates</h2>
-      <ul class="govuk-list tools_menu">
-        <li>
-          <a href="#">Yearly average and spot rates</a>
-        </li>
-      </ul>
-    </div>
   </div>
 {% endblock %}

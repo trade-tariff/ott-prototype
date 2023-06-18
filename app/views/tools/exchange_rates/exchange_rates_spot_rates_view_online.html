@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+        items: [
+            {
+                text: "Home",
+                href: "/sections/" + context.scope_id
+            },
+            {
+                text: "Tools",
+                href: "/tools"
+            },
+            {
+                text: "Exchange rates",
+                href: "/tools/exchange_rates/exchange_rates"
+            },
+            {
+                text: "Spot rates",
+                href: "/tools/exchange_rates/spot_rates/"
+            },
+            {
+                text: "Spot rates for " + month_name + " " + year,
+                href: "/tools/exchange_rates/spot_rates/view/" + year + "/" + month
+            }
+        ]
+    }) }}
+{% endblock %}
+
+{% block pageTitle %}
+  HMRC exchange rates
+{% endblock %}
+
+{% block content %}
+  {% include "includes/language_selector.html" %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        {{ context.title }}
+      </span>
+      <h1 class="govuk-heading-l">
+        Spot rates on 31 {{ month_name }}
+        {{ year }}</h1>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      {% set csv_filename = "/public/exchange_rates/spot_rates/spot_rates_" + year + "-" + month + "-31.csv" %}
+
+      <div class="govuk-grid-row news-item-grid">
+        <div class="govuk-grid-column-two-thirds tariff-print-grid-column-full-width">
+          <article class="news-item">
+            <div class="gem-c-metadata">
+              <dl>
+                <dt class="gem-c-metadata__term">From:</dt>
+                <dd class="gem-c-metadata__definition">
+                  <a href="https://www.gov.uk/government/organisations/hm-revenue-customs">HM Revenue &amp; Customs</a>
+                </dd>
+
+                <dt class="gem-c-metadata__term">Published:</dt>
+                <dd class="gem-c-metadata__definition">
+                  12 May 2023
+                </dd>
+
+                <dt class="gem-c-metadata__term">Download:</dt>
+                <dd class="gem-c-metadata__definition">
+                  <a href="{{ csv_filename }}" class="nb" title="download csv file: hmrc exchange rates {{ month_name }} {{ year}}">CSV file</a> (8.66KB)
+                </dd>
+              </dl>
+            </div>
+
+            <div class="gem-c-print-link govuk-!-display-none-print govuk-!-margin-bottom-6"></div>
+          </article>
+        </div>
+      </div>
+
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Country / territory</th>
+            <th scope="col" class="govuk-table__header">Currency</th>
+            <th scope="col" class="govuk-table__header">Currency code</th>
+            <th scope="col" class="govuk-table__header r">Sterling value of Currency Unit &pound</th>
+            <th scope="col" class="govuk-table__header r">Currency units per&nbsp;&pound;1</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for row in rows %}
+            <tr class="govuk-table__row">
+              <td class="govuk-table__cell" style="width:20%">{{ row[0] }}</td>
+              <td class="govuk-table__cell" style="width:20%">{{ row[1] }}</td>
+              <td class="govuk-table__cell" style="width:20%">{{ row[2] }}</td>
+              <td class="govuk-table__cell r" style="width:20%">{{ row[3] | dp(4) }}</td>
+              <td class="govuk-table__cell r" style="width:20%">{{ row[4] | dp(4) }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      {% include "tools/exchange_rates/exchange_rates_see_also.html" %}
+
+    </div>
+
+  </div>
+{% endblock %}

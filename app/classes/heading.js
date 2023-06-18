@@ -185,8 +185,6 @@ class Heading {
             if (commodity.number_indents < start_indents) {
                 break;
             }
-            
-
         }
     }
 
