@@ -573,6 +573,7 @@ module.exports = function (env) {
 
     filters.get_file_size = function (filename) {
         filename = process.cwd() + filename
+        filename = filename.replace("app/", "")
         var fh = new FileHandler(filename)
         return (fh.file_size.toFixed(2))
     }
