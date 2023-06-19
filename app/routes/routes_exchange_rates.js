@@ -25,6 +25,7 @@ router.get([
     '/tools/exchange_rates/exchange_rates',
     '/tools/exchange_rates/exchange_rates/:year'
 ], function (req, res) {
+    simple_exchange_rate_version = parseInt(process.env["simple_exchange_rate_version"])
     var context = new Context(req);
     var year = req.params["year"]
     if ((year == null) || (year == "")) {
@@ -63,7 +64,8 @@ router.get([
         'year': year,
         'other_years': other_years,
         "right_column_title": "Data for other years",
-        "theme": "monthly"
+        "theme": "monthly",
+        "simple_exchange_rate_version": simple_exchange_rate_version
     });
 });
 
@@ -84,7 +86,6 @@ router.get([
     var other_years = ["2023", "2022", "2021", "2020"]
     var rows = []
     var csv_filename = process.cwd() + `/public/exchange_rates/csv/exrates-monthly-${month}${year}.csv`
-    // csv_filename = csv_filename.replace("app/", "")
     const fs = require("fs");
     const { parse } = require("csv-parse");
     fs.createReadStream(csv_filename)

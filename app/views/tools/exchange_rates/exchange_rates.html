@@ -1,3 +1,9 @@
+{% if simple_exchange_rate_version == 0 %}
+  {% set msg_formats = "Data is available in online (HTML), CSV and XML formats." %}
+{% else %}
+  {% set msg_formats = "Data is available in XML format." %}
+{% endif %}
+
 {% extends "layout.html" %}
 {% block beforeContent %}
   {{ govukBreadcrumbs({
@@ -39,21 +45,9 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <p class="govuk-body-l">
-        Check the official {{ year }} HMRC foreign currency exchange monthly rates for Customs & <abbr title="value added tax">VAT</abbr>.
+        Check the official {{ year }} HMRC foreign currency exchange monthly rates for Customs and <abbr title="value added tax">VAT</abbr>.
       </p>
-      <p class="govuk-body">
-        {# Data is available in online (HTML), CSV and XML formats and includes: #}
-        Data is available in online (HTML), CSV and XML formats.
-      </p>
-
-      {# <ul class="govuk-list govuk-list--bullet">
-        <li>monthly rates for use in <a target="_blank" href="https://www.gov.uk/government/collections/customs-declaration-service">
-            <abbr title=" customs declaration service ">CDS</abbr>
-          </a> Customs and <abbr title="value added tax">VAT</abbr> transactions
-        </li>
-        <li>end of month spot rates</li>
-        <li>yearly averages</li>
-      </ul> #}
+      <p class="govuk-body">{{ msg_formats}}</p>
 
       <div class="govuk-grid-row news-item-grid">
         <div class="govuk-grid-column-two-thirds tariff-print-grid-column-full-width">
@@ -88,14 +82,20 @@
                 {{month_value}}
                 {{ year }} monthly exchange rates
                 <p class="download-links">
-                  <a href="/tools/exchange_rates/view/{{ year.slice(2, 4) }}/{{ month_number }}">
-                    <span class="b">View online</span></a>
-                  <a target="_blank" href="{{ csv_filename }}">
-                    <span class="b">CSV</span>
-                    {{ csv_filename | get_file_size() }} KB</a>
+                  {% if simple_exchange_rate_version == 0 %}
+                    <a href="/tools/exchange_rates/view/{{ year.slice(2, 4) }}/{{ month_number }}">
+                      <span class="b">View online</span></a>
+                    <a target="_blank" href="{{ csv_filename }}">
+                      <span class="b">CSV</span>
+                      {{ csv_filename | get_file_size() }} KB</a>
+                    <a target="_blank" href="{{ xml_filename }}">
+                      <span class="b">XML</span>
+                      {{ xml_filename | get_file_size() }} KB</a>
+                  {% else %}
                   <a target="_blank" href="{{ xml_filename }}">
-                    <span class="b">XML</span>
+                    <span class="b">Download XML</span>
                     {{ xml_filename | get_file_size() }} KB</a>
+                  {% endif %}
                 </p>
                 <p>This file may not be suitable for users of assistive technology.</p>
                 <details class="govuk-details" data-module="govuk-details">

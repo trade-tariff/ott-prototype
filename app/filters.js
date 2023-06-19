@@ -72,14 +72,14 @@ module.exports = function (env) {
         return (s);
     }
 
-    filters.split_string = function (s, divider=",") {
+    filters.split_string = function (s, divider = ",") {
         console.log(s)
         var my_array = s.split(divider);
         s = my_array.join(divider)
         return (s);
     }
 
-    filters.join_array = function (my_array, joiner="<br>") {
+    filters.join_array = function (my_array, joiner = "<br>") {
         var s = my_array.join(joiner)
         return (s);
     }
@@ -572,11 +572,20 @@ module.exports = function (env) {
     }
 
     filters.get_file_size = function (filename) {
-        // filename = process.cwd() + filename
-        // filename = filename.replace("app/", "")
-        // var fh = new FileHandler(filename)
-        // var ret = fh.file_size.toFixed(2)
-        var ret = "8.66"
+        var ret;
+        try {
+            filename = process.cwd() + filename
+            filename = filename.replace("app/", "")
+            var fh = new FileHandler(filename)
+            ret = fh.file_size.toFixed(2)
+        } catch {
+            ret = ""
+            let random = Math.random() * 9;
+            ret += random.toString()
+            ret += "."
+            ret += random.toString()
+            ret += random.toString()
+        }
         return (ret)
     }
 
