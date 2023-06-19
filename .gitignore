@@ -7,7 +7,7 @@ lib/extensions/_extensions.scss
 .DS_Store
 .start.pid
 .port.tmp
-/public
+# /public
 node_modules
 node_modules/*
 .tmuxp.*
@@ -26,3 +26,11 @@ app/content/hs22/section_chapter_notes_safe
 ~$*
 superseded/
 app/data/roo/proofs/proofs-by-scheme/proofs by scheme.zip
+
+public/data
+public/downloads
+public/fonts
+public/images
+public/javascripts
+public/stylesheets
+public/videos
