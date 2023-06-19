@@ -1,51 +1,49 @@
 ## What is DCTS and why is it important for international trade?
 
-The Developing Countries Trading Scheme Origin is a trade preference scheme that will replace the current Generalised Scheme of Preferences (GSP). DCTS would apply to qualifying countries currently and include improvements such as lower tariffs and simpler rules of origin requirements for countries exporting to the UK.
-
-The scheme will allow countries to diversify their exports and grow their economies, while British households and businesses benefit from lower prices and more choice.
+DCTS is a trade preference scheme that replaces the Generalised Scheme of Preferences (GSP). DCTS improves access to the UK market for developing countries and supports sustainable growth for these countries through a more generous unilateral trade and tariff offer.
 
 ### What is DCTS?
-DCTS will improve access to the UK market for developing countries and support sustainable growth for these countries through a more generous unilateral trade and tariff offer.
+DCTS applies to qualifying countries and includes improvements such as lower tariffs and simpler rules of origin requirements for countries exporting to the UK. While British households and businesses benefit from lower prices and more choice
 
-### What countries will DCTS cover?
+### What countries does DCTS cover?
 
-DCTS will cover 65 countries, which will be split into 3 preference tiers (see [Annex 1](#annex1) for further information):
+DCTS covers 65 countries, which are split into 3 preference tiers (see [Annex 1](#annex1) for further information):
 
 - The **Comprehensive Preferences** are those that are Least Developed Countries (LDC)
 
-- The **Enhanced Preferences** are those that are Economically vulnerable, Low income (LICs) and Low-middle income (LMICs) countries
+- The **Enhanced Preferences** are those that are economically vulnerable, Low income (LICs) and Low-middle income (LMICs) countries
 
-- Countries under the **Standard Preferences** and LICs and LMICs
+- Countries under the **Standard Preferences** are LICs and LMICs
 
 ## How is DCTS different from GSP?
 
 ### Tariff
 
-In the tariff space:
+In the Tariff space, this includes more than 150 new tariff cuts for Enhanced Preference countries.
 
-- There have been more the 150 new tariff cuts for Enhanced Preference countries.
+8 economically vulnerable countries (Algeria, Republic of Congo, Cook Island, Micronesia, Nigeria, Niue, Syria, and Tajikistan) have moved to Enhanced Preference and, as economically vulnerable low income and lower-middle income countries, receive duty free trade on 92% of goods.
 
-- 8 economically vulnerable countries which are: Algeria, Republic of Congo, Cook Island, Micronesia, Nigeria, Niue, Syria, and Tajikistan have moved to Enhanced Preference and as economically vulnerable low income and lower-middle income countries they will receive duty free trade on 92% of goods.
+Least developed countries continue to benefit from duty-free, quota-free trade on everything but arms.
 
-- Least Developed Countries will continue to benefit from duty-free, quota-free trade on everything but arms.
+### Rule of origin
 
-### Rules of origin
+Rules of origin determine a product's national origin by defining the minimum local content and processing required to qualify for preferential tariffs.
 
-Rules of origin determine a product's national origin by defining the minimum local content and processing required to qualify for preferential tariffs. The rule of orgin will be simpler, with more generous product-specific rules and increased threshold for non-originating content up to 75% for LDCs. 40% of product-specific rules will have an alternative rule.
+The rule of origin is simpler, with more generous product-specific rules and increased threshold for non-originating content up to 75% for LDCs. 40% of product specific rules have an alternative rule.
 
-Significantly there will be more flexible cumulation rules. LDCs will benefit from extended cumulation to include 95 developing countries, the UK and UK EPA countries (for the purposes of the DCTS extended cumulation, EPA countries are understood as those within the Organisation of African, Caribbean and Pacific States (OACPS) that have a trade agreement with the UK) for tariff-free exports.
+Significantly there are more flexible cumulation rules, with LDCs being able to benefit from extended cumulation with EPA countries that have a trade agreement with the UK for tariff-free exports.
 
 ### Suspensions
 
-The DCTS has conditions which, if not met, allow for suspension or variation of preference from any beneficiary in any tier of the scheme. 
+The DCTS has conditions which, if not met, allow for suspension or variation of preference from any beneficiary in any tier of the scheme.
 
 The DCTS conditions are clearer and have a broader base for suspension based on international conventions, and now includes climate change and environment, in addition to human rights and labour rights.
 
-Furthermore, all economically vulnerable countries automatically get Enhanced Preferences, there is no longer needed to ratify 27 international conventions.
+Furthermore, all economically vulnerable countries automatically get Enhanced Preferences, there is no longer a need to ratify 27 international conventions.
 
-### Goods Graduation
+### Goods graduation
 
-Goods graduation is the suspension of preferential rates of customs duty on certain imports. These imports are deemed to be highly competitive and to no longer need preferences to compete in the UK market. Competitive products for India and Indonesia continue to be excluded from preferential tariffs, protecting the interests of economically vulnerable producers of these goods.
+Goods graduation is the suspension of preferential rates of customs duty on certain imports. These imports are deemed to be highly competitive and no longer need preferences to compete in the UK market. Competitive products for India and Indonesia continue to be excluded from preferential tariffs, protecting the interests of economically vulnerable producers of these goods.
 
 ### Renaming
 
@@ -59,9 +57,7 @@ There has been a renaming of the tiers of preferences within the DCTS:
 
 This is intended to reflect the UK's offer in each tier and the progression of most countries as their economies grow from DCTS Comprehensive Preferences to DCTS Enhanced Preferences and then DCTS Standard Preferences.
 
-## What remains the same as GSP?
-
-### Rules of Origin
+## Proof of origin
 
 There will be no change to the administrative requirements and proof of origin. To claim preferential tariffs under the DCTS, businesses will require a valid proof of origin, which can be either of the following:
 
@@ -69,7 +65,9 @@ There will be no change to the administrative requirements and proof of origin. 
 
 - An origin declaration - which must include information to enable the identification of an originating good.
 
-- Businesses can self-certify documents. An official stamp from the exporting country is not required.
+Businesses can self-certify documents. An official stamp from the exporting country is not required.
+
+### Origin declarations
 
 An origin declaration must:
 
@@ -109,7 +107,7 @@ An origin declaration must:
     3.	Products wholly obtained: enter the letter ‘P'; Products sufficiently processed: enter the letter ‘W' followed by a heading of the Harmonised System (example ‘W' 9618).
     4.	This may be omitted if included in the document itself.
 
-## Using a Form A
+### Using a Form A
 
 [Form A](https://www.gov.uk/guidance/completing-generalised-scheme-of-preferences-form-a) must bear a serial number, printed or otherwise, or, where there is no serial number, a reference to the commercial invoice by which it can be identified does not need to be stamped and signed by an authority designated by the beneficiary country, so does not need to be an original 
 
@@ -119,7 +117,7 @@ Enter the full name and business address of the exporter.
 ### Box 2 Consignee
 The completion of this box is optional, but you are recommended to enter the name and address of the consignee where this is known. For exports to exhibitions which are later sent on to the UK, insert also the name and address of the exhibition.
 
-### Box 3 Transport details 
+### Box 3 Transport details
 You should complete this box on the basis of available information. If you do not have details of the transport arrangements, then leave this box blank.
 
 ### Box 4 For official use
@@ -183,35 +181,34 @@ For the importing country you must put 'United Kingdom'; indicating a different 
 
 If the declaration is incorrect, you will have committed an offence which may incur penalties.
 
+## Grace period
+
+The UK GSP ceases to have effect when DCTS comes in place on 19 June 2023. However, there will be a grace period for a proof of origin made out in accordance with the former UK GSP that is issued on or before 31 December 2023.
+
+Goods that have been entered into customs warehouse on or before this date will retain their 2-year validity.
+
 ## Claiming DCTS on the Customs Declaration Service (CDS)
 
 A CDS customs declaration to free circulation should include the following current data elements (DE):
 
-DE 2/3 – Either 9001 (origin declaration) or N865 (Form A) 
-
-DE 4/17 – A code from the 200 series of preference codes.
-
-## Grace Period
-The UK GSP ceases to have effect when DCTS comes into effect on 19 June 2023. However, there will be a grace period to allow the use of UK GSP documents to claim preference for goods that qualify for a preferential duty rate under UK GSP and DCTS.
-
-Therefore, goods that qualify for a preferential duty rate under DCTS for which a UK GSP proof of origin was issued before 19 June 2023, HMRC will accept a UK GSP proof of origin provided the goods are released to free circulation on or before 31 December 2023.
-
-For products that qualify for DCTS currently in a customs warehouse or in transit at the time that DCTS comes into force, HMRC will accept a UK GSP proof of origin issued before 19 June 2023 provided that the goods are released to free circulation on or before 31 December 2023.   
-
+|Data element|Requirement|
+|-|-|
+|DE 2/3|Either 9001 (origin declaration) or N865 (Form A)|
+|DE 4/17|A code from the 200 series of preference codes|
 
 ## More information on DCTS
 
-- [Details of the policy changes to UK preferential trading arrangements](https://www.gov.uk/government/publications/developing-countries-trading-scheme-dcts-new-policy-report) were published in August 2022
+[Details of the policy changes to UK preferential trading arrangements](https://www.gov.uk/government/publications/developing-countries-trading-scheme-dcts-new-policy-report) were published in August 2022.
 
-- Further information on the DCTS will be published at the links below when the Scheme enters into force on 19 June
+Further information on the DCTS will be published at the links below when the Scheme enters into force on 19 June
 
-- Guidance for governments and businesses including six guides on different elements of the scheme including a Rules of Origin specific guide and an [interactive tool which provides tariff information and a look-up tool for product-specific rules](https://www.gov.uk/government/publications/trading-with-developing-nations)
+Guidance for governments and businesses including six guides on different elements of the scheme including a Rules of Origin specific guide and an [interactive tool which provides tariff information and a look-up tool for product-specific rules](https://www.gov.uk/government/publications/trading-with-developing-nations)
 
-- Customs arrangements
+Customs arrangements:
 
-  - [Customs co-operation requirements for the UK Generalised Scheme of Preferences](https://www.gov.uk/government/publications/uk-generalised-scheme-of-preferences-customs-co-operation-requirements/customs-co-operation-requirements-for-the-uk-generalised-scheme-of-preferences)
+- [Customs co-operation requirements for the UK Generalised Scheme of Preferences](https://www.gov.uk/government/publications/uk-generalised-scheme-of-preferences-customs-co-operation-requirements/customs-co-operation-requirements-for-the-uk-generalised-scheme-of-preferences)
 
-  - [Use the UK Generalised Scheme of Preference to import goods](https://www.gov.uk/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods)
+- [Use the UK Generalised Scheme of Preference to import goods](https://www.gov.uk/guidance/use-the-generalised-scheme-of-preferences-to-import-and-export-goods)
 
 ## DCTS legislation
 
@@ -221,11 +218,11 @@ For products that qualify for DCTS currently in a customs warehouse or in transi
 
 <a name="annex1"></a>
 
-## Annex 1: Overview of DCTS Countries
+## Annex 1: Overview of DCTS countries
 
 ### DCTS beneficiaries
 
-The Comprehensive Preferences are those that are Least Developed Countries (LDC)
+The **Comprehensive Preferences** are those that are Least Developed Countries (LDC)
 
 - Afghanistan
 - Angola
@@ -275,7 +272,7 @@ The Comprehensive Preferences are those that are Least Developed Countries (LDC)
 - Yemen
 - Zambia
 
-The Enhanced Preferences are those that are Economically vulnerable, Low income (LICs) and Low-middle income (LMICs) countries:
+The **Enhanced Preferences** are those that are economically vulnerable, Low income (LICs) and Low-middle income (LMICs) countries:
 
 - Algeria
 - Bolivia
@@ -294,7 +291,7 @@ The Enhanced Preferences are those that are Economically vulnerable, Low income 
 - Tajikistan
 - Uzbekistan
 
-Countries under the Standard Preference and LICs and LMICs:
+Countries under the **Standard Preference** are LICs and LMICs:
 
 - India
 - Indonesia
