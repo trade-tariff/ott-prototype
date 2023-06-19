@@ -23,7 +23,7 @@
 {% endblock %}
 
 {% block pageTitle %}
-  HMRC exchange rates
+  {{ year }} HMRC currency exchange rates for Customs and VAT
 {% endblock %}
 
 {% block content %}
@@ -35,9 +35,7 @@
         {{ context.title }}
         {# {% include "includes/scope_switcher_panel.html" %} #}
       </span>
-      <h1 class="govuk-heading-l">{{ year }} HMRC currency exchange rates for Customs and <abbr title="value added tax">VAT</abbr>
-        <!-- in CSV and XML format//-->
-      </h1>
+      <h1 class="govuk-heading-l">{{ year }} HMRC currency exchange rates for Customs and <abbr title="value added tax">VAT</abbr></h1>
     </div>
   </div>
   <div class="govuk-grid-row">
@@ -46,17 +44,18 @@
         Check the official {{ year }} HMRC foreign currency exchange monthly rates for Customs & <abbr title="value added tax">VAT</abbr>.
       </p>
       <p class="govuk-body">
-        Data is available in online (HTML), CSV and XML formats and includes:
+        {# Data is available in online (HTML), CSV and XML formats and includes: #}
+        Data is available in online (HTML), CSV and XML formats.
       </p>
 
-      <ul class="govuk-list govuk-list--bullet">
+      {# <ul class="govuk-list govuk-list--bullet">
         <li>monthly rates for use in <a target="_blank" href="https://www.gov.uk/government/collections/customs-declaration-service">
             <abbr title=" customs declaration service ">CDS</abbr>
           </a> Customs and <abbr title="value added tax">VAT</abbr> transactions
         </li>
         <li>end of month spot rates</li>
         <li>yearly averages</li>
-      </ul>
+      </ul> #}
 
       <div class="govuk-grid-row news-item-grid">
         <div class="govuk-grid-column-two-thirds tariff-print-grid-column-full-width">
