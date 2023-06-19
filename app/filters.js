@@ -572,10 +572,12 @@ module.exports = function (env) {
     }
 
     filters.get_file_size = function (filename) {
-        filename = process.cwd() + filename
-        filename = filename.replace("app/", "")
-        var fh = new FileHandler(filename)
-        return (fh.file_size.toFixed(2))
+        // filename = process.cwd() + filename
+        // filename = filename.replace("app/", "")
+        // var fh = new FileHandler(filename)
+        // var ret = fh.file_size.toFixed(2)
+        var ret = "8.66"
+        return (ret)
     }
 
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {
