@@ -84,7 +84,7 @@ router.get([
     var other_years = ["2023", "2022", "2021", "2020"]
     var rows = []
     var csv_filename = process.cwd() + `/public/exchange_rates/csv/exrates-monthly-${month}${year}.csv`
-    csv_filename = csv_filename.replace("app/", "")
+    // csv_filename = csv_filename.replace("app/", "")
     const fs = require("fs");
     const { parse } = require("csv-parse");
     fs.createReadStream(csv_filename)
@@ -146,7 +146,7 @@ router.get([
     }
     var rows = []
     var csv_filename = process.cwd() + `/public/exchange_rates/spot_rates/spot_rates_20${year}-${month}-31.csv`
-    csv_filename = csv_filename.replace("app/", "")
+    // csv_filename = csv_filename.replace("app/", "")
     const fs = require("fs");
     const { parse } = require("csv-parse");
     fs.createReadStream(csv_filename)
@@ -208,7 +208,7 @@ router.get([
     }
     var rows = []
     var csv_filename = process.cwd() + `/public/exchange_rates/average_rates/average_rates_20${year}-${month}-31.csv`
-    csv_filename = csv_filename.replace("app/", "")
+    // csv_filename = csv_filename.replace("app/", "")
     const fs = require("fs");
     const { parse } = require("csv-parse");
     fs.createReadStream(csv_filename)
