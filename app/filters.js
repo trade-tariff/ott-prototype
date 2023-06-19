@@ -580,14 +580,22 @@ module.exports = function (env) {
             ret = fh.file_size.toFixed(2)
         } catch {
             ret = ""
-            let random = Math.random() * 9;
-            ret += random.toString()
+            let random = get_random_number()
+            ret += get_random_number()
             ret += "."
-            ret += random.toString()
-            ret += random.toString()
+            ret += get_random_number()
+            ret += get_random_number()
         }
+
         return (ret)
+
+        function get_random_number() {
+            var ret = (Math.floor(Math.random() * 9) + 1).toString()
+            return ret
+        }
     }
+
+
 
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {
         if (measure_sid == 20000814) {
