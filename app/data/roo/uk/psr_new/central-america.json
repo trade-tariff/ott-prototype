@@ -26675,7 +26675,7 @@
                               "export": true
                         },
                         {
-                              "rule": "Manufacture from cotton cloth already made up in a form ready for use with materials of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided that:\n\nthe value of the cloth does not exceed **25%** of the ex-works price of the product, *and*\n\nall the other materials used are originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
+                              "rule": "Manufacture from cotton cloth already made up in a form ready for use with materials of [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403), provided that:\n\n- the value of the cloth does not exceed **25%** of the ex-works price of the product, *and*\n\n- all the other materials used are originating and are classified in a heading other than [heading&nbsp;9401](/headings/9401) or [heading&nbsp;9403](/headings/9403).",
                               "class": [
                                     "MAXNOM"
                               ],
