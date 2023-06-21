@@ -8410,6 +8410,22 @@
         },
         {
             "sid": null,
+            "title": "coffee, granules",
+            "goods_nomenclature_item_id": "2101110000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2101110000-10_10"
+        },
+        {
+            "sid": null,
+            "title": "coffee, instant",
+            "goods_nomenclature_item_id": "2101110000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2101110000-10_10"
+        },
+        {
+            "sid": null,
             "title": "coffee extracts, essences and concentrates",
             "goods_nomenclature_item_id": "2101110000-80",
             "productline_suffix": "80",
@@ -10079,6 +10095,14 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "2403190000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "disposable vapes",
+            "goods_nomenclature_item_id": "2404110000-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "2404110000-10_10"
         },
         {
             "sid": null,
@@ -56266,6 +56290,14 @@
         },
         {
             "sid": null,
+            "title": "reslo microphone",
+            "goods_nomenclature_item_id": "8518100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "8518100000-80_80"
+        },
+        {
+            "sid": null,
             "title": "hydrophones",
             "goods_nomenclature_item_id": "8518100090-80",
             "productline_suffix": "80",
@@ -63114,6 +63146,14 @@
         },
         {
             "sid": null,
+            "title": "invisalign aligners",
+            "goods_nomenclature_item_id": "9021100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "9021100000-80_80"
+        },
+        {
+            "sid": null,
             "title": "orthopaedic appliances",
             "goods_nomenclature_item_id": "9021100000-80",
             "productline_suffix": "80",
@@ -63130,7 +63170,23 @@
         },
         {
             "sid": null,
+            "title": "smile direct club aligners",
+            "goods_nomenclature_item_id": "9021100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "9021100000-80_80"
+        },
+        {
+            "sid": null,
             "title": "surgical belts and trusses",
+            "goods_nomenclature_item_id": "9021100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "9021100000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "tooth aligner sets",
             "goods_nomenclature_item_id": "9021100000-80",
             "productline_suffix": "80",
             "class": "Subheading",
@@ -66011,6 +66067,14 @@
         {
             "sid": null,
             "title": "altars, wooden",
+            "goods_nomenclature_item_id": "9403609000-80",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "9403609000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "bookcase shelves, wooden",
             "goods_nomenclature_item_id": "9403609000-80",
             "productline_suffix": "80",
             "class": "Commodity",
