@@ -31,7 +31,7 @@ router.get([
     if ((year == null) || (year == "")) {
         year = "2023"
     }
-    var other_years = ["2023", "2022", "2021", "2020"]
+    var other_years = ["2023", "2022", "2021"]
     if (year == "2023") {
         var month_numbers = {
             "June": "06",
@@ -57,7 +57,7 @@ router.get([
             "January": "01"
         }
     }
-    var other_years = ["2023", "2022", "2021", "2020"]
+    var other_years = ["2023", "2022", "2021"]
     res.render('tools/exchange_rates/exchange_rates', {
         'context': context,
         'months': month_numbers,
@@ -83,7 +83,7 @@ router.get([
     if (year.length > 2) {
         year = year.slice(2, 4)
     }
-    var other_years = ["2023", "2022", "2021", "2020"]
+    var other_years = ["2023", "2022", "2021"]
     var rows = []
     var csv_filename = process.cwd() + `/public/exchange_rates/csv/exrates-monthly-${month}${year}.csv`
     const fs = require("fs");
@@ -117,8 +117,8 @@ router.get([
 ], function (req, res) {
     var context = new Context(req);
     var year = "n/a"
-    var other_years = ["2023", "2022", "2021", "2020"]
-    var spot_years = ["2023", "2022", "2021", "2020"]
+    var other_years = ["2023", "2022", "2021"]
+    var spot_years = ["2023", "2022", "2021"]
     var spot_months = ["December", "March"]
     res.render('tools/exchange_rates/exchange_rate_spot_rates', {
         'context': context,
@@ -179,8 +179,8 @@ router.get([
 ], function (req, res) {
     var context = new Context(req);
     var year = "n/a"
-    var other_years = ["2023", "2022", "2021", "2020"]
-    var average_years = ["2023", "2022", "2021", "2020"]
+    var other_years = ["2023", "2022", "2021"]
+    var average_years = ["2023", "2022", "2021"]
     var average_months = ["December", "March"]
     res.render('tools/exchange_rates/exchange_rate_average_rates', {
         'context': context,
