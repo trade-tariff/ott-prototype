@@ -1378,6 +1378,30 @@
         },
         {
             "sid": null,
+            "title": "skimmed milk, not powdered",
+            "goods_nomenclature_item_id": "0401100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "0401100000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "full-fat (whole) milk, not powdered",
+            "goods_nomenclature_item_id": "0401200000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "0401200000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "semi-skimmed milk, not powdered",
+            "goods_nomenclature_item_id": "0401200000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "0401200000-80_80"
+        },
+        {
+            "sid": null,
             "title": "cream, unsweetened",
             "goods_nomenclature_item_id": "0401400000-80",
             "productline_suffix": "80",
@@ -1391,6 +1415,30 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "0401500000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "single cream",
+            "goods_nomenclature_item_id": "0401501100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "0401501100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "whipping cream",
+            "goods_nomenclature_item_id": "0401503100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "0401503100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "double cream",
+            "goods_nomenclature_item_id": "0401509100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "0401509100-10_10"
         },
         {
             "sid": null,
