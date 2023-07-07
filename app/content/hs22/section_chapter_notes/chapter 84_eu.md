@@ -105,7 +105,7 @@
 
 10. For the purposes of heading [8485](/headings/8485), the expression “additive manufacturing” (also referred to as 3D printing) means the formation of physical objects, based on a digital model, by the successive addition and layering, and consolidation and solidification, of material (for example, metal, plastics or ceramics).
 
-    Subject to Note 1 to Section XVI and Note 1 to Chapter [84](/chapters/84), machines answering to the description in heading [8485](/headings/8485) are to be classified in that heading and in no other heading of the classification.
+    Subject to Note 1 to Section XVI and Note 1 to Chapter [84](/chapters/84), machines answering to the description in heading [8485](/headings/8485) are to be classified in that heading and in no other heading of the Nomenclature.
 
 11. (A) Notes 12(a) and (b) to Chapter [85](/chapters/85) also apply with respect to the expressions 'semiconductor devices' and 'electronic integrated circuits', respectively, as used in this note and in heading [8486](/headings/8486). However, for the purposes of this note and of heading [8486](/headings/8486), the expression 'semiconductor devices' also covers photosensitive semiconductor devices and light emitting diodes.
 

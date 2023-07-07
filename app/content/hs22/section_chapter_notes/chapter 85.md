@@ -113,7 +113,7 @@
 
     - frame rate exceeding 225,000 frames per second
 
-2. In respect of subheading [8525 82](/commodities/8525820000), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 × 103 Gy(silicon) (5 × 106 RAD (silicon)), without operational degradation.
+2. In respect of subheading [8525 82](/commodities/8525820000), radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least 50 × 10<sup>3</sup> Gy(silicon) (5 × 10<sup>6</sup> RAD (silicon)), without operational degradation.
 
 3. Subheading [8525 83](/commodities/8525830000) covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading [8525 89](/commodities/8525890000)).
 

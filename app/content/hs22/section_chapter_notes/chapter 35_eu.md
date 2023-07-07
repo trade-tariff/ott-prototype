@@ -16,4 +16,4 @@
 
 ### Additional chapter note
 
-1. Subheading [3504](/headings/3504) 0010 covers concentrated milk proteins with a protein content of more than 85% by weight, calculated on the dry matter.
+1. Subheading [3504 00 10](/commodities/3504001000) covers concentrated milk proteins with a protein content of more than 85% by weight, calculated on the dry matter.

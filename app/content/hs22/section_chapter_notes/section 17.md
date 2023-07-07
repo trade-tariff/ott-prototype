@@ -20,7 +20,7 @@
     
     ij. arms (Chapter [93](/chapters/93));
     
-    k. luminaires or lighting fittings of heading [9405](/headings/9405);
+    k. luminaires or lighting fittings and parts thereof of heading [9405](/headings/9405);
     
     l. brushes of a kind used as parts of vehicles (heading [9603](/headings/9603)).
 

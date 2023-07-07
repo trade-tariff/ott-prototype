@@ -43,7 +43,7 @@
 
     The term 'municipal waste', however, does not cover:
 
-    a. individual materials or articles segregated from the waste, such as wastes of plastics, rubber, wood, paper, textiles, glass or metals, electrical and electronic waste and scrap (including spent batteries) which fall in their appropriate headings of the classification;
+    a. individual materials or articles segregated from the waste, for example wastes of plastics, rubber, wood, paper, textiles, glass or metals, electrical and electronic waste and scrap (including spent batteries) which fall in their appropriate headings of the classification;
 
     b. industrial waste;
 
@@ -65,7 +65,7 @@
 
     The expression 'other wastes' does not, however, cover wastes which contain mainly petroleum oils or oils obtained from bituminous minerals (heading [2710](/headings/2710)).
 
-7. For the purposes of heading [3826](/headings/3826), the term “biodiesel” means mono-alkyl esters of fatty ac-ids of a kind used as a fuel, derived from animal, vegetable or microbial fats and oils whether or not used. 
+7. For the purposes of heading [3826](/headings/3826), the term “biodiesel” means mono-alkyl esters of fatty acids of a kind used as a fuel, derived from animal, vegetable or microbial fats and oils whether or not used. 
 
 ### Subheading notes
 
@@ -73,7 +73,7 @@
 
 2. Subheadings [3808 61](/commodities/3808610000) to [3808 69](/commodities/3808690000) cover only goods of heading [3808](/headings/3808), containing alpha-cypermethrin (ISO), bendiocarb (ISO), bifenthrin (ISO), chlorfenapyr (ISO), cyfluthrin (ISO), deltamethrin (INN, ISO), etofenprox (INN), fenitrothion (ISO), lambda-cyhalothrin (ISO), malathion (ISO), pirimiphos-methyl (ISO) or propoxur (ISO).
 
-3. Subheadings [3824 81](/commodities/3824810000) to [3824 88](/commodities/3824880000) cover only mixtures and preparations containing one or more of the following substances: oxirane (ethylene oxide), polybrominated biphenyls (PBBs), polychlorinated biphenyls (PCBs), polychlorinated terphenyls (PCTs), tris(2,3-dibromopropyl) phosphate, aldrin (ISO), camphechlor (ISO) (toxaphene), chlordane (ISO), chlordecone (ISO), DDT (ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane), dieldrin (ISO, INN), endosulfan (ISO), endrin (ISO), heptachlor (ISO), mirex (ISO), 1,2,3,4,5,6-hexachlorocyclohexane (HCH (ISO)), including lindane (ISO, INN), pentachlorobenzene (ISO), hexachlorobenzene (ISO), perfluorooctane sulphonic acid, its salts, perfluorooctane sulphonamides, perfluorooctane sulphonyl fluoride or tetra-, penta-, hexa-, hepta- or octabromodiphenyl ethers; short-chain chlorinated paraffins.
+3. Subheadings [3824 81](/commodities/3824810000) to [3824 89](/commodities/3824890000) cover only mixtures and preparations containing one or more of the following substances: oxirane (ethylene oxide), polybrominated biphenyls (PBBs), polychlorinated biphenyls (PCBs), polychlorinated terphenyls (PCTs), tris(2,3-dibromopropyl) phosphate, aldrin (ISO), camphechlor (ISO) (toxaphene), chlordane (ISO), chlordecone (ISO), DDT (ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane), dieldrin (ISO, INN), endosulfan (ISO), endrin (ISO), heptachlor (ISO), mirex (ISO), 1,2,3,4,5,6-hexachlorocyclohexane (HCH (ISO)), including lindane (ISO, INN), pentachlorobenzene (ISO), hexachlorobenzene (ISO), perfluorooctane sulphonic acid, its salts, perfluorooctane sulphonamides, perfluorooctane sulphonyl fluoride or tetra-, penta-, hexa-, hepta- or octabromodiphenyl ethers; short-chain chlorinated paraffins.
 
     Short-chain chlorinated paraffins are mixtures of compounds, with a chlorination degree of more than 48 % by weight, with the following molecular formula : CxH(2x-y+2)Cly, where x=10 - 13 and y= 1 – 13 
 
