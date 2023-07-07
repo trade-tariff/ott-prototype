@@ -105,8 +105,8 @@
         "info": null
     },
     "aquatic_invertebrate_classification": {
-        "display_name": "Type of inverterbrate",
-        "question": "What is the type of inverterbrate?",
+        "display_name": "Type of invertebrate",
+        "question": "What is the type of invertebrate?",
         "info": null
     },
     "art_form": {
@@ -114,7 +114,7 @@
         "question": "What is the artwork form?",
         "info": null
     },
-    "articicial": {
+    "artificial": {
         "display_name": "Artificial",
         "question": "What is the artificial?",
         "info": null
@@ -202,6 +202,11 @@
     "butane_capacity": {
         "display_name": "Butane capacity",
         "question": "What is the butane capacity?",
+        "info": null
+    },
+    "butter_type": {
+        "display_name": "Butter type",
+        "question": "What is the butter type?",
         "info": null
     },
     "cable_type": {
@@ -384,6 +389,11 @@
         "question": "What is the containing?",
         "info": null
     },
+    "containing_asbestos": {
+        "display_name": "Containing asbestos",
+        "question": "What is the containing asbestos?",
+        "info": null
+    },
     "containing_milk_protein": {
         "display_name": "Containing milk protein",
         "question": "What is the containing milk protein?",
@@ -395,8 +405,8 @@
         "info": null
     },
     "containing_sugar": {
-        "display_name": "Containing sugar",
-        "question": "What is the containing sugar?",
+        "display_name": "Containing sugar (sucrose or invert sugar)",
+        "question": "What is the containing sugar (sucrose or invert sugar)?",
         "info": null
     },
     "containing_tobacco": {
@@ -407,11 +417,6 @@
     "containing_tomato": {
         "display_name": "Containing tomato",
         "question": "What is the containing tomato?",
-        "info": null
-    },
-    "containing_asbestos": {
-        "display_name": "Containing asbestos",
-        "question": "What is the containing asbestos?",
         "info": null
     },
     "content": {
@@ -457,11 +462,6 @@
     "current_conducting": {
         "display_name": "Current conducting",
         "question": "What is the current conducting?",
-        "info": null
-    },
-    "glass_cut": {
-        "display_name": "Glass cut",
-        "question": "What is the glass cut?",
         "info": null
     },
     "cut_parts": {
@@ -514,19 +514,14 @@
         "question": "What is the density?",
         "info": null
     },
-    "derived_from": {
-        "display_name": "Derived from",
-        "question": "What is the derived from?",
+    "deterpenated": {
+        "display_name": "Deterpenated",
+        "question": "What is the deterpenated?",
         "info": null
     },
-    "deterpentated": {
-        "display_name": "Deterpentated",
-        "question": "What is the deterpentated?",
-        "info": null
-    },
-    "developed_exposed_state": {
-        "display_name": "Developed exposed state",
-        "question": "What is the developed exposed state?",
+    "developed": {
+        "display_name": "Developed",
+        "question": "What is the developed?",
         "info": null
     },
     "diameter": {
@@ -562,6 +557,11 @@
     "duplicating": {
         "display_name": "Duplicating",
         "question": "What is the duplicating?",
+        "info": null
+    },
+    "dye_type": {
+        "display_name": "Dye or pigment type",
+        "question": "What is the dye or pigment type?",
         "info": null
     },
     "dyed": {
@@ -627,6 +627,11 @@
     "enzyme_type": {
         "display_name": "Enzyme type",
         "question": "What is the enzyme type?",
+        "info": null
+    },
+    "exposed": {
+        "display_name": "Exposed",
+        "question": "What is the exposed?",
         "info": null
     },
     "external_diameter": {
@@ -729,19 +734,14 @@
         "question": "What is the flashing?",
         "info": null
     },
-    "flour_meal_source": {
-        "display_name": "Flour meal source",
-        "question": "What is the flour meal source?",
-        "info": null
-    },
-    "flour_source": {
-        "display_name": "Flour source",
-        "question": "What is the flour source?",
-        "info": null
-    },
     "flour_state": {
         "display_name": "Flour state",
         "question": "What is the flour state?",
+        "info": null
+    },
+    "food_type": {
+        "display_name": "Food type",
+        "question": "What is the food type?",
         "info": null
     },
     "footwear_type": {
@@ -789,11 +789,6 @@
         "question": "What is the fruit vegetable type?",
         "info": null
     },
-    "fur_type": {
-        "display_name": "Fur type",
-        "question": "What is the fur type?",
-        "info": null
-    },
     "garment_accessories_parts": {
         "display_name": "Garment accessories parts",
         "question": "What is the garment accessories parts?",
@@ -817,6 +812,11 @@
     "generator_type": {
         "display_name": "Generator type",
         "question": "What is the generator type?",
+        "info": null
+    },
+    "glass_cut": {
+        "display_name": "Glass cut",
+        "question": "What is the glass cut?",
         "info": null
     },
     "glass_form": {
@@ -845,13 +845,18 @@
         "info": null
     },
     "gravity": {
-        "display_name": "Gravity",
-        "question": "What is the gravity?",
+        "display_name": "Specific gravity",
+        "question": "What is the specific gravity?",
         "info": null
     },
     "grooved": {
         "display_name": "Grooved",
         "question": "What is the grooved?",
+        "info": null
+    },
+    "ground": {
+        "display_name": "Ground",
+        "question": "What is the ground?",
         "info": null
     },
     "handed": {
@@ -1039,11 +1044,6 @@
         "question": "What is the manmade?",
         "info": null
     },
-    "manufactuing_process": {
-        "display_name": "Manufactuing process",
-        "question": "What is the manufactuing process?",
-        "info": null
-    },
     "manufacture_type": {
         "display_name": "Manufacture type",
         "question": "What is the manufacture type?",
@@ -1059,29 +1059,14 @@
         "question": "What is the margarine state?",
         "info": null
     },
-    "materal": {
-        "display_name": "Materal",
-        "question": "What is the materal?",
-        "info": null
-    },
     "material": {
         "display_name": "Material",
         "question": "What is the material?",
         "info": null
     },
-    "material_constrcution": {
-        "display_name": "Material constrcution",
-        "question": "What is the material constrcution?",
-        "info": null
-    },
     "material_construction": {
         "display_name": "Material construction",
         "question": "What is the material construction?",
-        "info": null
-    },
-    "material_constuction": {
-        "display_name": "Material constuction",
-        "question": "What is the material constuction?",
         "info": null
     },
     "material_form": {
@@ -1099,24 +1084,14 @@
         "question": "What is the material state?",
         "info": null
     },
-    "materials": {
-        "display_name": "Materials",
-        "question": "What is the materials?",
-        "info": null
-    },
-    "materual": {
-        "display_name": "Materual",
-        "question": "What is the materual?",
-        "info": null
-    },
-    "matrerial": {
-        "display_name": "Matrerial",
-        "question": "What is the matrerial?",
-        "info": null
-    },
     "measurements": {
         "display_name": "Measurements",
         "question": "What is the measurements?",
+        "info": null
+    },
+    "medical_treatment": {
+        "display_name": "To treat",
+        "question": "What is the to treat?",
         "info": null
     },
     "melt_flow_rate": {
@@ -1154,14 +1129,19 @@
         "question": "What is the milk source?",
         "info": null
     },
-    "milkfat_content": {
-        "display_name": "Milkfat content",
-        "question": "What is the milkfat content?",
-        "info": null
-    },
     "milled_state": {
         "display_name": "Milled state",
         "question": "What is the milled state?",
+        "info": null
+    },
+    "mineral_material": {
+        "display_name": "Material",
+        "question": "What is the material?",
+        "info": null
+    },
+    "mineral_state": {
+        "display_name": "State",
+        "question": "What is the state?",
         "info": null
     },
     "mixed": {
@@ -1219,9 +1199,9 @@
         "question": "What is the mounting?",
         "info": null
     },
-    "mountng_brackets": {
-        "display_name": "Mountng brackets",
-        "question": "What is the mountng brackets?",
+    "mounting_brackets": {
+        "display_name": "Mounting brackets",
+        "question": "What is the mounting brackets?",
         "info": null
     },
     "mushroom_type": {
@@ -1234,9 +1214,9 @@
         "question": "What is the natural?",
         "info": null
     },
-    "new": {
-        "display_name": "New",
-        "question": "What is the new?",
+    "new_used": {
+        "display_name": "Newness",
+        "question": "What is the newness?",
         "info": null
     },
     "nut_state": {
@@ -1344,6 +1324,11 @@
         "question": "What is the packaging purpose?",
         "info": null
     },
+    "paint_type": {
+        "display_name": "Paint type",
+        "question": "What is the paint type?",
+        "info": null
+    },
     "paper_weight": {
         "display_name": "Paper weight",
         "question": "What is the paper weight?",
@@ -1435,8 +1420,13 @@
         "info": null
     },
     "plant_type": {
-        "display_name": "Plant type",
-        "question": "What is the plant type?",
+        "display_name": "Plant type or species",
+        "question": "What is the plant type or species?",
+        "info": null
+    },
+    "plasticised": {
+        "display_name": "Plasticised",
+        "question": "What is the plasticised?",
         "info": null
     },
     "plating": {
@@ -1467,6 +1457,11 @@
     "power_type": {
         "display_name": "Power type",
         "question": "What is the power type?",
+        "info": null
+    },
+    "precious_stone_type": {
+        "display_name": "Type of stone",
+        "question": "What is the type of stone?",
         "info": null
     },
     "prefabricated": {
@@ -1502,11 +1497,6 @@
     "printing_method": {
         "display_name": "Printing method",
         "question": "What is the printing method?",
-        "info": null
-    },
-    "pripose": {
-        "display_name": "Pripose",
-        "question": "What is the pripose?",
         "info": null
     },
     "process": {
@@ -1602,6 +1592,11 @@
     "quality_cut": {
         "display_name": "Quality / cut",
         "question": "What is the quality / cut?",
+        "info": null
+    },
+    "quality_plant": {
+        "display_name": "Quality",
+        "question": "What is the quality?",
         "info": null
     },
     "reaction_mass": {
@@ -1780,8 +1775,8 @@
         "info": null
     },
     "source": {
-        "display_name": "Source",
-        "question": "What is the source?",
+        "display_name": "Source material",
+        "question": "What is the source material?",
         "info": null
     },
     "species": {
@@ -1889,9 +1884,9 @@
         "question": "What is the sugar type?",
         "info": null
     },
-    "sulphur_state": {
-        "display_name": "Sulphur state",
-        "question": "What is the sulphur state?",
+    "sulphur_content": {
+        "display_name": "Sulphur content",
+        "question": "What is the sulphur content?",
         "info": null
     },
     "surface_active_component_or_mixture": {
@@ -1957,6 +1952,11 @@
     "thrust": {
         "display_name": "Thrust",
         "question": "What is the thrust?",
+        "info": null
+    },
+    "tobacco_curing": {
+        "display_name": "Tobacco curing",
+        "question": "What is the tobacco curing?",
         "info": null
     },
     "tobacco_state": {
@@ -2044,6 +2044,11 @@
         "question": "What is the vehicle type?",
         "info": null
     },
+    "vinegar_type": {
+        "display_name": "Vinegar type",
+        "question": "What is the vinegar type?",
+        "info": null
+    },
     "vitamin_type": {
         "display_name": "Vitamin type",
         "question": "What is the vitamin type?",
@@ -2109,6 +2114,11 @@
         "question": "What is the width?",
         "info": null
     },
+    "wine_colour": {
+        "display_name": "Colour",
+        "question": "What is the colour?",
+        "info": null
+    },
     "wine_origin": {
         "display_name": "Wine origin",
         "question": "What is the wine origin?",
@@ -2122,6 +2132,11 @@
     "wired": {
         "display_name": "Wired",
         "question": "What is the wired?",
+        "info": null
+    },
+    "wool_state": {
+        "display_name": "Wool state",
+        "question": "What is the wool state?",
         "info": null
     },
     "wood_type": {

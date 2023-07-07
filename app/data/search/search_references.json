@@ -1386,19 +1386,19 @@
         },
         {
             "sid": null,
-            "title": "full-fat (whole) milk, not powdered",
-            "goods_nomenclature_item_id": "0401200000-80",
-            "productline_suffix": "80",
+            "title": "semi-skimmed milk, not powdered",
+            "goods_nomenclature_item_id": "0401201100-10",
+            "productline_suffix": "10",
             "class": "Subheading",
-            "gnidpls": "0401200000-80_80"
+            "gnidpls": "0401201100-10_10"
         },
         {
             "sid": null,
-            "title": "semi-skimmed milk, not powdered",
-            "goods_nomenclature_item_id": "0401200000-80",
-            "productline_suffix": "80",
+            "title": "full-fat (whole) milk, not powdered",
+            "goods_nomenclature_item_id": "0401209100-10",
+            "productline_suffix": "10",
             "class": "Subheading",
-            "gnidpls": "0401200000-80_80"
+            "gnidpls": "0401209100-10_10"
         },
         {
             "sid": null,
@@ -1426,6 +1426,22 @@
         },
         {
             "sid": null,
+            "title": "sour cream",
+            "goods_nomenclature_item_id": "0401501100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "0401501100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "soured cream",
+            "goods_nomenclature_item_id": "0401501100-10",
+            "productline_suffix": "10",
+            "class": "Subheading",
+            "gnidpls": "0401501100-10_10"
+        },
+        {
+            "sid": null,
             "title": "whipping cream",
             "goods_nomenclature_item_id": "0401503100-10",
             "productline_suffix": "10",
@@ -1439,6 +1455,14 @@
             "productline_suffix": "10",
             "class": "Subheading",
             "gnidpls": "0401509100-10_10"
+        },
+        {
+            "sid": null,
+            "title": "cr\u00e8me fra\u00eeche",
+            "goods_nomenclature_item_id": "0402000000",
+            "productline_suffix": "80",
+            "class": "Heading",
+            "gnidpls": "0402000000_80"
         },
         {
             "sid": null,
@@ -1547,6 +1571,14 @@
         {
             "sid": null,
             "title": "curd",
+            "goods_nomenclature_item_id": "0406100000-80",
+            "productline_suffix": "80",
+            "class": "Subheading",
+            "gnidpls": "0406100000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "fromage frais",
             "goods_nomenclature_item_id": "0406100000-80",
             "productline_suffix": "80",
             "class": "Subheading",
