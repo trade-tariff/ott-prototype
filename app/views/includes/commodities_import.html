@@ -1,4 +1,10 @@
 <h2 class="govuk-heading-l">{{ context.tab_title_import }}</h2>
+
+{% for spr_include in spr_includes %}
+    {% set filename = "spr_conditions/_small_producer_relief_X" + spr_include + ".html" %}
+    {% include filename %}
+{% endfor %}
+
 <nav>
     <ul class="app-contents app-contents--s govuk-!-margin-bottom-0">
         {% for display_block in commodity.display_blocks %}

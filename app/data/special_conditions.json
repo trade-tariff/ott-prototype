@@ -1,10 +1,17 @@
 [
     {
-        "goods_nomenclature_item_id": "2203000100",
+        "goods_nomenclature_item_id": "x2203000100",
         "additional_code": "X440",
         "measure_type_id": "306",
         "content_file": "small_breweries_relief_440.html",
         "overwrite": true
+    },
+    {
+        "goods_nomenclature_item_id": "2203000100",
+        "additional_code": "X440",
+        "measure_type_id": "306",
+        "content_file": "_small_producers_relief.html",
+        "overwrite": false
     },
     {
         "goods_nomenclature_item_id": "2203000100",

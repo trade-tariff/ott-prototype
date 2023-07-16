@@ -407,6 +407,7 @@ router.get([
                     context.show_chief = true;
                     context.show_cds = true;
                     context.add_to_commodity_history(c.goods_nomenclature_item_id, c.description, req, res);
+                    var spr_includes = ['301', '311', '312', '313', '314', '315', '321', '322', '323', '324', '325', '331', '333', '334', '335', '341', '343', '344', '345', '351', '352', '353', '354', '355', '356', '357', '358', '359', '360', '361', '362', '363', '364', '365', '366', '367', '368', '369', '370', '371', '372', '373', '374', '375', '376', '377', '378', '379', '380']
 
                     res.render('commodities', {
                         'context': context,
@@ -414,7 +415,8 @@ router.get([
                         'countries': countries,
                         'roo': roo_mvp,
                         'toggle_message': toggle_message,
-                        'commodity': c
+                        'commodity': c,
+                        "spr_includes": spr_includes
                     });
 
                     // res.render('commodities', {
