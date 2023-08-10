@@ -1,0 +1,42 @@
+<article class="headings-list">
+    {% for item in corpus %}
+    {# {{ item | dump }} #}
+        {% if item.leaf == false %}
+            <details class="deque-expander">
+                <summary class="deque-expander-summary {{ item.heading_class }}">
+                    <div class="subheading">
+                        <div class="heading-commodity-code commodity-split">
+                            <span class="govuk-visually-hidden">Commodity </span>{{ item.heading_code | safe }}
+                        </div>
+                        <div class="heading-description">
+                            {{ item.description | safe }}{% if context.is_local %}&nbsp;<a target="window_{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/commodities/{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}/search_references"><img class="references" src="/public/images/references/references.png"></a>{% endif %}
+                        </div>
+                    </div>
+                </summary>
+
+                <div class="deque-expander-content">
+                    {% set corpus = item.children %}
+                    {% include "./deque_nested_xi.html" %}
+                </div>
+            </details>
+        {% else %}
+
+            <div class="endline">
+                <div class="heading-commodity-code commodity-split">
+                    <span class="govuk-visually-hidden">Commodity </span>{{ item.goods_nomenclature_item_id | format_and_trim_commodity_code(true) | safe }}</div>
+                <div class="heading-supplementary-unit">
+                    <span class="govuk-visually-hidden">Supp. unit </span>{{ item.supplementary_unit | safe }}</div>
+                <div class="heading-third-country-duty">
+                    <span class="govuk-visually-hidden">Third-country duty </span>{{ item.mfn | safe }}</div>
+                <div class="heading-vat">
+                    <span class="govuk-visually-hidden">VAT </span>{{ item.vat | safe }}</div>
+                <div class="heading-description">
+                    <a href="/commodities/{{ item.goods_nomenclature_item_id }}">
+                        {{ item.description | safe }}{% if context.is_local %}&nbsp;<a target="window_{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/commodities/{{ item.goods_nomenclature_item_id }}-{{ item.productline_suffix }}/search_references"><img class="references" src="/public/images/references/references.png"></a>{% endif %}
+                    </a>
+                </div>
+            </div>
+
+        {% endif %}
+    {% endfor %}
+</article>

@@ -179,6 +179,7 @@ router.get(['/chapters/:chapterId', '/:scope_id/chapters/:chapterId'], async fun
 // Browse within a heading
 router.get(['/headings/:headingId', '/:scope_id/headings/:headingId'], async function (req, res) {
     var heading_id = req.params["headingId"];
+    console.log("here");
     if (req.url.includes("uk")) {
         url = "/headings/" + heading_id
         res.redirect(url)
@@ -195,6 +196,12 @@ router.get(['/headings/:headingId', '/:scope_id/headings/:headingId'], async fun
         }
 
         const axiosrequest1 = axios.get(url);
+        var html_template = "";
+        if (context.scope_id == "xi") {
+            html_template = "headings";
+        } else {
+            html_template = "headings";
+        }
         try {
             await axios.all([axiosrequest1]).then(axios.spread(function (response) {
                 h = new Heading(response.data);
@@ -215,7 +222,7 @@ router.get(['/headings/:headingId', '/:scope_id/headings/:headingId'], async fun
                     context.value_classifier = h.data.attributes.goods_nomenclature_item_id.substr(0, 4);
                     context.value_description = h.data.attributes.formatted_description;
                     context.set_description_class()
-                    res.render('headings', {
+                    res.render(html_template, {
                         'context': context,
                         'heading': h
                     });
@@ -247,7 +254,7 @@ router.get([
         res.redirect("/headings/" + goods_nomenclature_item_id);
     } else {
         var context = new Context(req, "subheading");
-        var url = "https://www.trade-tariff.service.gov.uk/api/v2/subheadings/" + goods_nomenclature_item_id + "-" + productline_suffix;
+        var url = "https://www.trade-tariff.service.gov.uk/xi/api/v2/subheadings/" + goods_nomenclature_item_id + "-" + productline_suffix;
         axios.get(url)
             .then((response) => {
                 h = new Heading(response.data, goods_nomenclature_item_id);

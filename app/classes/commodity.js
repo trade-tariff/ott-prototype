@@ -55,6 +55,7 @@ class Commodity {
         this.vat = null
         this.unit_values = null
         this.excise_supplementary = false
+        this.rando = "argertyx"
 
         this.get_heading_class()
 

@@ -42,7 +42,6 @@
         {% endif %}
     {% endfor %}
 
-
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
             {% set title_len = heading.data.attributes.formatted_description | length %}
@@ -101,44 +100,198 @@
             //-->
             <!-- End section / chapter notes //-->
 
-            <!-- Start footnotes //-->
-            <h2 class="govuk-heading-m govuk-!-margin-top-6">Footnotes</h2>
-            <article class="section_chapter_notes">
-                <table class="govuk-table">
-                    {# <caption class="govuk-table__caption">Footnotes</caption> #}
-                    <thead class="govuk-table__head">
-                        <tr class="govuk-table__row">
-                            <th scope="col" class="govuk-table__header">Code</th>
-                            <th scope="col" class="govuk-table__header">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody class="govuk-table__body">
-                        {% for item in heading.footnotes %}
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-three-quarters govuk-!-margin-top-5">
+                    <h2 class="govuk-heading-m">Can I use this subheading to declare goods moving from GB
+                    to Northern Ireland via the Green Lane?</h2>
+                    <div class="govuk-!-padding-5 govuk-!-margin-bottom-5" style="background-color:#f6f6f6">
+                        <p>You may be able to use subheading <b>411410</b> to move goods from GB to Northern Ireland
+                        under certain circumstances.</p>
+                        <p>This trade may be either <b>category 2</b> or <b>category 3</b>.</p>
+                        <details class="govuk-details  govuk-!-margin-bottom-0" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                                <span class="govuk-details__summary-text">
+                                Categorisation under the Windsor Framework
+                            </span>
+                            </summary>
+                            <div class="govuk-details__text">
+                                <p class="govuk-!-margin-top-3 govuk-!-margin-bottom-3">Lorem ipsum dolor site amet.</p>
+                                <table class="govuk-table ">
+                                    <thead class="govuk-table__head">
+                                        <tr class="govuk-table__row">
+                                            <th scope="col" class="govuk-table__header govuk-!-padding-right-9">Category</th>
+                                            <th scope="col" class="govuk-table__header">What does this mean for me?</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="govuk-table__body">
+                                        <tr class="govuk-table__row">
+                                            <td class="govuk-table__cell nw">Category 1</td>
+                                            <td class="govuk-table__cell">
+                                                <ul class="govuk-list">
+                                                    <li>You need to use the full H1 declaration.</li>
+                                                    <li>You must declare your goods to the full 10 digits.</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr class="govuk-table__row">
+                                            <td class="govuk-table__cell nw">Category 2</td>
+                                            <td class="govuk-table__cell">
+                                                <ul class="govuk-list">
+                                                    <li>You may use the new H8 declaration</li>
+                                                    <li>You must declare your goods to 8 digits.</li>
+                                                </ul>
+
+                                            </td>
+                                        </tr>
+                                        <tr class="govuk-table__row">
+                                            <td class="govuk-table__cell nw">Category 3</td>
+                                            <td class="govuk-table__cell">
+                                                <ul class="govuk-list">
+                                                    <li>You may use the new H8 declaration</li>
+                                                    <li>You may declare your goods to 6 digits.</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </details>
+                    </div>
+
+                    {# <h4 class="govuk-heading-s">Where are your goods coming from?</h4> #}
+
+                    <div class="govuk-form-group">
+                        <fieldset class="govuk-fieldset">
+                            <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                <h1 class="govuk-fieldset__heading">Where are your goods coming from?</h1>
+                            </legend>
+                            <div id="changed-name-hint" class="govuk-hint">
+                                There are import controls applied to this subheading which might impact
+                                which catgeory you can use for your trade that depend on the origin on your goods.
+                            </div>
+                            <div class="govuk-radios" data-module="govuk-radios">
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+                                        England, Scotland or Wales
+                                    </label>
+                                </div>
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">European Union</label>
+                                </div>
+                                <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">Somewhere else</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <button class="govuk-button" data-module="govuk-button">Continue</button>
+
+
+
+                    <h4 class="govuk-heading-s">Review categorisation criteria</h4>
+                    <p>Review the 1 categorisation criterion below. If your trade is not covered by 
+                    <!--any of these criteria //--> this criterion, then you may use this 6 digit code (<b>411410</b>) and an H8 declaration
+                    for moving goods from GB to Northern Ireland.</p>
+
+                    <h5 class="govuk-heading-xs">Import control on seals</h4>
+                    <p>On the following commodity code, there is a control of type "import control on seals"</p>
+                    <table class="govuk-table">
+                        {# <caption class="govuk-table__caption govuk-table__caption--m">Dates and amounts</caption> #}
+                        <thead class="govuk-table__head">
                             <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">{{ item.code }}</td>
-                                <td class="govuk-table__cell">{{ item.description | safe }}</td>
+                                <th scope="col" class="govuk-table__header">Commodity</th>
+                                <th scope="col" class="govuk-table__header">Description</th>
                             </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </article>
-            <!-- End footnotes //-->
-            <div class="bottom_switcher">
-                {% include "includes/scope_switcher_panel.html" %}
+                        </thead>
+                        <tbody class="govuk-table__body">
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">4114 10 90</td>
+                                <td class="govuk-table__cell">Of other animals</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>If your item belongs to this group, please review the documentary requirements needed for "Import control on seals":
+
+                    <table class="govuk-table">
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header">Document code</th>
+                                    <th scope="col" class="govuk-table__header">Description</th>
+                                    <th scope="col" class="govuk-table__header govuk-!-padding-left-2 govuk-!-padding-right-2">Category</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">C679</td>
+                                    <td class="govuk-table__cell">Attesting Document (seal product), issued by a recognised body in accordance with Regulation (EU) No 737/2010 prior to 18 October 2015</td>
+                                    <td class="govuk-table__cell nw govuk-!-padding-left-2 govuk-!-padding-right-2" style="background-color:#f6f6f6">Category 2</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">C680</td>
+                                    <td class="govuk-table__cell">Written notification of import and document giving evidence where the products were acquired (seal product)</td>
+                                    <td class="govuk-table__cell nw govuk-!-padding-left-2 govuk-!-padding-right-2" style="background-color:#f6f6f6">Category 2</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">C683</td>
+                                    <td class="govuk-table__cell">European Union - Attesting document for seal products resulting from hunt by Inuit or other indigenous communities for placing on the Union's market in accordance with Article 3 (1) of Regulation (EC) No 1007/2009 on trade in seal products</td>
+                                    <td class="govuk-table__cell nw govuk-!-padding-left-2 govuk-!-padding-right-2" style="background-color:#f6f6f6">Category 2</td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">Y032</td>
+                                    <td class="govuk-table__cell">Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)</td>
+                                    <td class="govuk-table__cell nw govuk-!-padding-left-2 govuk-!-padding-right-2" style="background-color:#f6f6f6">Category 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p>Find out about the <a href="#">conditions for using the green lane</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Start footnotes //-->
+                {% if 1 > 2 %}
+                    <h2 class="govuk-heading-m govuk-!-margin-top-6">Footnotes</h2>
+                    <article class="section_chapter_notes">
+                        <table class="govuk-table">
+                            {# <caption class="govuk-table__caption">Footnotes</caption> #}
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th scope="col" class="govuk-table__header">Code</th>
+                                    <th scope="col" class="govuk-table__header">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                {% for item in heading.footnotes %}
+                                    <tr class="govuk-table__row">
+                                        <td class="govuk-table__cell">{{ item.code }}</td>
+                                        <td class="govuk-table__cell">{{ item.description | safe }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </article>
+                {% endif %}
+                <!-- End footnotes //-->
+                <div class="bottom_switcher">
+                    {% include "includes/scope_switcher_panel.html" %}
+                </div>
             </div>
         </div>
+
     </div>
+    <script type="text/javascript" src="/public/javascripts/debounce.js"></script>
+    <script type="text/javascript" src="/public/javascripts/commodities.js"></script>
 
-</div>
-<script type="text/javascript" src="/public/javascripts/debounce.js"></script>
-<script type="text/javascript" src="/public/javascripts/commodities.js"></script>
-
-<script>
-    $(function () {
-        GOVUK
-            .tariff
-            .onLoad();
-    });
-</script>
+    <script>
+        $(function () {
+            GOVUK
+                .tariff
+                .onLoad();
+        });
+    </script>
 
 {% endblock %}

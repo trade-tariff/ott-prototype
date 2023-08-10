@@ -91,9 +91,11 @@
                     <a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="https://tariff-admin-production.london.cloudapps.digital/search_references/headings/{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}/search_references">** EDIT SEARCH REFERENCES FOR THIS HEADING **<img class="references" src="/public/images/references/references2.png"></a>
                 </p>
             {% endif %}
-
-            {% include "includes/heading_include.html" %}
-
+            {% if context.scope_id == "xi" %}
+                {% include "includes/heading_include_xi.html" %}
+            {% else %}
+                {% include "includes/heading_include.html" %}
+            {% endif %}
             {% if context.guides | length > 0 %}
                 {% for guide in context.guides %}
                     <div class="classification_guide">

@@ -115,7 +115,7 @@ class Context {
         } else {
             this.is_local = false
         }
-        var a = 1;
+        this.is_local = false
     }
 
     set_default_article_content() {
