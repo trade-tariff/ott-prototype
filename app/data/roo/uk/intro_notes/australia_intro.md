@@ -40,8 +40,7 @@
 
 ### SECTION II VEGETABLE PRODUCTS
 
-An agricultural or horticultural good grown in the territory of a Party is originating even if grown from seed, bulbs, rhizomes, rootstock, cuttings, slips, grafts, shoots, buds or other live parts of plants that are imported from a non-
-Party.
+An agricultural or horticultural good grown in the territory of a Party is originating even if grown from seed, bulbs, rhizomes, rootstock, cuttings, slips, grafts, shoots, buds or other live parts of plants that are imported from a non-Party.
 
 
 ### SECTION VI PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES

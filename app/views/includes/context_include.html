@@ -134,7 +134,6 @@
         {% endif %}
         {% if context.flag_show_edit_references_link == 1 %}
             {% if context.is_local %}
-                {# {% if commodity.search_references | length > 0 %} #}
                 <div class="govuk-summary-list__row">
                     <dt class="govuk-summary-list__key">Classification tags<a target="window_{{ heading.data.attributes.goods_nomenclature_item_id | substring(0, 4) }}" href="{{ admin_link }}"><img class="references" src="/public/images/references/references2.png"></a>
                     </dt>
@@ -145,7 +144,6 @@
                     </dd>
                     <dd class="govuk-summary-list__actions">&nbsp;</dd>
                 </div>
-                {# {% endif %} #}
             {% endif %}
         {% endif %}
 
