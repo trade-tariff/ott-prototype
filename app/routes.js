@@ -446,7 +446,6 @@ router.get([
             const axiosrequest2 = axios.get(url_roo);
             await axios.all([axiosrequest1, axiosrequest2]).then(axios.spread(function (response1, response2) {
                 c = new Commodity();
-                var a = 1
                 var roo_psrs = new RooFixer(response2.data, context)
                 c.country = context.country;
                 c.pass_request(req);

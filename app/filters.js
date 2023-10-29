@@ -397,7 +397,6 @@ module.exports = function (env) {
                             matches2.forEach(match => {
                                 var match2 = match.replace("<h2 class='govuk-heading-m'>", "").replace("</h2>", "").trim()
                                 var match3 = match2.toLowerCase().replace(/[^0-9a-z]/ig, "-")
-                                var a = 1
                                 markdown_text = markdown_text.replace(match, "<h2 class='govuk-heading-m' id='" + match3 + "'>" + match2 + "</h2>");
                             });
                         }
@@ -485,10 +484,6 @@ module.exports = function (env) {
 
     filters.highlight = function (s, term) {
         const pluralize = require('pluralize');
-
-        if (s.includes("phosphorus and potassium;")) {
-            var a = 1;
-        }
 
         if (typeof term !== 'undefined') {
             var all_terms = [];
@@ -598,9 +593,6 @@ module.exports = function (env) {
 
 
     filters.unabbreviate = function (s, measure_type_id, measure_sid) {
-        if (measure_sid == 20000814) {
-            var a = 1;
-        }
         var _ = require('lodash');
         var supplementary_units = ['109', '110', '111']
 
@@ -611,7 +603,6 @@ module.exports = function (env) {
                 s_old = s
 
                 if (measurement_unit["full"]) {
-                    var a = 1;
                     if (s == measurement_unit["old"]) {
                         s = measurement_unit["new"]
                     }

@@ -107,8 +107,6 @@ class Calculation {
     }
 
     addVatRate = function(calc) {
-        var a = 1;
-        var b = 2;
         calc.calculation_string = calc.calculation_string.replace(/customs value/g, "customs value inc. import duty");
         this.vat = calc;
     }

@@ -49,6 +49,7 @@ class Context {
         } catch {
             this.flag_show_edit_references_link = 0
         }
+        // this.flag_show_edit_references_link = 1
     }
 
     sort_chapters(chapter) {
@@ -115,7 +116,7 @@ class Context {
         } else {
             this.is_local = false
         }
-        this.is_local = false
+        // this.is_local = false
     }
 
     set_default_article_content() {
