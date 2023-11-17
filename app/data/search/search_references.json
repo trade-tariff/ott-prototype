@@ -11639,33 +11639,6 @@
         },
         {
             "sid": null,
-            "title": "disposable vapes",
-            "formatted_title": "Disposable vapes",
-            "goods_nomenclature_item_id": "2404110000-10",
-            "productline_suffix": "10",
-            "class": "Subheading",
-            "gnidpls": "2404110000-10_10"
-        },
-        {
-            "sid": null,
-            "title": "e-cigarettes, disposable",
-            "formatted_title": "E-cigarettes, disposable",
-            "goods_nomenclature_item_id": "2404110000-10",
-            "productline_suffix": "10",
-            "class": "Subheading",
-            "gnidpls": "2404110000-10_10"
-        },
-        {
-            "sid": null,
-            "title": "vapes, disposable",
-            "formatted_title": "Vapes, disposable",
-            "goods_nomenclature_item_id": "2404110000-10",
-            "productline_suffix": "10",
-            "class": "Subheading",
-            "gnidpls": "2404110000-10_10"
-        },
-        {
-            "sid": null,
             "title": "e-cigarette cartridges",
             "formatted_title": "E-cigarette cartridges",
             "goods_nomenclature_item_id": "2404120010",
@@ -66656,6 +66629,24 @@
         },
         {
             "sid": null,
+            "title": "non-disposable e-cigarettes",
+            "formatted_title": "Non-disposable e-cigarettes",
+            "goods_nomenclature_item_id": "8543400000",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "8543400000_80"
+        },
+        {
+            "sid": null,
+            "title": "non-disposable electronic cigarettes",
+            "formatted_title": "Non-disposable electronic cigarettes",
+            "goods_nomenclature_item_id": "8543400000",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "8543400000_80"
+        },
+        {
+            "sid": null,
             "title": "mine detectors",
             "formatted_title": "Mine detectors",
             "goods_nomenclature_item_id": "8543700000-80",
@@ -66716,6 +66707,24 @@
             "productline_suffix": "80",
             "class": "Subheading",
             "gnidpls": "8543709000-80_80"
+        },
+        {
+            "sid": null,
+            "title": "e-cigarette cartridges, empty",
+            "formatted_title": "E-cigarette cartridges, empty",
+            "goods_nomenclature_item_id": "8543900000",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "8543900000_80"
+        },
+        {
+            "sid": null,
+            "title": "electronic cigarette cartridges, empty",
+            "formatted_title": "Electronic cigarette cartridges, empty",
+            "goods_nomenclature_item_id": "8543900000",
+            "productline_suffix": "80",
+            "class": "Commodity",
+            "gnidpls": "8543900000_80"
         },
         {
             "sid": null,
