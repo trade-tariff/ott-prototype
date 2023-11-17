@@ -1,7 +1,7 @@
 {
       "rule_sets": [
             {
-                  "heading": "Chapter 01",
+                  "heading": "chapter 01",
                   "chapter": 1,
                   "subdivision": "Live animals",
                   "min": "0100000000",
@@ -22,7 +22,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 02",
+                  "heading": "chapter 02",
                   "chapter": 2,
                   "subdivision": "Meat and edible meat offal",
                   "min": "0200000000",
@@ -43,7 +43,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 03",
+                  "heading": "chapter 03",
                   "chapter": 3,
                   "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
                   "min": "0300000000",
@@ -108,7 +108,7 @@
             {
                   "heading": "0403",
                   "chapter": 4,
-                  "subdivision": "Watch straps, watch bands and watch bracelets, and parts thereof \u25b8 Buttermilk, curdled milk and cream, yoghurt, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa",
+                  "subdivision": " \u25b8 Buttermilk, curdled milk and cream, yoghurt, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa",
                   "min": "0403000000",
                   "max": "0403999999",
                   "rules": [
@@ -316,7 +316,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 06",
+                  "heading": "chapter 06",
                   "chapter": 6,
                   "subdivision": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
                   "min": "0600000000",
@@ -337,7 +337,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 07",
+                  "heading": "chapter 07",
                   "chapter": 7,
                   "subdivision": "Edible vegetables and certain roots and tubers",
                   "min": "0700000000",
@@ -358,7 +358,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 08",
+                  "heading": "chapter 08",
                   "chapter": 8,
                   "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
                   "min": "0800000000",
@@ -610,7 +610,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 10",
+                  "heading": "chapter 10",
                   "chapter": 10,
                   "subdivision": "Cereals",
                   "min": "1000000000",
@@ -671,7 +671,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 12",
+                  "heading": "chapter 12",
                   "chapter": 12,
                   "subdivision": "Oils seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
                   "min": "1200000000",
@@ -755,7 +755,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 14",
+                  "heading": "chapter 14",
                   "chapter": 14,
                   "subdivision": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
                   "min": "1400000000",
@@ -991,7 +991,26 @@
                   "valid": true
             },
             {
-                  "heading": "1507-1515",
+                  "heading": "1507",
+                  "chapter": 15,
+                  "subdivision": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetables waxes",
+                  "min": "1507000000",
+                  "max": "1507999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "1507 to 1515",
                   "chapter": 15,
                   "subdivision": "Vegetables oils and their fractions \u25b8 Soya, ground nut, palm, copra, palm kernel, babassu, tung and oiticica oil, myrtle wax and Japan wax, fractions of jojoba oil and oils for technical or industrial uses other than the manufacture of foodstuffs for human consumption",
                   "min": "1507000000",
@@ -1010,7 +1029,7 @@
                   "valid": true
             },
             {
-                  "heading": "1507-1515",
+                  "heading": "1507 to 1515",
                   "chapter": 15,
                   "subdivision": "Vegetables oils and their fractions \u25b8 Solid fractions except for that of jojoba oil",
                   "min": "1507000000",
@@ -1029,7 +1048,7 @@
                   "valid": true
             },
             {
-                  "heading": "1507-1515",
+                  "heading": "1507 to 1515",
                   "chapter": 15,
                   "subdivision": "Vegetables oils and their fractions \u25b8 Other",
                   "min": "1507000000",
@@ -1168,7 +1187,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1600000000",
@@ -1349,7 +1368,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 18",
+                  "heading": "chapter 18",
                   "chapter": 18,
                   "subdivision": "Cocoa and cocoa preparations",
                   "min": "1800000000",
@@ -2731,7 +2750,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 26",
+                  "heading": "chapter 26",
                   "chapter": 26,
                   "subdivision": "Ores, slag and ash",
                   "min": "2600000000",
@@ -4975,7 +4994,28 @@
                   "valid": true
             },
             {
-                  "heading": "3003-3004",
+                  "heading": "3003",
+                  "subdivision": "Pharmaceutical products",
+                  "min": "3003000000",
+                  "max": "3003999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 30
+            },
+            {
+                  "heading": "3003 to 3004",
                   "chapter": 30,
                   "subdivision": "Medicaments (excluding goods of heading No 3002, 3005 or 3006) \u25b8 Obtained from amikacin of heading No 2941",
                   "min": "3003000000",
@@ -4997,7 +5037,7 @@
                   "valid": true
             },
             {
-                  "heading": "3003-3004",
+                  "heading": "3003 to 3004",
                   "chapter": 30,
                   "subdivision": "Medicaments (excluding goods of heading No 3002, 3005 or 3006) \u25b8 Other",
                   "min": "3003000000",
@@ -5016,6 +5056,27 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "3004",
+                  "subdivision": "Pharmaceutical products",
+                  "min": "3004000000",
+                  "max": "3004999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 30
             },
             {
                   "heading": "3005",
@@ -5271,7 +5332,39 @@
                   "valid": true
             },
             {
-                  "heading": "3204-3206",
+                  "heading": "3204",
+                  "chapter": 32,
+                  "subdivision": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
+                  "min": "3204000000",
+                  "max": "3204999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product. However, materials classified within the same heading may be used provided their value does not exceed **20%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "3204 to 3206",
                   "chapter": 32,
                   "subdivision": "Synthetic organic colouring matter, colour lakes; preparations and other colouring matter",
                   "min": "3204000000",
@@ -6365,7 +6458,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 36",
+                  "heading": "chapter 36",
                   "chapter": 36,
                   "subdivision": "Explosives; pyrotechnic products; pyrophoric alloys; certain combustible preparations",
                   "min": "3600000000",
@@ -7686,7 +7779,7 @@
                   "valid": true
             },
             {
-                  "heading": "3902-3906",
+                  "heading": "3902 to 3906",
                   "chapter": 39,
                   "subdivision": "Polymers of propylene or other olefins: polymers of styrene; polymers of vinyl chloride or of other halogenated olefins; polymers of vinyl acetate or other vinyl esters; acrylic polymers: all in primary forms",
                   "min": "3902000000",
@@ -7792,7 +7885,7 @@
                   "valid": true
             },
             {
-                  "heading": "3908-3911",
+                  "heading": "3908 to 3911",
                   "chapter": 39,
                   "subdivision": "Polyamides; amino-resins, phenolic resins and polyurethanes; silicones; petroleum resins, coumumarone-inede resins, polyterpenes, polysulphides, polysulphones and other products; all in primary forms",
                   "min": "3908000000",
@@ -7845,7 +7938,7 @@
                   "valid": true
             },
             {
-                  "heading": "3913-3914",
+                  "heading": "3913 to 3914",
                   "chapter": 39,
                   "subdivision": "Natural polymers and modified natural polymers not elsewhere specified or included; ion-exchangers based on polymers of heading Nos 3901 to 3913, in primary forms",
                   "min": "3913000000",
@@ -7941,7 +8034,7 @@
                   "valid": true
             },
             {
-                  "heading": "3916-3921",
+                  "heading": "3916 to 3921",
                   "chapter": 39,
                   "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Flat products, further worked than only surface-worked or cut into forms other than rectangular (including square); other products, further worked than only surface-worked",
                   "min": "3916000000",
@@ -7973,7 +8066,7 @@
                   "valid": true
             },
             {
-                  "heading": "3916-3921",
+                  "heading": "3916 to 3921",
                   "chapter": 39,
                   "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Addition homopolymerisation products in which a single monomer contributes more than 99% by weight to the total polymer content",
                   "min": "3916000000",
@@ -8005,7 +8098,7 @@
                   "valid": true
             },
             {
-                  "heading": "3916-3921",
+                  "heading": "3916 to 3921",
                   "chapter": 39,
                   "subdivision": "Semi-manufactures and articles of plastics; except for headings Nos ex 3916, ex 3917, ex 3920 and ex 3921, for which the rules are set out below \u25b8 Other \u25b8 Other",
                   "min": "3916000000",
@@ -8154,7 +8247,7 @@
                   "valid": true
             },
             {
-                  "heading": "3922-3926",
+                  "heading": "3922 to 3926",
                   "chapter": 39,
                   "subdivision": "Articles of plastics",
                   "min": "3922000000",
@@ -8681,7 +8774,7 @@
                   "valid": true
             },
             {
-                  "heading": "4104-4107",
+                  "heading": "4104 to 4107",
                   "chapter": 41,
                   "subdivision": "Leather, without hair or wool, other than leather of heading No 4108 or 4109",
                   "min": "4104000000",
@@ -8809,7 +8902,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 42",
+                  "heading": "chapter 42",
                   "chapter": 42,
                   "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk worm gut)",
                   "min": "4200000000",
@@ -9287,7 +9380,7 @@
                   "chapter": 45
             },
             {
-                  "heading": "Chapter 46",
+                  "heading": "chapter 46",
                   "chapter": 46,
                   "subdivision": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
                   "min": "4600000000",
@@ -9306,7 +9399,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 47",
+                  "heading": "chapter 47",
                   "chapter": 47,
                   "subdivision": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
                   "min": "4700000000",
@@ -10162,7 +10255,26 @@
                   "valid": true
             },
             {
-                  "heading": "5004-5005",
+                  "heading": "5004",
+                  "chapter": 50,
+                  "subdivision": "Silk",
+                  "min": "5004000000",
+                  "max": "5004999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "5004 to 5005",
                   "chapter": 50,
                   "subdivision": "Silk yarn and yarn spun from silk waste",
                   "min": "5004000000",
@@ -10369,7 +10481,26 @@
                   "chapter": 51
             },
             {
-                  "heading": "5106-5110",
+                  "heading": "5106",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5106000000",
+                  "max": "5106999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5106 to 5110",
                   "chapter": 51,
                   "subdivision": "Yarn of wool, of fine or coarse animal hair or of horsehair",
                   "min": "5106000000",
@@ -10390,7 +10521,102 @@
                   "valid": true
             },
             {
-                  "heading": "5111-5113",
+                  "heading": "5107",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5107000000",
+                  "max": "5107999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5108",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5108000000",
+                  "max": "5108999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5109",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5109000000",
+                  "max": "5109999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5110",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5110000000",
+                  "max": "5110999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5111",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5111000000",
+                  "max": "5111999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5111 to 5113",
                   "chapter": 51,
                   "subdivision": "Woven fabrics of wool, of fine or coarse animal hair or of horsehair \u25b8 Incorporating rubber thread",
                   "min": "5111000000",
@@ -10411,7 +10637,7 @@
                   "valid": true
             },
             {
-                  "heading": "5111-5113",
+                  "heading": "5111 to 5113",
                   "chapter": 51,
                   "subdivision": "Woven fabrics of wool, of fine or coarse animal hair or of horsehair \u25b8 Other",
                   "min": "5111000000",
@@ -10428,6 +10654,44 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "5112",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5112000000",
+                  "max": "5112999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5113",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5113000000",
+                  "max": "5113999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
             },
             {
                   "heading": "5201",
@@ -10487,7 +10751,26 @@
                   "chapter": 52
             },
             {
-                  "heading": "5204-5207",
+                  "heading": "5204",
+                  "subdivision": "Cotton",
+                  "min": "5204000000",
+                  "max": "5204999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5204 to 5207",
                   "chapter": 52,
                   "subdivision": "Yarn and thread of cotton",
                   "min": "5204000000",
@@ -10508,7 +10791,83 @@
                   "valid": true
             },
             {
-                  "heading": "5208-5212",
+                  "heading": "5205",
+                  "subdivision": "Cotton",
+                  "min": "5205000000",
+                  "max": "5205999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5206",
+                  "subdivision": "Cotton",
+                  "min": "5206000000",
+                  "max": "5206999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5207",
+                  "subdivision": "Cotton",
+                  "min": "5207000000",
+                  "max": "5207999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5208",
+                  "subdivision": "Cotton",
+                  "min": "5208000000",
+                  "max": "5208999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5208 to 5212",
                   "chapter": 52,
                   "subdivision": "Woven fabrics of cotton \u25b8 Incorporating rubber thread",
                   "min": "5208000000",
@@ -10529,7 +10888,7 @@
                   "valid": true
             },
             {
-                  "heading": "5208-5212",
+                  "heading": "5208 to 5212",
                   "chapter": 52,
                   "subdivision": "Woven fabrics of cotton \u25b8 Other",
                   "min": "5208000000",
@@ -10546,6 +10905,82 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "5209",
+                  "subdivision": "Cotton",
+                  "min": "5209000000",
+                  "max": "5209999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5210",
+                  "subdivision": "Cotton",
+                  "min": "5210000000",
+                  "max": "5210999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5211",
+                  "subdivision": "Cotton",
+                  "min": "5211000000",
+                  "max": "5211999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5212",
+                  "subdivision": "Cotton",
+                  "min": "5212000000",
+                  "max": "5212999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
             },
             {
                   "heading": "5301",
@@ -10624,7 +11059,26 @@
                   "chapter": 53
             },
             {
-                  "heading": "5306-5308",
+                  "heading": "5306",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5306000000",
+                  "max": "5306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5306 to 5308",
                   "chapter": 53,
                   "subdivision": "Yarn of other vegetable textile fibres; paper yarn",
                   "min": "5306000000",
@@ -10645,7 +11099,64 @@
                   "valid": true
             },
             {
-                  "heading": "5309-5311",
+                  "heading": "5307",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5307000000",
+                  "max": "5307999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5308",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5308000000",
+                  "max": "5308999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5309",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5309000000",
+                  "max": "5309999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5309 to 5311",
                   "chapter": 53,
                   "subdivision": "Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn \u25b8 Incorporating rubber thread",
                   "min": "5309000000",
@@ -10666,7 +11177,7 @@
                   "valid": true
             },
             {
-                  "heading": "5309-5311",
+                  "heading": "5309 to 5311",
                   "chapter": 53,
                   "subdivision": "Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn \u25b8 Other",
                   "min": "5309000000",
@@ -10696,7 +11207,45 @@
                   "valid": true
             },
             {
-                  "heading": "5401-5406",
+                  "heading": "5310",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5310000000",
+                  "max": "5310999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5311",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5311000000",
+                  "max": "5311999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5401 to 5406",
                   "chapter": 54,
                   "subdivision": "Yarn, monofilament and thread of man-made filaments",
                   "min": "5401000000",
@@ -10717,7 +11266,7 @@
                   "valid": true
             },
             {
-                  "heading": "5407-5408",
+                  "heading": "5407 to 5408",
                   "chapter": 54,
                   "subdivision": "Woven fabrics of man-made filament yarn \u25b8 Incorporating rubber thread",
                   "min": "5407000000",
@@ -10738,7 +11287,7 @@
                   "valid": true
             },
             {
-                  "heading": "5407-5408",
+                  "heading": "5407 to 5408",
                   "chapter": 54,
                   "subdivision": "Woven fabrics of man-made filament yarn \u25b8 Other",
                   "min": "5407000000",
@@ -10768,7 +11317,7 @@
                   "valid": true
             },
             {
-                  "heading": "5501-5507",
+                  "heading": "5501 to 5507",
                   "chapter": 55,
                   "subdivision": "Man-made staple fibres",
                   "min": "5501000000",
@@ -10789,7 +11338,7 @@
                   "valid": true
             },
             {
-                  "heading": "5508-5511",
+                  "heading": "5508 to 5511",
                   "chapter": 55,
                   "subdivision": "Yarn and sewing thread of man-made staple fibres",
                   "min": "5508000000",
@@ -10810,7 +11359,7 @@
                   "valid": true
             },
             {
-                  "heading": "5512-5516",
+                  "heading": "5512 to 5516",
                   "chapter": 55,
                   "subdivision": "Woven fabrics of man-made staple fibres \u25b8 Incorporating rubber thread",
                   "min": "5512000000",
@@ -10831,7 +11380,7 @@
                   "valid": true
             },
             {
-                  "heading": "5512-5516",
+                  "heading": "5512 to 5516",
                   "chapter": 55,
                   "subdivision": "Woven fabrics of man-made staple fibres \u25b8 Other",
                   "min": "5512000000",
@@ -11560,7 +12109,7 @@
                   "valid": true
             },
             {
-                  "heading": "5802-5804",
+                  "heading": "5802 to 5804",
                   "chapter": 58,
                   "subdivision": "Terry towelling and similar woven terry fabrics, other than narrow fabrics of heading No 5 06; tufted textile fabrics, other than products of heading No 5703; gauze, other than narrow fabrics of heading No 5 06; tulles and other net fabrics, not including woven, knitted or crocheted fabrics; lace in the piece, in strips or in motifs \u25b8 Combined with rubber thread",
                   "min": "5802000000",
@@ -11581,7 +12130,7 @@
                   "valid": true
             },
             {
-                  "heading": "5802-5804",
+                  "heading": "5802 to 5804",
                   "chapter": 58,
                   "subdivision": "Terry towelling and similar woven terry fabrics, other than narrow fabrics of heading No 5 06; tufted textile fabrics, other than products of heading No 5703; gauze, other than narrow fabrics of heading No 5 06; tulles and other net fabrics, not including woven, knitted or crocheted fabrics; lace in the piece, in strips or in motifs \u25b8 Other",
                   "min": "5802000000",
@@ -11690,7 +12239,7 @@
                   "valid": true
             },
             {
-                  "heading": "5807-5809",
+                  "heading": "5807 to 5809",
                   "chapter": 58,
                   "subdivision": "Labels, badges and similar articles of textile materials, in the piece, in strips or cut to shape or size, not embroidered; braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles; woven fabrics of metal thread and woven fabrics of metallised yarn of heading No 5605, of a kind used in apparel, as furnishing fabrics or of similar purposes, not elsewhere specified or included \u25b8 Combined with rubber thread",
                   "min": "5807000000",
@@ -11711,7 +12260,7 @@
                   "valid": true
             },
             {
-                  "heading": "5807-5809",
+                  "heading": "5807 to 5809",
                   "chapter": 58,
                   "subdivision": "Labels, badges and similar articles of textile materials, in the piece, in strips or cut to shape or size, not embroidered; braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles; woven fabrics of metal thread and woven fabrics of metallised yarn of heading No 5605, of a kind used in apparel, as furnishing fabrics or of similar purposes, not elsewhere specified or included \u25b8 Other",
                   "min": "5807000000",
@@ -12095,7 +12644,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Polishing discs or rings other than of felt of heading No 5911",
                   "min": "5909000000",
@@ -12114,7 +12663,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Woven fabrics, of a kind commonly used in papermaking or other technical uses, felted or not, whether or not impregnated or coated, tubular or endless with single or multiple warp and/or weft, or flat woven with multiple warp and/or weft of heading No 5911",
                   "min": "5909000000",
@@ -12133,7 +12682,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Other",
                   "min": "5909000000",
@@ -12154,7 +12703,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 60",
+                  "heading": "chapter 60",
                   "chapter": 60,
                   "subdivision": "Knitted of crocheted fabrics",
                   "min": "6000000000",
@@ -13798,7 +14347,37 @@
                   "valid": true
             },
             {
-                  "heading": "6213-6214",
+                  "heading": "6213",
+                  "chapter": 62,
+                  "subdivision": "Articles of apparel and clothing accessories, not knitted or crocheted",
+                  "min": "6213000000",
+                  "max": "6213999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from yarn.",
+                              "class": [
+                                    "PRODUCTION FROM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Printing accompanied by at least two preparatory or finishing operations (such as scouring, bleaching, mercerising, heat setting, raising, calendering, shrink- resistance processing, permanent finishing, decatising, impregnating, mending and burling) where the value of the unprinted fabric used does not exceed **47.5%** of the ex-works price of the printed fabric.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "6213 to 6214",
                   "chapter": 62,
                   "subdivision": "Handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 Embroidered",
                   "min": "6213000000",
@@ -13839,7 +14418,7 @@
                   "valid": true
             },
             {
-                  "heading": "6213-6214",
+                  "heading": "6213 to 6214",
                   "chapter": 62,
                   "subdivision": "Handkerchiefs, shawls, scarves, mufflers, mantillas, veils and the like \u25b8 Other",
                   "min": "6213000000",
@@ -14074,7 +14653,26 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6301000000",
+                  "max": "6301999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc; curtains etc; other furnishing articles \u25b8 Of felt, of nonwovens",
                   "min": "6301000000",
@@ -14095,7 +14693,7 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc; curtains etc; other furnishing articles \u25b8 Other \u25b8 Embroidered",
                   "min": "6301000000",
@@ -14136,7 +14734,7 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc; curtains etc; other furnishing articles \u25b8 Other \u25b8 Other",
                   "min": "6301000000",
@@ -14164,6 +14762,63 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "6302",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6302000000",
+                  "max": "6302999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6303",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6303000000",
+                  "max": "6303999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6304",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6304000000",
+                  "max": "6304999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
             },
             {
                   "heading": "6305",
@@ -14330,7 +14985,7 @@
                   "valid": true
             },
             {
-                  "heading": "6402-6404",
+                  "heading": "6402 to 6404",
                   "chapter": 64,
                   "subdivision": "**Applies only to goods exported by the United Kingdom to Mexico within the set annual quotas.**<br>\nFootwear of plastics, leather and textiles",
                   "min": "6402000000",
@@ -14596,7 +15251,7 @@
                   "chapter": 66
             },
             {
-                  "heading": "Chapter 67",
+                  "heading": "chapter 67",
                   "chapter": 67,
                   "subdivision": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair",
                   "min": "6700000000",
@@ -14697,7 +15352,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 69",
+                  "heading": "chapter 69",
                   "chapter": 69,
                   "subdivision": "Ceramic products",
                   "min": "6900000000",
@@ -15946,7 +16601,26 @@
                   "valid": true
             },
             {
-                  "heading": "7208-7216",
+                  "heading": "7208",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7208000000",
+                  "max": "7208999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7208 to 7216",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
                   "min": "7208000000",
@@ -16022,7 +16696,26 @@
                   "valid": true
             },
             {
-                  "heading": "7219-7222",
+                  "heading": "7219",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7219000000",
+                  "max": "7219999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7219 to 7222",
                   "chapter": 72,
                   "subdivision": "Semi-finished products, flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
                   "min": "7219000000",
@@ -16098,7 +16791,26 @@
                   "valid": true
             },
             {
-                  "heading": "7225-7228",
+                  "heading": "7225",
+                  "chapter": 72,
+                  "subdivision": "Iron and steel",
+                  "min": "7225000000",
+                  "max": "7225999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7225 to 7228",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
                   "min": "7225000000",
@@ -16212,7 +16924,26 @@
                   "valid": true
             },
             {
-                  "heading": "7304-7306",
+                  "heading": "7304",
+                  "chapter": 73,
+                  "subdivision": "Articles of iron or steel",
+                  "min": "7304000000",
+                  "max": "7304999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which all the materials used are classified within a heading other than that of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "7304 to 7306",
                   "chapter": 73,
                   "subdivision": "Tubes, pipes and hollow profiles, of iron (other than cast iron) or steel",
                   "min": "7304000000",
@@ -17011,7 +17742,28 @@
                   "chapter": 74
             },
             {
-                  "heading": "7501-7503",
+                  "heading": "7501",
+                  "subdivision": "Nickel and articles thereof",
+                  "min": "7501000000",
+                  "max": "7501999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 75
+            },
+            {
+                  "heading": "7501 to 7503",
                   "chapter": 75,
                   "subdivision": "Nickel mattes, nickel oxide sinters and other intermediate products of nickel metallurgy; unwrought nickel; nickel waste and scrap",
                   "min": "7501000000",
@@ -17028,6 +17780,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7502",
+                  "subdivision": "Nickel and articles thereof",
+                  "min": "7502000000",
+                  "max": "7502999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 75
+            },
+            {
+                  "heading": "7503",
+                  "subdivision": "Nickel and articles thereof",
+                  "min": "7503000000",
+                  "max": "7503999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 75
             },
             {
                   "heading": "7504",
@@ -17736,7 +18530,28 @@
                   "valid": true
             },
             {
-                  "heading": "8002-8007",
+                  "heading": "8002",
+                  "subdivision": "Tin and articles thereof",
+                  "min": "8002000000",
+                  "max": "8002999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 80
+            },
+            {
+                  "heading": "8002 to 8007",
                   "chapter": 80,
                   "subdivision": "Tin waste and scrap; other articles of tin",
                   "min": "8002000000",
@@ -17753,6 +18568,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "8003",
+                  "subdivision": "Tin and articles thereof",
+                  "min": "8003000000",
+                  "max": "8003999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 80
+            },
+            {
+                  "heading": "8007",
+                  "subdivision": "Tin and articles thereof",
+                  "min": "8007000000",
+                  "max": "8007999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **50%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 80
             },
             {
                   "heading": "8101",
@@ -19761,7 +20618,39 @@
                   "valid": true
             },
             {
-                  "heading": "8425-8428",
+                  "heading": "8425",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8425000000",
+                  "max": "8425999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8425 to 8428",
                   "chapter": 84,
                   "subdivision": "Lifting, handling, loading or unloading machinery",
                   "min": "8425000000",
@@ -20315,7 +21204,39 @@
                   "valid": true
             },
             {
-                  "heading": "8444-8447",
+                  "heading": "8444",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8444000000",
+                  "max": "8444999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8444 to 8447",
                   "chapter": 84,
                   "subdivision": "Machines of these headings for use in the textile industry",
                   "min": "8444000000",
@@ -20623,7 +21544,39 @@
                   "valid": true
             },
             {
-                  "heading": "8456-8466",
+                  "heading": "8456",
+                  "chapter": 84,
+                  "subdivision": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+                  "min": "8456000000",
+                  "max": "8456999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8456 to 8466",
                   "chapter": 84,
                   "subdivision": "Machine tools and machines and their parts and accessories of heading Nos 8456 to 8466",
                   "min": "8456000000",
@@ -20708,7 +21661,7 @@
                   "valid": true
             },
             {
-                  "heading": "8469-8472",
+                  "heading": "8469 to 8472",
                   "chapter": 84,
                   "subdivision": "Office machines (for example, typewriters, calculating machines, automatic data-processing machines, duplicating machines, stapling machines)",
                   "min": "8469000000",
@@ -22161,7 +23114,39 @@
                   "valid": true
             },
             {
-                  "heading": "8527-8528",
+                  "heading": "8527",
+                  "chapter": 85,
+                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "min": "8527000000",
+                  "max": "8527999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8527 to 8528",
                   "chapter": 85,
                   "subdivision": "Reception apparatus for radio telephony, radio telegraphy or radio broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock \u25b8 Radio broadcast receivers not capable or operating without an external source of power, of a kind use in motor vehicles, including apparatus capable of receiving also radio telephony or radio telegraphy, without laser reading system",
                   "min": "8527000000",
@@ -22191,7 +23176,7 @@
                   "valid": true
             },
             {
-                  "heading": "8527-8528",
+                  "heading": "8527 to 8528",
                   "chapter": 85,
                   "subdivision": "Reception apparatus for radio telephony, radio telegraphy or radio broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock \u25b8 Other",
                   "min": "8527000000",
@@ -22223,7 +23208,7 @@
                   "valid": true
             },
             {
-                  "heading": "8527-8528",
+                  "heading": "8527 to 8528",
                   "chapter": 85,
                   "subdivision": "Reception apparatus for television, whether or not incorporating radio broadcast receivers or sound or video recording or reproducing apparatus; video monitors and video projectors",
                   "min": "8527000000",
@@ -22468,7 +23453,39 @@
                   "valid": true
             },
             {
-                  "heading": "8535-8536",
+                  "heading": "8535",
+                  "chapter": 85,
+                  "subdivision": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+                  "min": "8535000000",
+                  "max": "8535999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture in which:\n\n- all the materials used are classified within a heading other than that of the product,\n\n- the value of all the materials used does not exceed **40%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Manufacture in which the value of all the materials used does not exceed **30%** of the ex-works price of the product.",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "8535 to 8536",
                   "chapter": 85,
                   "subdivision": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits",
                   "min": "8535000000",
@@ -23917,7 +24934,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 89",
+                  "heading": "chapter 89",
                   "chapter": 89,
                   "subdivision": "Ships, boats and floating structures",
                   "min": "8900000000",
@@ -25441,7 +26458,7 @@
                   "chapter": 91
             },
             {
-                  "heading": "Chapter 92",
+                  "heading": "chapter 92",
                   "chapter": 92,
                   "subdivision": "Musical instruments; parts and accessories of such articles",
                   "min": "9200000000",
@@ -25462,7 +26479,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 93",
+                  "heading": "chapter 93",
                   "chapter": 93,
                   "subdivision": "Arms and ammunition; parts and accessories thereof",
                   "min": "9300000000",
@@ -26355,7 +27372,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 97",
+                  "heading": "chapter 97",
                   "chapter": 97,
                   "subdivision": "Works of art, collectors' pieces and antiques",
                   "min": "9700000000",

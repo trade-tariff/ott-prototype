@@ -1,7 +1,7 @@
 {
       "rule_sets": [
             {
-                  "heading": "Chapter 1",
+                  "heading": "chapter 1",
                   "chapter": 1,
                   "subdivision": "Live animals",
                   "min": "0100000000",
@@ -22,7 +22,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 2",
+                  "heading": "chapter 2",
                   "chapter": 2,
                   "subdivision": "Meat and edible meat offal",
                   "min": "0200000000",
@@ -43,7 +43,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 3",
+                  "heading": "chapter 3",
                   "chapter": 3,
                   "subdivision": "Fish and crustaceans, molluscs and other aquatic invertebrates",
                   "min": "0300000000",
@@ -276,7 +276,7 @@
                   "chapter": 4
             },
             {
-                  "heading": "Chapter 5",
+                  "heading": "chapter 5",
                   "chapter": 5,
                   "subdivision": "Products of animal origin, not elsewhere specified or included",
                   "min": "0500000000",
@@ -297,7 +297,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 6",
+                  "heading": "chapter 6",
                   "chapter": 6,
                   "subdivision": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
                   "min": "0600000000",
@@ -319,7 +319,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 7",
+                  "heading": "chapter 7",
                   "chapter": 7,
                   "subdivision": "Edible vegetables and certain roots and tubers",
                   "min": "0700000000",
@@ -340,7 +340,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 8",
+                  "heading": "chapter 8",
                   "chapter": 8,
                   "subdivision": "Edible fruit and nuts; peel of citrus fruits or melons",
                   "min": "0800000000",
@@ -887,7 +887,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 10",
+                  "heading": "chapter 10",
                   "chapter": 10,
                   "subdivision": "Cereals",
                   "min": "1000000000",
@@ -1118,7 +1118,7 @@
                   "chapter": 11
             },
             {
-                  "heading": "Chapter 12",
+                  "heading": "chapter 12",
                   "chapter": 12,
                   "subdivision": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
                   "min": "1200000000",
@@ -1263,7 +1263,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 14",
+                  "heading": "chapter 14",
                   "chapter": 14,
                   "subdivision": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
                   "min": "1400000000",
@@ -1620,7 +1620,7 @@
                   "valid": true
             },
             {
-                  "heading": "1509-1510",
+                  "heading": "1509 to 1510",
                   "chapter": 15,
                   "subdivision": "Olive oil and its fractions, other oils and their fractions obtained solely from olives",
                   "min": "1509000000",
@@ -1662,7 +1662,7 @@
                   "valid": true
             },
             {
-                  "heading": "1509-1510",
+                  "heading": "1509 to 1510",
                   "chapter": 15,
                   "subdivision": "Olive oil and its fractions, other oils and their fractions obtained solely from olives",
                   "min": "1510000000",
@@ -2376,7 +2376,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1601000000",
@@ -2397,7 +2397,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1602000000",
@@ -2418,7 +2418,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1603000000",
@@ -2439,7 +2439,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604110000",
@@ -2460,7 +2460,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604120000",
@@ -2481,7 +2481,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604130000",
@@ -2502,7 +2502,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604140000",
@@ -2523,7 +2523,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604150000",
@@ -2544,7 +2544,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604160000",
@@ -2565,7 +2565,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604170000",
@@ -2586,7 +2586,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604180000",
@@ -2607,7 +2607,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604190000",
@@ -2628,7 +2628,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604200000",
@@ -2668,7 +2668,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604310000",
@@ -2689,7 +2689,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1604320000",
@@ -2710,7 +2710,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 16",
+                  "heading": "chapter 16",
                   "chapter": 16,
                   "subdivision": "Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates",
                   "min": "1605000000",
@@ -3026,7 +3026,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 18",
+                  "heading": "chapter 18",
                   "chapter": 18,
                   "subdivision": "Cocoa and cocoa preparations",
                   "min": "1800000000",
@@ -5788,7 +5788,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 26",
+                  "heading": "chapter 26",
                   "chapter": 26,
                   "subdivision": "Ores, slag and ash",
                   "min": "2600000000",
@@ -5809,7 +5809,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 27",
+                  "heading": "chapter 27",
                   "chapter": 27,
                   "subdivision": "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
                   "min": "2700000000",
@@ -5830,7 +5830,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 28",
+                  "heading": "chapter 28",
                   "chapter": 28,
                   "subdivision": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radio active elements or of isotopes;",
                   "min": "2800000000",
@@ -9380,7 +9380,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 36",
+                  "heading": "chapter 36",
                   "chapter": 36,
                   "subdivision": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
                   "min": "3600000000",
@@ -10867,7 +10867,7 @@
                   "valid": true
             },
             {
-                  "heading": "382311-382319",
+                  "heading": "382311 to 382319",
                   "chapter": 38,
                   "subdivision": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols \u25b8 Industrial monocarboxylic fatty acids, acid oils from refining",
                   "min": "3823110000",
@@ -10921,7 +10921,7 @@
                   "valid": true
             },
             {
-                  "heading": "382311-382319",
+                  "heading": "382311 to 382319",
                   "chapter": 38,
                   "subdivision": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols \u25b8 Industrial monocarboxylic fatty acids, acid oils from refining",
                   "min": "3823120000",
@@ -10975,7 +10975,7 @@
                   "valid": true
             },
             {
-                  "heading": "382311-382319",
+                  "heading": "382311 to 382319",
                   "chapter": 38,
                   "subdivision": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols \u25b8 Industrial monocarboxylic fatty acids, acid oils from refining",
                   "min": "3823130000",
@@ -11029,7 +11029,7 @@
                   "valid": true
             },
             {
-                  "heading": "382311-382319",
+                  "heading": "382311 to 382319",
                   "chapter": 38,
                   "subdivision": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols \u25b8 Industrial monocarboxylic fatty acids, acid oils from refining",
                   "min": "3823190000",
@@ -11269,7 +11269,7 @@
                   "valid": true
             },
             {
-                  "heading": "3901-3921",
+                  "heading": "3901 to 3921",
                   "chapter": 39,
                   "subdivision": "Plastics in primary forms, waste, parings and scrap, of plastic; semi- manufactures and articles of plastics",
                   "min": "3901000000",
@@ -11385,7 +11385,7 @@
                   "valid": true
             },
             {
-                  "heading": "3922-3926",
+                  "heading": "3922 to 3926",
                   "chapter": 39,
                   "subdivision": "Articles of plastics",
                   "min": "3922000000",
@@ -12373,7 +12373,28 @@
                   "chapter": 41
             },
             {
-                  "heading": "4104-4106",
+                  "heading": "4104",
+                  "subdivision": "Raw hides and skins (other than furskins) and leather",
+                  "min": "4104000000",
+                  "max": "4104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 41
+            },
+            {
+                  "heading": "4104 to 4106",
                   "chapter": 41,
                   "subdivision": "Tanned or crust hides and skins, without wool or hair on, whether or not split, but not further prepared",
                   "min": "4104000000",
@@ -12390,6 +12411,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "4105",
+                  "subdivision": "Raw hides and skins (other than furskins) and leather",
+                  "min": "4105000000",
+                  "max": "4105999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 41
+            },
+            {
+                  "heading": "4106",
+                  "subdivision": "Raw hides and skins (other than furskins) and leather",
+                  "min": "4106000000",
+                  "max": "4106999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 41
             },
             {
                   "heading": "4107",
@@ -12497,7 +12560,7 @@
                   "chapter": 41
             },
             {
-                  "heading": "Chapter 42",
+                  "heading": "chapter 42",
                   "chapter": 42,
                   "subdivision": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk worm gut)",
                   "min": "4200000000",
@@ -13547,7 +13610,7 @@
                   "chapter": 45
             },
             {
-                  "heading": "Chapter 46",
+                  "heading": "chapter 46",
                   "chapter": 46,
                   "subdivision": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
                   "min": "4600000000",
@@ -13568,7 +13631,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 47",
+                  "heading": "chapter 47",
                   "chapter": 47,
                   "subdivision": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
                   "min": "4700000000",
@@ -14880,7 +14943,28 @@
                   "chapter": 51
             },
             {
-                  "heading": "5106-5110",
+                  "heading": "5106",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5106000000",
+                  "max": "5106999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5106 to 5110",
                   "chapter": 51,
                   "subdivision": "Yarn of wool, of fine or coarse animal hair or of horsehair",
                   "min": "5106000000",
@@ -14901,7 +14985,112 @@
                   "valid": true
             },
             {
-                  "heading": "5111-5113",
+                  "heading": "5107",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5107000000",
+                  "max": "5107999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5108",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5108000000",
+                  "max": "5108999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5109",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5109000000",
+                  "max": "5109999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5110",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5110000000",
+                  "max": "5110999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5111",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5111000000",
+                  "max": "5111999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5111 to 5113",
                   "chapter": 51,
                   "subdivision": "Woven fabrics of wool, of fine or coarse animal hair or of horsehair \u25b8 Incorporating rubber thread",
                   "min": "5111000000",
@@ -14922,7 +15111,7 @@
                   "valid": true
             },
             {
-                  "heading": "5111-5113",
+                  "heading": "5111 to 5113",
                   "chapter": 51,
                   "subdivision": "Woven fabrics of wool, of fine or coarse animal hair or of horsehair \u25b8 Other",
                   "min": "5111000000",
@@ -14950,6 +15139,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "5112",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5112000000",
+                  "max": "5112999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
+            },
+            {
+                  "heading": "5113",
+                  "subdivision": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+                  "min": "5113000000",
+                  "max": "5113999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 51
             },
             {
                   "heading": "5201",
@@ -15015,7 +15246,28 @@
                   "chapter": 52
             },
             {
-                  "heading": "5204-5207",
+                  "heading": "5204",
+                  "subdivision": "Cotton",
+                  "min": "5204000000",
+                  "max": "5204999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5204 to 5207",
                   "chapter": 52,
                   "subdivision": "Yarn and thread of cotton",
                   "min": "5204000000",
@@ -15036,7 +15288,91 @@
                   "valid": true
             },
             {
-                  "heading": "5208-5212",
+                  "heading": "5205",
+                  "subdivision": "Cotton",
+                  "min": "5205000000",
+                  "max": "5205999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5206",
+                  "subdivision": "Cotton",
+                  "min": "5206000000",
+                  "max": "5206999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5207",
+                  "subdivision": "Cotton",
+                  "min": "5207000000",
+                  "max": "5207999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5208",
+                  "subdivision": "Cotton",
+                  "min": "5208000000",
+                  "max": "5208999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5208 to 5212",
                   "chapter": 52,
                   "subdivision": "Woven fabrics of cotton \u25b8 Incorporating rubber thread",
                   "min": "5208000000",
@@ -15057,7 +15393,7 @@
                   "valid": true
             },
             {
-                  "heading": "5208-5212",
+                  "heading": "5208 to 5212",
                   "chapter": 52,
                   "subdivision": "Woven fabrics of cotton \u25b8 Other",
                   "min": "5208000000",
@@ -15085,6 +15421,90 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "5209",
+                  "subdivision": "Cotton",
+                  "min": "5209000000",
+                  "max": "5209999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5210",
+                  "subdivision": "Cotton",
+                  "min": "5210000000",
+                  "max": "5210999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5211",
+                  "subdivision": "Cotton",
+                  "min": "5211000000",
+                  "max": "5211999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
+            },
+            {
+                  "heading": "5212",
+                  "subdivision": "Cotton",
+                  "min": "5212000000",
+                  "max": "5212999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 52
             },
             {
                   "heading": "5301",
@@ -15171,7 +15591,28 @@
                   "chapter": 53
             },
             {
-                  "heading": "5306-5308",
+                  "heading": "5306",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5306000000",
+                  "max": "5306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5306 to 5308",
                   "chapter": 53,
                   "subdivision": "Yarn of other vegetable textile fibres; paper yarn",
                   "min": "5306000000",
@@ -15192,7 +15633,70 @@
                   "valid": true
             },
             {
-                  "heading": "5309-5311",
+                  "heading": "5307",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5307000000",
+                  "max": "5307999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5308",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5308000000",
+                  "max": "5308999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5309",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5309000000",
+                  "max": "5309999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5309 to 5311",
                   "chapter": 53,
                   "subdivision": "Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn \u25b8 Incorporating rubber thread",
                   "min": "5309000000",
@@ -15213,7 +15717,7 @@
                   "valid": true
             },
             {
-                  "heading": "5309-5311",
+                  "heading": "5309 to 5311",
                   "chapter": 53,
                   "subdivision": "Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn \u25b8 Other",
                   "min": "5309000000",
@@ -15243,7 +15747,49 @@
                   "valid": true
             },
             {
-                  "heading": "5401-5406",
+                  "heading": "5310",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5310000000",
+                  "max": "5310999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5311",
+                  "subdivision": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+                  "min": "5311000000",
+                  "max": "5311999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 53
+            },
+            {
+                  "heading": "5401 to 5406",
                   "chapter": 54,
                   "subdivision": "Yarn, monofilament and thread of man-made filaments",
                   "min": "5401000000",
@@ -15264,7 +15810,7 @@
                   "valid": true
             },
             {
-                  "heading": "5407-5408",
+                  "heading": "5407 to 5408",
                   "chapter": 54,
                   "subdivision": "Woven fabrics of man-made filament yarn \u25b8 Incorporating rubber thread",
                   "min": "5407000000",
@@ -15285,7 +15831,7 @@
                   "valid": true
             },
             {
-                  "heading": "5407-5408",
+                  "heading": "5407 to 5408",
                   "chapter": 54,
                   "subdivision": "Woven fabrics of man-made filament yarn \u25b8 Other",
                   "min": "5407000000",
@@ -15345,7 +15891,7 @@
                   "valid": true
             },
             {
-                  "heading": "5501-5507",
+                  "heading": "5501 to 5507",
                   "chapter": 55,
                   "subdivision": "Man-made staple fibres",
                   "min": "5501000000",
@@ -15366,7 +15912,7 @@
                   "valid": true
             },
             {
-                  "heading": "5508-5511",
+                  "heading": "5508 to 5511",
                   "chapter": 55,
                   "subdivision": "Yarn and sewing thread of man-made staple fibres",
                   "min": "5508000000",
@@ -15387,7 +15933,7 @@
                   "valid": true
             },
             {
-                  "heading": "5512-5516",
+                  "heading": "5512 to 5516",
                   "chapter": 55,
                   "subdivision": "Woven fabrics of man-made staple fibres \u25b8 Incorporating rubber thread",
                   "min": "5512000000",
@@ -15408,7 +15954,7 @@
                   "valid": true
             },
             {
-                  "heading": "5512-5516",
+                  "heading": "5512 to 5516",
                   "chapter": 55,
                   "subdivision": "Woven fabrics of man-made staple fibres \u25b8 Other",
                   "min": "5512000000",
@@ -16813,7 +17359,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Polishing discs or rings other than of felt of heading 5911",
                   "min": "5909000000",
@@ -16834,7 +17380,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Woven fabrics, of a kind commonly used in papermaking or other technical uses, felted or not, whether or not impregnated or coated, tubular or endless with single or multiple warp and/or weft, or flat woven with multiple warp and/or weft of heading 5911",
                   "min": "5909000000",
@@ -16855,7 +17401,7 @@
                   "valid": true
             },
             {
-                  "heading": "5909-5911",
+                  "heading": "5909 to 5911",
                   "chapter": 59,
                   "subdivision": "Textile articles of a kind suitable for industrial use \u25b8 Other",
                   "min": "5909000000",
@@ -16876,7 +17422,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 60",
+                  "heading": "chapter 60",
                   "chapter": 60,
                   "subdivision": "Knitted or crocheted fabrics",
                   "min": "6000000000",
@@ -16897,7 +17443,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 61",
+                  "heading": "chapter 61",
                   "chapter": 61,
                   "subdivision": "Articles of apparel and clothing accessories, knitted or crocheted",
                   "min": "6100000000",
@@ -17001,7 +17547,28 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6301000000",
+                  "max": "6301999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Of felt, of nonwovens",
                   "min": "6301000000",
@@ -17022,7 +17589,7 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Other \u25b8 - Embroidered",
                   "min": "6301000000",
@@ -17054,7 +17621,7 @@
                   "valid": true
             },
             {
-                  "heading": "6301-6304",
+                  "heading": "6301 to 6304",
                   "chapter": 63,
                   "subdivision": "Blankets, travelling rugs, bed linen etc.; curtains etc.; other furnishing articles \u25b8 Other \u25b8 - Other",
                   "min": "6301000000",
@@ -17073,6 +17640,69 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "6302",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6302000000",
+                  "max": "6302999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6303",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6303000000",
+                  "max": "6303999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
+            },
+            {
+                  "heading": "6304",
+                  "subdivision": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+                  "min": "6304000000",
+                  "max": "6304999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 63
             },
             {
                   "heading": "6305",
@@ -17593,7 +18223,7 @@
                   "chapter": 66
             },
             {
-                  "heading": "Chapter 67",
+                  "heading": "chapter 67",
                   "chapter": 67,
                   "subdivision": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair",
                   "min": "6700000000",
@@ -17698,7 +18328,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 69",
+                  "heading": "chapter 69",
                   "chapter": 69,
                   "subdivision": "Ceramic products",
                   "min": "6900000000",
@@ -18225,7 +18855,28 @@
                   "valid": true
             },
             {
-                  "heading": "7102-7104",
+                  "heading": "7102",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7102000000",
+                  "max": "7102999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 71
+            },
+            {
+                  "heading": "7102 to 7104",
                   "chapter": 71,
                   "subdivision": "Diamonds, other precious or semi- precious stones (natural, synthetic or reconstructed)",
                   "min": "7102000000",
@@ -18255,6 +18906,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7103",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7103000000",
+                  "max": "7103999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 71
+            },
+            {
+                  "heading": "7104",
+                  "subdivision": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+                  "min": "7104000000",
+                  "max": "7104999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 71
             },
             {
                   "heading": "7105",
@@ -18826,7 +19519,28 @@
                   "valid": true
             },
             {
-                  "heading": "7208-7216",
+                  "heading": "7208",
+                  "subdivision": "Iron and steel",
+                  "min": "7208000000",
+                  "max": "7208999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7208 to 7216",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of iron or non-alloy steel",
                   "min": "7208000000",
@@ -18845,6 +19559,174 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7209",
+                  "subdivision": "Iron and steel",
+                  "min": "7209000000",
+                  "max": "7209999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7210",
+                  "subdivision": "Iron and steel",
+                  "min": "7210000000",
+                  "max": "7210999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7211",
+                  "subdivision": "Iron and steel",
+                  "min": "7211000000",
+                  "max": "7211999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7212",
+                  "subdivision": "Iron and steel",
+                  "min": "7212000000",
+                  "max": "7212999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7213",
+                  "subdivision": "Iron and steel",
+                  "min": "7213000000",
+                  "max": "7213999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7214",
+                  "subdivision": "Iron and steel",
+                  "min": "7214000000",
+                  "max": "7214999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7215",
+                  "subdivision": "Iron and steel",
+                  "min": "7215000000",
+                  "max": "7215999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7216",
+                  "subdivision": "Iron and steel",
+                  "min": "7216000000",
+                  "max": "7216999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
             },
             {
                   "heading": "7217",
@@ -18931,7 +19813,28 @@
                   "valid": true
             },
             {
-                  "heading": "7219-7222",
+                  "heading": "7219",
+                  "subdivision": "Iron and steel",
+                  "min": "7219000000",
+                  "max": "7219999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7219 to 7222",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, bars and rods, angles, shapes and sections of stainless steel",
                   "min": "7219000000",
@@ -18950,6 +19853,69 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7220",
+                  "subdivision": "Iron and steel",
+                  "min": "7220000000",
+                  "max": "7220999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7221",
+                  "subdivision": "Iron and steel",
+                  "min": "7221000000",
+                  "max": "7221999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7222",
+                  "subdivision": "Iron and steel",
+                  "min": "7222000000",
+                  "max": "7222999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
             },
             {
                   "heading": "7223",
@@ -19015,7 +19981,28 @@
                   "valid": true
             },
             {
-                  "heading": "7225-7228",
+                  "heading": "7225",
+                  "subdivision": "Iron and steel",
+                  "min": "7225000000",
+                  "max": "7225999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7225 to 7228",
                   "chapter": 72,
                   "subdivision": "Flat-rolled products, hot-rolled bars and rods, in irregularly wound coils; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
                   "min": "7225000000",
@@ -19034,6 +20021,69 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7226",
+                  "subdivision": "Iron and steel",
+                  "min": "7226000000",
+                  "max": "7226999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7227",
+                  "subdivision": "Iron and steel",
+                  "min": "7227000000",
+                  "max": "7227999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
+            },
+            {
+                  "heading": "7228",
+                  "subdivision": "Iron and steel",
+                  "min": "7228000000",
+                  "max": "7228999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 72
             },
             {
                   "heading": "7229",
@@ -19141,7 +20191,28 @@
                   "chapter": 73
             },
             {
-                  "heading": "7304-7306",
+                  "heading": "7304",
+                  "subdivision": "Articles of iron or steel",
+                  "min": "7304000000",
+                  "max": "7304999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 73
+            },
+            {
+                  "heading": "7304 to 7306",
                   "chapter": 73,
                   "subdivision": "Tubes, pipes and hollow profiles, of iron (other than cast iron) or steel",
                   "min": "7304000000",
@@ -19160,6 +20231,48 @@
                         }
                   ],
                   "valid": true
+            },
+            {
+                  "heading": "7305",
+                  "subdivision": "Articles of iron or steel",
+                  "min": "7305000000",
+                  "max": "7305999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 73
+            },
+            {
+                  "heading": "7306",
+                  "subdivision": "Articles of iron or steel",
+                  "min": "7306000000",
+                  "max": "7306999999",
+                  "rules": [
+                        {
+                              "rule": "Manufacture from materials of any heading, except that of the product.",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true,
+                  "chapter": 73
             },
             {
                   "heading": "7307",
@@ -19183,7 +20296,7 @@
                   "chapter": 73
             },
             {
-                  "heading": "730721-730729",
+                  "heading": "730721 to 730729",
                   "chapter": 73,
                   "subdivision": "Tube or pipe fittings of stainless steel",
                   "min": "7307210000",
@@ -20029,7 +21142,7 @@
                   "chapter": 74
             },
             {
-                  "heading": "Chapter 75",
+                  "heading": "chapter 75",
                   "chapter": 75,
                   "subdivision": "Nickel and articles thereof",
                   "min": "7500000000",
@@ -20631,7 +21744,7 @@
                   "chapter": 79
             },
             {
-                  "heading": "Chapter 80",
+                  "heading": "chapter 80",
                   "chapter": 80,
                   "subdivision": "Tin and articles thereof",
                   "min": "8000000000",
@@ -20652,7 +21765,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 81",
+                  "heading": "chapter 81",
                   "chapter": 81,
                   "subdivision": "Other base metals; cermets; articles thereof",
                   "min": "8100000000",
@@ -20821,7 +21934,7 @@
                   "chapter": 82
             },
             {
-                  "heading": "820713-820730",
+                  "heading": "820713 to 820730",
                   "chapter": 82,
                   "subdivision": "Rock drilling or earth-boring tools; dies for drawing or extruding metal; tools for pressing, stamping or punching",
                   "min": "8207130000",
@@ -20843,7 +21956,7 @@
                   "valid": true
             },
             {
-                  "heading": "820740-820790",
+                  "heading": "820740 to 820790",
                   "chapter": 82,
                   "subdivision": "Tools for tapping or threading; tools for drilling, other than for rock- drilling; tools for boring or broaching; tools for milling; tools for turning; other interchangeable tools",
                   "min": "8207400000",
@@ -20948,7 +22061,7 @@
                   "chapter": 82
             },
             {
-                  "heading": "821110-821193",
+                  "heading": "821110 to 821193",
                   "chapter": 82,
                   "subdivision": "Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 8208",
                   "min": "8211100000",
@@ -21244,7 +22357,7 @@
                   "chapter": 83
             },
             {
-                  "heading": "830621-830629",
+                  "heading": "830621 to 830629",
                   "chapter": 83,
                   "subdivision": "Statuettes and other ornaments, of base metal",
                   "min": "8306210000",
@@ -25313,7 +26426,7 @@
                   "chapter": 85
             },
             {
-                  "heading": "854231-854233",
+                  "heading": "854231 to 854233",
                   "chapter": 85,
                   "subdivision": "Monolithic integrated circuits",
                   "min": "8542310000",
@@ -25818,7 +26931,7 @@
                   "chapter": 86
             },
             {
-                  "heading": "8701-8707",
+                  "heading": "8701 to 8707",
                   "chapter": 87,
                   "subdivision": "Vehicles other than railway or tramway rolling-stock; bodies and chassis fitted with engines for the motor vehicles of headings 8701 to 8705; bicycles",
                   "min": "8701000000",
@@ -25839,7 +26952,7 @@
                   "valid": true
             },
             {
-                  "heading": "8708-8711",
+                  "heading": "8708 to 8711",
                   "chapter": 87,
                   "subdivision": "Parts and accessories for vehicles of headings 8701 to 8705 and 8711 to 8713; Motorcycles; Works trucks and parts thereof; carriages; baby carriages and parts thereof; Trailers and semi- trailers and parts thereof",
                   "min": "8708000000",
@@ -25892,7 +27005,7 @@
                   "valid": true
             },
             {
-                  "heading": "8713-8716",
+                  "heading": "8713 to 8716",
                   "chapter": 87,
                   "subdivision": "Parts and accessories for vehicles of headings 8701 to 8705 and 8711 to 8713; Motorcycles; Works trucks and parts thereof; carriages; baby carriages and parts thereof; Trailers and semi- trailers and parts thereof",
                   "min": "8713000000",
@@ -26116,7 +27229,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 89",
+                  "heading": "chapter 89",
                   "chapter": 89,
                   "subdivision": "Ships, boats and floating structures",
                   "min": "8900000000",
@@ -27745,7 +28858,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 92",
+                  "heading": "chapter 92",
                   "chapter": 92,
                   "subdivision": "Musical instruments; parts and accessories of such articles",
                   "min": "9200000000",
@@ -27766,7 +28879,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 93",
+                  "heading": "chapter 93",
                   "chapter": 93,
                   "subdivision": "Arms and ammunition; parts and accessories thereof",
                   "min": "9300000000",
@@ -28504,7 +29617,7 @@
                   "valid": true
             },
             {
-                  "heading": "9601-9602",
+                  "heading": "9601 to 9602",
                   "chapter": 96,
                   "subdivision": "Worked ivory, bone, tortoiseshell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these materials (including articles obtained by Moulding).\nWorked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of natural gums or natural resins or of modelling pastes, and other moulded or carved articles, not elsewhere specified or included; worked, unhardened gelatin (except gelatine of heading 3503) and articles of unhardened gelatin",
                   "min": "9601000000",
@@ -28546,7 +29659,7 @@
                   "valid": true
             },
             {
-                  "heading": "9601-9602",
+                  "heading": "9601 to 9602",
                   "chapter": 96,
                   "subdivision": "Worked ivory, bone, tortoiseshell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these materials (including articles obtained by Moulding).\nWorked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of natural gums or natural resins or of modelling pastes, and other moulded or carved articles, not elsewhere specified or included; worked, unhardened gelatin (except gelatine of heading 3503) and articles of unhardened gelatin",
                   "min": "9602000000",
@@ -29158,7 +30271,7 @@
                   "valid": true
             },
             {
-                  "heading": "Chapter 97",
+                  "heading": "chapter 97",
                   "chapter": 97,
                   "subdivision": "Works of art, collectors' pieces and antiques",
                   "min": "9700000000",

@@ -41,10 +41,10 @@
                   "valid": true
             },
             {
-                  "heading": "0301-0309",
+                  "heading": "0201-0210",
                   "subdivision": "Atlantic Bluefin tuna (Thunnus thynnus)",
-                  "min": "0301000000",
-                  "max": "0309999999",
+                  "min": "0201000000",
+                  "max": "0210999999",
                   "rules": [
                         {
                               "rule": "All Atlantic Bluefin tuna (Thunnus thynnus) is wholly obtained.",
@@ -70,10 +70,10 @@
                   "valid": true
             },
             {
-                  "heading": "0301-0309",
+                  "heading": "0201-0210",
                   "subdivision": "Others",
-                  "min": "0301000000",
-                  "max": "0309999999",
+                  "min": "0201000000",
+                  "max": "0210999999",
                   "rules": [
                         {
                               "rule": "All fish and crustaceans, molluscs and other aquatic invertebrates are wholly obtained.",
@@ -1685,7 +1685,7 @@
                   "max": "2105999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and heading\n\n19.01 used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **20%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1706,10 +1706,46 @@
                   "max": "2106999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the materials of Konnyaku of [subheading&nbsp;121299](/subheading/1212990000-80) used are wholly obtained, *and*\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1001](/headings/1001) used does not exceed **30%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1003](/headings/1003) used does not exceed **10%** of the weight of the product, *and*\n\n- the weight of non-originating materials of [heading&nbsp;1006](/headings/1006) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\nthe materials of Konnyaku of [subheading&nbsp;121299](/subheading/1212990000-80) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and heading\n\n19.01 used does not exceed **10%** of the weight of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The weight of non-originating materials of [heading&nbsp;1001](/headings/1001) used does not exceed **30%** of the weight of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The weight of non-originating materials of [heading&nbsp;1003](/headings/1003) used does not exceed **10%** of the weight of the product.",
+                              "class": [],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The weight of non-originating materials of [heading&nbsp;1006](/headings/1006) used does not exceed **10%** of the weight of the product, *and*\n\nthe total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **30%** of the weight of the product.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -1746,7 +1782,7 @@
                   "max": "2202999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and [heading&nbsp;1901](/headings/1901) used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading), provided that:\n\n- the total weight of non-originating materials of [chapter&nbsp;4](/chapters/04) and heading\n\n19.01 used does not exceed **10%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
                               "class": [
                                     "CTH",
                                     "MAXNOM"
@@ -1767,10 +1803,19 @@
                   "max": "2208999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\n- all the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80) and [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained, *and*\n\n- the weight of non-originating materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the product, *and*\n\n- the total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;2207](/headings/2207) and [heading&nbsp;2208](/headings/2208), provided that:\n\nall the materials of [subheading&nbsp;080610](/subheading/0806100000-80), [subheading&nbsp;200961](/subheading/2009610000-80) and [subheading&nbsp;200969](/subheading/2009690000-80) used are wholly obtained.",
                               "class": [
                                     "WO"
                               ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "The weight of non-originating materials of [chapter&nbsp;4](/chapters/04) used does not exceed **40%** of the weight of the product, *and*\n\nthe total weight of non-originating materials of [heading&nbsp;1701](/headings/1701) and [heading&nbsp;1702](/headings/1702) used does not exceed **40%** of the weight of the product.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
                               "quota": false,
@@ -2007,48 +2052,6 @@
                   "subdivision": "",
                   "min": "2402200000",
                   "max": "2403999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **35%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **70%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "2404",
-                  "subdivision": "",
-                  "min": "2404000000",
-                  "max": "2404999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -3212,7 +3215,7 @@
             },
             {
                   "heading": "3105",
-                  "subdivision": "sodium nitrate, \ncalcium cyanamide, \npotassium sulphate, \nmagnesium potassium sulphate",
+                  "subdivision": "Sodium nitrate, calcium cyanamide, potassium sulphate, magnesium potassium sulphate",
                   "min": "3105000000",
                   "max": "3105999999",
                   "rules": [
@@ -4350,57 +4353,6 @@
                               ],
                               "footnotes": [],
                               "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "3827",
-                  "subdivision": "",
-                  "min": "3827000000",
-                  "max": "3827999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff subheading'>CTSH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 6-digit level (subheading).",
-                              "class": [
-                                    "CTSH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A chemical reaction, purification, production of standard materials, isomer separation or biotechnological processing is undergone.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -9589,7 +9541,7 @@
                   "valid": true
             },
             {
-                  "heading": "7007-7009",
+                  "heading": "7007 -7009",
                   "subdivision": "",
                   "min": "7007000000",
                   "max": "7009999999",
@@ -9623,42 +9575,6 @@
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "700711",
-                  "subdivision": "",
-                  "min": "7007110000",
-                  "max": "7007119999",
-                  "rules": [
-                        {
-                              "rule": "Tempering of non-originating materials, provided that nonoriginating materials of [heading&nbsp;7007](/headings/7007) are not used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "700721",
-                  "subdivision": "",
-                  "min": "7007210000",
-                  "max": "7007219999",
-                  "rules": [
-                        {
-                              "rule": "Tempering or laminating of non-originating materials, provided that non-originating materials of [heading&nbsp;7007](/headings/7007) are not used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -11828,118 +11744,10 @@
                   "max": "8430999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;8431](/headings/8431).",
-                              "class": [
-                                    "CTH"
-                              ],
+                              "rule": "84.31-84.43.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8431-8443",
-                  "subdivision": "",
-                  "min": "8431000000",
-                  "max": "8443999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8444-8447",
-                  "subdivision": "",
-                  "min": "8444000000",
-                  "max": "8447999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;8448](/headings/8448).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -11954,118 +11762,10 @@
                   "max": "8468999999",
                   "rules": [
                         {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
+                              "rule": "84.70-84.72.",
+                              "class": [],
                               "footnotes": [],
                               "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8470-8472",
-                  "subdivision": "",
-                  "min": "8470000000",
-                  "max": "8472999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;8473](/headings/8473).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8473-8487",
-                  "subdivision": "",
-                  "min": "8473000000",
-                  "max": "8487999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -12764,10 +12464,10 @@
                   "valid": true
             },
             {
-                  "heading": "8545-8549",
+                  "heading": "8545-8548",
                   "subdivision": "",
                   "min": "8545000000",
-                  "max": "8549999999",
+                  "max": "8548999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -12910,88 +12610,13 @@
                   "valid": true
             },
             {
-                  "heading": "8703",
-                  "subdivision": "",
-                  "min": "8703000000",
-                  "max": "8703999999",
-                  "rules": [
-                        {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2021 to 31st Dec 2022)**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2022)**.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2023 to 31st Dec 2025)**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods **(1st Jan 2023 to 31st Dec 2025)**.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2026 onwards)**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods **(1st Jan 2026 onwards)**.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
                   "heading": "8706",
                   "subdivision": "",
                   "min": "8706000000",
                   "max": "8706999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2021 to 31st Dec 2024)**.",
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13002,34 +12627,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2024)**.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
                               "class": [
                                     "RVC"
                               ],
                               "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2025 onwards)**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods **(1st Jan 2025 onwards)**.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -13044,7 +12647,7 @@
                   "max": "8707999999",
                   "rules": [
                         {
-                              "rule": "A maximum of **55%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2021 to 31st Dec 2024)**.",
+                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
                               "class": [
                                     "MAXNOM"
                               ],
@@ -13055,52 +12658,12 @@
                               "export": true
                         },
                         {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **50%** of the Free on Board (FOB) cost of the goods **(1st Jan 2021 to 31st Dec 2024)**.",
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods.",
                               "class": [
                                     "RVC"
                               ],
                               "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **45%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM) **(1st Jan 2025 onwards)**.",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **60%** of the Free on Board (FOB) cost of the goods **(1st Jan 2025 onwards)**.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870710",
-                  "subdivision": "",
-                  "min": "8707100000",
-                  "max": "8707199999",
-                  "rules": [
-                        {
-                              "rule": "Production from non-originating semi-finished steel products of [heading&nbsp;7207](/headings/7207), [heading&nbsp;7218](/headings/7218) and [heading&nbsp;7224](/headings/7224).",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
@@ -13143,96 +12706,6 @@
                               ],
                               "footnotes": [],
                               "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870810",
-                  "subdivision": "",
-                  "min": "8708100000",
-                  "max": "8708199999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating polymer and flat-rolled products used shall be moulded or stamped.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870829",
-                  "subdivision": "Body stampings (not including parts thereof)",
-                  "min": "8708290000",
-                  "max": "8708299999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating materials shall be moulded or stamped.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870829",
-                  "subdivision": "Door assemblies (not including parts thereof)",
-                  "min": "8708290000",
-                  "max": "8708299999",
-                  "rules": [
-                        {
-                              "rule": "All non-originating materials used to produce door skin or insole panel shall be moulded or stamped *and*\n\nall non-originating door parts used shall be assembled *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870850",
-                  "subdivision": "Drive\n-axles with differential, whether or not provided with other transmission components",
-                  "min": "8708500000",
-                  "max": "8708599999",
-                  "rules": [
-                        {
-                              "rule": "Drive shaft and differential gears are produced from non-originating flat-rolled metal *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "870850",
-                  "subdivision": "Non\n-driving axles (not including parts thereof)",
-                  "min": "8708500000",
-                  "max": "8708599999",
-                  "rules": [
-                        {
-                              "rule": "Non-driving axles are produced from non-originating flat rolled metal *and*\n\nnon-originating materials of [heading&nbsp;8708](/headings/8708) shall not be used.",
-                              "class": [],
-                              "footnotes": [],
-                              "operator": null,
                               "quota": false,
                               "import": true,
                               "export": true
@@ -13318,48 +12791,6 @@
                   "subdivision": "",
                   "min": "8801000000",
                   "max": "8805999999",
-                  "rules": [
-                        {
-                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
-                              "class": [
-                                    "CTH"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
-                              "class": [
-                                    "MAXNOM"
-                              ],
-                              "footnotes": [],
-                              "operator": null,
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        },
-                        {
-                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
-                              "class": [
-                                    "RVC"
-                              ],
-                              "footnotes": [],
-                              "operator": "or",
-                              "quota": false,
-                              "import": true,
-                              "export": true
-                        }
-                  ],
-                  "valid": true
-            },
-            {
-                  "heading": "8806-8807",
-                  "subdivision": "",
-                  "min": "8806000000",
-                  "max": "8807999999",
                   "rules": [
                         {
                               "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
@@ -14145,6 +13576,90 @@
                               ],
                               "footnotes": [],
                               "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "CTH except from heading 8473;\nMaxNOM 50 % (EXW); or\nRVC 55 % (FOB)",
+                  "subdivision": "",
+                  "min": "CTH cept from heading 8473;\nMaxNOM 50 % (EXW); or\nRVC 55 % (FOB)",
+                  "max": "CTH cept from heading 8473;\nMaxNOM 50 % (EXW); or\nRVC 55 % (FOB)",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading).",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        }
+                  ],
+                  "valid": true
+            },
+            {
+                  "heading": "CTH;\nMaxNOM 50 % (EXW); or RVC 55 % (FOB)",
+                  "subdivision": "",
+                  "min": "CTH;\nMaxNOM 50 % (EXW); or RVC 55 % (FOB)",
+                  "max": "CTH;\nMaxNOM 50 % (EXW); or RVC 55 % (FOB)",
+                  "rules": [
+                        {
+                              "rule": "<abbr title='Change of tariff heading'>CTH</abbr>: All non-originating materials used in the production of the good have undergone a change in tariff classification at the 4-digit level (tariff heading) except from [heading&nbsp;8448](/headings/8448).",
+                              "class": [
+                                    "CTH"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "A maximum of **50%** of the ex-works price (EXW) is made up of non-originating parts (MAXNOM).",
+                              "class": [
+                                    "MAXNOM"
+                              ],
+                              "footnotes": [],
+                              "operator": null,
+                              "quota": false,
+                              "import": true,
+                              "export": true
+                        },
+                        {
+                              "rule": "Your goods contain a Regional Value Content (RVC) of at least **55%** of the Free on Board (FOB) cost of the goods.",
+                              "class": [
+                                    "RVC"
+                              ],
+                              "footnotes": [],
+                              "operator": "or",
                               "quota": false,
                               "import": true,
                               "export": true
